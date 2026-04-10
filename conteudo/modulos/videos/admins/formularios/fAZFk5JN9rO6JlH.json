@@ -1,0 +1,426 @@
+{
+    "id": "51",
+    "nome": "Vídeos",
+    "hash": "fAZFk5JN9rO6JlH",
+    "data": "2023-12-29 10:08:39",
+    "tamanho": 15,
+    "inputs": [
+        {
+            "id": "3126",
+            "tipo": "text",
+            "nome": "Título",
+            "obrigatorio": "0",
+            "data": "2024-05-27 11:58:34",
+            "pai": "0",
+            "posicao": "0",
+            "hash": "L2JUaKiqzCL8QpvEfeDe9uwztItult",
+            "infos": {
+                "basico": {
+                    "esconder-label": 1,
+                    "label": "Título",
+                    "descricao": "",
+                    "obrigatorio": 0
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": "Título do Vídeo",
+                    "sub-label": "",
+                    "tooltip": ""
+                },
+                "validacao": {
+                    "mascara": 0
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": ""
+                },
+                "identificador": {
+                    "id": "",
+                    "classes": ""
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "3135",
+            "tipo": "coluna",
+            "nome": null,
+            "obrigatorio": "0",
+            "data": "2024-05-27 12:06:14",
+            "pai": "0",
+            "posicao": "1",
+            "hash": "WWuRCc49GCxnoIs8fH5yyt8xYYZinI",
+            "infos": [],
+            "filhos": [
+                {
+                    "id": "3136",
+                    "tipo": "col",
+                    "nome": null,
+                    "obrigatorio": "0",
+                    "data": "2024-05-27 12:05:26",
+                    "pai": "3135",
+                    "posicao": "0",
+                    "hash": "AYdbiafIUcU9jF1LMCxZWMWGjm8qgb",
+                    "infos": {
+                        "layout": {
+                            "tamanho": 9
+                        },
+                        "logica": {
+                            "logica": 0,
+                            "setup": ""
+                        },
+                        "identificador": {
+                            "id": "",
+                            "classes": ""
+                        }
+                    },
+                    "filhos": [
+                        {
+                            "id": "3131",
+                            "tipo": "card",
+                            "nome": "Vídeo",
+                            "obrigatorio": "0",
+                            "data": "2024-05-27 12:06:49",
+                            "pai": "3136",
+                            "posicao": "0",
+                            "hash": "fzGwLL0WvdmRePxavhveGOsHI94by3",
+                            "infos": {
+                                "basico": {
+                                    "label": "Vídeo",
+                                    "recolhivel": 1
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": ""
+                                },
+                                "identificador": {
+                                    "id": "",
+                                    "classes": ""
+                                }
+                            },
+                            "filhos": [
+                                {
+                                    "id": "3132",
+                                    "tipo": "select",
+                                    "nome": "Origem ",
+                                    "obrigatorio": "0",
+                                    "data": "2024-06-20 20:58:29",
+                                    "pai": "3131",
+                                    "posicao": "0",
+                                    "hash": "XLBiTJDyrJSjVl9ZBelOmlygGB4Hpz",
+                                    "infos": {
+                                        "basico": {
+                                            "label": "Origem  ",
+                                            "descricao": "  ",
+                                            "obrigatorio": 0,
+                                            "select-2": 0,
+                                            "esconder-label": 0
+                                        },
+                                        "opcoes": {
+                                            "multiplo": 0,
+                                            "opcoes": [
+                                                {
+                                                    "nome": "Youtube",
+                                                    "valor": "1",
+                                                    "selecionado": true
+                                                },
+                                                {
+                                                    "nome": "Vimeo",
+                                                    "valor": "2",
+                                                    "selecionado": false
+                                                },
+                                                {
+                                                    "nome": "Arquivo",
+                                                    "valor": "3",
+                                                    "selecionado": false
+                                                }
+                                            ]
+                                        },
+                                        "dinamica": {
+                                            "opcoes-dinamicas": 0,
+                                            "configuracoes": "  "
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho-do-input": 0
+                                        },
+                                        "label": {
+                                            "placeholder": "  ",
+                                            "sub-label": "  ",
+                                            "tooltip": "  "
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": "  "
+                                        },
+                                        "identificador": {
+                                            "id": "  ",
+                                            "classes": "  "
+                                        }
+                                    },
+                                    "filhos": []
+                                },
+                                {
+                                    "id": "3133",
+                                    "tipo": "text",
+                                    "nome": "Link do Vídeo",
+                                    "obrigatorio": "0",
+                                    "data": "2024-05-27 12:04:35",
+                                    "pai": "3131",
+                                    "posicao": "1",
+                                    "hash": "VaSY5XIgHNPNwvXMHcXhsD59nNwRyW",
+                                    "infos": {
+                                        "basico": {
+                                            "esconder-label": 0,
+                                            "label": "Link do Vídeo",
+                                            "descricao": "",
+                                            "obrigatorio": 0
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho-do-input": 0
+                                        },
+                                        "label": {
+                                            "placeholder": "",
+                                            "sub-label": "",
+                                            "tooltip": ""
+                                        },
+                                        "validacao": {
+                                            "mascara": 0
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": ""
+                                        },
+                                        "identificador": {
+                                            "id": "",
+                                            "classes": ""
+                                        }
+                                    },
+                                    "filhos": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "3127",
+                            "tipo": "card",
+                            "nome": "Descrições",
+                            "obrigatorio": "0",
+                            "data": "2024-05-27 12:06:49",
+                            "pai": "3136",
+                            "posicao": "1",
+                            "hash": "i0KsvkwZhcCL6hY14rxfE0ab30TNCa",
+                            "infos": {
+                                "basico": {
+                                    "label": "Descrições ",
+                                    "recolhivel": 1
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": " "
+                                },
+                                "identificador": {
+                                    "id": " ",
+                                    "classes": " "
+                                }
+                            },
+                            "filhos": [
+                                {
+                                    "id": "3129",
+                                    "tipo": "textarea",
+                                    "nome": "Curta",
+                                    "obrigatorio": "0",
+                                    "data": "2024-05-27 11:59:29",
+                                    "pai": "3127",
+                                    "posicao": "0",
+                                    "hash": "p3qbtJLeqIV0qup8nADintvwjO7VRD",
+                                    "infos": {
+                                        "basico": {
+                                            "esconder-label": 0,
+                                            "label": "Curta",
+                                            "descricao": "",
+                                            "obrigatorio": 0
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho-do-input": 0
+                                        },
+                                        "label": {
+                                            "placeholder": "",
+                                            "sub-label": "",
+                                            "tooltip": ""
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": ""
+                                        },
+                                        "identificador": {
+                                            "id": "",
+                                            "classes": ""
+                                        }
+                                    },
+                                    "filhos": []
+                                },
+                                {
+                                    "id": "3130",
+                                    "tipo": "rich",
+                                    "nome": "Longa",
+                                    "obrigatorio": "0",
+                                    "data": "2024-05-27 11:59:31",
+                                    "pai": "3127",
+                                    "posicao": "1",
+                                    "hash": "2R1kfg4qwmVblG6YjwqEG7Efur3hKn",
+                                    "infos": {
+                                        "basico": {
+                                            "esconder-label": 0,
+                                            "label": "Longa",
+                                            "descricao": "",
+                                            "obrigatorio": 0
+                                        },
+                                        "label": {
+                                            "placeholder": "",
+                                            "sub-label": "",
+                                            "tooltip": ""
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": ""
+                                        },
+                                        "identificador": {
+                                            "id": "",
+                                            "classes": ""
+                                        }
+                                    },
+                                    "filhos": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "3142",
+                            "tipo": "seo",
+                            "nome": null,
+                            "obrigatorio": "0",
+                            "data": "2024-05-27 12:06:39",
+                            "pai": "3136",
+                            "posicao": "2",
+                            "hash": "hxN24JMWXdm9AjvSYQB1xNoCkyNmZ7",
+                            "infos": [],
+                            "filhos": []
+                        }
+                    ]
+                },
+                {
+                    "id": "3137",
+                    "tipo": "col",
+                    "nome": null,
+                    "obrigatorio": "0",
+                    "data": "2024-05-27 12:05:26",
+                    "pai": "3135",
+                    "posicao": "1",
+                    "hash": "mbvbR0G631xa0T9PgmhXKzBp31nFXp",
+                    "infos": {
+                        "layout": {
+                            "tamanho": 3
+                        },
+                        "logica": {
+                            "logica": 0,
+                            "setup": ""
+                        },
+                        "identificador": {
+                            "id": "",
+                            "classes": ""
+                        }
+                    },
+                    "filhos": [
+                        {
+                            "id": "3138",
+                            "tipo": "cardSalvar",
+                            "nome": null,
+                            "obrigatorio": "0",
+                            "data": "2024-05-27 12:06:00",
+                            "pai": "3137",
+                            "posicao": "0",
+                            "hash": "vRxQKJRXzH3a5Q5wfQwYzEmtSCAFGQ",
+                            "infos": [],
+                            "filhos": []
+                        },
+                        {
+                            "id": "3139",
+                            "tipo": "categoria",
+                            "nome": null,
+                            "obrigatorio": "0",
+                            "data": "2024-05-27 12:06:14",
+                            "pai": "3137",
+                            "posicao": "1",
+                            "hash": "EGX3sGHanAuoP8AhnXe3BneRrTKNDB",
+                            "infos": [],
+                            "filhos": []
+                        },
+                        {
+                            "id": "3140",
+                            "tipo": "tags",
+                            "nome": null,
+                            "obrigatorio": "0",
+                            "data": "2024-05-27 12:06:21",
+                            "pai": "3137",
+                            "posicao": "2",
+                            "hash": "RrOcj3crNmtw8khgfGjQ5NHmuPRHaR",
+                            "infos": [],
+                            "filhos": []
+                        },
+                        {
+                            "id": "3141",
+                            "tipo": "imagemDestaque",
+                            "nome": null,
+                            "obrigatorio": "0",
+                            "data": "2024-05-27 12:06:28",
+                            "pai": "3137",
+                            "posicao": "3",
+                            "hash": "17gNpDPEDj6Yy6jlaC6lRhDp01ENeV",
+                            "infos": [],
+                            "filhos": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "infos": {
+        "basico": {
+            "label": "Material da estatua",
+            "descricao": "",
+            "obrigatorio": 0
+        },
+        "opcoes": {
+            "multiplo": 0,
+            "opcoes": [
+                {
+                    "nome": "Ferro",
+                    "valor": "Ferro",
+                    "selecionado": true
+                },
+                {
+                    "nome": "Gesso",
+                    "valor": "Gesso",
+                    "selecionado": false
+                }
+            ]
+        },
+        "estilo": {
+            "estilo": 0,
+            "tamanho-do-input": 0
+        },
+        "label": {
+            "placeholder": "",
+            "sub-label": "",
+            "tooltip": ""
+        },
+        "logica": {
+            "logica": 0,
+            "setup": ""
+        }
+    }
+}

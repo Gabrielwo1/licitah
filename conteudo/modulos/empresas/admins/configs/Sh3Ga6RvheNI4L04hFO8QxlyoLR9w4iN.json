@@ -1,0 +1,82 @@
+{
+    "banco": "empresas_departamentos",
+    "meta": false,
+    "prefixo": "empresas_departamento",
+    "url": false,
+    "colunas": [
+        {
+            "nome": "nome",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "9SC8LO94WL4bnU1xgBqx38q7p84PDQ",
+            "size": 50
+        },
+        {
+            "nome": "codigo_sigla",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "69jKDO8pzTCH22rERps8GnLbWmuQyo",
+            "size": 30
+        },
+        {
+            "nome": "colaborador_responsavel",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "qeu4WHlD22DioEm4diVUfW3SijM1Z4",
+            "size": 100
+        },
+        {
+            "nome": "cargo_responsavel",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "eR3D52Gjrho0StktiwM8eWBHLKSG9t",
+            "size": 200
+        },
+        {
+            "nome": "quantidade_colaborador",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "9SP51KhYOFpLoevSTgVPglRAsi18V6"
+        }
+    ],
+    "estrutura": {
+        "meta": false,
+        "hash": true,
+        "autor": true,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "ordenador": false,
+        "url": false,
+        "urledit": false,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false,
+        "autoria": false,
+        "wildcard": false,
+        "atributos": false,
+        "destaque": false,
+        "enderecos": false,
+        "subconta": false,
+        "desabilitarNovo": false,
+        "desabilitarEdicao": false,
+        "reordenador": false,
+        "pontos": false
+    },
+    "metas": {
+        "HgQd0kTH2oJfag4SZ9dN5gxd72QH09": "descricao",
+        "O0FlAENynMIiGmcUKT9BQAmgUz1RgD": "empresas_vinculadas",
+        "xWCcpwzLcvU0XnDA8f8HNM68ZnAlb5": "email",
+        "5Vfub7kw2el5ValUPO3yVq8MlAfIGA": "celular",
+        "iNKRZAdofzFugckRgGUsCzIKKuVIYh": "localizacao_fisica",
+        "XIehx2CpL1H4x9ala1YMNSnMKM9Zc1": "horario_funcionamento",
+        "FFMZyG0R6rUYoNZrOmDL05WfpNhHvz": "centro_custo"
+    }
+}

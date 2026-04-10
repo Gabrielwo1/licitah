@@ -1,0 +1,34 @@
+{
+  "idioma": {
+    "tipo": "select",
+    "label": "Idioma do Sistema",
+    "descricao": "Defina o idioma padrão do sistema.",
+    "opcoes": [
+      {"chave": "Português", "valor": "pt-BR"},
+      {"chave": "Inglês", "valor": "en"},
+      {"chave": "Espanhol", "valor": "es"},
+      {"chave": "Francês", "valor": "fr"},
+      {"chave": "Alemão", "valor": "de"},
+      {"chave": "Chinês (Mandarim)", "valor": "zh"},
+      {"chave": "Árabe", "valor": "ar"},
+      {"chave": "Russo", "valor": "ru"},
+      {"chave": "Japonês", "valor": "ja"},
+      {"chave": "Hindi", "valor": "hi"},
+      {"chave": "Bengali", "valor": "bn"},
+      {"chave": "Urdu", "valor": "ur"},
+      {"chave": "Coreano", "valor": "ko"},
+      {"chave": "Italiano", "valor": "it"},
+      {"chave": "Holandês", "valor": "nl"},
+      {"chave": "Grego", "valor": "el"},
+      {"chave": "Turco", "valor": "tr"},
+      {"chave": "Sueco", "valor": "sv"},
+      {"chave": "Norueguês", "valor": "no"},
+      {"chave": "Dinamarquês", "valor": "da"},
+      {"chave": "Finlandês", "valor": "fi"},
+      {"chave": "Polonês", "valor": "pl"},
+      {"chave": "Tailandês", "valor": "th"},
+      {"chave": "Hebraico", "valor": "he"},
+      {"chave": "Indonésio", "valor": "id"}
+    ]
+  }
+}

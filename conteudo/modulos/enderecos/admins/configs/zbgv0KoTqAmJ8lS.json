@@ -1,0 +1,137 @@
+{
+    "banco": "enderecos",
+    "meta": false,
+    "prefixo": "endereco",
+    "url": "1",
+    "colunas": [
+        {
+            "nome": "nome",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "trWcrekuUy1MuVPifEZcA3lJSiC2Gi",
+            "size": 200
+        },
+        {
+            "nome": "cep",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "HCo9onyPJN0WkqpkEsb9gN8uaNMc8m",
+            "size": 20
+        },
+        {
+            "nome": "observacao",
+            "nulo": true,
+            "tipo": "text",
+            "unico": false,
+            "input": "rh2oGlpRY2wvoixki4ZLZjIJkfv0CV"
+        },
+        {
+            "nome": "referencia",
+            "nulo": true,
+            "tipo": "text",
+            "unico": false,
+            "input": "61t7iDdzDi9U5cTE3gZpd12lanljIj"
+        },
+        {
+            "nome": "latitude",
+            "nulo": false,
+            "tipo": "float",
+            "input": "AQ8iskBLLrT67PRU9o8jSphmJksXpp",
+            "sizes": {
+                "inteiro": 8,
+                "decimal": 6
+            }
+        },
+        {
+            "nome": "longitude",
+            "nulo": false,
+            "tipo": "float",
+            "input": "zubnjwvoT3W9ncsQfCgecwyYxjukrf",
+            "sizes": {
+                "inteiro": 8,
+                "decimal": 6
+            }
+        },
+        {
+            "nome": "pais",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "zHTExJWyefDiyPGadJTdoNGJ9lw5bV"
+        },
+        {
+            "nome": "estado",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "vUKZtmmGZzyES3m9OYGGz9rw9PCznc"
+        },
+        {
+            "nome": "cidade",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "yT4DiYkLQEq1w8MC5jogpVBt01r4sJ"
+        },
+        {
+            "nome": "rua",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "qhiEQ48T6il1LpX1UQsYqpbiLsXDQi",
+            "size": 200
+        },
+        {
+            "nome": "numero",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "Y6MjtMfOomkj9YkOBfPNENTMGo8VJF",
+            "size": 50
+        },
+        {
+            "nome": "bairro",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "IruMfgUBpQqBPirfEWK02idqGlnf5j",
+            "size": 50
+        },
+        {
+            "nome": "complemento",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "F06Ct79fkWhUrCVO2OXWOKcPPtg1rZ",
+            "size": 100
+        }
+    ],
+    "estrutura": {
+        "meta": false,
+        "hash": true,
+        "autor": true,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "ordenador": false,
+        "url": true,
+        "urledit": false,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false,
+        "autoria": false,
+        "wildcard": false,
+        "atributos": false,
+        "destaque": false,
+        "enderecos": false,
+        "desabilitarNovo": false,
+        "desabilitarEdicao": false,
+        "reordenador": false,
+        "pontos": false
+    },
+    "metas": []
+}

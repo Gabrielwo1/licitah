@@ -1,0 +1,86 @@
+{
+    "nome": "Licitações Habilitações Por Autor",
+    "banco": "9Oe7yiJAb8IdWkTKRcP4ZnEeL5fnfMs8",
+    "colunas": [
+        {
+            "nome": "Documento",
+            "id": "documento",
+            "tipo": "1",
+            "render": "imagem",
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "tabulavel": false,
+            "pesquisavel": true,
+            "colpesquisavel": false,
+            "estrangeira": 0
+        },
+        {
+            "nome": "Data de Criação",
+            "id": "data",
+            "tipo": "1",
+            "render": "data",
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": true,
+            "tabulavel": false,
+            "pesquisavel": false,
+            "colpesquisavel": false,
+            "estrangeira": 0
+        },
+        {
+            "nome": "Data de Validade ",
+            "id": "data_validade",
+            "tipo": "1",
+            "render": "data",
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": true,
+            "tabulavel": false,
+            "pesquisavel": false,
+            "colpesquisavel": false,
+            "estrangeira": 0
+        }
+    ],
+    "regra": "2",
+    "acoes": {
+        "opcoes": {
+            "acoes": true,
+            "editar": true,
+            "apagar": true,
+            "vizualizar": false,
+            "duplicar": false,
+            "importador": false,
+            "exportador": false,
+            "filtro": false,
+            "colunas": false,
+            "multiplo": false,
+            "ordenador": false,
+            "filtrodata": false,
+            "filtrosuconta": true,
+            "bigdata": true
+        },
+        "rotas": {
+            "editar": "a\/licitacoes\/documento",
+            "vizualizar": ""
+        }
+    },
+    "layout": {
+        "modo": "1",
+        "container": "0"
+    },
+    "acoesPersonalizadas": [],
+    "dataFilter": "0",
+    "condicional": {
+        "ativo": "0",
+        "coluna": "",
+        "tipo": "=",
+        "valor": ""
+    },
+    "condicional2": {
+        "ativo": "0",
+        "coluna": "",
+        "tipo": "=",
+        "valor": ""
+    }
+}

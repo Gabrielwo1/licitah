@@ -1,0 +1,113 @@
+{   
+    "cartao":{
+         "tipo":"check",
+         "label": "Aceitar Cartão de Crédito",
+         "descricao": "Receber pagamentos usando cartão de crédito"
+      },
+    "processadorcartao":{
+         "tipo":"select",
+         "label": "Processador de Cartão de Crédito",
+         "descricao": "Selecione o processador de cartão de crédito",
+         "condicional": "cartao",
+            "opcoes": [
+      {"chave": "Nown Pay", "valor": "nown"},
+      {"chave": "Pagbank (PagSeguro)", "valor": "pagbank"},
+      {"chave": "Mercado Pago", "valor": "mercadopago"},
+      {"chave": "Efi (Gerencia Net)", "valor": "efi"},
+      {"chave": "Cielo", "valor": "cielo"},
+      {"chave": "Asaas", "valor": "asaas"},
+      {"chave": "Skril", "valor": "skril"},
+      {"chave": "Stripe", "valor": "stripe"},
+      {"chave": "Payoneer", "valor": "payoneer"},
+      {"chave": "Safe2Pay", "valor": "safe2pay"},
+      {"chave": "Getnet", "valor": "getnet"}
+    ]
+      },
+    "pix":{
+        "label": "Aceitar Pix",
+        "tipo":"check",
+         "descricao": "Receber pagamentos usando Pix."
+      },
+    "processadorpix":{
+         "tipo":"select",
+         "label": "Processador de Pix",
+         "descricao": "Selecione o processador de PIX",
+         "condicional": "pix",
+            "opcoes": [
+      {"chave": "Nown Pay", "valor": "nown"},
+      {"chave": "PagBank (PagSeguro)", "valor": "pagbank"},
+      {"chave": "Mercado Pago", "valor": "mercadopago"},
+      {"chave": "Efi (Gerencia Net)", "valor": "efi"},
+      {"chave": "Asaas", "valor": "asaas"},
+      {"chave": "Cielo", "valor": "cielo"},
+      {"chave": "Safe2Pay", "valor": "safe2pay"},
+      {"chave": "Getnet", "valor": "getnet"},
+      {"chave": "Santander", "valor": "santander"}
+    ]
+      },
+    "boleto":{
+        "label": "Aceitar Boleto",
+        "tipo":"check",
+         "descricao": "Selecione o processador de Boletos."
+      },
+    "processadorboleto":{
+         "tipo":"select",
+         "label": "Processador de Boletos",
+         "descricao": "Selecione o processador de Boletos",
+         "condicional": "boleto",
+            "opcoes": [
+      {"chave": "Nown Pay", "valor": "nown"},
+      {"chave": "PagBank (PagSeguro)", "valor": "pagbank"},
+      {"chave": "Mercado Pago", "valor": "mercadopago"},
+      {"chave": "Efi (Gerencia Net)", "valor": "efi"},
+      {"chave": "Asaas", "valor": "asaas"},
+      {"chave": "Safe2Pay", "valor": "safe2pay"},
+      {"chave": "Getnet", "valor": "getnet"}
+    ]
+      },
+    "paypal":{
+        "label": "Aceitar Paypal",
+        "tipo":"check",
+         "descricao": "Aceite tranzações feitas pelo Paypal." 
+      },
+    "cripto":{
+        "label": "Aceitar Cripto",
+        "tipo":"check",
+         "descricao": "Aceite pagamentos usandas criptomoedas." 
+      },
+    "hotmart":{
+        "label": "Pagamento via Hotmart",
+        "tipo":"check",
+         "descricao": "Aceite pagamentos usando o checkout Hotmart." 
+    },
+    "offline":{
+        "label": "Aceitar Pagamento Offline",
+        "tipo":"check",
+         "descricao": "Aceite tranzações Offline." 
+      },
+    "offlinenome":{
+        "label": "Nome do pagamento Offline",
+        "tipo":"input",
+         "descricao": "Aceite pagamentos manuais em suas tranzações.",
+         "condicional": "offline"
+      },
+    "offlinedescricao":{
+        "label": "Descrição para o usuário do pagamento Offline",
+        "tipo":"textarea",
+         "descricao": "Esse texto será mostrado para os clientes ao escolher essa opção de compra.",
+         "condicional": "offline"
+      },
+    "administrador":{
+        "label": "Administradores podem pagar automaticamente",
+        "tipo":"check",
+         "descricao": "Administradores poderam pagar sem dinheiro e com um clique." 
+      },
+      "Carteiras - Em Teste":{
+          "tipo": "titulo",
+          "subtitulo": "Pague usando o saldo em sua carteira"
+      },
+      "mercadopago": {
+          "tipo": "check",
+          "label": "Pague usando seu saldo e beneficios Mercado Pago"
+      }
+}

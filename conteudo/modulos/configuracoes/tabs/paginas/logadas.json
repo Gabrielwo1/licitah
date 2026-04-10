@@ -1,0 +1,70 @@
+{
+    "lateral": {
+      "tipo": "check",
+      "descricao": "Ativar menu Lateral para usuários logados",
+      "label": "Menu Lateral"
+    },
+    "menulateral": {
+      "tipo": "select",
+      "name": "menuLateral",
+      "label": "Menu Lateral",
+      "dinamico": true,
+      "foco": "menus,menu_id,menu_nome",
+      "condicional": "lateral"
+    },
+    "topo": {
+      "tipo": "check",
+      "descricao": "Ativar menu de topo para usuários logados",
+      "label": "Menu Topo"
+    },
+    "menutopo": {
+      "tipo": "select",
+      "name": "menuTopo",
+      "label": "Menu Topo",
+      "dinamico": true,
+       "foco": "menus,menu_id,menu_nome",
+       "condicional": "topo"
+      
+    },
+     "rodape": {
+      "tipo": "check",
+      "descricao": "Ativar menu de topo para usuários logados",
+      "label": "Menu Rodapé"
+    },
+    "menufooter": {
+      "tipo": "select",
+      "name": "menuFooter",
+      "label": "Menu Rodapé",
+      "dinamico": true,
+       "foco": "menus,menu_id,menu_nome",
+       "condicional": "rodape"
+    },
+       "Menu de Perfil":{
+        "tipo": "titulo",
+        "sbutitulo": "Defina os itens de menu do dropdown de perfil"
+    },
+      "desabilitar-fixos": {
+      "tipo": "check",
+      "descricao": "Com essa opção ativada você terá que definir os itens manualmente.",
+      "label": "Desabilitar itens fixos"
+    },
+     "btnpersonalizado": {
+      "tipo": "check",
+      "descricao": "Adicione novos botões a barra de perfil no canto superior da tela.",
+      "label": "Botões Personalizados"
+    },
+ 
+     "btnspersonalizados": {
+      "tipo": "textarea",
+      "descricao": "Adicione novos botões a barra de perfil no canto superior da tela.",
+      "label": "Botões Personalizados",
+      "condicional": "btnpersonalizado"
+    },
+     "htmlbtns": {
+      "tipo": "div",
+      "condicional": "btnpersonalizado"
+    }
+  }
+
+
+

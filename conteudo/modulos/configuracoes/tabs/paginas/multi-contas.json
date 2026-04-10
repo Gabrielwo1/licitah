@@ -1,0 +1,17 @@
+{   "Sistema Multi Conta":{
+    "tipo": "titulo",
+    "subtitulo": "Com essa opção ativada, o usuário será obrigado a criar uma sub conta, baseada em algum modulo especifico."
+},
+  "ativar": {
+    "tipo": "check",
+    "label": "Ativar Multi Contas",
+    "descricao": "Obrigue o cliente a interagir com uma subconta."
+  },
+  "tipo":{
+      "tipo": "select",
+      "condicional": "ativar",
+      "label": "Defina o modelo de subcontas",
+      "descricao":"O usuário após logar, deverá escolher sua subconta baseada em que?",
+      "queryDinamica":"conteudo/modulos/configuracoes/admins/multiplos.php"
+  }
+}

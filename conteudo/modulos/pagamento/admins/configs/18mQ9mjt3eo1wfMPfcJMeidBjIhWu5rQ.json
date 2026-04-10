@@ -1,0 +1,53 @@
+{
+    "banco": "pay_pontos",
+    "meta": true,
+    "prefixo": "pontos",
+    "url": false,
+    "colunas": [
+        {
+            "nome": "nome",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "aaafWq4BO3T6909mtE8IzPwph7Kbb5",
+            "size": 100
+        },
+        {
+            "nome": "descricao",
+            "nulo": false,
+            "tipo": "text",
+            "unico": false,
+            "input": "pZLdFKLhrHgKG51487VQfQJNdXmDLL"
+        },
+        {
+            "nome": "banco",
+            "nulo": false,
+            "tipo": "boolean",
+            "unico": false,
+            "input": "pG3YBUYDonkqZXWU1ugCeZ1mL4EDof"
+        }
+    ],
+    "estrutura": {
+        "meta": true,
+        "hash": true,
+        "autor": true,
+        "render": false,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "url": false,
+        "urledit": false,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false,
+        "desabilitarNovo": false,
+        "desabilitarEdicao": false
+    },
+    "metas": {
+        "j4rPhDH6n8ABj6pWVy4X2Wny0syNaX": "banco_dados",
+        "Fdadw7pFxdhayQgH3BLzDWbAAD6Dgr": "referencia",
+        "8ESjhChPcUfI9KMDySALOBowdBJDWF": "quantidade"
+    }
+}

@@ -1,0 +1,88 @@
+{
+    "nome": "videos por agrupamento",
+    "banco": "fAZFk5JN9rO6JlH",
+    "tipo": 3,
+    "subtipo": 2,
+    "itens": [
+        {
+            "nome": "origem",
+            "banco": "p",
+            "chave": "origem"
+        },
+        {
+            "nome": "id",
+            "banco": "p",
+            "chave": "id"
+        },
+        {
+            "nome": "titulo",
+            "banco": "p",
+            "chave": "titulo"
+        },
+        {
+            "nome": "render",
+            "banco": "p",
+            "chave": "render"
+        },
+        {
+            "nome": "curta",
+            "banco": "p",
+            "chave": "curta"
+        },
+        {
+            "nome": "descricao",
+            "banco": "p",
+            "chave": "descricao"
+        },
+        {
+            "nome": "autor",
+            "banco": "p",
+            "chave": "autor"
+        },
+        {
+            "nome": "data",
+            "banco": "p",
+            "chave": "dataCriacao"
+        },
+        {
+            "nome": "url",
+            "banco": "p",
+            "chave": "url"
+        },
+        {
+            "nome": "link",
+            "banco": "p",
+            "chave": "link"
+        },
+        {
+            "nome": "update",
+            "banco": "p",
+            "chave": "dataUpdate"
+        },
+        {
+            "nome": "categoria",
+            "banco": "p",
+            "chave": "categoria"
+        },
+        {
+            "nome": "tags",
+            "banco": "p",
+            "chave": "tags"
+        },
+        {
+            "nome": "seo",
+            "banco": "p",
+            "chave": "seo"
+        },
+        {
+            "nome": "imagem",
+            "banco": "p",
+            "chave": "imagemDestaque"
+        },
+        {
+            "nome": "hash",
+            "banco": "p",
+            "chave": "hash"
+        }
+    ]
+}

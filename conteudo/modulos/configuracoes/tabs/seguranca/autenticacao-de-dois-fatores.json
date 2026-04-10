@@ -1,0 +1,27 @@
+{
+   "ativar":{
+       "tipo": "check",
+       "descricao": "Ativar autenticação de 2 fatores no sistema.",
+       "label": "Autenticação de 2 fatores"
+   } ,
+   "obrigatorio":{
+       "label": "2 fatores é obrigatório",
+       "tipo": "check",
+       "descricao": "Com essa opção ativa, todos os usuários irão passar pelo processo. Caso contrário, o usuário deve ativar a opção."
+   },
+   "email":{
+       "label": "Enviar Código para Email",
+       "tipo": "check",
+       "descricao": "Envie o código de autenticação por Email"
+   },
+   "whatsapp":{
+       "label": "Enviar Código para WhatsApp",
+       "tipo": "check",
+       "descricao": "Envie o código de autenticação por WhatsApp"
+   },
+     "sms":{
+       "label": "Enviar Código via SMS",
+       "tipo": "check",
+       "descricao": "Envie o código de autenticação via SMS"
+   }
+}

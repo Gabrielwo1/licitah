@@ -1,0 +1,389 @@
+{
+    "id": "241",
+    "nome": "Reações",
+    "hash": "L6MuZh9Zm1YQD7L1SvDYaTj9UtpuB4CZ",
+    "data": "2024-10-02 17:07:19",
+    "tamanho": 10,
+    "inputs": [
+        {
+            "id": "6436",
+            "tipo": "text",
+            "nome": "Nome",
+            "obrigatorio": "0",
+            "data": "2024-10-02 17:07:46",
+            "pai": "0",
+            "posicao": "0",
+            "hash": "gdyf9cnG3Z03b8gQARA7jT7Wzi81I6",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": "Nome",
+                    "descricao": "",
+                    "obrigatorio": 0,
+                    "somente-leitura": 0
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": "",
+                    "sub-label": "",
+                    "tooltip": "",
+                    "prefixo": "",
+                    "sufixo": ""
+                },
+                "valor": {
+                    "tipo": 0,
+                    "fixo": "",
+                    "dinamico": 0,
+                    "arquivo-query": "",
+                    "acao-query": ""
+                },
+                "tamanho": {
+                    "ativar": 0,
+                    "maximo": "",
+                    "minimo": ""
+                },
+                "validacao": {
+                    "mascara": 0
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": ""
+                },
+                "identificador": {
+                    "id": "",
+                    "classes": ""
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "6437",
+            "tipo": "coluna",
+            "nome": null,
+            "obrigatorio": "0",
+            "data": "2024-10-02 17:07:55",
+            "pai": "0",
+            "posicao": "1",
+            "hash": "14IR4FuXLVvck2465kc6MNTKQClLVe",
+            "infos": [],
+            "filhos": [
+                {
+                    "id": "6438",
+                    "tipo": "col",
+                    "nome": null,
+                    "obrigatorio": "0",
+                    "data": "2024-10-02 17:07:55",
+                    "pai": "6437",
+                    "posicao": "0",
+                    "hash": "b7qGDrcD4ONQBXmY82nnsI9kMjaW7t",
+                    "infos": {
+                        "layout": {
+                            "tamanho": 9
+                        },
+                        "flex": {
+                            "ativar": 0,
+                            "direcao": 1,
+                            "justify": 0,
+                            "align": 0,
+                            "gap": 0
+                        },
+                        "logica": {
+                            "logica": 0,
+                            "setup": " "
+                        },
+                        "identificador": {
+                            "id": " ",
+                            "classes": " "
+                        }
+                    },
+                    "filhos": [
+                        {
+                            "id": "6519",
+                            "tipo": "card",
+                            "nome": "Descrição",
+                            "obrigatorio": "0",
+                            "data": "2024-10-10 17:33:38",
+                            "pai": "6438",
+                            "posicao": "0",
+                            "hash": "T2pNLmvDoKvJnyhcvVESvDzvKtDxNO",
+                            "infos": {
+                                "basico": {
+                                    "label": "Descrição",
+                                    "recolhivel": 1
+                                },
+                                "flex": {
+                                    "ativar": 0,
+                                    "direcao": 1,
+                                    "justify": 0,
+                                    "align": 0,
+                                    "gap": 0
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": ""
+                                },
+                                "identificador": {
+                                    "id": "",
+                                    "classes": ""
+                                }
+                            },
+                            "filhos": [
+                                {
+                                    "id": "6520",
+                                    "tipo": "text",
+                                    "nome": "Texto",
+                                    "obrigatorio": "0",
+                                    "data": "2024-10-10 17:33:49",
+                                    "pai": "6519",
+                                    "posicao": "0",
+                                    "hash": "TehQEHjha49OUeCQCQwnTwcnCkpCJp",
+                                    "infos": {
+                                        "basico": {
+                                            "esconder-label": 0,
+                                            "label": "Texto",
+                                            "descricao": "",
+                                            "obrigatorio": 0,
+                                            "somente-leitura": 0
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho-do-input": 0
+                                        },
+                                        "label": {
+                                            "placeholder": "",
+                                            "sub-label": "",
+                                            "tooltip": "",
+                                            "prefixo": "",
+                                            "sufixo": ""
+                                        },
+                                        "valor": {
+                                            "tipo": 0,
+                                            "fixo": "",
+                                            "dinamico": 0,
+                                            "arquivo-query": "",
+                                            "acao-query": ""
+                                        },
+                                        "tamanho": {
+                                            "ativar": 0,
+                                            "maximo": "",
+                                            "minimo": ""
+                                        },
+                                        "validacao": {
+                                            "mascara": 0
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": ""
+                                        },
+                                        "identificador": {
+                                            "id": "",
+                                            "classes": ""
+                                        }
+                                    },
+                                    "filhos": []
+                                },
+                                {
+                                    "id": "6524",
+                                    "tipo": "color",
+                                    "nome": "Cor Selecionado",
+                                    "obrigatorio": "0",
+                                    "data": "2024-10-10 17:35:41",
+                                    "pai": "6519",
+                                    "posicao": "1",
+                                    "hash": "6dFQWxgmp0jP9Mat6tR7pxWwZOkz5h",
+                                    "infos": {
+                                        "basico": {
+                                            "esconder-label": 0,
+                                            "label": "Cor Selecionado",
+                                            "descricao": "",
+                                            "obrigatorio": 0,
+                                            "comeco": "#000000"
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho-do-input": 0
+                                        },
+                                        "label": {
+                                            "placeholder": "",
+                                            "sub-label": "",
+                                            "tooltip": ""
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": ""
+                                        },
+                                        "identificador": {
+                                            "id": "",
+                                            "classes": ""
+                                        }
+                                    },
+                                    "filhos": []
+                                },
+                                {
+                                    "id": "6525",
+                                    "tipo": "text",
+                                    "nome": "Icone Default",
+                                    "obrigatorio": "0",
+                                    "data": "2024-10-10 17:36:18",
+                                    "pai": "6519",
+                                    "posicao": "2",
+                                    "hash": "Q7tBKRx0wuYFiNUIrkKrFI605CYEGw",
+                                    "infos": {
+                                        "basico": {
+                                            "esconder-label": 0,
+                                            "label": "Icone Default",
+                                            "descricao": "",
+                                            "obrigatorio": 0,
+                                            "somente-leitura": 0
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho-do-input": 0
+                                        },
+                                        "label": {
+                                            "placeholder": "",
+                                            "sub-label": "",
+                                            "tooltip": "",
+                                            "prefixo": "",
+                                            "sufixo": ""
+                                        },
+                                        "valor": {
+                                            "tipo": 0,
+                                            "fixo": "",
+                                            "dinamico": 0,
+                                            "arquivo-query": "",
+                                            "acao-query": ""
+                                        },
+                                        "tamanho": {
+                                            "ativar": 0,
+                                            "maximo": "",
+                                            "minimo": ""
+                                        },
+                                        "validacao": {
+                                            "mascara": 0
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": ""
+                                        },
+                                        "identificador": {
+                                            "id": "",
+                                            "classes": ""
+                                        }
+                                    },
+                                    "filhos": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "6439",
+                    "tipo": "col",
+                    "nome": null,
+                    "obrigatorio": "0",
+                    "data": "2024-10-02 17:07:55",
+                    "pai": "6437",
+                    "posicao": "1",
+                    "hash": "vySPT7OL1r0R2VCmwVWceDo6dZtuJu",
+                    "infos": {
+                        "layout": {
+                            "tamanho": 3
+                        },
+                        "flex": {
+                            "ativar": 0,
+                            "direcao": 1,
+                            "justify": 0,
+                            "align": 0,
+                            "gap": 0
+                        },
+                        "logica": {
+                            "logica": 0,
+                            "setup": ""
+                        },
+                        "identificador": {
+                            "id": "",
+                            "classes": ""
+                        }
+                    },
+                    "filhos": [
+                        {
+                            "id": "6522",
+                            "tipo": "file",
+                            "nome": "Lord Icon",
+                            "obrigatorio": "0",
+                            "data": "2024-10-10 17:35:23",
+                            "pai": "6439",
+                            "posicao": "1",
+                            "hash": "J01hE0GJSn8L4dbhBX9LBgo2unAsOL",
+                            "infos": {
+                                "basico": {
+                                    "label": "Lord Icon ",
+                                    "texto-upload": " ",
+                                    "multiplo": 0,
+                                    "layout": 0
+                                },
+                                "cropper": {
+                                    "recortar": 0,
+                                    "largura": " ",
+                                    "altura": " "
+                                },
+                                "card": {
+                                    "desabilitar-card": 0,
+                                    "recolhivel": 1,
+                                    "card-titulo": "Lord Icon ",
+                                    "descricao": " ",
+                                    "desabilitar-sombras": 0,
+                                    "layout": 0
+                                },
+                                "arquivo": {
+                                    "tipo-de-arquivo": 0,
+                                    "personalizado": " "
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": " "
+                                },
+                                "identificador": {
+                                    "id": " ",
+                                    "classes": " "
+                                }
+                            },
+                            "filhos": []
+                        },
+                        {
+                            "id": "6440",
+                            "tipo": "cardSalvar",
+                            "nome": null,
+                            "obrigatorio": "0",
+                            "data": "2024-10-10 17:35:23",
+                            "pai": "6439",
+                            "posicao": "2",
+                            "hash": "kxOKH4dLppYkE2gTclyi2yGsIU51BJ",
+                            "infos": [],
+                            "filhos": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "infos": {
+        "basico": {
+            "titulo": "Histórico Médico",
+            "subtitulo": "",
+            "tag-superior": ""
+        },
+        "estilo": {
+            "estilo": 0,
+            "tamanho-do-input": 0
+        },
+        "logica": {
+            "logica": 0,
+            "setup": ""
+        }
+    }
+}

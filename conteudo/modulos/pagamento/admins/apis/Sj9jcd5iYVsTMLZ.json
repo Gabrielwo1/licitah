@@ -1,0 +1,32 @@
+{
+    "nome": "Verificar Vendavel",
+    "banco": "Cyrv1bcxbsbHpSh",
+    "tipo": 2,
+    "subtipo": 2,
+    "itens": [
+        {
+            "nome": "estado",
+            "banco": "p",
+            "chave": "estado",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "andamento_status",
+            "banco": "m",
+            "chave": "andamento_status",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "total",
+            "banco": "p",
+            "chave": "total",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "id",
+            "banco": "p",
+            "chave": "id",
+            "estrangeiro": 0
+        }
+    ]
+}

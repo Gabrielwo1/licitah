@@ -1,0 +1,40 @@
+# Dependencies
+admin/bibliotecas/vendor/
+node_modules/
+
+# Environment & secrets (never commit)
+conteudo/config.php
+.env
+*.env
+
+# Uploads (user content)
+assets/uploads/
+admin/uploads/
+conteudo/uploads/
+
+# Logs
+*.log
+logs/
+admin/access_log.txt
+
+# Database files
+*.sqlite
+admin/db.sqlite
+
+# Hosting artifacts
+.ftpquota
+DO_NOT_UPLOAD_HERE
+
+# Claude internal
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Cache
+*.cache

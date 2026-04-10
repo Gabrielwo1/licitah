@@ -1,0 +1,181 @@
+{
+    "id": "313",
+    "nome": "Tabela Config",
+    "hash": "ZZgtScwfjn174vWR35yOTNyerwmPfGYc",
+    "data": "2024-12-09 09:42:11",
+    "tamanho": 3,
+    "inputs": [
+        {
+            "id": "8001",
+            "tipo": "text",
+            "nome": "Modulo",
+            "obrigatorio": "0",
+            "data": "2024-12-09 09:42:34",
+            "pai": "0",
+            "posicao": "0",
+            "hash": "a362WiC7wVyb9kqjEgqtxDTN01pR0b",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": "Modulo",
+                    "descricao": "",
+                    "obrigatorio": 0,
+                    "somente-leitura": 0
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": "",
+                    "sub-label": "",
+                    "tooltip": "",
+                    "prefixo": "",
+                    "sufixo": ""
+                },
+                "valor": {
+                    "tipo": 0,
+                    "fixo": "",
+                    "dinamico": 0,
+                    "arquivo-query": "",
+                    "acao-query": ""
+                },
+                "tamanho": {
+                    "ativar": 0,
+                    "maximo": "",
+                    "minimo": ""
+                },
+                "validacao": {
+                    "mascara": 0
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": ""
+                },
+                "identificador": {
+                    "id": "",
+                    "classes": ""
+                },
+                "nown": {
+                    "ativo": 0,
+                    "modulo": "",
+                    "paginacao": "",
+                    "chave": "",
+                    "valor": ""
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "8002",
+            "tipo": "text",
+            "nome": "Chave",
+            "obrigatorio": "0",
+            "data": "2024-12-09 09:42:40",
+            "pai": "0",
+            "posicao": "1",
+            "hash": "OFHpijuYi8ObqX9cfaXN0sJK5J1Z56",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": "Chave",
+                    "descricao": "",
+                    "obrigatorio": 0,
+                    "somente-leitura": 0
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": "",
+                    "sub-label": "",
+                    "tooltip": "",
+                    "prefixo": "",
+                    "sufixo": ""
+                },
+                "valor": {
+                    "tipo": 0,
+                    "fixo": "",
+                    "dinamico": 0,
+                    "arquivo-query": "",
+                    "acao-query": ""
+                },
+                "tamanho": {
+                    "ativar": 0,
+                    "maximo": "",
+                    "minimo": ""
+                },
+                "validacao": {
+                    "mascara": 0
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": ""
+                },
+                "identificador": {
+                    "id": "",
+                    "classes": ""
+                },
+                "nown": {
+                    "ativo": 0,
+                    "modulo": "",
+                    "paginacao": "",
+                    "chave": "",
+                    "valor": ""
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "8004",
+            "tipo": "textarea",
+            "nome": "Setup",
+            "obrigatorio": "0",
+            "data": "2024-12-09 09:42:55",
+            "pai": "0",
+            "posicao": "3",
+            "hash": "xAGNtwNc0EMZI9GMPbDwEcurGNZs2O",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": "Setup",
+                    "descricao": "",
+                    "obrigatorio": 0,
+                    "somente-leitura": 0
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "tamanho": {
+                    "ativar": 0,
+                    "maximo": "",
+                    "minimo": ""
+                },
+                "label": {
+                    "placeholder": "",
+                    "sub-label": "",
+                    "tooltip": ""
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": ""
+                },
+                "identificador": {
+                    "id": "",
+                    "classes": ""
+                },
+                "nown": {
+                    "ativo": 0,
+                    "modulo": "",
+                    "paginacao": "",
+                    "chave": "",
+                    "valor": ""
+                }
+            },
+            "filhos": []
+        }
+    ],
+    "infos": []
+}

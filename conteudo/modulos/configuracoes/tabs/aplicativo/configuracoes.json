@@ -1,0 +1,64 @@
+{
+  "android": {
+    "tipo": "check",
+    "descricao": "Habilite o donwload do aplicativo para celulares Android",
+    "label": "App Android"
+  },
+  "apple": {
+    "tipo": "check",
+    "descricao": "Habilite o donwload do aplicativo para celulares Apple",
+    "label": "App Apple"
+  },
+  "pc": {
+    "tipo": "check",
+    "descricao": "Habilite o donwload do aplicativo para Computadores",
+    "label": "App Computador"
+  },
+  "nome": {
+    "tipo": "INPUT",
+    "name": "nome",
+    "label": "Nome do Aplicativo"
+  },
+  "nomeCurto": {
+    "tipo": "INPUT",
+    "name": "nomeCurto",
+    "label": "Nome Curto do Aplicativo"
+  },
+  "descricao": {
+    "tipo": "TEXTAREA",
+    "name": "descricao",
+    "label": "Descrição do Aplicativo"
+  },
+  "startUrl": {
+    "tipo": "INPUT",
+    "name": "startUrl",
+    "label": "Url de Inicio"
+  },
+  "display": {
+    "tipo": "SELECT",
+    "name": "display",
+    "label": "Estilo de Display",
+    "opcoes": [
+      {"chave": "Fullscreen", "valor": "fullscreen"},
+      {"chave": "Minimal UI", "valor": "minimal-ui"},
+      {"chave": "Browser", "valor": "browser"},
+      {"chave": "Standalone", "valor": "standalone", "selecionado": true},
+      {"chave": "Popup", "valor": "popup"},
+      {"chave": "Windowed", "valor": "windowed"},
+      {"chave": "Overlay", "valor": "overlay"},
+      {"chave": "Compact Overlay", "valor": "compact-overlay"}
+    ]
+  },
+  "background": {
+    "tipo": "INPUT",
+    "name": "background",
+    "label": "Cor do Background",
+    "type": "color"
+  },
+  "tema": {
+    "tipo": "INPUT",
+    "name": "tema",
+    "label": "Cor do tema",
+    "type": "color"
+  }
+}

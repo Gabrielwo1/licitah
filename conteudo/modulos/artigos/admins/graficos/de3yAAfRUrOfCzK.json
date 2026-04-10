@@ -1,0 +1,15 @@
+{
+    "nome": "Artigos",
+    "tipo": "3",
+    "banco": "VFx1EY01nDXSfRa",
+    "quem": "0",
+    "publico": {
+        "layout": "bar",
+        "indice": "1",
+        "bar": []
+    },
+    "progresso": {
+        "ciclo": "3",
+        "quantidade": "10"
+    }
+}

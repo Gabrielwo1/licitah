@@ -1,0 +1,273 @@
+{
+    "Tema Personalizado": {
+        "tipo": "titulo",
+        "subtitulo": "Com essa opção ativa, o sistema irá gerar um tema personalizado para o site"
+    },
+    "ativo": {
+        "tipo": "check",
+        "label": "Ativar"
+    },
+    "cor": {
+        "label": "Cor",
+        "tipo": "color",
+        "descricao": "Ao alterar essa cor o sistema irá gerar automaticamente um tema baseado nela",
+        "condicional": "ativo",
+        "id": "cor"
+    },
+    "PRIMARIA": {
+        "tipo": "titulo",
+        "condicional": "ativo"
+    },
+    "primaria": {
+        "label": "Primaria",
+        "tipo": "color",
+        "descricao": "A cor principal do tema, usada como destaque visual em componentes interativos, como botões e cabeçalhos.",
+        "condicional": "ativo",
+        "id": "primary"
+    },
+    "on-primaria": {
+        "label": "On Primaria",
+        "tipo": "color",
+        "descricao": "A cor usada para texto e ícones exibidos sobre a cor primária. Ajustada para garantir legibilidade com base na luminância da cor primária.",
+        "condicional": "ativo",
+        "id": "onPrimary"
+    },
+    "primaria-container": {
+        "label": "Primaria Container",
+        "tipo": "color",
+        "descricao": "Uma variação mais clara ou suave da cor primária, usada em superfícies onde a cor primária é necessária, mas em menor intensidade.",
+        "condicional": "ativo",
+        "id": "primaryContainer"
+    },
+    "on-primaria-container": {
+        "label": "On Primaria Container",
+        "tipo": "color",
+        "descricao": "A cor usada para texto e ícones exibidos sobre o contêiner da cor primária. Mantém contraste suficiente com a cor do contêiner.",
+        "condicional": "ativo",
+        "id": "onPrimaryContainer"
+    },
+    "SECUNDARIA": {
+        "tipo": "titulo",
+        "condicional": "ativo"
+    },
+    "secundaria": {
+        "label": "Secundaria",
+        "tipo": "color",
+        "descricao": "A cor secundária do tema, complementar à cor primária. Usada em elementos menores ou de apoio, como chips ou bordas.",
+        "condicional": "ativo",
+        "id": "secondary"
+    },
+    "on-secundaria": {
+        "label": "On Secundaria",
+        "tipo": "color",
+        "descricao": "A cor usada para texto e ícones exibidos sobre a cor secundária. Ajustada para garantir visibilidade adequada.",
+        "condicional": "ativo",
+        "id": "onSecondary"
+    },
+    "secundaria-container": {
+        "label": "Secundaria Container",
+        "tipo": "color",
+        "descricao": "Uma versão mais clara ou desaturada da cor secundária, usada em superfícies secundárias de destaque moderado.",
+        "condicional": "ativo",
+        "id": "secondaryContainer"
+    },
+    "on-secundaria-container": {
+        "label": "On Secundaria Container",
+        "tipo": "color",
+        "descricao": "A cor usada para texto e ícones exibidos sobre o contêiner secundário. Garante contraste suficiente.",
+        "condicional": "ativo",
+        "id": "onSecondaryContainer"
+    },
+    "TERCIARIA": {
+        "tipo": "titulo",
+        "condicional": "ativo"
+    },
+    "terciaria": {
+        "label": "Terciaria",
+        "tipo": "color",
+        "descricao": "A cor terciária do tema, usada para acentos gráficos ou elementos visuais específicos que adicionam diversidade ao esquema de cores.",
+        "condicional": "ativo",
+        "id": "tertiary"
+    },
+    "on-terciaria": {
+        "label": "On Terciaria",
+        "tipo": "color",
+        "descricao": "A cor usada para texto e ícones exibidos sobre a cor terciária. Ajustada para visibilidade adequada.",
+        "condicional": "ativo",
+        "id": "onTertiary"
+    },
+    "terciaria-container": {
+        "label": "Terciaria Container",
+        "tipo": "color",
+        "descricao": "Uma variação mais clara ou suave da cor terciária, usada em superfícies que precisam de um toque de cor terciária.",
+        "condicional": "ativo",
+        "id": "tertiaryContainer"
+    },
+    "on-terciaria-container": {
+        "label": "On Terciaria Container",
+        "tipo": "color",
+        "descricao": "A cor usada para texto e ícones exibidos sobre o contêiner terciário. Ajustada para contraste ideal.",
+        "condicional": "ativo",
+        "id": "onTertiaryContainer"
+    },
+    "BACKGROUND": {
+        "tipo": "titulo",
+        "condicional": "ativo"
+    },
+    "background": {
+        "label": "Background",
+        "tipo": "color",
+        "descricao": "A cor de fundo principal do tema, aplicada em grandes superfícies como a base de páginas ou telas.",
+        "condicional": "ativo",
+        "id": "background"
+    },
+    "on-background": {
+        "label": "On Background",
+        "tipo": "color",
+        "descricao": "A cor usada para texto e ícones exibidos sobre o fundo. Escolhida para garantir legibilidade.",
+        "condicional": "ativo",
+        "id": "onBackground"
+    },
+    "SURFACE": {
+        "tipo": "titulo",
+        "condicional": "ativo"
+    },
+    "surface": {
+        "label": "Surface",
+        "tipo": "color",
+        "descricao": "A cor usada em superfícies elevadas ou em camadas, como cartões ou painéis.",
+        "condicional": "ativo",
+        "id": "surface"
+    },
+    "on-surface": {
+        "label": "On Surface",
+        "tipo": "color",
+        "descricao": "A cor usada para texto e ícones exibidos sobre superfícies. Ajustada para contraste ideal.",
+        "condicional": "ativo",
+        "id": "onSurface"
+    },
+    
+    "surfacecontainer": {
+        "label": "Surface Container",
+        "tipo": "color",
+        "descricao": "A cor usada para texto e ícones exibidos sobre superfícies. Ajustada para contraste ideal.",
+        "condicional": "ativo",
+        "id": "surfaceContainer"
+    },
+    "surfacecontainerlowest": {
+        "label": "Surface Container Lowest",
+        "tipo": "color",
+        "descricao": "A cor usada para texto e ícones exibidos sobre superfícies. Ajustada para contraste ideal.",
+        "condicional": "ativo",
+        "id": "surfaceContainerLowest"
+    },
+    "surfacecontainerlow": {
+        "label": "Surface Container Low",
+        "tipo": "color",
+        "descricao": "A cor usada para texto e ícones exibidos sobre superfícies. Ajustada para contraste ideal.",
+        "condicional": "ativo",
+        "id": "surfaceContainerLow"
+    },
+       "surfacecontainerhighest": {
+        "label": "Surface Container Highest",
+        "tipo": "color",
+        "descricao": "A cor usada para texto e ícones exibidos sobre superfícies. Ajustada para contraste ideal.",
+        "condicional": "ativo",
+        "id": "surfaceContainerHighest"
+    },
+    
+    "surfacecontainerhigh": {
+        "label": "Surface Container Hight",
+        "tipo": "color",
+        "descricao": "A cor usada para texto e ícones exibidos sobre superfícies. Ajustada para contraste ideal.",
+        "condicional": "ativo",
+        "id": "surfaceContainerHigh"
+    },
+    
+    "ERROR": {
+        "tipo": "titulo",
+        "condicional": "ativo"
+    },
+    "error": {
+        "label": "Error",
+        "tipo": "color",
+        "descricao": "A cor usada para indicar erros ou estados de alerta no sistema.",
+        "condicional": "ativo",
+        "id": "error"
+    },
+    "on-error": {
+        "label": "On Error",
+        "tipo": "color",
+        "descricao": "A cor usada para texto e ícones exibidos sobre a cor de erro. Escolhida para garantir visibilidade clara.",
+        "condicional": "ativo",
+        "id": "onError"
+    },
+    "error-container": {
+        "label": "Error Container",
+        "tipo": "color",
+        "descricao": "Uma variação mais clara ou suave da cor de erro, usada em superfícies que indicam alertas.",
+        "condicional": "ativo",
+        "id": "errorContainer"
+    },
+    "on-error-container": {
+        "label": "On Error Container",
+        "tipo": "color",
+        "descricao": "A cor usada para texto e ícones exibidos sobre o contêiner de erro. Ajustada para garantir contraste.",
+        "condicional": "ativo",
+        "id": "onErrorContainer"
+    },
+    "OUTLINE": {
+        "tipo": "titulo",
+        "condicional": "ativo"
+    },
+    "outline": {
+        "label": "Outline",
+        "tipo": "color",
+        "descricao": "A cor usada para bordas e delineações de elementos, como caixas ou botões.",
+        "condicional": "ativo",
+        "id": "outline"
+    },
+    "VARIANT SURFACE": {
+        "tipo": "titulo",
+        "condicional": "ativo"
+    },
+    "surface-variant": {
+        "label": "Surface Variant",
+        "tipo": "color",
+        "descricao": "Uma variação da cor de superfície, usada para criar profundidade visual em layouts complexos.",
+        "condicional": "ativo",
+        "id": "surfaceVariant"
+    },
+    "on-surface-variant": {
+        "label": "On Surface Variant",
+        "tipo": "color",
+        "descricao": "A cor usada para texto e ícones exibidos sobre a superfície variante. Escolhida para manter contraste adequado.",
+        "condicional": "ativo",
+        "id": "onSurfaceVariant"
+    },
+    "INVERSE SURFACE": {
+        "tipo": "titulo",
+        "condicional": "ativo"
+    },
+    "inverse-surface": {
+        "label": "Inverse Surface",
+        "tipo": "color",
+        "descricao": "Uma variação da cor de superfície, usada para criar profundidade visual em layouts complexos.",
+        "condicional": "ativo",
+        "id": "inverseSurface" 
+    },
+    "on-inverse-surface": {
+        "label": "On Surface Variant",
+        "tipo": "color",
+        "descricao": "A cor usada para texto e ícones exibidos sobre a superfície variante. Escolhida para manter contraste adequado.",
+        "condicional": "ativo",
+        "id": "inverseOnSurface"
+    },
+    "inverse-primary": {
+        "label": "On Surface Variant",
+        "tipo": "color",
+        "descricao": "A cor usada para texto e ícones exibidos sobre a superfície variante. Escolhida para manter contraste adequado.",
+        "condicional": "ativo",
+        "id": "inversePrimary"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "nome": "meus-dados",
+    "tipo": "1",
+    "id": "GygZLIj8xklp5UjqSWapqImWBzmBOsZ3",
+    "btns": [
+        {
+            "texto": "Ver Todas Minhas Empresas",
+            "tipo": "1",
+            "callback": "a\/empresas\/basico-empresas",
+            "id": "",
+            "icone": ""
+        }
+    ],
+    "titulo": "{nova} Empresa",
+    "breadcrumbs": false
+}

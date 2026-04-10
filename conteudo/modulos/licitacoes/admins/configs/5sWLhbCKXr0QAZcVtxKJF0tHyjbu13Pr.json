@@ -1,0 +1,39 @@
+{
+    "banco": "licitacoes_anotacoes",
+    "meta": false,
+    "prefixo": "licitacoes_anotacao",
+    "url": false,
+    "colunas": [
+        {
+            "nome": "texto",
+            "nulo": false,
+            "tipo": "text",
+            "unico": false,
+            "input": "KC588QQg6GtYPTSCi6LaICXdhx9fpg"
+        }
+    ],
+    "estrutura": {
+        "meta": false,
+        "hash": true,
+        "autor": true,
+        "render": false,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "ordenador": false,
+        "url": false,
+        "urledit": false,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false,
+        "desabilitarNovo": false,
+        "desabilitarEdicao": false,
+        "reordenador": false,
+        "pontos": false
+    },
+    "metas": {
+        "t23Mx8ntAeUUZopL0fn5SPd8xm1J16": ""
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "nome": "Criar Artigo",
+    "banco": "VFx1EY01nDXSfRa",
+    "tipo": 4,
+    "subtipo": null,
+    "itens": [
+        {
+            "nome": "titulo",
+            "banco": "p",
+            "chave": "titulo"
+        },
+        {
+            "nome": "texto",
+            "banco": "p",
+            "chave": "texto"
+        }
+    ]
+}

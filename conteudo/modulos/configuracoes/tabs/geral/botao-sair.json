@@ -1,0 +1,37 @@
+{ 
+    "ativar":{
+        "tipo": "check",
+        "label": "Ativar Botão Sair",
+        "descricao": "Ativar Botão Sair no header do site"
+    },
+    "cor": {
+    "tipo": "select",
+    "label": "Defina o estilo do botão personalizado",
+    "descricao": "Defina o link.",
+    "opcoes": [
+      {"chave": "Primaria", "valor": "btn-n-primaria"},
+      {"chave": "Secundaria", "valor": "btn-n-secundaria"},
+      {"chave": "Terciaria", "valor": "btn-n-terciaria"},
+      {"chave": "Quaternaria", "valor": "btn-n-quaternaria"},
+      {"chave": "Primary", "valor": "btn-primary"},
+      {"chave": "Secondary", "valor": "btn-secondary"},
+      {"chave": "Success", "valor": "btn-success"},
+      {"chave": "Danger", "valor": "btn-danger"},
+      {"chave": "Info", "valor": "btn-info"},
+      {"chave": "Warning", "valor": "btn-warning"},
+      {"chave": "Sem Esilo", "valor": "none"}
+    ]
+  },
+    "icone":{
+        "label": "Icone do Botão Simples",
+        "tipo":"check",
+         "descricao": "Caso opte pelo botão simples, escolha o texto",
+         "condicional": "customizarbotao"
+      },
+    "texto":{
+        "label": "Texto do Botão Simples",
+        "tipo":"check",
+         "descricao": "Caso opte pelo botão simples, escolha o texto",
+         "condicional": "customizarbotao"
+      }
+}

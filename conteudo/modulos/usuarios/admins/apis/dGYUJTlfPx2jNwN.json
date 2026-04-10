@@ -1,0 +1,19 @@
+{
+    "nome": "Função",
+    "banco": "Gl0ET7eECTejzdoC3D6NxonM3cbfaE0j",
+    "tipo": 1,
+    "subtipo": 3,
+    "itens": [
+        {
+            "nome": "id",
+            "banco": "p",
+            "chave": "id",
+            "estrangeiro": 0
+        }
+    ],
+    "number": {
+        "comentarios": false,
+        "reacoes": false,
+        "favoritos": false
+    }
+}

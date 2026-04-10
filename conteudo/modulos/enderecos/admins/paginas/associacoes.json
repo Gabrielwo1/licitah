@@ -1,0 +1,16 @@
+{
+    "nome": "Associações",
+    "tipo": "2",
+    "id": "SQEonORJBArt2J7",
+    "btns": [
+        {
+            "texto": "Adicionar Nova",
+            "tipo": "1",
+            "callback": "a\/enderecos\/associacao",
+            "id": "",
+            "icone": ""
+        }
+    ],
+    "titulo": "Todas Associações",
+    "breadcrumbs": true
+}

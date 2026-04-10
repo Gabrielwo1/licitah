@@ -1,0 +1,98 @@
+{
+    "banco": "pay_pagamentos",
+    "meta": false,
+    "prefixo": "pagamento",
+    "url": false,
+    "colunas": [
+        {
+            "nome": "pedido",
+            "nulo": false,
+            "tipo": "estrangeiro",
+            "input": "3kgZVDuJh42spnhJhs3rr1k1B7HkZy",
+            "estrangeira": "pay_pedidos",
+            "referencia": "pedido_id"
+        },
+        {
+            "nome": "estrangeira",
+            "nulo": true,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "GkuEHiUAyLE1I95Lw4ssp8TQyQuZgM",
+            "size": 100
+        },
+        {
+            "nome": "estado",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "HT6377gwrzyvMZdXSU1bwvocNHGTBS"
+        },
+        {
+            "nome": "tipo",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "r5afGGFc6kOw564gPCk8sCznhkq532",
+            "size": 20
+        },
+        {
+            "nome": "dados",
+            "nulo": false,
+            "tipo": "json",
+            "unico": false,
+            "input": "wW1OZI1GyqryMBthgFeXBCev0RqCdg"
+        },
+        {
+            "nome": "usuario",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "h6RvXMegtpylZ27unfKerf8iFIQDrZ"
+        },
+        {
+            "nome": "getways",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "k0k8zk7hDijjC9Diqc4EI4108lQDrH",
+            "size": 20
+        },
+        {
+            "nome": "valor",
+            "nulo": false,
+            "tipo": "float",
+            "input": "TjmTCNz3og7XKc295NlrqWR5shfMgi",
+            "sizes": {
+                "inteiro": 10,
+                "decimal": 2
+            }
+        }
+    ],
+    "estrutura": {
+        "meta": false,
+        "hash": true,
+        "autor": true,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "ordenador": false,
+        "url": false,
+        "urledit": false,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false,
+        "autoria": false,
+        "wildcard": false,
+        "atributos": false,
+        "destaque": false,
+        "enderecos": false,
+        "subconta": false,
+        "desabilitarNovo": true,
+        "desabilitarEdicao": false,
+        "reordenador": false,
+        "pontos": false
+    },
+    "metas": []
+}

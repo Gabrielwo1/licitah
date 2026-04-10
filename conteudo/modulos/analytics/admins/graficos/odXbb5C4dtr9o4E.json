@@ -1,0 +1,46 @@
+{
+    "nome": "Dispositivo",
+    "tipoGrafico": "proporcional",
+    "graficoPrimario": "",
+    "bancoDeDados": "gnR1OlqOIn7voSKgRThnwK04wQfGM4dU",
+    "colunaData": "data",
+    "filtro": "1",
+    "trato": "",
+    "grafico": {
+        "categoria": "plataforma"
+    },
+    "layout": {
+        "primario": "",
+        "periodoinicial": "Total",
+        "titulo": "Dispositivo",
+        "alteralayout": true,
+        "selecionarperiodo": false,
+        "drop": false,
+        "horas": false,
+        "rodape": false
+    },
+    "extra": {
+        "layout": "1",
+        "bg": "#000000",
+        "color": "#000000",
+        "prefixo": "",
+        "sufixo": "",
+        "listaCores": ""
+    },
+    "condicional": {
+        "ativo": "0",
+        "coluna": "",
+        "tipo": "=",
+        "valor": ""
+    },
+    "condicional2": {
+        "ativo": "0",
+        "coluna": "",
+        "tipo": "=",
+        "valor": ""
+    },
+    "atualizacao": {
+        "ativa": false,
+        "segundos": "30"
+    }
+}

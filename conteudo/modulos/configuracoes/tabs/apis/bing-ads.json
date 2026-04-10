@@ -1,0 +1,14 @@
+{
+
+    "ativo":{
+        "tipo": "check",
+        "label":"Ativar Bing Ads",
+        "descricao": "Adicione os Scritps do Bing (Microsoft) ao site"
+    },
+    "id":{
+        "tipo": "input",
+        "label": "Tracking ID ",
+        "descricao": "Digite o Tracking ID da sua campanha Bing",
+        "condicional": "ativo"
+    }
+}

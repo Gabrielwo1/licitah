@@ -1,0 +1,12 @@
+{ 
+    "producao":{
+        "label": "Chaves da API",
+        "tipo":"input",
+         "descricao": "Sua chave de API oferece acesso total para visualizar e modificar seus dados do Asaas. Trate a chave como uma senha e tenha cuidado ao compartilhá-la." 
+      },
+       "wallet":{
+        "label": "Wallet ID",
+        "tipo":"input",
+        "descricao": "Identificador de carteira da conta Asaas. Essa chave é única e exclusiva para cada conta, e é utilizada para realizar split de pagamentos e transferências entre contas Asaas." 
+      }
+}

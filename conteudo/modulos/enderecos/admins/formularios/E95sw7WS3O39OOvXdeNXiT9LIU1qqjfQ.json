@@ -1,0 +1,131 @@
+{
+    "id": "277",
+    "nome": "Endereços - Regiões",
+    "hash": "E95sw7WS3O39OOvXdeNXiT9LIU1qqjfQ",
+    "data": "2024-11-02 01:00:31",
+    "tamanho": 2,
+    "inputs": [
+        {
+            "id": "7024",
+            "tipo": "text",
+            "nome": "Nome",
+            "obrigatorio": "0",
+            "data": "2024-11-02 09:56:24",
+            "pai": "0",
+            "posicao": "0",
+            "hash": "guoGEvl1NOurfS4V4xYb5nUQr3yGF1",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": "Nome",
+                    "descricao": "",
+                    "obrigatorio": 0,
+                    "somente-leitura": 0
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": "",
+                    "sub-label": "",
+                    "tooltip": "",
+                    "prefixo": "",
+                    "sufixo": ""
+                },
+                "valor": {
+                    "tipo": 0,
+                    "fixo": "",
+                    "dinamico": 0,
+                    "arquivo-query": "",
+                    "acao-query": ""
+                },
+                "tamanho": {
+                    "ativar": 0,
+                    "maximo": "",
+                    "minimo": ""
+                },
+                "validacao": {
+                    "mascara": 0
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": ""
+                },
+                "identificador": {
+                    "id": "",
+                    "classes": ""
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "7027",
+            "tipo": "number",
+            "nome": "ID Externo",
+            "obrigatorio": "0",
+            "data": "2024-11-02 10:02:18",
+            "pai": "0",
+            "posicao": "1",
+            "hash": "bQSS0XW3a6ExastGGAe4JxHGOCHIYj",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": "ID Externo",
+                    "descricao": "",
+                    "obrigatorio": 0,
+                    "somente-leitura": 0
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": "",
+                    "sub-label": "",
+                    "tooltip": "",
+                    "prefixo": "",
+                    "sufixo": ""
+                },
+                "valor": {
+                    "minimo": "",
+                    "maximo": "",
+                    "definido": ""
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": ""
+                },
+                "identificador": {
+                    "id": "",
+                    "classes": ""
+                }
+            },
+            "filhos": []
+        }
+    ],
+    "infos": {
+        "basico": {
+            "esconder-label": 0,
+            "label": "Raça ",
+            "descricao": " ",
+            "obrigatorio": 1
+        },
+        "estilo": {
+            "estilo": 0,
+            "tamanho-do-input": 0
+        },
+        "label": {
+            "placeholder": " ",
+            "sub-label": " ",
+            "tooltip": " "
+        },
+        "validacao": {
+            "mascara": 0
+        },
+        "logica": {
+            "logica": 0,
+            "setup": " "
+        }
+    }
+}

@@ -1,0 +1,714 @@
+{
+    "id": "191",
+    "nome": "Licitações - Unidades",
+    "hash": "9ZtWgWUOsU1azbO4yoqItu3W9FVSOaiu",
+    "data": "2024-08-27 16:26:51",
+    "tamanho": 15,
+    "inputs": [
+        {
+            "id": "5520",
+            "tipo": "text",
+            "nome": "ID da Unidade",
+            "obrigatorio": "0",
+            "data": "2024-11-20 09:14:56",
+            "pai": "0",
+            "posicao": "0",
+            "hash": "hPDRuUoz9om8etV4LyHeIavQNyzYAm",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": "ID da Unidade ",
+                    "descricao": " ",
+                    "obrigatorio": 0,
+                    "somente-leitura": 1
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": " ",
+                    "sub-label": " ",
+                    "tooltip": " ",
+                    "prefixo": " ",
+                    "sufixo": " "
+                },
+                "valor": {
+                    "tipo": 0,
+                    "fixo": " ",
+                    "dinamico": 0,
+                    "arquivo-query": " ",
+                    "acao-query": " "
+                },
+                "tamanho": {
+                    "ativar": 0,
+                    "maximo": " ",
+                    "minimo": " "
+                },
+                "validacao": {
+                    "mascara": 0
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": " "
+                },
+                "identificador": {
+                    "id": " ",
+                    "classes": " "
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "5522",
+            "tipo": "coluna",
+            "nome": null,
+            "obrigatorio": "0",
+            "data": "2024-08-27 16:28:05",
+            "pai": "0",
+            "posicao": "1",
+            "hash": "mndF2FLpHlL3KdOisgPP0LaDYVvTMO",
+            "infos": [],
+            "filhos": [
+                {
+                    "id": "5523",
+                    "tipo": "col",
+                    "nome": null,
+                    "obrigatorio": "0",
+                    "data": "2024-08-27 16:28:03",
+                    "pai": "5522",
+                    "posicao": "0",
+                    "hash": "BNXXGD7YDVC1Swg2dSfj7ylpaV0cn2",
+                    "infos": {
+                        "layout": {
+                            "tamanho": 9
+                        },
+                        "flex": {
+                            "ativar": 0,
+                            "direcao": 1,
+                            "justify": 0,
+                            "align": 0,
+                            "gap": 0
+                        },
+                        "logica": {
+                            "logica": 0,
+                            "setup": ""
+                        },
+                        "identificador": {
+                            "id": "",
+                            "classes": ""
+                        }
+                    },
+                    "filhos": [
+                        {
+                            "id": "7335",
+                            "tipo": "text",
+                            "nome": "Nome da Unidade",
+                            "obrigatorio": "0",
+                            "data": "2024-11-20 09:17:53",
+                            "pai": "5523",
+                            "posicao": "0",
+                            "hash": "Id67R0JMw05GNaGRcdnT4cc4P5KlhE",
+                            "infos": {
+                                "basico": {
+                                    "esconder-label": 0,
+                                    "label": "Nome da Unidade",
+                                    "descricao": "",
+                                    "obrigatorio": 0,
+                                    "somente-leitura": 0
+                                },
+                                "estilo": {
+                                    "estilo": 0,
+                                    "tamanho-do-input": 0
+                                },
+                                "label": {
+                                    "placeholder": "",
+                                    "sub-label": "",
+                                    "tooltip": "",
+                                    "prefixo": "",
+                                    "sufixo": ""
+                                },
+                                "valor": {
+                                    "tipo": 0,
+                                    "fixo": "",
+                                    "dinamico": 0,
+                                    "arquivo-query": "",
+                                    "acao-query": ""
+                                },
+                                "tamanho": {
+                                    "ativar": 0,
+                                    "maximo": "",
+                                    "minimo": ""
+                                },
+                                "validacao": {
+                                    "mascara": 0
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": ""
+                                },
+                                "identificador": {
+                                    "id": "",
+                                    "classes": ""
+                                }
+                            },
+                            "filhos": []
+                        },
+                        {
+                            "id": "7336",
+                            "tipo": "text",
+                            "nome": "UF",
+                            "obrigatorio": "0",
+                            "data": "2024-11-20 09:18:17",
+                            "pai": "5523",
+                            "posicao": "1",
+                            "hash": "xoa8SPS6E20StOBgJueT3oRyzSUOVa",
+                            "infos": {
+                                "basico": {
+                                    "esconder-label": 0,
+                                    "label": "UF",
+                                    "descricao": "",
+                                    "obrigatorio": 0,
+                                    "somente-leitura": 0
+                                },
+                                "estilo": {
+                                    "estilo": 0,
+                                    "tamanho-do-input": 0
+                                },
+                                "label": {
+                                    "placeholder": "",
+                                    "sub-label": "",
+                                    "tooltip": "",
+                                    "prefixo": "",
+                                    "sufixo": ""
+                                },
+                                "valor": {
+                                    "tipo": 0,
+                                    "fixo": "",
+                                    "dinamico": 0,
+                                    "arquivo-query": "",
+                                    "acao-query": ""
+                                },
+                                "tamanho": {
+                                    "ativar": 0,
+                                    "maximo": "",
+                                    "minimo": ""
+                                },
+                                "validacao": {
+                                    "mascara": 0
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": ""
+                                },
+                                "identificador": {
+                                    "id": "",
+                                    "classes": ""
+                                }
+                            },
+                            "filhos": []
+                        },
+                        {
+                            "id": "7337",
+                            "tipo": "text",
+                            "nome": "Código do Municipio",
+                            "obrigatorio": "0",
+                            "data": "2024-11-20 09:18:47",
+                            "pai": "5523",
+                            "posicao": "2",
+                            "hash": "WDLp7Kz8JlnaEh4QNzgZtW0GfscaKw",
+                            "infos": {
+                                "basico": {
+                                    "esconder-label": 0,
+                                    "label": "Código do Municipio",
+                                    "descricao": " ",
+                                    "obrigatorio": 0,
+                                    "somente-leitura": 0
+                                },
+                                "estilo": {
+                                    "estilo": 0,
+                                    "tamanho-do-input": 0
+                                },
+                                "label": {
+                                    "placeholder": " ",
+                                    "sub-label": " ",
+                                    "tooltip": " ",
+                                    "prefixo": " ",
+                                    "sufixo": " "
+                                },
+                                "valor": {
+                                    "tipo": 0,
+                                    "fixo": " ",
+                                    "dinamico": 0,
+                                    "arquivo-query": " ",
+                                    "acao-query": " "
+                                },
+                                "tamanho": {
+                                    "ativar": 0,
+                                    "maximo": " ",
+                                    "minimo": " "
+                                },
+                                "validacao": {
+                                    "mascara": 0
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": " "
+                                },
+                                "identificador": {
+                                    "id": " ",
+                                    "classes": " "
+                                }
+                            },
+                            "filhos": []
+                        },
+                        {
+                            "id": "7359",
+                            "tipo": "text",
+                            "nome": "Nome do Municipio IBGE",
+                            "obrigatorio": "0",
+                            "data": "2024-11-20 09:42:58",
+                            "pai": "5523",
+                            "posicao": "3",
+                            "hash": "z64NC92tIvPavEwp2ogUGcHCadITBK",
+                            "infos": {
+                                "basico": {
+                                    "esconder-label": 0,
+                                    "label": "Nome do Municipio IBGE",
+                                    "descricao": "",
+                                    "obrigatorio": 0,
+                                    "somente-leitura": 0
+                                },
+                                "estilo": {
+                                    "estilo": 0,
+                                    "tamanho-do-input": 0
+                                },
+                                "label": {
+                                    "placeholder": "",
+                                    "sub-label": "",
+                                    "tooltip": "",
+                                    "prefixo": "",
+                                    "sufixo": ""
+                                },
+                                "valor": {
+                                    "tipo": 0,
+                                    "fixo": "",
+                                    "dinamico": 0,
+                                    "arquivo-query": "",
+                                    "acao-query": ""
+                                },
+                                "tamanho": {
+                                    "ativar": 0,
+                                    "maximo": "",
+                                    "minimo": ""
+                                },
+                                "validacao": {
+                                    "mascara": 0
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": ""
+                                },
+                                "identificador": {
+                                    "id": "",
+                                    "classes": ""
+                                }
+                            },
+                            "filhos": []
+                        },
+                        {
+                            "id": "7338",
+                            "tipo": "text",
+                            "nome": "Código do Municipio IBGE",
+                            "obrigatorio": "0",
+                            "data": "2024-11-20 09:42:41",
+                            "pai": "5523",
+                            "posicao": "4",
+                            "hash": "JzFUJ2ShnkcltdTLTmAOPqY2ySgdgb",
+                            "infos": {
+                                "basico": {
+                                    "esconder-label": 0,
+                                    "label": "Código do Municipio IBGE",
+                                    "descricao": "",
+                                    "obrigatorio": 0,
+                                    "somente-leitura": 0
+                                },
+                                "estilo": {
+                                    "estilo": 0,
+                                    "tamanho-do-input": 0
+                                },
+                                "label": {
+                                    "placeholder": "",
+                                    "sub-label": "",
+                                    "tooltip": "",
+                                    "prefixo": "",
+                                    "sufixo": ""
+                                },
+                                "valor": {
+                                    "tipo": 0,
+                                    "fixo": "",
+                                    "dinamico": 0,
+                                    "arquivo-query": "",
+                                    "acao-query": ""
+                                },
+                                "tamanho": {
+                                    "ativar": 0,
+                                    "maximo": "",
+                                    "minimo": ""
+                                },
+                                "validacao": {
+                                    "mascara": 0
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": ""
+                                },
+                                "identificador": {
+                                    "id": "",
+                                    "classes": ""
+                                }
+                            },
+                            "filhos": []
+                        },
+                        {
+                            "id": "7339",
+                            "tipo": "text",
+                            "nome": "Código do Polo",
+                            "obrigatorio": "0",
+                            "data": "2024-11-20 09:42:41",
+                            "pai": "5523",
+                            "posicao": "5",
+                            "hash": "hmhZEpDSAwfVMSeEPzLMT1c2cr2Avk",
+                            "infos": {
+                                "basico": {
+                                    "esconder-label": 0,
+                                    "label": "Código do Polo",
+                                    "descricao": "",
+                                    "obrigatorio": 0,
+                                    "somente-leitura": 0
+                                },
+                                "estilo": {
+                                    "estilo": 0,
+                                    "tamanho-do-input": 0
+                                },
+                                "label": {
+                                    "placeholder": "",
+                                    "sub-label": "",
+                                    "tooltip": "",
+                                    "prefixo": "",
+                                    "sufixo": ""
+                                },
+                                "valor": {
+                                    "tipo": 0,
+                                    "fixo": "",
+                                    "dinamico": 0,
+                                    "arquivo-query": "",
+                                    "acao-query": ""
+                                },
+                                "tamanho": {
+                                    "ativar": 0,
+                                    "maximo": "",
+                                    "minimo": ""
+                                },
+                                "validacao": {
+                                    "mascara": 0
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": ""
+                                },
+                                "identificador": {
+                                    "id": "",
+                                    "classes": ""
+                                }
+                            },
+                            "filhos": []
+                        },
+                        {
+                            "id": "7341",
+                            "tipo": "text",
+                            "nome": "Nome do Polo Unidade",
+                            "obrigatorio": "0",
+                            "data": "2024-11-20 09:42:41",
+                            "pai": "5523",
+                            "posicao": "6",
+                            "hash": "PNniwG3Go41E8gXTg9fqiE15g2Z6Zx",
+                            "infos": {
+                                "basico": {
+                                    "esconder-label": 0,
+                                    "label": "Nome do Polo Unidade",
+                                    "descricao": "",
+                                    "obrigatorio": 0,
+                                    "somente-leitura": 0
+                                },
+                                "estilo": {
+                                    "estilo": 0,
+                                    "tamanho-do-input": 0
+                                },
+                                "label": {
+                                    "placeholder": "",
+                                    "sub-label": "",
+                                    "tooltip": "",
+                                    "prefixo": "",
+                                    "sufixo": ""
+                                },
+                                "valor": {
+                                    "tipo": 0,
+                                    "fixo": "",
+                                    "dinamico": 0,
+                                    "arquivo-query": "",
+                                    "acao-query": ""
+                                },
+                                "tamanho": {
+                                    "ativar": 0,
+                                    "maximo": "",
+                                    "minimo": ""
+                                },
+                                "validacao": {
+                                    "mascara": 0
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": ""
+                                },
+                                "identificador": {
+                                    "id": "",
+                                    "classes": ""
+                                }
+                            },
+                            "filhos": []
+                        },
+                        {
+                            "id": "7342",
+                            "tipo": "text",
+                            "nome": "CNPJ\/CPF",
+                            "obrigatorio": "0",
+                            "data": "2024-11-20 09:42:41",
+                            "pai": "5523",
+                            "posicao": "7",
+                            "hash": "DdG6wdNk9fl5fK2CczaAoVfuN1WcRV",
+                            "infos": {
+                                "basico": {
+                                    "esconder-label": 0,
+                                    "label": "CNPJ\/CPF ",
+                                    "descricao": " ",
+                                    "obrigatorio": 0,
+                                    "somente-leitura": 0
+                                },
+                                "estilo": {
+                                    "estilo": 0,
+                                    "tamanho-do-input": 0
+                                },
+                                "label": {
+                                    "placeholder": " ",
+                                    "sub-label": " ",
+                                    "tooltip": " ",
+                                    "prefixo": " ",
+                                    "sufixo": " "
+                                },
+                                "valor": {
+                                    "tipo": 0,
+                                    "fixo": " ",
+                                    "dinamico": 0,
+                                    "arquivo-query": " ",
+                                    "acao-query": " "
+                                },
+                                "tamanho": {
+                                    "ativar": 0,
+                                    "maximo": " ",
+                                    "minimo": " "
+                                },
+                                "validacao": {
+                                    "mascara": 0
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": " "
+                                },
+                                "identificador": {
+                                    "id": " ",
+                                    "classes": " "
+                                }
+                            },
+                            "filhos": []
+                        }
+                    ]
+                },
+                {
+                    "id": "5524",
+                    "tipo": "col",
+                    "nome": null,
+                    "obrigatorio": "0",
+                    "data": "2024-08-27 16:28:03",
+                    "pai": "5522",
+                    "posicao": "1",
+                    "hash": "9VKZG4lRRxBqkSaqbyZM8z9fQUO5Dz",
+                    "infos": {
+                        "layout": {
+                            "tamanho": 3
+                        },
+                        "flex": {
+                            "ativar": 0,
+                            "direcao": 1,
+                            "justify": 0,
+                            "align": 0,
+                            "gap": 0
+                        },
+                        "logica": {
+                            "logica": 0,
+                            "setup": ""
+                        },
+                        "identificador": {
+                            "id": "",
+                            "classes": ""
+                        }
+                    },
+                    "filhos": [
+                        {
+                            "id": "7345",
+                            "tipo": "text",
+                            "nome": "código Siorg",
+                            "obrigatorio": "0",
+                            "data": "2024-11-20 09:27:26",
+                            "pai": "5524",
+                            "posicao": "0",
+                            "hash": "FL9G6MWNERP7VYwlTRovjvz4tMms4C",
+                            "infos": {
+                                "basico": {
+                                    "esconder-label": 0,
+                                    "label": "código Siorg",
+                                    "descricao": "",
+                                    "obrigatorio": 0,
+                                    "somente-leitura": 0
+                                },
+                                "estilo": {
+                                    "estilo": 0,
+                                    "tamanho-do-input": 0
+                                },
+                                "label": {
+                                    "placeholder": "",
+                                    "sub-label": "",
+                                    "tooltip": "",
+                                    "prefixo": "",
+                                    "sufixo": ""
+                                },
+                                "valor": {
+                                    "tipo": 0,
+                                    "fixo": "",
+                                    "dinamico": 0,
+                                    "arquivo-query": "",
+                                    "acao-query": ""
+                                },
+                                "tamanho": {
+                                    "ativar": 0,
+                                    "maximo": "",
+                                    "minimo": ""
+                                },
+                                "validacao": {
+                                    "mascara": 0
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": ""
+                                },
+                                "identificador": {
+                                    "id": "",
+                                    "classes": ""
+                                }
+                            },
+                            "filhos": []
+                        },
+                        {
+                            "id": "7343",
+                            "tipo": "select",
+                            "nome": "Órgão Vinculado",
+                            "obrigatorio": "0",
+                            "data": "2024-11-20 09:26:25",
+                            "pai": "5524",
+                            "posicao": "1",
+                            "hash": "sulMFN4AsFWLzKVMnKUD5NpSMUaPLA",
+                            "infos": {
+                                "basico": {
+                                    "esconder-label": 0,
+                                    "label": "Órgão Vinculado ",
+                                    "descricao": " ",
+                                    "obrigatorio": 0,
+                                    "render": 0,
+                                    "somente-leitura": 0
+                                },
+                                "opcoes": {
+                                    "multiplo": 0,
+                                    "opcoes": [
+                                        {
+                                            "nome": "Selecione uma opção",
+                                            "valor": "0",
+                                            "selecionado": false
+                                        }
+                                    ]
+                                },
+                                "dinamica": {
+                                    "smart-triger": 0,
+                                    "input-trigger": 0,
+                                    "url-trigger": " ",
+                                    "acao-trigger": " ",
+                                    "opcoes-dinamicas": 1,
+                                    "configuracoes": {
+                                        "modulo": "licitacoes",
+                                        "formulario": "09Apo2VtnVUyypJLnJWDPd39BxbeIeEW.json",
+                                        "regra": "1"
+                                    },
+                                    "arquivo-query": " ",
+                                    "acao-query": " "
+                                },
+                                "estilo": {
+                                    "estilo": 0,
+                                    "tamanho-do-input": 0
+                                },
+                                "label": {
+                                    "placeholder": " ",
+                                    "sub-label": " ",
+                                    "tooltip": " "
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": " "
+                                },
+                                "identificador": {
+                                    "id": " ",
+                                    "classes": " "
+                                }
+                            },
+                            "filhos": []
+                        },
+                        {
+                            "id": "5521",
+                            "tipo": "cardSalvar",
+                            "nome": null,
+                            "obrigatorio": "0",
+                            "data": "2024-11-20 09:26:25",
+                            "pai": "5524",
+                            "posicao": "2",
+                            "hash": "C1Ufv4ASeMch6BJsSJbZEGpPnXEkeR",
+                            "infos": [],
+                            "filhos": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "infos": {
+        "basico": {
+            "label": "Informações Médicas  ",
+            "recolhivel": 1
+        },
+        "logica": {
+            "logica": 0,
+            "setup": "  "
+        },
+        "identificador": {
+            "id": "medicas",
+            "classes": ""
+        }
+    }
+}

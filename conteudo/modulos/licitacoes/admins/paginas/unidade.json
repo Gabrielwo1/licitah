@@ -1,0 +1,16 @@
+{
+    "nome": "unidade",
+    "tipo": "1",
+    "id": "9ZtWgWUOsU1azbO4yoqItu3W9FVSOaiu",
+    "btns": [
+        {
+            "texto": "Todas as Unidades",
+            "tipo": "1",
+            "callback": "a\/licitacoes\/unidades",
+            "id": "",
+            "icone": ""
+        }
+    ],
+    "titulo": "{nova} Unidade",
+    "breadcrumbs": false
+}

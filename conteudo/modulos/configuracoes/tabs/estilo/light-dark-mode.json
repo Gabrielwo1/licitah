@@ -1,0 +1,116 @@
+{
+    "bodylight": {
+        "tipo": "check", 
+        "label": "Personalizar o body no Modo Light",
+        "descricao": "Com essa opção ativa, você poderá trocar a cor de fundo das páginas, no modo Light"
+    },
+    "corbody": {
+        "condicional": "bodylight",
+        "label": "Cor do Body Light",
+        "descricao": "Defina uma cor personalizada para o body no modo Light",
+        "tipo": "color"
+    },
+    "backgroundlight": {
+        "condicional": "bodylight",
+        "label": "Imagem de Background",
+        "descricao": "Defina uma imagem para background no modo Light",
+        "tipo": "file"
+    },
+    "backgroundsizelight": {
+        "condicional": "bodylight",
+        "label": "Tamanho do Background",
+        "descricao": "Defina o tamanho da imagem de background no modo Light",
+        "tipo": "select",
+        "opcoes": [
+            {"chave": "Auto", "valor": "auto"},
+            {"chave": "Cover", "valor": "cover"},
+            {"chave": "Contain", "valor": "contain"},
+            {"chave": "Largura Cheia", "valor": "100%"},
+            {"chave": "Customizado", "valor": "custom"}
+        ]
+    },
+    "backgroundrepeatlight": {
+        "condicional": "bodylight",
+        "label": "Repetição do Background",
+        "descricao": "Defina se a imagem de background se repetirá no modo Light",
+        "tipo": "select",
+        "opcoes": [
+            {"chave": "Sem Repetição", "valor": "no-repeat"},
+            {"chave": "Repetir", "valor": "repeat"},
+            {"chave": "Repetir Horizontal", "valor": "repeat-x"},
+            {"chave": "Repetir Vertical", "valor": "repeat-y"}
+        ]
+    },
+    "backgroundpositionlight": {
+        "condicional": "bodylight",
+        "label": "Posição do Background",
+        "descricao": "Defina a posição da imagem de background no modo Light",
+        "tipo": "select",
+        "opcoes": [
+            {"chave": "Topo Esquerda", "valor": "top left"},
+            {"chave": "Topo Direita", "valor": "top right"},
+            {"chave": "Centro", "valor": "center"},
+            {"chave": "Centro Esquerda", "valor": "center left"},
+            {"chave": "Centro Direita", "valor": "center right"},
+            {"chave": "Inferior Esquerda", "valor": "bottom left"},
+            {"chave": "Inferior Direita", "valor": "bottom right"}
+        ]
+    },
+    "bodydark": {
+        "tipo": "check", 
+        "label": "Personalizar o body no Modo Dark",
+        "descricao": "Com essa opção ativa, você poderá trocar a cor de fundo das páginas, no modo Dark"
+    },
+    "cordark": {
+        "condicional": "bodydark",
+        "label": "Cor do Body Dark",
+        "descricao": "Defina uma cor personalizada para o body no modo Dark",
+        "tipo": "color"
+    },
+    "backgrounddark": {
+        "condicional": "bodydark",
+        "label": "Imagem de Background",
+        "descricao": "Defina uma imagem para background no modo Dark",
+        "tipo": "file"
+    },
+    "backgroundsizedark": {
+        "condicional": "bodydark",
+        "label": "Tamanho do Background",
+        "descricao": "Defina o tamanho da imagem de background no modo Dark",
+        "tipo": "select",
+        "opcoes": [
+            {"chave": "Auto", "valor": "auto"},
+            {"chave": "Cover", "valor": "cover"},
+            {"chave": "Contain", "valor": "contain"},
+            {"chave": "Largura Cheia", "valor": "100%"},
+            {"chave": "Customizado", "valor": "custom"}
+        ]
+    },
+    "backgroundrepeatdark": {
+        "condicional": "bodydark",
+        "label": "Repetição do Background",
+        "descricao": "Defina se a imagem de background se repetirá no modo Dark",
+        "tipo": "select",
+        "opcoes": [
+            {"chave": "Sem Repetição", "valor": "no-repeat"},
+            {"chave": "Repetir", "valor": "repeat"},
+            {"chave": "Repetir Horizontal", "valor": "repeat-x"},
+            {"chave": "Repetir Vertical", "valor": "repeat-y"}
+        ]
+    },
+    "backgroundpositiondark": {
+        "condicional": "bodydark",
+        "label": "Posição do Background",
+        "descricao": "Defina a posição da imagem de background no modo Dark",
+        "tipo": "select",
+        "opcoes": [
+            {"chave": "Topo Esquerda", "valor": "top left"},
+            {"chave": "Topo Direita", "valor": "top right"},
+            {"chave": "Centro", "valor": "center"},
+            {"chave": "Centro Esquerda", "valor": "center left"},
+            {"chave": "Centro Direita", "valor": "center right"},
+            {"chave": "Inferior Esquerda", "valor": "bottom left"},
+            {"chave": "Inferior Direita", "valor": "bottom right"}
+        ]
+    }
+}

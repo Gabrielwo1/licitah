@@ -1,0 +1,16 @@
+{
+    "nome": "Licitação Pesquisada",
+    "tipo": "1",
+    "id": "bVKA8kmFR0AEO8xnHJe1MApxFLyfb0r9",
+    "btns": [
+        {
+            "texto": "Tabela Geral",
+            "tipo": "1",
+            "callback": "a\/licitacoes\/licitacoes-pesquisadas",
+            "id": "",
+            "icone": ""
+        }
+    ],
+    "titulo": "{nova} Pesquisa",
+    "breadcrumbs": false
+}

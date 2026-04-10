@@ -1,0 +1,23 @@
+{
+        "descontopix":{
+        "label": "Ativar descontos no Pix",
+        "tipo":"check",
+        "descricao": "Defina um desconto para usuários que pagarem no Pix."
+    },
+      "tipodescontopix":{
+        "label": "Tipo do Desconto",
+        "tipo":"select",
+         "descricao": "Defina como será aplicado o desconto no Pix." ,
+         "opcoes": [
+            {"chave":"Porcentagem", "valor":1},
+            {"chave":"Valor Fixo", "valor":2}
+             ],
+              "condicional":"descontopix"
+    },
+     "descontopixvalor":{
+        "label": "Valor do Desconto",
+        "tipo":"number",
+        "descricao": "Defina um desconto para usuários que pagarem no Pix.",
+        "condicional":"descontopix"
+    }
+}

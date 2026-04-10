@@ -1,0 +1,16 @@
+{
+    "nome": "Pay",
+    "tipo": "1",
+    "id": "nhOMIY20RAH1u9iwdiNk3nkQeiLo9GqX",
+    "btns": [
+        {
+            "texto": "Ver Todos",
+            "tipo": "1",
+            "callback": "",
+            "id": "",
+            "icone": ""
+        }
+    ],
+    "titulo": "Editar Pagamento",
+    "breadcrumbs": true
+}

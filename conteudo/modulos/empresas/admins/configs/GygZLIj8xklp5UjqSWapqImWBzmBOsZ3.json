@@ -1,0 +1,72 @@
+{
+    "banco": "empresas",
+    "meta": true,
+    "prefixo": "empresa",
+    "url": "1",
+    "colunas": [
+        {
+            "nome": "nome",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "rODaDw16guM0YfhA5M7bAyMcG7xF2k",
+            "size": 200
+        },
+        {
+            "nome": "cnpj",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": true,
+            "input": "ulENfv8vCZUls88OHWTXSdmPEYNkKA",
+            "size": 200
+        },
+        {
+            "nome": "emails",
+            "nulo": false,
+            "tipo": "json",
+            "unico": false,
+            "input": "qEhMxLHSvjIUVvmJ2ng71iWBQEAv5O"
+        },
+        {
+            "nome": "descricao",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "vOi7nyUbMUZet1c2oZhtPCgcKust1m",
+            "size": 200
+        },
+        {
+            "nome": "descricao",
+            "nulo": false,
+            "tipo": "text",
+            "unico": false,
+            "input": "jB4IEArGqlgMriETSji2MESKIVdNTG"
+        }
+    ],
+    "estrutura": {
+        "meta": true,
+        "hash": true,
+        "autor": true,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "ordenador": false,
+        "url": true,
+        "urledit": false,
+        "imagemDestaque": true,
+        "galeria": true,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false,
+        "autoria": false,
+        "wildcard": false,
+        "desabilitarNovo": true,
+        "desabilitarEdicao": false,
+        "reordenador": false,
+        "pontos": false
+    },
+    "metas": {
+        "epsRy88y7Wfud8B7l0ihbmwO545CMa": "whatsapp",
+        "RFLhU6DnsMpi5YPXcwphIBlqsjqVGE": "site"
+    }
+}

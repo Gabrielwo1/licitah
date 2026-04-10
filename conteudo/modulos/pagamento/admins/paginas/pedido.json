@@ -1,0 +1,23 @@
+{
+    "nome": "Pedido",
+    "tipo": "1",
+    "id": "Cyrv1bcxbsbHpSh",
+    "btns": [
+        {
+            "texto": "Todos os Pedidos",
+            "tipo": "1",
+            "callback": "a\/pagamento\/pedidos",
+            "id": "",
+            "icone": ""
+        },
+        {
+            "texto": "Ver Fatura",
+            "tipo": "4",
+            "callback": "pagamento\/fatura",
+            "id": "",
+            "icone": "bi bi-receipt"
+        }
+    ],
+    "titulo": "{novo} Pedido",
+    "breadcrumbs": false
+}

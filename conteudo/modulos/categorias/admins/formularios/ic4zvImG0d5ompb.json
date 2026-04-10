@@ -1,0 +1,458 @@
+{
+    "id": "105",
+    "nome": "Categorias",
+    "hash": "ic4zvImG0d5ompb",
+    "data": "2024-07-02 16:06:08",
+    "tamanho": 13,
+    "inputs": [
+        {
+            "id": "3618",
+            "tipo": "text",
+            "nome": "Nome",
+            "obrigatorio": "0",
+            "data": "2024-07-02 16:09:31",
+            "pai": "0",
+            "posicao": "0",
+            "hash": "Nh5Wwnvfm0L3jgXlBcjEeNhtfPvfjc",
+            "infos": {
+                "basico": {
+                    "esconder-label": 1,
+                    "label": "Nome ",
+                    "descricao": " ",
+                    "obrigatorio": 0
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": "Nome ",
+                    "sub-label": " ",
+                    "tooltip": " "
+                },
+                "validacao": {
+                    "mascara": 0
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": " "
+                },
+                "identificador": {
+                    "id": " ",
+                    "classes": " "
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "3623",
+            "tipo": "coluna",
+            "nome": null,
+            "obrigatorio": "0",
+            "data": "2024-07-02 16:13:10",
+            "pai": "0",
+            "posicao": "1",
+            "hash": "UzSN7Ox7qVQRDZ0kqcmopbWpDQxXWT",
+            "infos": [],
+            "filhos": [
+                {
+                    "id": "3624",
+                    "tipo": "col",
+                    "nome": null,
+                    "obrigatorio": "0",
+                    "data": "2024-07-02 16:12:24",
+                    "pai": "3623",
+                    "posicao": "0",
+                    "hash": "MkQawYIDoorktcUwUY2x3Qa1LQJ9BJ",
+                    "infos": {
+                        "layout": {
+                            "tamanho": 9
+                        },
+                        "logica": {
+                            "logica": 0,
+                            "setup": ""
+                        },
+                        "identificador": {
+                            "id": "",
+                            "classes": ""
+                        }
+                    },
+                    "filhos": [
+                        {
+                            "id": "3628",
+                            "tipo": "card",
+                            "nome": "Descrição",
+                            "obrigatorio": "0",
+                            "data": "2024-12-09 20:08:29",
+                            "pai": "3624",
+                            "posicao": "1",
+                            "hash": "PMffK0ByYYi2uGdiaxkIgSOGVbpamm",
+                            "infos": {
+                                "basico": {
+                                    "label": "Descrição ",
+                                    "recolhivel": 1
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": " "
+                                },
+                                "identificador": {
+                                    "id": " ",
+                                    "classes": " "
+                                },
+                                "flex": {
+                                    "ativar": 0,
+                                    "direcao": 1,
+                                    "justify": 0,
+                                    "align": 0,
+                                    "gap": 0
+                                },
+                                "nown": {
+                                    "ativo": 0,
+                                    "modulo": "",
+                                    "paginacao": "",
+                                    "chave": "",
+                                    "valor": ""
+                                }
+                            },
+                            "filhos": [
+                                {
+                                    "id": "3629",
+                                    "tipo": "textarea",
+                                    "nome": "Descrição",
+                                    "obrigatorio": "0",
+                                    "data": "2024-07-02 16:16:18",
+                                    "pai": "3628",
+                                    "posicao": "0",
+                                    "hash": "pje7suXGV4ZS20Q4V9kJsvvKSwLAgo",
+                                    "infos": {
+                                        "basico": {
+                                            "esconder-label": 0,
+                                            "label": "Descrição",
+                                            "descricao": "",
+                                            "obrigatorio": 0
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho-do-input": 0
+                                        },
+                                        "label": {
+                                            "placeholder": "",
+                                            "sub-label": "",
+                                            "tooltip": ""
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": ""
+                                        },
+                                        "identificador": {
+                                            "id": "",
+                                            "classes": ""
+                                        }
+                                    },
+                                    "filhos": []
+                                },
+                                {
+                                    "id": "3630",
+                                    "tipo": "rich",
+                                    "nome": "Descrição Longa",
+                                    "obrigatorio": "0",
+                                    "data": "2024-07-02 16:16:36",
+                                    "pai": "3628",
+                                    "posicao": "1",
+                                    "hash": "LB0Kepj5po6BEmDHekNCLxuOVCTbwv",
+                                    "infos": {
+                                        "basico": {
+                                            "esconder-label": 0,
+                                            "label": "Descrição Longa",
+                                            "descricao": "",
+                                            "obrigatorio": 0
+                                        },
+                                        "label": {
+                                            "placeholder": "",
+                                            "sub-label": "",
+                                            "tooltip": ""
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": ""
+                                        },
+                                        "identificador": {
+                                            "id": "",
+                                            "classes": ""
+                                        }
+                                    },
+                                    "filhos": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "3625",
+                    "tipo": "col",
+                    "nome": null,
+                    "obrigatorio": "0",
+                    "data": "2024-07-02 16:12:24",
+                    "pai": "3623",
+                    "posicao": "1",
+                    "hash": "pOIXTzgl7NGmYsYbxNi0egHH1damye",
+                    "infos": {
+                        "layout": {
+                            "tamanho": 3
+                        },
+                        "logica": {
+                            "logica": 0,
+                            "setup": ""
+                        },
+                        "identificador": {
+                            "id": "",
+                            "classes": ""
+                        }
+                    },
+                    "filhos": [
+                        {
+                            "id": "3622",
+                            "tipo": "card",
+                            "nome": "Configurações",
+                            "obrigatorio": "0",
+                            "data": "2024-12-09 20:08:47",
+                            "pai": "3625",
+                            "posicao": "0",
+                            "hash": "YN3VvOm1b6O6lcTzrt0CcR3DAPHEX1",
+                            "infos": {
+                                "basico": {
+                                    "label": "Configurações",
+                                    "recolhivel": 1
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": ""
+                                },
+                                "identificador": {
+                                    "id": "",
+                                    "classes": ""
+                                }
+                            },
+                            "filhos": [
+                                {
+                                    "id": "3621",
+                                    "tipo": "text",
+                                    "nome": "Chave",
+                                    "obrigatorio": "0",
+                                    "data": "2024-12-09 20:07:36",
+                                    "pai": "3622",
+                                    "posicao": "0",
+                                    "hash": "VrxSjpzUkHt547ZANneHO9aOsd8HLc",
+                                    "infos": {
+                                        "basico": {
+                                            "esconder-label": 0,
+                                            "label": "Chave ",
+                                            "descricao": " ",
+                                            "obrigatorio": 0,
+                                            "somente-leitura": 0
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho-do-input": 0
+                                        },
+                                        "label": {
+                                            "placeholder": " ",
+                                            "sub-label": " ",
+                                            "tooltip": " ",
+                                            "prefixo": " ",
+                                            "sufixo": " "
+                                        },
+                                        "validacao": {
+                                            "mascara": 0
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": " "
+                                        },
+                                        "identificador": {
+                                            "id": " ",
+                                            "classes": "d-none "
+                                        },
+                                        "valor": {
+                                            "tipo": 0,
+                                            "fixo": " ",
+                                            "dinamico": 0,
+                                            "arquivo-query": " ",
+                                            "acao-query": " "
+                                        },
+                                        "tamanho": {
+                                            "ativar": 0,
+                                            "maximo": " ",
+                                            "minimo": " "
+                                        },
+                                        "nown": {
+                                            "ativo": 0,
+                                            "modulo": " ",
+                                            "paginacao": " ",
+                                            "chave": " ",
+                                            "valor": " "
+                                        }
+                                    },
+                                    "filhos": []
+                                },
+                                {
+                                    "id": "3619",
+                                    "tipo": "select",
+                                    "nome": "Tipo",
+                                    "obrigatorio": "0",
+                                    "data": "2024-12-09 20:07:24",
+                                    "pai": "3622",
+                                    "posicao": "1",
+                                    "hash": "IiHVfEOWadCpipJZdVkrDtzdKy93yW",
+                                    "infos": {
+                                        "basico": {
+                                            "esconder-label": 0,
+                                            "label": "Tipo ",
+                                            "descricao": " ",
+                                            "obrigatorio": 0,
+                                            "select-2": 0,
+                                            "render": 0,
+                                            "somente-leitura": 1
+                                        },
+                                        "opcoes": {
+                                            "multiplo": 0,
+                                            "opcoes": [
+                                                {
+                                                    "nome": "Categoria",
+                                                    "valor": "1",
+                                                    "selecionado": false
+                                                },
+                                                {
+                                                    "nome": "Tag",
+                                                    "valor": "0",
+                                                    "selecionado": false
+                                                }
+                                            ]
+                                        },
+                                        "dinamica": {
+                                            "opcoes-dinamicas": 0,
+                                            "configuracoes": " ",
+                                            "smart-triger": 0,
+                                            "input-trigger": 0,
+                                            "url-trigger": " ",
+                                            "acao-trigger": " ",
+                                            "arquivo-query": " ",
+                                            "acao-query": " "
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho-do-input": 0
+                                        },
+                                        "label": {
+                                            "placeholder": " ",
+                                            "sub-label": " ",
+                                            "tooltip": " "
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": " "
+                                        },
+                                        "identificador": {
+                                            "id": " ",
+                                            "classes": " "
+                                        },
+                                        "nown": {
+                                            "ativo": 0,
+                                            "modulo": " ",
+                                            "paginacao": " ",
+                                            "chave": " ",
+                                            "valor": " "
+                                        }
+                                    },
+                                    "filhos": []
+                                },
+                                {
+                                    "id": "3631",
+                                    "tipo": "color",
+                                    "nome": "Cor",
+                                    "obrigatorio": "0",
+                                    "data": "2024-12-09 20:08:17",
+                                    "pai": "3622",
+                                    "posicao": "2",
+                                    "hash": "ehQBfHrpZv9zsLBkQzN7Q7ILCxO2Qz",
+                                    "infos": {
+                                        "basico": {
+                                            "esconder-label": 0,
+                                            "label": "Cor ",
+                                            "descricao": " ",
+                                            "obrigatorio": 0,
+                                            "comeco": "#000000 "
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho-do-input": 0
+                                        },
+                                        "label": {
+                                            "placeholder": "fsd ",
+                                            "sub-label": "fsdfs ",
+                                            "tooltip": "dfsd "
+                                        },
+                                        "validacao": {
+                                            "mascara": 0
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": " "
+                                        },
+                                        "identificador": {
+                                            "id": " ",
+                                            "classes": " "
+                                        },
+                                        "nown": {
+                                            "ativo": 0,
+                                            "modulo": "",
+                                            "paginacao": "",
+                                            "chave": "",
+                                            "valor": ""
+                                        }
+                                    },
+                                    "filhos": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "3626",
+                            "tipo": "cardSalvar",
+                            "nome": null,
+                            "obrigatorio": "0",
+                            "data": "2024-12-09 20:08:47",
+                            "pai": "3625",
+                            "posicao": "1",
+                            "hash": "mojDmYyJVUVdrU4nXst15Xa9cRWb2Y",
+                            "infos": [],
+                            "filhos": []
+                        },
+                        {
+                            "id": "3627",
+                            "tipo": "imagemDestaque",
+                            "nome": null,
+                            "obrigatorio": "0",
+                            "data": "2024-12-09 20:08:06",
+                            "pai": "3625",
+                            "posicao": "2",
+                            "hash": "eqc8VUCmO4sqB5JGnkTaxYJDhyQ7rg",
+                            "infos": [],
+                            "filhos": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "infos": {
+        "basico": {
+            "label": "Informações Principais ",
+            "recolhivel": 0
+        },
+        "logica": {
+            "logica": 0,
+            "setup": " "
+        }
+    }
+}

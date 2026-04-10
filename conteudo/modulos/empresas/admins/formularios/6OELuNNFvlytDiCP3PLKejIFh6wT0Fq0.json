@@ -1,0 +1,74 @@
+{
+    "id": "122",
+    "nome": "Empresa Modal",
+    "hash": "6OELuNNFvlytDiCP3PLKejIFh6wT0Fq0",
+    "data": "2024-07-15 11:50:30",
+    "tamanho": 2,
+    "inputs": [
+        {
+            "id": "3917",
+            "tipo": "text",
+            "nome": "CNPJ",
+            "obrigatorio": "1",
+            "data": "2024-07-15 12:01:41",
+            "pai": "0",
+            "posicao": "1",
+            "hash": "fT7mi6NlLjJY7339zrXWZeM12i25ZW",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": "CNPJ",
+                    "descricao": "",
+                    "obrigatorio": 1,
+                    "somente-leitura": 0
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": "",
+                    "sub-label": "",
+                    "tooltip": ""
+                },
+                "valor": {
+                    "tipo": 0,
+                    "fixo": "",
+                    "dinamico": 0,
+                    "arquivo-query": "",
+                    "acao-query": ""
+                },
+                "tamanho": {
+                    "ativar": 0,
+                    "maximo": "",
+                    "minimo": ""
+                },
+                "validacao": {
+                    "mascara": 2
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": ""
+                },
+                "identificador": {
+                    "id": "",
+                    "classes": ""
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "3919",
+            "tipo": "formprogress",
+            "nome": null,
+            "obrigatorio": "0",
+            "data": "2024-07-15 12:01:56",
+            "pai": "0",
+            "posicao": "2",
+            "hash": "5DjTXP6mOiuX46eDi2E6h3r8GXmfMc",
+            "infos": [],
+            "filhos": []
+        }
+    ],
+    "infos": []
+}

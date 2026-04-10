@@ -1,0 +1,71 @@
+{
+    "nome": "Promoções",
+    "banco": "W4ELWoNNKapnXgbyrAox7gnUBZXarjGl",
+    "colunas": [
+        {
+            "nome": "Nome",
+            "id": "nome",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "tabulavel": false,
+            "pesquisavel": false,
+            "colpesquisavel": false,
+            "estrangeira": 0
+        },
+        {
+            "nome": "Expiração",
+            "id": "expiracao",
+            "tipo": "1",
+            "render": "data",
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "tabulavel": false,
+            "pesquisavel": false,
+            "colpesquisavel": false,
+            "estrangeira": 0
+        }
+    ],
+    "regra": "1",
+    "acoes": {
+        "opcoes": {
+            "acoes": true,
+            "editar": true,
+            "apagar": true,
+            "vizualizar": false,
+            "importador": false,
+            "exportador": false,
+            "filtro": false,
+            "colunas": false,
+            "multiplo": false,
+            "ordenador": false,
+            "filtrodata": false,
+            "bigdata": false
+        },
+        "rotas": {
+            "editar": "a\/pagamento\/promocao",
+            "vizualizar": ""
+        }
+    },
+    "layout": {
+        "modo": "1",
+        "container": "0"
+    },
+    "acoesPersonalizadas": [],
+    "dataFilter": "0",
+    "condicional": {
+        "ativo": "0",
+        "coluna": "",
+        "tipo": "=",
+        "valor": ""
+    },
+    "condicional2": {
+        "ativo": "0",
+        "coluna": "",
+        "tipo": "=",
+        "valor": ""
+    }
+}

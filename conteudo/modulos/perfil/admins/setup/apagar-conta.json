@@ -1,0 +1,7 @@
+{
+    "ativo":{
+        "label": "Apagar Conta",
+        "tipo": "check",
+        "descricao": "Permita que os usuários apaguem a própria conta."
+    }
+}

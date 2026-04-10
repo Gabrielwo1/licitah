@@ -1,0 +1,78 @@
+{
+    "banco": "enderecos",
+    "meta": false,
+    "prefixo": "endereco",
+    "url": false,
+    "colunas": [
+        {
+            "nome": "nome",
+            "nulo": false,
+            "tipo": "varchar",
+            "input": "trWcrekuUy1MuVPifEZcA3lJSiC2Gi"
+        },
+        {
+            "nome": "cep",
+            "nulo": false,
+            "tipo": "varchar",
+            "input": "sQ7sQswr2mrTYlqB3MHFxuUHIRvxin"
+        },
+        {
+            "nome": "rua",
+            "nulo": false,
+            "tipo": "varchar",
+            "input": "NliB3F5y9jFHaqvt3sabXPz2ltWSJy"
+        },
+        {
+            "nome": "numero",
+            "nulo": false,
+            "tipo": "varchar",
+            "input": "j9njVsKTcwds9SrKIIG6Mb8xwmp77J"
+        },
+        {
+            "nome": "complemento",
+            "nulo": false,
+            "tipo": "varchar",
+            "input": "IffSKUp4hM2YRMkQXs6tg6O3TqckvW"
+        },
+        {
+            "nome": "bairro",
+            "nulo": false,
+            "tipo": "varchar",
+            "input": "KsGpDpj8tfGvK0rL3x9ZdGEByUgrg3"
+        },
+        {
+            "nome": "cidade",
+            "nulo": false,
+            "tipo": "varchar",
+            "input": "T1tH3CJHmZOYOlU3bQ04Cki9iOKEoe"
+        },
+        {
+            "nome": "uf",
+            "nulo": false,
+            "tipo": "varchar",
+            "input": "LHcbuVFa0lOLNQpOcoRI8Nu7n23RoO"
+        },
+        {
+            "nome": "descricao",
+            "nulo": false,
+            "tipo": "text",
+            "input": "3qssoZFoEFU7MUz9jEpo9x0DdpSe9D"
+        }
+    ],
+    "estrutura": {
+        "meta": false,
+        "hash": true,
+        "autor": true,
+        "render": false,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "url": false,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false
+    },
+    "metas": []
+}

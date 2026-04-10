@@ -1,0 +1,46 @@
+{
+    "banco": "pay_saldos",
+    "meta": false,
+    "prefixo": "pay_saldo",
+    "url": false,
+    "colunas": [
+        {
+            "nome": "usuario",
+            "nulo": false,
+            "tipo": "int",
+            "unico": true,
+            "input": "P1QtKJyqFNZjTglTb97c6TS65cVk2c"
+        },
+        {
+            "nome": "saldo",
+            "nulo": false,
+            "tipo": "float",
+            "input": "lmGOomnsFNDNhoGpNSnQ5JRaJJakHi",
+            "sizes": {
+                "inteiro": 10,
+                "decimal": 2
+            }
+        }
+    ],
+    "estrutura": {
+        "meta": false,
+        "hash": true,
+        "autor": false,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "ordenador": false,
+        "url": false,
+        "urledit": false,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false,
+        "desabilitarNovo": false,
+        "desabilitarEdicao": false,
+        "reordenador": false,
+        "pontos": false
+    },
+    "metas": []
+}

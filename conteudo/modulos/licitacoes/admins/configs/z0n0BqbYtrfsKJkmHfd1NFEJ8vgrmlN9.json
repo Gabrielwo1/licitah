@@ -1,0 +1,44 @@
+{
+    "banco": "licitacoes_anexos",
+    "meta": false,
+    "prefixo": "licitacoes_anexo",
+    "url": false,
+    "colunas": [
+        {
+            "nome": "nome",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "eUI64JruPt6ziDcLj3IfYqsXYa8v0F",
+            "size": 200
+        },
+        {
+            "nome": "documento",
+            "nulo": false,
+            "tipo": "text",
+            "unico": false,
+            "input": "zLffASN5VAsGCirEFA435Rsdxcu90y"
+        }
+    ],
+    "estrutura": {
+        "meta": false,
+        "hash": true,
+        "autor": true,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "ordenador": false,
+        "url": false,
+        "urledit": false,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false,
+        "desabilitarNovo": false,
+        "desabilitarEdicao": false,
+        "reordenador": false,
+        "pontos": false
+    },
+    "metas": []
+}

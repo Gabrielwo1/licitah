@@ -1,0 +1,79 @@
+{
+    "id": "111",
+    "nome": "Analytics URL",
+    "hash": "7gFgoC5oPHYypkp",
+    "data": "2024-07-05 19:38:26",
+    "tamanho": 1,
+    "inputs": [
+        {
+            "id": "13648",
+            "tipo": "text",
+            "nome": "URL",
+            "obrigatorio": "0",
+            "data": "2025-07-09 20:50:30",
+            "pai": "0",
+            "posicao": "0",
+            "hash": "6JWtxCYDMKTfJHNQvfxTsIrDdyuhVD",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": "URL ",
+                    "descricao": " ",
+                    "obrigatorio": 0,
+                    "somente-leitura": 0
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": " ",
+                    "sub-label": " ",
+                    "tooltip": " ",
+                    "prefixo": " ",
+                    "sufixo": " "
+                },
+                "valor": {
+                    "tipo": 0,
+                    "fixo": " ",
+                    "dinamico": 0,
+                    "arquivo-query": " ",
+                    "acao-query": " "
+                },
+                "tamanho": {
+                    "ativar": 0,
+                    "maximo": " ",
+                    "minimo": " "
+                },
+                "validacao": {
+                    "mascara": 0
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": " "
+                },
+                "identificador": {
+                    "id": " ",
+                    "classes": " "
+                },
+                "nown": {
+                    "ativo": 0,
+                    "modulo": " ",
+                    "paginacao": " ",
+                    "chave": " ",
+                    "valor": " "
+                }
+            },
+            "filhos": []
+        }
+    ],
+    "infos": {
+        "layout": {
+            "tamanho": 6
+        },
+        "logica": {
+            "logica": 0,
+            "setup": ""
+        }
+    }
+}

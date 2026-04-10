@@ -1,0 +1,16 @@
+{
+    "nome": "Anotações",
+    "tipo": "2",
+    "id": "5S9t97LJPBo1pk0",
+    "btns": [
+        {
+            "texto": "Adicionar Anotação",
+            "tipo": "1",
+            "callback": "a\/licitacoes\/anotacao",
+            "id": "",
+            "icone": ""
+        }
+    ],
+    "titulo": "Lista de Anotações",
+    "breadcrumbs": false
+}

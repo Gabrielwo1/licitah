@@ -1,0 +1,48 @@
+{
+    "banco": "licitacoes_parse",
+    "meta": false,
+    "prefixo": "licitacao_pase",
+    "url": false,
+    "colunas": [
+        {
+            "nome": "idgov",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "oAyM4yBiQCV3CA3J0aJkBa2Kt18qoa",
+            "size": 20
+        },
+        {
+            "nome": "processo",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "FEiSNY7DhmlcQ5SYjAh7Y5hm502knj",
+            "size": 20
+        }
+    ],
+    "estrutura": {
+        "meta": false,
+        "hash": false,
+        "autor": false,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "ordenador": false,
+        "url": false,
+        "urledit": false,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false,
+        "autoria": false,
+        "wildcard": false,
+        "atributos": false,
+        "desabilitarNovo": false,
+        "desabilitarEdicao": false,
+        "reordenador": false,
+        "pontos": false
+    },
+    "metas": []
+}

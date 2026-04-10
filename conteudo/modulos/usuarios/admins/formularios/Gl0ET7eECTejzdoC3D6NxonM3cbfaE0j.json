@@ -1,0 +1,205 @@
+{
+    "id": "170",
+    "nome": "Funções Novo",
+    "hash": "Gl0ET7eECTejzdoC3D6NxonM3cbfaE0j",
+    "data": "2024-08-17 21:59:50",
+    "tamanho": 4,
+    "inputs": [
+        {
+            "id": "4876",
+            "tipo": "text",
+            "nome": "Nome",
+            "obrigatorio": "1",
+            "data": "2024-08-17 22:13:55",
+            "pai": "0",
+            "posicao": "0",
+            "hash": "5pKgiNDYDEJPRVVryg3vgVd0qYgMHS",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": "Nome ",
+                    "descricao": " ",
+                    "obrigatorio": 1,
+                    "somente-leitura": 0
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": " ",
+                    "sub-label": " ",
+                    "tooltip": " ",
+                    "prefixo": " ",
+                    "sufixo": " "
+                },
+                "valor": {
+                    "tipo": 0,
+                    "fixo": " ",
+                    "dinamico": 0,
+                    "arquivo-query": " ",
+                    "acao-query": " "
+                },
+                "tamanho": {
+                    "ativar": 0,
+                    "maximo": " ",
+                    "minimo": " "
+                },
+                "validacao": {
+                    "mascara": 0
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": " "
+                },
+                "identificador": {
+                    "id": " ",
+                    "classes": " "
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "4877",
+            "tipo": "select",
+            "nome": "Tipo",
+            "obrigatorio": "0",
+            "data": "2024-08-17 22:01:34",
+            "pai": "0",
+            "posicao": "1",
+            "hash": "SzEdOjDXZZrSeDOfYK5gCfDfC8gQFK",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": "Tipo",
+                    "descricao": "",
+                    "obrigatorio": 0,
+                    "select-2": 0,
+                    "somente-leitura": 0
+                },
+                "opcoes": {
+                    "multiplo": 0,
+                    "opcoes": [
+                        {
+                            "nome": "Cliente",
+                            "valor": "2",
+                            "selecionado": true
+                        },
+                        {
+                            "nome": "Equipe",
+                            "valor": "1",
+                            "selecionado": false
+                        }
+                    ]
+                },
+                "dinamica": {
+                    "smart-triger": 0,
+                    "input-trigger": 0,
+                    "url-trigger": "",
+                    "acao-trigger": "",
+                    "opcoes-dinamicas": 0,
+                    "configuracoes": "",
+                    "arquivo-query": "",
+                    "acao-query": ""
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": "",
+                    "sub-label": "",
+                    "tooltip": ""
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": ""
+                },
+                "identificador": {
+                    "id": "",
+                    "classes": ""
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "4879",
+            "tipo": "select",
+            "nome": "Apagavel",
+            "obrigatorio": "1",
+            "data": "2024-08-17 22:13:32",
+            "pai": "0",
+            "posicao": "2",
+            "hash": "61H9CwzPevv6EFVm4mW5B6LYT01QmM",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": "Apagavel ",
+                    "descricao": " ",
+                    "obrigatorio": 1,
+                    "select-2": 0,
+                    "somente-leitura": 0
+                },
+                "opcoes": {
+                    "multiplo": 0,
+                    "opcoes": [
+                        {
+                            "nome": "Sim",
+                            "valor": "1",
+                            "selecionado": true
+                        }
+                    ]
+                },
+                "dinamica": {
+                    "smart-triger": 0,
+                    "input-trigger": 0,
+                    "url-trigger": " ",
+                    "acao-trigger": " ",
+                    "opcoes-dinamicas": 0,
+                    "configuracoes": " ",
+                    "arquivo-query": " ",
+                    "acao-query": " "
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": " ",
+                    "sub-label": " ",
+                    "tooltip": " "
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": " "
+                },
+                "identificador": {
+                    "id": " ",
+                    "classes": "d-none "
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "4878",
+            "tipo": "formprogress",
+            "nome": null,
+            "obrigatorio": "0",
+            "data": "2024-08-17 22:13:19",
+            "pai": "0",
+            "posicao": "3",
+            "hash": "RiL4234wmG1IauL0YFQhObM4E2voPv",
+            "infos": [],
+            "filhos": []
+        }
+    ],
+    "infos": {
+        "layout": {
+            "tamanho": 8
+        },
+        "logica": {
+            "logica": 0,
+            "setup": ""
+        }
+    }
+}

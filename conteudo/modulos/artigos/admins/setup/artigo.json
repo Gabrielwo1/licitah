@@ -1,0 +1,12 @@
+{
+    "estilolistagem":{
+        "label": "Estilo da Listagem",
+        "tipo": "select",
+        "opcoes":[
+            {"chave": "Layout 1", "valor": 1},
+            {"chave": "Layout 2", "valor": 2},
+            {"chave": "Layout 3", "valor": 3},
+            {"chave": "Layout 4", "valor": 4}
+            ]
+    }
+}

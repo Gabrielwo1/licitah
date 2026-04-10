@@ -1,0 +1,299 @@
+{
+    "id": "99",
+    "nome": "Empresas Associação",
+    "hash": "0M31yOChK5bhkgb",
+    "data": "2024-06-26 09:20:00",
+    "tamanho": 8,
+    "inputs": [
+        {
+            "id": "3526",
+            "tipo": "coluna",
+            "nome": null,
+            "obrigatorio": "0",
+            "data": "2024-06-26 09:20:55",
+            "pai": "0",
+            "posicao": "0",
+            "hash": "NOmiwtNB1YxhKIPwvZuajlJ69g2Vpv",
+            "infos": [],
+            "filhos": [
+                {
+                    "id": "3527",
+                    "tipo": "col",
+                    "nome": null,
+                    "obrigatorio": "0",
+                    "data": "2024-06-26 09:20:45",
+                    "pai": "3526",
+                    "posicao": "0",
+                    "hash": "bABaSXKzZDpxZIDmv7n0MdxSZ0G5ez",
+                    "infos": {
+                        "layout": {
+                            "tamanho": 9
+                        },
+                        "logica": {
+                            "logica": 0,
+                            "setup": ""
+                        },
+                        "identificador": {
+                            "id": "",
+                            "classes": ""
+                        }
+                    },
+                    "filhos": [
+                        {
+                            "id": "3525",
+                            "tipo": "card",
+                            "nome": "Associação Usuário \/ Empresa",
+                            "obrigatorio": "0",
+                            "data": "2024-06-26 09:24:15",
+                            "pai": "3527",
+                            "posicao": "0",
+                            "hash": "xVLo3oChVpyExIA3gzVtcuBGfYksKW",
+                            "infos": {
+                                "basico": {
+                                    "label": "Associação Usuário \/ Empresa ",
+                                    "recolhivel": 1
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": " "
+                                },
+                                "identificador": {
+                                    "id": " ",
+                                    "classes": " "
+                                }
+                            },
+                            "filhos": [
+                                {
+                                    "id": "3522",
+                                    "tipo": "select",
+                                    "nome": "Empresa   ",
+                                    "obrigatorio": "1",
+                                    "data": "2024-06-26 09:37:15",
+                                    "pai": "3525",
+                                    "posicao": "0",
+                                    "hash": "sjdZiDh4OkH9e8q3xcdbe2pniVhMyN",
+                                    "infos": {
+                                        "basico": {
+                                            "esconder-label": 0,
+                                            "label": "Empresa    ",
+                                            "descricao": "    ",
+                                            "obrigatorio": 1,
+                                            "select-2": 0
+                                        },
+                                        "opcoes": {
+                                            "multiplo": 0,
+                                            "opcoes": "    "
+                                        },
+                                        "dinamica": {
+                                            "opcoes-dinamicas": 1,
+                                            "configuracoes": {
+                                                "modulo": "empresas",
+                                                "formulario": "9mX3WKIb9DI9qEW.json",
+                                                "regra": "1"
+                                            }
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho-do-input": 0
+                                        },
+                                        "label": {
+                                            "placeholder": "    ",
+                                            "sub-label": "    ",
+                                            "tooltip": "    "
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": "    "
+                                        },
+                                        "identificador": {
+                                            "id": "    ",
+                                            "classes": "    "
+                                        }
+                                    },
+                                    "filhos": []
+                                },
+                                {
+                                    "id": "3523",
+                                    "tipo": "select",
+                                    "nome": "Usuário  ",
+                                    "obrigatorio": "1",
+                                    "data": "2024-06-26 09:37:06",
+                                    "pai": "3525",
+                                    "posicao": "1",
+                                    "hash": "dF4TJIPOqFtBTOETzOWzJeImV4dbDZ",
+                                    "infos": {
+                                        "basico": {
+                                            "esconder-label": 0,
+                                            "label": "Usuário   ",
+                                            "descricao": "   ",
+                                            "obrigatorio": 1,
+                                            "select-2": 0
+                                        },
+                                        "opcoes": {
+                                            "multiplo": 0,
+                                            "opcoes": "   "
+                                        },
+                                        "dinamica": {
+                                            "opcoes-dinamicas": 1,
+                                            "configuracoes": {
+                                                "modulo": "usuarios",
+                                                "formulario": "aY4O9kcLpNMpbiD.json",
+                                                "regra": "1"
+                                            }
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho-do-input": 0
+                                        },
+                                        "label": {
+                                            "placeholder": "   ",
+                                            "sub-label": "   ",
+                                            "tooltip": "   "
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": "   "
+                                        },
+                                        "identificador": {
+                                            "id": "   ",
+                                            "classes": "   "
+                                        }
+                                    },
+                                    "filhos": []
+                                },
+                                {
+                                    "id": "3524",
+                                    "tipo": "select",
+                                    "nome": "Função",
+                                    "obrigatorio": "1",
+                                    "data": "2025-01-22 20:34:36",
+                                    "pai": "3525",
+                                    "posicao": "2",
+                                    "hash": "XKwUkcwwDBJnT05AmZ5Anp8x9qwyBF",
+                                    "infos": {
+                                        "basico": {
+                                            "esconder-label": 0,
+                                            "label": "Função ",
+                                            "descricao": " ",
+                                            "obrigatorio": 1,
+                                            "select-2": 0,
+                                            "render": 0,
+                                            "somente-leitura": 0
+                                        },
+                                        "opcoes": {
+                                            "multiplo": 0,
+                                            "opcoes": [
+                                                {
+                                                    "nome": "Próprietario",
+                                                    "valor": "0",
+                                                    "selecionado": true
+                                                }
+                                            ]
+                                        },
+                                        "dinamica": {
+                                            "opcoes-dinamicas": 1,
+                                            "configuracoes": {
+                                                "modulo": "empresas",
+                                                "formulario": "mzaA2HQA8CXUv49.json",
+                                                "regra": "1"
+                                            },
+                                            "smart-triger": 0,
+                                            "input-trigger": 0,
+                                            "url-trigger": " ",
+                                            "acao-trigger": " ",
+                                            "arquivo-query": " ",
+                                            "acao-query": " "
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho-do-input": 0
+                                        },
+                                        "label": {
+                                            "placeholder": " ",
+                                            "sub-label": " ",
+                                            "tooltip": " "
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": " "
+                                        },
+                                        "identificador": {
+                                            "id": " ",
+                                            "classes": " "
+                                        },
+                                        "nown": {
+                                            "ativo": 0,
+                                            "modulo": " ",
+                                            "paginacao": " ",
+                                            "chave": " ",
+                                            "valor": " "
+                                        }
+                                    },
+                                    "filhos": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "3528",
+                    "tipo": "col",
+                    "nome": null,
+                    "obrigatorio": "0",
+                    "data": "2024-06-26 09:20:45",
+                    "pai": "3526",
+                    "posicao": "1",
+                    "hash": "tuokpBzpBZJwy5Crodg7qp4PrTt1MQ",
+                    "infos": {
+                        "layout": {
+                            "tamanho": 3
+                        },
+                        "logica": {
+                            "logica": 0,
+                            "setup": ""
+                        },
+                        "identificador": {
+                            "id": "",
+                            "classes": ""
+                        }
+                    },
+                    "filhos": [
+                        {
+                            "id": "3529",
+                            "tipo": "cardSalvar",
+                            "nome": "",
+                            "obrigatorio": "0",
+                            "data": "2024-06-26 09:38:33",
+                            "pai": "3528",
+                            "posicao": "0",
+                            "hash": "fdXhEPXhc6sy1yvdeh872mmZa5hTwb",
+                            "infos": {
+                                "basico": {
+                                    "label": "",
+                                    "recolhivel": 0,
+                                    "fixar-no-rodape-mobile": 0,
+                                    "fixar-no-rodape-pc": 0
+                                },
+                                "funcoes": {
+                                    "desabilitar-status": 1,
+                                    "desabilitar-vizibilidade": 1,
+                                    "desabilitar-agendados": 1
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": ""
+                                },
+                                "identificador": {
+                                    "id": "",
+                                    "classes": ""
+                                }
+                            },
+                            "filhos": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "infos": []
+}

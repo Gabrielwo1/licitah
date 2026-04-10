@@ -1,0 +1,58 @@
+{
+    "banco": "licitacoes_uasgs",
+    "meta": true,
+    "prefixo": "licitacoes_uasg",
+    "url": false,
+    "colunas": [
+        {
+            "nome": "codigo",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "hPDRuUoz9om8etV4LyHeIavQNyzYAm",
+            "size": 20
+        },
+        {
+            "nome": "nome",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "Id67R0JMw05GNaGRcdnT4cc4P5KlhE",
+            "size": 200
+        }
+    ],
+    "estrutura": {
+        "meta": true,
+        "hash": true,
+        "autor": false,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "ordenador": false,
+        "url": false,
+        "urledit": false,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false,
+        "autoria": false,
+        "wildcard": false,
+        "atributos": false,
+        "desabilitarNovo": false,
+        "desabilitarEdicao": false,
+        "reordenador": false,
+        "pontos": false
+    },
+    "metas": {
+        "xoa8SPS6E20StOBgJueT3oRyzSUOVa": "siglaUf",
+        "WDLp7Kz8JlnaEh4QNzgZtW0GfscaKw": "codigoMunicipio",
+        "z64NC92tIvPavEwp2ogUGcHCadITBK": "nomeMunicipioIbge",
+        "JzFUJ2ShnkcltdTLTmAOPqY2ySgdgb": "codigoMunicipioIbge",
+        "hmhZEpDSAwfVMSeEPzLMT1c2cr2Avk": "codigoUnidadePolo",
+        "PNniwG3Go41E8gXTg9fqiE15g2Z6Zx": "nomeUnidadePolo",
+        "DdG6wdNk9fl5fK2CczaAoVfuN1WcRV": "cnpjCpfUasg",
+        "FL9G6MWNERP7VYwlTRovjvz4tMms4C": "codigoSiorg",
+        "sulMFN4AsFWLzKVMnKUD5NpSMUaPLA": "orgao"
+    }
+}

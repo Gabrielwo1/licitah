@@ -1,0 +1,41 @@
+{
+    "nome": "Lista de Associações",
+    "banco": "0M31yOChK5bhkgb",
+    "tipo": 2,
+    "subtipo": 1,
+    "itens": [
+        {
+            "nome": "funcao",
+            "banco": "p",
+            "chave": "funcao",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "empresa",
+            "banco": "p",
+            "chave": "empresa",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "usuario",
+            "banco": "p",
+            "chave": "usuario",
+            "estrangeiro": 0
+        }
+    ],
+    "number": {
+        "comentarios": false,
+        "reacoes": false,
+        "favoritos": false,
+        "visualizacoes": false
+    },
+    "extra": {
+        "ativo": false,
+        "coluna": "",
+        "tipo": "="
+    },
+    "clone": {
+        "ativo": false,
+        "api": ""
+    }
+}

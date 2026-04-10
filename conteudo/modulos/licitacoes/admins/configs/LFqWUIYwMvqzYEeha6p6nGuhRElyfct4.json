@@ -1,0 +1,91 @@
+{
+    "banco": "licitacoes",
+    "meta": true,
+    "prefixo": "licitacao",
+    "url": "1",
+    "colunas": [
+        {
+            "nome": "governo",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": true,
+            "input": "hH274rbtplit5J0sqmrBdKYP4ZDog2",
+            "size": 30
+        },
+        {
+            "nome": "objeto",
+            "nulo": false,
+            "tipo": "text",
+            "unico": false,
+            "input": "wdCk2Lw62gfWbzQH6n8Q3KPyWed7Gq"
+        },
+        {
+            "nome": "itens",
+            "nulo": false,
+            "tipo": "text",
+            "unico": false,
+            "input": "1ys5qUwoOEn6qex9cjlmXXK2Pn8EK8"
+        },
+        {
+            "nome": "att",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "VLD5PzV7D4IETt2OjGkL541e0F0jiv",
+            "size": 50
+        },
+        {
+            "nome": "infos",
+            "nulo": false,
+            "tipo": "text",
+            "unico": false,
+            "input": "PTq6ahotFfxwuqkWal1qPyO74MjlWz"
+        }
+    ],
+    "estrutura": {
+        "meta": true,
+        "hash": true,
+        "autor": false,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "ordenador": false,
+        "url": true,
+        "urledit": false,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false,
+        "autoria": false,
+        "wildcard": false,
+        "atributos": false,
+        "destaque": false,
+        "enderecos": false,
+        "desabilitarNovo": true,
+        "desabilitarEdicao": false,
+        "reordenador": false,
+        "pontos": false
+    },
+    "metas": {
+        "bYjkSNBGDI8DXPfWgCGhi6HWpXGtjp": "processo",
+        "4LYAvCAphUq3HTbwLD7MF9yhXVyRmh": "numeroCompra",
+        "rUjinKsG7PebiTwT2kGYb3TrnJTnJJ": "numeroControlePNCP",
+        "NdfHDIvlt3bcoxQGNeZyBID38wSc7i": "anoCompraPncp",
+        "gVFqfubsJVesSvwoVmpgWuj3o9MXL5": "sequencialCompraPncp",
+        "MYbqibqgRg8MZW0SSAOe9TBI6rKAar": "modalidadeNome",
+        "iQa1x3RXDcwppcvBc6D91uMepEUmmj": "unidadeOrgaoNomeUnidade",
+        "deJeTTbavJ0llFxOmXQtLtAfgOqaTz": "unidadeOrgaoCodigoUnidade",
+        "siHvbMCcwpKhiQ6grdIh0FyCCWqliK": "unidadeOrgaoMunicipioNome",
+        "0YHHOXYvS2p4mgfzc9qeVuNgPE1C1L": "unidadeOrgaoUfSigla",
+        "ihRnrJjcPqGtOttdGaxJMyk4yvPDSr": "orgaoEntidadeCnpj",
+        "YO2s1bPakWzkZ9zZxguqfNCum2FzCQ": "modoDisputaNomePncp",
+        "sIBw9IPpHXOJmDpm7b8tZ5TWStsfkJ": "situacaoCompraNomePncp",
+        "4xlXUWYPNx7zaaB4GUtsiNojiQl7xZ": "valorTotalEstimado",
+        "QlI6VCsjmAvaTcX2T3dFDbK7uj5Cdf": "valorTotalHomologado",
+        "RUuGNdXDZwqlSzPIm1k7YZ0CIIIDlp": "dataInclusaoPncp",
+        "4xsOdZeMXNAlbN7UR8lmEcRNUv41EX": "dataPublicacaoPncp",
+        "cSvcXu9iefP2uGrY5NWP7CE6sEI4H9": "dataAberturaPropostaPncp",
+        "yjIw5PT5zbgtOELqcZQcUzeOM5uL2X": "dataEncerramentoPropostaPncp"
+    }
+}

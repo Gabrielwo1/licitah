@@ -1,0 +1,70 @@
+{
+    "banco": "pay_assinaturas",
+    "meta": false,
+    "prefixo": "payassi",
+    "url": false,
+    "colunas": [
+        {
+            "nome": "usuario",
+            "nulo": false,
+            "tipo": "estrangeiro",
+            "input": "P4Bu9CNVPx7e7ucAMjUwH8EJoCN8K8",
+            "render": {
+                "modulo": "usuarios",
+                "banco": "aY4O9kcLpNMpbiD",
+                "colunas": [
+                    "usuario_display"
+                ]
+            }
+        },
+        {
+            "nome": "plano",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "FxKkCZch8oQ1UdGzKRQyol0LZNN7Qu"
+        },
+        {
+            "nome": "estado",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "sjQF7mgqh8aCUetvOHSdLRpH0sVBEW"
+        },
+        {
+            "nome": "inicio",
+            "nulo": false,
+            "tipo": "data",
+            "input": "IqBNethgfWmOSZmdukdH0xkzuYsKaI",
+            "formato": "datetime"
+        },
+        {
+            "nome": "fim",
+            "nulo": false,
+            "tipo": "data",
+            "input": "BNCJuH6HRZPeKmIMHDk1dw2vMgmgF7",
+            "formato": "datetime"
+        }
+    ],
+    "estrutura": {
+        "meta": false,
+        "hash": false,
+        "autor": true,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "ordenador": false,
+        "url": false,
+        "urledit": false,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false,
+        "desabilitarNovo": true,
+        "desabilitarEdicao": false,
+        "reordenador": false,
+        "pontos": false
+    },
+    "metas": []
+}

@@ -1,0 +1,40 @@
+{
+    "banco": "empresas_funcao",
+    "meta": false,
+    "prefixo": "ef",
+    "url": "nome",
+    "colunas": [
+        {
+            "nome": "nome",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "fZ18Gi0ndP8mPhSgj5A9iTGgzBO5oF",
+            "size": 100
+        },
+        {
+            "nome": "descricao",
+            "nulo": false,
+            "tipo": "text",
+            "unico": false,
+            "input": "tAeRB7KG4tnpFOIxzGz9pZSFdusOrc"
+        }
+    ],
+    "estrutura": {
+        "meta": false,
+        "hash": true,
+        "autor": true,
+        "render": false,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "url": true,
+        "urledit": false,
+        "imagemDestaque": true,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false
+    },
+    "metas": []
+}

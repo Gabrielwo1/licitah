@@ -1,0 +1,53 @@
+{
+    "banco": "enderecos_subregioes",
+    "meta": false,
+    "prefixo": "enderecos_subregiao",
+    "url": "1",
+    "colunas": [
+        {
+            "nome": "nome",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "AUPxn9YbTDHc5AZnC44ieCufvbfUG3",
+            "size": 100
+        },
+        {
+            "nome": "regiao",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "4v5imF4DYUqAJrRGthKVEmUhG7KYgk"
+        },
+        {
+            "nome": "externo",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "bj8bGR68JLvkKocOAU4XMC0ekswLSa"
+        }
+    ],
+    "estrutura": {
+        "meta": false,
+        "hash": true,
+        "autor": false,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "ordenador": false,
+        "url": true,
+        "urledit": false,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false,
+        "autoria": false,
+        "wildcard": false,
+        "desabilitarNovo": false,
+        "desabilitarEdicao": false,
+        "reordenador": false,
+        "pontos": false
+    },
+    "metas": []
+}

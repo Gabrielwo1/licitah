@@ -1,0 +1,112 @@
+{
+    "nome": "Licitações Unidades",
+    "banco": "9ZtWgWUOsU1azbO4yoqItu3W9FVSOaiu",
+    "colunas": [
+        {
+            "nome": "ID do Governo",
+            "id": "codigo",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "tabulavel": false,
+            "pesquisavel": false,
+            "colpesquisavel": false,
+            "estrangeira": 0
+        },
+        {
+            "nome": "Nome",
+            "id": "nome",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "tabulavel": false,
+            "pesquisavel": false,
+            "colpesquisavel": false,
+            "estrangeira": 0
+        },
+        {
+            "nome": "Municipio",
+            "id": "nomeMunicipioIbge",
+            "tipo": "2",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "tabulavel": false,
+            "pesquisavel": false,
+            "colpesquisavel": false,
+            "estrangeira": 0
+        },
+        {
+            "nome": "UF",
+            "id": "siglaUf",
+            "tipo": "2",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "tabulavel": false,
+            "pesquisavel": false,
+            "colpesquisavel": false,
+            "estrangeira": 0
+        },
+        {
+            "nome": "Orgão",
+            "id": "orgao",
+            "tipo": "2",
+            "render": "personalizado",
+            "regra": [
+                "Sem vinculo"
+            ],
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "tabulavel": false,
+            "pesquisavel": false,
+            "colpesquisavel": false
+        }
+    ],
+    "regra": "1",
+    "acoes": {
+        "opcoes": {
+            "acoes": true,
+            "editar": true,
+            "apagar": true,
+            "vizualizar": false,
+            "importador": false,
+            "exportador": false,
+            "filtro": false,
+            "colunas": false,
+            "multiplo": false,
+            "ordenador": false,
+            "filtrodata": false,
+            "bigdata": true
+        },
+        "rotas": {
+            "editar": "a\/licitacoes\/unidade",
+            "vizualizar": ""
+        }
+    },
+    "layout": {
+        "modo": "1",
+        "container": "0"
+    },
+    "acoesPersonalizadas": [],
+    "dataFilter": "0",
+    "condicional": {
+        "ativo": "0",
+        "coluna": "",
+        "tipo": "=",
+        "valor": ""
+    },
+    "condicional2": {
+        "ativo": "0",
+        "coluna": "",
+        "tipo": "=",
+        "valor": ""
+    }
+}

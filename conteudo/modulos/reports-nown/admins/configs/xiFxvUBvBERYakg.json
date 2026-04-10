@@ -1,0 +1,54 @@
+{
+    "banco": "bugs",
+    "meta": true,
+    "prefixo": "bug",
+    "url": "1",
+    "colunas": [
+        {
+            "nome": "titulo",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "j9IXmyGXn2OfvizYsg1CPuYHeA3XKh",
+            "size": 300
+        },
+        {
+            "nome": "descricao",
+            "nulo": false,
+            "tipo": "text",
+            "unico": false,
+            "input": "DPeHw3h7bhntjW8vV9qxm0IAeDFQ1L"
+        },
+        {
+            "nome": "respostas",
+            "nulo": true,
+            "tipo": "json",
+            "unico": false,
+            "input": "RyGJPVKWnhM6CHocGIAMKAGYbCH68x"
+        }
+    ],
+    "estrutura": {
+        "meta": true,
+        "hash": true,
+        "autor": false,
+        "render": false,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "url": true,
+        "urledit": false,
+        "imagemDestaque": false,
+        "galeria": true,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false
+    },
+    "metas": {
+        "t8YkTpjOAi2GRqB9eDUFlMfUJqVhxR": "origem",
+        "21mcw9mXNXXiZ1KjtzqJugOGbnl1Pd": "modulo",
+        "LrDeueSIxwUWPXIWQ4kVpDWJp1lhFN": "estado",
+        "E8P4ck13sBjNXBgcXUOL92NI8Kd1p8": "cliente",
+        "8lrNPIqdx1aintD22tLbM4T0iMegjC": "usuario",
+        "5y79MZ6VTmR6FIguM0rgHvWBS9H3c6": "equipe"
+    }
+}

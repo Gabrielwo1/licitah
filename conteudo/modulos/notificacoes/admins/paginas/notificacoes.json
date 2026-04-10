@@ -1,0 +1,16 @@
+{
+    "nome": "Notificações",
+    "tipo": "2",
+    "id": "r5lfaRPPrwxcCk3",
+    "btns": [
+        {
+            "texto": "Adicionar Nova",
+            "tipo": "1",
+            "callback": "a\/notificacoes\/notificacao",
+            "id": "",
+            "icone": "bi bi-bell"
+        }
+    ],
+    "titulo": "Notificações",
+    "breadcrumbs": true
+}

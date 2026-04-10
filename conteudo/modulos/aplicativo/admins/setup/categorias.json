@@ -1,0 +1,110 @@
+{
+    "Selecione as Categorias":{
+      "tipo": "titulo",
+      "subtitulo": "Marca as categorias que se aplicão ao aplicativo"
+    },
+    "books": {
+        "tipo": "check",
+        "label": "Livros"
+    },
+    "business": {
+        "tipo": "check",
+        "label": "Negócios"
+    },
+    "education": {
+        "tipo": "check",
+        "label": "Educação"
+    },
+    "entertainment": {
+        "tipo": "check",
+        "label": "Entretenimento"
+    },
+    "finance": {
+        "tipo": "check",
+        "label": "Finanças"
+    },
+    "food_drink": {
+        "tipo": "check",
+        "label": "Comida & Bebida"
+    },
+    "games": {
+        "tipo": "check",
+        "label": "Jogos"
+    },
+    "government_politics": {
+        "tipo": "check",
+        "label": "Governo & Política"
+    },
+    "health_fitness": {
+        "tipo": "check",
+        "label": "Saúde & Fitness"
+    },
+    "kids_family": {
+        "tipo": "check",
+        "label": "Crianças & Família"
+    },
+    "lifestyle": {
+        "tipo": "check",
+        "label": "Estilo de Vida"
+    },
+    "medical": {
+        "tipo": "check",
+        "label": "Médico"
+    },
+    "music": {
+        "tipo": "check",
+        "label": "Música"
+    },
+    "news_weather": {
+        "tipo": "check",
+        "label": "Notícias & Clima"
+    },
+    "personal_finance": {
+        "tipo": "check",
+        "label": "Finanças Pessoais"
+    },
+    "photography": {
+        "tipo": "check",
+        "label": "Fotografia"
+    },
+    "productivity": {
+        "tipo": "check",
+        "label": "Produtividade"
+    },
+    "reference": {
+        "tipo": "check",
+        "label": "Referência"
+    },
+    "shopping": {
+        "tipo": "check",
+        "label": "Compras"
+    },
+    "social": {
+        "tipo": "check",
+        "label": "Redes Sociais"
+    },
+    "sports": {
+        "tipo": "check",
+        "label": "Esportes"
+    },
+    "tools": {
+        "tipo": "check",
+        "label": "Ferramentas"
+    },
+    "travel": {
+        "tipo": "check",
+        "label": "Viagem"
+    },
+    "utilities": {
+        "tipo": "check",
+        "label": "Utilidades"
+    },
+    "video_players_editors": {
+        "tipo": "check",
+        "label": "Reprodutores & Editores de Vídeo"
+    },
+    "weather": {
+        "tipo": "check",
+        "label": "Clima"
+    }
+}

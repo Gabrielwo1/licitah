@@ -1,0 +1,17 @@
+{
+    "layoutcompleto":{
+        "label": "Layout botão completo",
+        "tipo": "check",
+        "descricao": "Com essa opção desativada, os botões tem um layut minimalista, com somente a logo"
+    },
+     "somentelogin":{
+        "label": "Somente login social",
+        "tipo": "check",
+        "descricao": "Será desativado qualquer outra maneira de login, a não ser a via Rede Social"
+    },
+      "somentecadastro":{
+        "label": "Somente Cadastro Social",
+        "tipo": "check",
+        "descricao": "Será desativado qualquer outra maneira de cadastro, a não ser a via Rede Social"
+    }
+}

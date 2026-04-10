@@ -1,0 +1,69 @@
+{
+    "ativar":{
+        "tipo": "check",
+        "label": "Ativar",
+        "descricao": "Ative o balão de atendimento"
+    },
+    "layout":{
+        "tipo": "select",
+        "condicional" : "ativar",
+        "descricao": "Defina o layout do Botão",
+        "label": "Layout",
+        "opcoes": [
+             {"chave": "WhatsApp", "valor": 1},
+             {"chave": "Telegram", "valor": 2},
+             {"chave": "Facebook", "valor": 3},
+             {"chave": "Instagram", "valor": 4},
+             {"chave": "Personalizado", "valor": 5}
+            ]
+    },
+    "posicao":{
+        "tipo": "select",
+        "condicional" : "ativar",
+        "descricao": "Defina a posição do Botão",
+        "label": "Posição",
+        "opcoes": [
+             {"chave": "Direita", "valor": 1},
+             {"chave": "Esquerda", "valor": 2}
+            ]
+    },
+    "modelo": {
+        "tipo": "select",
+        "condicional" : "ativar",
+        "label": "Modelo",
+        "descricao": "Defina o modelo do botão",
+          "opcoes": [
+             {"chave": "Interação", "valor": 1},
+             {"chave": "Botão Simples", "valor": 2}
+            ]
+    },
+     "atendentes": {
+        "tipo": "select",
+        "condicional" : "ativar",
+        "label": "Atendentes",
+        "descricao": "Defina o modelo de atendimento. Caso o atendimento seja único, configure o atendente 1.",
+          "opcoes": [
+             {"chave": "Único", "valor": 1},
+             {"chave": "Multiplo", "valor": 2}
+            ]
+    }, 
+    "atendente":{
+        "label": "Atendente",
+        "tipo": "select",
+        "descricao": "Selecione o atendente responsável",
+        "condicional": "atendentes",
+        "valorcondicao": 1,
+        "opcoes": [
+             {"chave": "Atendente 1", "valor": 1},
+             {"chave": "Atendente 2", "valor": 2},
+             {"chave": "Atendente 3", "valor": 2}
+            ]
+        
+    },
+    "entrada":{
+        "tipo": "check",
+        "condicional" : "ativar",
+        "label": "Aceitar Entrada de Texto",
+        "descricao": "Com essa opção ativa, o usuário poderá enviar mensagem inicial antes de ser redirecionado"
+    }
+}

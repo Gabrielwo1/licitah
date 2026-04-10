@@ -1,0 +1,16 @@
+{
+    "nome": "Habilitação",
+    "tipo": "1",
+    "id": "9Oe7yiJAb8IdWkTKRcP4ZnEeL5fnfMs8",
+    "btns": [
+        {
+            "texto": "Tabela",
+            "tipo": "1",
+            "callback": "a\/licitacoes\/habilitacoes",
+            "id": "",
+            "icone": ""
+        }
+    ],
+    "titulo": "{novo} Habilitação",
+    "breadcrumbs": false
+}

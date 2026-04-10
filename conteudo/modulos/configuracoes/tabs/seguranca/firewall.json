@@ -1,0 +1,30 @@
+{
+   "firewall":{
+       "tipo": "check",
+       "descricao": "Bloquei totalmente o acesso ao sistema e APIs de IPs indesejados.",
+       "label": "Firewall"
+   } ,
+   "listaautomatica":{
+       "label": "Adicionar automáticamente IPs suspeitos a lista negra.",
+       "tipo": "check",
+       "descricao": "O sistema irá analisar o comportamente de navegação do usuário e irá bloquea-lo automaticamente em caso de suspeita.",
+       "condicional": "firewall"
+   },
+   "desbloqueio":{
+       "label": "Permitir Desbloqueio",
+       "tipo": "check",
+       "descricao": "Permite que o usuáiro com IP bloqueado volte a acessar o sistema com base em uma interação.",
+       "condicional": "firewall"
+   },
+     "tipodedesbloqueio":{
+       "label": "Tipo de Desbloqueio",
+       "tipo": "select",
+       "descricao": "Quantidade de tentativas mal sucessidas aceitas, antes de bloquear.",
+       "condicional": "desbloqueio",
+       "opcoes": [
+           {"chave": "Google Recapcha", "valor": 1},
+           {"chave": "Resolução matematica", "valor": 2},
+           {"chave": "Formulário de Mensagem", "valor": 3}
+    ]
+   }
+}

@@ -1,0 +1,64 @@
+{
+    "banco": "analytics_abas",
+    "meta": false,
+    "prefixo": "analytics_aba",
+    "url": "1",
+    "colunas": [
+        {
+            "nome": "sessao",
+            "nulo": false,
+            "tipo": "estrangeiro",
+            "input": "PYTgTxrWN5OuOJbuUT1FRf2Pitzoy8",
+            "estrangeira": "analytics",
+            "referencia": "analytic_id"
+        },
+        {
+            "nome": "ativa",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "CTXOstIOGXvanWF5g3TeoTVayCmls2"
+        },
+        {
+            "nome": "visivel",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "CDlEEXyh55TLyvXnvoT6MrjDoVScV3"
+        },
+        {
+            "nome": "ultima",
+            "nulo": false,
+            "tipo": "data",
+            "input": "mVOJt18L8Wd1rtocCcn9k3a3fVkym2",
+            "formato": "datetime"
+        }
+    ],
+    "estrutura": {
+        "meta": false,
+        "hash": true,
+        "autor": false,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "ordenador": false,
+        "url": true,
+        "urledit": false,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false,
+        "autoria": false,
+        "wildcard": false,
+        "atributos": false,
+        "destaque": false,
+        "enderecos": false,
+        "subconta": false,
+        "desabilitarNovo": false,
+        "desabilitarEdicao": false,
+        "reordenador": false,
+        "pontos": false
+    },
+    "metas": []
+}

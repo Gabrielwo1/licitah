@@ -1,0 +1,39 @@
+{
+    "banco": "licitacoes_pesquisas",
+    "meta": false,
+    "prefixo": "licitacoes_pesquisa",
+    "url": "1",
+    "colunas": [
+        {
+            "nome": "pesquisa",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "jVHdr7KFhzaaRs5SdOiIiByc0MLfHg",
+            "size": 200
+        }
+    ],
+    "estrutura": {
+        "meta": false,
+        "hash": true,
+        "autor": true,
+        "render": false,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "url": true,
+        "urledit": false,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false,
+        "desabilitarNovo": false,
+        "desabilitarEdicao": true,
+        "reordenador": false,
+        "pontos": false
+    },
+    "metas": {
+        "GJiHeIY49TbB68p1IHAJoyqWi9RSjr": ""
+    }
+}

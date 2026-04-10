@@ -1,0 +1,440 @@
+{
+    "id": "109",
+    "nome": "Assistente Reporte",
+    "hash": "SYlGMdBVIC1Jbka",
+    "data": "2024-07-05 10:56:28",
+    "tamanho": 11,
+    "inputs": [
+        {
+            "id": "3789",
+            "tipo": "tab",
+            "nome": null,
+            "obrigatorio": "0",
+            "data": "2024-07-08 17:13:26",
+            "pai": "0",
+            "posicao": "0",
+            "hash": "4n4cQE3YTJeLx1510FIrWhYaolxpmm",
+            "infos": {
+                "botoes": {
+                    "botoes": [
+                        {
+                            "texto": "Tipo",
+                            "id": "tipo",
+                            "icone": ""
+                        },
+                        {
+                            "texto": "Descrição",
+                            "id": "descricao",
+                            "icone": ""
+                        },
+                        {
+                            "texto": "Anexo",
+                            "id": "anexos",
+                            "icone": ""
+                        }
+                    ]
+                },
+                "layout": {
+                    "alinhar": 0,
+                    "estilo": 0,
+                    "formato": 0
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": " "
+                },
+                "identificador": {
+                    "id": " ",
+                    "classes": " "
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "3786",
+            "tipo": "grupo",
+            "nome": null,
+            "obrigatorio": "0",
+            "data": "2024-07-08 17:13:26",
+            "pai": "0",
+            "posicao": "1",
+            "hash": "HjU4gpc4Gd1FrKpqkRjrk3jXpb7fbt",
+            "infos": {
+                "logica": {
+                    "logica": 0,
+                    "setup": ""
+                },
+                "identificador": {
+                    "id": "tipo",
+                    "classes": ""
+                }
+            },
+            "filhos": [
+                {
+                    "id": "3785",
+                    "tipo": "select",
+                    "nome": "Tipo",
+                    "obrigatorio": "0",
+                    "data": "2024-07-08 17:10:52",
+                    "pai": "3786",
+                    "posicao": "0",
+                    "hash": "PNOwDJ8NQcpOTzLhNz2gYmu7VOzYr8",
+                    "infos": {
+                        "basico": {
+                            "esconder-label": 0,
+                            "label": "Tipo ",
+                            "descricao": " ",
+                            "obrigatorio": 0,
+                            "select-2": 0,
+                            "somente-leitura": 0
+                        },
+                        "opcoes": {
+                            "multiplo": 0,
+                            "opcoes": [
+                                {
+                                    "nome": "Bug",
+                                    "valor": "Bug",
+                                    "selecionado": false
+                                },
+                                {
+                                    "nome": "Melhoria",
+                                    "valor": "Melhoria",
+                                    "selecionado": false
+                                },
+                                {
+                                    "nome": "Sugestão",
+                                    "valor": "Sugestão",
+                                    "selecionado": false
+                                }
+                            ]
+                        },
+                        "dinamica": {
+                            "opcoes-dinamicas": 0,
+                            "configuracoes": " "
+                        },
+                        "estilo": {
+                            "estilo": 0,
+                            "tamanho-do-input": 0
+                        },
+                        "label": {
+                            "placeholder": " ",
+                            "sub-label": " ",
+                            "tooltip": " "
+                        },
+                        "logica": {
+                            "logica": 0,
+                            "setup": " "
+                        },
+                        "identificador": {
+                            "id": " ",
+                            "classes": " "
+                        }
+                    },
+                    "filhos": []
+                },
+                {
+                    "id": "3788",
+                    "tipo": "select",
+                    "nome": "Foco",
+                    "obrigatorio": "0",
+                    "data": "2024-07-12 12:19:22",
+                    "pai": "3786",
+                    "posicao": "1",
+                    "hash": "YP2YNtyxf47z6T59P4WlzyWShedWXp",
+                    "infos": {
+                        "basico": {
+                            "esconder-label": 0,
+                            "label": "Foco ",
+                            "descricao": " ",
+                            "obrigatorio": 0,
+                            "select-2": 0,
+                            "somente-leitura": 0
+                        },
+                        "opcoes": {
+                            "multiplo": 0,
+                            "opcoes": [
+                                {
+                                    "nome": "Sistema",
+                                    "valor": "Sistema",
+                                    "selecionado": true
+                                },
+                                {
+                                    "nome": "Módulo",
+                                    "valor": "Módulo",
+                                    "selecionado": false
+                                }
+                            ]
+                        },
+                        "dinamica": {
+                            "opcoes-dinamicas": 0,
+                            "configuracoes": " ",
+                            "arquivo-query": "",
+                            "acao-query": ""
+                        },
+                        "estilo": {
+                            "estilo": 0,
+                            "tamanho-do-input": 0
+                        },
+                        "label": {
+                            "placeholder": " ",
+                            "sub-label": " ",
+                            "tooltip": " "
+                        },
+                        "logica": {
+                            "logica": 0,
+                            "setup": " "
+                        },
+                        "identificador": {
+                            "id": " ",
+                            "classes": " "
+                        }
+                    },
+                    "filhos": []
+                },
+                {
+                    "id": "3903",
+                    "tipo": "select",
+                    "nome": "Módulo",
+                    "obrigatorio": "0",
+                    "data": "2024-07-14 15:29:56",
+                    "pai": "3786",
+                    "posicao": "2",
+                    "hash": "m09iCtyplPRBcZQ3G7rY2uBfqJ4mGP",
+                    "infos": {
+                        "basico": {
+                            "esconder-label": 0,
+                            "label": "Módulo ",
+                            "descricao": " ",
+                            "obrigatorio": 0,
+                            "select-2": 1,
+                            "somente-leitura": 0
+                        },
+                        "opcoes": {
+                            "multiplo": 0,
+                            "opcoes": " "
+                        },
+                        "dinamica": {
+                            "opcoes-dinamicas": 2,
+                            "configuracoes": " ",
+                            "arquivo-query": "admin\/sistema.php ",
+                            "acao-query": "listarMeus ",
+                            "smart-triger": 0,
+                            "input-trigger": 0,
+                            "url-trigger": " ",
+                            "acao-trigger": " "
+                        },
+                        "estilo": {
+                            "estilo": 0,
+                            "tamanho-do-input": 0
+                        },
+                        "label": {
+                            "placeholder": " ",
+                            "sub-label": " ",
+                            "tooltip": " "
+                        },
+                        "logica": {
+                            "logica": 1,
+                            "setup": {
+                                "mostrar": "1",
+                                "todas": "1",
+                                "logicas": [
+                                    {
+                                        "i": "YP2YNtyxf47z6T59P4WlzyWShedWXp",
+                                        "r": "0",
+                                        "v": "Módulo"
+                                    }
+                                ]
+                            }
+                        },
+                        "identificador": {
+                            "id": " ",
+                            "classes": " "
+                        }
+                    },
+                    "filhos": []
+                }
+            ]
+        },
+        {
+            "id": "3790",
+            "tipo": "grupo",
+            "nome": null,
+            "obrigatorio": "0",
+            "data": "2024-07-08 17:14:23",
+            "pai": "0",
+            "posicao": "2",
+            "hash": "USSUwzxEMIhRaENTrouBSUON8k6ue0",
+            "infos": {
+                "logica": {
+                    "logica": 0,
+                    "setup": ""
+                },
+                "identificador": {
+                    "id": "descricao",
+                    "classes": ""
+                }
+            },
+            "filhos": [
+                {
+                    "id": "3791",
+                    "tipo": "text",
+                    "nome": "Título",
+                    "obrigatorio": "0",
+                    "data": "2024-07-08 17:14:32",
+                    "pai": "3790",
+                    "posicao": "0",
+                    "hash": "XFO9aabB79Qjk8P9f039ABEfu0dnaH",
+                    "infos": {
+                        "basico": {
+                            "esconder-label": 0,
+                            "label": "Título",
+                            "descricao": "",
+                            "obrigatorio": 0,
+                            "somente-leitura": 0
+                        },
+                        "estilo": {
+                            "estilo": 0,
+                            "tamanho-do-input": 0
+                        },
+                        "label": {
+                            "placeholder": "",
+                            "sub-label": "",
+                            "tooltip": ""
+                        },
+                        "validacao": {
+                            "mascara": 0
+                        },
+                        "logica": {
+                            "logica": 0,
+                            "setup": ""
+                        },
+                        "identificador": {
+                            "id": "",
+                            "classes": ""
+                        }
+                    },
+                    "filhos": []
+                },
+                {
+                    "id": "3792",
+                    "tipo": "textarea",
+                    "nome": "Descrição",
+                    "obrigatorio": "0",
+                    "data": "2024-07-08 17:14:38",
+                    "pai": "3790",
+                    "posicao": "1",
+                    "hash": "jZ1RKLcQ8n1iQgpZblKRbWlrL0zRhY",
+                    "infos": {
+                        "basico": {
+                            "esconder-label": 0,
+                            "label": "Descrição",
+                            "descricao": "",
+                            "obrigatorio": 0
+                        },
+                        "estilo": {
+                            "estilo": 0,
+                            "tamanho-do-input": 0
+                        },
+                        "label": {
+                            "placeholder": "",
+                            "sub-label": "",
+                            "tooltip": ""
+                        },
+                        "logica": {
+                            "logica": 0,
+                            "setup": ""
+                        },
+                        "identificador": {
+                            "id": "",
+                            "classes": ""
+                        }
+                    },
+                    "filhos": []
+                }
+            ]
+        },
+        {
+            "id": "3793",
+            "tipo": "grupo",
+            "nome": null,
+            "obrigatorio": "0",
+            "data": "2024-07-08 17:15:10",
+            "pai": "0",
+            "posicao": "3",
+            "hash": "6T17gZm4rMNhNakaO1hsxhWKmrvVsY",
+            "infos": {
+                "logica": {
+                    "logica": 0,
+                    "setup": ""
+                },
+                "identificador": {
+                    "id": "anexos",
+                    "classes": ""
+                }
+            },
+            "filhos": [
+                {
+                    "id": "3794",
+                    "tipo": "galeria",
+                    "nome": null,
+                    "obrigatorio": "0",
+                    "data": "2024-07-08 17:15:22",
+                    "pai": "3793",
+                    "posicao": "0",
+                    "hash": "aMSfAuraAFGpZ47WHEf2jpaQ3DJq7d",
+                    "infos": [],
+                    "filhos": []
+                }
+            ]
+        },
+        {
+            "id": "3795",
+            "tipo": "formprogress",
+            "nome": null,
+            "obrigatorio": "0",
+            "data": "2024-07-08 17:16:25",
+            "pai": "0",
+            "posicao": "4",
+            "hash": "85hv8FIHc0R1iRGrzAPlbHNpauNY4w",
+            "infos": {
+                "basico": {
+                    "alinhamento": 0,
+                    "barra-de-progresso": 1,
+                    "esconder-tabs": 0
+                },
+                "proximo": {
+                    "texto": "",
+                    "id": "",
+                    "classes": "",
+                    "icone": ""
+                },
+                "voltar": {
+                    "texto": "",
+                    "id": "",
+                    "classes": "",
+                    "icone": ""
+                },
+                "salvar": {
+                    "texto": "",
+                    "id": "",
+                    "classes": "",
+                    "icone": ""
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": ""
+                },
+                "identificador": {
+                    "id": "",
+                    "classes": ""
+                }
+            },
+            "filhos": []
+        }
+    ],
+    "infos": []
+}

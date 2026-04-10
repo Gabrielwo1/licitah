@@ -1,0 +1,640 @@
+{
+    "id": "153",
+    "nome": "Licitações Pesquisadas",
+    "hash": "bVKA8kmFR0AEO8xnHJe1MApxFLyfb0r9",
+    "data": "2024-08-08 16:58:55",
+    "tamanho": 13,
+    "inputs": [
+        {
+            "id": "4583",
+            "tipo": "coluna",
+            "nome": null,
+            "obrigatorio": "0",
+            "data": "2024-09-05 17:26:49",
+            "pai": "0",
+            "posicao": "0",
+            "hash": "NIZpPwh0jL04gCx0xHEeEJQWdpLUjj",
+            "infos": [],
+            "filhos": [
+                {
+                    "id": "4584",
+                    "tipo": "col",
+                    "nome": null,
+                    "obrigatorio": "0",
+                    "data": "2024-08-09 09:16:53",
+                    "pai": "4583",
+                    "posicao": "0",
+                    "hash": "tUMDOf5mGYSJX8X1eJYrsZkkS9F7Ib",
+                    "infos": {
+                        "layout": {
+                            "tamanho": 9
+                        },
+                        "flex": {
+                            "ativar": 0,
+                            "direcao": 1,
+                            "justify": 0,
+                            "align": 0,
+                            "gap": 0
+                        },
+                        "logica": {
+                            "logica": 0,
+                            "setup": ""
+                        },
+                        "identificador": {
+                            "id": "",
+                            "classes": ""
+                        }
+                    },
+                    "filhos": [
+                        {
+                            "id": "4595",
+                            "tipo": "text",
+                            "nome": "Número do Processo",
+                            "obrigatorio": "0",
+                            "data": "2024-09-05 17:26:50",
+                            "pai": "4584",
+                            "posicao": "0",
+                            "hash": "9dTSSiDAMj1DJVMDYiosY1oGoWIbGM",
+                            "infos": {
+                                "basico": {
+                                    "esconder-label": 0,
+                                    "label": "Número do Processo ",
+                                    "descricao": " ",
+                                    "obrigatorio": 0,
+                                    "somente-leitura": 0
+                                },
+                                "estilo": {
+                                    "estilo": 0,
+                                    "tamanho-do-input": 0
+                                },
+                                "label": {
+                                    "placeholder": " ",
+                                    "sub-label": " ",
+                                    "tooltip": " ",
+                                    "prefixo": " ",
+                                    "sufixo": " "
+                                },
+                                "valor": {
+                                    "tipo": 0,
+                                    "fixo": " ",
+                                    "dinamico": 0,
+                                    "arquivo-query": " ",
+                                    "acao-query": " "
+                                },
+                                "tamanho": {
+                                    "ativar": 0,
+                                    "maximo": " ",
+                                    "minimo": " "
+                                },
+                                "validacao": {
+                                    "mascara": 0
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": " "
+                                },
+                                "identificador": {
+                                    "id": " ",
+                                    "classes": " "
+                                }
+                            },
+                            "filhos": []
+                        },
+                        {
+                            "id": "5983",
+                            "tipo": "select",
+                            "nome": "Tarefas",
+                            "obrigatorio": "0",
+                            "data": "2024-09-05 17:27:26",
+                            "pai": "4584",
+                            "posicao": "1",
+                            "hash": "uLxqkZ1sodSzzjMoirHL4twOMRJTYE",
+                            "infos": {
+                                "basico": {
+                                    "esconder-label": 0,
+                                    "label": "Tarefas ",
+                                    "descricao": " ",
+                                    "obrigatorio": 0,
+                                    "select-2": 1,
+                                    "somente-leitura": 0,
+                                    "render": 1
+                                },
+                                "opcoes": {
+                                    "multiplo": 1,
+                                    "opcoes": " "
+                                },
+                                "dinamica": {
+                                    "smart-triger": 0,
+                                    "input-trigger": 0,
+                                    "url-trigger": " ",
+                                    "acao-trigger": " ",
+                                    "opcoes-dinamicas": 1,
+                                    "configuracoes": {
+                                        "modulo": "licitacoes",
+                                        "formulario": "aehvhDc9jPy3cx8twx0fpU55j8LNBHGY.json",
+                                        "regra": "1"
+                                    },
+                                    "arquivo-query": " ",
+                                    "acao-query": " "
+                                },
+                                "estilo": {
+                                    "estilo": 0,
+                                    "tamanho-do-input": 0
+                                },
+                                "label": {
+                                    "placeholder": " ",
+                                    "sub-label": " ",
+                                    "tooltip": " "
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": " "
+                                },
+                                "identificador": {
+                                    "id": " ",
+                                    "classes": " "
+                                }
+                            },
+                            "filhos": []
+                        },
+                        {
+                            "id": "6027",
+                            "tipo": "select",
+                            "nome": "Anotações",
+                            "obrigatorio": "0",
+                            "data": "2024-09-16 10:32:52",
+                            "pai": "4584",
+                            "posicao": "2",
+                            "hash": "wLh9RWkCy7H2bn5OecBi26hBAO0DLY",
+                            "infos": {
+                                "basico": {
+                                    "esconder-label": 0,
+                                    "label": "Anotações ",
+                                    "descricao": " ",
+                                    "obrigatorio": 0,
+                                    "select-2": 1,
+                                    "somente-leitura": 0,
+                                    "render": 1
+                                },
+                                "opcoes": {
+                                    "multiplo": 1,
+                                    "opcoes": " "
+                                },
+                                "dinamica": {
+                                    "smart-triger": 0,
+                                    "input-trigger": 0,
+                                    "url-trigger": " ",
+                                    "acao-trigger": " ",
+                                    "opcoes-dinamicas": 1,
+                                    "configuracoes": {
+                                        "modulo": "licitacoes",
+                                        "formulario": "5sWLhbCKXr0QAZcVtxKJF0tHyjbu13Pr.json",
+                                        "regra": "1"
+                                    },
+                                    "arquivo-query": " ",
+                                    "acao-query": " "
+                                },
+                                "estilo": {
+                                    "estilo": 0,
+                                    "tamanho-do-input": 0
+                                },
+                                "label": {
+                                    "placeholder": " ",
+                                    "sub-label": " ",
+                                    "tooltip": " "
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": " "
+                                },
+                                "identificador": {
+                                    "id": " ",
+                                    "classes": " "
+                                }
+                            },
+                            "filhos": []
+                        },
+                        {
+                            "id": "6142",
+                            "tipo": "select",
+                            "nome": "Anexos",
+                            "obrigatorio": "0",
+                            "data": "2024-09-16 10:33:17",
+                            "pai": "4584",
+                            "posicao": "3",
+                            "hash": "DUU1sNui1b03rbltDMBaXpUiAjTgSP",
+                            "infos": {
+                                "basico": {
+                                    "esconder-label": 0,
+                                    "label": "Anexos ",
+                                    "descricao": " ",
+                                    "obrigatorio": 0,
+                                    "select-2": 1,
+                                    "somente-leitura": 0,
+                                    "render": 1
+                                },
+                                "opcoes": {
+                                    "multiplo": 1,
+                                    "opcoes": " "
+                                },
+                                "dinamica": {
+                                    "smart-triger": 0,
+                                    "input-trigger": 0,
+                                    "url-trigger": " ",
+                                    "acao-trigger": " ",
+                                    "opcoes-dinamicas": 1,
+                                    "configuracoes": {
+                                        "modulo": "licitacoes",
+                                        "formulario": "z0n0BqbYtrfsKJkmHfd1NFEJ8vgrmlN9.json",
+                                        "regra": "1"
+                                    },
+                                    "arquivo-query": " ",
+                                    "acao-query": " "
+                                },
+                                "estilo": {
+                                    "estilo": 0,
+                                    "tamanho-do-input": 0
+                                },
+                                "label": {
+                                    "placeholder": " ",
+                                    "sub-label": " ",
+                                    "tooltip": " "
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": " "
+                                },
+                                "identificador": {
+                                    "id": " ",
+                                    "classes": " "
+                                }
+                            },
+                            "filhos": []
+                        },
+                        {
+                            "id": "6181",
+                            "tipo": "select",
+                            "nome": "Habilitações",
+                            "obrigatorio": "0",
+                            "data": "2024-09-17 12:37:02",
+                            "pai": "4584",
+                            "posicao": "4",
+                            "hash": "qyzdO7EeuXzeXP7AycaK0fJSL1cSnW",
+                            "infos": {
+                                "basico": {
+                                    "esconder-label": 0,
+                                    "label": "Habilitações ",
+                                    "descricao": " ",
+                                    "obrigatorio": 0,
+                                    "select-2": 1,
+                                    "somente-leitura": 0,
+                                    "render": 1
+                                },
+                                "opcoes": {
+                                    "multiplo": 1,
+                                    "opcoes": " "
+                                },
+                                "dinamica": {
+                                    "smart-triger": 0,
+                                    "input-trigger": 0,
+                                    "url-trigger": " ",
+                                    "acao-trigger": " ",
+                                    "opcoes-dinamicas": 1,
+                                    "configuracoes": {
+                                        "modulo": "licitacoes",
+                                        "formulario": "9Oe7yiJAb8IdWkTKRcP4ZnEeL5fnfMs8.json",
+                                        "regra": "1"
+                                    },
+                                    "arquivo-query": " ",
+                                    "acao-query": " "
+                                },
+                                "estilo": {
+                                    "estilo": 0,
+                                    "tamanho-do-input": 0
+                                },
+                                "label": {
+                                    "placeholder": " ",
+                                    "sub-label": " ",
+                                    "tooltip": " "
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": " "
+                                },
+                                "identificador": {
+                                    "id": " ",
+                                    "classes": " "
+                                }
+                            },
+                            "filhos": []
+                        }
+                    ]
+                },
+                {
+                    "id": "4585",
+                    "tipo": "col",
+                    "nome": null,
+                    "obrigatorio": "0",
+                    "data": "2024-08-09 09:16:53",
+                    "pai": "4583",
+                    "posicao": "1",
+                    "hash": "dcklRtmzZKGMa0BNgzVXetqFivjlJo",
+                    "infos": {
+                        "layout": {
+                            "tamanho": 3
+                        },
+                        "flex": {
+                            "ativar": 0,
+                            "direcao": 1,
+                            "justify": 0,
+                            "align": 0,
+                            "gap": 0
+                        },
+                        "logica": {
+                            "logica": 0,
+                            "setup": ""
+                        },
+                        "identificador": {
+                            "id": "",
+                            "classes": ""
+                        }
+                    },
+                    "filhos": [
+                        {
+                            "id": "8551",
+                            "tipo": "select",
+                            "nome": "Usuários",
+                            "obrigatorio": "0",
+                            "data": "2024-12-23 12:47:54",
+                            "pai": "4585",
+                            "posicao": "0",
+                            "hash": "ttL6TZd3UOHOzUd3oZowBN7HEIhtUf",
+                            "infos": {
+                                "basico": {
+                                    "esconder-label": 0,
+                                    "label": "Usuários ",
+                                    "descricao": " ",
+                                    "obrigatorio": 0,
+                                    "render": 1,
+                                    "somente-leitura": 0
+                                },
+                                "opcoes": {
+                                    "multiplo": 1,
+                                    "opcoes": " "
+                                },
+                                "dinamica": {
+                                    "smart-triger": 0,
+                                    "input-trigger": 0,
+                                    "url-trigger": " ",
+                                    "acao-trigger": " ",
+                                    "opcoes-dinamicas": 1,
+                                    "configuracoes": {
+                                        "modulo": "usuarios",
+                                        "formulario": "aY4O9kcLpNMpbiD.json",
+                                        "regra": "1"
+                                    },
+                                    "arquivo-query": " ",
+                                    "acao-query": " "
+                                },
+                                "estilo": {
+                                    "estilo": 0,
+                                    "tamanho-do-input": 0
+                                },
+                                "label": {
+                                    "placeholder": " ",
+                                    "sub-label": " ",
+                                    "tooltip": " "
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": " "
+                                },
+                                "identificador": {
+                                    "id": " ",
+                                    "classes": " "
+                                },
+                                "nown": {
+                                    "ativo": 0,
+                                    "modulo": " ",
+                                    "paginacao": " ",
+                                    "chave": " ",
+                                    "valor": " "
+                                }
+                            },
+                            "filhos": []
+                        },
+                        {
+                            "id": "4587",
+                            "tipo": "autor",
+                            "nome": null,
+                            "obrigatorio": "0",
+                            "data": "2024-09-05 16:17:18",
+                            "pai": "4585",
+                            "posicao": "1",
+                            "hash": "4JkrLe7Rk9iIATXCdyYEz9qNPWnlFL",
+                            "infos": [],
+                            "filhos": []
+                        },
+                        {
+                            "id": "8552",
+                            "tipo": "select",
+                            "nome": "Empresa",
+                            "obrigatorio": "0",
+                            "data": "2024-12-23 12:48:13",
+                            "pai": "4585",
+                            "posicao": "1",
+                            "hash": "Bc9p3PJVII96PuaFkw17lkRB28iYBX",
+                            "infos": {
+                                "basico": {
+                                    "esconder-label": 0,
+                                    "label": "Empresa",
+                                    "descricao": "",
+                                    "obrigatorio": 0,
+                                    "render": 0,
+                                    "somente-leitura": 0
+                                },
+                                "opcoes": {
+                                    "multiplo": 0,
+                                    "opcoes": ""
+                                },
+                                "dinamica": {
+                                    "smart-triger": 0,
+                                    "input-trigger": 0,
+                                    "url-trigger": "",
+                                    "acao-trigger": "",
+                                    "opcoes-dinamicas": 1,
+                                    "configuracoes": {
+                                        "modulo": "empresas",
+                                        "formulario": "9mX3WKIb9DI9qEW.json",
+                                        "regra": "1"
+                                    },
+                                    "arquivo-query": "",
+                                    "acao-query": ""
+                                },
+                                "estilo": {
+                                    "estilo": 0,
+                                    "tamanho-do-input": 0
+                                },
+                                "label": {
+                                    "placeholder": "",
+                                    "sub-label": "",
+                                    "tooltip": ""
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": ""
+                                },
+                                "identificador": {
+                                    "id": "",
+                                    "classes": ""
+                                },
+                                "nown": {
+                                    "ativo": 0,
+                                    "modulo": "",
+                                    "paginacao": "",
+                                    "chave": "",
+                                    "valor": ""
+                                }
+                            },
+                            "filhos": []
+                        },
+                        {
+                            "id": "4586",
+                            "tipo": "select",
+                            "nome": "Licitação Vinculada",
+                            "obrigatorio": "0",
+                            "data": "2024-12-23 12:47:54",
+                            "pai": "4585",
+                            "posicao": "2",
+                            "hash": "83plRhpgwsijwxyIS5RZEbWKyUJ5PR",
+                            "infos": {
+                                "basico": {
+                                    "esconder-label": 0,
+                                    "label": "Licitação Vinculada ",
+                                    "descricao": " ",
+                                    "obrigatorio": 0,
+                                    "select-2": 1,
+                                    "somente-leitura": 1,
+                                    "render": 1
+                                },
+                                "opcoes": {
+                                    "multiplo": 0,
+                                    "opcoes": " "
+                                },
+                                "dinamica": {
+                                    "opcoes-dinamicas": 1,
+                                    "configuracoes": {
+                                        "modulo": "licitacoes",
+                                        "formulario": "LFqWUIYwMvqzYEeha6p6nGuhRElyfct4.json",
+                                        "regra": "1"
+                                    },
+                                    "arquivo-query": " ",
+                                    "acao-query": " ",
+                                    "smart-triger": 0,
+                                    "input-trigger": 0,
+                                    "url-trigger": " ",
+                                    "acao-trigger": " "
+                                },
+                                "estilo": {
+                                    "estilo": 0,
+                                    "tamanho-do-input": 0
+                                },
+                                "label": {
+                                    "placeholder": " ",
+                                    "sub-label": " ",
+                                    "tooltip": " "
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": " "
+                                },
+                                "identificador": {
+                                    "id": " ",
+                                    "classes": " "
+                                }
+                            },
+                            "filhos": []
+                        },
+                        {
+                            "id": "4588",
+                            "tipo": "cardSalvar",
+                            "nome": "",
+                            "obrigatorio": "0",
+                            "data": "2024-09-05 16:17:18",
+                            "pai": "4585",
+                            "posicao": "2",
+                            "hash": "OwlQx8Xsy4CG8JlwQVKYzN0jYXK7vY",
+                            "infos": {
+                                "basico": {
+                                    "label": "",
+                                    "recolhivel": 0,
+                                    "fixar-no-rodape-mobile": 0,
+                                    "fixar-no-rodape-pc": 0
+                                },
+                                "funcoes": {
+                                    "desabilitar-status": 1,
+                                    "desabilitar-vizibilidade": 1,
+                                    "desabilitar-agendados": 1
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": ""
+                                },
+                                "identificador": {
+                                    "id": "",
+                                    "classes": ""
+                                }
+                            },
+                            "filhos": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "infos": {
+        "basico": {
+            "label": "Vinculo         ",
+            "descricao": "         ",
+            "obrigatorio": 1
+        },
+        "opcoes": {
+            "multiplo": 0,
+            "opcoes": [
+                {
+                    "nome": "Eu mesmo",
+                    "valor": "Eu mesmo",
+                    "selecionado": false
+                },
+                {
+                    "nome": "Pai\/mãe",
+                    "valor": "Pai\/mãe",
+                    "selecionado": false
+                },
+                {
+                    "nome": "Filho(a)",
+                    "valor": "Filho(a)",
+                    "selecionado": false
+                },
+                {
+                    "nome": "Outro",
+                    "valor": "Outro",
+                    "selecionado": false
+                }
+            ]
+        },
+        "estilo": {
+            "estilo": 0,
+            "tamanho-do-input": 0
+        },
+        "label": {
+            "placeholder": "         ",
+            "sub-label": "         ",
+            "tooltip": "         "
+        },
+        "logica": {
+            "logica": 0,
+            "setup": "         "
+        }
+    }
+}

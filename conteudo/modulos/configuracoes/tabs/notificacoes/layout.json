@@ -1,0 +1,79 @@
+{
+    "bg":{
+       "label": "Background Cor",
+       "tipo": "color",
+       "descricao": "Defina uma cor de fundo para o cabeçalho do email"
+    },
+    "logo":{
+       "label": "Logo Email",
+       "tipo": "file",
+       "descricao": "Defina a logo que será enviada no e-mail"
+    },
+     "tamanhoimg":{
+       "label": "Tamanho da Imagem",
+       "tipo": "number",
+       "descricao": "Defina o tamanho da imagem em pixels"
+    },
+    "empresa":{
+       "label": "Nome da Empresa",
+       "tipo": "input",
+       "descricao": "Descritivo da empresa"
+    },
+    "mensagem":{
+       "label": "Mensagem de Rodapé",
+       "tipo": "textarea",
+       "descricao": "Definauma mensagem de rodapé"
+    },
+    "link1":{
+       "label": "Link de Rodapé 1",
+       "tipo": "check",
+       "descricao": "Adicionar Link de Rodapé"
+    },
+     "texto1":{
+       "label": "Texto Link 1",
+       "tipo": "input",
+       "descricao": "Adicionar Link de Rodapé",
+       "condicional": "link1"
+    },
+     "url1":{
+       "label": "Url Link 1",
+       "tipo": "input",
+       "descricao": "Adicionar Link de Rodapé",
+       "condicional": "link1"
+    },
+    "link2":{
+       "label": "Link de Rodapé 2",
+       "tipo": "check",
+       "descricao": "Adicionar Link de Rodapé"
+    },
+ 
+     "texto2":{
+       "label": "Texto Link 2",
+       "tipo": "input",
+       "descricao": "Adicionar Link de Rodapé",
+       "condicional": "link2"
+    },
+     "url2":{
+       "label": "Url Link 2",
+       "tipo": "input",
+       "descricao": "Adicionar Link de Rodapé",
+       "condicional": "link2"
+    },
+    "link3":{
+       "label": "Link de Rodapé 3",
+       "tipo": "check",
+       "descricao": "Adicionar Link de Rodapé"
+    },
+     "texto3":{
+       "label": "Texto Link 3",
+       "tipo": "input",
+       "descricao": "Adicionar Link de Rodapé",
+       "condicional": "link3"
+    },
+     "url3":{
+       "label": "Url Link 3",
+       "tipo": "input",
+       "descricao": "Adicionar Link de Rodapé",
+       "condicional": "link3"
+    }
+}

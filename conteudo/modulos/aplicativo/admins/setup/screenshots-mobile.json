@@ -1,0 +1,52 @@
+{
+  "imagem1": {
+    "tipo": "file",
+    "label": "Captura de Tela 1",
+    "descricao": "Envie a primeira imagem do aplicativo (screenshot)."
+  },
+  "imagem2": {
+    "tipo": "file",
+    "label": "Captura de Tela 2",
+    "descricao": "Envie a segunda imagem do aplicativo (screenshot)."
+  },
+  "imagem3": {
+    "tipo": "file",
+    "label": "Captura de Tela 3",
+    "descricao": "Envie a terceira imagem do aplicativo (screenshot)."
+  },
+  "imagem4": {
+    "tipo": "file",
+    "label": "Captura de Tela 4",
+    "descricao": "Envie a quarta imagem do aplicativo (screenshot)."
+  },
+  "imagem5": {
+    "tipo": "file",
+    "label": "Captura de Tela 5",
+    "descricao": "Envie a quinta imagem do aplicativo (screenshot)."
+  },
+  "imagem6": {
+    "tipo": "file",
+    "label": "Captura de Tela 6",
+    "descricao": "Envie a sexta imagem do aplicativo (screenshot)."
+  },
+  "imagem7": {
+    "tipo": "file",
+    "label": "Captura de Tela 7",
+    "descricao": "Envie a sétima imagem do aplicativo (screenshot)."
+  },
+  "imagem8": {
+    "tipo": "file",
+    "label": "Captura de Tela 8",
+    "descricao": "Envie a oitava imagem do aplicativo (screenshot)."
+  },
+  "imagem9": {
+    "tipo": "file",
+    "label": "Captura de Tela 9",
+    "descricao": "Envie a nona imagem do aplicativo (screenshot)."
+  },
+  "imagem10": {
+    "tipo": "file",
+    "label": "Captura de Tela 10",
+    "descricao": "Envie a décima imagem do aplicativo (screenshot)."
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "nome": "Classes",
+    "tipo": "2",
+    "id": "QahZd8fdgcxPLZG",
+    "btns": [
+        {
+            "texto": "Adicionar Classe",
+            "tipo": "1",
+            "callback": "a\/licitacoes\/classes",
+            "id": "",
+            "icone": ""
+        }
+    ],
+    "titulo": "Todas as Classes",
+    "breadcrumbs": false
+}

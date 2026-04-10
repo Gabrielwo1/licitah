@@ -1,0 +1,16 @@
+{
+    "nome": "Associação",
+    "tipo": "1",
+    "id": "Sqv2C661j9gjgpt",
+    "btns": [
+        {
+            "texto": "Todas Associações",
+            "tipo": "1",
+            "callback": "a\/enderecos\/associacoes",
+            "id": "",
+            "icone": "bi bi-list-check"
+        }
+    ],
+    "titulo": "{novo} Associação ",
+    "breadcrumbs": true
+}

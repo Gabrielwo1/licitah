@@ -1,0 +1,25 @@
+{
+  "ativo": {
+    "tipo": "check",
+    "descricao": "Habilite o login e cadastro usando o Twitter",
+    "label": "Logar com o Twitter"
+  },
+  "api_key": {
+    "tipo": "INPUT",
+    "label": "API Key",
+    "descricao": "Chave da API obtida no Twitter Developer Portal.",
+    "condicional": "ativo"
+  },
+  "api_secret_key": {
+    "tipo": "INPUT",
+    "label": "API Secret Key",
+    "descricao": "Chave secreta da API obtida no Twitter Developer Portal.",
+    "condicional": "ativo"
+  },
+  "redirect_uri": {
+    "tipo": "INPUT",
+    "label": "Redirect URI",
+    "descricao": "A URL para onde o usuário será redirecionado após a autenticação.",
+    "condicional": "ativo"
+  }
+}

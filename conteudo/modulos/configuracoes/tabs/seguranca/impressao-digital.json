@@ -1,0 +1,11 @@
+{
+    "Logue usando a impressão Digital":{
+        "tipo":"titulo",
+        "subtitulo": "O usuário precisará habilitar a funcionalidade antes de proseguir"
+    },
+    "ativo":{
+        "tipo": "check",
+        "label": "Ativo",
+        "descricao": "Com essa opção ativa, os usuários poderão validar seu login com digital"
+    }
+}

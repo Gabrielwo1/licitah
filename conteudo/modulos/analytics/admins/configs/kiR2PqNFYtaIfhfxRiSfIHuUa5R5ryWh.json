@@ -1,0 +1,89 @@
+{
+    "banco": "analytics_extra",
+    "meta": false,
+    "prefixo": "analex",
+    "url": false,
+    "colunas": [
+        {
+            "nome": "tipo",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "ke5Qw7jFXBrEeRuZzj32yfbigfm8kY",
+            "size": 10
+        },
+        {
+            "nome": "dispositivo",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "67FIHK7joH3J6UwNLL8QHlWouGDZnC"
+        },
+        {
+            "nome": "rtt",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "nuXVZrgfbprH7GBCLqtGLY3jMTLfQe"
+        },
+        {
+            "nome": "carregando",
+            "nulo": false,
+            "tipo": "boolean",
+            "unico": false,
+            "input": "ip5YEKuogM4AkcQ9TAx5gIjqAdfUNc"
+        },
+        {
+            "nome": "nivel",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "tMhlUhYVk93FBHJmKISmwERdXFkHtH"
+        },
+        {
+            "nome": "latitude",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "E8t8NXCqcmRtCXlThYHmHKXMwgBKn3",
+            "size": 10
+        },
+        {
+            "nome": "longitude",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "f6buqxKzhlJIgaHDEQPfbFaLiMOCP9",
+            "size": 10
+        },
+        {
+            "nome": "velocidade",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "wgx5irFKXk2xriuaqbFMMCjcHnfKgP"
+        }
+    ],
+    "estrutura": {
+        "meta": false,
+        "hash": false,
+        "autor": false,
+        "render": false,
+        "dataCriacao": false,
+        "dataUpdate": false,
+        "ordenador": false,
+        "url": false,
+        "urledit": false,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false,
+        "desabilitarNovo": false,
+        "desabilitarEdicao": false,
+        "reordenador": false,
+        "pontos": false
+    },
+    "metas": []
+}

@@ -1,0 +1,21 @@
+{   
+    "Integrações de Frete":{
+        "tipo": "titulo",
+        "subtitulo": "Permita que o sistema tenha funcionalidades de frete próprio, baseado em cliente para cliente."
+    },
+    "correios":{
+        "tipo": "check",
+        "label": "Correios",
+        "descricao": "Permita que os usuários integrem os Correios ao sistema."
+    },
+    "melhorenvios":{
+        "tipo": "check",
+        "label": "Melhor Envios",
+        "descricao": "Permita que os usuários integrem os Melhor Envios ao sistema."
+    },
+    "loggi":{
+        "tipo": "check",
+        "label": "Loggi",
+        "descricao": "Permita que os usuários integrem os Loggi ao sistema."
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "nome": "Quantide Pedidos",
+    "tipoGrafico": "numerico",
+    "graficoPrimario": "",
+    "bancoDeDados": "Cyrv1bcxbsbHpSh",
+    "colunaData": "data",
+    "filtro": "1",
+    "grafico": {
+        "subtipo": "medicao",
+        "referencia": "",
+        "agrupamento": "1",
+        "coluna": ""
+    },
+    "layout": {
+        "primario": "",
+        "periodoinicial": "Último Mês",
+        "titulo": "Total Pedidos",
+        "alteralayout": true,
+        "selecionarperiodo": false,
+        "drop": false,
+        "horas": false
+    },
+    "extra": {
+        "layout": "2",
+        "bg": "#000000",
+        "color": "#000000",
+        "prefixo": "",
+        "sufixo": "",
+        "listaCores": "bg-purple"
+    },
+    "condicional": {
+        "ativo": "0",
+        "coluna": "",
+        "tipo": "=",
+        "valor": ""
+    }
+}

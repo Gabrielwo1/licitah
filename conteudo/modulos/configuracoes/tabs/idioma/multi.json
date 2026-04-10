@@ -1,0 +1,39 @@
+{
+  "multi": {
+    "tipo": "check",
+    "label": "Ativar Sistema Multi Language",
+    "descricao": "Permita aos usuários trocarem os idiomas do sistema"
+  },
+  "idiomas":{
+      "label": "Defina os idiomas secundários do sistema",
+      "tipo": "input",
+      "condicional": "multi",
+      "taglify": true,
+    "opcoes": [
+      {"value": "Português", "code": "pt-BR"},
+      {"value": "Inglês", "code": "en"},
+      {"value": "Espanhol", "code": "es"},
+      {"value": "Francês", "code": "fr"},
+      {"value": "Alemão", "code": "de"},
+      {"value": "Chinês", "code": "zh"},
+      {"value": "Árabe", "code": "ar"},
+      {"value": "Russo", "code": "ru"},
+      {"value": "Japonês", "code": "ja"},
+      {"value": "Hindi", "code": "hi"},
+      {"value": "Bengali", "code": "bn"},
+      {"value": "Urdu", "code": "ur"},
+      {"value": "Coreano", "code": "ko"},
+      {"value": "Italiano", "code": "it"},
+      {"value": "Holandês", "code": "nl"},
+      {"value": "Grego", "code": "el"},
+      {"value": "Turco", "code": "tr"},
+      {"value": "Sueco", "code": "sv"},
+      {"value": "Norueguês", "code": "no"},
+      {"value": "Finlandês", "code": "fi"},
+      {"value": "Polonês", "code": "pl"},
+      {"value": "Tailandês", "code": "th"},
+      {"value": "Hebraico", "code": "he"},
+      {"value": "Indonésio", "code": "id"}
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+    "nome": "enderecos por id",
+    "banco": "zbgv0KoTqAmJ8lS",
+    "tipo": 1,
+    "subtipo": 2,
+    "itens": [
+        {
+            "nome": "cep",
+            "banco": "p",
+            "chave": "cep"
+        },
+        {
+            "nome": "nome",
+            "banco": "p",
+            "chave": "nome"
+        },
+        {
+            "nome": "rua",
+            "banco": "p",
+            "chave": "rua"
+        },
+        {
+            "nome": "numero",
+            "banco": "p",
+            "chave": "numero"
+        },
+        {
+            "nome": "complemento",
+            "banco": "p",
+            "chave": "complemento"
+        },
+        {
+            "nome": "bairro",
+            "banco": "p",
+            "chave": "bairro"
+        },
+        {
+            "nome": "cidade",
+            "banco": "p",
+            "chave": "cidade"
+        },
+        {
+            "nome": "uf",
+            "banco": "p",
+            "chave": "uf"
+        },
+        {
+            "nome": "hash",
+            "banco": "p",
+            "chave": "hash"
+        }
+    ]
+}

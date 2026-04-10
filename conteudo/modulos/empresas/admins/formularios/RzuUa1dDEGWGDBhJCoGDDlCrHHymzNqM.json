@@ -1,0 +1,99 @@
+{
+    "id": "362",
+    "nome": "Empresas Modal 2",
+    "hash": "RzuUa1dDEGWGDBhJCoGDDlCrHHymzNqM",
+    "data": "2025-01-30 11:38:07",
+    "tamanho": 2,
+    "inputs": [
+        {
+            "id": "9276",
+            "tipo": "text",
+            "nome": "CNPJ",
+            "obrigatorio": "0",
+            "data": "2025-01-30 11:38:35",
+            "pai": "0",
+            "posicao": "0",
+            "hash": "EBAiUe8B0ToeFHoitZBpEYkXEQARzj",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": "CNPJ",
+                    "descricao": "",
+                    "obrigatorio": 0,
+                    "somente-leitura": 0
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": "",
+                    "sub-label": "",
+                    "tooltip": "",
+                    "prefixo": "",
+                    "sufixo": ""
+                },
+                "valor": {
+                    "tipo": 0,
+                    "fixo": "",
+                    "dinamico": 0,
+                    "arquivo-query": "",
+                    "acao-query": ""
+                },
+                "tamanho": {
+                    "ativar": 0,
+                    "maximo": "",
+                    "minimo": ""
+                },
+                "validacao": {
+                    "mascara": 2
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": ""
+                },
+                "identificador": {
+                    "id": "",
+                    "classes": ""
+                },
+                "nown": {
+                    "ativo": 0,
+                    "modulo": "",
+                    "paginacao": "",
+                    "chave": "",
+                    "valor": ""
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "9278",
+            "tipo": "formprogress",
+            "nome": null,
+            "obrigatorio": "0",
+            "data": "2025-01-30 11:38:54",
+            "pai": "0",
+            "posicao": "1",
+            "hash": "2YfKs0pGTNWviA90oinb6VJ91OpqY4",
+            "infos": [],
+            "filhos": []
+        }
+    ],
+    "infos": {
+        "basico": {
+            "esconder-label": 0,
+            "label": "Informações adicionais, caso houver",
+            "descricao": "",
+            "obrigatorio": 0
+        },
+        "label": {
+            "placeholder": "",
+            "sub-label": "",
+            "tooltip": ""
+        },
+        "logica": {
+            "logica": 0,
+            "setup": ""
+        }
+    }
+}

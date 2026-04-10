@@ -1,0 +1,16 @@
+{
+    "nome": "Ponto",
+    "tipo": "1",
+    "id": "18mQ9mjt3eo1wfMPfcJMeidBjIhWu5rQ",
+    "btns": [
+        {
+            "texto": "Ver Todos",
+            "tipo": "1",
+            "callback": "a\/pagamento\/pontos",
+            "id": "",
+            "icone": ""
+        }
+    ],
+    "titulo": "{novo} Sitema de Pontos",
+    "breadcrumbs": true
+}

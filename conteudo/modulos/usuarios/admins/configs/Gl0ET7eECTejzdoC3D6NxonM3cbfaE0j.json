@@ -1,0 +1,51 @@
+{
+    "banco": "funcoes",
+    "meta": false,
+    "prefixo": "funcao",
+    "url": "1",
+    "colunas": [
+        {
+            "nome": "nome",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "5pKgiNDYDEJPRVVryg3vgVd0qYgMHS",
+            "size": 200
+        },
+        {
+            "nome": "tipo",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "SzEdOjDXZZrSeDOfYK5gCfDfC8gQFK"
+        },
+        {
+            "nome": "apagavel",
+            "nulo": false,
+            "tipo": "boolean",
+            "unico": false,
+            "input": "61H9CwzPevv6EFVm4mW5B6LYT01QmM"
+        }
+    ],
+    "estrutura": {
+        "meta": false,
+        "hash": true,
+        "autor": true,
+        "render": false,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "url": true,
+        "urledit": false,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false,
+        "desabilitarNovo": false,
+        "desabilitarEdicao": false,
+        "reordenador": false,
+        "pontos": false
+    },
+    "metas": []
+}

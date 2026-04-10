@@ -1,0 +1,20 @@
+{
+    "nome": "Licitação Habilitação",
+    "tipo": "1",
+    "acao": "tUfJCgvdQf2tI5KiQulLqiACBV11O6zQ",
+    "callback": "",
+    "tamanho": "md",
+    "modal": {
+        "titulo": "Nova Habilitação",
+        "icone": ""
+    },
+    "redirecionar": "1",
+    "redirecionarTipo": "1",
+    "redirCb": "a\/licitacoes\/documento",
+    "fecharTopo": true,
+    "fecharFooter": true,
+    "logotipo": true,
+    "centralizar": true,
+    "clickout": true,
+    "container": false
+}

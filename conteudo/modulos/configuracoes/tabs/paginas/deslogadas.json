@@ -1,0 +1,50 @@
+{
+    "deslogadas": {
+      "tipo": "check",
+      "descricao": "Mostrar páginas para usuários que não estão logados",
+      "label": "Área de Deslogados"
+    },
+    "lateral": {
+      "tipo": "check",
+      "descricao": "Ativar menu Lateral para usuários logados",
+      "label": "Menu Lateral"
+    },
+    "menulateral": {
+      "tipo": "select",
+      "name": "menuLateral",
+      "label": "Menu Lateral",
+      "dinamico": true,
+      "foco": "menus,menu_id,menu_nome",
+      "condicional": "lateral"
+    },
+    "topo": {
+      "tipo": "check",
+      "descricao": "Ativar menu de topo para usuários logados",
+      "label": "Menu Topo"
+    },
+    "menutopo": {
+      "tipo": "select",
+      "name": "menuTopo",
+      "label": "Menu Topo",
+      "dinamico": true,
+       "foco": "menus,menu_id,menu_nome",
+       "condicional": "topo"
+      
+    },
+    "rodape": {
+      "tipo": "check",
+      "descricao": "Ativar menu de topo para usuários logados",
+      "label": "Menu Rodapé"
+    },
+    "menufooter": {
+      "tipo": "select",
+      "name": "menuFooter",
+      "label": "Menu Rodapé",
+      "dinamico": true,
+       "foco": "menus,menu_id,menu_nome",
+       "condicional": "rodape"
+    }
+  }
+
+
+

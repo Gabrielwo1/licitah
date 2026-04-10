@@ -1,0 +1,57 @@
+{   
+    "cartao":{
+         "tipo":"check",
+         "label": "Aceitar Cartão de Crédito",
+         "descricao": "Ative o recebimento usando cartão de crédito"
+      },
+    "processadorcartao":{
+         "tipo":"select",
+         "label": "Processador de Cartão de Crédito",
+         "descricao": "Selecione o processador de cartão de crédito",
+         "condicional": "cartao",
+            "opcoes": [
+      {"chave": "Nown Pay", "valor": "nown"},
+      {"chave": "Pagbank (PagSeguro)", "valor": "pagabank"},
+      {"chave": "Mercado Pago", "valor": "mercadopago"},
+      {"chave": "Efi (Gerencia Net)", "valor": "efi"},
+      {"chave": "Asaas", "valor": "asaas"},
+      {"chave": "Skril", "valor": "skril"},
+      {"chave": "Stripe", "valor": "stripe"},
+      {"chave": "Payoneer", "valor": "payoneer"}
+    ]
+      },
+    "pix":{
+        "label": "Aceitar Pix",
+        "tipo":"check",
+         "descricao": "Ao ativar essa opção as tranzações serão cobradas verdadeiramente."
+      },
+    "processadorpix":{
+         "tipo":"select",
+         "label": "Processador de Pix",
+         "descricao": "Selecione o processador de PIX",
+         "condicional": "pix",
+            "opcoes": [
+      {"chave": "Nown Pay", "valor": "nown"},
+      {"chave": "PagBank (PagSeguro)", "valor": "pagabank"},
+      {"chave": "Mercado Pago", "valor": "mercadopago"},
+      {"chave": "Efi (Gerencia Net)", "valor": "efi"},
+      {"chave": "Asaas", "valor": "asaas"}
+    ]
+      },
+      
+    "paypal":{
+        "label": "Aceitar Paypal",
+        "tipo":"check",
+         "descricao": "Aceite tranzações feitas pelo Paypal." 
+      },
+      "hotmart":{
+        "label": "Pagamento via Hotmart",
+        "tipo":"check",
+         "descricao": "Aceite pagamentos usando o checkout Hotmart." 
+    },
+        "administrador":{
+        "label": "Administradores podem pagar automaticamente",
+        "tipo":"check",
+         "descricao": "Administradores poderam pagar sem dinheiro e com um clique." 
+      }
+}

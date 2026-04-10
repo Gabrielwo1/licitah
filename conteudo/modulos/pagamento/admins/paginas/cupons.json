@@ -1,0 +1,16 @@
+{
+    "nome": "Cupons",
+    "tipo": "2",
+    "id": "t49hya7bw4FqzYu",
+    "btns": [
+        {
+            "texto": "Adicionar Novo",
+            "tipo": "1",
+            "callback": "a\/pagamento\/cupom",
+            "id": "",
+            "icone": ""
+        }
+    ],
+    "titulo": "Todos os Cupons",
+    "breadcrumbs": true
+}

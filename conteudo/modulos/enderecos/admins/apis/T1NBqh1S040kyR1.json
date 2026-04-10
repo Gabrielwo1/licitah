@@ -1,0 +1,67 @@
+{
+    "nome": "pegar cidades por slug",
+    "banco": "7GkndhCWoZq3gvW9vQ0BP2qUn2Yc5vD2",
+    "tipo": 2,
+    "subtipo": 1,
+    "itens": [
+        {
+            "nome": "id",
+            "banco": "p",
+            "chave": "id",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "pais",
+            "banco": "p",
+            "chave": "pais",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "nome",
+            "banco": "p",
+            "chave": "nome",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "estado",
+            "banco": "p",
+            "chave": "estado",
+            "estrangeiro": 1,
+            "setupEstrangeira": {
+                "modulo": "enderecos",
+                "banco": "lDW1NdhVB5LGHSoVcgBULRM6VBI2m7P0.json",
+                "metas": [],
+                "principal": [
+                    "nome",
+                    "externo",
+                    "codigo",
+                    "pais",
+                    "slug"
+                ]
+            }
+        },
+        {
+            "nome": "slug",
+            "banco": "p",
+            "chave": "slug",
+            "estrangeiro": 0
+        }
+    ],
+    "number": {
+        "comentarios": false,
+        "reacoes": false,
+        "favoritos": false,
+        "visualizacoes": false
+    },
+    "extra": {
+        "ativo": true,
+        "coluna": "slug",
+        "tipo": "="
+    },
+    "clone": {
+        "ativo": false,
+        "api": ""
+    },
+    "geolocalizacao": false,
+    "subconta": false
+}

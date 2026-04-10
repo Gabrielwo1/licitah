@@ -1,0 +1,611 @@
+.cardTabela{
+            height: calc(100% - 100px);
+            display: flex;
+            flex-direction: column;
+            background-color: var(--bs-body-bg);
+                    border-radius: 20px;
+
+            .tabela-header{
+                    padding: 16px 16px;
+                    height: 46px;
+            }
+            
+            .tabela-body {
+    flex: 1 1 auto;
+    overflow: auto;
+
+
+    /* Personalização geral da barra de rolagem */
+    scrollbar-width: thin; /* Para Firefox */
+    scrollbar-color: #888 #f1f1f1; /* Para Firefox (barra e fundo) */
+}
+
+/* Para navegadores baseados em WebKit */
+.tabela-body::-webkit-scrollbar {
+    width: 8px; /* Largura da barra de rolagem vertical */
+    height: 8px; /* Altura da barra de rolagem horizontal */
+}
+
+.tabela-body::-webkit-scrollbar-thumb {
+    background-color: #888; /* Cor da barra */
+    border-radius: 4px; /* Arredondamento da barra */
+}
+
+.tabela-body::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Cor da barra ao passar o mouse */
+}
+
+.tabela-body::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Cor de fundo do trilho */
+    border-radius: 4px; /* Arredondamento do trilho */
+}
+     
+     .tabela-body::-webkit-scrollbar-button {
+    display: none;
+}       
+            
+            
+            .tabela-footer{
+                .conteudo{
+                    margin: 16px 0px;
+                    padding: 10px;
+                }
+            }
+        }
+        
+        body.light{
+            .mdTabela{
+            .corpo{
+                .linha{
+                         
+                                border-bottom-color: #F1F1F4;
+                              
+                              
+                              &.selecionada{
+                                    background-color: var(--nown-primaria-lighter)!important;
+                                }
+                }
+                
+                     .linha:nth-child(odd) {
+                             background-color: #fafafb; 
+                     }
+                     .linha:nth-child(even) {
+                          background-color: #ffffff; /* Branco */
+                        
+                         
+                     }
+            }
+        }
+        }
+        
+        .card {
+  &[data-layout="dalmata"] {
+    background-color: white;
+    border: 1px solid #15171c;
+
+    .card-header {
+      background-color: #15171c !important;
+      color: white;
+
+      .icon-button i {
+        color: white;
+      }
+    }
+
+    .card-body {
+      background-color: white;
+      color: #15171c;
+    }
+
+    .card-footer {
+      background-color: #f5f5f5;
+      color: #15171c;
+    }
+  }
+
+  &[data-layout="light-blue"] {
+    background-color: #e3f2fd;
+    border: 1px solid #90caf9;
+
+    .card-header {
+      background-color: #1976d2 !important;
+      color: white;
+
+      .icon-button i {
+        color: white;
+      }
+    }
+
+    .card-body {
+      background-color: #bbdefb;
+      color: #0d47a1;
+    }
+
+    .card-footer {
+      background-color: #e3f2fd;
+      color: #0d47a1;
+    }
+  }
+
+  &[data-layout="forest"] {
+    background-color: #e8f5e9;
+    border: 1px solid #2e7d32;
+
+    .card-header {
+      background-color: #1b5e20 !important;
+      color: white;
+
+      .icon-button i {
+        color: white;
+      }
+    }
+
+    .card-body {
+      background-color: #c8e6c9;
+      color: #2e7d32;
+    }
+
+    .card-footer {
+      background-color: #e8f5e9;
+      color: #2e7d32;
+    }
+  }
+
+  &[data-layout="dark-mode"] {
+    background-color: #2c2c2c;
+    border: 1px solid #424242;
+
+    .card-header {
+      background-color: #1c1c1c !important;
+      color: #e0e0e0;
+
+      .icon-button i {
+        color: #e0e0e0;
+      }
+    }
+
+    .card-body {
+      background-color: #424242;
+      color: #ffffff;
+    }
+
+    .card-footer {
+      background-color: #333333;
+      color: #ffffff;
+    }
+  }
+
+  &[data-layout="sunset"] {
+    background-color: #ffe0b2;
+    border: 1px solid #ffab91;
+
+    .card-header {
+      background-color: #ff7043 !important;
+      color: white;
+
+      .icon-button i {
+        color: white;
+      }
+    }
+
+    .card-body {
+      background-color: #ffccbc;
+      color: #d84315;
+    }
+
+    .card-footer {
+      background-color: #ffe0b2;
+      color: #bf360c;
+    }
+  }
+}
+
+.containerTabela {
+  display: block; // Permite rolagem horizontal
+  overflow-x: auto;
+  width: 100%; // Garante que a tabela ocupe toda a largura disponível
+}
+
+// Estilos gerais para linhas (cabeçalho e itens)
+.cabecalho,
+.linhaItem {
+  display: flex;
+  flex-wrap: nowrap; // Impede quebra de linha
+  border-bottom: 1px solid $border-color; // Linhas separadas
+  z-index:999;
+}
+
+// Estilos das colunas
+.col {
+   flex: 0 1 auto; /* Ajusta largura dinamicamente pelo conteúdo */
+      padding: 8px; /* Espaçamento interno */
+  text-align: left; // Alinhamento horizontal
+  overflow: hidden; // Evita quebra de layout
+  text-overflow: ellipsis; // Aplica "..." para conteúdo longo
+  white-space: nowrap; // Evita quebra de linha
+  border-right: 1px solid $border-color; // Separação de colunas
+  box-sizing: border-box; // Inclui padding e bordas no cálculo
+
+  &:last-child {
+    border-right: none; // Remove borda da última coluna
+  }
+}
+
+
+ 
+
+  
+    
+    
+// Estilos do cabeçalho
+.cabecalho {
+  background-color: $header-bg;
+  font-weight: bold;
+}
+
+// Alinhamento vertical e largura total para o corpo da tabela
+.tabela-body {
+  display: flex;
+  flex-direction: column;
+  width: 100%; // Garante largura total da tabela
+}
+
+        
+        .mdTabela{
+            &[data-layout="dalmata"]{
+                    .linha:nth-child(odd) {
+                             background-color: #15171c!important;
+                             color: white !important;
+                             border: none !important;
+                     }
+                     .linha:nth-child(even) {
+                          background-color:white!important; 
+                          color: black !important;
+                           border: none !important;
+                        
+                         
+                     }
+            }
+            
+             &[data-layout="light-blue"]{
+                    .linha:nth-child(odd) {
+                             background-color: #dceafc!important;
+                             color: black !important;
+                             border: none !important;
+                     }
+                     .linha:nth-child(even) {
+                          
+                        
+                         
+                     }
+            }
+            
+            
+            &[data-layout="forest"] {
+    .linha:nth-child(odd) {
+      background-color: #e8f5e9 !important;
+      color: #2e7d32 !important;
+      border: none !important;
+    }
+    .linha:nth-child(even) {
+      background-color: #c8e6c9 !important;
+      color: #1b5e20 !important;
+      border: none !important;
+    }
+  }
+ &[data-layout="red-blaze"] {
+    .linha:nth-child(odd) {
+      background-color: #ffebee !important; /* Rosa claro */
+      color: #b71c1c !important; /* Vermelho escuro */
+      border: none !important;
+    }
+    .linha:nth-child(even) {
+      background-color: #ffcdd2 !important; /* Rosa médio */
+      color: #d32f2f !important; /* Vermelho vibrante */
+      border: none !important;
+    }
+  
+  }
+
+
+  &[data-layout="sunset"] {
+    .linha:nth-child(odd) {
+      background-color: #ffccbc !important;
+      color: #bf360c !important;
+      border: none !important;
+    }
+    .linha:nth-child(even) {
+      background-color: #ffe0b2 !important;
+      color: #d84315 !important;
+      border: none !important;
+    }
+  }
+  
+  &[data-layout="ocean"] {
+    .linha:nth-child(odd) {
+      background-color: #e0f7fa !important;
+      color: #006064 !important;
+      border: none !important;
+    }
+    .linha:nth-child(even) {
+      background-color: #b2ebf2 !important;
+      color: #004d40 !important;
+      border: none !important;
+    }
+  }
+
+  &[data-layout="autumn"] {
+    .linha:nth-child(odd) {
+      background-color: #ffecb3 !important;
+      color: #bf360c !important;
+      border: none !important;
+    }
+    .linha:nth-child(even) {
+      background-color: #ffe082 !important;
+      color: #e65100 !important;
+      border: none !important;
+    }
+  }
+
+  &[data-layout="galaxy"] {
+    .linha:nth-child(odd) {
+      background-color: #1a237e !important;
+      color: #bbdefb !important;
+      border: none !important;
+    }
+    .linha:nth-child(even) {
+      background-color: #283593 !important;
+      color: #e3f2fd !important;
+      border: none !important;
+    }
+  }
+
+ 
+
+  &[data-layout="minimalist"] {
+    .linha:nth-child(odd) {
+      background-color: #f7f7f7 !important;
+      color: #333333 !important;
+      border: none !important;
+    }
+    .linha:nth-child(even) {
+      background-color: #ffffff !important;
+      color: #000000 !important;
+      border: none !important;
+    }
+  }
+  
+  
+            
+            
+        }
+        
+        body.dark{
+            .mdTabela{
+            .corpo{
+                .linha{
+                    border-bottom-color: #26272F;
+                    &.selecionada{
+                                    background-color: var(--nown-primaria-darker)!important;
+                                }
+                }
+                
+                 .linha:nth-child(odd) {
+                             background-color: #202227; 
+                     }
+                     .linha:nth-child(even) {
+                          background-color: #15171c; /* Branco */
+                        
+                         
+                     }
+                
+                
+            }
+        }
+        }
+    
+        .mdTabela{
+            display: flex;
+            flex-direction: column;
+            font-size: 14px;
+            height:100%;
+            .cabeca{
+                box-shadow: inset 0 -1px 0 0 rgba(100, 121, 143, 0.12);
+                .linha{
+            
+                }
+                
+                    .cabecalho{
+                        display: flex;
+                        padding: 16px 16px;
+                         position: sticky;
+                         top: 0;
+                         
+                         
+                         .botaoCabecalho{
+                                background-color: transparent;
+                                border: none;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                gap: 5px;
+                                text-transform: uppercase;
+                                font-weight: 700;
+                                color: #99a1b7;
+                                font-size: 12px;
+                                
+                                &.up{
+                                    .up{
+                                        display: block; 
+                                    }
+                                
+                                }
+                                
+                                &.down{
+                                    .down{
+                                        display: block; 
+                                    }
+                                
+                                }
+                            
+                            .up{
+                                display: none;
+                            }
+                            
+                            .down{
+                                display:none;
+                            }
+
+                       
+                    }
+                }
+            }
+            
+            .corpo{
+                display: flex;
+                flex-direction: column;
+                flex: 1 1 auto;
+                
+
+                .linha{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: start;
+                        align-items: center;
+                        align-self: stretch;
+                        gap: 10px;
+                  
+                        
+                        padding: 16px 16px;
+                        border-bottom-width: 1px;
+                        border-bottom-style: dashed;
+                        position: relative;
+                        
+                        .ordenador{
+                            position: absolute;
+                            left: 0px;
+                            top: 0px;
+                            height: 100%;
+                            display: none;
+                        }
+                        
+                        .acao{
+                            position: absolute;
+                            top: 0px;
+                            right: 0px;
+                            height: 100%;
+                            display: none;
+                        }
+                        
+                        &:hover{
+                        box-shadow: inset 1px 0 0 #dadce0, inset -1px 0 0 #dadce0, 0 1px 2px 0 rgba(60, 64, 67, .3), 0 1px 3px 1px rgba(60, 64, 67, .15);
+                        z-index: 2;
+                        
+                        .acao{
+                            display: flex;
+                            background-color: var(--bs-body-bg);
+                        }
+                        
+                        .ordenador{
+                            display: flex;
+                            align-items: center;
+                            cursor: pointer;
+                        }
+                        
+                        
+                    }
+                }
+            }
+            
+            .rodape{
+                .linha{
+                    margin: 16px 0px;
+                    padding: 0px 10px;
+                }
+            }
+        }
+        
+        
+        .tabs{
+      
+            .grupo{
+                .tab.ativa{
+                    color: var(--nown-primaria);
+                    .marcador{
+           width: 100%;
+height: 2px;
+position: absolute;
+left: 0px;
+bottom: 0px;
+background: var(--nown-primaria);
+
+       }
+            
+                }
+            }
+        }
+        
+       .tabs{
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     overflow: auto;
+
+     .grupo{
+         display: flex;
+         align-items: flex-start;
+         
+         .tab{
+             display: flex;
+             height: 48px;
+             padding: 0px 20px;
+             flex-direction: column;
+             justify-content: flex-end;
+             align-items: center;
+             flex: 1 0 0;
+            cursor: pointer;
+
+              position: relative;
+             .estado{
+                 display: flex;
+                 padding: 12px 16px;
+                 flex-direction: column;
+                 justify-content: center;
+                 align-items: center;
+                 flex: 1 0 0;
+                 align-self: stretch;
+                 cursor: pointer;
+                
+                 .conteudo{
+                     display: flex;
+                     justify-content: center;
+                     align-items: center;
+                     gap: 4px;
+                     flex: 1 0 0;
+                     cursor: pointer;
+                     
+                     .icone{
+                         display: flex;
+                         justify-content: center;
+                         align-items: center;
+                         cursor: pointer;
+                         gap: 8px;
+                         label{
+                             cursor: pointer;
+
+                             text-align: center;
+                            /* M3/title/small */
+                             font-family: var(--Title-Small-Font, Roboto);
+                             font-size: var(--Title-Small-Size, 14px);
+                             font-style: normal;
+                             font-weight: 500;
+                             line-height: var(--Title-Small-Line-Height, 20px);
+                            /* 142.857% */
+                             letter-spacing: var(--Title-Small-Tracking, 0.1px);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

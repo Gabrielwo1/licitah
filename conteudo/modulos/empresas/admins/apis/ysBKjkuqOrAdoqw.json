@@ -1,0 +1,200 @@
+{
+    "nome": "Lista de Empresas",
+    "banco": "9mX3WKIb9DI9qEW",
+    "tipo": 2,
+    "subtipo": 1,
+    "itens": [
+        {
+            "nome": "nome",
+            "banco": "p",
+            "chave": "nome",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "hash",
+            "banco": "p",
+            "chave": "hash",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "url",
+            "banco": "p",
+            "chave": "url",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "autor",
+            "banco": "p",
+            "chave": "autor",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "whatsapp",
+            "banco": "m",
+            "chave": "whatsapp",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "site",
+            "banco": "m",
+            "chave": "site",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "id",
+            "banco": "p",
+            "chave": "id",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "telefones",
+            "banco": "p",
+            "chave": "telefones",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "secundaria",
+            "banco": "p",
+            "chave": "secundaria",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "socios",
+            "banco": "p",
+            "chave": "socios",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "emails",
+            "banco": "p",
+            "chave": "emails",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "razao_social",
+            "banco": "m",
+            "chave": "razao_social",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "nome_fantasia",
+            "banco": "m",
+            "chave": "nome_fantasia",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "cnpj",
+            "banco": "p",
+            "chave": "cnpj",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "situação",
+            "banco": "m",
+            "chave": "situação",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "porte",
+            "banco": "m",
+            "chave": "porte",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "abertura",
+            "banco": "m",
+            "chave": "abertura",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "primario_nome",
+            "banco": "m",
+            "chave": "primario_nome",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "natureza_juridica",
+            "banco": "m",
+            "chave": "natureza_juridica",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "facebook",
+            "banco": "m",
+            "chave": "facebook",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "instagram",
+            "banco": "m",
+            "chave": "instagram",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "linkdin",
+            "banco": "m",
+            "chave": "linkdin",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "youtube",
+            "banco": "m",
+            "chave": "youtube",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "tiktok",
+            "banco": "m",
+            "chave": "tiktok",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "galeria",
+            "banco": "p",
+            "chave": "galeria",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "premium",
+            "banco": "m",
+            "chave": "premium",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "categoria",
+            "banco": "p",
+            "chave": "categoria",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "primario_cnae",
+            "banco": "m",
+            "chave": "primario_cnae",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "twiter",
+            "banco": "m",
+            "chave": "twiter",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "descricao_curta",
+            "banco": "p",
+            "chave": "descricao_curta",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "descricao",
+            "banco": "p",
+            "chave": "descricao",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "imagem",
+            "banco": "p",
+            "chave": "imagemDestaque",
+            "estrangeiro": 0
+        }
+    ]
+}

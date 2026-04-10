@@ -1,0 +1,16 @@
+{
+    "nome": "Documentos",
+    "tipo": "2",
+    "id": "96j3N0OBjNYlrol",
+    "btns": [
+        {
+            "texto": "Adicionar Novo",
+            "tipo": "5",
+            "callback": "3t44ercTI88rcyq",
+            "id": "",
+            "icone": ""
+        }
+    ],
+    "titulo": "Meus Documentos",
+    "breadcrumbs": false
+}

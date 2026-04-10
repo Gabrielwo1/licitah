@@ -1,0 +1,19 @@
+{
+    "nome": "Cadastro User",
+    "tipo": "1",
+    "acao": "sWHpiPuhQkQBvSHypTtmyHKpF9kBq99c",
+    "callback": "",
+    "tamanho": "md",
+    "modal": {
+        "titulo": "Cadastrar Usuário",
+        "icone": ""
+    },
+    "redirecionar": true,
+    "redirCb": "a\/usuarios\/usuario",
+    "fecharTopo": true,
+    "fecharFooter": true,
+    "logotipo": false,
+    "centralizar": true,
+    "clickout": false,
+    "container": false
+}

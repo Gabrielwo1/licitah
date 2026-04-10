@@ -1,0 +1,338 @@
+{
+    "id": "110",
+    "nome": "Analytics",
+    "hash": "7gFgoC5oPHYykur",
+    "data": "2024-07-05 19:03:20",
+    "tamanho": 5,
+    "inputs": [
+        {
+            "id": "13639",
+            "tipo": "select",
+            "nome": "IP",
+            "obrigatorio": "0",
+            "data": "2025-07-09 18:12:14",
+            "pai": "0",
+            "posicao": "0",
+            "hash": "neXPT3iC0NNiNQkheRuiUSPbeuStpR",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": "IP ",
+                    "descricao": " ",
+                    "obrigatorio": 0,
+                    "render": 1,
+                    "somente-leitura": 1
+                },
+                "opcoes": {
+                    "multiplo": 0,
+                    "opcoes": " "
+                },
+                "dinamica": {
+                    "smart-triger": 0,
+                    "big-data": 0,
+                    "input-trigger": 0,
+                    "url-trigger": " ",
+                    "acao-trigger": " ",
+                    "opcoes-dinamicas": 1,
+                    "configuracoes": {
+                        "modulo": "analytics",
+                        "formulario": "Sqv2C661j9gjips.json",
+                        "regra": "1"
+                    },
+                    "arquivo-query": " ",
+                    "acao-query": " "
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": " ",
+                    "sub-label": " ",
+                    "tooltip": " "
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": " "
+                },
+                "identificador": {
+                    "id": " ",
+                    "classes": " "
+                },
+                "nown": {
+                    "ativo": 0,
+                    "modulo": " ",
+                    "paginacao": " ",
+                    "chave": " ",
+                    "valor": " "
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "13640",
+            "tipo": "select",
+            "nome": "Usuário",
+            "obrigatorio": "0",
+            "data": "2025-07-09 18:12:14",
+            "pai": "0",
+            "posicao": "1",
+            "hash": "sUTm6IIsih2rNpFLx3Po9RCSa534uS",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": "Usuário ",
+                    "descricao": " ",
+                    "obrigatorio": 0,
+                    "render": 1,
+                    "somente-leitura": 1
+                },
+                "opcoes": {
+                    "multiplo": 0,
+                    "opcoes": [
+                        {
+                            "nome": "Nenhum Usuário",
+                            "valor": "0",
+                            "selecionado": false
+                        }
+                    ]
+                },
+                "dinamica": {
+                    "smart-triger": 0,
+                    "big-data": 0,
+                    "input-trigger": 0,
+                    "url-trigger": " ",
+                    "acao-trigger": " ",
+                    "opcoes-dinamicas": 1,
+                    "configuracoes": {
+                        "modulo": "usuarios",
+                        "formulario": "aY4O9kcLpNMpbiD.json",
+                        "regra": "1"
+                    },
+                    "arquivo-query": " ",
+                    "acao-query": " "
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": " ",
+                    "sub-label": " ",
+                    "tooltip": " "
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": " "
+                },
+                "identificador": {
+                    "id": " ",
+                    "classes": " "
+                },
+                "nown": {
+                    "ativo": 0,
+                    "modulo": " ",
+                    "paginacao": " ",
+                    "chave": " ",
+                    "valor": " "
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "13641",
+            "tipo": "select",
+            "nome": "Dispositivo",
+            "obrigatorio": "0",
+            "data": "2025-07-09 18:12:14",
+            "pai": "0",
+            "posicao": "2",
+            "hash": "6EbefN6gR66xT9ZNhA4mUKglm5gIXr",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": "Dispositivo",
+                    "descricao": "",
+                    "obrigatorio": 0,
+                    "render": 1,
+                    "somente-leitura": 1
+                },
+                "opcoes": {
+                    "multiplo": 0,
+                    "opcoes": ""
+                },
+                "dinamica": {
+                    "smart-triger": 0,
+                    "big-data": 0,
+                    "input-trigger": 0,
+                    "url-trigger": "",
+                    "acao-trigger": "",
+                    "opcoes-dinamicas": 1,
+                    "configuracoes": {
+                        "modulo": "analytics",
+                        "formulario": "gnR1OlqOIn7voSKgRThnwK04wQfGM4dU.json",
+                        "regra": "1"
+                    },
+                    "arquivo-query": "",
+                    "acao-query": ""
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": "",
+                    "sub-label": "",
+                    "tooltip": ""
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": ""
+                },
+                "identificador": {
+                    "id": "",
+                    "classes": ""
+                },
+                "nown": {
+                    "ativo": 0,
+                    "modulo": "",
+                    "paginacao": "",
+                    "chave": "",
+                    "valor": ""
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "3746",
+            "tipo": "select",
+            "nome": "Atividade",
+            "obrigatorio": "0",
+            "data": "2025-07-09 18:12:14",
+            "pai": "0",
+            "posicao": "3",
+            "hash": "vQmGAQjLuc5e6oW3G09lyZs9g4kwGb",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": "Atividade ",
+                    "descricao": " ",
+                    "obrigatorio": 0,
+                    "select-2": 0,
+                    "render": 0,
+                    "somente-leitura": 1
+                },
+                "opcoes": {
+                    "multiplo": 0,
+                    "opcoes": [
+                        {
+                            "nome": "Ativo",
+                            "valor": "1",
+                            "selecionado": true
+                        },
+                        {
+                            "nome": "Desativado",
+                            "valor": "0",
+                            "selecionado": false
+                        }
+                    ]
+                },
+                "dinamica": {
+                    "opcoes-dinamicas": 0,
+                    "configuracoes": " ",
+                    "smart-triger": 0,
+                    "big-data": 0,
+                    "input-trigger": 0,
+                    "url-trigger": " ",
+                    "acao-trigger": " ",
+                    "arquivo-query": " ",
+                    "acao-query": " "
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": " ",
+                    "sub-label": " ",
+                    "tooltip": " "
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": " "
+                },
+                "identificador": {
+                    "id": " ",
+                    "classes": " "
+                },
+                "nown": {
+                    "ativo": 0,
+                    "modulo": " ",
+                    "paginacao": " ",
+                    "chave": " ",
+                    "valor": " "
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "14627",
+            "tipo": "data",
+            "nome": "Última Atividade",
+            "obrigatorio": "0",
+            "data": "2025-07-15 22:21:16",
+            "pai": "0",
+            "posicao": "4",
+            "hash": "tV15AWYM3AjSApKsjheGucJkDJSy79",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": "Última Atividade",
+                    "descricao": "",
+                    "obrigatorio": 0,
+                    "somente-leitura": 1,
+                    "dados": 1
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": "",
+                    "sub-label": "",
+                    "tooltip": ""
+                },
+                "tamanho": {
+                    "ativar": 0,
+                    "maximo": "",
+                    "minimo": ""
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": ""
+                },
+                "identificador": {
+                    "id": "",
+                    "classes": ""
+                },
+                "nown": {
+                    "ativo": 0,
+                    "modulo": "",
+                    "paginacao": "",
+                    "chave": "",
+                    "valor": ""
+                }
+            },
+            "filhos": []
+        }
+    ],
+    "infos": {
+        "layout": {
+            "tamanho": 6
+        },
+        "logica": {
+            "logica": 0,
+            "setup": " "
+        }
+    }
+}

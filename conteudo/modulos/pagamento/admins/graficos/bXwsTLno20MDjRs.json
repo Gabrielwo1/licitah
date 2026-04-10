@@ -1,0 +1,27 @@
+{
+    "nome": "Pedidos - Proporção",
+    "tipoGrafico": "proporcional",
+    "graficoPrimario": "pizza",
+    "bancoDeDados": "Cyrv1bcxbsbHpSh",
+    "colunaData": "data",
+    "filtro": "1",
+    "grafico": {
+        "categoria": "tipo"
+    },
+    "layout": {
+        "primario": "pizza",
+        "periodoinicial": "Último Mês",
+        "titulo": "Pedidos Estado",
+        "alteralayout": true,
+        "selecionarperiodo": true,
+        "drop": false
+    },
+    "extra": {
+        "layout": "1",
+        "bg": "#000000",
+        "color": "#000000",
+        "prefixo": "",
+        "sufixo": "",
+        "listaCores": ""
+    }
+}

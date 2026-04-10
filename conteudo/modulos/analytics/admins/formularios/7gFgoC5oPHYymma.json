@@ -1,0 +1,169 @@
+{
+    "id": "112",
+    "nome": "Analytics Origens",
+    "hash": "7gFgoC5oPHYymma",
+    "data": "2024-07-06 12:28:05",
+    "tamanho": 6,
+    "inputs": [
+        {
+            "id": "3739",
+            "tipo": "text",
+            "nome": "Origem",
+            "obrigatorio": "0",
+            "data": "2024-07-06 12:29:04",
+            "pai": "0",
+            "posicao": "0",
+            "hash": "dNHZbHzErK8FNcxoGjf6BVT0ukN07F",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": "Origem",
+                    "descricao": "",
+                    "obrigatorio": 0
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": "",
+                    "sub-label": "",
+                    "tooltip": ""
+                },
+                "validacao": {
+                    "mascara": 0
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": ""
+                },
+                "identificador": {
+                    "id": "",
+                    "classes": ""
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "3742",
+            "tipo": "coluna",
+            "nome": null,
+            "obrigatorio": "0",
+            "data": "2024-07-06 12:28:41",
+            "pai": "0",
+            "posicao": "1",
+            "hash": "C6nJAyg4BujwZP6H5xVY9GVZjnUYMK",
+            "infos": [],
+            "filhos": [
+                {
+                    "id": "3743",
+                    "tipo": "col",
+                    "nome": null,
+                    "obrigatorio": "0",
+                    "data": "2024-07-06 12:28:34",
+                    "pai": "3742",
+                    "posicao": "0",
+                    "hash": "L9cCS6qRZJXH6ZHyTGn3AvFkZPQD33",
+                    "infos": {
+                        "layout": {
+                            "tamanho": 9
+                        },
+                        "logica": {
+                            "logica": 0,
+                            "setup": ""
+                        },
+                        "identificador": {
+                            "id": "",
+                            "classes": ""
+                        }
+                    },
+                    "filhos": []
+                },
+                {
+                    "id": "3744",
+                    "tipo": "col",
+                    "nome": null,
+                    "obrigatorio": "0",
+                    "data": "2024-07-06 12:28:34",
+                    "pai": "3742",
+                    "posicao": "1",
+                    "hash": "22dmEgKTWSNGoHSp7zwrppQqkXUgd5",
+                    "infos": {
+                        "layout": {
+                            "tamanho": 3
+                        },
+                        "logica": {
+                            "logica": 0,
+                            "setup": ""
+                        },
+                        "identificador": {
+                            "id": "",
+                            "classes": ""
+                        }
+                    },
+                    "filhos": [
+                        {
+                            "id": "3740",
+                            "tipo": "cardSalvar",
+                            "nome": null,
+                            "obrigatorio": "0",
+                            "data": "2024-07-06 12:28:41",
+                            "pai": "3744",
+                            "posicao": "0",
+                            "hash": "3QcxFWh1uDT2TdkCEJsPtXWKTR1pk2",
+                            "infos": [],
+                            "filhos": []
+                        },
+                        {
+                            "id": "3741",
+                            "tipo": "categoria",
+                            "nome": null,
+                            "obrigatorio": "0",
+                            "data": "2024-07-06 12:28:41",
+                            "pai": "3744",
+                            "posicao": "1",
+                            "hash": "DmBwIqUpjxS9xV1BkP009afoX0cp9i",
+                            "infos": [],
+                            "filhos": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "infos": {
+        "basico": {
+            "label": "RH ",
+            "descricao": " ",
+            "obrigatorio": 0
+        },
+        "opcoes": {
+            "multiplo": 0,
+            "opcoes": [
+                {
+                    "nome": "Rh positivo (+)",
+                    "valor": "Rh positivo (+)",
+                    "selecionado": false
+                },
+                {
+                    "nome": "Rh negativo (-)",
+                    "valor": "Rh negativo (-)",
+                    "selecionado": false
+                }
+            ]
+        },
+        "estilo": {
+            "estilo": 0,
+            "tamanho-do-input": 0
+        },
+        "label": {
+            "placeholder": " ",
+            "sub-label": " ",
+            "tooltip": " "
+        },
+        "logica": {
+            "logica": 0,
+            "setup": " "
+        }
+    }
+}

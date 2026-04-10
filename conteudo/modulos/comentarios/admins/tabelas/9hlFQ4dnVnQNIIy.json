@@ -1,0 +1,83 @@
+{
+    "nome": "Comentarios",
+    "banco": "Je0mjlG6L1tfgTL",
+    "colunas": [
+        {
+            "nome": "Data",
+            "id": "update",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "estrangeira": 0
+        },
+        {
+            "nome": "Comentário",
+            "id": "comentario",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "estrangeira": 0
+        },
+        {
+            "nome": "Autor",
+            "id": "autor",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "estrangeira": 0
+        },
+        {
+            "nome": "Id",
+            "id": "identificador",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "estrangeira": 0
+        },
+        {
+            "nome": "Módulo",
+            "id": "modulo",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "estrangeira": 0
+        }
+    ],
+    "regra": "1",
+    "acoes": {
+        "opcoes": {
+            "acoes": true,
+            "editar": true,
+            "apagar": true,
+            "vizualizar": false,
+            "importador": false,
+            "exportador": false,
+            "filtro": false,
+            "colunas": false,
+            "multiplo": false,
+            "ordenador": false,
+            "filtrodata": false,
+            "bigdata": false
+        },
+        "rotas": {
+            "editar": "a\/comentarios\/comentario",
+            "vizualizar": ""
+        }
+    },
+    "layout": {
+        "modo": "1",
+        "container": "0"
+    },
+    "acoesPersonalizadas": [],
+    "dataFilter": "0"
+}

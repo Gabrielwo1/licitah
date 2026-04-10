@@ -1,0 +1,60 @@
+{
+    "banco": "tokenLogin",
+    "meta": false,
+    "prefixo": "token",
+    "url": false,
+    "colunas": [
+        {
+            "nome": "publico",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "Eyk0bEf3N7GMvstVLYuB6P3kXAI3D9",
+            "size": 32
+        },
+        {
+            "nome": "privado",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "eHwFnEnoa2Rut2q5imF6BRxuZzmqYi",
+            "size": 6
+        },
+        {
+            "nome": "user",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "ZLqgkQQZ01ZHFQwSEKIHvNYMUqFCuC"
+        },
+        {
+            "nome": "tipo",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "fDxeW2MoBP2GKqAaQ9fvzV9jCFy2Z6"
+        }
+    ],
+    "estrutura": {
+        "meta": false,
+        "hash": false,
+        "autor": false,
+        "render": false,
+        "dataCriacao": true,
+        "dataUpdate": false,
+        "ordenador": false,
+        "url": false,
+        "urledit": false,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false,
+        "desabilitarNovo": false,
+        "desabilitarEdicao": false,
+        "reordenador": false,
+        "pontos": false
+    },
+    "metas": []
+}

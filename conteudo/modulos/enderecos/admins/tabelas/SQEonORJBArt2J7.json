@@ -1,0 +1,58 @@
+{
+    "nome": "Associações",
+    "banco": "Sqv2C661j9gjgpt",
+    "colunas": [
+        {
+            "nome": "Banco",
+            "id": "banco",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false
+        },
+        {
+            "nome": "ID",
+            "id": "identificador",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false
+        },
+        {
+            "nome": "Endereço",
+            "id": "endereco",
+            "tipo": "1",
+            "render": "7",
+            "parse": "endereco_cep",
+            "invisivel": false,
+            "editavel": false
+        },
+        {
+            "nome": "Data",
+            "id": "data",
+            "tipo": "1",
+            "render": "2",
+            "invisivel": false,
+            "editavel": false
+        }
+    ],
+    "regra": "1",
+    "acoes": {
+        "opcoes": {
+            "acoes": true,
+            "editar": true,
+            "apagar": true,
+            "vizualizar": false,
+            "importador": false,
+            "exportador": true,
+            "filtro": false,
+            "colunas": false,
+            "multiplo": true
+        },
+        "rotas": {
+            "editar": "a\/enderecoes\/associacao",
+            "vizualizar": ""
+        }
+    },
+    "acoesPersonalizadas": []
+}

@@ -1,0 +1,43 @@
+{
+    "name": "Licitações",
+    "description": "",
+    "descriptionLong": "",
+    "icon": "bi bi-folder",
+    "ativo": "true",
+    "readonly": false,
+    "sub": [
+        {
+            "name": "Pesquisas",
+            "link": "a\/licitacoes\/licitacoes-pesquisadas"
+        },
+        {
+            "name": "Licitações",
+            "link": "a\/licitacoes"
+        },
+        {
+            "name": "Itens",
+            "link": "a\/licitacoes\/itens"
+        },
+        {
+            "name": "Oportunidades",
+            "link": "a\/licitacoes\/oportunidades"
+        },
+        {
+            "name": "Tarefas",
+            "link": "a\/licitacoes\/tarefas"
+        },
+        {
+            "name": "Anotações",
+            "link": "a\/licitacoes\/anotacoes"
+        },
+        {
+            "name": "Anexos",
+            "link": "a\/licitacoes\/anexos"
+        },
+        {
+            "name": "Habilitações",
+            "link": "a\/licitacoes\/habilitacoes"
+        }
+    ],
+    "versao": "0.88"
+}

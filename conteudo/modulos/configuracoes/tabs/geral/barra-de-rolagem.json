@@ -1,0 +1,22 @@
+{ 
+    "personalizar":{
+        "label": "Ativar Barra Personalizada",
+        "tipo":"check",
+         "descricao": "Personalize as barras de rolagem"
+      },
+       "largura":{
+         "tipo":"number",
+         "label": "Largura em Pixel",
+         "descricao": "Defina a largura da barra de rolagem"
+      },
+        "corbarra":{
+         "tipo":"color",
+         "label": "Cor da Barra Principal",
+         "descricao": "Defina a cor da barra principal"
+      },
+         "cormarcador":{
+         "tipo":"color",
+         "label": "Cor do Marcador",
+         "descricao": "Defina a cor da barra de marcação"
+      }
+}

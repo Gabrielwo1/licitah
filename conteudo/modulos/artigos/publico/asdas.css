@@ -1,0 +1,259 @@
+#conteudo:has(.artigo-container){
+    background: var(--bs-body-bg) !important;
+    padding: 0 !important;
+}
+
+.artigo-container {
+    max-width: 680px;
+    margin: 0 auto;
+    
+    .artigo-header {
+        padding: 30px 0;
+        
+        h1 {
+            font-size: 42px;
+            letter-spacing: -1px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        
+        p {
+            font-size: 15px;
+            margin-bottom: 24px;
+        }
+        
+        .artigo-meta {
+            p {
+                margin: 0 !important;
+                font-size: 14px;
+                
+                &.autor {
+                    font-weight: bold;
+                    
+                    a {
+                        color: var(--nown-primaria) !important;
+                    }
+                }
+                
+                &.data {
+                    font-size: 13px;
+                }
+            }
+        }
+        
+        .compartilhar {
+            display: flex;
+            gap: 15px;
+            margin-top: 24px;
+            
+            button {
+                flex-grow: 1;
+            }
+        }
+    }
+    
+    .artigo-midia {
+        margin-bottom: 30px;
+        
+        img, video, iframe {
+            width: 100%;
+            border-radius: 12px;
+            background: rgba(var(--bs-body-color-rgb), 0.05);
+        }
+    }
+    
+    .artigo-conteudo {
+        p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+        
+        mark {
+            background: rgba(var(--nown-primaria-rgb), 0.15);
+            display: inline;
+        }
+        
+        ul {
+            list-style: none;
+            margin: 0 0 30px;
+            padding: 0;
+            
+            li {
+                font-size: 18px;
+                padding-left: 25px;
+                margin-bottom: 15px;
+                position: relative;
+                
+                &:last-of-type {
+                    margin: 0;
+                }
+                
+                &:before {
+                    content: '•';
+                    position: absolute;
+                    left: 0;
+                }
+            }
+        }
+        
+        a {
+            font-weight: bold;
+            color: var(--nown-primaria);
+            text-decoration: none;
+            
+            &:hover {
+                color: var(--nown-primaria-darker);
+            }
+        }
+        
+        .artigo-ads-full {
+            width: 970px;
+            position: relative;
+            left: 50%;
+            transform: translatex(-50%);
+            margin: 50px 0 !important;
+            border-top: 1px solid rgba(var(--bs-body-color-rgb), 0.2);
+            border-bottom: 1px solid rgba(var(--bs-body-color-rgb), 0.2);
+            padding: 30px 0;
+            
+            @media (max-width: 970px){
+                width: 100%;
+                
+                img {
+                    width: 100%;
+                }
+            }
+            
+            span {
+                position: absolute;
+                top: 0;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-size: 13px;
+                letter-spacing: 1px;
+                padding: 2px 30px;
+                background: var(--bs-body-bg);
+                z-index: 2;
+            }
+            
+            img {
+                width: 100%;
+            }
+        }
+        
+        blockquote {
+            margin-bottom: 30px;
+            background: rgba(var(--bs-body-color-rgb), 0.07);
+            padding: 40px 30px;
+            font-size: 18px;
+            text-align: center;
+            position: relative;
+            border-radius: 12px;
+            
+            &:before {
+                content: '';
+                display: block;
+                width: 200px;
+                height: 7px;
+                background: var(--nown-primaria);
+                position: absolute;
+                top: 0;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                border-radius: 10px;
+            }
+        }
+    }
+    
+    .artigo-autor {
+        margin: 80px 0 30px;
+        background: rgba(var(--bs-body-color-rgb), 0.07);
+        padding: 30px;
+        font-size: 18px;
+        position: relative;
+        border-radius: 12px;
+        display: flex;
+        gap: 20px;
+        
+        &:before {
+            content: '';
+            display: block;
+            width: 100%;
+            position: absolute;
+            top: -40px;
+            left: 0;
+            border-bottom: 1px solid rgba(var(--bs-body-color-rgb), 0.2);
+        }
+        
+        img {
+            border-radius: 12px;
+            width: 140px;
+            aspect-ratio: 1 / 1;
+            object-fit: cover;
+        }
+        
+        .info {
+            h6 {
+                font-size: 19px;
+            }
+            
+            p {
+                font-size: 15px;
+                margin: 0 0 5px;
+            }
+            
+            a {
+                font-size: 16px;
+                font-weight: bold;
+                color: var(--nown-primaria);
+                text-decoration: none;
+                transition: .27s ease;
+                
+                &:hover {
+                    color: var(--nown-primaria-darker);
+                }
+            }
+        }
+    }
+    
+    
+    .dark & {
+        .artigo-conteudo {
+            mark {
+                background: rgba(var(--nown-primaria-rgb), 0.4);
+            }
+        }
+    }
+}
+
+.btn-share {
+    border: none !important;
+    background: rgba(var(--bs-body-color-rgb), 0.05);
+    padding: 12px;
+    border-radius: 12px;
+    font-size: 24px;
+    transition: .27s ease;
+    
+    &:hover {
+        background: rgba(var(--bs-body-color-rgb), 0.8);
+        color: var(--bs-body-bg);
+    }
+    
+    &.btn-facebook {
+        color: #0866FF;
+        
+        &:hover {
+            background: #0866FF;
+            color: white;
+        }
+    }
+    
+    &.btn-whatsapp {
+        color: #0DCA54;
+        
+        &:hover {
+            background: #0DCA54;
+            color: white;
+        }
+    }
+}

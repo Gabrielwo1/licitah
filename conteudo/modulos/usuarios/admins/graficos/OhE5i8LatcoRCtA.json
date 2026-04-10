@@ -1,0 +1,57 @@
+{
+    "nome": "Usuários Temporal",
+    "tipoGrafico": "tempo",
+    "graficoPrimario": "",
+    "bancoDeDados": "aY4O9kcLpNMpbiD",
+    "colunaData": "data",
+    "filtro": "1",
+    "trato": "",
+    "grafico": {
+        "periodo": "dia",
+        "sub": "contagem",
+        "agrupamento": "1",
+        "categoria": "",
+        "conta": "data",
+        "espacos": {
+            "minuto": false,
+            "hora": false,
+            "dia": false,
+            "semana": false,
+            "mes": false
+        }
+    },
+    "layout": {
+        "primario": "",
+        "periodoinicial": "Total",
+        "titulo": "Novos Usuários",
+        "alteralayout": true,
+        "selecionarperiodo": true,
+        "drop": false,
+        "horas": false,
+        "rodape": false
+    },
+    "extra": {
+        "layout": "1",
+        "bg": "#000000",
+        "color": "#000000",
+        "prefixo": "",
+        "sufixo": "",
+        "listaCores": ""
+    },
+    "condicional": {
+        "ativo": "0",
+        "coluna": "",
+        "tipo": "=",
+        "valor": ""
+    },
+    "condicional2": {
+        "ativo": "0",
+        "coluna": "",
+        "tipo": "=",
+        "valor": ""
+    },
+    "atualizacao": {
+        "ativa": false,
+        "segundos": "30"
+    }
+}

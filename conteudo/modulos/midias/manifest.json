@@ -1,0 +1,8 @@
+{
+    "name": "Midia",
+    "description": "Gerencie a midia dinamica do site.",
+    "icon": "bi bi-images",
+    "link": "a\/midias",
+    "ativo": "true",
+    "versao": "0.05"
+}

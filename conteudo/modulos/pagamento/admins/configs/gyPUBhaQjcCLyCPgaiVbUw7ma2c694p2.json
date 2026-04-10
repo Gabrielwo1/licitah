@@ -1,0 +1,62 @@
+{
+    "banco": "pay_pedidos_itens",
+    "meta": false,
+    "prefixo": "ppi",
+    "url": false,
+    "colunas": [
+        {
+            "nome": "pedido",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "8YsGlBvvzS4owzykQrcoKdxedCnYU7"
+        },
+        {
+            "nome": "item",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "ZzoYgeLKJyEMo502FUgYIyL6F8p2PR"
+        },
+        {
+            "nome": "espelho",
+            "nulo": false,
+            "tipo": "json",
+            "unico": false,
+            "input": "uKFsTsdlcwntHtqcokYC6xdBSWUIfz"
+        },
+        {
+            "nome": "quantidade",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "BZ9HgMY69G4xTXPJgUvUHcCdXi7h49"
+        },
+        {
+            "nome": "usuario",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "giAoKeqb17J1bsdNST0lhRz6mpq3fG"
+        }
+    ],
+    "estrutura": {
+        "meta": false,
+        "hash": false,
+        "autor": false,
+        "render": false,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "url": false,
+        "urledit": false,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false,
+        "desabilitarNovo": false,
+        "desabilitarEdicao": false
+    },
+    "metas": []
+}

@@ -1,0 +1,10 @@
+{
+    "name": "Menus",
+    "description": "Gerencie menus do sistema com regras de acesso personalizadas por função.",
+    "descriptionLong": "O módulo Menus permite a gestão completa dos menus do sistema, garantindo uma experiência de navegação organizada e segura. Com a configuração de regras por função, você pode definir quais opções estarão disponíveis para cada tipo de usuário, assegurando um controle de acesso eficiente e uma interface adaptada às necessidades de cada perfil. Ideal para manter a estrutura do sistema intuitiva e personalizada.",
+    "icon": "bi bi-list",
+    "ativo": "true",
+    "readonly": false,
+    "link": "a\/menus",
+    "versao": "0.16"
+}

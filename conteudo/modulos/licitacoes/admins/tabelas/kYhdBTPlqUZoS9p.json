@@ -1,0 +1,104 @@
+{
+    "nome": "Licitações Materiais",
+    "banco": "vVQQXXu9OoLuEc12vfU7X4aRAieyuN80",
+    "colunas": [
+        {
+            "nome": "Código",
+            "id": "codigo",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "tabulavel": false,
+            "pesquisavel": false,
+            "colpesquisavel": false,
+            "estrangeira": 0
+        },
+        {
+            "nome": "Descrição",
+            "id": "desc",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "tabulavel": false,
+            "pesquisavel": false,
+            "colpesquisavel": false,
+            "estrangeira": 0
+        },
+        {
+            "nome": "Nome do Grupo",
+            "id": "grupo",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "tabulavel": false,
+            "pesquisavel": false,
+            "colpesquisavel": false,
+            "estrangeira": 1,
+            "confiEstrangeira": {
+                "modulo": "licitacoes",
+                "banco": "licitacoes_grupos",
+                "tipo": "1",
+                "coluna": "licitacoes_grupo_nome"
+            }
+        },
+        {
+            "nome": "Nome da Classe",
+            "id": "nomeClasse",
+            "tipo": "2",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "tabulavel": false,
+            "pesquisavel": false,
+            "colpesquisavel": false,
+            "estrangeira": 0
+        },
+        {
+            "nome": "Nome do Pdm",
+            "id": "nomePdm",
+            "tipo": "2",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "tabulavel": false,
+            "pesquisavel": false,
+            "colpesquisavel": false,
+            "estrangeira": 0
+        }
+    ],
+    "regra": "1",
+    "acoes": {
+        "opcoes": {
+            "acoes": true,
+            "editar": true,
+            "apagar": true,
+            "vizualizar": false,
+            "importador": false,
+            "exportador": false,
+            "filtro": false,
+            "colunas": false,
+            "multiplo": false,
+            "ordenador": false,
+            "filtrodata": false,
+            "bigdata": false
+        },
+        "rotas": {
+            "editar": "a\/licitacoes\/material",
+            "vizualizar": ""
+        }
+    },
+    "layout": {
+        "modo": "1",
+        "container": "0"
+    },
+    "acoesPersonalizadas": [],
+    "dataFilter": "0"
+}

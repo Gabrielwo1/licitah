@@ -1,0 +1,14 @@
+{
+    "nome": "Menus",
+    "tipo": "2",
+    "id": "8N7LZFE8YEeGouE",
+    "btns": [
+        {
+            "texto": "Adicionar Menu",
+            "tipo": "1",
+            "callback": "a\/menus\/menu"
+        }
+    ],
+    "titulo": "Menus ",
+    "breadcrumbs": true
+}

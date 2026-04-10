@@ -1,0 +1,16 @@
+{
+    "nome": "Tarefa",
+    "tipo": "1",
+    "id": "aehvhDc9jPy3cx8twx0fpU55j8LNBHGY",
+    "btns": [
+        {
+            "texto": "Todas Tarefas",
+            "tipo": "1",
+            "callback": "a\/licitacoes\/tarefas",
+            "id": "",
+            "icone": ""
+        }
+    ],
+    "titulo": "{nova} tarefa",
+    "breadcrumbs": false
+}

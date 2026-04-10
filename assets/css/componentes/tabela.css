@@ -1,0 +1,733 @@
+/* CSS Elegante e Minimalista para Componente de Tabela */
+
+.cardTabela {
+    height: calc(100% - 100px);
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.04), 0 1px 3px rgba(0, 0, 0, 0.06);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    transition: all 0.3s ease;
+    overflow: hidden;
+    
+    &:hover {
+        box-shadow: 0 4px 32px rgba(0, 0, 0, 0.08), 0 2px 6px rgba(0, 0, 0, 0.08);
+    }
+    
+    .tabela-header {
+        padding: 24px 28px;
+        height: auto;
+        min-height: 72px;
+        background: #fafbfc;
+        border-bottom: 1px solid #eef1f4;
+        
+        .linha {
+            align-items: center;
+            
+            #topBar {
+                gap: 16px;
+                
+                .input-group {
+                    background: #ffffff;
+                    border-radius: 8px;
+                    padding: 2px;
+                    border: 1px solid #e5e8eb;
+                    transition: all 0.2s ease;
+                    
+                    &:hover {
+                        border-color: #d1d5db;
+                    }
+                    
+                    input[type="checkbox"] {
+                        width: 16px;
+                        height: 16px;
+                        border-radius: 4px;
+                        border: 1.5px solid #d1d5db;
+                        margin: 0 10px;
+                        cursor: pointer;
+                        transition: all 0.2s ease;
+                        accent-color: #374151;
+                        
+                        &:checked {
+                            background: #374151;
+                            border-color: #374151;
+                        }
+                    }
+                    
+                    .dropdown-toggle {
+                        background: transparent;
+                        border: none;
+                        color: #6b7280;
+                        font-weight: 500;
+                        padding: 8px 12px;
+                        border-radius: 6px;
+                        font-size: 14px;
+                        transition: all 0.2s ease;
+                        
+                        &:hover {
+                            color: #374151;
+                            background: #f9fafb;
+                        }
+                    }
+                }
+                
+                .btn {
+                    background: #ffffff;
+                    border: 1px solid #e5e8eb;
+                    color: #6b7280;
+                    border-radius: 8px;
+                    padding: 10px 12px;
+                    transition: all 0.2s ease;
+                    
+                    &:hover {
+                        background: #f9fafb;
+                        color: #374151;
+                        border-color: #d1d5db;
+                    }
+                }
+            }
+            
+            #controlers {
+                gap: 20px;
+                
+                .fs-14 {
+                    font-weight: 500;
+                    color: #6b7280;
+                    font-size: 14px;
+                    letter-spacing: -0.01em;
+                }
+                
+                .btn {
+                    width: 36px;
+                    height: 36px;
+                    border-radius: 8px;
+                    background: #ffffff;
+                    border: 1px solid #e5e8eb;
+                    color: #6b7280;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    transition: all 0.2s ease;
+                    
+                    &:hover:not(:disabled) {
+                        background: #f9fafb;
+                        color: #374151;
+                        border-color: #d1d5db;
+                    }
+                    
+                    &:disabled {
+                        opacity: 0.4;
+                        cursor: not-allowed;
+                        background: #f9fafb;
+                    }
+                }
+                
+                select {
+                    background: #ffffff;
+                    border: 1px solid #e5e8eb !important;
+                    border-radius: 8px;
+                    padding: 8px 12px;
+                    font-weight: 500;
+                    color: #374151;
+                    font-size: 14px;
+                    transition: all 0.2s ease;
+                    
+                    &:focus {
+                        border-color: #9ca3af !important;
+                        outline: none;
+                        box-shadow: 0 0 0 3px rgba(156, 163, 175, 0.08);
+                    }
+                }
+            }
+        }
+    }
+    
+    .tabela-body {
+        flex: 1 1 auto;
+        overflow: auto;
+        background: #ffffff;
+        
+        /* Scrollbar elegante */
+        scrollbar-width: thin;
+        scrollbar-color: #d1d5db #f9fafb;
+        
+        &::-webkit-scrollbar {
+            width: 4px;
+            height: 4px;
+        }
+        
+        &::-webkit-scrollbar-thumb {
+            background: #d1d5db;
+            border-radius: 4px;
+            transition: background 0.2s ease;
+        }
+        
+        &::-webkit-scrollbar-thumb:hover {
+            background: #9ca3af;
+        }
+        
+        &::-webkit-scrollbar-track {
+            background: #f9fafb;
+        }
+        
+        &::-webkit-scrollbar-button {
+            display: none;
+        }
+    }
+    
+    .tabela-footer {
+        .conteudo {
+            margin: 20px 0px;
+            padding: 20px;
+            background: #fafbfc;
+            border-radius: 12px;
+            border: 1px solid #eef1f4;
+        }
+    }
+}
+
+/* Temas Light/Dark com elegância */
+body.light {
+    .mdTabela .corpo .linha {
+        border-bottom-color: #f3f4f6;
+        transition: all 0.2s ease;
+        
+        &.selecionada {
+            background: #f8fafc !important;
+            border-left: 3px solid #374151;
+        }
+        
+        &:nth-child(odd) {
+            background: #ffffff;
+        }
+        
+        &:nth-child(even) {
+            background: #fafbfc;
+        }
+    }
+}
+
+body.dark {
+    .cardTabela {
+        background: #1f2937;
+        border: 1px solid #374151;
+        
+        .tabela-header {
+            background: #111827;
+            border-bottom-color: #374151;
+            
+            #topBar {
+                .input-group {
+                    background: #1f2937;
+                    border-color: #4b5563;
+                    
+                    input[type="checkbox"] {
+                        border-color: #6b7280;
+                        accent-color: #d1d5db;
+                        
+                        &:checked {
+                            background: #d1d5db;
+                            border-color: #d1d5db;
+                        }
+                    }
+                    
+                    .dropdown-toggle {
+                        color: #d1d5db;
+                        
+                        &:hover {
+                            color: #f9fafb;
+                            background: #374151;
+                        }
+                    }
+                }
+                
+                .btn {
+                    background: #1f2937;
+                    border-color: #4b5563;
+                    color: #d1d5db;
+                    
+                    &:hover {
+                        background: #374151;
+                        color: #f9fafb;
+                        border-color: #6b7280;
+                    }
+                }
+            }
+            
+            #controlers {
+                .fs-14 {
+                    color: #d1d5db;
+                }
+                
+                .btn {
+                    background: #1f2937;
+                    border-color: #4b5563;
+                    color: #d1d5db;
+                    
+                    &:hover:not(:disabled) {
+                        background: #374151;
+                        color: #f9fafb;
+                        border-color: #6b7280;
+                    }
+                    
+                    &:disabled {
+                        background: #111827;
+                    }
+                }
+                
+                select {
+                    background: #1f2937;
+                    border-color: #4b5563 !important;
+                    color: #f9fafb;
+                    
+                    &:focus {
+                        border-color: #6b7280 !important;
+                        box-shadow: 0 0 0 3px rgba(107, 114, 128, 0.1);
+                    }
+                }
+            }
+        }
+        
+        .tabela-body {
+            background: #1f2937;
+            
+            &::-webkit-scrollbar-thumb {
+                background: #4b5563;
+            }
+            
+            &::-webkit-scrollbar-thumb:hover {
+                background: #6b7280;
+            }
+            
+            &::-webkit-scrollbar-track {
+                background: #111827;
+            }
+        }
+        
+        .tabela-footer .conteudo {
+            background: #111827;
+            border-color: #374151;
+        }
+    }
+    
+    .mdTabela .corpo .linha {
+        border-bottom-color: #374151;
+        color: #d1d5db;
+        
+        &.selecionada {
+            background: #374151 !important;
+            border-left: 3px solid #d1d5db;
+        }
+        
+        &:nth-child(odd) {
+            background: #1f2937;
+        }
+        
+        &:nth-child(even) {
+            background: #111827;
+        }
+    }
+}
+
+/* Tabela Principal - Design Minimalista */
+.mdTabela {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    height: 100%;
+    font-weight: 400;
+    
+    .cabeca {
+        background: #fafbfc;
+        border-bottom: 1px solid #eef1f4;
+        
+        .cabecalho {
+            display: flex;
+            padding: 20px 28px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: inherit;
+            
+            .botaoCabecalho {
+                background: transparent;
+                border: none;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                gap: 6px;
+                text-transform: uppercase;
+                font-weight: 600;
+                color: #6b7280;
+                font-size: 11px;
+                padding: 8px 12px;
+                border-radius: 6px;
+                transition: all 0.2s ease;
+                letter-spacing: 0.5px;
+                
+                &:hover {
+                    background: #f3f4f6;
+                    color: #374151;
+                }
+                
+                &.up .up {
+                    display: block;
+                    color: #374151;
+                }
+                
+                &.down .down {
+                    display: block;
+                    color: #374151;
+                }
+                
+                .up, .down {
+                    display: none;
+                    transition: all 0.2s ease;
+                }
+            }
+        }
+    }
+    
+    .corpo {
+        display: flex;
+        flex-direction: column;
+        flex: 1 1 auto;
+        
+        .linha {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 16px;
+            padding: 16px 28px;
+            border-bottom: 1px solid #f3f4f6;
+            position: relative;
+            transition: all 0.2s ease;
+            
+            .ordenador {
+                position: absolute;
+                left: 0px;
+                top: 0px;
+                height: 100%;
+                display: none;
+                background: #374151;
+                width: 3px;
+            }
+            
+            .acao {
+                position: absolute;
+                top: 0px;
+                right: 0px;
+                height: 100%;
+                display: none;
+                align-items: center;
+                gap: 8px;
+                padding: 0 20px;
+                background: linear-gradient(90deg, transparent 0%, #ffffff 25%, #ffffff 100%);
+                
+                .btn {
+                    width: 32px;
+                    height: 32px;
+                    border-radius: 6px;
+                    border: 1px solid #e5e8eb;
+                    background: #ffffff;
+                    color: #6b7280;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    transition: all 0.2s ease;
+                    
+                    &:hover {
+                        background: #f9fafb;
+                        color: #374151;
+                        border-color: #d1d5db;
+                    }
+                    
+                    &[title*="Deletar"] {
+                        border-color: #fca5a5;
+                        color: #dc2626;
+                        
+                        &:hover {
+                            background: #dc2626;
+                            color: white;
+                            border-color: #dc2626;
+                        }
+                    }
+                }
+            }
+            
+            &:hover {
+                background: #f8fafc !important;
+                
+                .acao {
+                    display: flex;
+                }
+                
+                .ordenador {
+                    display: flex;
+                    align-items: center;
+                    cursor: pointer;
+                }
+            }
+            
+            .col {
+                flex: 0 1 auto;
+                padding: 4px 8px;
+                text-align: left;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                box-sizing: border-box;
+                font-weight: 400;
+                color: #374151;
+                line-height: 1.5;
+                
+                .img-thumbnail {
+                    border-radius: 8px;
+                    background: #f3f4f6;
+                    color: #6b7280;
+                    border: 1px solid #e5e8eb;
+                    transition: all 0.2s ease;
+                    
+                    &:hover {
+                        background: #e5e7eb;
+                        border-color: #d1d5db;
+                    }
+                }
+            }
+            
+            input[type="checkbox"] {
+                width: 16px;
+                height: 16px;
+                border-radius: 4px;
+                border: 1.5px solid #d1d5db;
+                cursor: pointer;
+                transition: all 0.2s ease;
+                accent-color: #374151;
+                
+                &:checked {
+                    background: #374151;
+                    border-color: #374151;
+                }
+            }
+        }
+    }
+    
+    .rodape {
+        background: #fafbfc;
+        border-top: 1px solid #eef1f4;
+        
+        .linha {
+            margin: 20px 0px;
+            padding: 0px 20px;
+        }
+    }
+}
+
+/* Sistema de Tabs Elegante */
+.tabs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    overflow: auto;
+    
+    .grupo {
+        display: flex;
+        align-items: flex-start;
+        background: #f3f4f6;
+        border-radius: 8px;
+        padding: 4px;
+        gap: 2px;
+        
+        .tab {
+            display: flex;
+            height: 40px;
+            padding: 0px 16px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            position: relative;
+            border-radius: 6px;
+            transition: all 0.2s ease;
+            
+            &.ativa {
+                background: #ffffff;
+                color: #374151;
+                box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+                
+                .marcador {
+                    width: 100%;
+                    height: 2px;
+                    position: absolute;
+                    left: 0px;
+                    bottom: 0px;
+                    background: #374151;
+                    border-radius: 1px;
+                }
+            }
+            
+            &:hover:not(.ativa) {
+                background: #e5e7eb;
+                color: #374151;
+            }
+            
+            .estado {
+                display: flex;
+                padding: 8px 12px;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+                
+                .conteudo {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 6px;
+                    cursor: pointer;
+                    
+                    .icone {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        cursor: pointer;
+                        gap: 6px;
+                        
+                        label {
+                            cursor: pointer;
+                            font-family: var(--Title-Small-Font, Roboto);
+                            font-size: 13px;
+                            font-weight: 500;
+                            line-height: 18px;
+                            letter-spacing: -0.01em;
+                            color: #6b7280;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Layouts Temáticos Elegantes */
+.mdTabela[data-layout="dalmata"] {
+    .linha:nth-child(odd) {
+        background: #111827 !important;
+        color: #f9fafb !important;
+        border: none !important;
+    }
+    
+    .linha:nth-child(even) {
+        background: #ffffff !important;
+        color: #111827 !important;
+        border: none !important;
+    }
+}
+
+.mdTabela[data-layout="minimalist"] {
+    .linha:nth-child(odd) {
+        background: #f9fafb !important;
+        color: #374151 !important;
+        border: none !important;
+    }
+    
+    .linha:nth-child(even) {
+        background: #ffffff !important;
+        color: #111827 !important;
+        border: none !important;
+    }
+}
+
+.mdTabela[data-layout="light-blue"] {
+    .linha:nth-child(odd) {
+        background: #f0f9ff !important;
+        color: #1e40af !important;
+        border: none !important;
+    }
+    
+    .linha:nth-child(even) {
+        background: #e0f2fe !important;
+        color: #1565c0 !important;
+        border: none !important;
+    }
+}
+
+.mdTabela[data-layout="forest"] {
+    .linha:nth-child(odd) {
+        background: #f0fdf4 !important;
+        color: #166534 !important;
+        border: none !important;
+    }
+    
+    .linha:nth-child(even) {
+        background: #dcfce7 !important;
+        color: #15803d !important;
+        border: none !important;
+    }
+}
+
+/* Estados especiais elegantes */
+.linha.destacada {
+    background: #f8fafc !important;
+    border-left: 3px solid #374151;
+}
+
+.linha.erro {
+    background: #fef2f2 !important;
+    border-left: 3px solid #dc2626;
+}
+
+.linha.sucesso {
+    background: #f0fdf4 !important;
+    border-left: 3px solid #16a34a;
+}
+
+/* Responsividade elegante */
+@media (max-width: 768px) {
+    .cardTabela {
+        border-radius: 12px;
+        
+        .tabela-header {
+            padding: 20px;
+            
+            .linha {
+                flex-direction: column;
+                gap: 16px;
+                align-items: stretch;
+            }
+        }
+        
+        .mdTabela .corpo .linha {
+            padding: 16px 20px;
+            
+            .col {
+                padding: 4px 6px;
+                font-size: 13px;
+            }
+            
+            .acao {
+                position: static;
+                background: #f8fafc;
+                border-radius: 8px;
+                padding: 12px;
+                margin-top: 12px;
+                
+                .btn {
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+        }
+    }
+    
+    .tabs .grupo {
+        flex-wrap: wrap;
+        
+        .tab {
+            min-width: 100px;
+            height: 36px;
+        }
+    }
+}

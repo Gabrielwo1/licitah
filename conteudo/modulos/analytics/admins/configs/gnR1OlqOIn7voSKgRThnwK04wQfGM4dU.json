@@ -1,0 +1,78 @@
+{
+    "banco": "analytics_dispositivos",
+    "meta": false,
+    "prefixo": "analytics_dispositivo",
+    "url": "1",
+    "colunas": [
+        {
+            "nome": "tipo",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "iwV4OcwHIjaNfZFrdUFdXWLkduuAUS"
+        },
+        {
+            "nome": "plataforma",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "LAaHIAVb12H9GUlNMlioCD9pbEfoNN"
+        },
+        {
+            "nome": "navegador",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "ehxRFgHbmJSePKOwkxVq14p6ynzYlh"
+        },
+        {
+            "nome": "bot",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "S9y6cpEp19M9jqTTtuMAZRc5q6cc1b"
+        },
+        {
+            "nome": "idioma",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "z68tSrfENk7byBlSCMT0NQXvl7EtqS",
+            "size": 5
+        },
+        {
+            "nome": "extra",
+            "nulo": false,
+            "tipo": "json",
+            "unico": false,
+            "input": "I4dGaIl5RDHQO3fBGxIJ65X0CLltl9"
+        }
+    ],
+    "estrutura": {
+        "meta": false,
+        "hash": true,
+        "autor": false,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "ordenador": false,
+        "url": true,
+        "urledit": false,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false,
+        "autoria": false,
+        "wildcard": false,
+        "atributos": false,
+        "destaque": false,
+        "enderecos": false,
+        "subconta": false,
+        "desabilitarNovo": false,
+        "desabilitarEdicao": false,
+        "reordenador": false,
+        "pontos": false
+    },
+    "metas": []
+}

@@ -1,0 +1,53 @@
+{
+    "titulo":{
+        "tipo": "input",
+        "label": "Título do Espaço",
+        "descricao": "Defina um título que irá aparecer no espaço"
+    },
+    "divisor":{
+        "tipo": "check",
+        "label": "Ativar Divisor Após o Título",
+        "descricao": "Defina um título que irá aparecer no espaço"
+    },
+    "conteudo":{
+        "label": "Defina o tipo de conteúdo no espaço",
+        "tipo": "select",
+        "descricao": "Defina o estilo do espaço",
+         "opcoes": [
+             {"chave": "Texto", "valor": "1"},
+             {"chave": "Links", "valor": "2"},
+             {"chave": "Imagem", "valor": "3"}
+            ]
+    },
+     "menu": {
+      "tipo": "select",
+      "name": "Menu",
+      "label": "Menu Lateral",
+      "dinamico": true,
+      "foco": "menus,menu_id,menu_nome",
+      "condicional": "conteudo",
+      "valorcondicao": "2"
+    },
+  
+    "texto":{
+        "label": "Texto",
+        "tipo": "textarea",
+        "descricao": "Defina o texto do espaço",
+        "condicional": "conteudo",
+        "valorcondicao": "1"
+    },
+     "imagem":{
+        "label": "Imagem",
+        "tipo": "file",
+        "descricao": "Defina a imagem do espaço",
+        "condicional": "conteudo",
+        "valorcondicao": "3"
+    },
+       "altura":{
+        "label": "Altura da Imagem",
+        "tipo": "number",
+        "descricao": "Defina a altura da imagem em Pixels",
+        "condicional": "conteudo",
+        "valorcondicao": "3"
+    }
+}

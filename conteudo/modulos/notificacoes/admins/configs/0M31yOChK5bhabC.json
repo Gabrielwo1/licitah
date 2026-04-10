@@ -1,0 +1,88 @@
+{
+    "banco": "notificacoes",
+    "meta": true,
+    "prefixo": "notificacao",
+    "url": false,
+    "colunas": [
+        {
+            "nome": "cabecalho",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "4WKvVKUYHzDKlPjAKSl8cGD3tYwzhn",
+            "size": 200
+        },
+        {
+            "nome": "body",
+            "nulo": false,
+            "tipo": "text",
+            "unico": false,
+            "input": "gpHCEm8jrPaTdEGpWIh74p2QmZODle"
+        },
+        {
+            "nome": "destinatario",
+            "nulo": false,
+            "tipo": "estrangeiro",
+            "input": "cWAa2eEWOztuwOAePOIjjMcGpaucwA",
+            "render": {
+                "modulo": "usuarios",
+                "banco": "aY4O9kcLpNMpbiD",
+                "colunas": [
+                    "usuario_display"
+                ]
+            }
+        },
+        {
+            "nome": "logs",
+            "nulo": true,
+            "tipo": "text",
+            "unico": false,
+            "input": "yAZTseKn8egL0wZTtHUawteo3skqpq"
+        },
+        {
+            "nome": "lido",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "pjSjrIEUitkjof1PfncZuAbVE9oHIN"
+        },
+        {
+            "nome": "inapp",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "0nasjQKCvlYBMdWKbjrg5X7FQMVxPf"
+        },
+        {
+            "nome": "link",
+            "nulo": true,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "vARXGLUhFNNCXajjER0Z20pRI9K7tl",
+            "size": 200
+        }
+    ],
+    "estrutura": {
+        "meta": true,
+        "hash": true,
+        "autor": true,
+        "render": true,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "url": false,
+        "urledit": false,
+        "imagemDestaque": true,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false
+    },
+    "metas": {
+        "4v84Bp21Qk1mgQ3e5KKpS1hFJk6ZgC": "texto_link",
+        "NuNeus7kMSXka6TdGM6f3xw6wWVSz3": "push",
+        "Nq3iaaxiIgy8RDriGIqb35dT2kCQ1N": "whatsapp",
+        "RcZS3JUCtxlgkOrjChUhnvRui1aVVP": "email",
+        "gAZUXg0XKNCNQLjqSzoBqWXQEaPBRN": "sms"
+    }
+}

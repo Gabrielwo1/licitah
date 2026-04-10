@@ -1,0 +1,132 @@
+{
+    
+     "Topo":{
+        "tipo": "titulo"
+    },
+     "ativartopo":{
+        "label": "Ativar topo na Home do Blog",
+        "descricao": "Aréa no topo do site, com as principais noticias",
+        "tipo": "check"
+    },
+     "alturatopo":{
+        "label": "Altura do topo",
+        "descricao": "Defina a altura do topo. Em px",
+        "tipo": "input",
+        "condicional": "ativartopo"
+    },
+    "colunastopo":{
+        "label": "Quantidades de coluna no topo",
+        "descricao": "Reordene de maneiras infinitas o topo do blog",
+        "tipo": "select",
+        "condicional": "ativartopo",
+        "opcoes":[
+            {"chave": "1 Coluna", "valor": 1},
+            {"chave": "2 Colunas", "valor": 2},
+            {"chave": "3 Colunas", "valor": 3},
+            {"chave": "4 Colunas", "valor": 4},
+            {"chave": "6 Colunas", "valor": 6},
+            {"chave": "12 Colunas", "valor": 12}
+            ]
+    },
+    "setuptopo":{
+        "tipo": "div"
+    },
+    
+    
+  
+    "Listagem":{
+        "tipo": "titulo"
+    },
+    
+    "listagemartigo":{
+        "label": "Listagem de Artigos",
+        "tipo": "check",
+        "descricao": "Habilitar lista com todos os artigos"
+    },
+    "estilocarregamento":{
+        "label": "Listagem de Artigos",
+        "tipo": "select",
+        "descricao": "Defina como os artigos irão carregar",
+        "opcoes":[
+            {"chave": "Scroll Infinito", "valor": 1},
+            {"chave": "Botão Ver Mais", "valor": 2},
+            {"chave": "Páginação", "valor": 3}
+            ]
+    },
+      "itenslinha":{
+        "label": "Itens por Linha",
+        "descricao": "Quantidade de itens que aparecerá por linha",
+        "tipo": "select",
+        "condicional": "listagemartigo",
+        "opcoes":[
+            {"chave": "1 por linha", "valor": 1},
+            {"chave": "2 por linha", "valor": 2},
+            {"chave": "3 por linha", "valor": 3},
+            {"chave": "4 por linha", "valor": 4},
+            {"chave": "6 por linha", "valor": 6},
+            {"chave": "8 por linha", "valor": 8},
+            {"chave": "12 por linha", "valor": 12}
+            ]
+    },
+
+     "posicaoimagem":{
+        "label": "Posição da Imagem",
+        "descricao": "Organize onde a imagem deve ficar",
+        "tipo": "select",
+        "condicional": "listagemartigo",
+        "opcoes":[
+            {"chave": "Sem Imagem", "valor": "sem"},
+            {"chave": "Esquerda", "valor": "esquerda"},
+            {"chave": "Direita", "valor": "direita"},
+            {"chave": "Topo", "valor": "topo"},
+            {"chave": "Em Baixo", "valor": "baixo"}
+            ]
+    },
+     "resumolista":{
+        "label": "Mostrar Resumo",
+        "tipo": "check",
+        "descricao": "Mostre um resumo do artigo",
+        "condicional": "listagemartigo"
+    },
+       "datalista":{
+        "label": "Mostrar Data",
+        "tipo": "check",
+        "descricao": "Mostre a data de postagem",
+        "condicional": "listagemartigo"
+    },
+       "categorialista":{
+        "label": "Mostrar Categoria",
+        "tipo": "check",
+        "descricao": "Mostre a categoria do artigo",
+        "condicional": "listagemartigo"
+    },
+    
+    "backgroudcard":{
+        "label": "Background Transparente",
+        "tipo": "check",
+        "descricao": "Remover o background do card de notícia",
+        "condicional": "listagemartigo"
+    },
+    
+
+    "Sidebar":{
+        "tipo": "titulo"
+    },
+    
+    "sidebar":{
+        "label": "Ativar Sidebar",
+        "tipo": "check",
+        "descricao": "Habilitar barra lateral para inserção de Widgets"
+    },
+        
+        "sidebarposition":{
+            "tipo":"select",
+            "label": "Posicionamento do Sidebar",
+            "descricao": "Escolha a posição do sidebar",
+            "condicional": "sidebar",
+            "opcoes": [
+                {"chave": "Esquerda", "valor": "esquerda"},
+                {"chave": "Direita", "valor": "direita"}
+            ]
+        }
+}

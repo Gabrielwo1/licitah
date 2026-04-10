@@ -1,0 +1,16 @@
+{
+    "nome": "Politicas",
+    "tipo": "2",
+    "id": "x5elK0hTU9qxiJb",
+    "btns": [
+        {
+            "texto": "Adicionar Politica",
+            "tipo": "1",
+            "callback": "a\/politicas\/politica",
+            "id": "",
+            "icone": "bi bi-highlighter"
+        }
+    ],
+    "titulo": "Politicas do Site",
+    "breadcrumbs": true
+}

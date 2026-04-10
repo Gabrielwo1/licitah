@@ -1,0 +1,12 @@
+{
+    "notificacoes":{
+        "label": "Controle de Notificações",
+        "tipo": "check",
+        "descricao": "Permita os usuários controlar as notificações dentro do sistema."
+    },
+    "privacidade":{
+        "label": "Controle de Privacidade",
+        "tipo": "check",
+        "descricao": "Permita os usuários controlar os dados publicos do sistema."
+    }
+}

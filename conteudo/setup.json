@@ -1,0 +1,364 @@
+{
+    "geral": {
+        "geral": {
+            "nome": "Licitah",
+            "tag": false,
+            "alternativo": "Licitah",
+            "login": "true",
+            "cadastro": "true",
+            "novosusuarios": false,
+            "aprovacao": false,
+            "textologin": false,
+            "sair": false
+        },
+        "light-dark-mode": {
+            "ativo": false,
+            "primario": "1",
+            "layout": "1"
+        },
+        "logotipo": {
+            "logomarca": "[\"imagens\/\/2024\/08\/v8ymp3p2dogc9jb-1723120079\/original.png\"]",
+            "logo": "[\"imagens\/\/2024\/08\/y7u3s5glwarxeya-1723120081\/original.png\"]",
+            "logotipo": "[\"imagens\/\/2024\/08\/oev0h3y36ae8mv7-1723120089\/original.png\"]",
+            "favicon": "[\"imagens\/\/2024\/08\/guglc9pjoafvapa-1723120296\/original.png\"]"
+        },
+        "pre-carregamento": {
+            "precarregamento": "true",
+            "textocarregamento": "Seja bem vindo!",
+            "corbackground": "#ffffff",
+            "imagem": "[\"imagens\/\/2024\/08\/l9gas2njdqhm937-1723233372\/original.jpg\"]",
+            "cortextos": "black"
+        },
+        "lgpd": {
+            "lgpd": "true",
+            "time": false,
+            "tipo": false,
+            "timer": "5"
+        },
+        "itens-topo": {
+            "personalizar": false,
+            "bg": "#007cf0",
+            "cor": "#ffffff",
+            "carrinho": "true",
+            "notificacao": false,
+            "chat": false
+        },
+        "botao-perfil": {
+            "customizarbotao": false,
+            "cor": "btn-n-primaria",
+            "iconebtn": false,
+            "textobtn": "Minha Conta",
+            "posicao": "1",
+            "dropdown": false,
+            "acao": "1",
+            "link": false
+        },
+        "botao-personalizado-um": {
+            "ativar": false,
+            "logados": "true",
+            "deslogados": false,
+            "cor": "none",
+            "esquerda": false,
+            "icone": false,
+            "texto": "Ajuda",
+            "posicao": "1",
+            "link": false,
+            "hidemomobile": false,
+            "hidedesk": false
+        },
+        "barra-de-rolagem": {
+            "personalizar": "true",
+            "largura": "5",
+            "corbarra": "#d1d1d1",
+            "cormarcador": "#ff6600"
+        },
+        "voltar-ao-topo": {
+            "ativar": "true"
+        }
+    },
+    "estilo": {
+        "cores": {
+            "primaria": "#0a1175",
+            "secundaria": "#262e3a",
+            "terciaria": "#ff6600",
+            "quaternaria": "#7b7b7b"
+        }
+    },
+    "paginas": {
+        "acesso": {
+            "logo": "logo",
+            "animacoes": false,
+            "layout": "2",
+            "backgroundpersonalizado": "true",
+            "corbackground": "#ffffff",
+            "desabilitarcard": "true",
+            "ativarimgbg": "true",
+            "imgbg": "[\"imagens\/\/2024\/08\/5gx7vtp9qwvy0mu-1723212620\/original.png\"]",
+            "layoutbg": "3"
+        },
+        "deslogadas": {
+            "deslogadas": false,
+            "lateral": false,
+            "menulateral": false,
+            "topo": false,
+            "menutopo": false,
+            "rodape": false,
+            "menufooter": false
+        },
+        "logadas": {
+            "lateral": "true",
+            "menulateral": "1",
+            "topo": "true",
+            "menutopo": false,
+            "rodape": false,
+            "menufooter": false,
+            "btnpersonalizado": "true",
+            "btnspersonalizados": "[{\"i\":\"bi bi-person-gear\",\"t\":\"Editar Perfil\",\"l\":\"\/perfil\"},{\"i\":\"bi bi-card-checklist\",\"t\":\"Minhas Assinaturas\",\"l\":\"\/pagamento\/minhas-assinaturas\"}]",
+            "desabilitar-fixos": "true"
+        },
+        "cadastro": {
+            "celular": "true",
+            "cpf": "true",
+            "endereco": false,
+            "desativarsenha": false,
+            "validaremail": false,
+            "empresa": false,
+            "duplicatasempresa": false,
+            "validartelefone": false,
+            "validarmomento": false,
+            "ativarcadastrorapido": false,
+            "tiporedirecionamento": false,
+            "urlpersonalizada": false,
+            "idprodutocarrinho": false,
+            "idprodutocheckout": false
+        },
+        "login": {
+            "box": false,
+            "posicaobox": "esquerda",
+            "auxiliar": "1",
+            "imgaux": "[]",
+            "tituloauxiliar": "LICITAH",
+            "textoauxiliar": "Insira suas informações para entrar",
+            "telefone": "true",
+            "cpf": "true",
+            "mensagemboas": "Insira suas informações para entregar"
+        },
+        "multi-contas": {
+            "ativar": "true",
+            "tipo": "empresas"
+        }
+    },
+    "tipografia": {
+        "corpo": {
+            "familia": "Titillium Web",
+            "alinhamento": "left",
+            "transformacao": "none",
+            "pesos": "400",
+            "subs": "latin",
+            "tamanhos": "{\"Mobile\":{\"font-size\":\"16\",\"altura-linha\":\"\",\"espaco-palavra\":\"\",\"espaco-letra\":\"\"},\"Tablet\":{\"font-size\":\"\",\"altura-linha\":\"\",\"espaco-palavra\":\"\",\"espaco-letra\":\"\"},\"Pc\":{\"font-size\":\"\",\"altura-linha\":\"\",\"espaco-palavra\":\"\",\"espaco-letra\":\"\"},\"WideScreen\":{\"font-size\":\"\",\"altura-linha\":\"\",\"espaco-palavra\":\"\",\"espaco-letra\":\"\"}}",
+            "selector": "body"
+        },
+        "titulos-h1": {
+            "familia": "Titillium Web",
+            "alinhamento": "left",
+            "transformacao": "none",
+            "pesos": "700",
+            "subs": "latin",
+            "tamanhos": "{\"Mobile\":{\"font-size\":\"40\",\"altura-linha\":\"\",\"espaco-palavra\":\"\",\"espaco-letra\":\"\"},\"Tablet\":{\"font-size\":\"\",\"altura-linha\":\"\",\"espaco-palavra\":\"\",\"espaco-letra\":\"\"},\"Pc\":{\"font-size\":\"60\",\"altura-linha\":\"\",\"espaco-palavra\":\"\",\"espaco-letra\":\"\"},\"WideScreen\":{\"font-size\":\"\",\"altura-linha\":\"\",\"espaco-palavra\":\"\",\"espaco-letra\":\"\"}}",
+            "selector": "h1"
+        },
+        "titulos-h2": {
+            "familia": "Titillium Web",
+            "alinhamento": "left",
+            "transformacao": "none",
+            "pesos": "600",
+            "subs": "latin",
+            "tamanhos": "{\"Mobile\":{\"font-size\":\"30\",\"altura-linha\":\"\",\"espaco-palavra\":\"\",\"espaco-letra\":\"\"},\"Tablet\":{\"font-size\":\"\",\"altura-linha\":\"\",\"espaco-palavra\":\"\",\"espaco-letra\":\"\"},\"Pc\":{\"font-size\":\"40\",\"altura-linha\":\"\",\"espaco-palavra\":\"\",\"espaco-letra\":\"\"},\"WideScreen\":{\"font-size\":\"\",\"altura-linha\":\"\",\"espaco-palavra\":\"\",\"espaco-letra\":\"\"}}",
+            "selector": "h2"
+        },
+        "titulos-h3": {
+            "familia": "Titillium Web",
+            "alinhamento": "left",
+            "transformacao": "none",
+            "pesos": "600",
+            "subs": "latin",
+            "tamanhos": "{\"Mobile\":{\"font-size\":\"\",\"altura-linha\":\"\",\"espaco-palavra\":\"\",\"espaco-letra\":\"\"},\"Tablet\":{\"font-size\":\"\",\"altura-linha\":\"\",\"espaco-palavra\":\"\",\"espaco-letra\":\"\"},\"Pc\":{\"font-size\":\"\",\"altura-linha\":\"\",\"espaco-palavra\":\"\",\"espaco-letra\":\"\"},\"WideScreen\":{\"font-size\":\"\",\"altura-linha\":\"\",\"espaco-palavra\":\"\",\"espaco-letra\":\"\"}}",
+            "selector": "h3"
+        },
+        "titulos-h4": {
+            "familia": "Titillium Web",
+            "alinhamento": "left",
+            "transformacao": "none",
+            "pesos": "600",
+            "subs": "latin",
+            "tamanhos": "{\"Mobile\":{\"font-size\":\"\",\"altura-linha\":\"\",\"espaco-palavra\":\"\",\"espaco-letra\":\"\"},\"Tablet\":{\"font-size\":\"\",\"altura-linha\":\"\",\"espaco-palavra\":\"\",\"espaco-letra\":\"\"},\"Pc\":{\"font-size\":\"\",\"altura-linha\":\"\",\"espaco-palavra\":\"\",\"espaco-letra\":\"\"},\"WideScreen\":{\"font-size\":\"\",\"altura-linha\":\"\",\"espaco-palavra\":\"\",\"espaco-letra\":\"\"}}",
+            "selector": "h4"
+        },
+        "titulos-h5": {
+            "familia": "Titillium Web",
+            "alinhamento": "left",
+            "transformacao": "none",
+            "pesos": "600",
+            "subs": "latin",
+            "tamanhos": "{\"Mobile\":{\"font-size\":\"\",\"altura-linha\":\"\",\"espaco-palavra\":\"\",\"espaco-letra\":\"\"},\"Tablet\":{\"font-size\":\"\",\"altura-linha\":\"\",\"espaco-palavra\":\"\",\"espaco-letra\":\"\"},\"Pc\":{\"font-size\":\"\",\"altura-linha\":\"\",\"espaco-palavra\":\"\",\"espaco-letra\":\"\"},\"WideScreen\":{\"font-size\":\"\",\"altura-linha\":\"\",\"espaco-palavra\":\"\",\"espaco-letra\":\"\"}}",
+            "selector": "h5"
+        },
+        "titulos-h6": {
+            "familia": "Titillium Web",
+            "alinhamento": "left",
+            "transformacao": "none",
+            "pesos": "600",
+            "subs": "latin",
+            "tamanhos": "{\"Mobile\":{\"font-size\":\"\",\"altura-linha\":\"\",\"espaco-palavra\":\"\",\"espaco-letra\":\"\"},\"Tablet\":{\"font-size\":\"\",\"altura-linha\":\"\",\"espaco-palavra\":\"\",\"espaco-letra\":\"\"},\"Pc\":{\"font-size\":\"\",\"altura-linha\":\"\",\"espaco-palavra\":\"\",\"espaco-letra\":\"\"},\"WideScreen\":{\"font-size\":\"\",\"altura-linha\":\"\",\"espaco-palavra\":\"\",\"espaco-letra\":\"\"}}",
+            "selector": "h6"
+        },
+        "menu-lateral": {
+            "familia": "Titillium Web",
+            "alinhamento": "left",
+            "transformacao": "none",
+            "pesos": "400",
+            "subs": "latin",
+            "tamanhos": "{\"Mobile\":{\"font-size\":\"\",\"altura-linha\":\"\",\"espaco-palavra\":\"\",\"espaco-letra\":\"\"},\"Tablet\":{\"font-size\":\"\",\"altura-linha\":\"\",\"espaco-palavra\":\"\",\"espaco-letra\":\"\"},\"Pc\":{\"font-size\":\"\",\"altura-linha\":\"\",\"espaco-palavra\":\"\",\"espaco-letra\":\"\"},\"WideScreen\":{\"font-size\":\"\",\"altura-linha\":\"\",\"espaco-palavra\":\"\",\"espaco-letra\":\"\"}}",
+            "selector": "#lateral :is(.itemDeMenu, .accordion-button)"
+        },
+        "menu-topo": {
+            "familia": "Titillium Web",
+            "alinhamento": "left",
+            "transformacao": "none",
+            "pesos": "400",
+            "subs": "latin",
+            "tamanhos": "{\"Mobile\":{\"font-size\":\"\",\"altura-linha\":\"\",\"espaco-palavra\":\"\",\"espaco-letra\":\"\"},\"Tablet\":{\"font-size\":\"\",\"altura-linha\":\"\",\"espaco-palavra\":\"\",\"espaco-letra\":\"\"},\"Pc\":{\"font-size\":\"\",\"altura-linha\":\"\",\"espaco-palavra\":\"\",\"espaco-letra\":\"\"},\"WideScreen\":{\"font-size\":\"\",\"altura-linha\":\"\",\"espaco-palavra\":\"\",\"espaco-letra\":\"\"}}",
+            "selector": "#topo"
+        },
+        "menu-footer": {
+            "familia": "Titillium Web",
+            "alinhamento": "left",
+            "transformacao": "none",
+            "pesos": "400",
+            "subs": "latin",
+            "tamanhos": "{\"Mobile\":{\"font-size\":\"\",\"altura-linha\":\"\",\"espaco-palavra\":\"\",\"espaco-letra\":\"\"},\"Tablet\":{\"font-size\":\"\",\"altura-linha\":\"\",\"espaco-palavra\":\"\",\"espaco-letra\":\"\"},\"Pc\":{\"font-size\":\"\",\"altura-linha\":\"\",\"espaco-palavra\":\"\",\"espaco-letra\":\"\"},\"WideScreen\":{\"font-size\":\"\",\"altura-linha\":\"\",\"espaco-palavra\":\"\",\"espaco-letra\":\"\"}}"
+        }
+    },
+    "login-social": {
+        "google": {
+            "ativo": false,
+            "id": false,
+            "segredo": false,
+            "redirecionamento": false,
+            "versao": "1"
+        },
+        "facebook": {
+            "ativo": false,
+            "appid": false,
+            "appsecret": false,
+            "redirecturi": false
+        }
+    },
+    "header": {
+        "light-mode": {
+            "customcolors": false,
+            "backgroundcolor": "#000000",
+            "cortexto": "#000000",
+            "corhover": "#000000",
+            "backgroundmenu": "#000000",
+            "hover": "#000000",
+            "destaque": "#000000",
+            "logomarca": "[]",
+            "logo": "[]",
+            "logotipo": "[]",
+            "imagembackground": "[]"
+        },
+        "dark-mode": {
+            "customcolors": false,
+            "backgroundcolor": "#000000",
+            "cortexto": "#000000",
+            "corhover": "#000000",
+            "backgroundmenu": "#000000",
+            "hover": "#000000",
+            "destaque": "#000000",
+            "logomarca": "[]",
+            "logo": "[]",
+            "logotipo": "[]",
+            "imagembackground": "[]"
+        }
+    },
+    "idioma": {
+        "geral": {
+            "idioma": "en",
+            "multilanguage": "true",
+            "idiomas": false
+        }
+    },
+    "politicas": {
+        "termos-e-condicoes": {
+            "ativar": "true",
+            "cadastro": "true"
+        },
+        "politica-de-devolucao-e-reembolso": {
+            "ativar": "true",
+            "cadastro": "true"
+        }
+    },
+    "notificacoes": {
+        "configuracoes": {
+            "inapp": "true",
+            "email": "true",
+            "sms": "true",
+            "push": "true",
+            "whatsapp": "true"
+        },
+        "push-notification": {
+            "provedor": "1",
+            "instanceid": "19e0eb48-f7ec-4256-871d-86fef5b5ecc8",
+            "secretkey": "AE8C28CE00ACBE19D0BD88B038EC7911D2D999523B526B26570CC61264FAD41B"
+        },
+        "email": {
+            "remetente": "contato@licitah.app",
+            "nomeremetente": "Licitah",
+            "disparador": "2",
+            "apibrevo": "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",
+            "host": false,
+            "protocolo": "1",
+            "autentificacaosmtp": false,
+            "usuarioemail": false,
+            "senhaemail": false,
+            "portaemail": false
+        }
+    },
+    "manutencao": {
+        "modo-manutencao": {
+            "modomanutencao": false,
+            "mode": "light",
+            "cabecalho": "Estamos em manutenção",
+            "descricao": false,
+            "cronometro": "true",
+            "data": "2024-08-22",
+            "horario": "22:11",
+            "ativarzap": false,
+            "telefone": false,
+            "logopagina": "[\"imagens\/\/2024\/08\/l9gas2njdqhm937-1723233372\/original.jpg\"]"
+        }
+    },
+    "seguranca": {
+        "configuracoes": {
+            "recapcha": false,
+            "recapchacode": false,
+            "forcabruta": "true",
+            "tentativas": "5",
+            "tempo": "1"
+        }
+    },
+    "logotipos": {
+        "light": {
+            "logo": "https:\/\/licitah.app\/conteudo\/uploads\/imagens\/\/2024\/08\/y7u3s5glwarxeya-1723120081\/original.png",
+            "logomarca": "https:\/\/licitah.app\/conteudo\/uploads\/imagens\/\/2024\/08\/v8ymp3p2dogc9jb-1723120079\/original.png",
+            "logotipo": "https:\/\/licitah.app\/conteudo\/uploads\/imagens\/\/2024\/08\/oev0h3y36ae8mv7-1723120089\/original.png"
+        },
+        "dark": {
+            "logo": "https:\/\/licitah.app\/conteudo\/uploads\/imagens\/\/2024\/08\/y7u3s5glwarxeya-1723120081\/original.png",
+            "logomarca": "https:\/\/licitah.app\/conteudo\/uploads\/imagens\/\/2024\/08\/v8ymp3p2dogc9jb-1723120079\/original.png",
+            "logotipo": "https:\/\/licitah.app\/conteudo\/uploads\/imagens\/\/2024\/08\/oev0h3y36ae8mv7-1723120089\/original.png"
+        }
+    },
+    "dominio": "licitah.app"
+}

@@ -1,0 +1,37 @@
+{
+    "nome": "Pontos",
+    "banco": "18mQ9mjt3eo1wfMPfcJMeidBjIhWu5rQ",
+    "colunas": [
+        {
+            "nome": "Nome",
+            "id": "nome",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false
+        }
+    ],
+    "regra": "1",
+    "acoes": {
+        "opcoes": {
+            "acoes": true,
+            "editar": true,
+            "apagar": true,
+            "vizualizar": false,
+            "importador": false,
+            "exportador": false,
+            "filtro": false,
+            "colunas": false,
+            "multiplo": false
+        },
+        "rotas": {
+            "editar": "a\/pagamento\/ponto",
+            "vizualizar": ""
+        }
+    },
+    "layout": {
+        "modo": "1",
+        "container": "0"
+    },
+    "acoesPersonalizadas": []
+}

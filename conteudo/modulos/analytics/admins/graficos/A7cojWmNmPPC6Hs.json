@@ -1,0 +1,57 @@
+{
+    "nome": "Acessos Unicos Api de pagina",
+    "tipoGrafico": "tempo",
+    "graficoPrimario": "",
+    "bancoDeDados": "uL4qCnbVp2P7mlKlJ7I0ZwEIhzLljNig",
+    "colunaData": "data",
+    "filtro": "1",
+    "trato": "",
+    "grafico": {
+        "periodo": "hora",
+        "sub": "contagem",
+        "agrupamento": "1",
+        "categoria": "usuario",
+        "conta": "usuario",
+        "espacos": {
+            "minuto": false,
+            "hora": false,
+            "dia": false,
+            "semana": false,
+            "mes": false
+        }
+    },
+    "layout": {
+        "primario": "",
+        "periodoinicial": "Total",
+        "titulo": "Acessos Únicos",
+        "alteralayout": true,
+        "selecionarperiodo": false,
+        "drop": false,
+        "horas": false,
+        "rodape": false
+    },
+    "extra": {
+        "layout": "1",
+        "bg": "#000000",
+        "color": "#000000",
+        "prefixo": "",
+        "sufixo": "",
+        "listaCores": ""
+    },
+    "condicional": {
+        "ativo": "1",
+        "coluna": "modulo",
+        "tipo": "=",
+        "valor": "paginas"
+    },
+    "condicional2": {
+        "ativo": "1",
+        "coluna": "banco",
+        "tipo": "=",
+        "valor": "paginas"
+    },
+    "atualizacao": {
+        "ativa": false,
+        "segundos": "30"
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "nome": "Item usuario exclusivo para Empresa",
+    "banco": "sWHpiPuhQkQBvSHypTtmyHKpF9kBq99c",
+    "tipo": 1,
+    "subtipo": 3,
+    "itens": [
+        {
+            "nome": "id",
+            "banco": "p",
+            "chave": "id",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "hash",
+            "banco": "p",
+            "chave": "hash",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "display",
+            "banco": "p",
+            "chave": "display",
+            "estrangeiro": 0
+        }
+    ],
+    "number": {
+        "comentarios": false,
+        "reacoes": false,
+        "favoritos": false,
+        "visualizacoes": false
+    },
+    "extra": {
+        "ativo": false,
+        "coluna": "",
+        "tipo": "="
+    },
+    "clone": {
+        "ativo": false,
+        "api": ""
+    }
+}

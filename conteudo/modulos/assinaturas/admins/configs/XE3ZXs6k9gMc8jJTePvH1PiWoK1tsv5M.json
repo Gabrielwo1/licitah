@@ -1,0 +1,67 @@
+{
+    "banco": "planos_assinaturas",
+    "meta": false,
+    "prefixo": "plana",
+    "url": false,
+    "colunas": [
+        {
+            "nome": "usuario",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "P4Bu9CNVPx7e7ucAMjUwH8EJoCN8K8"
+        },
+        {
+            "nome": "plano",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "FxKkCZch8oQ1UdGzKRQyol0LZNN7Qu"
+        },
+        {
+            "nome": "estado",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "sjQF7mgqh8aCUetvOHSdLRpH0sVBEW"
+        },
+        {
+            "nome": "inicio",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "IqBNethgfWmOSZmdukdH0xkzuYsKaI",
+            "size": 10
+        },
+        {
+            "nome": "fim",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "BNCJuH6HRZPeKmIMHDk1dw2vMgmgF7",
+            "size": 10
+        }
+    ],
+    "estrutura": {
+        "meta": false,
+        "hash": false,
+        "autor": true,
+        "render": false,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "ordenador": true,
+        "url": false,
+        "urledit": false,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false,
+        "desabilitarNovo": false,
+        "desabilitarEdicao": false,
+        "reordenador": false,
+        "pontos": false
+    },
+    "metas": []
+}

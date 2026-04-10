@@ -1,0 +1,27 @@
+{
+    "nome":{
+        "tipo": "input",
+        "descricao": "Defina o nome do atendente",
+        "label": "Nome do Atendente"
+    },
+    "foto": {
+        "tipo": "file",
+        "label": "Foto",
+        "descricao": "Defina uma imagem para o atendente"
+    },
+     "texto": {
+        "tipo": "input",
+        "label": "Texto",
+        "descricao": "Defina um texto para aparecer abaixo do nome do atendente."
+    },
+      "boas": {
+        "tipo": "textarea",
+        "label": "Mensagem de boas vindas",
+        "descricao": "Defina uma mensagem de Boas-vindas."
+    },
+      "link": {
+          "label":"Defina o link de redirecionamento",
+          "descricao": "Defina a URL de redirecionamento para esse atendente",
+          "tipo": "input"
+    }
+} 

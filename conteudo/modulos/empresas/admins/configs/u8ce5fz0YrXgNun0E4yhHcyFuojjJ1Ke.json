@@ -1,0 +1,63 @@
+{
+    "banco": "empresas_codigos",
+    "meta": false,
+    "prefixo": "empresas_codigo",
+    "url": "1",
+    "colunas": [
+        {
+            "nome": "empresa",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "xnpzMRp5r3zCqyj44AR6Ht12AHuag6"
+        },
+        {
+            "nome": "funcao",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "0HX32K21bOMvbcgAqIqgcRVsVt2HG6"
+        },
+        {
+            "nome": "uso",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "p52P3onsfPbu93zfhpStuUiVF0LxUL"
+        },
+        {
+            "nome": "usuario",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "Esw0h2mHzouQ5q0XbzEWaF0qwCnPO0"
+        }
+    ],
+    "estrutura": {
+        "meta": false,
+        "hash": true,
+        "autor": true,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "ordenador": false,
+        "url": true,
+        "urledit": false,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false,
+        "autoria": false,
+        "wildcard": false,
+        "atributos": false,
+        "destaque": false,
+        "enderecos": false,
+        "subconta": false,
+        "desabilitarNovo": false,
+        "desabilitarEdicao": false,
+        "reordenador": false,
+        "pontos": false
+    },
+    "metas": []
+}

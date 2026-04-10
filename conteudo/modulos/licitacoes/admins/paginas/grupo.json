@@ -1,0 +1,16 @@
+{
+    "nome": "Grupo",
+    "tipo": "1",
+    "id": "RdUYiIwaMEApHidFjKKyPcjghuRhxkYI",
+    "btns": [
+        {
+            "texto": "Todos os Grupos",
+            "tipo": "1",
+            "callback": "a\/licitacoes\/grupo",
+            "id": "",
+            "icone": ""
+        }
+    ],
+    "titulo": "{novo} Grupo",
+    "breadcrumbs": false
+}

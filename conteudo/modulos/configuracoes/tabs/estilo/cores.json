@@ -1,0 +1,33 @@
+{
+ "primaria":{
+     "label": "Cor Primaria",
+     "tipo": "color",
+     "descricao": "Cor Primaria do Sistema"
+ },
+  "secundaria":{
+     "label": "Cor Segundaria",
+     "tipo": "color",
+     "descricao": "Cor Primaria do Sistema"
+ }, 
+  "terciaria":{
+     "label": "Cor Terciariaa",
+     "tipo": "color",
+     "descricao": "Cor Primaria do Sistema"
+ },  
+  "quaternaria":{
+     "label": "Cor Quaternaria",
+     "tipo": "color",
+     "descricao": "Cor Primaria do Sistema"
+ },
+ "theme":{
+     "label": "Ativar Theme Color",
+     "tipo": "check",
+     "descricao": "Essa funcionalidade irá funcionar em alguns navegadores, deixando na cor definida"
+ },
+  "tema":{
+     "label": "Cor do Tema",
+     "tipo": "color",
+     "descricao": "Defina a cor do tema.",
+     "condicional": "theme"
+ }
+}

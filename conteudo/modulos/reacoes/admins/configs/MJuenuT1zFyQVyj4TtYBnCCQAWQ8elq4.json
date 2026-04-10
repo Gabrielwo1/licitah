@@ -1,0 +1,53 @@
+{
+    "banco": "reacoes_interacoes",
+    "meta": false,
+    "prefixo": "reacoes_interacao",
+    "url": false,
+    "colunas": [
+        {
+            "nome": "banco",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "SBgsLeEHawvRWo5JGOuHXj4J0G59Rl",
+            "size": 50
+        },
+        {
+            "nome": "identificador",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "sTMea3cmyV0cDzlKdca7P4vMpVlPah"
+        },
+        {
+            "nome": "reacao",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "P7t4LbT2EO3WwXRWwEZtyetmgcCroc"
+        }
+    ],
+    "estrutura": {
+        "meta": false,
+        "hash": false,
+        "autor": true,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "ordenador": false,
+        "url": false,
+        "urledit": false,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false,
+        "desabilitarNovo": false,
+        "desabilitarEdicao": false,
+        "reordenador": false,
+        "pontos": false
+    },
+    "metas": {
+        "xzC7TPJtrb2niIS2iew8PK4tY0mGpt": ""
+    }
+}

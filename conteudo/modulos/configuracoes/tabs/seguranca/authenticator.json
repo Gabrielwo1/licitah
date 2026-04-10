@@ -1,0 +1,11 @@
+{
+    "Receba um código de autenticação antes de logar":{
+        "tipo":"titulo",
+        "subtitulo": "O usuário precisará habilitar a funcionalidade antes de proseguir"
+    },
+    "ativo":{
+        "tipo": "check",
+        "label": "Ativo",
+        "descricao": "Com essa opção ativa, os usuários poderão logarão somente com o código gerado pelo aplicativo"
+    }
+}

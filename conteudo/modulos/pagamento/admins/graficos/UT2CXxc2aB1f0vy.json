@@ -1,0 +1,28 @@
+{
+    "nome": "Pagamentos - Dia",
+    "tipo": "1",
+    "banco": "nhOMIY20RAH1u9iwdiNk3nkQeiLo9GqX",
+    "quem": "0",
+    "periodo": "2",
+    "periodoQuantidade": "1",
+    "periodoCiclo": "3",
+    "publico": {
+        "layout": "line",
+        "indice": "1",
+        "global": {
+            "trigger": false,
+            "legenda": false,
+            "legendaDireita": false,
+            "legandaAbaixo": false
+        },
+        "pie": {
+            "rosquinha": false,
+            "metade": false,
+            "espaco": false
+        },
+        "line": {
+            "smooth": "false",
+            "areaStyle": "false"
+        }
+    }
+}

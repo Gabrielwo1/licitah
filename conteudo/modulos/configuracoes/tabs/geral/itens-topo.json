@@ -1,0 +1,31 @@
+{ 
+    "personalizar":{
+        "label": "Personalizar Background",
+        "tipo":"check",
+         "descricao": "Personalizar background dos itens do topo"
+      },
+    "bg":{
+         "tipo":"color",
+         "label": "Background Color",
+         "descricao": "Defina a cor de fundo dos itens",
+         "condicional": "personalizar"
+      },
+    "cor":{
+         "label": "Cor dos Itens",
+         "tipo":"color",
+         "descricao": "Defina a cor dos itens",
+         "condicional": "personalizar"
+      },
+      "carrinho":{
+          "tipo":"check",
+          "label": "Desativar botão de carrinho"
+      },
+      "notificacao":{
+          "tipo":"check",
+          "label": "Desativar botão de notificação"
+      },
+      "chat":{
+          "tipo":"check",
+          "label": "Desativar botão de chat"
+      } 
+}

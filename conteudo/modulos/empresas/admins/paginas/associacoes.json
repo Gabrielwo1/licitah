@@ -1,0 +1,16 @@
+{
+    "nome": "Associações",
+    "tipo": "2",
+    "id": "z8LcNoCIVNSsCdX",
+    "btns": [
+        {
+            "texto": "Nova Associação",
+            "tipo": "1",
+            "callback": "a\/empresas\/associacao",
+            "id": "",
+            "icone": "bi bi-plus-circle-fill"
+        }
+    ],
+    "titulo": "Associação de Empresa",
+    "breadcrumbs": true
+}

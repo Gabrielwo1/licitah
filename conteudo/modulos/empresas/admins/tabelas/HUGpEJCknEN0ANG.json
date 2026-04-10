@@ -1,0 +1,84 @@
+{
+    "nome": "Empresas",
+    "banco": "9mX3WKIb9DI9qEW",
+    "colunas": [
+        {
+            "nome": "Logo da empresa",
+            "id": "imagem",
+            "tipo": "1",
+            "render": "imagem",
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "tabulavel": false,
+            "pesquisavel": false,
+            "colpesquisavel": false,
+            "estrangeira": 0
+        },
+        {
+            "nome": "Nome da empresa",
+            "id": "nome",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "tabulavel": false,
+            "pesquisavel": true,
+            "colpesquisavel": false,
+            "estrangeira": 0
+        },
+        {
+            "nome": "CNPJ",
+            "id": "cnpj",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "tabulavel": false,
+            "pesquisavel": true,
+            "colpesquisavel": false,
+            "estrangeira": 0
+        }
+    ],
+    "regra": "1",
+    "acoes": {
+        "opcoes": {
+            "acoes": true,
+            "editar": true,
+            "apagar": true,
+            "vizualizar": false,
+            "importador": false,
+            "exportador": false,
+            "filtro": false,
+            "colunas": false,
+            "multiplo": true,
+            "ordenador": false,
+            "filtrodata": true,
+            "bigdata": true
+        },
+        "rotas": {
+            "editar": "a\/empresas\/empresa",
+            "vizualizar": ""
+        }
+    },
+    "layout": {
+        "modo": "1",
+        "container": "0"
+    },
+    "acoesPersonalizadas": [],
+    "dataFilter": "0",
+    "condicional": {
+        "ativo": "0",
+        "coluna": "",
+        "tipo": "=",
+        "valor": ""
+    },
+    "condicional2": {
+        "ativo": "0",
+        "coluna": "",
+        "tipo": "=",
+        "valor": ""
+    }
+}

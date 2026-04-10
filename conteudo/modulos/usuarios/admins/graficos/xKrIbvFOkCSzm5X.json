@@ -1,0 +1,38 @@
+{
+    "nome": "Total Usuários",
+    "tipoGrafico": "numerico",
+    "graficoPrimario": "",
+    "bancoDeDados": "aY4O9kcLpNMpbiD",
+    "colunaData": "data",
+    "filtro": "1",
+    "trato": "",
+    "grafico": {
+        "subtipo": "medicao",
+        "referencia": "",
+        "agrupamento": "1",
+        "coluna": ""
+    },
+    "layout": {
+        "primario": "",
+        "periodoinicial": "",
+        "titulo": "Total de Usuários",
+        "alteralayout": false,
+        "selecionarperiodo": false,
+        "drop": false,
+        "horas": false
+    },
+    "extra": {
+        "layout": "2",
+        "bg": "#000000",
+        "color": "#000000",
+        "prefixo": "",
+        "sufixo": "",
+        "listaCores": "bg-primary"
+    },
+    "condicional": {
+        "ativo": "0",
+        "coluna": "",
+        "tipo": "=",
+        "valor": ""
+    }
+}

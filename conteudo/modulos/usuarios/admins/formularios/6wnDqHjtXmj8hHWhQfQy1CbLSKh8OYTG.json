@@ -1,0 +1,363 @@
+{
+    "id": "172",
+    "nome": "Funções Páginas",
+    "hash": "6wnDqHjtXmj8hHWhQfQy1CbLSKh8OYTG",
+    "data": "2024-08-18 05:20:44",
+    "tamanho": 6,
+    "inputs": [
+        {
+            "id": "4893",
+            "tipo": "text",
+            "nome": "Url",
+            "obrigatorio": "0",
+            "data": "2024-08-18 05:21:08",
+            "pai": "0",
+            "posicao": "0",
+            "hash": "Zhio98XYFbxmivVsFdvsAmk0ehLhLy",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": "Url",
+                    "descricao": "",
+                    "obrigatorio": 0,
+                    "somente-leitura": 0
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": "",
+                    "sub-label": "",
+                    "tooltip": "",
+                    "prefixo": "",
+                    "sufixo": ""
+                },
+                "valor": {
+                    "tipo": 0,
+                    "fixo": "",
+                    "dinamico": 0,
+                    "arquivo-query": "",
+                    "acao-query": ""
+                },
+                "tamanho": {
+                    "ativar": 0,
+                    "maximo": "",
+                    "minimo": ""
+                },
+                "validacao": {
+                    "mascara": 0
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": ""
+                },
+                "identificador": {
+                    "id": "",
+                    "classes": ""
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "4894",
+            "tipo": "select",
+            "nome": "Tipo",
+            "obrigatorio": "0",
+            "data": "2024-08-18 05:21:59",
+            "pai": "0",
+            "posicao": "1",
+            "hash": "v8nWxpiw39Ggm52Olt4i1ySGYW5TJ6",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": "Tipo",
+                    "descricao": "",
+                    "obrigatorio": 0,
+                    "select-2": 0,
+                    "somente-leitura": 0
+                },
+                "opcoes": {
+                    "multiplo": 0,
+                    "opcoes": [
+                        {
+                            "nome": "Páginas",
+                            "valor": "paginas",
+                            "selecionado": true
+                        },
+                        {
+                            "nome": "Administrativa",
+                            "valor": "admin",
+                            "selecionado": false
+                        },
+                        {
+                            "nome": "Públicas",
+                            "valor": "publicas",
+                            "selecionado": false
+                        }
+                    ]
+                },
+                "dinamica": {
+                    "smart-triger": 0,
+                    "input-trigger": 0,
+                    "url-trigger": "",
+                    "acao-trigger": "",
+                    "opcoes-dinamicas": 0,
+                    "configuracoes": "",
+                    "arquivo-query": "",
+                    "acao-query": ""
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": "",
+                    "sub-label": "",
+                    "tooltip": ""
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": ""
+                },
+                "identificador": {
+                    "id": "",
+                    "classes": ""
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "4895",
+            "tipo": "switch",
+            "nome": "Visível",
+            "obrigatorio": "0",
+            "data": "2024-08-18 05:22:32",
+            "pai": "0",
+            "posicao": "2",
+            "hash": "QEcpBGx41mn509C4uka7z30av583QZ",
+            "infos": {
+                "basico": {
+                    "label": "Visível",
+                    "descricao": "",
+                    "obrigatorio": 0
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho": 0,
+                    "justificar": 0,
+                    "ordem": 0
+                },
+                "label": {
+                    "sub-label": "",
+                    "tooltip": ""
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": ""
+                },
+                "identificador": {
+                    "id": "",
+                    "classes": ""
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "4896",
+            "tipo": "select",
+            "nome": "Ação",
+            "obrigatorio": "0",
+            "data": "2024-08-18 05:24:53",
+            "pai": "0",
+            "posicao": "3",
+            "hash": "Drxuuvc1UloeO9c6C79w2q1xGBFwDz",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": "Ação",
+                    "descricao": "",
+                    "obrigatorio": 0,
+                    "select-2": 0,
+                    "somente-leitura": 0
+                },
+                "opcoes": {
+                    "multiplo": 0,
+                    "opcoes": [
+                        {
+                            "nome": "Página Não Existe",
+                            "valor": "1",
+                            "selecionado": true
+                        },
+                        {
+                            "nome": "Bloquear",
+                            "valor": "2",
+                            "selecionado": false
+                        },
+                        {
+                            "nome": "Redirecionar",
+                            "valor": "3",
+                            "selecionado": false
+                        }
+                    ]
+                },
+                "dinamica": {
+                    "smart-triger": 0,
+                    "input-trigger": 0,
+                    "url-trigger": "",
+                    "acao-trigger": "",
+                    "opcoes-dinamicas": 0,
+                    "configuracoes": "",
+                    "arquivo-query": "",
+                    "acao-query": ""
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": "",
+                    "sub-label": "",
+                    "tooltip": ""
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": ""
+                },
+                "identificador": {
+                    "id": "",
+                    "classes": ""
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "4897",
+            "tipo": "text",
+            "nome": "Cb",
+            "obrigatorio": "0",
+            "data": "2024-08-18 05:25:04",
+            "pai": "0",
+            "posicao": "4",
+            "hash": "UnM6ma4Lvtlg1UOMhqtu3MQr1U74EG",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": "Cb",
+                    "descricao": "",
+                    "obrigatorio": 0,
+                    "somente-leitura": 0
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": "",
+                    "sub-label": "",
+                    "tooltip": "",
+                    "prefixo": "",
+                    "sufixo": ""
+                },
+                "valor": {
+                    "tipo": 0,
+                    "fixo": "",
+                    "dinamico": 0,
+                    "arquivo-query": "",
+                    "acao-query": ""
+                },
+                "tamanho": {
+                    "ativar": 0,
+                    "maximo": "",
+                    "minimo": ""
+                },
+                "validacao": {
+                    "mascara": 0
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": ""
+                },
+                "identificador": {
+                    "id": "",
+                    "classes": ""
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "4898",
+            "tipo": "select",
+            "nome": "Função",
+            "obrigatorio": "0",
+            "data": "2024-08-18 05:36:13",
+            "pai": "0",
+            "posicao": "5",
+            "hash": "Cc2zNtnZE2UPFJvz3qNEv0qu9fmSdt",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": "Função",
+                    "descricao": "",
+                    "obrigatorio": 0,
+                    "select-2": 0,
+                    "somente-leitura": 0
+                },
+                "opcoes": {
+                    "multiplo": 0,
+                    "opcoes": ""
+                },
+                "dinamica": {
+                    "smart-triger": 0,
+                    "input-trigger": 0,
+                    "url-trigger": "",
+                    "acao-trigger": "",
+                    "opcoes-dinamicas": 1,
+                    "configuracoes": {
+                        "modulo": "usuarios",
+                        "formulario": "Gl0ET7eECTejzdoC3D6NxonM3cbfaE0j.json",
+                        "regra": "1"
+                    },
+                    "arquivo-query": "",
+                    "acao-query": ""
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": "",
+                    "sub-label": "",
+                    "tooltip": ""
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": ""
+                },
+                "identificador": {
+                    "id": "",
+                    "classes": ""
+                }
+            },
+            "filhos": []
+        }
+    ],
+    "infos": {
+        "basico": {
+            "label": "teta",
+            "descricao": "",
+            "obrigatorio": 0
+        },
+        "estilo": {
+            "estilo": 0
+        },
+        "label": {
+            "sub-label": "",
+            "tooltip": ""
+        },
+        "logica": {
+            "logica": 0,
+            "setup": ""
+        }
+    }
+}

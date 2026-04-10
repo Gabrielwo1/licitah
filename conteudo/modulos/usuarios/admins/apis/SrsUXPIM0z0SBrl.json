@@ -1,0 +1,67 @@
+{
+    "nome": "Item usuario Exclusivo para Função",
+    "banco": "aY4O9kcLpNMpbiD",
+    "tipo": 1,
+    "subtipo": 2,
+    "itens": [
+        {
+            "nome": "id",
+            "banco": "p",
+            "chave": "id",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "display",
+            "banco": "p",
+            "chave": "Display",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "email",
+            "banco": "p",
+            "chave": "Email",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "telefone",
+            "banco": "p",
+            "chave": "Telefone",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "foto",
+            "banco": "p",
+            "chave": "Foto",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "cpf",
+            "banco": "p",
+            "chave": "CPF",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "data",
+            "banco": "p",
+            "chave": "Data de Entrada",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "nome",
+            "banco": "m",
+            "chave": "Nome",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "sobrenome",
+            "banco": "m",
+            "chave": "Sobrenome",
+            "estrangeiro": 0
+        }
+    ],
+    "number": {
+        "comentarios": false,
+        "reacoes": false,
+        "favoritos": false
+    }
+}

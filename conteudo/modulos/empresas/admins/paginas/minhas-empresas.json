@@ -1,0 +1,16 @@
+{
+    "nome": "minhas-empresas",
+    "tipo": "2",
+    "id": "kd22t1iabN9SctT",
+    "btns": [
+        {
+            "texto": "Adicionar Empresa",
+            "tipo": "5",
+            "callback": "gkrVHa6VrsDvHBY",
+            "id": "",
+            "icone": ""
+        }
+    ],
+    "titulo": "Minhas Empresas",
+    "breadcrumbs": false
+}

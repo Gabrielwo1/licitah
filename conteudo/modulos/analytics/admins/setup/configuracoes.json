@@ -1,0 +1,18 @@
+{
+    "georeferencia":{
+        "tipo": "check",
+        "label": "Capture a latidude e longitude",
+        "descricao": "Com essa opção ativa, você solicitará as coordenadas do usuário"
+    },
+     "ip":{
+        "tipo": "check",
+        "label": "Converter Dados de IP",
+        "descricao": "Transforme os dados de IP em dados geográficos"
+    },
+     "token":{
+        "tipo": "input",
+        "label": "Token IP Info",
+        "descricao": "Insira os dados do IP Info",
+        "condicional": "ip"
+    }
+}

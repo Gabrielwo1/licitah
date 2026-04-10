@@ -1,0 +1,192 @@
+{
+    "atalho1": {
+        "tipo": "check",
+        "label": "Ativar Atalho 1"
+    },
+    "nome1": {
+        "label": "Nome Curto (Name) 1",
+        "tipo": "input",
+        "condicional": "atalho1"
+    },
+    "url1": {
+        "label": "Link de Destino (URL) 1",
+        "tipo": "input",
+        "condicional": "atalho1"
+    },
+    "icone1": {
+        "label": "Ícone (File) 1",
+        "tipo": "file",
+        "condicional": "atalho1"
+    },
+    "atalho2": {
+        "tipo": "check",
+        "label": "Ativar Atalho 2"
+    },
+    "nome2": {
+        "label": "Nome Curto (Name) 2",
+        "tipo": "input",
+        "condicional": "atalho2"
+    },
+    "url2": {
+        "label": "Link de Destino (URL) 2",
+        "tipo": "input",
+        "condicional": "atalho2"
+    },
+    "icone2": {
+        "label": "Ícone (File) 2",
+        "tipo": "file",
+        "condicional": "atalho2"
+    },
+    "atalho3": {
+        "tipo": "check",
+        "label": "Ativar Atalho 3"
+    },
+    "nome3": {
+        "label": "Nome Curto (Name) 3",
+        "tipo": "input",
+        "condicional": "atalho3"
+    },
+    "url3": {
+        "label": "Link de Destino (URL) 3",
+        "tipo": "input",
+        "condicional": "atalho3"
+    },
+    "icone3": {
+        "label": "Ícone (File) 3",
+        "tipo": "file",
+        "condicional": "atalho3"
+    },
+    "atalho4": {
+        "tipo": "check",
+        "label": "Ativar Atalho 4"
+    },
+    "nome4": {
+        "label": "Nome Curto (Name) 4",
+        "tipo": "input",
+        "condicional": "atalho4"
+    },
+    "url4": {
+        "label": "Link de Destino (URL) 4",
+        "tipo": "input",
+        "condicional": "atalho4"
+    },
+    "icone4": {
+        "label": "Ícone (File) 4",
+        "tipo": "file",
+        "condicional": "atalho4"
+    },
+    "atalho5": {
+        "tipo": "check",
+        "label": "Ativar Atalho 5"
+    },
+    "nome5": {
+        "label": "Nome Curto (Name) 5",
+        "tipo": "input",
+        "condicional": "atalho5"
+    },
+    "url5": {
+        "label": "Link de Destino (URL) 5",
+        "tipo": "input",
+        "condicional": "atalho5"
+    },
+    "icone5": {
+        "label": "Ícone (File) 5",
+        "tipo": "file",
+        "condicional": "atalho5"
+    },
+    "atalho6": {
+        "tipo": "check",
+        "label": "Ativar Atalho 6"
+    },
+    "nome6": {
+        "label": "Nome Curto (Name) 6",
+        "tipo": "input",
+        "condicional": "atalho6"
+    },
+    "url6": {
+        "label": "Link de Destino (URL) 6",
+        "tipo": "input",
+        "condicional": "atalho6"
+    },
+    "icone6": {
+        "label": "Ícone (File) 6",
+        "tipo": "file",
+        "condicional": "atalho6"
+    },
+    "atalho7": {
+        "tipo": "check",
+        "label": "Ativar Atalho 7"
+    },
+    "nome7": {
+        "label": "Nome Curto (Name) 7",
+        "tipo": "input",
+        "condicional": "atalho7"
+    },
+    "url7": {
+        "label": "Link de Destino (URL) 7",
+        "tipo": "input",
+        "condicional": "atalho7"
+    },
+    "icone7": {
+        "label": "Ícone (File) 7",
+        "tipo": "file",
+        "condicional": "atalho7"
+    },
+    "atalho8": {
+        "tipo": "check",
+        "label": "Ativar Atalho 8"
+    },
+    "nome8": {
+        "label": "Nome Curto (Name) 8",
+        "tipo": "input",
+        "condicional": "atalho8"
+    },
+    "url8": {
+        "label": "Link de Destino (URL) 8",
+        "tipo": "input",
+        "condicional": "atalho8"
+    },
+    "icone8": {
+        "label": "Ícone (File) 8",
+        "tipo": "file",
+        "condicional": "atalho8"
+    },
+    "atalho9": {
+        "tipo": "check",
+        "label": "Ativar Atalho 9"
+    },
+    "nome9": {
+        "label": "Nome Curto (Name) 9",
+        "tipo": "input",
+        "condicional": "atalho9"
+    },
+    "url9": {
+        "label": "Link de Destino (URL) 9",
+        "tipo": "input",
+        "condicional": "atalho9"
+    },
+    "icone9": {
+        "label": "Ícone (File) 9",
+        "tipo": "file",
+        "condicional": "atalho9"
+    },
+    "atalho10": {
+        "tipo": "check",
+        "label": "Ativar Atalho 10"
+    },
+    "nome10": {
+        "label": "Nome Curto (Name) 10",
+        "tipo": "input",
+        "condicional": "atalho10"
+    },
+    "url10": {
+        "label": "Link de Destino (URL) 10",
+        "tipo": "input",
+        "condicional": "atalho10"
+    },
+    "icone10": {
+        "label": "Ícone (File) 10",
+        "tipo": "file",
+        "condicional": "atalho10"
+    }
+}

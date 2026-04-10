@@ -1,0 +1,16 @@
+{
+    "nome": "Departamentos",
+    "tipo": "2",
+    "id": "siyIO5IgwYephbK",
+    "btns": [
+        {
+            "texto": "Novo Departamento",
+            "tipo": "1",
+            "callback": "a\/empresas\/departamento",
+            "id": "",
+            "icone": ""
+        }
+    ],
+    "titulo": "Departamentos",
+    "breadcrumbs": false
+}

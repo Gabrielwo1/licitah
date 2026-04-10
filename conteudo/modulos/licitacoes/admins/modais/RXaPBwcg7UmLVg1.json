@@ -1,0 +1,20 @@
+{
+    "nome": "Pesquisa",
+    "tipo": "1",
+    "acao": "LFqTaPXF5I0yL9L1aRQGQefG73kqfnST",
+    "callback": "",
+    "tamanho": "md",
+    "modal": {
+        "titulo": "Pesquisar Licitação",
+        "icone": ""
+    },
+    "redirecionar": "1",
+    "redirecionarTipo": "2",
+    "redirCb": "",
+    "fecharTopo": true,
+    "fecharFooter": true,
+    "logotipo": true,
+    "centralizar": true,
+    "clickout": true,
+    "container": true
+}

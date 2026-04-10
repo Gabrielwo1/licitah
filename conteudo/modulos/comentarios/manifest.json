@@ -1,0 +1,10 @@
+{
+    "name": "Comentários",
+    "description": "Adicione comentários em registros do sistema para facilitar a comunicação e o acompanhamento de informações.",
+    "descriptionLong": "O módulo Comentários permite que os usuários adicionem anotações e interajam diretamente em registros do sistema. Essa funcionalidade melhora a colaboração, garantindo que informações importantes fiquem registradas e acessíveis no contexto certo. Ideal para equipes que precisam acompanhar processos, discutir detalhes e manter um histórico de interações de forma organizada.",
+    "icon": "bi bi-chat-left-text",
+    "ativo": "true",
+    "readonly": false,
+    "link": "a\/comentarios",
+    "versao": "0.10"
+}

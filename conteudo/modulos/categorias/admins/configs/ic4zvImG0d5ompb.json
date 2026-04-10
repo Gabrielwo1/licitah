@@ -1,0 +1,80 @@
+{
+    "banco": "categorias",
+    "meta": false,
+    "prefixo": "categoria",
+    "url": "nome",
+    "colunas": [
+        {
+            "nome": "nome",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "Nh5Wwnvfm0L3jgXlBcjEeNhtfPvfjc",
+            "size": 200
+        },
+        {
+            "nome": "tipo",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "VrxSjpzUkHt547ZANneHO9aOsd8HLc",
+            "size": 32
+        },
+        {
+            "nome": "iscat",
+            "nulo": false,
+            "tipo": "boolean",
+            "unico": false,
+            "input": "IiHVfEOWadCpipJZdVkrDtzdKy93yW"
+        },
+        {
+            "nome": "descricao",
+            "nulo": true,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "pje7suXGV4ZS20Q4V9kJsvvKSwLAgo",
+            "size": 400
+        },
+        {
+            "nome": "descricaolonga",
+            "nulo": true,
+            "tipo": "text",
+            "unico": false,
+            "input": "LB0Kepj5po6BEmDHekNCLxuOVCTbwv"
+        },
+        {
+            "nome": "cor",
+            "nulo": true,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "ehQBfHrpZv9zsLBkQzN7Q7ILCxO2Qz",
+            "size": 10
+        }
+    ],
+    "estrutura": {
+        "meta": false,
+        "hash": false,
+        "autor": true,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "ordenador": false,
+        "url": true,
+        "urledit": false,
+        "imagemDestaque": true,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false,
+        "autoria": false,
+        "wildcard": false,
+        "atributos": false,
+        "destaque": false,
+        "enderecos": false,
+        "desabilitarNovo": false,
+        "desabilitarEdicao": false,
+        "reordenador": false,
+        "pontos": false
+    },
+    "metas": []
+}

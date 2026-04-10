@@ -1,0 +1,32 @@
+{
+    "nome": "Licitações Por Autor",
+    "banco": "bVKA8kmFR0AEO8xnHJe1MApxFLyfb0r9",
+    "tipo": 2,
+    "subtipo": 2,
+    "itens": [
+        {
+            "nome": "numero",
+            "banco": "p",
+            "chave": "numero",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "pesquisa",
+            "banco": "p",
+            "chave": "pesquisa",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "tarefas",
+            "banco": "p",
+            "chave": "tarefas",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "anotacoes",
+            "banco": "p",
+            "chave": "anotacoes",
+            "estrangeiro": 0
+        }
+    ]
+}

@@ -1,0 +1,585 @@
+{
+    "id": "145",
+    "nome": "Pontos",
+    "hash": "18mQ9mjt3eo1wfMPfcJMeidBjIhWu5rQ",
+    "data": "2024-08-02 10:10:13",
+    "tamanho": 16,
+    "inputs": [
+        {
+            "id": "4368",
+            "tipo": "text",
+            "nome": "Nome do Grupo",
+            "obrigatorio": "0",
+            "data": "2024-08-02 10:12:02",
+            "pai": "0",
+            "posicao": "0",
+            "hash": "aaafWq4BO3T6909mtE8IzPwph7Kbb5",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": "Nome do Grupo",
+                    "descricao": "",
+                    "obrigatorio": 0,
+                    "somente-leitura": 0
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": "",
+                    "sub-label": "",
+                    "tooltip": "",
+                    "prefixo": "",
+                    "sufixo": ""
+                },
+                "valor": {
+                    "tipo": 0,
+                    "fixo": "",
+                    "dinamico": 0,
+                    "arquivo-query": "",
+                    "acao-query": ""
+                },
+                "tamanho": {
+                    "ativar": 0,
+                    "maximo": "",
+                    "minimo": ""
+                },
+                "validacao": {
+                    "mascara": 0
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": ""
+                },
+                "identificador": {
+                    "id": "",
+                    "classes": ""
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "4369",
+            "tipo": "coluna",
+            "nome": null,
+            "obrigatorio": "0",
+            "data": "2024-08-02 10:13:02",
+            "pai": "0",
+            "posicao": "1",
+            "hash": "6xwPFNw3ITz8HVsgzV7Od7JhOClxSR",
+            "infos": [],
+            "filhos": [
+                {
+                    "id": "4370",
+                    "tipo": "col",
+                    "nome": null,
+                    "obrigatorio": "0",
+                    "data": "2024-08-02 10:13:02",
+                    "pai": "4369",
+                    "posicao": "0",
+                    "hash": "UJKiS9KGanLpTKgSMMzEMeQZjBlMVG",
+                    "infos": {
+                        "layout": {
+                            "tamanho": 9
+                        },
+                        "flex": {
+                            "ativar": 0,
+                            "direcao": 1,
+                            "justify": 0,
+                            "align": 0,
+                            "gap": 0
+                        },
+                        "logica": {
+                            "logica": 0,
+                            "setup": ""
+                        },
+                        "identificador": {
+                            "id": "",
+                            "classes": ""
+                        }
+                    },
+                    "filhos": [
+                        {
+                            "id": "4375",
+                            "tipo": "card",
+                            "nome": "Vínculo",
+                            "obrigatorio": "0",
+                            "data": "2024-08-02 10:47:29",
+                            "pai": "4370",
+                            "posicao": "0",
+                            "hash": "fg6zY32TbVobx6OZVRieZTLHTci3YI",
+                            "infos": {
+                                "basico": {
+                                    "label": "Vínculo ",
+                                    "recolhivel": 0
+                                },
+                                "flex": {
+                                    "ativar": 0,
+                                    "direcao": 1,
+                                    "justify": 0,
+                                    "align": 0,
+                                    "gap": 0
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": " "
+                                },
+                                "identificador": {
+                                    "id": " ",
+                                    "classes": " "
+                                }
+                            },
+                            "filhos": [
+                                {
+                                    "id": "4377",
+                                    "tipo": "select",
+                                    "nome": "Ativar Vinculo a Banco de Dados",
+                                    "obrigatorio": "0",
+                                    "data": "2024-08-02 10:42:18",
+                                    "pai": "4375",
+                                    "posicao": "0",
+                                    "hash": "pG3YBUYDonkqZXWU1ugCeZ1mL4EDof",
+                                    "infos": {
+                                        "basico": {
+                                            "esconder-label": 0,
+                                            "label": "Ativar Vinculo a Banco de Dados ",
+                                            "descricao": " ",
+                                            "obrigatorio": 0,
+                                            "select-2": 0,
+                                            "somente-leitura": 0
+                                        },
+                                        "opcoes": {
+                                            "multiplo": 0,
+                                            "opcoes": [
+                                                {
+                                                    "nome": "Desativado",
+                                                    "valor": "0",
+                                                    "selecionado": true
+                                                },
+                                                {
+                                                    "nome": "Ativado",
+                                                    "valor": "1",
+                                                    "selecionado": false
+                                                }
+                                            ]
+                                        },
+                                        "dinamica": {
+                                            "opcoes-dinamicas": 0,
+                                            "configuracoes": " ",
+                                            "arquivo-query": " ",
+                                            "acao-query": " "
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho-do-input": 0
+                                        },
+                                        "label": {
+                                            "placeholder": " ",
+                                            "sub-label": " ",
+                                            "tooltip": " "
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": " "
+                                        },
+                                        "identificador": {
+                                            "id": " ",
+                                            "classes": " "
+                                        }
+                                    },
+                                    "filhos": []
+                                },
+                                {
+                                    "id": "4378",
+                                    "tipo": "grupo",
+                                    "nome": null,
+                                    "obrigatorio": "0",
+                                    "data": "2024-08-02 10:42:18",
+                                    "pai": "4375",
+                                    "posicao": "1",
+                                    "hash": "XUNgKxyPxySF07Mm7VM2kfABoASCyz",
+                                    "infos": {
+                                        "flex": {
+                                            "ativar": 0,
+                                            "direcao": 1,
+                                            "justify": 0,
+                                            "align": 0,
+                                            "gap": 0
+                                        },
+                                        "logica": {
+                                            "logica": 1,
+                                            "setup": {
+                                                "mostrar": "1",
+                                                "todas": "1",
+                                                "logicas": [
+                                                    {
+                                                        "i": "pG3YBUYDonkqZXWU1ugCeZ1mL4EDof",
+                                                        "r": "0",
+                                                        "v": "1"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        "identificador": {
+                                            "id": " ",
+                                            "classes": " "
+                                        }
+                                    },
+                                    "filhos": [
+                                        {
+                                            "id": "4380",
+                                            "tipo": "coluna",
+                                            "nome": null,
+                                            "obrigatorio": "0",
+                                            "data": "2024-08-02 10:45:29",
+                                            "pai": "4378",
+                                            "posicao": "0",
+                                            "hash": "olOf9437TqPiSKncao5SdsBsPxoVnE",
+                                            "infos": [],
+                                            "filhos": [
+                                                {
+                                                    "id": "4381",
+                                                    "tipo": "col",
+                                                    "nome": null,
+                                                    "obrigatorio": "0",
+                                                    "data": "2024-08-02 10:43:06",
+                                                    "pai": "4380",
+                                                    "posicao": "0",
+                                                    "hash": "EBdLZWuC4ymCOC6sqr6f3aprcHfk89",
+                                                    "infos": [],
+                                                    "filhos": [
+                                                        {
+                                                            "id": "4376",
+                                                            "tipo": "text",
+                                                            "nome": "Banco de Dados",
+                                                            "obrigatorio": "0",
+                                                            "data": "2024-08-02 10:43:10",
+                                                            "pai": "4381",
+                                                            "posicao": "0",
+                                                            "hash": "j4rPhDH6n8ABj6pWVy4X2Wny0syNaX",
+                                                            "infos": {
+                                                                "basico": {
+                                                                    "esconder-label": 0,
+                                                                    "label": "Banco de Dados",
+                                                                    "descricao": "",
+                                                                    "obrigatorio": 0,
+                                                                    "somente-leitura": 0
+                                                                },
+                                                                "estilo": {
+                                                                    "estilo": 0,
+                                                                    "tamanho-do-input": 0
+                                                                },
+                                                                "label": {
+                                                                    "placeholder": "",
+                                                                    "sub-label": "",
+                                                                    "tooltip": "",
+                                                                    "prefixo": "",
+                                                                    "sufixo": ""
+                                                                },
+                                                                "valor": {
+                                                                    "tipo": 0,
+                                                                    "fixo": "",
+                                                                    "dinamico": 0,
+                                                                    "arquivo-query": "",
+                                                                    "acao-query": ""
+                                                                },
+                                                                "tamanho": {
+                                                                    "ativar": 0,
+                                                                    "maximo": "",
+                                                                    "minimo": ""
+                                                                },
+                                                                "validacao": {
+                                                                    "mascara": 0
+                                                                },
+                                                                "logica": {
+                                                                    "logica": 0,
+                                                                    "setup": ""
+                                                                },
+                                                                "identificador": {
+                                                                    "id": "",
+                                                                    "classes": ""
+                                                                }
+                                                            },
+                                                            "filhos": []
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "4382",
+                                                    "tipo": "col",
+                                                    "nome": null,
+                                                    "obrigatorio": "0",
+                                                    "data": "2024-08-02 10:43:06",
+                                                    "pai": "4380",
+                                                    "posicao": "1",
+                                                    "hash": "0vvL0fBQdFKP9dmLiodJPDLwRXFyFI",
+                                                    "infos": [],
+                                                    "filhos": [
+                                                        {
+                                                            "id": "4379",
+                                                            "tipo": "text",
+                                                            "nome": "Coluna Referência",
+                                                            "obrigatorio": "0",
+                                                            "data": "2024-08-02 10:43:11",
+                                                            "pai": "4382",
+                                                            "posicao": "0",
+                                                            "hash": "Fdadw7pFxdhayQgH3BLzDWbAAD6Dgr",
+                                                            "infos": {
+                                                                "basico": {
+                                                                    "esconder-label": 0,
+                                                                    "label": "Coluna Referência",
+                                                                    "descricao": "",
+                                                                    "obrigatorio": 0,
+                                                                    "somente-leitura": 0
+                                                                },
+                                                                "estilo": {
+                                                                    "estilo": 0,
+                                                                    "tamanho-do-input": 0
+                                                                },
+                                                                "label": {
+                                                                    "placeholder": "",
+                                                                    "sub-label": "",
+                                                                    "tooltip": "",
+                                                                    "prefixo": "",
+                                                                    "sufixo": ""
+                                                                },
+                                                                "valor": {
+                                                                    "tipo": 0,
+                                                                    "fixo": "",
+                                                                    "dinamico": 0,
+                                                                    "arquivo-query": "",
+                                                                    "acao-query": ""
+                                                                },
+                                                                "tamanho": {
+                                                                    "ativar": 0,
+                                                                    "maximo": "",
+                                                                    "minimo": ""
+                                                                },
+                                                                "validacao": {
+                                                                    "mascara": 0
+                                                                },
+                                                                "logica": {
+                                                                    "logica": 0,
+                                                                    "setup": ""
+                                                                },
+                                                                "identificador": {
+                                                                    "id": "",
+                                                                    "classes": ""
+                                                                }
+                                                            },
+                                                            "filhos": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "4384",
+                                            "tipo": "number",
+                                            "nome": "1 inserção é  igual a quantos pontos?",
+                                            "obrigatorio": "0",
+                                            "data": "2024-08-02 10:47:15",
+                                            "pai": "4378",
+                                            "posicao": "1",
+                                            "hash": "8ESjhChPcUfI9KMDySALOBowdBJDWF",
+                                            "infos": {
+                                                "basico": {
+                                                    "esconder-label": 0,
+                                                    "label": "1 inserção é  igual a quantos pontos? ",
+                                                    "descricao": "Quantos pontos devem ser consumidos quando o usuário fizer uma inserção no banco de dados? ",
+                                                    "obrigatorio": 0,
+                                                    "somente-leitura": 0
+                                                },
+                                                "estilo": {
+                                                    "estilo": 0,
+                                                    "tamanho-do-input": 0
+                                                },
+                                                "label": {
+                                                    "placeholder": " ",
+                                                    "sub-label": " ",
+                                                    "tooltip": " "
+                                                },
+                                                "logica": {
+                                                    "logica": 0,
+                                                    "setup": " "
+                                                },
+                                                "identificador": {
+                                                    "id": " ",
+                                                    "classes": " "
+                                                }
+                                            },
+                                            "filhos": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "4373",
+                            "tipo": "card",
+                            "nome": "Detalhes",
+                            "obrigatorio": "0",
+                            "data": "2024-08-02 10:47:29",
+                            "pai": "4370",
+                            "posicao": "1",
+                            "hash": "Is971jwYsioQBDQEtFJ4WT9COfEpVz",
+                            "infos": {
+                                "basico": {
+                                    "label": "Detalhes",
+                                    "recolhivel": 1
+                                },
+                                "flex": {
+                                    "ativar": 0,
+                                    "direcao": 1,
+                                    "justify": 0,
+                                    "align": 0,
+                                    "gap": 0
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": ""
+                                },
+                                "identificador": {
+                                    "id": "",
+                                    "classes": ""
+                                }
+                            },
+                            "filhos": [
+                                {
+                                    "id": "4374",
+                                    "tipo": "textarea",
+                                    "nome": "Descrição",
+                                    "obrigatorio": "0",
+                                    "data": "2024-08-02 10:14:16",
+                                    "pai": "4373",
+                                    "posicao": "0",
+                                    "hash": "pZLdFKLhrHgKG51487VQfQJNdXmDLL",
+                                    "infos": {
+                                        "basico": {
+                                            "esconder-label": 0,
+                                            "label": "Descrição",
+                                            "descricao": "",
+                                            "obrigatorio": 0
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho-do-input": 0
+                                        },
+                                        "tamanho": {
+                                            "ativar": 0,
+                                            "maximo": "",
+                                            "minimo": ""
+                                        },
+                                        "label": {
+                                            "placeholder": "",
+                                            "sub-label": "",
+                                            "tooltip": ""
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": ""
+                                        },
+                                        "identificador": {
+                                            "id": "",
+                                            "classes": ""
+                                        }
+                                    },
+                                    "filhos": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "4371",
+                    "tipo": "col",
+                    "nome": null,
+                    "obrigatorio": "0",
+                    "data": "2024-08-02 10:13:02",
+                    "pai": "4369",
+                    "posicao": "1",
+                    "hash": "Hl0I9h5jYGZC7m6McSSlzIXbZgK1N0",
+                    "infos": {
+                        "layout": {
+                            "tamanho": 3
+                        },
+                        "flex": {
+                            "ativar": 0,
+                            "direcao": 1,
+                            "justify": 0,
+                            "align": 0,
+                            "gap": 0
+                        },
+                        "logica": {
+                            "logica": 0,
+                            "setup": ""
+                        },
+                        "identificador": {
+                            "id": "",
+                            "classes": ""
+                        }
+                    },
+                    "filhos": [
+                        {
+                            "id": "4372",
+                            "tipo": "cardSalvar",
+                            "nome": "",
+                            "obrigatorio": "0",
+                            "data": "2024-08-02 10:13:13",
+                            "pai": "4371",
+                            "posicao": "0",
+                            "hash": "1kgWpdoyKNl7XgkRx9lxc9GoID3etl",
+                            "infos": {
+                                "basico": {
+                                    "label": "",
+                                    "recolhivel": 0,
+                                    "fixar-no-rodape-mobile": 0,
+                                    "fixar-no-rodape-pc": 0
+                                },
+                                "funcoes": {
+                                    "desabilitar-status": 1,
+                                    "desabilitar-vizibilidade": 1,
+                                    "desabilitar-agendados": 1
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": ""
+                                },
+                                "identificador": {
+                                    "id": "",
+                                    "classes": ""
+                                }
+                            },
+                            "filhos": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "infos": {
+        "basico": {
+            "esconder-label": 0,
+            "label": "UF",
+            "descricao": "",
+            "obrigatorio": 0
+        },
+        "estilo": {
+            "estilo": 0,
+            "tamanho-do-input": 0
+        },
+        "label": {
+            "placeholder": "",
+            "sub-label": "",
+            "tooltip": ""
+        },
+        "validacao": {
+            "mascara": 0
+        },
+        "logica": {
+            "logica": 0,
+            "setup": ""
+        }
+    }
+}

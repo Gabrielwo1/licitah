@@ -1,0 +1,38 @@
+{
+    "nome": "Ticket Médio",
+    "tipoGrafico": "numerico",
+    "graficoPrimario": "",
+    "bancoDeDados": "Cyrv1bcxbsbHpSh",
+    "colunaData": "data",
+    "filtro": "1",
+    "trato": "dinheiro",
+    "grafico": {
+        "subtipo": "media",
+        "referencia": "total",
+        "agrupamento": "1",
+        "coluna": "total"
+    },
+    "layout": {
+        "primario": "",
+        "periodoinicial": "",
+        "titulo": "Ticket Médio",
+        "alteralayout": true,
+        "selecionarperiodo": false,
+        "drop": false,
+        "horas": false
+    },
+    "extra": {
+        "layout": "2",
+        "bg": "#000000",
+        "color": "#000000",
+        "prefixo": "R$",
+        "sufixo": "",
+        "listaCores": "bg-orange"
+    },
+    "condicional": {
+        "ativo": "1",
+        "coluna": "estado",
+        "tipo": ">",
+        "valor": "1"
+    }
+}

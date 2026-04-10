@@ -1,0 +1,76 @@
+{
+    "nome": "Licitações Tarefa",
+    "banco": "aehvhDc9jPy3cx8twx0fpU55j8LNBHGY",
+    "colunas": [
+        {
+            "nome": "Tarefa",
+            "id": "nome",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "estrangeira": 0
+        },
+        {
+            "nome": "Data de Criação",
+            "id": "data",
+            "tipo": "1",
+            "render": "data",
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "estrangeira": 0
+        },
+        {
+            "nome": "Prazo da Tarefa",
+            "id": "prazo",
+            "tipo": "1",
+            "render": "data",
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "estrangeira": 0
+        },
+        {
+            "nome": "Status",
+            "id": "andamento",
+            "tipo": "1",
+            "render": "personalizado",
+            "regra": [
+                "Incompleto",
+                "Completo"
+            ],
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false
+        }
+    ],
+    "regra": "1",
+    "acoes": {
+        "opcoes": {
+            "acoes": true,
+            "editar": true,
+            "apagar": true,
+            "vizualizar": false,
+            "importador": false,
+            "exportador": false,
+            "filtro": false,
+            "colunas": false,
+            "multiplo": false,
+            "ordenador": false,
+            "filtrodata": false,
+            "bigdata": false
+        },
+        "rotas": {
+            "editar": "a\/licitacoes\/tarefa",
+            "vizualizar": ""
+        }
+    },
+    "layout": {
+        "modo": "1",
+        "container": "0"
+    },
+    "acoesPersonalizadas": [],
+    "dataFilter": "0"
+}

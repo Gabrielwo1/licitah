@@ -1,0 +1,16 @@
+{
+    "nome": "Assinatura",
+    "tipo": "1",
+    "id": "XE3ZXs6k9gMc8jJTePvH1PiWoK1tsv5M",
+    "btns": [
+        {
+            "texto": "Todas as Assinaturas",
+            "tipo": "1",
+            "callback": "",
+            "id": "a\/pagamento\/assinaturas",
+            "icone": ""
+        }
+    ],
+    "titulo": "{nova} Assinatura",
+    "breadcrumbs": false
+}

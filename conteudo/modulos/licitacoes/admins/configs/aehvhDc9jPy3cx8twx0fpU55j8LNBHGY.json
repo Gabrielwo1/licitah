@@ -1,0 +1,101 @@
+{
+    "banco": "licitacoes_tarefas",
+    "meta": false,
+    "prefixo": "licitacoes_tarefa",
+    "url": false,
+    "colunas": [
+        {
+            "nome": "nome",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "DFk0YNHZwJbZ0C4lROK3CSiH4WsFx4",
+            "size": 200
+        },
+        {
+            "nome": "prazo",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "vsbZPcWNDEYf2ZSu1MnRQlpkEzXE4E",
+            "size": 10
+        },
+        {
+            "nome": "usuario",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "0ukvAOe4Yc15MqT1sLL4FZcnl1kvId"
+        },
+        {
+            "nome": "usuario_display",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "BBMMJanvjNvQmLWQnMDWFvNMJrg20u",
+            "size": 50
+        },
+        {
+            "nome": "nome_responsavel",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "oGy0E1BocW24RtZ9FtFi3alr5iPeiq",
+            "size": 200
+        },
+        {
+            "nome": "andamento",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "iwknOE8oMcoJBO9de4KG0ZKtxOmy1Q"
+        },
+        {
+            "nome": "subtarefas",
+            "nulo": false,
+            "tipo": "text",
+            "unico": false,
+            "input": "lvGsScUwMNRK25msKBRAIWr0vsH8Q0"
+        },
+        {
+            "nome": "prioridade",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "8hgXhLa6FlrtcOUZc0FQS1Cn4v36oz",
+            "size": 200
+        },
+        {
+            "nome": "anotacao",
+            "nulo": false,
+            "tipo": "text",
+            "unico": false,
+            "input": "J1gjQ3Fd1SIqessYjLVmVne5ZB7Go2"
+        }
+    ],
+    "estrutura": {
+        "meta": false,
+        "hash": true,
+        "autor": true,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "ordenador": false,
+        "url": false,
+        "urledit": true,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false,
+        "autoria": false,
+        "wildcard": false,
+        "atributos": false,
+        "destaque": false,
+        "desabilitarNovo": false,
+        "desabilitarEdicao": false,
+        "reordenador": false,
+        "pontos": false
+    },
+    "metas": []
+}

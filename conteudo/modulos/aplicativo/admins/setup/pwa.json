@@ -1,0 +1,7 @@
+{
+    "instaladorweb":{
+        "tipo": "check",
+        "label": "Ativar Instalador Web",
+        "descricao": "Com essa opção ativa, o usuário poderá baixar o app diretamente do navegador"
+    }
+}

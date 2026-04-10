@@ -1,0 +1,50 @@
+{
+    "nome": "Total - Novos Usuarios - 24 horas",
+    "tipoGrafico": "numerico",
+    "graficoPrimario": "",
+    "bancoDeDados": "aY4O9kcLpNMpbiD",
+    "colunaData": "data",
+    "filtro": "1",
+    "trato": "",
+    "grafico": {
+        "subtipo": "medicao",
+        "referencia": "data",
+        "agrupamento": "1",
+        "coluna": "",
+        "unicos": "0"
+    },
+    "layout": {
+        "primario": "",
+        "periodoinicial": "Hoje",
+        "titulo": "Novos Usuários",
+        "alteralayout": false,
+        "selecionarperiodo": false,
+        "drop": false,
+        "horas": false,
+        "rodape": false
+    },
+    "extra": {
+        "layout": "2",
+        "bg": "#000000",
+        "color": "#000000",
+        "prefixo": "",
+        "sufixo": "",
+        "listaCores": "bg-navyBlue"
+    },
+    "condicional": {
+        "ativo": "0",
+        "coluna": "",
+        "tipo": "=",
+        "valor": ""
+    },
+    "condicional2": {
+        "ativo": "0",
+        "coluna": "",
+        "tipo": "=",
+        "valor": ""
+    },
+    "atualizacao": {
+        "ativa": false,
+        "segundos": "30"
+    }
+}

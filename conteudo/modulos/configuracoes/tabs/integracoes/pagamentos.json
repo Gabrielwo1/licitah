@@ -1,0 +1,21 @@
+{   
+    "Integrações de Pagamento":{
+        "tipo": "titulo",
+        "subtitulo": "As integrações de pagamento funcionam para o Split de Pagamento e para o recebimento direto de usuário para usuário."
+    },
+    "mercadopago":{
+        "tipo": "check",
+        "label": "Mercado Pago",
+        "descricao": "Permita que os usuários recebam pagamentos do Mercado Pago dentro do sistema."
+    },
+    "pagbank":{
+        "tipo": "check",
+        "label": "Pagbank (Pagseguro)",
+        "descricao": "Permita que os usuários recebam pagamentos do Pagseguro dentro do sistema."
+    },
+    "efi":{
+        "tipo": "check",
+        "label": "Efi",
+        "descricao": "Permita que os usuários recebam pagamentos do Efi dentro do sistema."
+    }
+}

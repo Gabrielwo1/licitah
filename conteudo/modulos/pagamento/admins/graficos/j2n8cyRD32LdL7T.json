@@ -1,0 +1,37 @@
+{
+    "nome": "Quantidade Pedidos Concluídos",
+    "tipoGrafico": "numerico",
+    "graficoPrimario": "",
+    "bancoDeDados": "Cyrv1bcxbsbHpSh",
+    "colunaData": "data",
+    "filtro": "1",
+    "grafico": {
+        "subtipo": "medicao",
+        "referencia": "",
+        "agrupamento": "1",
+        "coluna": ""
+    },
+    "layout": {
+        "primario": "",
+        "periodoinicial": "Último Mês",
+        "titulo": "Pedidos Concluídos",
+        "alteralayout": false,
+        "selecionarperiodo": false,
+        "drop": false,
+        "horas": false
+    },
+    "extra": {
+        "layout": "2",
+        "bg": "#000000",
+        "color": "#000000",
+        "prefixo": "",
+        "sufixo": "",
+        "listaCores": "bg-pink"
+    },
+    "condicional": {
+        "ativo": "1",
+        "coluna": "estado",
+        "tipo": ">",
+        "valor": "1"
+    }
+}

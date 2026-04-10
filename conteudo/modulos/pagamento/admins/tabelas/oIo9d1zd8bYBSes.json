@@ -1,0 +1,98 @@
+{
+    "nome": "Assinaturas",
+    "banco": "XE3ZXs6k9gMc8jJTePvH1PiWoK1tsv5M",
+    "colunas": [
+        {
+            "nome": "Usuário",
+            "id": "usuario",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "estrangeira": 1,
+            "confiEstrangeira": {
+                "modulo": "usuarios",
+                "banco": "usuarios",
+                "tipo": "1",
+                "coluna": "usuario_display"
+            }
+        },
+        {
+            "nome": "Plano",
+            "id": "plano",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "estrangeira": 1,
+            "confiEstrangeira": {
+                "modulo": "assinaturas",
+                "banco": "planos",
+                "tipo": "1",
+                "coluna": "plano_nome"
+            }
+        },
+        {
+            "nome": "Estado",
+            "id": "estado",
+            "tipo": "1",
+            "render": "personalizado",
+            "regra": [
+                "Desativada",
+                "Ativa"
+            ],
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false
+        },
+        {
+            "nome": "Inicio",
+            "id": "inicio",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "estrangeira": 0
+        },
+        {
+            "nome": "Fim",
+            "id": "fim",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "estrangeira": 0
+        }
+    ],
+    "regra": "1",
+    "acoes": {
+        "opcoes": {
+            "acoes": true,
+            "editar": true,
+            "apagar": true,
+            "vizualizar": false,
+            "importador": false,
+            "exportador": false,
+            "filtro": false,
+            "colunas": false,
+            "multiplo": false,
+            "ordenador": false,
+            "filtrodata": false,
+            "bigdata": false
+        },
+        "rotas": {
+            "editar": "a\/pagamento\/assinatura",
+            "vizualizar": ""
+        }
+    },
+    "layout": {
+        "modo": "1",
+        "container": "0"
+    },
+    "acoesPersonalizadas": [],
+    "dataFilter": "0"
+}

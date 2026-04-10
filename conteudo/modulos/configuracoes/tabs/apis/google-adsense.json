@@ -1,0 +1,15 @@
+{
+
+    "ativo":{
+        "tipo": "check",
+        "label":"Ativar Google Ads",
+        "descricao": "Adicione os Scritps de Google Ads"
+    },
+    "capub":{
+        "tipo": "input",
+        "label": "Ca Pub",
+        "descricao": "Código Ca Pub fornecido pelo Google. Somente os números",
+        "condicional": "ativo"
+    }
+    
+}

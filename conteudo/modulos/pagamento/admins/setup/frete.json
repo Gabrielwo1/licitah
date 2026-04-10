@@ -1,0 +1,22 @@
+{
+    "correios":{
+        "tipo": "check",
+        "label":"Correios",
+        "descricao": "Ativar frete usando os Correios"
+    },
+    "jadlog":{
+        "tipo": "check",
+        "label":"Jadlog",
+        "descricao": "Ativar frete usando a JadLog"
+    },
+    "loggi":{
+        "tipo": "check",
+        "label":"Loggi",
+        "descricao": "Ativar frete usando a Loggi"
+    },
+    "melhor-envio":{
+        "tipo": "check",
+        "label":"Melhor Envio",
+        "descricao": "Ativar frete usando o Melhor Envio"
+    }
+}

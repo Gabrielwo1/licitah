@@ -1,0 +1,90 @@
+{
+    "banco": "notificacoes_transacionais",
+    "meta": true,
+    "prefixo": "transacionais",
+    "url": "1",
+    "colunas": [
+        {
+            "nome": "titulo",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "2TXSJHZifo4JmfC1r22RqKeM6DsTSY",
+            "size": 100
+        },
+        {
+            "nome": "corpo",
+            "nulo": false,
+            "tipo": "text",
+            "unico": false,
+            "input": "h5n4bkznWFRfMrhQNc0hAKEJpbIdbR"
+        },
+        {
+            "nome": "quem",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "UYX3094f7hUoaaYnrDcQjWtjQC5upZ"
+        },
+        {
+            "nome": "modulo",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "sFSBEVJ57mTTTLfiDscfIVzAB0VLy9",
+            "size": 50
+        },
+        {
+            "nome": "formulario",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "bZFSS6c1ki6NyNXPSHzAtVe86UU7YX",
+            "size": 50
+        },
+        {
+            "nome": "acao",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "Eaft4HBU6MdLsIAnEtwoSvQCWmT63K"
+        },
+        {
+            "nome": "controlavel",
+            "nulo": false,
+            "tipo": "boolean",
+            "unico": false,
+            "input": "gmdNRzOjuxCb8bjGYmllBqM1BZUMVk"
+        }
+    ],
+    "estrutura": {
+        "meta": true,
+        "hash": true,
+        "autor": false,
+        "render": false,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "url": true,
+        "urledit": false,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false,
+        "desabilitarNovo": false,
+        "desabilitarEdicao": false,
+        "reordenador": false,
+        "pontos": false
+    },
+    "metas": {
+        "4gUWa2XVrMehGPGH2FlYTcN2fHiwyv": "push",
+        "FSwaTsc92KB80brMz7PmoV7xtCid4i": "app",
+        "URqb5cuV6IdeCp3zZpdX6UHFRutffT": "whatsapp",
+        "SMNXpGWLphtq8KPBp73zrzDA64zhms": "email",
+        "cjy360FV8iFhphrLsd3zQXDjlkH3EZ": "sms",
+        "2pmvRZyzk5bFTQIuFTy24xZ7ss7PVn": "descricao",
+        "XFFhoy7fFJLerM9UyfIAs6fCHn7Kly": "usuarios",
+        "UccZyqTAtfDPzyvQlXR52pik5Hx5QL": "funcao"
+    }
+}

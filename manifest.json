@@ -1,0 +1,281 @@
+{
+    "name": "Licitah",
+    "short_name": "Licitah",
+    "id": "Licitah",
+    "description": "",
+    "theme_color": "#0a116b",
+    "background_color": "#ff6600",
+    "start_url": "/",
+    "dir": "auto",
+    "scope": "/",
+    "lang": "pt",
+    "orientation": "any",
+    "display": "fullscreen",
+    "categories": [
+        "business",
+        "tools"
+    ],
+    "icons": [
+        {
+            "src": "/conteudo/icones/ico-71.png",
+            "sizes": "71x71"
+        },
+        {
+            "src": "/conteudo/icones/ico-89.png",
+            "sizes": "89x89"
+        },
+        {
+            "src": "/conteudo/icones/ico-107.png",
+            "sizes": "107x107"
+        },
+        {
+            "src": "/conteudo/icones/ico-142.png",
+            "sizes": "142x142"
+        },
+        {
+            "src": "/conteudo/icones/ico-284.png",
+            "sizes": "284x284"
+        },
+        {
+            "src": "/conteudo/icones/ico-150.png",
+            "sizes": "150x150"
+        },
+        {
+            "src": "/conteudo/icones/ico-188.png",
+            "sizes": "188x188"
+        },
+        {
+            "src": "/conteudo/icones/ico-225.png",
+            "sizes": "225x225"
+        },
+        {
+            "src": "/conteudo/icones/ico-300.png",
+            "sizes": "300x300"
+        },
+        {
+            "src": "/conteudo/icones/ico-600.png",
+            "sizes": "600x600"
+        },
+        {
+            "src": "/conteudo/icones/ico-310x150.png",
+            "sizes": "310x150"
+        },
+        {
+            "src": "/conteudo/icones/ico-388x188.png",
+            "sizes": "388x188"
+        },
+        {
+            "src": "/conteudo/icones/ico-465x225.png",
+            "sizes": "465x225"
+        },
+        {
+            "src": "/conteudo/icones/ico-620x300.png",
+            "sizes": "620x300"
+        },
+        {
+            "src": "/conteudo/icones/ico-1240x600.png",
+            "sizes": "1240x600"
+        },
+        {
+            "src": "/conteudo/icones/ico-310.png",
+            "sizes": "310x310"
+        },
+        {
+            "src": "/conteudo/icones/ico-388.png",
+            "sizes": "388x388"
+        },
+        {
+            "src": "/conteudo/icones/ico-465.png",
+            "sizes": "465x465"
+        },
+        {
+            "src": "/conteudo/icones/ico-620.png",
+            "sizes": "620x620"
+        },
+        {
+            "src": "/conteudo/icones/ico-1240.png",
+            "sizes": "1240x1240"
+        },
+        {
+            "src": "/conteudo/icones/ico-44.png",
+            "sizes": "44x44"
+        },
+        {
+            "src": "/conteudo/icones/ico-55.png",
+            "sizes": "55x55"
+        },
+        {
+            "src": "/conteudo/icones/ico-66.png",
+            "sizes": "66x66"
+        },
+        {
+            "src": "/conteudo/icones/ico-88.png",
+            "sizes": "88x88"
+        },
+        {
+            "src": "/conteudo/icones/ico-176.png",
+            "sizes": "176x176"
+        },
+        {
+            "src": "/conteudo/icones/ico-50.png",
+            "sizes": "50x50"
+        },
+        {
+            "src": "/conteudo/icones/ico-63.png",
+            "sizes": "63x63"
+        },
+        {
+            "src": "/conteudo/icones/ico-75.png",
+            "sizes": "75x75"
+        },
+        {
+            "src": "/conteudo/icones/ico-100.png",
+            "sizes": "100x100"
+        },
+        {
+            "src": "/conteudo/icones/ico-200.png",
+            "sizes": "200x200"
+        },
+        {
+            "src": "/conteudo/icones/ico-775x375.png",
+            "sizes": "775x375"
+        },
+        {
+            "src": "/conteudo/icones/ico-930x450.png",
+            "sizes": "930x450"
+        },
+        {
+            "src": "/conteudo/icones/ico-2480x1200.png",
+            "sizes": "2480x1200"
+        },
+        {
+            "src": "/conteudo/icones/ico-16.png",
+            "sizes": "16x16"
+        },
+        {
+            "src": "/conteudo/icones/ico-20.png",
+            "sizes": "20x20"
+        },
+        {
+            "src": "/conteudo/icones/ico-24.png",
+            "sizes": "24x24"
+        },
+        {
+            "src": "/conteudo/icones/ico-30.png",
+            "sizes": "30x30"
+        },
+        {
+            "src": "/conteudo/icones/ico-32.png",
+            "sizes": "32x32"
+        },
+        {
+            "src": "/conteudo/icones/ico-36.png",
+            "sizes": "36x36"
+        },
+        {
+            "src": "/conteudo/icones/ico-40.png",
+            "sizes": "40x40"
+        },
+        {
+            "src": "/conteudo/icones/ico-48.png",
+            "sizes": "48x48"
+        },
+        {
+            "src": "/conteudo/icones/ico-60.png",
+            "sizes": "60x60"
+        },
+        {
+            "src": "/conteudo/icones/ico-64.png",
+            "sizes": "64x64"
+        },
+        {
+            "src": "/conteudo/icones/ico-72.png",
+            "sizes": "72x72"
+        },
+        {
+            "src": "/conteudo/icones/ico-80.png",
+            "sizes": "80x80"
+        },
+        {
+            "src": "/conteudo/icones/ico-96.png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "/conteudo/icones/ico-256.png",
+            "sizes": "256x256"
+        },
+        {
+            "src": "/conteudo/icones/ico-512.png",
+            "sizes": "512x512"
+        },
+        {
+            "src": "/conteudo/icones/ico-192.png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/conteudo/icones/ico-144.png",
+            "sizes": "144x144"
+        },
+        {
+            "src": "/conteudo/icones/ico-29.png",
+            "sizes": "29x29"
+        },
+        {
+            "src": "/conteudo/icones/ico-57.png",
+            "sizes": "57x57"
+        },
+        {
+            "src": "/conteudo/icones/ico-58.png",
+            "sizes": "58x58"
+        },
+        {
+            "src": "/conteudo/icones/ico-76.png",
+            "sizes": "76x76"
+        },
+        {
+            "src": "/conteudo/icones/ico-87.png",
+            "sizes": "87x87"
+        },
+        {
+            "src": "/conteudo/icones/ico-114.png",
+            "sizes": "114x114"
+        },
+        {
+            "src": "/conteudo/icones/ico-120.png",
+            "sizes": "120x120"
+        },
+        {
+            "src": "/conteudo/icones/ico-128.png",
+            "sizes": "128x128"
+        },
+        {
+            "src": "/conteudo/icones/ico-152.png",
+            "sizes": "152x152"
+        },
+        {
+            "src": "/conteudo/icones/ico-167.png",
+            "sizes": "167x167"
+        },
+        {
+            "src": "/conteudo/icones/ico-180.png",
+            "sizes": "180x180"
+        },
+        {
+            "src": "/conteudo/icones/ico-1024.png",
+            "sizes": "1024x1024"
+        }
+    ],
+    "screenshots": [
+        [
+            {
+                "src": "/conteudo/uploads/imagens//2025/03/3tgmj3o6t0775e0-1742405625/original.jpg",
+                "sizes": "1270x1200",
+                "type": "image/webp"
+            }
+        ]
+    ],
+    "service_worker": {
+        "src": "/sw.js",
+        "scope": "/"
+    }
+}

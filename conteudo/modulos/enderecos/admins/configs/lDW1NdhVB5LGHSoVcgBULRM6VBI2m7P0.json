@@ -1,0 +1,101 @@
+{
+    "banco": "enderecos_estados",
+    "meta": false,
+    "prefixo": "endereco_estado",
+    "url": "1",
+    "colunas": [
+        {
+            "nome": "nome",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "kr2gTI5uXxWb10fccVgi2U4yxGFJq4",
+            "size": 50
+        },
+        {
+            "nome": "externo",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "xibVLEiyKPKF0ouDaocGvwwoQll8cX"
+        },
+        {
+            "nome": "codigo",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "GO3501Om1kg5nRwxIKBPttNhY2Ld9p",
+            "size": 10
+        },
+        {
+            "nome": "latitude",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "HaeJ03DZ5tNQ2rmxAC5WoFxa5AS3xz",
+            "size": 20
+        },
+        {
+            "nome": "longitude",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "ZTocgDFJuD2cBsSuTNz2W2Xn98OQyi",
+            "size": 20
+        },
+        {
+            "nome": "regiao",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "OdHKMC8oljggLMvk8sAmanIRZxjj2b"
+        },
+        {
+            "nome": "subregiao",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "DDPAHa2n0lMUC4l3bs4R9luct034V2"
+        },
+        {
+            "nome": "pais",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "N8N1oXEu08NmbLVELZAgfe5FRG17Gc"
+        },
+        {
+            "nome": "slug",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "0GK0kXCeuJEcHezTtoa3aZRTaa4c1s",
+            "size": 50
+        }
+    ],
+    "estrutura": {
+        "meta": false,
+        "hash": true,
+        "autor": false,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "ordenador": false,
+        "url": true,
+        "urledit": false,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false,
+        "autoria": false,
+        "wildcard": false,
+        "atributos": false,
+        "destaque": false,
+        "desabilitarNovo": false,
+        "desabilitarEdicao": false,
+        "reordenador": false,
+        "pontos": false
+    },
+    "metas": []
+}

@@ -1,0 +1,80 @@
+{
+    "banco": "funcoes_crud",
+    "meta": false,
+    "prefixo": "funcao_crud",
+    "url": false,
+    "colunas": [
+        {
+            "nome": "modulo",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "7bCVDQLfCeKYm0gfbG9laai98c5nO7",
+            "size": 50
+        },
+        {
+            "nome": "formulario",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "JiXvvtSo2jj6yWgWva5UYHFfDHJM10",
+            "size": 50
+        },
+        {
+            "nome": "funcao",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "HAgPVCn0g4pLP7r1UenrCF63oAjsRm"
+        },
+        {
+            "nome": "criar",
+            "nulo": false,
+            "tipo": "boolean",
+            "unico": false,
+            "input": "lWur1DIAyxU6RGq6dfIucIS3xw7mPk"
+        },
+        {
+            "nome": "atualizar",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "kiiMSa6kKd87yIunXaQliAm1iEtEMo"
+        },
+        {
+            "nome": "deletar",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "aqJPAUJCDVgqnOChHfUWDKaTr5SxtP"
+        },
+        {
+            "nome": "terceiros",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "ZlMvFGMCP19qUgJ51ObxQyjENgUhsQ"
+        }
+    ],
+    "estrutura": {
+        "meta": false,
+        "hash": false,
+        "autor": false,
+        "render": false,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "url": false,
+        "urledit": false,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false,
+        "desabilitarNovo": false,
+        "desabilitarEdicao": false,
+        "reordenador": false,
+        "pontos": false
+    },
+    "metas": []
+}

@@ -1,0 +1,50 @@
+{
+    "nome": "Sessões Deslogadas",
+    "tipoGrafico": "numerico",
+    "graficoPrimario": "",
+    "bancoDeDados": "7gFgoC5oPHYykur",
+    "colunaData": "data",
+    "filtro": "1",
+    "trato": "",
+    "grafico": {
+        "subtipo": "medicao",
+        "referencia": "usuario",
+        "agrupamento": "1",
+        "coluna": "",
+        "unicos": "0"
+    },
+    "layout": {
+        "primario": "",
+        "periodoinicial": "Total",
+        "titulo": "Sessões Deslogadas",
+        "alteralayout": true,
+        "selecionarperiodo": false,
+        "drop": false,
+        "horas": false,
+        "rodape": true
+    },
+    "extra": {
+        "layout": "2",
+        "bg": "#000000",
+        "color": "#000000",
+        "prefixo": "",
+        "sufixo": "",
+        "listaCores": "bg-warning"
+    },
+    "condicional": {
+        "ativo": "1",
+        "coluna": "ativo",
+        "tipo": "=",
+        "valor": "1"
+    },
+    "condicional2": {
+        "ativo": "1",
+        "coluna": "usuario",
+        "tipo": "=",
+        "valor": "0"
+    },
+    "atualizacao": {
+        "ativa": true,
+        "segundos": "30"
+    }
+}

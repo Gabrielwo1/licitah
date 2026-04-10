@@ -1,0 +1,39 @@
+{   "Configurações das Páginas de Acesso":{
+    "tipo": "titulo",
+    "subtitulo": "O layout dessas páginas é compatilhado entre as páginas de login, cadastro, senha perdida e autenticação de 2 fatores."
+},
+  "logo": {
+    "tipo": "select",
+    "label": "Identificação Visual",
+    "descricao": "Defina se a logo ou logomarca que serão apresentados na página.",
+    "opcoes": [
+      {"chave": "Logo (Somente o simbolo)", "valor": "logo"},
+      {"chave": "Logo Marca (Completo)", "valor": "logomarca"}
+    ]
+  },
+  "animacoes": {
+    "tipo": "check",
+    "label": "Desativar animações",
+    "descricao": "Desative as animações de interação entre páginas."
+  },
+  "layout": {
+    "tipo": "select",
+    "label": "Layout",
+    "descricao": "Defina o layout base da página de Login.",
+    "opcoes": [
+      {"chave": "Centralizado", "valor": 1},
+      {"chave": "A esquerda", "valor": 2},
+      {"chave": "A direita", "valor": 3}
+    ]
+  },
+  "backgroundpersonalizado":{
+      "tipo": "check",
+      "label": "Background Personalizado"
+  },
+  "corbackground": {
+    "tipo": "color",
+    "label": "Cor do Background",
+    "type": "color",
+    "condicional":  "backgroundpersonalizado"
+  }
+}

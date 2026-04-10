@@ -1,0 +1,6 @@
+{
+    "dominio":{
+        "label": "Dominio",
+        "tipo": "input"
+    }
+}

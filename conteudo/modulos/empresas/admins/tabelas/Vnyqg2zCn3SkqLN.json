@@ -1,0 +1,63 @@
+{
+    "nome": "basico empresas",
+    "banco": "GygZLIj8xklp5UjqSWapqImWBzmBOsZ3",
+    "colunas": [
+        {
+            "nome": "Nome da empresa",
+            "id": "nome",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "estrangeira": 0
+        },
+        {
+            "nome": "Data de Criação",
+            "id": "data",
+            "tipo": "1",
+            "render": "data",
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "estrangeira": 0
+        },
+        {
+            "nome": "Logo",
+            "id": "imagem",
+            "tipo": "1",
+            "render": "imagem",
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "estrangeira": 0
+        }
+    ],
+    "regra": "2",
+    "acoes": {
+        "opcoes": {
+            "acoes": true,
+            "editar": true,
+            "apagar": true,
+            "vizualizar": true,
+            "importador": false,
+            "exportador": false,
+            "filtro": false,
+            "colunas": false,
+            "multiplo": false,
+            "ordenador": false,
+            "filtrodata": false,
+            "bigdata": false
+        },
+        "rotas": {
+            "editar": "a\/empresas\/meus-dados",
+            "vizualizar": "empresas"
+        }
+    },
+    "layout": {
+        "modo": "1",
+        "container": "0"
+    },
+    "acoesPersonalizadas": [],
+    "dataFilter": "0"
+}

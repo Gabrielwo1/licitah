@@ -1,0 +1,31 @@
+{
+    "nome": "usuarios",
+    "banco": "aY4O9kcLpNMpbiD",
+    "tipo": 2,
+    "subtipo": 1,
+    "itens": [
+        {
+            "nome": "id",
+            "banco": "p",
+            "chave": "id",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "funcao",
+            "banco": "p",
+            "chave": "funcao",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "display",
+            "banco": "p",
+            "chave": "display",
+            "estrangeiro": 0
+        }
+    ],
+    "number": {
+        "comentarios": false,
+        "reacoes": false,
+        "favoritos": false
+    }
+}

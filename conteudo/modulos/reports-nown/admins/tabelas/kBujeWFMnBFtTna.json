@@ -1,0 +1,49 @@
+{
+    "nome": "Bugs",
+    "banco": "xiFxvUBvBERYakg",
+    "colunas": [
+        {
+            "nome": "Título",
+            "id": "titulo",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false
+        },
+        {
+            "nome": "Origem",
+            "id": "origem",
+            "tipo": "2",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false
+        },
+        {
+            "nome": "Data",
+            "id": "data",
+            "tipo": "1",
+            "render": "2",
+            "invisivel": false,
+            "editavel": false
+        }
+    ],
+    "regra": "1",
+    "acoes": {
+        "opcoes": {
+            "acoes": true,
+            "editar": true,
+            "apagar": true,
+            "vizualizar": false,
+            "importador": false,
+            "exportador": false,
+            "filtro": true,
+            "colunas": true,
+            "multiplo": true
+        },
+        "rotas": {
+            "editar": "a\/reports-nown\/bugs",
+            "vizualizar": ""
+        }
+    },
+    "acoesPersonalizadas": []
+}

@@ -1,0 +1,326 @@
+{
+    "id": "124",
+    "nome": "Endereço Assistente",
+    "hash": "AsoYNiHaX4s4dzTkiy5XCIoR9eX4nkAM",
+    "data": "2024-07-17 13:13:36",
+    "tamanho": 9,
+    "inputs": [
+        {
+            "id": "3983",
+            "tipo": "text",
+            "nome": "Nome",
+            "obrigatorio": "1",
+            "data": "2024-07-17 13:16:36",
+            "pai": "0",
+            "posicao": "0",
+            "hash": "KtbyUn351LWSR68lYD19sE2c0kK8qf",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": "Nome ",
+                    "descricao": " ",
+                    "obrigatorio": 1,
+                    "somente-leitura": 0
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": " ",
+                    "sub-label": " ",
+                    "tooltip": " ",
+                    "prefixo": " ",
+                    "sufixo": " "
+                },
+                "valor": {
+                    "tipo": 0,
+                    "fixo": " ",
+                    "dinamico": 0,
+                    "arquivo-query": " ",
+                    "acao-query": " "
+                },
+                "tamanho": {
+                    "ativar": 0,
+                    "maximo": " ",
+                    "minimo": " "
+                },
+                "validacao": {
+                    "mascara": 0
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": " "
+                },
+                "identificador": {
+                    "id": " ",
+                    "classes": " "
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "3984",
+            "tipo": "text",
+            "nome": "CEP",
+            "obrigatorio": "1",
+            "data": "2024-07-17 13:16:40",
+            "pai": "0",
+            "posicao": "1",
+            "hash": "Eklk25LiGs3EQomkq46v1K8PvnR0ix",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": "CEP ",
+                    "descricao": " ",
+                    "obrigatorio": 1,
+                    "somente-leitura": 0
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": " ",
+                    "sub-label": " ",
+                    "tooltip": " ",
+                    "prefixo": " ",
+                    "sufixo": " "
+                },
+                "valor": {
+                    "tipo": 0,
+                    "fixo": " ",
+                    "dinamico": 0,
+                    "arquivo-query": " ",
+                    "acao-query": " "
+                },
+                "tamanho": {
+                    "ativar": 0,
+                    "maximo": " ",
+                    "minimo": " "
+                },
+                "validacao": {
+                    "mascara": 3
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": " "
+                },
+                "identificador": {
+                    "id": " ",
+                    "classes": " "
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "3987",
+            "tipo": "coluna",
+            "nome": null,
+            "obrigatorio": "0",
+            "data": "2024-07-17 13:16:25",
+            "pai": "0",
+            "posicao": "2",
+            "hash": "nDRt9PXjbrruccht53AQSjEmqCNJxU",
+            "infos": [],
+            "filhos": [
+                {
+                    "id": "3988",
+                    "tipo": "col",
+                    "nome": null,
+                    "obrigatorio": "0",
+                    "data": "2024-07-17 13:16:22",
+                    "pai": "3987",
+                    "posicao": "0",
+                    "hash": "ahlDJyEeKJpUUOjk1dRCLwcFfNS5oq",
+                    "infos": [],
+                    "filhos": [
+                        {
+                            "id": "3985",
+                            "tipo": "text",
+                            "nome": "Número",
+                            "obrigatorio": "0",
+                            "data": "2024-07-17 13:16:24",
+                            "pai": "3988",
+                            "posicao": "0",
+                            "hash": "spQzerg2dsopGhKL5i0bxiBrPJRiYM",
+                            "infos": {
+                                "basico": {
+                                    "esconder-label": 0,
+                                    "label": "Número",
+                                    "descricao": "",
+                                    "obrigatorio": 0,
+                                    "somente-leitura": 0
+                                },
+                                "estilo": {
+                                    "estilo": 0,
+                                    "tamanho-do-input": 0
+                                },
+                                "label": {
+                                    "placeholder": "",
+                                    "sub-label": "",
+                                    "tooltip": "",
+                                    "prefixo": "",
+                                    "sufixo": ""
+                                },
+                                "valor": {
+                                    "tipo": 0,
+                                    "fixo": "",
+                                    "dinamico": 0,
+                                    "arquivo-query": "",
+                                    "acao-query": ""
+                                },
+                                "tamanho": {
+                                    "ativar": 0,
+                                    "maximo": "",
+                                    "minimo": ""
+                                },
+                                "validacao": {
+                                    "mascara": 0
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": ""
+                                },
+                                "identificador": {
+                                    "id": "",
+                                    "classes": ""
+                                }
+                            },
+                            "filhos": []
+                        }
+                    ]
+                },
+                {
+                    "id": "3989",
+                    "tipo": "col",
+                    "nome": null,
+                    "obrigatorio": "0",
+                    "data": "2024-07-17 13:16:22",
+                    "pai": "3987",
+                    "posicao": "1",
+                    "hash": "EpZC2FPRV1ZRjGYqBtcdNlvJNNhgkP",
+                    "infos": [],
+                    "filhos": [
+                        {
+                            "id": "3986",
+                            "tipo": "text",
+                            "nome": "Complemento",
+                            "obrigatorio": "0",
+                            "data": "2024-07-17 13:16:27",
+                            "pai": "3989",
+                            "posicao": "0",
+                            "hash": "oAXwo1OzuVnLV6jbKBpAv48xkMfg9S",
+                            "infos": {
+                                "basico": {
+                                    "esconder-label": 0,
+                                    "label": "Complemento",
+                                    "descricao": "",
+                                    "obrigatorio": 0,
+                                    "somente-leitura": 0
+                                },
+                                "estilo": {
+                                    "estilo": 0,
+                                    "tamanho-do-input": 0
+                                },
+                                "label": {
+                                    "placeholder": "",
+                                    "sub-label": "",
+                                    "tooltip": "",
+                                    "prefixo": "",
+                                    "sufixo": ""
+                                },
+                                "valor": {
+                                    "tipo": 0,
+                                    "fixo": "",
+                                    "dinamico": 0,
+                                    "arquivo-query": "",
+                                    "acao-query": ""
+                                },
+                                "tamanho": {
+                                    "ativar": 0,
+                                    "maximo": "",
+                                    "minimo": ""
+                                },
+                                "validacao": {
+                                    "mascara": 0
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": ""
+                                },
+                                "identificador": {
+                                    "id": "",
+                                    "classes": ""
+                                }
+                            },
+                            "filhos": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "3990",
+            "tipo": "textarea",
+            "nome": "Observação do cliente",
+            "obrigatorio": "0",
+            "data": "2024-07-17 13:17:37",
+            "pai": "0",
+            "posicao": "3",
+            "hash": "h6aDxuQsvniXeLfEVZq2IYCtqdZMf0",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": "Observação do cliente",
+                    "descricao": "",
+                    "obrigatorio": 0
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "tamanho": {
+                    "ativar": 0,
+                    "maximo": "",
+                    "minimo": ""
+                },
+                "label": {
+                    "placeholder": "",
+                    "sub-label": "",
+                    "tooltip": ""
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": ""
+                },
+                "identificador": {
+                    "id": "",
+                    "classes": ""
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "3991",
+            "tipo": "formprogress",
+            "nome": null,
+            "obrigatorio": "0",
+            "data": "2024-07-17 13:27:21",
+            "pai": "0",
+            "posicao": "4",
+            "hash": "VI1jlKx2erdXBLi7vGzvF5ftrkEGbX",
+            "infos": [],
+            "filhos": []
+        }
+    ],
+    "infos": {
+        "layout": {
+            "tamanho": 4
+        },
+        "logica": {
+            "logica": 0,
+            "setup": ""
+        }
+    }
+}

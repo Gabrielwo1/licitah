@@ -1,0 +1,16 @@
+{
+    "nome": "Promoção",
+    "tipo": "1",
+    "id": "W4ELWoNNKapnXgbyrAox7gnUBZXarjGl",
+    "btns": [
+        {
+            "texto": "Ver Todas",
+            "tipo": "1",
+            "callback": "a\/pagamento\/promocoes",
+            "id": "",
+            "icone": ""
+        }
+    ],
+    "titulo": "{nova} Promoção",
+    "breadcrumbs": true
+}

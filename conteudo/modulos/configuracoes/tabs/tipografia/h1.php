@@ -1,0 +1,3 @@
+<?
+include 'corpo.php';
+?>

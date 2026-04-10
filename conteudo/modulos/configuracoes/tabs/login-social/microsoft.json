@@ -1,0 +1,31 @@
+{
+  "ativo": {
+    "tipo": "check",
+    "descricao": "Habilite o login e cadastro usando a Microsoft",
+    "label": "Logar com a Microsoft"
+  },
+  "client_id": {
+    "tipo": "INPUT",
+    "label": "Client ID",
+    "descricao": "Obtido ao registrar seu aplicativo no Azure Portal.",
+    "condicional": "ativo"
+  },
+  "client_secret": {
+    "tipo": "INPUT",
+    "label": "Client Secret",
+    "descricao": "Gerado junto com o Client ID.",
+    "condicional": "ativo"
+  },
+  "redirect_uri": {
+    "tipo": "INPUT",
+    "label": "Redirect URI",
+    "descricao": "A URL para onde o usuário será redirecionado após a autenticação.",
+    "condicional": "ativo"
+  },
+  "tenant_id": {
+    "tipo": "INPUT",
+    "label": "Tenant ID",
+    "descricao": "Identificação do locatário do Azure AD.",
+    "condicional": "ativo"
+  }
+}

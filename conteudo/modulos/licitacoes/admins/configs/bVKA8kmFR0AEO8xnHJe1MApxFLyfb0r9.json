@@ -1,0 +1,92 @@
+{
+    "banco": "licitacoes_pesquisas",
+    "meta": false,
+    "prefixo": "licitacoes_pesquisa",
+    "url": "1",
+    "colunas": [
+        {
+            "nome": "numero",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "83plRhpgwsijwxyIS5RZEbWKyUJ5PR"
+        },
+        {
+            "nome": "pesquisa",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "9dTSSiDAMj1DJVMDYiosY1oGoWIbGM",
+            "size": 200
+        },
+        {
+            "nome": "tarefas",
+            "nulo": false,
+            "tipo": "text",
+            "unico": false,
+            "input": "uLxqkZ1sodSzzjMoirHL4twOMRJTYE"
+        },
+        {
+            "nome": "anotacoes",
+            "nulo": false,
+            "tipo": "text",
+            "unico": false,
+            "input": "wLh9RWkCy7H2bn5OecBi26hBAO0DLY"
+        },
+        {
+            "nome": "anexos",
+            "nulo": false,
+            "tipo": "text",
+            "unico": false,
+            "input": "DUU1sNui1b03rbltDMBaXpUiAjTgSP"
+        },
+        {
+            "nome": "habilitacoes",
+            "nulo": false,
+            "tipo": "text",
+            "unico": false,
+            "input": "qyzdO7EeuXzeXP7AycaK0fJSL1cSnW"
+        },
+        {
+            "nome": "visualizadores",
+            "nulo": false,
+            "tipo": "json",
+            "unico": false,
+            "input": "ttL6TZd3UOHOzUd3oZowBN7HEIhtUf"
+        },
+        {
+            "nome": "empresa",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "Bc9p3PJVII96PuaFkw17lkRB28iYBX"
+        }
+    ],
+    "estrutura": {
+        "meta": false,
+        "hash": true,
+        "autor": true,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "ordenador": false,
+        "url": true,
+        "urledit": false,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false,
+        "autoria": false,
+        "wildcard": false,
+        "atributos": false,
+        "destaque": false,
+        "desabilitarNovo": true,
+        "desabilitarEdicao": false,
+        "reordenador": false,
+        "pontos": false
+    },
+    "metas": {
+        "4JkrLe7Rk9iIATXCdyYEz9qNPWnlFL": ""
+    }
+}

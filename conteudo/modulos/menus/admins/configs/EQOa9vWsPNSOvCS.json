@@ -1,0 +1,38 @@
+{
+    "banco": "menus",
+    "meta": false,
+    "prefixo": "menu",
+    "url": false,
+    "colunas": [
+        {
+            "nome": "nome",
+            "nulo": false,
+            "tipo": "varchar",
+            "input": "ok2wNHNwwQivnFu7JyAbPQ9sCWuG4E"
+        },
+        {
+            "nome": "estrutura",
+            "nulo": true,
+            "tipo": "json",
+            "input": "PzWkKMo3pdoTal1AJnkNHbZ1V13QjX"
+        }
+    ],
+    "estrutura": {
+        "meta": false,
+        "hash": true,
+        "autor": true,
+        "render": false,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "url": false,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false
+    },
+    "metas": {
+        "TpI4Z6TQQMue7tRVEeUwmIcwqzR5iP": "",
+        "QZng0HDs4plCxpxMFDL9UvoG1c6ax9": ""
+    }
+}

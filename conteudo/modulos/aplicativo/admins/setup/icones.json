@@ -1,0 +1,7 @@
+{
+    "icone": {
+        "tipo": "file",
+        "label": "Defina um icone para o App",
+        "descricao": "Suba uma imagem com transparencia e em alta resolução. O Nown irá otimiza-la para todos os formatos de sistema"
+    }
+}

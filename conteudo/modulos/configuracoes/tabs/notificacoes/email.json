@@ -1,0 +1,76 @@
+{
+     "remetente":{
+        "label": "Email Remetente",
+        "tipo": "input",
+        "descricao": "Enviar E-mail como"
+    },
+     "nomeremetente":{
+        "label": "Nome do Remetente",
+        "tipo": "input",
+        "descricao": "Enviar E-mail como"
+    },
+    "disparador":{
+        "label": "Disparador",
+        "tipo": "select",
+        "opcoes": [
+            {"chave": "Servidor SMTP", "valor": 1},
+            {"chave": "Brevo", "valor": 2}
+            ],
+        "descricao": "Mostre um resumo das últimas notificações"
+    },
+    "apibrevo":{
+        "label": "Chave API Brevo",
+        "tipo": "input",
+        "descricao": "Defina sua chave de API Brevo",
+        "condicional": "disparador",
+        "valorcondicao": "2"
+    },
+    "host":{
+        "label": "Host",
+        "tipo": "input",
+        "descricao": "Servidor de E-mail",
+        "condicional": "disparador",
+        "valorcondicao": "1"
+    },
+    "protocolo":{
+        "label": "Protocolo",
+        "tipo": "select",
+        "descricao": "Protocolo do Email",
+        "opcoes": [
+            {"chave": "TLS", "valor": 1},
+            {"chave": "SSL", "valor": 2}
+        ],
+        "condicional": "disparador",
+        "valorcondicao": "1"
+    },
+    "autentificacaosmtp":{
+        "label": "Autentificação",
+        "tipo": "check",
+        "descricao": "Ativar autentificação do servidor",
+        "condicional": "disparador",
+        "valorcondicao": "1"
+    },
+    "usuarioemail":{
+        "label": "Usuário",
+        "tipo": "input",
+        "descricao": "Usuário de E-mail",
+        "condicional": "autentificacaosmtp"
+    },
+    "senhaemail":{
+        "label": "Senha",
+        "tipo": "input",
+        "descricao": "Senha do E-mail",
+        "condicional": "autentificacaosmtp"
+    },
+    "portaemail":{
+        "label": "Porta",
+        "tipo": "input",
+        "descricao": "Porta de Saída de E-mail",
+        "condicional": "disparador",
+        "valorcondicao": "1"
+    }
+
+}
+
+
+  

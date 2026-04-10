@@ -1,0 +1,25 @@
+{
+    "nome": "menus",
+    "banco": "EQOa9vWsPNSOvCS",
+    "colunas": [
+        {
+            "nome": "Nome",
+            "id": "nome",
+            "tipo": "1",
+            "render": "0"
+        }
+    ],
+    "regra": "1",
+    "acoes": {
+        "opcoes": {
+            "acoes": true,
+            "editar": true,
+            "apagar": true,
+            "vizualizar": false
+        },
+        "rotas": {
+            "editar": "a\/menus\/menu",
+            "vizualizar": ""
+        }
+    }
+}

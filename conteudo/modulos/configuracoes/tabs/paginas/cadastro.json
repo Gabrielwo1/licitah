@@ -1,0 +1,110 @@
+{"Muita Atenção":{
+    "tipo": "titulo",
+    "subtitulo": "Quantos mais campos solicitados na hora do cadastro, menores são as chances de conversão."
+},
+  "celular": {
+    "tipo": "check",
+    "descricao": "Solicitar celular ao cadastrar-se",
+    "label": "Solicitar Celular ao se cadastrar"
+  },
+   "cpf": {
+    "tipo": "check",
+    "descricao": "Solicitar CPF ao cadastrar-se",
+    "label": "Solicitar CPF ao se cadastrar"
+  },
+   "endereco": {
+    "tipo": "check",
+    "descricao": "Solicitar endereço ao cadastrar-se",
+    "label": "Solicitar Endereço ao se cadastrar"
+  },
+  "empresa": {
+    "tipo": "check",
+    "descricao": "Solicitar dados da empresa do usuário",
+    "label": "Solicitar o CNPJ ao se cadastrar"
+  },
+  "duplicatasempresa": {
+    "tipo": "check",
+    "descricao": "Aceitar cadastro de empresa já cadastrada no sistema.",
+    "label": "Aceitar Duplicatas de CNPJ",
+    "condicional" : "empresa"
+  },
+  "Segurança":{
+    "tipo": "titulo",
+    "subtitulo": "Aumente ou diminua as camadas de segurança do sistema. Quanto menor, melhor a conversão."
+  },
+  "desativarsenha": {
+    "tipo": "check",
+    "descricao": "Desabilite a senha na hora de cadastrar-se no sistema",
+    "label": "Desativar criação de senha"
+  },
+  "validaremail": {
+    "tipo": "check",
+    "descricao": "Obrigue o usuário a validar seu E-mail via código",
+    "label": "Validar e-mail"
+  },
+  "validartelefone": {
+    "tipo": "check",
+    "descricao": "Obrigue o usuário a validar seu celular via código",
+    "label": "Validar Telefone",
+    "condicional" : "celular"
+  },
+  "validarmomento": {
+    "tipo": "select",
+    "descricao": "Otimize o seu fluxo de validação. Caso opte por não ser imediatamente, o usuário poderá mecher no sistema e terá lembretes a todo momento.",
+    "label": "Prazo de Validação",
+    "condicional" : "celular",
+    "opcoes": [
+      {"chave": "Imediatamente", "valor": 0},
+      {"chave": "24 horas", "valor": 1},
+      {"chave": "1 semana", "valor": 7},
+      {"chave": "15 dias", "valor": 15},
+      {"chave": "21 dias", "valor": 21},
+      {"chave": "30 dias", "valor": 30}
+    ]
+  },
+  "Cadastro Rápido":{
+      "tipo": "titulo",
+      "subtitulo": "Permita que o sistema aceite cadastros rápidos , aceitando somente e-mail."
+    },
+  "ativarcadastrorapido": {
+    "tipo": "check",
+    "descricao": "Com essa opção ativada o sistema irá aceitar cadastros rápidos dentro do sistema",
+    "label": "Ativar Cadastro Rápido"
+  },
+  "Redirecionamento":{
+      "tipo": "titulo",
+      "subtitulo": "Defina regras para redirecionamento após o cadastro"
+  },
+  "tiporedirecionamento":{
+      "tipo":"select",
+      "label": "Redirecionameno personalizado",
+      "descricao": "Envie o usuário para um fluxo em especifico.",
+       "opcoes": [
+      {"chave": "Desabilitado", "valor": 0},
+      {"chave": "Página Personalizada", "valor": 1},
+      {"chave": "Carrinho", "valor": 2},
+      {"chave": "Checkout", "valor": 3}
+    ]
+  },
+  "urlpersonalizada":{
+      "tipo":"input",
+       "label": "URL Personalizada",
+       "descricao": "Defina o caminho relativo para ser redirecionado",
+       "condicional": "tiporedirecionamento",
+       "valorcondicao": 1
+  },
+  "idprodutocarrinho":{
+      "tipo":"number",
+       "label": "Id Produto Carrinho",
+       "descricao": "Defina o ID do produto que deve ser adicionado ao carrinho",
+       "condicional": "tiporedirecionamento",
+       "valorcondicao": 2
+  },
+   "idprodutocheckout":{
+      "tipo":"number",
+       "label": "Id Produto Checkout",
+       "descricao": "Defina o ID do produto que deve ser adicionado a página de pagamento",
+       "condicional": "tiporedirecionamento",
+       "valorcondicao": 3
+  }
+}

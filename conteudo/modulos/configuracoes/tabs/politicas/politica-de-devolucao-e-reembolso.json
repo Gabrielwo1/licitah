@@ -1,0 +1,24 @@
+{
+    "ativar": {
+        "label": "Ativar Política de Devolução e Reembolso",
+        "tipo": "check",
+        "descricao": "Ativar página de Política de Devolução e Reembolso"
+    },
+    "cadastro": {
+        "label": "Adicionar a política a página de cadastro",
+        "tipo": "check",
+        "descricao": "Ativar ativar essa opção, o usuário é obrigado a aceita a política antes de se cadastrar"
+    },
+     "personalizar":{
+        "label": "Personalizar a política",
+        "tipo": "check",
+        "descricao": "Caso essa opção esteja desativada, o sistema irá gerar as politicas automaticamente."
+    },
+     "personalizada": {
+      "tipo": "select",
+      "label": "Escolha a Politica Personalizada",
+      "dinamico": true,
+      "foco": "politicas,politica_id,politica_titulo",
+      "condicional": "personalizar"
+    }
+}

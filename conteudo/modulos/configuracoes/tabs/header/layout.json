@@ -1,0 +1,45 @@
+{   "Estilização de Header":{
+    "tipo": "titulo",
+    "subtitulo": "Atençaõ , ao ativar as opções abaixo, o sistema deixará de controlar o Header de maneira dinamica. Você ainda poderá faze-lo, de maneira programática."
+},
+    "customheaderlogado":{
+        "label": "Header Personalizado para Logados",
+        "tipo": "check",
+        "descricao": "Ao ativa essa opção, o Header definido pelo sistema será desabilitado, podendo você selecionar um personalizado para substitui-lo"
+    },
+    "headerlogado":{
+        "label": "Defina o Header Personalizado para Logados",
+        "tipo": "select",
+        "descricao": "Defina o Arquivo",
+        "condicional": "customheaderlogado",
+        "queryDinamica": "conteudo/modulos/configuracoes/admins/api.php",
+        "querys":
+            {
+                "acao":"headers"
+            }
+            ,
+        "opcoes": [
+            {"chave": "Nenhum", "valor": "0"}
+        ]
+    },
+     "customheaderdeslogado":{
+        "label": "Header Personalizado para Deslogados",
+        "tipo": "check",
+        "descricao": "Ao ativa essa opção, o Header definido pelo sistema será desabilitado, podendo você selecionar um personalizado para substitui-lo"
+    },
+     "headerdeslogado":{
+        "label": "Defina o Header Personalizado para Deslogados",
+        "tipo": "select",
+        "descricao": "Ao ativa essa opção, o Header definido pelo sistema será desabilitado, podendo você selecionar um personalizado para substitui-lo",
+        "condicional": "customheaderdeslogado",
+        "opcoes": [
+            {"chave": "Nenhum", "valor": "0"}
+        ],
+        "queryDinamica": "conteudo/modulos/configuracoes/admins/api.php",
+        "querys":
+            {
+                "acao":"headers"
+            }
+        
+    }
+}

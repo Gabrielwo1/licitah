@@ -1,0 +1,67 @@
+{ 
+    "customizarbotao":{
+        "tipo": "check",
+        "label": "Customizar Botão de Perfil",
+        "descricao": "Defina o layout do botão de topo do perfil."
+    },
+    "cor": {
+    "tipo": "select",
+    "label": "Defina o estilo do botão personalizado",
+    "descricao": "Defina o link.",
+    "opcoes": [
+      {"chave": "Primaria", "valor": "btn-n-primaria"},
+      {"chave": "Secundaria", "valor": "btn-n-secundaria"},
+      {"chave": "Terciaria", "valor": "btn-n-terciaria"},
+      {"chave": "Quaternaria", "valor": "btn-n-quaternaria"},
+      {"chave": "Primary", "valor": "btn-primary"},
+      {"chave": "Secondary", "valor": "btn-secondary"},
+      {"chave": "Success", "valor": "btn-success"},
+      {"chave": "Danger", "valor": "btn-danger"},
+      {"chave": "Info", "valor": "btn-info"},
+      {"chave": "Warning", "valor": "btn-warning"},
+      {"chave": "Sem Esilo", "valor": "none"}
+    ]
+  },
+    "iconebtn":{
+        "label": "Icone do Botão Simples",
+        "tipo":"input",
+         "descricao": "Caso opte pelo botão simples, escolha o texto",
+         "condicional": "customizarbotao"
+      },
+    "textobtn":{
+        "label": "Texto do Botão Simples",
+        "tipo":"input",
+         "descricao": "Caso opte pelo botão simples, escolha o texto",
+         "condicional": "customizarbotao"
+      },
+      "posicao":{
+        "label": "Defina as posições",
+        "tipo":"select",
+         "descricao": "Defina a disposisção do botão personalizado",
+         "condicional": "customizarbotao",
+          "opcoes": [
+      {"chave": "Icone + Texto", "valor": 1},
+      {"chave": "Texto + Icone", "valor": 2}
+    ]
+      },
+    "dropdown": {
+        "tipo": "check",
+        "label": "Desabilitar DropDown",
+        "descricao": "Defina o layout do botão de topo do perfil."
+    },
+    "acao": {
+    "tipo": "select",
+    "label": "Defina o que vai acontecer quando o item o botão for clicado",
+    "descricao": "Defina o link.",
+    "opcoes": [
+      {"chave": "Página de Perfil", "valor": 1},
+      {"chave": "Personalizado", "valor": 2}
+    ],
+    "condicional": "dropdown"
+  },
+    "link":{
+        "tipo": "input",
+        "label": "Link de Redirecionamento",
+        "condicional": "dropdown"
+    }
+}

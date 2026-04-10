@@ -1,0 +1,52 @@
+{
+    "imagem1": {
+        "tipo": "file",
+        "label": "Imagem do App",
+        "descricao": "Defina uma imagem do App"
+    },
+    "imagem2": {
+        "tipo": "file",
+        "label": "Imagem do App",
+        "descricao": "Defina uma imagem do App"
+    },
+    "imagem3": {
+        "tipo": "file",
+        "label": "Imagem do App",
+        "descricao": "Defina uma imagem do App"
+    },
+    "imagem4": {
+        "tipo": "file",
+        "label": "Imagem do App",
+        "descricao": "Defina uma imagem do App"
+    },
+    "imagem5": {
+        "tipo": "file",
+        "label": "Imagem do App",
+        "descricao": "Defina uma imagem do App"
+    },
+    "imagem6": {
+        "tipo": "file",
+        "label": "Imagem do App",
+        "descricao": "Defina uma imagem do App"
+    },
+    "imagem7": {
+        "tipo": "file",
+        "label": "Imagem do App",
+        "descricao": "Defina uma imagem do App"
+    },
+    "imagem8": {
+        "tipo": "file",
+        "label": "Imagem do App",
+        "descricao": "Defina uma imagem do App"
+    },
+    "imagem9": {
+        "tipo": "file",
+        "label": "Imagem do App",
+        "descricao": "Defina uma imagem do App"
+    },
+    "imagem10": {
+        "tipo": "file",
+        "label": "Imagem do App",
+        "descricao": "Defina uma imagem do App"
+    }
+}

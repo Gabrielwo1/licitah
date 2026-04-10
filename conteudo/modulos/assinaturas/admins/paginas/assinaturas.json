@@ -1,0 +1,16 @@
+{
+    "nome": "Assinaturas",
+    "tipo": "2",
+    "id": "6O76TYRLTFl7i9B",
+    "btns": [
+        {
+            "texto": "Criar Assinatura",
+            "tipo": "5",
+            "callback": "bgSEtd0yDuLqWSi",
+            "id": "",
+            "icone": ""
+        }
+    ],
+    "titulo": "Assinaturas",
+    "breadcrumbs": true
+}

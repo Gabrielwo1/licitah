@@ -1,0 +1,75 @@
+{
+
+    "ativo":{
+        "tipo": "check",
+        "label":"Ativar Google Ads",
+        "descricao": "Adicione os Scritps de Google Ads"
+    },
+    "tag":{
+        "tipo": "input",
+        "label": "ID da Conta",
+        "descricao": "Digite o ID da conta no formato AW-xxxxxxxx",
+        "condicional": "ativo"
+    },
+    "label":{
+        "tipo":"input",
+        "label": "Conversion label",
+        "condicional": "ativo"
+    },
+    "Defina os dados que serão enviados para o Google":{
+        "tipo":"titulo",
+        "condicional": "ativo"
+    },
+    "preco":{
+        "tipo":"check",
+        "label": "Enviar Preço",
+        "condicional": "ativo",
+        "descricao": "Envie o preço do pedido ao Google"
+    },
+
+    "idpedido":{
+        "tipo":"check",
+        "label": "ID do Pedido",
+        "condicional": "ativo",
+        "descricao": "Envie o ID do pedido ao Google"
+    },
+    "idcliente":{
+        "tipo":"check",
+        "label": "ID do Cliente",
+        "condicional": "ativo",
+        "descricao": "Envie o ID do cliente ao Google"
+    },
+    "cupom":{
+        "tipo":"check",
+        "label": "Cupom de Desconto",
+        "condicional": "ativo",
+        "descricao": "Envie caso usado, o cupom do pedido ao Google"
+    },
+    "itens":{
+        "tipo":"check",
+        "label": "Items da Compra",
+        "condicional": "ativo",
+        "descricao": "Envie todos os itens que foram comprados para o Google"
+    },
+     "Conta Secundária":{
+        "tipo":"titulo",
+        "condicional": "ativo"
+    },
+    "ativodois":{
+        "tipo": "check",
+        "label":"Ativar Google Ads",
+        "descricao": "Adicione os Scritps de Google Ads"
+    },
+    "tagdois":{
+        "tipo": "input",
+        "label": "ID da Conta",
+        "descricao": "Digite o ID da conta no formato AW-xxxxxxxx",
+        "condicional": "ativodois"
+    },
+    "labeldois":{
+        "tipo":"input",
+        "label": "Conversion label",
+        "condicional": "ativodois"
+    }
+    
+}

@@ -1,0 +1,71 @@
+{
+    "banco": "uploads",
+    "meta": false,
+    "prefixo": "upload",
+    "url": false,
+    "colunas": [
+        {
+            "nome": "nome",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "s6Ibza4SJZakx5ut8VJKqK6JJ11VVc",
+            "size": 100
+        },
+        {
+            "nome": "tipo",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "rDxqxOkZyNAGbRGrsjwgk4fFEsGPOS"
+        },
+        {
+            "nome": "formato",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "SBLm4KONM2EnI1EiqjG6camAXTmu36",
+            "size": 20
+        },
+        {
+            "nome": "tamanho",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "6VeIMGkAioMJpJxhaxfDkeImO1D7wW"
+        },
+        {
+            "nome": "url",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "OWQ2peZU0HFS0BLe17arXgmewnZWl7",
+            "size": 200
+        },
+        {
+            "nome": "assinatura",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "B9LMLwHhFDCz9zFnltTTZNI4fQI3SO",
+            "size": 64
+        }
+    ],
+    "estrutura": {
+        "meta": false,
+        "hash": true,
+        "autor": true,
+        "render": false,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "url": false,
+        "urledit": false,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false
+    },
+    "metas": []
+}

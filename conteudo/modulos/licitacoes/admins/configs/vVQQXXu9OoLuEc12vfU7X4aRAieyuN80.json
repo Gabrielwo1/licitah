@@ -1,0 +1,67 @@
+{
+    "banco": "licitacoes_materiais",
+    "meta": true,
+    "prefixo": "licitacoes_material",
+    "url": false,
+    "colunas": [
+        {
+            "nome": "codigo",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": true,
+            "input": "ukKSdFYHRVgjrPnVEhi3oXff9pQ7hP",
+            "size": 20
+        },
+        {
+            "nome": "desc",
+            "nulo": false,
+            "tipo": "text",
+            "unico": false,
+            "input": "newOAkNIcwd5H3BfyrzKhxGoEl19XO"
+        },
+        {
+            "nome": "grupo",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "WEguKMZGSrmKkIZyGU8UOI3ku3ivbm"
+        },
+        {
+            "nome": "classe",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "0xq5Wl67x9IjRBHpFtDX9mEDTY6HY8"
+        }
+    ],
+    "estrutura": {
+        "meta": true,
+        "hash": true,
+        "autor": false,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "ordenador": false,
+        "url": false,
+        "urledit": false,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false,
+        "autoria": false,
+        "wildcard": false,
+        "atributos": false,
+        "desabilitarNovo": false,
+        "desabilitarEdicao": false,
+        "reordenador": false,
+        "pontos": false
+    },
+    "metas": {
+        "82Slrn3Iv2QxnxwA8PfUoPEtwII0h6": "nomePdm",
+        "mlaYaTYi3NEB2aF0fQ8tQ3kuoaLz8G": "nomeClasse",
+        "nO70fAKELa9SV8rhQBFbTbvf1jAhc4": "dataHoraAtualizacao",
+        "rIw7AtPXLIBw7rFxPpeRPt43c2x7Ao": "statusItem",
+        "pbXE78oVWeK0lDkpJ7pup1pIKbZCJ0": "itemSustentavel"
+    }
+}

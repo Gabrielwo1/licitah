@@ -1,0 +1,45 @@
+{
+    "nome": "verificarItem",
+    "banco": "gyPUBhaQjcCLyCPgaiVbUw7ma2c694p2",
+    "tipo": 2,
+    "subtipo": 1,
+    "itens": [
+        {
+            "nome": "item",
+            "banco": "p",
+            "chave": "item",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "usuario",
+            "banco": "p",
+            "chave": "usuario",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "pedido",
+            "banco": "p",
+            "chave": "pedido",
+            "estrangeiro": 1,
+            "setupEstrangeira": {
+                "modulo": "pagamento",
+                "banco": "Cyrv1bcxbsbHpSh.json",
+                "metas": [
+                    "andamento_status"
+                ],
+                "principal": [
+                    "usuario",
+                    "total",
+                    "estado",
+                    "autor"
+                ]
+            }
+        },
+        {
+            "nome": "espelho",
+            "banco": "p",
+            "chave": "espelho",
+            "estrangeiro": 0
+        }
+    ]
+}

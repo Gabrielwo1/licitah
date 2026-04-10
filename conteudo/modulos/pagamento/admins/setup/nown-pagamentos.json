@@ -1,0 +1,12 @@
+{   
+    "token":{
+         "tipo":"input",
+         "label": "Token",
+         "descricao": "Seu token de cliente"
+      },
+    "idpk":{
+         "tipo":"input",
+         "label": "IDPK",
+         "descricao": "Seu código de Empresa"
+      }
+}

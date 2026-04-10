@@ -1,0 +1,25 @@
+{
+  "ativo": {
+    "tipo": "check",
+    "descricao": "Habilite o login e cadastro usando o TikTok",
+    "label": "Logar com o TikTok"
+  },
+  "appid": {
+    "tipo": "INPUT",
+    "label": "App ID",
+    "descricao": "Obtido ao registrar seu aplicativo no TikTok Developer Console.",
+    "condicional": "ativo"
+  },
+  "clientsecret": {
+    "tipo": "INPUT",
+    "label": "Client Secret",
+    "descricao": "Gerado junto com o App ID.",
+    "condicional": "ativo"
+  },
+  "clientkey": {
+    "tipo": "INPUT",
+    "label": "Client key",
+    "descricao": "Gerado junto com o App ID.", 
+    "condicional": "ativo"
+  }
+}

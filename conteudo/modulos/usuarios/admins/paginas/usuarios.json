@@ -1,0 +1,16 @@
+{
+    "nome": "Usuários",
+    "tipo": "2",
+    "id": "Ni3aanRhNI8Y4vk",
+    "btns": [
+        {
+            "texto": "Novo Usuário",
+            "tipo": "5",
+            "callback": "sRVwgbL6KUxmm43",
+            "id": "",
+            "icone": "bi bi-person-add"
+        }
+    ],
+    "titulo": "Todos os Usuários",
+    "breadcrumbs": true
+}

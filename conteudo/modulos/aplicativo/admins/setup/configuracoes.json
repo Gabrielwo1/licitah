@@ -1,0 +1,56 @@
+{
+    "url":{
+        "tipo": "input",
+        "label": "URL Incial",
+        "descricao": "A URL que é carregada quando seu APP inicia"
+    },
+    "direcao": {
+        "tipo": "select",
+        "label": "Direção",
+        "descricao": "A direção do texto do seu APP",
+         "opcoes":[
+            {"chave": "Automático", "valor": "auto"},
+            {"chave": "Esquerda/Direita", "valor": "ltr"},
+            {"chave": "Direita/Esquerda", "valor": "rtl"}
+            ]
+    },
+    "escopo":{
+        "tipo": "input",
+        "label": "Escopo",
+        "descricao": "Quais URLs podem ser carregadas dentro do seu aplicativo"
+    },
+    "idioma":{
+        "tipo": "select",
+        "label": "Idioma",
+        "descricao": "O idioma primário do Aplicativo",
+         "opcoes":[
+            {"chave": "Português", "valor": "pt-BR"}
+            ]
+    },
+    "orientacao":{
+        "label": "Orientação",
+        "tipo": "select",
+        "descricao": "A orientação de tela padrão do seu aplicativo",
+        "opcoes": [
+            {"valor": "any", "chave": "Qualquer Uma - Representa qualquer orientação de tela"},
+            {"valor": "natural", "chave": "Natural - A orientação padrão do dispositivo"},
+            {"valor": "landscape", "chave": "Paisagem - Orientação horizontal"},
+            {"valor": "portrait", "chave": "Retrato - Orientação vertical"},
+            {"valor": "landscape-primary", "chave": "Paisagem Primária"},
+            {"valor": "landscape-secondary", "chave": "Paisagem Secundária"},
+            {"valor": "portrait-primary", "chave": "Retrato Primário"},
+            {"valor": "portrait-secondary", "chave": "Retrato Secundário"}
+            ]
+    },
+    "display": {
+        "tipo": "select",
+        "label": "Display",
+        "descricao": "A aparência da janela do seu aplicativo",
+        "opcoes": [
+         {"valor": "fullscreen", "chave": "Tela Cheia"},
+         {"valor": "standalone", "chave": "Independente"},
+         {"valor": "minimal-ui", "chave": "UI Mínima"},
+         {"valor": "browser", "chave": "Navegador"}
+            ]
+    }
+}

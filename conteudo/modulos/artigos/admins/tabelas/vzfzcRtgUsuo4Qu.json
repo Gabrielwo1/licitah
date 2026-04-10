@@ -1,0 +1,45 @@
+{
+    "nome": "Meus artigos",
+    "banco": "VFx1EY01nDXSfRa",
+    "colunas": [
+        {
+            "nome": "Imagem",
+            "id": "imagem",
+            "tipo": "1",
+            "render": "1"
+        },
+        {
+            "nome": "Titulo",
+            "id": "titulo",
+            "tipo": "1",
+            "render": "0"
+        },
+        {
+            "nome": "Data",
+            "id": "data",
+            "tipo": "1",
+            "render": "2"
+        },
+        {
+            "nome": "categoria",
+            "id": "categoria",
+            "tipo": "1",
+            "render": "0"
+        }
+    ],
+    "regra": "2",
+    "acoes": {
+        "opcoes": {
+            "acoes": true,
+            "editar": true,
+            "apagar": true,
+            "vizualizar": true,
+            "importador": false
+        },
+        "rotas": {
+            "editar": "a\/artigos\/atigo",
+            "vizualizar": "artigos\/"
+        }
+    },
+    "acoesPersonalizadas": []
+}

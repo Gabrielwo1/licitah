@@ -1,0 +1,16 @@
+{
+    "nome": "Funções",
+    "tipo": "2",
+    "id": "iMA3f3BEHHTCYia",
+    "btns": [
+        {
+            "texto": "Nova Função",
+            "tipo": "1",
+            "callback": "a\/empresas\/funcao",
+            "id": "",
+            "icone": "bi bi-plus-circle-fill"
+        }
+    ],
+    "titulo": "Funções de Empresa",
+    "breadcrumbs": true
+}

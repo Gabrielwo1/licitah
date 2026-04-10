@@ -1,0 +1,83 @@
+{
+    "banco": "licitacoes_itens",
+    "meta": true,
+    "prefixo": "licitacoes_item",
+    "url": false,
+    "colunas": [
+        {
+            "nome": "codigo",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": true,
+            "input": "wABkMuZFUyPAWM7IXCZDIZj3LsSsRR",
+            "size": 50
+        },
+        {
+            "nome": "desc",
+            "nulo": false,
+            "tipo": "text",
+            "unico": false,
+            "input": "D6DOQVcO8cxmPGufRaRGzgS1QVzTZn"
+        },
+        {
+            "nome": "beneficio",
+            "nulo": false,
+            "tipo": "text",
+            "unico": false,
+            "input": "nSaGY06N7gYebbcYOVbJMqqIBmYqbu"
+        },
+        {
+            "nome": "att",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "SdcMskM27khP0T7mHkJOmDt2g526gh",
+            "size": 50
+        },
+        {
+            "nome": "licitacao",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "5UiEQDzjOg0b80BlLS4cbHPbpOSMdX"
+        }
+    ],
+    "estrutura": {
+        "meta": true,
+        "hash": true,
+        "autor": false,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "ordenador": false,
+        "url": false,
+        "urledit": false,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false,
+        "autoria": false,
+        "wildcard": false,
+        "atributos": false,
+        "destaque": false,
+        "desabilitarNovo": false,
+        "desabilitarEdicao": false,
+        "reordenador": false,
+        "pontos": false
+    },
+    "metas": {
+        "W810PIwyTAdCd16QBqIxWMqizxqaK4": "unidade_gestora",
+        "FlzCsnW8DoNepeZrIufZ1CKbtZ3JaK": "criterioJulgamentoNome",
+        "m3TZmLrxPEapKO7QPmZRssq1wvOujo": "idContratacaoPNCP",
+        "06Qnm72HesN16PHPBRoPvlsRmgLGHs": "item_material",
+        "CQUQ2CfDKyUWjzjpyWGPhMgPSvk1uN": "unidadeMedida",
+        "AYZsCLCKoVME3a9bUMQMs7YJMPEiQ2": "quantidade",
+        "ifqaMuM0pzu8RYlNUoqcEbpXgNhZ3e": "nomeFornecedor",
+        "OH3iIrIhALjYHPmXRZdKmDhv5wPkIX": "numeroItemCompra",
+        "RjHDDFZUd6RrlgEPfVYcW0B6VyG9ht": "valorUnitarioEstimado",
+        "qnkgEkSt1gbntkLKxDkdupwZb4IP61": "valorTotal",
+        "KfJR1nEupPNffHzt307ldi9JmWNqfH": "dataInclusaoPncp",
+        "2lQurvztrrnRtPNUM4QcmoIpFpGyie": "dataResultado"
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "banco": "pay_carrinhos",
+    "meta": false,
+    "prefixo": "carrinho",
+    "url": false,
+    "colunas": [
+        {
+            "nome": "usuario",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "L4jCGhf8Tk3sB60MTWH7IRlaO5rPkF"
+        },
+        {
+            "nome": "carrinho",
+            "nulo": false,
+            "tipo": "json",
+            "unico": false,
+            "input": "MAJXVmons3jE9AE7Fn7qUDo9g2cKv9"
+        }
+    ],
+    "estrutura": {
+        "meta": false,
+        "hash": true,
+        "autor": false,
+        "render": false,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "url": false,
+        "urledit": false,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false
+    },
+    "metas": []
+}

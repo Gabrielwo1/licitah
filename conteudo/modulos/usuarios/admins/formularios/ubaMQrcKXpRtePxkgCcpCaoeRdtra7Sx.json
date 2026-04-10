@@ -1,0 +1,850 @@
+{
+    "id": "224",
+    "nome": "Funções Apis",
+    "hash": "ubaMQrcKXpRtePxkgCcpCaoeRdtra7Sx",
+    "data": "2024-09-14 14:02:04",
+    "tamanho": 27,
+    "inputs": [
+        {
+            "id": "6124",
+            "tipo": "select",
+            "nome": "Função",
+            "obrigatorio": "0",
+            "data": "2024-09-14 14:06:16",
+            "pai": "0",
+            "posicao": "0",
+            "hash": "qCnINgUVg6fyUjaQKr8Bh0stuSxRdN",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": "Função ",
+                    "descricao": " ",
+                    "obrigatorio": 0,
+                    "select-2": 0,
+                    "somente-leitura": 0
+                },
+                "opcoes": {
+                    "multiplo": 0,
+                    "opcoes": " "
+                },
+                "dinamica": {
+                    "smart-triger": 0,
+                    "input-trigger": 0,
+                    "url-trigger": " ",
+                    "acao-trigger": " ",
+                    "opcoes-dinamicas": 1,
+                    "configuracoes": {
+                        "modulo": "usuarios",
+                        "formulario": "Gl0ET7eECTejzdoC3D6NxonM3cbfaE0j.json",
+                        "regra": "1"
+                    },
+                    "arquivo-query": " ",
+                    "acao-query": " "
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": " ",
+                    "sub-label": " ",
+                    "tooltip": " "
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": " "
+                },
+                "identificador": {
+                    "id": " ",
+                    "classes": " "
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "6112",
+            "tipo": "card",
+            "nome": "Definição",
+            "obrigatorio": "0",
+            "data": "2024-09-14 14:06:53",
+            "pai": "0",
+            "posicao": "1",
+            "hash": "PGSlmWfjxtYIrPPPdQa3MZTwt9Hod6",
+            "infos": {
+                "basico": {
+                    "label": "Definição",
+                    "recolhivel": 0
+                },
+                "flex": {
+                    "ativar": 0,
+                    "direcao": 1,
+                    "justify": 0,
+                    "align": 0,
+                    "gap": 0
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": ""
+                },
+                "identificador": {
+                    "id": "",
+                    "classes": ""
+                }
+            },
+            "filhos": [
+                {
+                    "id": "6106",
+                    "tipo": "coluna",
+                    "nome": null,
+                    "obrigatorio": "0",
+                    "data": "2024-09-14 14:03:59",
+                    "pai": "6112",
+                    "posicao": "0",
+                    "hash": "gACufnGLbNgbb98PgBvsLcgU3rx60B",
+                    "infos": [],
+                    "filhos": [
+                        {
+                            "id": "6107",
+                            "tipo": "col",
+                            "nome": null,
+                            "obrigatorio": "0",
+                            "data": "2024-09-14 14:03:36",
+                            "pai": "6106",
+                            "posicao": "0",
+                            "hash": "QcIOZZzII6JgJotP3FJIUj1uvhCStY",
+                            "infos": [],
+                            "filhos": [
+                                {
+                                    "id": "6104",
+                                    "tipo": "text",
+                                    "nome": "Módulo",
+                                    "obrigatorio": "0",
+                                    "data": "2024-09-14 14:03:38",
+                                    "pai": "6107",
+                                    "posicao": "0",
+                                    "hash": "bNNFgrE2j6doIuhfiqxRIyNEYljShq",
+                                    "infos": {
+                                        "basico": {
+                                            "esconder-label": 0,
+                                            "label": "Módulo",
+                                            "descricao": "",
+                                            "obrigatorio": 0,
+                                            "somente-leitura": 0
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho-do-input": 0
+                                        },
+                                        "label": {
+                                            "placeholder": "",
+                                            "sub-label": "",
+                                            "tooltip": "",
+                                            "prefixo": "",
+                                            "sufixo": ""
+                                        },
+                                        "valor": {
+                                            "tipo": 0,
+                                            "fixo": "",
+                                            "dinamico": 0,
+                                            "arquivo-query": "",
+                                            "acao-query": ""
+                                        },
+                                        "tamanho": {
+                                            "ativar": 0,
+                                            "maximo": "",
+                                            "minimo": ""
+                                        },
+                                        "validacao": {
+                                            "mascara": 0
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": ""
+                                        },
+                                        "identificador": {
+                                            "id": "",
+                                            "classes": ""
+                                        }
+                                    },
+                                    "filhos": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "6108",
+                            "tipo": "col",
+                            "nome": null,
+                            "obrigatorio": "0",
+                            "data": "2024-09-14 14:03:36",
+                            "pai": "6106",
+                            "posicao": "1",
+                            "hash": "ll4ARsRKrGriQiYXbkFUynWacd2B3O",
+                            "infos": [],
+                            "filhos": [
+                                {
+                                    "id": "6105",
+                                    "tipo": "text",
+                                    "nome": "Key",
+                                    "obrigatorio": "0",
+                                    "data": "2024-09-14 14:03:42",
+                                    "pai": "6108",
+                                    "posicao": "0",
+                                    "hash": "lRsmbLmv5jHxZslEyvKsBIo70pCPmg",
+                                    "infos": {
+                                        "basico": {
+                                            "esconder-label": 0,
+                                            "label": "Key",
+                                            "descricao": "",
+                                            "obrigatorio": 0,
+                                            "somente-leitura": 0
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho-do-input": 0
+                                        },
+                                        "label": {
+                                            "placeholder": "",
+                                            "sub-label": "",
+                                            "tooltip": "",
+                                            "prefixo": "",
+                                            "sufixo": ""
+                                        },
+                                        "valor": {
+                                            "tipo": 0,
+                                            "fixo": "",
+                                            "dinamico": 0,
+                                            "arquivo-query": "",
+                                            "acao-query": ""
+                                        },
+                                        "tamanho": {
+                                            "ativar": 0,
+                                            "maximo": "",
+                                            "minimo": ""
+                                        },
+                                        "validacao": {
+                                            "mascara": 0
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": ""
+                                        },
+                                        "identificador": {
+                                            "id": "",
+                                            "classes": ""
+                                        }
+                                    },
+                                    "filhos": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "6123",
+            "tipo": "card",
+            "nome": "Limite",
+            "obrigatorio": "0",
+            "data": "2024-09-14 14:07:03",
+            "pai": "0",
+            "posicao": "2",
+            "hash": "OEwwa4Kbpl9EY5eTwIy2bsKWiTkghy",
+            "infos": {
+                "basico": {
+                    "label": "Limite",
+                    "recolhivel": 0
+                },
+                "flex": {
+                    "ativar": 0,
+                    "direcao": 1,
+                    "justify": 0,
+                    "align": 0,
+                    "gap": 0
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": ""
+                },
+                "identificador": {
+                    "id": "",
+                    "classes": ""
+                }
+            },
+            "filhos": [
+                {
+                    "id": "6109",
+                    "tipo": "coluna",
+                    "nome": null,
+                    "obrigatorio": "0",
+                    "data": "2024-09-14 14:05:39",
+                    "pai": "6123",
+                    "posicao": "0",
+                    "hash": "kiVPrnxkghQuMoUOW8lyJRx1mioPXP",
+                    "infos": [],
+                    "filhos": [
+                        {
+                            "id": "6110",
+                            "tipo": "col",
+                            "nome": null,
+                            "obrigatorio": "0",
+                            "data": "2024-09-14 14:03:49",
+                            "pai": "6109",
+                            "posicao": "0",
+                            "hash": "bL2PjestLum5hGPCWrJ2cxhufTkztQ",
+                            "infos": [],
+                            "filhos": [
+                                {
+                                    "id": "6102",
+                                    "tipo": "switch",
+                                    "nome": "Limite",
+                                    "obrigatorio": "0",
+                                    "data": "2024-09-14 14:03:52",
+                                    "pai": "6110",
+                                    "posicao": "0",
+                                    "hash": "mXiq8J6CiPEFBf9pzOcLcuxRv6cpVP",
+                                    "infos": {
+                                        "basico": {
+                                            "label": "Limite",
+                                            "descricao": "",
+                                            "obrigatorio": 0
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho": 0,
+                                            "justificar": 0,
+                                            "ordem": 0
+                                        },
+                                        "label": {
+                                            "sub-label": "",
+                                            "tooltip": ""
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": ""
+                                        },
+                                        "identificador": {
+                                            "id": "",
+                                            "classes": ""
+                                        }
+                                    },
+                                    "filhos": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "6111",
+                            "tipo": "col",
+                            "nome": null,
+                            "obrigatorio": "0",
+                            "data": "2024-09-14 14:03:49",
+                            "pai": "6109",
+                            "posicao": "1",
+                            "hash": "JYpTRvS79rbldlbMPswJhYv61YeW99",
+                            "infos": [],
+                            "filhos": [
+                                {
+                                    "id": "6103",
+                                    "tipo": "number",
+                                    "nome": "Quantidade",
+                                    "obrigatorio": "0",
+                                    "data": "2024-09-14 14:03:53",
+                                    "pai": "6111",
+                                    "posicao": "0",
+                                    "hash": "Vwk064nIzZPzLYREJ9XemyBYpbrDOW",
+                                    "infos": {
+                                        "basico": {
+                                            "esconder-label": 0,
+                                            "label": "Quantidade",
+                                            "descricao": "",
+                                            "obrigatorio": 0,
+                                            "somente-leitura": 0
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho-do-input": 0
+                                        },
+                                        "label": {
+                                            "placeholder": "",
+                                            "sub-label": "",
+                                            "tooltip": ""
+                                        },
+                                        "valor": {
+                                            "minimo": "",
+                                            "maximo": "",
+                                            "definido": ""
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": ""
+                                        },
+                                        "identificador": {
+                                            "id": "",
+                                            "classes": ""
+                                        }
+                                    },
+                                    "filhos": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "6121",
+            "tipo": "card",
+            "nome": "Reacesivel",
+            "obrigatorio": "0",
+            "data": "2024-09-14 14:07:13",
+            "pai": "0",
+            "posicao": "3",
+            "hash": "hvYl1pHSoX8ZctfCUi88YCV1v6s1Lx",
+            "infos": {
+                "basico": {
+                    "label": "Reacesivel",
+                    "recolhivel": 0
+                },
+                "flex": {
+                    "ativar": 0,
+                    "direcao": 1,
+                    "justify": 0,
+                    "align": 0,
+                    "gap": 0
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": ""
+                },
+                "identificador": {
+                    "id": "",
+                    "classes": ""
+                }
+            },
+            "filhos": [
+                {
+                    "id": "6113",
+                    "tipo": "coluna",
+                    "nome": null,
+                    "obrigatorio": "0",
+                    "data": "2024-09-14 14:05:18",
+                    "pai": "6121",
+                    "posicao": "0",
+                    "hash": "J8LAZjao3jhdh6E5etUotzCkgXfspB",
+                    "infos": [],
+                    "filhos": [
+                        {
+                            "id": "6114",
+                            "tipo": "col",
+                            "nome": null,
+                            "obrigatorio": "0",
+                            "data": "2024-09-14 14:04:16",
+                            "pai": "6113",
+                            "posicao": "0",
+                            "hash": "CPFBPErA5Dk7uoFwIDqKDbYJHDv53c",
+                            "infos": [],
+                            "filhos": [
+                                {
+                                    "id": "6119",
+                                    "tipo": "switch",
+                                    "nome": "Reacessivel",
+                                    "obrigatorio": "0",
+                                    "data": "2024-09-14 14:04:29",
+                                    "pai": "6114",
+                                    "posicao": "0",
+                                    "hash": "Id3FMd9KC8YB85r2brwTdx8ChYcCgF",
+                                    "infos": {
+                                        "basico": {
+                                            "label": "Reacessivel",
+                                            "descricao": "",
+                                            "obrigatorio": 0
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho": 0,
+                                            "justificar": 0,
+                                            "ordem": 0
+                                        },
+                                        "label": {
+                                            "sub-label": "",
+                                            "tooltip": ""
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": ""
+                                        },
+                                        "identificador": {
+                                            "id": "",
+                                            "classes": ""
+                                        }
+                                    },
+                                    "filhos": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "6115",
+                            "tipo": "col",
+                            "nome": null,
+                            "obrigatorio": "0",
+                            "data": "2024-09-14 14:04:16",
+                            "pai": "6113",
+                            "posicao": "1",
+                            "hash": "YjOApyx4aeDP2dmkAsklkgzQhfhvOX",
+                            "infos": [],
+                            "filhos": [
+                                {
+                                    "id": "6126",
+                                    "tipo": "number",
+                                    "nome": "Valor Reacessivel",
+                                    "obrigatorio": "0",
+                                    "data": "2024-09-14 14:08:56",
+                                    "pai": "6115",
+                                    "posicao": "0",
+                                    "hash": "nj60XZKyoYAIslNlKIAKpkHtRzyr8z",
+                                    "infos": {
+                                        "basico": {
+                                            "esconder-label": 0,
+                                            "label": "Valor Reacessivel ",
+                                            "descricao": " ",
+                                            "obrigatorio": 0,
+                                            "somente-leitura": 0
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho-do-input": 0
+                                        },
+                                        "label": {
+                                            "placeholder": " ",
+                                            "sub-label": " ",
+                                            "tooltip": " "
+                                        },
+                                        "valor": {
+                                            "minimo": 1,
+                                            "maximo": " ",
+                                            "definido": 1
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": " "
+                                        },
+                                        "identificador": {
+                                            "id": " ",
+                                            "classes": " "
+                                        }
+                                    },
+                                    "filhos": []
+                                },
+                                {
+                                    "id": "6125",
+                                    "tipo": "select",
+                                    "nome": "Tipo Reacesso",
+                                    "obrigatorio": "0",
+                                    "data": "2024-09-14 14:09:44",
+                                    "pai": "6115",
+                                    "posicao": "1",
+                                    "hash": "o2Cz916DsV5onxbfYUBMgwPfU8wctU",
+                                    "infos": {
+                                        "basico": {
+                                            "esconder-label": 0,
+                                            "label": "Tipo Reacesso ",
+                                            "descricao": " ",
+                                            "obrigatorio": 0,
+                                            "select-2": 0,
+                                            "somente-leitura": 0
+                                        },
+                                        "opcoes": {
+                                            "multiplo": 0,
+                                            "opcoes": [
+                                                {
+                                                    "nome": "Sempre",
+                                                    "valor": "0",
+                                                    "selecionado": false
+                                                },
+                                                {
+                                                    "nome": "Minuto",
+                                                    "valor": "1",
+                                                    "selecionado": false
+                                                },
+                                                {
+                                                    "nome": "Hora",
+                                                    "valor": "2",
+                                                    "selecionado": false
+                                                },
+                                                {
+                                                    "nome": "Dia",
+                                                    "valor": "3",
+                                                    "selecionado": false
+                                                }
+                                            ]
+                                        },
+                                        "dinamica": {
+                                            "smart-triger": 0,
+                                            "input-trigger": 0,
+                                            "url-trigger": " ",
+                                            "acao-trigger": " ",
+                                            "opcoes-dinamicas": 0,
+                                            "configuracoes": " ",
+                                            "arquivo-query": " ",
+                                            "acao-query": " "
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho-do-input": 0
+                                        },
+                                        "label": {
+                                            "placeholder": " ",
+                                            "sub-label": " ",
+                                            "tooltip": " "
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": " "
+                                        },
+                                        "identificador": {
+                                            "id": " ",
+                                            "classes": " "
+                                        }
+                                    },
+                                    "filhos": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "6122",
+            "tipo": "card",
+            "nome": "Renovavel",
+            "obrigatorio": "0",
+            "data": "2024-09-14 14:09:12",
+            "pai": "0",
+            "posicao": "4",
+            "hash": "bFHUIg5DjifT1KvWRIHbvunQvWVZQE",
+            "infos": {
+                "basico": {
+                    "label": "Renovavel",
+                    "recolhivel": 0
+                },
+                "flex": {
+                    "ativar": 0,
+                    "direcao": 1,
+                    "justify": 0,
+                    "align": 0,
+                    "gap": 0
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": ""
+                },
+                "identificador": {
+                    "id": "",
+                    "classes": ""
+                }
+            },
+            "filhos": [
+                {
+                    "id": "6116",
+                    "tipo": "coluna",
+                    "nome": null,
+                    "obrigatorio": "0",
+                    "data": "2024-09-14 14:05:21",
+                    "pai": "6122",
+                    "posicao": "0",
+                    "hash": "pS4OVcOqlAr64XL8fEjJUY25s4ZFyd",
+                    "infos": [],
+                    "filhos": [
+                        {
+                            "id": "6117",
+                            "tipo": "col",
+                            "nome": null,
+                            "obrigatorio": "0",
+                            "data": "2024-09-14 14:04:16",
+                            "pai": "6116",
+                            "posicao": "0",
+                            "hash": "rwTq6LaX9LRGW1EyVSEQGWmeFXjpbS",
+                            "infos": [],
+                            "filhos": [
+                                {
+                                    "id": "6120",
+                                    "tipo": "switch",
+                                    "nome": "Renovavel",
+                                    "obrigatorio": "0",
+                                    "data": "2024-09-14 14:04:36",
+                                    "pai": "6117",
+                                    "posicao": "0",
+                                    "hash": "xWMW9d0koAqeO7oBEXkKSTIPqTm0a8",
+                                    "infos": {
+                                        "basico": {
+                                            "label": "Renovavel",
+                                            "descricao": "",
+                                            "obrigatorio": 0
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho": 0,
+                                            "justificar": 0,
+                                            "ordem": 0
+                                        },
+                                        "label": {
+                                            "sub-label": "",
+                                            "tooltip": ""
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": ""
+                                        },
+                                        "identificador": {
+                                            "id": "",
+                                            "classes": ""
+                                        }
+                                    },
+                                    "filhos": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "6118",
+                            "tipo": "col",
+                            "nome": null,
+                            "obrigatorio": "0",
+                            "data": "2024-09-14 14:04:16",
+                            "pai": "6116",
+                            "posicao": "1",
+                            "hash": "gadjLalgbAqOse7PK8CTXck7VfLNhf",
+                            "infos": [],
+                            "filhos": [
+                                {
+                                    "id": "6128",
+                                    "tipo": "number",
+                                    "nome": "Valor Renovavel",
+                                    "obrigatorio": "0",
+                                    "data": "2024-09-14 14:09:19",
+                                    "pai": "6118",
+                                    "posicao": "0",
+                                    "hash": "s62z5Kv1xapLof8HCZAFFsPkaWuXRS",
+                                    "infos": {
+                                        "basico": {
+                                            "esconder-label": 0,
+                                            "label": "Valor Renovavel ",
+                                            "descricao": " ",
+                                            "obrigatorio": 0,
+                                            "somente-leitura": 0
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho-do-input": 0
+                                        },
+                                        "label": {
+                                            "placeholder": " ",
+                                            "sub-label": " ",
+                                            "tooltip": " "
+                                        },
+                                        "valor": {
+                                            "minimo": 1,
+                                            "maximo": " ",
+                                            "definido": 1
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": " "
+                                        },
+                                        "identificador": {
+                                            "id": " ",
+                                            "classes": " "
+                                        }
+                                    },
+                                    "filhos": []
+                                },
+                                {
+                                    "id": "6127",
+                                    "tipo": "select",
+                                    "nome": "Tipo Renovação",
+                                    "obrigatorio": "0",
+                                    "data": "2024-09-14 14:09:35",
+                                    "pai": "6118",
+                                    "posicao": "1",
+                                    "hash": "cOMeQYOOVmj1AI70ZAeR27QAhwzsik",
+                                    "infos": {
+                                        "basico": {
+                                            "esconder-label": 0,
+                                            "label": "Tipo Renovação ",
+                                            "descricao": " ",
+                                            "obrigatorio": 0,
+                                            "select-2": 0,
+                                            "somente-leitura": 0
+                                        },
+                                        "opcoes": {
+                                            "multiplo": 0,
+                                            "opcoes": [
+                                                {
+                                                    "nome": "Nunca",
+                                                    "valor": "0",
+                                                    "selecionado": false
+                                                },
+                                                {
+                                                    "nome": "Minuto",
+                                                    "valor": "1",
+                                                    "selecionado": false
+                                                },
+                                                {
+                                                    "nome": "Hora",
+                                                    "valor": "2",
+                                                    "selecionado": false
+                                                },
+                                                {
+                                                    "nome": "Dia",
+                                                    "valor": "3",
+                                                    "selecionado": false
+                                                }
+                                            ]
+                                        },
+                                        "dinamica": {
+                                            "smart-triger": 0,
+                                            "input-trigger": 0,
+                                            "url-trigger": " ",
+                                            "acao-trigger": " ",
+                                            "opcoes-dinamicas": 0,
+                                            "configuracoes": " ",
+                                            "arquivo-query": " ",
+                                            "acao-query": " "
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho-do-input": 0
+                                        },
+                                        "label": {
+                                            "placeholder": " ",
+                                            "sub-label": " ",
+                                            "tooltip": " "
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": " "
+                                        },
+                                        "identificador": {
+                                            "id": " ",
+                                            "classes": " "
+                                        }
+                                    },
+                                    "filhos": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "infos": {
+        "layout": {
+            "tamanho": 6
+        },
+        "logica": {
+            "logica": 0,
+            "setup": ""
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+  "Dados de Produção": {
+    "tipo": "titulo",
+    "subtitulo": "Seu Token de Produção Pagbank"
+  },
+  "tokenproducao": {
+    "tipo": "input",
+    "label": "Token de Produção",
+    "descricao": "Seu Token de Produção Pagbank"
+  },
+  "Sandbox": {
+    "tipo": "titulo",
+    "subtitulo": "Configurações do Ambiente Sandbox"
+  },
+  "tokensandbox": {
+    "tipo": "input",
+    "label": "Token Sandbox",
+    "descricao": "Seu Token Sandbox Pagbank"
+  }
+}

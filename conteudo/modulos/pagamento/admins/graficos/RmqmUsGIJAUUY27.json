@@ -1,0 +1,37 @@
+{
+    "nome": "Quantidade Pedido Iniciado",
+    "tipoGrafico": "numerico",
+    "graficoPrimario": "",
+    "bancoDeDados": "Cyrv1bcxbsbHpSh",
+    "colunaData": "data",
+    "filtro": "1",
+    "grafico": {
+        "subtipo": "medicao",
+        "referencia": "total",
+        "agrupamento": "1",
+        "coluna": ""
+    },
+    "layout": {
+        "primario": "",
+        "periodoinicial": "Último Mês",
+        "titulo": "Pedidos em Aberto",
+        "alteralayout": true,
+        "selecionarperiodo": false,
+        "drop": false,
+        "horas": false
+    },
+    "extra": {
+        "layout": "2",
+        "bg": "#00ff11",
+        "color": "#ffffff",
+        "prefixo": "",
+        "sufixo": "",
+        "listaCores": "bg-navyBlue"
+    },
+    "condicional": {
+        "ativo": "1",
+        "coluna": "estado",
+        "tipo": "=",
+        "valor": "1"
+    }
+}

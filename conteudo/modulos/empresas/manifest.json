@@ -1,0 +1,36 @@
+{
+    "name": "Empresas",
+    "description": "Gerencie e cadastre empresas dentro do sistema com informações organizadas e centralizadas.",
+    "descriptionLong": "O módulo Empresas permite o cadastro, gestão e organização de múltiplas empresas dentro do Nown. Com ele, você pode armazenar informações essenciais, segmentar dados e gerenciar acessos de forma eficiente. Ideal para plataformas que atendem diferentes organizações, garantindo uma administração estruturada e centralizada.",
+    "icon": "bi bi-building",
+    "ativo": "true",
+    "multiconta": true,
+    "readonly": false,
+    "sub": [
+        {
+            "name": "Empresas",
+            "link": "a\/empresas"
+        },
+        {
+            "name": "Funções da Empresa",
+            "link": "a\/empresas\/funcoes"
+        },
+        {
+            "name": "Códigos",
+            "link": "a\/empresas\/codigos"
+        },
+        {
+            "name": "Associações ",
+            "link": "a\/empresas\/associacoes"
+        },
+        {
+            "name": "Busca",
+            "link": "empresas\/busca"
+        },
+        {
+            "name": "Departamento",
+            "link": "a\/empresas\/departamentos"
+        }
+    ],
+    "versao": "0.55"
+}

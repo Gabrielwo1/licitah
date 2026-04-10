@@ -1,0 +1,71 @@
+{
+    "banco": "notificacoes_preferencias",
+    "meta": false,
+    "prefixo": "noti_pref",
+    "url": false,
+    "colunas": [
+        {
+            "nome": "notificacao",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "NH8aT7uN4KZEUL88lAiQ9TWl38yFBP"
+        },
+        {
+            "nome": "user",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "vWNhQTZc4CVIpAn71dk63YC1vrhOwi"
+        },
+        {
+            "nome": "push",
+            "nulo": false,
+            "tipo": "boolean",
+            "unico": false,
+            "input": "Zqtip2E3P9iVCRpQyh0oRXjMS9qrd3"
+        },
+        {
+            "nome": "sms",
+            "nulo": false,
+            "tipo": "boolean",
+            "unico": false,
+            "input": "Y4bC3aUVsr8pxOEpiCMVdC1L3mpJlB"
+        },
+        {
+            "nome": "whatsapp",
+            "nulo": false,
+            "tipo": "boolean",
+            "unico": false,
+            "input": "TymORuEpP5jbm949owoZWgmFfJVuEt"
+        },
+        {
+            "nome": "email",
+            "nulo": false,
+            "tipo": "boolean",
+            "unico": false,
+            "input": "qrjdwf4ZaO1O6xUdn0af59kM2RJF6a"
+        }
+    ],
+    "estrutura": {
+        "meta": false,
+        "hash": false,
+        "autor": false,
+        "render": false,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "url": false,
+        "urledit": false,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false,
+        "desabilitarNovo": false,
+        "desabilitarEdicao": false,
+        "reordenador": false,
+        "pontos": false
+    },
+    "metas": []
+}

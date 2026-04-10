@@ -1,0 +1,86 @@
+{
+    "nome": "Lista de Chaves por empresa",
+    "banco": "u8ce5fz0YrXgNun0E4yhHcyFuojjJ1Ke",
+    "tipo": 2,
+    "subtipo": 1,
+    "itens": [
+        {
+            "nome": "empresa",
+            "banco": "p",
+            "chave": "empresa",
+            "estrangeiro": 1,
+            "setupEstrangeira": {
+                "modulo": "empresas",
+                "banco": "9mX3WKIb9DI9qEW.json",
+                "metas": [],
+                "principal": [
+                    "nome",
+                    "cnpj",
+                    "descricao_curta"
+                ]
+            }
+        },
+        {
+            "nome": "funcao",
+            "banco": "p",
+            "chave": "funcao",
+            "estrangeiro": 1,
+            "setupEstrangeira": {
+                "modulo": "empresas",
+                "banco": "mzaA2HQA8CXUv49.json",
+                "metas": [],
+                "principal": [
+                    "nome",
+                    "descricao"
+                ]
+            }
+        },
+        {
+            "nome": "url",
+            "banco": "p",
+            "chave": "url",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "uso",
+            "banco": "p",
+            "chave": "uso",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "usuario",
+            "banco": "p",
+            "chave": "usuario",
+            "estrangeiro": 1,
+            "setupEstrangeira": {
+                "modulo": "usuarios",
+                "banco": "sWHpiPuhQkQBvSHypTtmyHKpF9kBq99c.json",
+                "metas": [],
+                "principal": [
+                    "email",
+                    "user",
+                    "telefone",
+                    "cpf",
+                    "display"
+                ]
+            }
+        }
+    ],
+    "number": {
+        "comentarios": false,
+        "reacoes": false,
+        "favoritos": false,
+        "visualizacoes": false
+    },
+    "extra": {
+        "ativo": true,
+        "coluna": "empresa",
+        "tipo": "="
+    },
+    "clone": {
+        "ativo": false,
+        "api": ""
+    },
+    "geolocalizacao": false,
+    "subconta": false
+}

@@ -1,0 +1,175 @@
+{
+    "nome": "usuario hash",
+    "banco": "aY4O9kcLpNMpbiD",
+    "tipo": 1,
+    "subtipo": 3,
+    "itens": [
+        {
+            "nome": "display",
+            "banco": "p",
+            "chave": "display",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "cpf",
+            "banco": "p",
+            "chave": "cpf",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "user",
+            "banco": "p",
+            "chave": "user",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "ativo",
+            "banco": "p",
+            "chave": "ativo",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "foto",
+            "banco": "p",
+            "chave": "foto",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "capa",
+            "banco": "p",
+            "chave": "capa",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "email",
+            "banco": "p",
+            "chave": "email",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "telefone",
+            "banco": "p",
+            "chave": "telefone",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "enderecos",
+            "banco": "p",
+            "chave": "enderecos",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "data",
+            "banco": "p",
+            "chave": "dataCriacao",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "hash",
+            "banco": "p",
+            "chave": "hash",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "sobrenome",
+            "banco": "m",
+            "chave": "sobrenome",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "pais",
+            "banco": "m",
+            "chave": "pais",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "update",
+            "banco": "p",
+            "chave": "dataUpdate",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "genero",
+            "banco": "m",
+            "chave": "genero",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "sobre",
+            "banco": "m",
+            "chave": "sobre",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "outro-genero",
+            "banco": "m",
+            "chave": "outro-genero",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "aniversario",
+            "banco": "m",
+            "chave": "aniversario",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "nome",
+            "banco": "m",
+            "chave": "nome",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "facebook",
+            "banco": "m",
+            "chave": "facebook",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "id",
+            "banco": "p",
+            "chave": "id",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "instagram",
+            "banco": "m",
+            "chave": "instagram",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "funcao",
+            "banco": "p",
+            "chave": "funcao",
+            "estrangeiro": 1,
+            "setupEstrangeira": {
+                "modulo": "usuarios",
+                "banco": "Gl0ET7eECTejzdoC3D6NxonM3cbfaE0j.json",
+                "metas": [],
+                "principal": [
+                    "nome",
+                    "tipo",
+                    "apagavel",
+                    "hash",
+                    "autor"
+                ]
+            }
+        }
+    ],
+    "number": {
+        "comentarios": false,
+        "reacoes": false,
+        "favoritos": false,
+        "visualizacoes": false
+    },
+    "extra": {
+        "ativo": false,
+        "coluna": "",
+        "tipo": "="
+    },
+    "clone": {
+        "ativo": false,
+        "api": ""
+    },
+    "geolocalizacao": false,
+    "subconta": false
+}

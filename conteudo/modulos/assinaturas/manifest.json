@@ -1,0 +1,24 @@
+{
+    "name": "Assinaturas",
+    "description": "Gerencie assinaturas e recorrências com total automação, integrando funções essenciais do site para gerenciamento eficiente.",
+    "descriptionLong": "O módulo Assinaturas foi desenvolvido para automatizar completamente o controle de assinaturas e recorrências dentro do sistema. Ele possibilita a configuração de diferentes planos e a vinculação de funções específicas do site a cada assinatura, garantindo que os usuários tenham acesso a conteúdos e serviços exclusivos conforme o plano contratado. Com processos 100% automatizados, o sistema realiza cobranças recorrentes, renovações e monitoramento dos status das assinaturas sem necessidade de intervenção manual, assegurando agilidade e precisão em todas as operações. Além disso, o módulo integra-se perfeitamente aos demais componentes do sistema, oferecendo relatórios detalhados que facilitam o acompanhamento, a análise e a tomada de decisões estratégicas, contribuindo para a escalabilidade do negócio e para a satisfação contínua dos clientes.",
+    "icon": "bi bi-arrow-repeat",
+    "ativo": "true",
+    "multiconta": false,
+    "readonly": false,
+    "sub": [
+        {
+            "name": "Dashboard",
+            "link": "a\/assinaturas\/dashboard"
+        },
+        {
+            "name": "Planos",
+            "link": "a\/assinaturas\/planos"
+        },
+        {
+            "name": "Assinaturas",
+            "link": "a\/assinaturas"
+        }
+    ],
+    "versao": "0.30"
+}

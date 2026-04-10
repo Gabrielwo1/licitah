@@ -1,0 +1,43 @@
+{
+    "banco": "analytics_origens",
+    "meta": false,
+    "prefixo": " analytics_origem",
+    "url": false,
+    "colunas": [
+        {
+            "nome": "origem",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "dNHZbHzErK8FNcxoGjf6BVT0ukN07F",
+            "size": 200
+        }
+    ],
+    "estrutura": {
+        "meta": false,
+        "hash": false,
+        "autor": false,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "ordenador": false,
+        "url": false,
+        "urledit": false,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": true,
+        "tags": false,
+        "seo": false,
+        "preco": false,
+        "autoria": false,
+        "wildcard": false,
+        "atributos": false,
+        "destaque": false,
+        "enderecos": false,
+        "subconta": false,
+        "desabilitarNovo": false,
+        "desabilitarEdicao": false,
+        "reordenador": false,
+        "pontos": false
+    },
+    "metas": []
+}

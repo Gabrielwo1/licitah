@@ -1,0 +1,147 @@
+{
+    "nome": "Licitações - Log",
+    "banco": "9jqGp2f4K4jibI3UieO4fxY1YxElbWrm",
+    "colunas": [
+        {
+            "nome": "Autor",
+            "id": "autor",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "tabulavel": false,
+            "pesquisavel": false,
+            "colpesquisavel": false,
+            "estrangeira": 1,
+            "confiEstrangeira": {
+                "modulo": "usuarios",
+                "banco": "usuarios",
+                "tipo": "1",
+                "coluna": "usuario_display"
+            }
+        },
+        {
+            "nome": "Ação",
+            "id": "acao",
+            "tipo": "1",
+            "render": "personalizado",
+            "regra": [
+                "",
+                "Inserção",
+                "Atualização",
+                "Exclusão"
+            ],
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "tabulavel": false,
+            "pesquisavel": false,
+            "colpesquisavel": false
+        },
+        {
+            "nome": "Alvo",
+            "id": "acao_alvo",
+            "tipo": "1",
+            "render": "personalizado",
+            "regra": [
+                "",
+                "Licitação",
+                "Tarefa",
+                "Anexo",
+                "Habilitação",
+                "Anotação"
+            ],
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "tabulavel": false,
+            "pesquisavel": false,
+            "colpesquisavel": false
+        },
+        {
+            "nome": "Dado",
+            "id": "dado",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "tabulavel": false,
+            "pesquisavel": false,
+            "colpesquisavel": false,
+            "estrangeira": 0
+        },
+        {
+            "nome": "Licitação",
+            "id": "pesquisa",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "tabulavel": false,
+            "pesquisavel": false,
+            "colpesquisavel": false,
+            "estrangeira": 1,
+            "confiEstrangeira": {
+                "modulo": "licitacoes",
+                "banco": "licitacoes_pesquisas",
+                "tipo": "1",
+                "coluna": "licitacoes_pesquisa_pesquisa"
+            }
+        },
+        {
+            "nome": "Data",
+            "id": "data",
+            "tipo": "1",
+            "render": "data",
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "tabulavel": false,
+            "pesquisavel": false,
+            "colpesquisavel": false,
+            "estrangeira": 0
+        }
+    ],
+    "regra": "1",
+    "acoes": {
+        "opcoes": {
+            "acoes": false,
+            "editar": false,
+            "apagar": false,
+            "vizualizar": false,
+            "importador": false,
+            "exportador": false,
+            "filtro": false,
+            "colunas": false,
+            "multiplo": false,
+            "ordenador": false,
+            "filtrodata": false,
+            "bigdata": false
+        },
+        "rotas": {
+            "editar": "",
+            "vizualizar": ""
+        }
+    },
+    "layout": {
+        "modo": "1",
+        "container": "0"
+    },
+    "acoesPersonalizadas": [],
+    "dataFilter": "0",
+    "condicional": {
+        "ativo": "0",
+        "coluna": "",
+        "tipo": "=",
+        "valor": ""
+    },
+    "condicional2": {
+        "ativo": "0",
+        "coluna": "",
+        "tipo": "=",
+        "valor": ""
+    }
+}

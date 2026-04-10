@@ -1,0 +1,31 @@
+{
+    "Integração com Websockets":{
+        "tipo": "titulo",
+        "subtitulo": "Para conseguir suas credênciais , acesso o site Pusher.com"
+    },
+    "websockets":{
+        "tipo": "check",
+        "label":"Ativar Técnologia de WebSockets",
+        "descricao": "O uso de WebSockets é essencial para o funcionamento de módulos de comunicação em tempo real"
+    },
+    "id":{
+        "tipo": "input",
+        "condicional": "websockets",
+        "label": "Id do App"
+    },
+    "key":{
+        "tipo": "input",
+        "condicional": "websockets",
+         "label": "Key"
+    },
+    "secret":{
+        "tipo": "input",
+        "condicional": "websockets",
+         "label": "Secret"
+    },
+    "cluster":{
+        "tipo": "input",
+        "condicional": "websockets",
+         "label": "Cluster"
+    }
+}

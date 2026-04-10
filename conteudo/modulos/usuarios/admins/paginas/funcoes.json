@@ -1,0 +1,16 @@
+{
+    "nome": "Funções",
+    "tipo": "2",
+    "id": "E5ZqLVtJYPLDPmP",
+    "btns": [
+        {
+            "texto": "Nova Função",
+            "tipo": "5",
+            "callback": "j1siBocjw2OXRKS",
+            "id": "",
+            "icone": "bi bi-bookmark-plus"
+        }
+    ],
+    "titulo": "Funções do Sistema",
+    "breadcrumbs": true
+}

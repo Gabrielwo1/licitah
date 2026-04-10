@@ -1,0 +1,28 @@
+{
+    "inapp":{
+        "label": "Notificações In App",
+        "tipo": "check",
+        "descricao": "Mostre um resumo das últimas notificações"
+    },
+    "email":{
+        "label": "Notificações Via E-mail",
+        "tipo": "check",
+        "descricao": "Envie e-mails para seus clientes"
+    },
+    "sms":{
+        "label": "Notificações via SMS",
+        "tipo": "check",
+        "descricao": "Envie SMSs para seus clientes"
+    },
+    "push":{
+        "label": "Notificações via PUSH",
+        "tipo": "check",
+        "descricao": "Envie Push Notification para seus clientes"
+    },
+     "whatsapp":{
+        "label": "Notificações via WhatsApp",
+        "tipo": "check",
+        "descricao": "Envie mensagens WhatsApp para seus clientes"
+    }
+    
+}

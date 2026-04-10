@@ -1,0 +1,23 @@
+{
+    "empresas":{
+        "label": "Controle de Empresas",
+        "tipo": "check",
+        "descricao": "Permita os usuários controlar suas empresas no sistema."
+    },
+    "enderecos":{
+        "label": "Controle de Endereços",
+        "tipo": "check",
+        "descricao": "Permita os usuários controlar seus endereços no sistema."
+    },
+     "meios-de-pagamento":{
+        "label": "Controle de Cartão de Crédito",
+        "tipo": "check",
+        "descricao": "Permita os usuários controlar seus cartões de crédito no sistema."
+    }
+    ,
+     "informacoes":{
+        "label": "Controle de Histórico",
+        "tipo": "check",
+        "descricao": "Permita os usuários controlar seus histórico de navegação."
+    }
+}

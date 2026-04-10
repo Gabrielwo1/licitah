@@ -1,0 +1,58 @@
+{
+    "banco": "licitacoes_orgaos",
+    "meta": true,
+    "prefixo": "licitacoes_orgao",
+    "url": false,
+    "colunas": [
+        {
+            "nome": "codigo",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "Mz6WdrZJwCMRaN77ADXtERzRU9hJk0",
+            "size": 15
+        },
+        {
+            "nome": "nome",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "sCAoLl8anFmahjll4NM82EZvl9fsPR",
+            "size": 200
+        }
+    ],
+    "estrutura": {
+        "meta": true,
+        "hash": true,
+        "autor": false,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "ordenador": false,
+        "url": false,
+        "urledit": false,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false,
+        "autoria": false,
+        "wildcard": false,
+        "atributos": false,
+        "destaque": false,
+        "desabilitarNovo": false,
+        "desabilitarEdicao": false,
+        "reordenador": false,
+        "pontos": false
+    },
+    "metas": {
+        "QadMAFmPx09jpTJd3YiM3iAgOh9AnS": "nomeMnemonicoOrgao",
+        "88jwJvXyhpu1hxUM75JH8BSzutDv9x": "cnpjCpfOrgao",
+        "iwIRIcLawSuIQmZvUv8Vnshm0CPzEM": "codigoTipoAdministracao",
+        "Djk0vLxrqViPQiOb7FBXvCorqTRKwh": "nomeTipoAdministracao",
+        "hCtOxDFqGzLFiqhFYvhG2TWi86ksfF": "poder",
+        "rAQ4vGKigN5PMc118TXryDSXZ2VR4I": "esfera",
+        "zVfZdl4nIsZXuc6kcjwSvp6RPMVGlC": "orgao_vinculado",
+        "meILXUyv1Pdd6UsCJ4HDPTr0ULIphk": "orgao_superior"
+    }
+}

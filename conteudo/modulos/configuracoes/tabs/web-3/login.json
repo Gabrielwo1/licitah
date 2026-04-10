@@ -1,0 +1,26 @@
+{
+    "layout":{
+        "label": "Layout dos botões",
+        "descricao": "Defina o Layut dos botões de Login",
+        "tipo": "select",
+         "opcoes": [
+      {"chave": "Completo", "valor": "1"},
+      {"chave": "Minimalista", "valor": "minimal-ui"}
+    ]
+    },
+  "metamask": {
+    "tipo": "check",
+    "label": "Metamask",
+    "descricao": "Ativar login usando Carteira Metamask - Ethereum"
+  },
+   "phantom": {
+    "tipo": "check",
+    "label": "Phantom",
+    "descricao": "Ativar login usando Carteira Phantom - Solana"
+  },
+   "binance": {
+    "tipo": "check",
+    "label": "Binance",
+    "descricao": "Ativar login usando Carteira Binance - Smart Chain"
+  }
+}

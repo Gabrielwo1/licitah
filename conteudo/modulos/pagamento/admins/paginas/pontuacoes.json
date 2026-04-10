@@ -1,0 +1,16 @@
+{
+    "nome": "Pontuações",
+    "tipo": "2",
+    "id": "gPoTiHNLNkeXw2Z",
+    "btns": [
+        {
+            "texto": "Lançar Pontos",
+            "tipo": "1",
+            "callback": "a\/pagamento\/pontuacao",
+            "id": "",
+            "icone": ""
+        }
+    ],
+    "titulo": false,
+    "breadcrumbs": true
+}

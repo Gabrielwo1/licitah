@@ -1,0 +1,16 @@
+{
+    "nome": "Pontos",
+    "tipo": "2",
+    "id": "ZgYrxjHmiy5oyNL",
+    "btns": [
+        {
+            "texto": "Adicionar Plano de Pontos",
+            "tipo": "1",
+            "callback": "a\/pagamento\/ponto",
+            "id": "",
+            "icone": ""
+        }
+    ],
+    "titulo": "Sistema de Pontos",
+    "breadcrumbs": true
+}

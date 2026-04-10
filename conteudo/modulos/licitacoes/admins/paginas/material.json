@@ -1,0 +1,16 @@
+{
+    "nome": "Material",
+    "tipo": "1",
+    "id": "vVQQXXu9OoLuEc12vfU7X4aRAieyuN80",
+    "btns": [
+        {
+            "texto": "Todos os Materias",
+            "tipo": "1",
+            "callback": "a\/licitacoes\/material",
+            "id": "",
+            "icone": ""
+        }
+    ],
+    "titulo": "{novo} Material",
+    "breadcrumbs": false
+}

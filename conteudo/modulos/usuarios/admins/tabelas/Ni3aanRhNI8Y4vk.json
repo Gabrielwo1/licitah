@@ -1,0 +1,185 @@
+{
+    "nome": "Usuários",
+    "banco": "aY4O9kcLpNMpbiD",
+    "colunas": [
+        {
+            "nome": "Foto",
+            "id": "foto",
+            "tipo": "1",
+            "render": "imagem",
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "tabulavel": false,
+            "pesquisavel": false,
+            "colpesquisavel": false,
+            "estrangeira": 0
+        },
+        {
+            "nome": "Nome",
+            "id": "display",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "tabulavel": false,
+            "pesquisavel": true,
+            "colpesquisavel": false,
+            "estrangeira": 0
+        },
+        {
+            "nome": "Função",
+            "id": "funcao",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": true,
+            "tabulavel": false,
+            "pesquisavel": false,
+            "colpesquisavel": true,
+            "estrangeira": 1,
+            "confiEstrangeira": {
+                "modulo": "usuarios",
+                "banco": "funcoes",
+                "tipo": "1",
+                "coluna": "funcao_nome"
+            }
+        },
+        {
+            "nome": "Email",
+            "id": "email",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "tabulavel": false,
+            "pesquisavel": true,
+            "colpesquisavel": false,
+            "estrangeira": 0
+        },
+        {
+            "nome": "Username",
+            "id": "user",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": true,
+            "editavel": false,
+            "filtravel": false,
+            "tabulavel": false,
+            "pesquisavel": false,
+            "colpesquisavel": false,
+            "estrangeira": 0
+        },
+        {
+            "nome": "Ativo",
+            "id": "ativo",
+            "tipo": "1",
+            "render": "personalizado",
+            "regra": [
+                "Desativado",
+                "Ativo",
+                "Banido"
+            ],
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": true,
+            "tabulavel": false,
+            "pesquisavel": false,
+            "colpesquisavel": true
+        },
+        {
+            "nome": "CPF",
+            "id": "cpf",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": true,
+            "editavel": false,
+            "filtravel": false,
+            "tabulavel": false,
+            "pesquisavel": true,
+            "colpesquisavel": false,
+            "estrangeira": 0
+        },
+        {
+            "nome": "Telefone",
+            "id": "telefone",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": true,
+            "editavel": false,
+            "filtravel": false,
+            "tabulavel": false,
+            "pesquisavel": true,
+            "colpesquisavel": false,
+            "estrangeira": 0
+        },
+        {
+            "nome": "Cadastro",
+            "id": "data",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": true,
+            "editavel": false,
+            "filtravel": false,
+            "tabulavel": false,
+            "pesquisavel": false,
+            "colpesquisavel": false,
+            "estrangeira": 0
+        }
+    ],
+    "regra": "1",
+    "acoes": {
+        "opcoes": {
+            "acoes": true,
+            "editar": true,
+            "apagar": true,
+            "vizualizar": false,
+            "duplicar": false,
+            "importador": true,
+            "exportador": true,
+            "filtro": true,
+            "colunas": true,
+            "multiplo": true,
+            "ordenador": false,
+            "filtrodata": true,
+            "filtrosuconta": false,
+            "bigdata": true
+        },
+        "rotas": {
+            "editar": "a\/usuarios\/usuario",
+            "vizualizar": "usuarios"
+        }
+    },
+    "layout": {
+        "modo": "1",
+        "container": "0"
+    },
+    "acoesPersonalizadas": [
+        {
+            "texto": "Ver Perfil",
+            "icone": "bi bi-person-badge",
+            "callback": "usuarioVerPerfil"
+        },
+        {
+            "texto": "Acessar Como",
+            "icone": "bi bi-box-arrow-in-right",
+            "callback": "usuarioAcessarComo"
+        }
+    ],
+    "dataFilter": "data",
+    "condicional": {
+        "ativo": "0",
+        "coluna": "",
+        "tipo": "=",
+        "valor": ""
+    },
+    "condicional2": {
+        "ativo": "0",
+        "coluna": "",
+        "tipo": "=",
+        "valor": ""
+    }
+}

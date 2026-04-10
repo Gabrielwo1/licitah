@@ -1,0 +1,26 @@
+{
+    "ativo":{
+        "label": "Light / Dark Mode",
+        "tipo": "check",
+        "descricao": "Deixe seu site em duas cores para livre escolha do usuário"
+    },
+    "layout":{
+        "label": "Defina o layout do seletor de cor",
+        "tipo": "select",
+        "descricao": "Deixe seu site em duas cores para livre escolha do usuário",
+        "condicional": "ativo",
+        "opcoes": [
+            {"chave":"Fixo","valor":1},
+            {"chave":"Dropdown","valor":2}
+            ]
+    },
+    "primario":{
+        "label": "Cor Primaria",
+        "tipo": "select",
+        "descricao": "Defina qual a cor primaria do site",
+        "opcoes": [
+            {"chave":"Dark","valor":2},
+            {"chave":"Light","valor":1}
+            ]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "nome": "Categorias",
+    "tipo": "2",
+    "id": "KcWwuPTJHFy3cM7",
+    "btns": [
+        {
+            "texto": "Adicionar Nova",
+            "tipo": "1",
+            "callback": "a\/categorias\/categoria",
+            "id": "",
+            "icone": ""
+        }
+    ],
+    "titulo": "Categorias",
+    "breadcrumbs": true
+}

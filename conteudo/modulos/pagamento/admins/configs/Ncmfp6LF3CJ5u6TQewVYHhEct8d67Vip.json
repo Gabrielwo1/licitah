@@ -1,0 +1,63 @@
+{
+    "banco": "pay_pontuacao",
+    "meta": false,
+    "prefixo": "pontuado",
+    "url": false,
+    "colunas": [
+        {
+            "nome": "usuario",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "LsAKsSgMVLoNr8JNNWdSurPHKVuYDq"
+        },
+        {
+            "nome": "pontos",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "euLotj9dZtypfNTrF5SbQjH0HjcZZf"
+        },
+        {
+            "nome": "expira",
+            "nulo": false,
+            "tipo": "boolean",
+            "unico": false,
+            "input": "395agRZlZ8uRYnWSu3Ym523Ff2ZW3V"
+        },
+        {
+            "nome": "tipo",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "u8fQJLWas9I5Timcp6OX8w7tZwdFsO"
+        },
+        {
+            "nome": "expiracao",
+            "nulo": true,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "FAFPo1mUrGSPz1SqclaTi0J6jSIIWQ",
+            "size": 10
+        }
+    ],
+    "estrutura": {
+        "meta": false,
+        "hash": false,
+        "autor": false,
+        "render": false,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "url": false,
+        "urledit": false,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false,
+        "desabilitarNovo": false,
+        "desabilitarEdicao": false
+    },
+    "metas": []
+}

@@ -1,0 +1,16 @@
+{
+    "nome": "Oportunidades",
+    "tipo": "2",
+    "id": "4g23cllb2TELzRX",
+    "btns": [
+        {
+            "texto": "Adicionar Oportuniade",
+            "tipo": "1",
+            "callback": "a\/licitacoes\/oportunidade",
+            "id": "",
+            "icone": ""
+        }
+    ],
+    "titulo": "Todas as Oportunidades",
+    "breadcrumbs": false
+}

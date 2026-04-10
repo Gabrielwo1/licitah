@@ -1,0 +1,12 @@
+{
+    "rede-social":{
+        "label": "Redes Sociais",
+        "tipo": "check",
+        "descricao": "Não permita que os usuários vinculem redes sociais."
+    },
+    "perfil":{
+        "label": "Informaçoes do Perfil",
+        "tipo": "check",
+        "descricao": "Não permita os usuários trocar informações de perfil."
+    }
+}

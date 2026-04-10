@@ -1,0 +1,134 @@
+{
+    "nome": "Endereço",
+    "banco": "zbgv0KoTqAmJ8lS",
+    "tipo": 1,
+    "subtipo": 2,
+    "itens": [
+        {
+            "nome": "nome",
+            "banco": "p",
+            "chave": "nome",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "cep",
+            "banco": "p",
+            "chave": "cep",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "latitude",
+            "banco": "p",
+            "chave": "latitude",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "longitude",
+            "banco": "p",
+            "chave": "longitude",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "referencia",
+            "banco": "p",
+            "chave": "referencia",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "observacao",
+            "banco": "p",
+            "chave": "observacao",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "pais",
+            "banco": "p",
+            "chave": "pais",
+            "estrangeiro": 1,
+            "setupEstrangeira": {
+                "modulo": "enderecos",
+                "banco": "paSUHoOp7TB4M44ShqQAi0bDKSoPdGCy.json",
+                "metas": [],
+                "principal": [
+                    "nome",
+                    "capital",
+                    "nascionalidade"
+                ]
+            }
+        },
+        {
+            "nome": "estado",
+            "banco": "p",
+            "chave": "estado",
+            "estrangeiro": 1,
+            "setupEstrangeira": {
+                "modulo": "enderecos",
+                "banco": "lDW1NdhVB5LGHSoVcgBULRM6VBI2m7P0.json",
+                "metas": [],
+                "principal": [
+                    "nome",
+                    "externo",
+                    "codigo"
+                ]
+            }
+        },
+        {
+            "nome": "cidade",
+            "banco": "p",
+            "chave": "cidade",
+            "estrangeiro": 1,
+            "setupEstrangeira": {
+                "modulo": "enderecos",
+                "banco": "7GkndhCWoZq3gvW9vQ0BP2qUn2Yc5vD2.json",
+                "metas": [],
+                "principal": [
+                    "nome",
+                    "latitude",
+                    "longitude",
+                    "regiao",
+                    "subregiao"
+                ]
+            }
+        },
+        {
+            "nome": "rua",
+            "banco": "p",
+            "chave": "rua",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "numero",
+            "banco": "p",
+            "chave": "numero",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "bairro",
+            "banco": "p",
+            "chave": "bairro",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "complemento",
+            "banco": "p",
+            "chave": "complemento",
+            "estrangeiro": 0
+        }
+    ],
+    "number": {
+        "comentarios": false,
+        "reacoes": false,
+        "favoritos": false,
+        "visualizacoes": false
+    },
+    "extra": {
+        "ativo": false,
+        "coluna": "",
+        "tipo": "="
+    },
+    "clone": {
+        "ativo": false,
+        "api": ""
+    },
+    "geolocalizacao": false
+}

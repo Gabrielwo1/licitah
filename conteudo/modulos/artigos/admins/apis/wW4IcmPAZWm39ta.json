@@ -1,0 +1,125 @@
+{
+    "nome": "Item Artigo",
+    "banco": "VFx1EY01nDXSfRa",
+    "tipo": 1,
+    "subtipo": 1,
+    "itens": [
+        {
+            "nome": "id",
+            "banco": "p",
+            "chave": "id",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "texto",
+            "banco": "p",
+            "chave": "texto",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "descricao",
+            "banco": "p",
+            "chave": "descricao",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "titulo",
+            "banco": "p",
+            "chave": "titulo",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "render",
+            "banco": "p",
+            "chave": "render",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "autor",
+            "banco": "p",
+            "chave": "autor",
+            "estrangeiro": 1,
+            "setupEstrangeira": {
+                "modulo": "usuarios",
+                "banco": "aY4O9kcLpNMpbiD.json",
+                "metas": [],
+                "principal": [
+                    "display",
+                    "user"
+                ]
+            }
+        },
+        {
+            "nome": "hash",
+            "banco": "p",
+            "chave": "hash",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "url",
+            "banco": "p",
+            "chave": "url",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "categoria",
+            "banco": "p",
+            "chave": "categoria",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "seo",
+            "banco": "p",
+            "chave": "seo",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "galeria",
+            "banco": "p",
+            "chave": "galeria",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "tags",
+            "banco": "p",
+            "chave": "tags",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "nome_fonte",
+            "banco": "m",
+            "chave": "nome_fonte",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "video",
+            "banco": "m",
+            "chave": "video",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "data",
+            "banco": "p",
+            "chave": "dataCriacao",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "update",
+            "banco": "p",
+            "chave": "dataUpdate",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "imagem",
+            "banco": "p",
+            "chave": "imagemDestaque",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "fonte",
+            "banco": "m",
+            "chave": "fonte",
+            "estrangeiro": 0
+        }
+    ]
+}

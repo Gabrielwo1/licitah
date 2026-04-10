@@ -1,0 +1,47 @@
+{
+    "nome": "pegar estados por id",
+    "banco": "lDW1NdhVB5LGHSoVcgBULRM6VBI2m7P0",
+    "tipo": 1,
+    "subtipo": 2,
+    "itens": [
+        {
+            "nome": "pais",
+            "banco": "p",
+            "chave": "pais",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "codigo",
+            "banco": "p",
+            "chave": "codigo",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "nome",
+            "banco": "p",
+            "chave": "nome",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "slug",
+            "banco": "p",
+            "chave": "slug",
+            "estrangeiro": 0
+        }
+    ],
+    "number": {
+        "comentarios": false,
+        "reacoes": false,
+        "favoritos": false,
+        "visualizacoes": false
+    },
+    "extra": {
+        "ativo": false,
+        "coluna": "",
+        "tipo": "="
+    },
+    "clone": {
+        "ativo": false,
+        "api": ""
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "nome": "Novo Endereço",
+    "tipo": "1",
+    "acao": "AsoYNiHaX4s4dzTkiy5XCIoR9eX4nkAM",
+    "callback": "",
+    "tamanho": "md",
+    "modal": {
+        "titulo": "Novo Endereço",
+        "icone": ""
+    },
+    "redirecionar": "2",
+    "redirCb": "6jNywa8qP8bpeib",
+    "fecharTopo": true,
+    "fecharFooter": true,
+    "logotipo": false,
+    "centralizar": true,
+    "clickout": true,
+    "container": false
+}

@@ -1,0 +1,190 @@
+{
+    "id": "173",
+    "nome": "Token Login",
+    "hash": "nKd6Chdr4oAdmjcwvB7arnLWJbC55CuY",
+    "data": "2024-08-20 16:15:42",
+    "tamanho": 4,
+    "inputs": [
+        {
+            "id": "4915",
+            "tipo": "cripto",
+            "nome": "Token Público",
+            "obrigatorio": "0",
+            "data": "2024-08-20 16:16:41",
+            "pai": "0",
+            "posicao": "0",
+            "hash": "Eyk0bEf3N7GMvstVLYuB6P3kXAI3D9",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": "Token Público ",
+                    "descricao": " "
+                },
+                "formatacao": {
+                    "formato": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx ",
+                    "desativar-numeros": 0,
+                    "desativar-letras-maiusculas": 0,
+                    "desativar-letras-minusculas": 0
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": " ",
+                    "sub-label": " ",
+                    "tooltip": " "
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": " "
+                },
+                "identificador": {
+                    "id": " ",
+                    "classes": " "
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "4916",
+            "tipo": "cripto",
+            "nome": "Token Privado",
+            "obrigatorio": "0",
+            "data": "2024-08-20 16:17:25",
+            "pai": "0",
+            "posicao": "1",
+            "hash": "eHwFnEnoa2Rut2q5imF6BRxuZzmqYi",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": "Token Privado",
+                    "descricao": ""
+                },
+                "formatacao": {
+                    "formato": "xxxxxx",
+                    "desativar-numeros": 0,
+                    "desativar-letras-maiusculas": 0,
+                    "desativar-letras-minusculas": 0
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": "",
+                    "sub-label": "",
+                    "tooltip": ""
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": ""
+                },
+                "identificador": {
+                    "id": "",
+                    "classes": ""
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "4917",
+            "tipo": "select",
+            "nome": "Usuário",
+            "obrigatorio": "0",
+            "data": "2024-08-20 16:17:54",
+            "pai": "0",
+            "posicao": "2",
+            "hash": "ZLqgkQQZ01ZHFQwSEKIHvNYMUqFCuC",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": "Usuário",
+                    "descricao": "",
+                    "obrigatorio": 0,
+                    "select-2": 0,
+                    "somente-leitura": 0
+                },
+                "opcoes": {
+                    "multiplo": 0,
+                    "opcoes": ""
+                },
+                "dinamica": {
+                    "smart-triger": 0,
+                    "input-trigger": 0,
+                    "url-trigger": "",
+                    "acao-trigger": "",
+                    "opcoes-dinamicas": 1,
+                    "configuracoes": {
+                        "modulo": "usuarios",
+                        "formulario": "aY4O9kcLpNMpbiD.json",
+                        "regra": "1"
+                    },
+                    "arquivo-query": "",
+                    "acao-query": ""
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": "",
+                    "sub-label": "",
+                    "tooltip": ""
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": ""
+                },
+                "identificador": {
+                    "id": "",
+                    "classes": ""
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "4918",
+            "tipo": "number",
+            "nome": "Token Tipo",
+            "obrigatorio": "0",
+            "data": "2024-08-20 16:18:12",
+            "pai": "0",
+            "posicao": "3",
+            "hash": "fDxeW2MoBP2GKqAaQ9fvzV9jCFy2Z6",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": "Token Tipo",
+                    "descricao": "",
+                    "obrigatorio": 0,
+                    "somente-leitura": 0
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": "",
+                    "sub-label": "",
+                    "tooltip": ""
+                },
+                "valor": {
+                    "minimo": "",
+                    "maximo": "",
+                    "definido": ""
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": ""
+                },
+                "identificador": {
+                    "id": "",
+                    "classes": ""
+                }
+            },
+            "filhos": []
+        }
+    ],
+    "infos": []
+}

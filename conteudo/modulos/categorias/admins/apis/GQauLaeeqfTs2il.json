@@ -1,0 +1,35 @@
+{
+    "nome": "item categoria por Id",
+    "banco": "ic4zvImG0d5ompb",
+    "tipo": 1,
+    "subtipo": 2,
+    "itens": [
+        {
+            "nome": "nome",
+            "banco": "p",
+            "chave": "nome",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "descricao",
+            "banco": "p",
+            "chave": "descricao",
+            "estrangeiro": 0
+        }
+    ],
+    "number": {
+        "comentarios": false,
+        "reacoes": false,
+        "favoritos": false,
+        "visualizacoes": false
+    },
+    "extra": {
+        "ativo": false,
+        "coluna": "",
+        "tipo": "="
+    },
+    "clone": {
+        "ativo": false,
+        "api": ""
+    }
+}

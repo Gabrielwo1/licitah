@@ -1,0 +1,42 @@
+{
+    "banco": "empresas",
+    "meta": false,
+    "prefixo": "empresa",
+    "url": "1",
+    "colunas": [
+        {
+            "nome": "cnpj",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "EBAiUe8B0ToeFHoitZBpEYkXEQARzj",
+            "size": 18
+        }
+    ],
+    "estrutura": {
+        "meta": false,
+        "hash": true,
+        "autor": true,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "ordenador": false,
+        "url": true,
+        "urledit": false,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false,
+        "autoria": false,
+        "wildcard": false,
+        "atributos": false,
+        "destaque": false,
+        "enderecos": false,
+        "desabilitarNovo": false,
+        "desabilitarEdicao": false,
+        "reordenador": false,
+        "pontos": false
+    },
+    "metas": []
+}

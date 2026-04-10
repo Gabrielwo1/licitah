@@ -1,0 +1,11 @@
+{   
+    "Integrações com ERP":{
+        "tipo": "titulo",
+        "subtitulo": "Com as opções abaixo ativas, os usuários poderão conectar suas contas e ERPs, utilizando as funcionalidades de cada módulo."
+    },
+    "bling":{
+        "tipo": "check",
+        "label": "Bling",
+        "descricao": "Permita que os usuários integrem as funcionalidades do Bling ao sistema."
+    }
+}

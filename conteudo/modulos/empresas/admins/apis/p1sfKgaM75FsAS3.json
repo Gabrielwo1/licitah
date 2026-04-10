@@ -1,0 +1,54 @@
+{
+    "nome": "item de empresa por id",
+    "banco": "9mX3WKIb9DI9qEW",
+    "tipo": 1,
+    "subtipo": 2,
+    "itens": [
+        {
+            "nome": "nome",
+            "banco": "p",
+            "chave": "nome",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "descricao_curta",
+            "banco": "p",
+            "chave": "descricao_curta",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "telefones",
+            "banco": "p",
+            "chave": "telefones",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "emails",
+            "banco": "p",
+            "chave": "emails",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "cnpj",
+            "banco": "p",
+            "chave": "cnpj",
+            "estrangeiro": 0
+        }
+    ],
+    "number": {
+        "comentarios": false,
+        "reacoes": false,
+        "favoritos": false,
+        "visualizacoes": false
+    },
+    "extra": {
+        "ativo": false,
+        "coluna": "",
+        "tipo": "="
+    },
+    "clone": {
+        "ativo": false,
+        "api": ""
+    },
+    "geolocalizacao": false
+}

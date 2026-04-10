@@ -1,0 +1,45 @@
+{
+    "banco": "politicas",
+    "meta": false,
+    "prefixo": "politica",
+    "url": "1",
+    "colunas": [
+        {
+            "nome": "titulo",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "ChbbtxhK0Wrd26iTQUSZV4pDsJvygg",
+            "size": 50
+        },
+        {
+            "nome": "texto",
+            "nulo": false,
+            "tipo": "text",
+            "unico": false,
+            "input": "xGxlxsxxrCvaRYuzlV49VLlDcTilNf"
+        }
+    ],
+    "estrutura": {
+        "meta": false,
+        "hash": true,
+        "autor": true,
+        "render": false,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "ordenador": false,
+        "url": true,
+        "urledit": false,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false,
+        "desabilitarNovo": false,
+        "desabilitarEdicao": false,
+        "reordenador": false,
+        "pontos": false
+    },
+    "metas": []
+}

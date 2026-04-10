@@ -1,0 +1,266 @@
+{
+    "id": "548",
+    "nome": "Analytics Aba",
+    "hash": "mvVjpn3mMKn6FiCHml9bI1mqndh1KaDb",
+    "data": "2025-07-09 20:37:31",
+    "tamanho": 4,
+    "inputs": [
+        {
+            "id": "13647",
+            "tipo": "select",
+            "nome": "Sessão",
+            "obrigatorio": "0",
+            "data": "2025-07-09 20:39:51",
+            "pai": "0",
+            "posicao": "0",
+            "hash": "PYTgTxrWN5OuOJbuUT1FRf2Pitzoy8",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": "Sessão ",
+                    "descricao": " ",
+                    "obrigatorio": 0,
+                    "render": 1,
+                    "somente-leitura": 0
+                },
+                "opcoes": {
+                    "multiplo": 0,
+                    "opcoes": " "
+                },
+                "dinamica": {
+                    "smart-triger": 0,
+                    "big-data": 0,
+                    "input-trigger": 0,
+                    "url-trigger": " ",
+                    "acao-trigger": " ",
+                    "opcoes-dinamicas": 1,
+                    "configuracoes": {
+                        "modulo": "analytics",
+                        "formulario": "7gFgoC5oPHYykur.json",
+                        "regra": "1"
+                    },
+                    "arquivo-query": " ",
+                    "acao-query": " "
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": " ",
+                    "sub-label": " ",
+                    "tooltip": " "
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": " "
+                },
+                "identificador": {
+                    "id": " ",
+                    "classes": " "
+                },
+                "nown": {
+                    "ativo": 0,
+                    "modulo": " ",
+                    "paginacao": " ",
+                    "chave": " ",
+                    "valor": " "
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "13645",
+            "tipo": "select",
+            "nome": "Ativa",
+            "obrigatorio": "0",
+            "data": "2025-07-09 20:39:32",
+            "pai": "0",
+            "posicao": "1",
+            "hash": "CTXOstIOGXvanWF5g3TeoTVayCmls2",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": "Ativa ",
+                    "descricao": " ",
+                    "obrigatorio": 0,
+                    "render": 0,
+                    "somente-leitura": 1
+                },
+                "opcoes": {
+                    "multiplo": 0,
+                    "opcoes": [
+                        {
+                            "nome": "Sim",
+                            "valor": "1",
+                            "selecionado": false
+                        },
+                        {
+                            "nome": "Não",
+                            "valor": "0",
+                            "selecionado": false
+                        }
+                    ]
+                },
+                "dinamica": {
+                    "smart-triger": 0,
+                    "big-data": 0,
+                    "input-trigger": 0,
+                    "url-trigger": " ",
+                    "acao-trigger": " ",
+                    "opcoes-dinamicas": 0,
+                    "configuracoes": " ",
+                    "arquivo-query": " ",
+                    "acao-query": " "
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": " ",
+                    "sub-label": " ",
+                    "tooltip": " "
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": " "
+                },
+                "identificador": {
+                    "id": " ",
+                    "classes": " "
+                },
+                "nown": {
+                    "ativo": 0,
+                    "modulo": " ",
+                    "paginacao": " ",
+                    "chave": " ",
+                    "valor": " "
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "13646",
+            "tipo": "select",
+            "nome": "Visível",
+            "obrigatorio": "0",
+            "data": "2025-07-09 20:39:32",
+            "pai": "0",
+            "posicao": "2",
+            "hash": "CDlEEXyh55TLyvXnvoT6MrjDoVScV3",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": "Visível ",
+                    "descricao": " ",
+                    "obrigatorio": 0,
+                    "render": 0,
+                    "somente-leitura": 1
+                },
+                "opcoes": {
+                    "multiplo": 0,
+                    "opcoes": [
+                        {
+                            "nome": "Sim",
+                            "valor": "1",
+                            "selecionado": false
+                        },
+                        {
+                            "nome": "Não",
+                            "valor": "2",
+                            "selecionado": false
+                        }
+                    ]
+                },
+                "dinamica": {
+                    "smart-triger": 0,
+                    "big-data": 0,
+                    "input-trigger": 0,
+                    "url-trigger": " ",
+                    "acao-trigger": " ",
+                    "opcoes-dinamicas": 0,
+                    "configuracoes": " ",
+                    "arquivo-query": " ",
+                    "acao-query": " "
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": " ",
+                    "sub-label": " ",
+                    "tooltip": " "
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": " "
+                },
+                "identificador": {
+                    "id": " ",
+                    "classes": " "
+                },
+                "nown": {
+                    "ativo": 0,
+                    "modulo": " ",
+                    "paginacao": " ",
+                    "chave": " ",
+                    "valor": " "
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "14628",
+            "tipo": "data",
+            "nome": "Última Atualização",
+            "obrigatorio": "0",
+            "data": "2025-07-15 22:21:58",
+            "pai": "0",
+            "posicao": "3",
+            "hash": "mVOJt18L8Wd1rtocCcn9k3a3fVkym2",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": "Última Atualização",
+                    "descricao": "",
+                    "obrigatorio": 0,
+                    "somente-leitura": 0,
+                    "dados": 1
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": "",
+                    "sub-label": "",
+                    "tooltip": ""
+                },
+                "tamanho": {
+                    "ativar": 0,
+                    "maximo": "",
+                    "minimo": ""
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": ""
+                },
+                "identificador": {
+                    "id": "",
+                    "classes": ""
+                },
+                "nown": {
+                    "ativo": 0,
+                    "modulo": "",
+                    "paginacao": "",
+                    "chave": "",
+                    "valor": ""
+                }
+            },
+            "filhos": []
+        }
+    ],
+    "infos": []
+}

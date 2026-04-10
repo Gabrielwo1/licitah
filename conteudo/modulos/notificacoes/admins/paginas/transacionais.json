@@ -1,0 +1,16 @@
+{
+    "nome": "Transacionais",
+    "tipo": "2",
+    "id": "H2TMhL3uYrA9nJl",
+    "btns": [
+        {
+            "texto": "Criar Notificação",
+            "tipo": "1",
+            "callback": "a\/notificacoes\/transacao",
+            "id": "",
+            "icone": ""
+        }
+    ],
+    "titulo": "Notificações Transacionais",
+    "breadcrumbs": true
+}

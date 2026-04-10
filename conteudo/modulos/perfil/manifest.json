@@ -1,0 +1,18 @@
+{
+    "name": "Perfil",
+    "description": "Permita que os usuários gerenciem seus perfis e coletem dados personalizados.",
+    "descriptionLong": "O módulo Perfil oferece aos usuários total controle sobre suas informações dentro do Nown. Com ele, é possível personalizar dados, atualizar preferências e gerenciar configurações de conta de forma intuitiva. Além disso, permite a coleta de informações estratégicas para personalizar a experiência do usuário. Ideal para garantir autonomia, segurança e uma navegação personalizada dentro do sistema.",
+    "icon": "bi bi-person-badge",
+    "ativo": "true",
+    "multiconta": false,
+    "readonly": true,
+    "versao": "0.51",
+    "link": "",
+    "configs": [
+        "Configurações",
+        "Integrações Internas",
+        "Geral",
+        "Segurança",
+        "Apagar Conta"
+    ]
+}

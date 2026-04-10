@@ -1,0 +1,37 @@
+{
+  "ativo": {
+    "tipo": "check",
+    "descricao": "Habilite o login e cadastro usando o Google",
+    "label": "Logar com o Google"
+  },
+  "versao":{
+    "tipo": "select",
+    "name": "Versão",
+    "label": "Defina a versão da aplicação",
+     "opcoes": [
+      {"chave": "Google Sign-In", "valor": 1},
+      {"chave": "Google Identity Services (GIS)", "valor": 2}
+    ]
+  },
+  "id": {
+    "tipo": "INPUT",
+    "name": "id",
+    "label": "Client ID",
+    "descricao": " Obtido ao registrar seu aplicativo no Google Developers Console.",
+     "condicional": "ativo"
+  },
+  "segredo": {
+    "tipo": "INPUT",
+    "name": "segredo",
+    "label": "Client Secret",
+    "descricao": " Gerado junto com o Client ID.",
+     "condicional": "ativo"
+  },
+  "redirecionamento": {
+    "tipo": "INPUT",
+    "name": "redirecionamento",
+    "label": "Redirect URI",
+    "descricao": "A URL para onde o usuário será redirecionado após a autenticação.",
+     "condicional": "ativo"
+  }
+}

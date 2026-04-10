@@ -1,0 +1,16 @@
+{
+    "nome": "Carrinho",
+    "tipo": "1",
+    "id": "LIA9wHr4kdOyqHO",
+    "btns": [
+        {
+            "texto": "Ver Todos",
+            "tipo": "1",
+            "callback": "a\/pagamento\/carrinhos",
+            "id": "",
+            "icone": "bi bi-cart"
+        }
+    ],
+    "titulo": "{novo} Carrinho",
+    "breadcrumbs": true
+}

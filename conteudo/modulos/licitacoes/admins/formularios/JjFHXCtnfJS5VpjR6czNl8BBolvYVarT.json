@@ -1,0 +1,1086 @@
+{
+    "id": "181",
+    "nome": "Licitações - Itens",
+    "hash": "JjFHXCtnfJS5VpjR6czNl8BBolvYVarT",
+    "data": "2024-08-26 15:42:48",
+    "tamanho": 21,
+    "inputs": [
+        {
+            "id": "5267",
+            "tipo": "text",
+            "nome": "Código de Compra do Item",
+            "obrigatorio": "0",
+            "data": "2024-08-27 10:00:56",
+            "pai": "0",
+            "posicao": "0",
+            "hash": "wABkMuZFUyPAWM7IXCZDIZj3LsSsRR",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": "Código de Compra do Item ",
+                    "descricao": " ",
+                    "obrigatorio": 0,
+                    "somente-leitura": 1
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": " ",
+                    "sub-label": " ",
+                    "tooltip": " ",
+                    "prefixo": " ",
+                    "sufixo": " "
+                },
+                "valor": {
+                    "tipo": 0,
+                    "fixo": " ",
+                    "dinamico": 0,
+                    "arquivo-query": " ",
+                    "acao-query": " "
+                },
+                "tamanho": {
+                    "ativar": 0,
+                    "maximo": " ",
+                    "minimo": " "
+                },
+                "validacao": {
+                    "mascara": 0
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": " "
+                },
+                "identificador": {
+                    "id": " ",
+                    "classes": " "
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "7313",
+            "tipo": "coluna",
+            "nome": null,
+            "obrigatorio": "0",
+            "data": "2024-11-19 16:19:39",
+            "pai": "0",
+            "posicao": "1",
+            "hash": "KeqKbzzxUiYXxzjy3zCLRiWw5K22qM",
+            "infos": [],
+            "filhos": [
+                {
+                    "id": "7314",
+                    "tipo": "col",
+                    "nome": null,
+                    "obrigatorio": "0",
+                    "data": "2024-11-19 16:19:39",
+                    "pai": "7313",
+                    "posicao": "0",
+                    "hash": "HGzEUSdANtRAGKkDbFCxQtxqlfrBuG",
+                    "infos": {
+                        "layout": {
+                            "tamanho": 9
+                        },
+                        "flex": {
+                            "ativar": 0,
+                            "direcao": 1,
+                            "justify": 0,
+                            "align": 0,
+                            "gap": 0
+                        },
+                        "logica": {
+                            "logica": 0,
+                            "setup": ""
+                        },
+                        "identificador": {
+                            "id": "",
+                            "classes": ""
+                        }
+                    },
+                    "filhos": [
+                        {
+                            "id": "8548",
+                            "tipo": "select",
+                            "nome": "Licitação",
+                            "obrigatorio": "0",
+                            "data": "2024-12-21 11:13:57",
+                            "pai": "7314",
+                            "posicao": "0",
+                            "hash": "5UiEQDzjOg0b80BlLS4cbHPbpOSMdX",
+                            "infos": {
+                                "basico": {
+                                    "esconder-label": 0,
+                                    "label": "Licitação ",
+                                    "descricao": " ",
+                                    "obrigatorio": 0,
+                                    "render": 0,
+                                    "somente-leitura": 0
+                                },
+                                "opcoes": {
+                                    "multiplo": 0,
+                                    "opcoes": " "
+                                },
+                                "dinamica": {
+                                    "smart-triger": 0,
+                                    "input-trigger": 0,
+                                    "url-trigger": " ",
+                                    "acao-trigger": " ",
+                                    "opcoes-dinamicas": 1,
+                                    "configuracoes": {
+                                        "modulo": "licitacoes",
+                                        "formulario": "LFqWUIYwMvqzYEeha6p6nGuhRElyfct4.json",
+                                        "regra": "1"
+                                    },
+                                    "arquivo-query": " ",
+                                    "acao-query": " "
+                                },
+                                "estilo": {
+                                    "estilo": 0,
+                                    "tamanho-do-input": 0
+                                },
+                                "label": {
+                                    "placeholder": " ",
+                                    "sub-label": " ",
+                                    "tooltip": " "
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": " "
+                                },
+                                "identificador": {
+                                    "id": " ",
+                                    "classes": " "
+                                },
+                                "nown": {
+                                    "ativo": 0,
+                                    "modulo": " ",
+                                    "paginacao": " ",
+                                    "chave": " ",
+                                    "valor": " "
+                                }
+                            },
+                            "filhos": []
+                        },
+                        {
+                            "id": "7360",
+                            "tipo": "select",
+                            "nome": "Código da Unidade Gestora",
+                            "obrigatorio": "0",
+                            "data": "2024-12-21 11:13:13",
+                            "pai": "7314",
+                            "posicao": "1",
+                            "hash": "W810PIwyTAdCd16QBqIxWMqizxqaK4",
+                            "infos": {
+                                "basico": {
+                                    "esconder-label": 0,
+                                    "label": "Código da Unidade Gestora ",
+                                    "descricao": " ",
+                                    "obrigatorio": 0,
+                                    "render": 0,
+                                    "somente-leitura": 0
+                                },
+                                "opcoes": {
+                                    "multiplo": 0,
+                                    "opcoes": [
+                                        {
+                                            "nome": "Selecione uma opção",
+                                            "valor": "0",
+                                            "selecionado": false
+                                        }
+                                    ]
+                                },
+                                "dinamica": {
+                                    "smart-triger": 0,
+                                    "input-trigger": 0,
+                                    "url-trigger": " ",
+                                    "acao-trigger": " ",
+                                    "opcoes-dinamicas": 1,
+                                    "configuracoes": {
+                                        "modulo": "licitacoes",
+                                        "formulario": "9ZtWgWUOsU1azbO4yoqItu3W9FVSOaiu.json",
+                                        "regra": "1"
+                                    },
+                                    "arquivo-query": " ",
+                                    "acao-query": " "
+                                },
+                                "estilo": {
+                                    "estilo": 0,
+                                    "tamanho-do-input": 0
+                                },
+                                "label": {
+                                    "placeholder": " ",
+                                    "sub-label": " ",
+                                    "tooltip": " "
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": " "
+                                },
+                                "identificador": {
+                                    "id": " ",
+                                    "classes": " "
+                                }
+                            },
+                            "filhos": []
+                        },
+                        {
+                            "id": "7319",
+                            "tipo": "text",
+                            "nome": "Critério do Julgamento",
+                            "obrigatorio": "0",
+                            "data": "2024-12-21 11:13:13",
+                            "pai": "7314",
+                            "posicao": "2",
+                            "hash": "FlzCsnW8DoNepeZrIufZ1CKbtZ3JaK",
+                            "infos": {
+                                "basico": {
+                                    "esconder-label": 0,
+                                    "label": "Critério do Julgamento",
+                                    "descricao": "",
+                                    "obrigatorio": 0,
+                                    "somente-leitura": 0
+                                },
+                                "estilo": {
+                                    "estilo": 0,
+                                    "tamanho-do-input": 0
+                                },
+                                "label": {
+                                    "placeholder": "",
+                                    "sub-label": "",
+                                    "tooltip": "",
+                                    "prefixo": "",
+                                    "sufixo": ""
+                                },
+                                "valor": {
+                                    "tipo": 0,
+                                    "fixo": "",
+                                    "dinamico": 0,
+                                    "arquivo-query": "",
+                                    "acao-query": ""
+                                },
+                                "tamanho": {
+                                    "ativar": 0,
+                                    "maximo": "",
+                                    "minimo": ""
+                                },
+                                "validacao": {
+                                    "mascara": 0
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": ""
+                                },
+                                "identificador": {
+                                    "id": "",
+                                    "classes": ""
+                                }
+                            },
+                            "filhos": []
+                        },
+                        {
+                            "id": "8460",
+                            "tipo": "text",
+                            "nome": "Id de Contratração CNCP",
+                            "obrigatorio": "0",
+                            "data": "2024-12-21 11:13:13",
+                            "pai": "7314",
+                            "posicao": "3",
+                            "hash": "m3TZmLrxPEapKO7QPmZRssq1wvOujo",
+                            "infos": {
+                                "basico": {
+                                    "esconder-label": 0,
+                                    "label": "Id de Contratração CNCP",
+                                    "descricao": "",
+                                    "obrigatorio": 0,
+                                    "somente-leitura": 0
+                                },
+                                "estilo": {
+                                    "estilo": 0,
+                                    "tamanho-do-input": 0
+                                },
+                                "label": {
+                                    "placeholder": "",
+                                    "sub-label": "",
+                                    "tooltip": "",
+                                    "prefixo": "",
+                                    "sufixo": ""
+                                },
+                                "valor": {
+                                    "tipo": 0,
+                                    "fixo": "",
+                                    "dinamico": 0,
+                                    "arquivo-query": "",
+                                    "acao-query": ""
+                                },
+                                "tamanho": {
+                                    "ativar": 0,
+                                    "maximo": "",
+                                    "minimo": ""
+                                },
+                                "validacao": {
+                                    "mascara": 0
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": ""
+                                },
+                                "identificador": {
+                                    "id": "",
+                                    "classes": ""
+                                },
+                                "nown": {
+                                    "ativo": 0,
+                                    "modulo": "",
+                                    "paginacao": "",
+                                    "chave": "",
+                                    "valor": ""
+                                }
+                            },
+                            "filhos": []
+                        },
+                        {
+                            "id": "7376",
+                            "tipo": "select",
+                            "nome": "Código do Item",
+                            "obrigatorio": "0",
+                            "data": "2024-12-16 14:53:39",
+                            "pai": "7314",
+                            "posicao": "4",
+                            "hash": "06Qnm72HesN16PHPBRoPvlsRmgLGHs",
+                            "infos": {
+                                "basico": {
+                                    "esconder-label": 0,
+                                    "label": "Código do Item ",
+                                    "descricao": " ",
+                                    "obrigatorio": 0,
+                                    "render": 0,
+                                    "somente-leitura": 0
+                                },
+                                "opcoes": {
+                                    "multiplo": 0,
+                                    "opcoes": [
+                                        {
+                                            "nome": "Selecione uma opção",
+                                            "valor": "0",
+                                            "selecionado": false
+                                        }
+                                    ]
+                                },
+                                "dinamica": {
+                                    "smart-triger": 0,
+                                    "input-trigger": 0,
+                                    "url-trigger": " ",
+                                    "acao-trigger": " ",
+                                    "opcoes-dinamicas": 1,
+                                    "configuracoes": {
+                                        "modulo": "licitacoes",
+                                        "formulario": "vVQQXXu9OoLuEc12vfU7X4aRAieyuN80.json",
+                                        "regra": "1"
+                                    },
+                                    "arquivo-query": " ",
+                                    "acao-query": " "
+                                },
+                                "estilo": {
+                                    "estilo": 0,
+                                    "tamanho-do-input": 0
+                                },
+                                "label": {
+                                    "placeholder": " ",
+                                    "sub-label": " ",
+                                    "tooltip": " "
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": " "
+                                },
+                                "identificador": {
+                                    "id": " ",
+                                    "classes": " "
+                                }
+                            },
+                            "filhos": []
+                        },
+                        {
+                            "id": "7682",
+                            "tipo": "textarea",
+                            "nome": "Descrição Resumida",
+                            "obrigatorio": "0",
+                            "data": "2024-12-16 14:53:39",
+                            "pai": "7314",
+                            "posicao": "5",
+                            "hash": "D6DOQVcO8cxmPGufRaRGzgS1QVzTZn",
+                            "infos": {
+                                "basico": {
+                                    "esconder-label": 0,
+                                    "label": "Descrição Resumida ",
+                                    "descricao": " ",
+                                    "obrigatorio": 0,
+                                    "somente-leitura": 0
+                                },
+                                "estilo": {
+                                    "estilo": 0,
+                                    "tamanho-do-input": 0
+                                },
+                                "tamanho": {
+                                    "ativar": 0,
+                                    "maximo": " ",
+                                    "minimo": " "
+                                },
+                                "label": {
+                                    "placeholder": " ",
+                                    "sub-label": " ",
+                                    "tooltip": " "
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": " "
+                                },
+                                "identificador": {
+                                    "id": " ",
+                                    "classes": " "
+                                },
+                                "nown": {
+                                    "ativo": 0,
+                                    "modulo": " ",
+                                    "paginacao": " ",
+                                    "chave": " ",
+                                    "valor": " "
+                                }
+                            },
+                            "filhos": []
+                        },
+                        {
+                            "id": "7325",
+                            "tipo": "text",
+                            "nome": "Unidade",
+                            "obrigatorio": "0",
+                            "data": "2024-12-16 14:53:39",
+                            "pai": "7314",
+                            "posicao": "6",
+                            "hash": "CQUQ2CfDKyUWjzjpyWGPhMgPSvk1uN",
+                            "infos": {
+                                "basico": {
+                                    "esconder-label": 0,
+                                    "label": "Unidade",
+                                    "descricao": "",
+                                    "obrigatorio": 0,
+                                    "somente-leitura": 0
+                                },
+                                "estilo": {
+                                    "estilo": 0,
+                                    "tamanho-do-input": 0
+                                },
+                                "label": {
+                                    "placeholder": "",
+                                    "sub-label": "",
+                                    "tooltip": "",
+                                    "prefixo": "",
+                                    "sufixo": ""
+                                },
+                                "valor": {
+                                    "tipo": 0,
+                                    "fixo": "",
+                                    "dinamico": 0,
+                                    "arquivo-query": "",
+                                    "acao-query": ""
+                                },
+                                "tamanho": {
+                                    "ativar": 0,
+                                    "maximo": "",
+                                    "minimo": ""
+                                },
+                                "validacao": {
+                                    "mascara": 0
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": ""
+                                },
+                                "identificador": {
+                                    "id": "",
+                                    "classes": ""
+                                }
+                            },
+                            "filhos": []
+                        },
+                        {
+                            "id": "7327",
+                            "tipo": "number",
+                            "nome": "Quantidade",
+                            "obrigatorio": "0",
+                            "data": "2024-12-16 14:53:39",
+                            "pai": "7314",
+                            "posicao": "7",
+                            "hash": "AYZsCLCKoVME3a9bUMQMs7YJMPEiQ2",
+                            "infos": {
+                                "basico": {
+                                    "esconder-label": 0,
+                                    "label": "Quantidade",
+                                    "descricao": "",
+                                    "obrigatorio": 0,
+                                    "somente-leitura": 0
+                                },
+                                "estilo": {
+                                    "estilo": 0,
+                                    "tamanho-do-input": 0
+                                },
+                                "label": {
+                                    "placeholder": "",
+                                    "sub-label": "",
+                                    "tooltip": "",
+                                    "prefixo": "",
+                                    "sufixo": ""
+                                },
+                                "valor": {
+                                    "minimo": "",
+                                    "maximo": "",
+                                    "definido": ""
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": ""
+                                },
+                                "identificador": {
+                                    "id": "",
+                                    "classes": ""
+                                }
+                            },
+                            "filhos": []
+                        },
+                        {
+                            "id": "7333",
+                            "tipo": "textarea",
+                            "nome": "Benefício",
+                            "obrigatorio": "0",
+                            "data": "2024-12-16 14:53:39",
+                            "pai": "7314",
+                            "posicao": "8",
+                            "hash": "nSaGY06N7gYebbcYOVbJMqqIBmYqbu",
+                            "infos": {
+                                "basico": {
+                                    "esconder-label": 0,
+                                    "label": "Benefício",
+                                    "descricao": "",
+                                    "obrigatorio": 0,
+                                    "somente-leitura": 0
+                                },
+                                "estilo": {
+                                    "estilo": 0,
+                                    "tamanho-do-input": 0
+                                },
+                                "tamanho": {
+                                    "ativar": 0,
+                                    "maximo": "",
+                                    "minimo": ""
+                                },
+                                "label": {
+                                    "placeholder": "",
+                                    "sub-label": "",
+                                    "tooltip": ""
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": ""
+                                },
+                                "identificador": {
+                                    "id": "",
+                                    "classes": ""
+                                }
+                            },
+                            "filhos": []
+                        },
+                        {
+                            "id": "7334",
+                            "tipo": "text",
+                            "nome": "Última Alteração",
+                            "obrigatorio": "0",
+                            "data": "2024-12-16 14:53:39",
+                            "pai": "7314",
+                            "posicao": "9",
+                            "hash": "SdcMskM27khP0T7mHkJOmDt2g526gh",
+                            "infos": {
+                                "basico": {
+                                    "esconder-label": 0,
+                                    "label": "Última Alteração ",
+                                    "descricao": " ",
+                                    "obrigatorio": 0,
+                                    "somente-leitura": 0
+                                },
+                                "estilo": {
+                                    "estilo": 0,
+                                    "tamanho-do-input": 0
+                                },
+                                "label": {
+                                    "placeholder": " ",
+                                    "sub-label": " ",
+                                    "tooltip": " ",
+                                    "prefixo": " ",
+                                    "sufixo": " "
+                                },
+                                "valor": {
+                                    "tipo": 0,
+                                    "fixo": " ",
+                                    "dinamico": 0,
+                                    "arquivo-query": " ",
+                                    "acao-query": " "
+                                },
+                                "tamanho": {
+                                    "ativar": 0,
+                                    "maximo": " ",
+                                    "minimo": " "
+                                },
+                                "validacao": {
+                                    "mascara": 0
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": " "
+                                },
+                                "identificador": {
+                                    "id": " ",
+                                    "classes": " "
+                                }
+                            },
+                            "filhos": []
+                        }
+                    ]
+                },
+                {
+                    "id": "7315",
+                    "tipo": "col",
+                    "nome": null,
+                    "obrigatorio": "0",
+                    "data": "2024-11-19 16:19:39",
+                    "pai": "7313",
+                    "posicao": "1",
+                    "hash": "YxD0dkE2RIaLvXnCRs7JDUcoAUi4Xo",
+                    "infos": {
+                        "layout": {
+                            "tamanho": 3
+                        },
+                        "flex": {
+                            "ativar": 0,
+                            "direcao": 1,
+                            "justify": 0,
+                            "align": 0,
+                            "gap": 0
+                        },
+                        "logica": {
+                            "logica": 0,
+                            "setup": ""
+                        },
+                        "identificador": {
+                            "id": "",
+                            "classes": ""
+                        }
+                    },
+                    "filhos": [
+                        {
+                            "id": "7331",
+                            "tipo": "text",
+                            "nome": "Fornecedor",
+                            "obrigatorio": "0",
+                            "data": "2024-12-16 14:48:53",
+                            "pai": "7315",
+                            "posicao": "0",
+                            "hash": "ifqaMuM0pzu8RYlNUoqcEbpXgNhZ3e",
+                            "infos": {
+                                "basico": {
+                                    "esconder-label": 0,
+                                    "label": "Fornecedor ",
+                                    "descricao": " ",
+                                    "obrigatorio": 0,
+                                    "somente-leitura": 0
+                                },
+                                "estilo": {
+                                    "estilo": 0,
+                                    "tamanho-do-input": 0
+                                },
+                                "label": {
+                                    "placeholder": " ",
+                                    "sub-label": " ",
+                                    "tooltip": " ",
+                                    "prefixo": " ",
+                                    "sufixo": " "
+                                },
+                                "valor": {
+                                    "tipo": 0,
+                                    "fixo": " ",
+                                    "dinamico": 0,
+                                    "arquivo-query": " ",
+                                    "acao-query": " "
+                                },
+                                "tamanho": {
+                                    "ativar": 0,
+                                    "maximo": " ",
+                                    "minimo": " "
+                                },
+                                "validacao": {
+                                    "mascara": 0
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": " "
+                                },
+                                "identificador": {
+                                    "id": " ",
+                                    "classes": " "
+                                },
+                                "nown": {
+                                    "ativo": 0,
+                                    "modulo": "",
+                                    "paginacao": "",
+                                    "chave": "",
+                                    "valor": ""
+                                }
+                            },
+                            "filhos": []
+                        },
+                        {
+                            "id": "7317",
+                            "tipo": "number",
+                            "nome": "Número do Item Dentro da Licitação",
+                            "obrigatorio": "0",
+                            "data": "2024-12-16 14:48:53",
+                            "pai": "7315",
+                            "posicao": "1",
+                            "hash": "OH3iIrIhALjYHPmXRZdKmDhv5wPkIX",
+                            "infos": {
+                                "basico": {
+                                    "esconder-label": 0,
+                                    "label": "Número do Item Dentro da Licitação",
+                                    "descricao": "",
+                                    "obrigatorio": 0,
+                                    "somente-leitura": 0
+                                },
+                                "estilo": {
+                                    "estilo": 0,
+                                    "tamanho-do-input": 0
+                                },
+                                "label": {
+                                    "placeholder": "",
+                                    "sub-label": "",
+                                    "tooltip": "",
+                                    "prefixo": "",
+                                    "sufixo": ""
+                                },
+                                "valor": {
+                                    "minimo": "",
+                                    "maximo": "",
+                                    "definido": ""
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": ""
+                                },
+                                "identificador": {
+                                    "id": "",
+                                    "classes": ""
+                                }
+                            },
+                            "filhos": []
+                        },
+                        {
+                            "id": "8456",
+                            "tipo": "text",
+                            "nome": "Valor Estimado por Item",
+                            "obrigatorio": "0",
+                            "data": "2024-12-16 14:50:45",
+                            "pai": "7315",
+                            "posicao": "2",
+                            "hash": "RjHDDFZUd6RrlgEPfVYcW0B6VyG9ht",
+                            "infos": {
+                                "basico": {
+                                    "esconder-label": 0,
+                                    "label": "Valor Estimado por Item ",
+                                    "descricao": " ",
+                                    "obrigatorio": 0,
+                                    "somente-leitura": 0
+                                },
+                                "estilo": {
+                                    "estilo": 0,
+                                    "tamanho-do-input": 0
+                                },
+                                "label": {
+                                    "placeholder": " ",
+                                    "sub-label": " ",
+                                    "tooltip": " ",
+                                    "prefixo": " ",
+                                    "sufixo": " "
+                                },
+                                "valor": {
+                                    "tipo": 0,
+                                    "fixo": " ",
+                                    "dinamico": 0,
+                                    "arquivo-query": " ",
+                                    "acao-query": " "
+                                },
+                                "tamanho": {
+                                    "ativar": 0,
+                                    "maximo": " ",
+                                    "minimo": " "
+                                },
+                                "validacao": {
+                                    "mascara": 0
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": " "
+                                },
+                                "identificador": {
+                                    "id": " ",
+                                    "classes": " "
+                                },
+                                "nown": {
+                                    "ativo": 0,
+                                    "modulo": " ",
+                                    "paginacao": " ",
+                                    "chave": " ",
+                                    "valor": " "
+                                }
+                            },
+                            "filhos": []
+                        },
+                        {
+                            "id": "7328",
+                            "tipo": "text",
+                            "nome": "Valor Total",
+                            "obrigatorio": "0",
+                            "data": "2024-12-16 14:49:34",
+                            "pai": "7315",
+                            "posicao": "3",
+                            "hash": "qnkgEkSt1gbntkLKxDkdupwZb4IP61",
+                            "infos": {
+                                "basico": {
+                                    "esconder-label": 0,
+                                    "label": "Valor Total ",
+                                    "descricao": " ",
+                                    "obrigatorio": 0,
+                                    "somente-leitura": 0
+                                },
+                                "estilo": {
+                                    "estilo": 0,
+                                    "tamanho-do-input": 0
+                                },
+                                "label": {
+                                    "placeholder": " ",
+                                    "sub-label": " ",
+                                    "tooltip": " ",
+                                    "prefixo": " ",
+                                    "sufixo": " "
+                                },
+                                "valor": {
+                                    "tipo": 0,
+                                    "fixo": " ",
+                                    "dinamico": 0,
+                                    "arquivo-query": " ",
+                                    "acao-query": " "
+                                },
+                                "tamanho": {
+                                    "ativar": 0,
+                                    "maximo": " ",
+                                    "minimo": " "
+                                },
+                                "validacao": {
+                                    "mascara": 12
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": " "
+                                },
+                                "identificador": {
+                                    "id": " ",
+                                    "classes": " "
+                                },
+                                "nown": {
+                                    "ativo": 0,
+                                    "modulo": "",
+                                    "paginacao": "",
+                                    "chave": "",
+                                    "valor": ""
+                                }
+                            },
+                            "filhos": []
+                        },
+                        {
+                            "id": "8458",
+                            "tipo": "text",
+                            "nome": "Data de Inclusão",
+                            "obrigatorio": "0",
+                            "data": "2024-12-16 14:51:21",
+                            "pai": "7315",
+                            "posicao": "4",
+                            "hash": "KfJR1nEupPNffHzt307ldi9JmWNqfH",
+                            "infos": {
+                                "basico": {
+                                    "esconder-label": 0,
+                                    "label": "Data de Inclusão",
+                                    "descricao": "",
+                                    "obrigatorio": 0,
+                                    "somente-leitura": 0
+                                },
+                                "estilo": {
+                                    "estilo": 0,
+                                    "tamanho-do-input": 0
+                                },
+                                "label": {
+                                    "placeholder": "",
+                                    "sub-label": "",
+                                    "tooltip": "",
+                                    "prefixo": "",
+                                    "sufixo": ""
+                                },
+                                "valor": {
+                                    "tipo": 0,
+                                    "fixo": "",
+                                    "dinamico": 0,
+                                    "arquivo-query": "",
+                                    "acao-query": ""
+                                },
+                                "tamanho": {
+                                    "ativar": 0,
+                                    "maximo": "",
+                                    "minimo": ""
+                                },
+                                "validacao": {
+                                    "mascara": 0
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": ""
+                                },
+                                "identificador": {
+                                    "id": "",
+                                    "classes": ""
+                                },
+                                "nown": {
+                                    "ativo": 0,
+                                    "modulo": "",
+                                    "paginacao": "",
+                                    "chave": "",
+                                    "valor": ""
+                                }
+                            },
+                            "filhos": []
+                        },
+                        {
+                            "id": "8461",
+                            "tipo": "text",
+                            "nome": "Data do Resultado",
+                            "obrigatorio": "0",
+                            "data": "2024-12-16 14:54:48",
+                            "pai": "7315",
+                            "posicao": "5",
+                            "hash": "2lQurvztrrnRtPNUM4QcmoIpFpGyie",
+                            "infos": {
+                                "basico": {
+                                    "esconder-label": 0,
+                                    "label": "Data do Resultado",
+                                    "descricao": "",
+                                    "obrigatorio": 0,
+                                    "somente-leitura": 0
+                                },
+                                "estilo": {
+                                    "estilo": 0,
+                                    "tamanho-do-input": 0
+                                },
+                                "label": {
+                                    "placeholder": "",
+                                    "sub-label": "",
+                                    "tooltip": "",
+                                    "prefixo": "",
+                                    "sufixo": ""
+                                },
+                                "valor": {
+                                    "tipo": 0,
+                                    "fixo": "",
+                                    "dinamico": 0,
+                                    "arquivo-query": "",
+                                    "acao-query": ""
+                                },
+                                "tamanho": {
+                                    "ativar": 0,
+                                    "maximo": "",
+                                    "minimo": ""
+                                },
+                                "validacao": {
+                                    "mascara": 0
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": ""
+                                },
+                                "identificador": {
+                                    "id": "",
+                                    "classes": ""
+                                },
+                                "nown": {
+                                    "ativo": 0,
+                                    "modulo": "",
+                                    "paginacao": "",
+                                    "chave": "",
+                                    "valor": ""
+                                }
+                            },
+                            "filhos": []
+                        },
+                        {
+                            "id": "7363",
+                            "tipo": "cardSalvar",
+                            "nome": null,
+                            "obrigatorio": "0",
+                            "data": "2024-12-16 14:54:34",
+                            "pai": "7315",
+                            "posicao": "6",
+                            "hash": "MRiUtaoP262rNMOURaiYUj0TMAUQYl",
+                            "infos": [],
+                            "filhos": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "infos": {
+        "basico": {
+            "label": "Possui alguma condição ou doença ?    ",
+            "descricao": "    ",
+            "obrigatorio": 0,
+            "select-2": 0
+        },
+        "opcoes": {
+            "multiplo": 0,
+            "opcoes": [
+                {
+                    "nome": "Não",
+                    "valor": "Não",
+                    "selecionado": false
+                },
+                {
+                    "nome": "Sim",
+                    "valor": "Sim",
+                    "selecionado": false
+                }
+            ]
+        },
+        "estilo": {
+            "estilo": 0,
+            "tamanho-do-input": 0
+        },
+        "label": {
+            "placeholder": "    ",
+            "sub-label": "    ",
+            "tooltip": "    "
+        },
+        "logica": {
+            "logica": 0,
+            "setup": "    "
+        },
+        "dinamica": {
+            "opcoes-dinamicas": 0,
+            "configuracoes": ""
+        }
+    }
+}

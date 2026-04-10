@@ -1,0 +1,97 @@
+{
+    "nome": "Pedidos",
+    "banco": "Cyrv1bcxbsbHpSh",
+    "colunas": [
+        {
+            "nome": "Usuário",
+            "id": "usuario",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "tabulavel": false,
+            "pesquisavel": false,
+            "colpesquisavel": true,
+            "estrangeira": 1,
+            "confiEstrangeira": {
+                "modulo": "usuarios",
+                "banco": "usuarios",
+                "tipo": "1",
+                "coluna": "usuario_display"
+            }
+        },
+        {
+            "nome": "Total",
+            "id": "total",
+            "tipo": "1",
+            "render": "preco",
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "tabulavel": false,
+            "pesquisavel": false,
+            "colpesquisavel": true,
+            "estrangeira": 0
+        },
+        {
+            "nome": "Status",
+            "id": "estado",
+            "tipo": "1",
+            "render": "personalizado",
+            "regra": [
+                "Pedido Cancelado",
+                "Aguardando pagamento",
+                "Pagamento Confirmado",
+                "Pedido em Andamento",
+                "Pedido Concluído"
+            ],
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": true,
+            "tabulavel": true,
+            "pesquisavel": false,
+            "colpesquisavel": false
+        },
+        {
+            "nome": "Data",
+            "id": "data",
+            "tipo": "1",
+            "render": "data",
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "tabulavel": false,
+            "pesquisavel": false,
+            "colpesquisavel": false,
+            "estrangeira": 0
+        }
+    ],
+    "regra": "1",
+    "acoes": {
+        "opcoes": {
+            "acoes": true,
+            "editar": true,
+            "apagar": true,
+            "vizualizar": true,
+            "importador": true,
+            "exportador": true,
+            "filtro": true,
+            "colunas": true,
+            "multiplo": true,
+            "ordenador": false,
+            "filtrodata": true,
+            "bigdata": true
+        },
+        "rotas": {
+            "editar": "a\/pagamento\/pedido",
+            "vizualizar": "pagamento"
+        }
+    },
+    "layout": {
+        "modo": "1",
+        "container": "0"
+    },
+    "acoesPersonalizadas": [],
+    "dataFilter": "data"
+}

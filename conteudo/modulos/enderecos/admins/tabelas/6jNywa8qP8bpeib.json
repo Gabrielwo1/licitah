@@ -1,0 +1,143 @@
+{
+    "nome": "Endereços",
+    "banco": "zbgv0KoTqAmJ8lS",
+    "colunas": [
+        {
+            "nome": "Nome",
+            "id": "nome",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "tabulavel": false,
+            "pesquisavel": true,
+            "colpesquisavel": false,
+            "estrangeira": 0
+        },
+        {
+            "nome": "CEP",
+            "id": "cep",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "tabulavel": false,
+            "pesquisavel": true,
+            "colpesquisavel": false,
+            "estrangeira": 0
+        },
+        {
+            "nome": "Rua",
+            "id": "rua",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "tabulavel": false,
+            "pesquisavel": true,
+            "colpesquisavel": false,
+            "estrangeira": 0
+        },
+        {
+            "nome": "Cidade",
+            "id": "cidade",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": true,
+            "tabulavel": false,
+            "pesquisavel": true,
+            "colpesquisavel": false,
+            "estrangeira": 1,
+            "confiEstrangeira": {
+                "modulo": "enderecos",
+                "banco": "enderecos_cidades",
+                "tipo": "1",
+                "coluna": "endereco_cidade_nome"
+            }
+        },
+        {
+            "nome": "Estado",
+            "id": "estado",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": true,
+            "tabulavel": false,
+            "pesquisavel": true,
+            "colpesquisavel": false,
+            "estrangeira": 1,
+            "confiEstrangeira": {
+                "modulo": "enderecos",
+                "banco": "enderecos_estados",
+                "tipo": "1",
+                "coluna": "endereco_estado_codigo"
+            }
+        },
+        {
+            "nome": "Usuário",
+            "id": "autor",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "tabulavel": false,
+            "pesquisavel": true,
+            "colpesquisavel": false,
+            "estrangeira": 1,
+            "confiEstrangeira": {
+                "modulo": "usuarios",
+                "banco": "usuarios",
+                "tipo": "1",
+                "coluna": "usuario_display"
+            }
+        }
+    ],
+    "regra": "1",
+    "acoes": {
+        "opcoes": {
+            "acoes": true,
+            "editar": true,
+            "apagar": true,
+            "vizualizar": false,
+            "duplicar": false,
+            "importador": true,
+            "exportador": true,
+            "filtro": false,
+            "colunas": false,
+            "multiplo": true,
+            "ordenador": false,
+            "filtrodata": false,
+            "filtrosuconta": false,
+            "bigdata": true
+        },
+        "rotas": {
+            "editar": "a\/enderecos\/endereco",
+            "vizualizar": ""
+        }
+    },
+    "layout": {
+        "modo": "1",
+        "container": "0"
+    },
+    "acoesPersonalizadas": [],
+    "dataFilter": "0",
+    "condicional": {
+        "ativo": "0",
+        "coluna": "",
+        "tipo": "=",
+        "valor": ""
+    },
+    "condicional2": {
+        "ativo": "0",
+        "coluna": "",
+        "tipo": "=",
+        "valor": ""
+    }
+}

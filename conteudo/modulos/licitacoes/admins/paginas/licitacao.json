@@ -1,0 +1,16 @@
+{
+    "nome": "Licitação",
+    "tipo": "1",
+    "id": "LFqWUIYwMvqzYEeha6p6nGuhRElyfct4",
+    "btns": [
+        {
+            "texto": "Tabela Geral",
+            "tipo": "1",
+            "callback": "a\/licitacoes",
+            "id": "",
+            "icone": ""
+        }
+    ],
+    "titulo": "{nova} Licitação",
+    "breadcrumbs": false
+}

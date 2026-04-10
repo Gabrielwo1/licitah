@@ -1,0 +1,57 @@
+{
+    "banco": "usuarios_vinculos",
+    "meta": false,
+    "prefixo": "usuarios_vinculo",
+    "url": false,
+    "colunas": [
+        {
+            "nome": "usuario",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "ydzVMJvsPpgdyNOZN0aG6NteP1qRwm"
+        },
+        {
+            "nome": "usuario2",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "L2rUla8HnmR2ZnLSn8SqPgR9n00UW3"
+        },
+        {
+            "nome": "tipo",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "GkweamfSu3A8Zm6EsdRfpbBujipe3s"
+        },
+        {
+            "nome": "aprovado",
+            "nulo": false,
+            "tipo": "boolean",
+            "unico": false,
+            "input": "xBZsOQ7fkd0Y1vC3njmRfbOruWP3my"
+        }
+    ],
+    "estrutura": {
+        "meta": false,
+        "hash": false,
+        "autor": false,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "ordenador": false,
+        "url": false,
+        "urledit": false,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false,
+        "desabilitarNovo": false,
+        "desabilitarEdicao": false,
+        "reordenador": false,
+        "pontos": false
+    },
+    "metas": []
+}

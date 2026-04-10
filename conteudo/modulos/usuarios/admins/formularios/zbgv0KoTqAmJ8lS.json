@@ -1,0 +1,659 @@
+{
+    "id": "45",
+    "nome": "Endere\u00e7os",
+    "hash": "zbgv0KoTqAmJ8lS",
+    "data": "2023-12-20 21:07:40",
+    "tamanho": 26,
+    "inputs": [
+        {
+            "id": "1380",
+            "tipo": "text",
+            "nome": "Nome",
+            "obrigatorio": "0",
+            "data": "2024-01-11 19:05:10",
+            "pai": "0",
+            "posicao": "0",
+            "hash": "trWcrekuUy1MuVPifEZcA3lJSiC2Gi",
+            "infos": {
+                "basico": {
+                    "esconder-label": 1,
+                    "label": "Nome",
+                    "descricao": "",
+                    "obrigatorio": 0
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": "Nome",
+                    "sub-label": "",
+                    "tooltip": ""
+                },
+                "validacao": {
+                    "mascara": 0
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": ""
+                },
+                "identificador": {
+                    "id": "",
+                    "classes": ""
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "1048",
+            "tipo": "coluna",
+            "nome": null,
+            "obrigatorio": "0",
+            "data": "2024-01-11 19:04:59",
+            "pai": "0",
+            "posicao": "1",
+            "hash": "Bj4SqtWMl1gTsTR5mc2eC9h4yFI4I1",
+            "infos": [],
+            "filhos": [
+                {
+                    "id": "1049",
+                    "tipo": "col",
+                    "nome": null,
+                    "obrigatorio": "0",
+                    "data": "2023-12-20 21:07:52",
+                    "pai": "1048",
+                    "posicao": "0",
+                    "hash": "MqNUQvnpBzKkNg4ejgmiAcoV1UorDP",
+                    "infos": {
+                        "layout": {
+                            "tamanho": 9
+                        },
+                        "logica": {
+                            "logica": 0,
+                            "setup": ""
+                        }
+                    },
+                    "filhos": [
+                        {
+                            "id": "1057",
+                            "tipo": "card",
+                            "nome": "Endere\u00e7o",
+                            "obrigatorio": "0",
+                            "data": "2023-12-20 21:12:35",
+                            "pai": "1049",
+                            "posicao": "0",
+                            "hash": "ejcRxKi300gvkbCO3nmcGS6DaZwWLW",
+                            "infos": {
+                                "basico": {
+                                    "label": "Endere\u00e7o ",
+                                    "recolhivel": 1
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": " "
+                                },
+                                "identificador": {
+                                    "id": "",
+                                    "classes": ""
+                                }
+                            },
+                            "filhos": [
+                                {
+                                    "id": "1051",
+                                    "tipo": "coluna",
+                                    "nome": null,
+                                    "obrigatorio": "0",
+                                    "data": "2023-12-20 21:16:55",
+                                    "pai": "1057",
+                                    "posicao": "0",
+                                    "hash": "Yd9tzDncbKUVZxLe4yKKdLyEk4Q5G3",
+                                    "infos": [],
+                                    "filhos": [
+                                        {
+                                            "id": "1052",
+                                            "tipo": "col",
+                                            "nome": null,
+                                            "obrigatorio": "0",
+                                            "data": "2023-12-20 21:10:41",
+                                            "pai": "1051",
+                                            "posicao": "0",
+                                            "hash": "jwmxwzpgDviZfSGOqv715K8nFMhHaG",
+                                            "infos": {
+                                                "layout": {
+                                                    "tamanho": 5
+                                                },
+                                                "logica": {
+                                                    "logica": 0,
+                                                    "setup": ""
+                                                }
+                                            },
+                                            "filhos": [
+                                                {
+                                                    "id": "1054",
+                                                    "tipo": "text",
+                                                    "nome": "CEP",
+                                                    "obrigatorio": "0",
+                                                    "data": "2023-12-20 21:11:10",
+                                                    "pai": "1052",
+                                                    "posicao": "0",
+                                                    "hash": "sQ7sQswr2mrTYlqB3MHFxuUHIRvxin",
+                                                    "infos": {
+                                                        "basico": {
+                                                            "esconder-label": 0,
+                                                            "label": "CEP",
+                                                            "descricao": "",
+                                                            "obrigatorio": 0
+                                                        },
+                                                        "estilo": {
+                                                            "estilo": 0,
+                                                            "tamanho-do-input": 0
+                                                        },
+                                                        "label": {
+                                                            "placeholder": "",
+                                                            "sub-label": "",
+                                                            "tooltip": ""
+                                                        },
+                                                        "validacao": {
+                                                            "mascara": 3
+                                                        },
+                                                        "logica": {
+                                                            "logica": 0,
+                                                            "setup": ""
+                                                        }
+                                                    },
+                                                    "filhos": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "1053",
+                                            "tipo": "col",
+                                            "nome": null,
+                                            "obrigatorio": "0",
+                                            "data": "2023-12-20 21:10:41",
+                                            "pai": "1051",
+                                            "posicao": "1",
+                                            "hash": "U4VdosZ0YRSSPYx7iaUP3mgkq2q5Rs",
+                                            "infos": {
+                                                "layout": {
+                                                    "tamanho": 7
+                                                },
+                                                "logica": {
+                                                    "logica": 0,
+                                                    "setup": ""
+                                                }
+                                            },
+                                            "filhos": [
+                                                {
+                                                    "id": "1058",
+                                                    "tipo": "coluna",
+                                                    "nome": null,
+                                                    "obrigatorio": "0",
+                                                    "data": "2023-12-20 21:16:29",
+                                                    "pai": "1053",
+                                                    "posicao": "0",
+                                                    "hash": "VIvtwQTl7XIEbjxca9qw0Ic77RYwUT",
+                                                    "infos": [],
+                                                    "filhos": [
+                                                        {
+                                                            "id": "1059",
+                                                            "tipo": "col",
+                                                            "nome": null,
+                                                            "obrigatorio": "0",
+                                                            "data": "2023-12-20 21:12:51",
+                                                            "pai": "1058",
+                                                            "posicao": "0",
+                                                            "hash": "BRFCVw6NxWEvnCCUNn1yT6V6x3JyB3",
+                                                            "infos": {
+                                                                "layout": {
+                                                                    "tamanho": 9
+                                                                },
+                                                                "logica": {
+                                                                    "logica": 0,
+                                                                    "setup": ""
+                                                                }
+                                                            },
+                                                            "filhos": [
+                                                                {
+                                                                    "id": "1055",
+                                                                    "tipo": "text",
+                                                                    "nome": "Rua",
+                                                                    "obrigatorio": "0",
+                                                                    "data": "2023-12-20 21:14:09",
+                                                                    "pai": "1059",
+                                                                    "posicao": "0",
+                                                                    "hash": "NliB3F5y9jFHaqvt3sabXPz2ltWSJy",
+                                                                    "infos": {
+                                                                        "basico": {
+                                                                            "esconder-label": 0,
+                                                                            "label": "Rua",
+                                                                            "descricao": "",
+                                                                            "obrigatorio": 0
+                                                                        },
+                                                                        "estilo": {
+                                                                            "estilo": 0,
+                                                                            "tamanho-do-input": 0
+                                                                        },
+                                                                        "label": {
+                                                                            "placeholder": "",
+                                                                            "sub-label": "",
+                                                                            "tooltip": ""
+                                                                        },
+                                                                        "validacao": {
+                                                                            "mascara": 0
+                                                                        },
+                                                                        "logica": {
+                                                                            "logica": 0,
+                                                                            "setup": ""
+                                                                        }
+                                                                    },
+                                                                    "filhos": []
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "1060",
+                                                            "tipo": "col",
+                                                            "nome": null,
+                                                            "obrigatorio": "0",
+                                                            "data": "2023-12-20 21:12:51",
+                                                            "pai": "1058",
+                                                            "posicao": "1",
+                                                            "hash": "nkqAvcHyBmVCNHxutkWOwXeDYbNT9o",
+                                                            "infos": {
+                                                                "layout": {
+                                                                    "tamanho": 3
+                                                                },
+                                                                "logica": {
+                                                                    "logica": 0,
+                                                                    "setup": ""
+                                                                }
+                                                            },
+                                                            "filhos": [
+                                                                {
+                                                                    "id": "1381",
+                                                                    "tipo": "text",
+                                                                    "nome": "N\u00famero",
+                                                                    "obrigatorio": "0",
+                                                                    "data": "2024-01-11 19:05:51",
+                                                                    "pai": "1060",
+                                                                    "posicao": "0",
+                                                                    "hash": "j9njVsKTcwds9SrKIIG6Mb8xwmp77J",
+                                                                    "infos": {
+                                                                        "basico": {
+                                                                            "esconder-label": 0,
+                                                                            "label": "N\u00famero",
+                                                                            "descricao": "",
+                                                                            "obrigatorio": 0
+                                                                        },
+                                                                        "estilo": {
+                                                                            "estilo": 0,
+                                                                            "tamanho-do-input": 0
+                                                                        },
+                                                                        "label": {
+                                                                            "placeholder": "",
+                                                                            "sub-label": "",
+                                                                            "tooltip": ""
+                                                                        },
+                                                                        "validacao": {
+                                                                            "mascara": 0
+                                                                        },
+                                                                        "logica": {
+                                                                            "logica": 0,
+                                                                            "setup": ""
+                                                                        },
+                                                                        "identificador": {
+                                                                            "id": "",
+                                                                            "classes": ""
+                                                                        }
+                                                                    },
+                                                                    "filhos": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "1063",
+                                    "tipo": "coluna",
+                                    "nome": null,
+                                    "obrigatorio": "0",
+                                    "data": "2023-12-20 21:18:05",
+                                    "pai": "1057",
+                                    "posicao": "1",
+                                    "hash": "NdwcwL27om7xQbAwsVTigaPLznIW8t",
+                                    "infos": [],
+                                    "filhos": [
+                                        {
+                                            "id": "1064",
+                                            "tipo": "col",
+                                            "nome": null,
+                                            "obrigatorio": "0",
+                                            "data": "2023-12-20 21:16:40",
+                                            "pai": "1063",
+                                            "posicao": "0",
+                                            "hash": "dAlZ2gPek0atlCFC9IVg42cZ9tyiVB",
+                                            "infos": [],
+                                            "filhos": [
+                                                {
+                                                    "id": "1066",
+                                                    "tipo": "text",
+                                                    "nome": "Complemento",
+                                                    "obrigatorio": "0",
+                                                    "data": "2023-12-20 21:17:49",
+                                                    "pai": "1064",
+                                                    "posicao": "0",
+                                                    "hash": "IffSKUp4hM2YRMkQXs6tg6O3TqckvW",
+                                                    "infos": {
+                                                        "basico": {
+                                                            "esconder-label": 0,
+                                                            "label": "Complemento",
+                                                            "descricao": "",
+                                                            "obrigatorio": 0
+                                                        },
+                                                        "estilo": {
+                                                            "estilo": 0,
+                                                            "tamanho-do-input": 0
+                                                        },
+                                                        "label": {
+                                                            "placeholder": "",
+                                                            "sub-label": "",
+                                                            "tooltip": ""
+                                                        },
+                                                        "validacao": {
+                                                            "mascara": 0
+                                                        },
+                                                        "logica": {
+                                                            "logica": 0,
+                                                            "setup": ""
+                                                        }
+                                                    },
+                                                    "filhos": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "1065",
+                                            "tipo": "col",
+                                            "nome": null,
+                                            "obrigatorio": "0",
+                                            "data": "2023-12-20 21:16:40",
+                                            "pai": "1063",
+                                            "posicao": "1",
+                                            "hash": "2o1UYD0i8sJmL7oKeuiTBJ04cJrh0r",
+                                            "infos": [],
+                                            "filhos": [
+                                                {
+                                                    "id": "1061",
+                                                    "tipo": "text",
+                                                    "nome": "Bairro",
+                                                    "obrigatorio": "0",
+                                                    "data": "2023-12-20 21:17:08",
+                                                    "pai": "1065",
+                                                    "posicao": "0",
+                                                    "hash": "KsGpDpj8tfGvK0rL3x9ZdGEByUgrg3",
+                                                    "infos": {
+                                                        "basico": {
+                                                            "esconder-label": 0,
+                                                            "label": "Bairro",
+                                                            "descricao": "",
+                                                            "obrigatorio": 0
+                                                        },
+                                                        "estilo": {
+                                                            "estilo": 0,
+                                                            "tamanho-do-input": 0
+                                                        },
+                                                        "label": {
+                                                            "placeholder": "",
+                                                            "sub-label": "",
+                                                            "tooltip": ""
+                                                        },
+                                                        "validacao": {
+                                                            "mascara": 0
+                                                        },
+                                                        "logica": {
+                                                            "logica": 0,
+                                                            "setup": ""
+                                                        }
+                                                    },
+                                                    "filhos": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "1069",
+                                    "tipo": "coluna",
+                                    "nome": null,
+                                    "obrigatorio": "0",
+                                    "data": "2024-01-11 19:06:23",
+                                    "pai": "1057",
+                                    "posicao": "2",
+                                    "hash": "hyT4IquJ64RBLQYXwRRrRMEUaq82nX",
+                                    "infos": [],
+                                    "filhos": [
+                                        {
+                                            "id": "1070",
+                                            "tipo": "col",
+                                            "nome": null,
+                                            "obrigatorio": "0",
+                                            "data": "2023-12-20 21:18:13",
+                                            "pai": "1069",
+                                            "posicao": "0",
+                                            "hash": "ppDTe9Iu5P4Mdk7xYawe79Yeh0OZN4",
+                                            "infos": {
+                                                "layout": {
+                                                    "tamanho": 9
+                                                },
+                                                "logica": {
+                                                    "logica": 0,
+                                                    "setup": " "
+                                                },
+                                                "identificador": {
+                                                    "id": "",
+                                                    "classes": ""
+                                                }
+                                            },
+                                            "filhos": [
+                                                {
+                                                    "id": "1067",
+                                                    "tipo": "text",
+                                                    "nome": "Cidade",
+                                                    "obrigatorio": "0",
+                                                    "data": "2023-12-20 21:18:26",
+                                                    "pai": "1070",
+                                                    "posicao": "0",
+                                                    "hash": "T1tH3CJHmZOYOlU3bQ04Cki9iOKEoe",
+                                                    "infos": {
+                                                        "basico": {
+                                                            "esconder-label": 0,
+                                                            "label": "Cidade",
+                                                            "descricao": "",
+                                                            "obrigatorio": 0
+                                                        },
+                                                        "estilo": {
+                                                            "estilo": 0,
+                                                            "tamanho-do-input": 0
+                                                        },
+                                                        "label": {
+                                                            "placeholder": "",
+                                                            "sub-label": "",
+                                                            "tooltip": ""
+                                                        },
+                                                        "validacao": {
+                                                            "mascara": 0
+                                                        },
+                                                        "logica": {
+                                                            "logica": 0,
+                                                            "setup": ""
+                                                        }
+                                                    },
+                                                    "filhos": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "1071",
+                                            "tipo": "col",
+                                            "nome": null,
+                                            "obrigatorio": "0",
+                                            "data": "2023-12-20 21:18:13",
+                                            "pai": "1069",
+                                            "posicao": "1",
+                                            "hash": "49ERj8OSU1rIWLAoDBjBwLrC8C5NTU",
+                                            "infos": {
+                                                "layout": {
+                                                    "tamanho": 3
+                                                },
+                                                "logica": {
+                                                    "logica": 0,
+                                                    "setup": " "
+                                                },
+                                                "identificador": {
+                                                    "id": "",
+                                                    "classes": ""
+                                                }
+                                            },
+                                            "filhos": [
+                                                {
+                                                    "id": "1068",
+                                                    "tipo": "text",
+                                                    "nome": "UF",
+                                                    "obrigatorio": "0",
+                                                    "data": "2023-12-20 21:19:10",
+                                                    "pai": "1071",
+                                                    "posicao": "0",
+                                                    "hash": "LHcbuVFa0lOLNQpOcoRI8Nu7n23RoO",
+                                                    "infos": {
+                                                        "basico": {
+                                                            "esconder-label": 0,
+                                                            "label": "UF ",
+                                                            "descricao": " ",
+                                                            "obrigatorio": 0
+                                                        },
+                                                        "estilo": {
+                                                            "estilo": 0,
+                                                            "tamanho-do-input": 0
+                                                        },
+                                                        "label": {
+                                                            "placeholder": " ",
+                                                            "sub-label": " ",
+                                                            "tooltip": " "
+                                                        },
+                                                        "validacao": {
+                                                            "mascara": 0
+                                                        },
+                                                        "logica": {
+                                                            "logica": 0,
+                                                            "setup": " "
+                                                        }
+                                                    },
+                                                    "filhos": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "1382",
+                                    "tipo": "textarea",
+                                    "nome": "Descri\u00e7\u00e3o",
+                                    "obrigatorio": "0",
+                                    "data": "2024-01-11 19:06:30",
+                                    "pai": "1057",
+                                    "posicao": "3",
+                                    "hash": "3qssoZFoEFU7MUz9jEpo9x0DdpSe9D",
+                                    "infos": {
+                                        "basico": {
+                                            "esconder-label": 0,
+                                            "label": "Descri\u00e7\u00e3o",
+                                            "descricao": "",
+                                            "obrigatorio": 0
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho-do-input": 0
+                                        },
+                                        "label": {
+                                            "placeholder": "",
+                                            "sub-label": "",
+                                            "tooltip": ""
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": ""
+                                        },
+                                        "identificador": {
+                                            "id": "",
+                                            "classes": ""
+                                        }
+                                    },
+                                    "filhos": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "1050",
+                    "tipo": "col",
+                    "nome": null,
+                    "obrigatorio": "0",
+                    "data": "2023-12-20 21:07:52",
+                    "pai": "1048",
+                    "posicao": "1",
+                    "hash": "CL7EbQknkRJxzSnC40OSrUdFTOJm3u",
+                    "infos": {
+                        "layout": {
+                            "tamanho": 3
+                        },
+                        "logica": {
+                            "logica": 0,
+                            "setup": ""
+                        }
+                    },
+                    "filhos": [
+                        {
+                            "id": "1056",
+                            "tipo": "cardSalvar",
+                            "nome": "",
+                            "obrigatorio": "0",
+                            "data": "2024-01-11 19:12:11",
+                            "pai": "1050",
+                            "posicao": "0",
+                            "hash": "8fJkeFGIDZucw0Fz85epZZVrVR8agU",
+                            "infos": {
+                                "basico": {
+                                    "label": "",
+                                    "recolhivel": 0,
+                                    "fixar-no-rodape-mobile": 0,
+                                    "fixar-no-rodape-pc": 0
+                                },
+                                "funcoes": {
+                                    "desabilitar-status": 1,
+                                    "desabilitar-vizibilidade": 1,
+                                    "desabilitar-agendados": 1
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": ""
+                                },
+                                "identificador": {
+                                    "id": "",
+                                    "classes": ""
+                                }
+                            },
+                            "filhos": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "infos": []
+}

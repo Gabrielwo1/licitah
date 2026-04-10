@@ -1,0 +1,59 @@
+{
+    "nome": "Saldos",
+    "banco": "Pio0SaKtq4axR6FQZ4jpFm3VgBvJDr0L",
+    "colunas": [
+        {
+            "nome": "Usuário",
+            "id": "usuario",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "estrangeira": 1,
+            "confiEstrangeira": {
+                "modulo": "usuarios",
+                "banco": "usuarios",
+                "tipo": "1",
+                "coluna": "usuario_display"
+            }
+        },
+        {
+            "nome": "Saldo",
+            "id": "saldo",
+            "tipo": "1",
+            "render": "preco",
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "estrangeira": 0
+        }
+    ],
+    "regra": "1",
+    "acoes": {
+        "opcoes": {
+            "acoes": false,
+            "editar": false,
+            "apagar": false,
+            "vizualizar": false,
+            "importador": false,
+            "exportador": false,
+            "filtro": false,
+            "colunas": false,
+            "multiplo": false,
+            "ordenador": false,
+            "filtrodata": false,
+            "bigdata": false
+        },
+        "rotas": {
+            "editar": "",
+            "vizualizar": ""
+        }
+    },
+    "layout": {
+        "modo": "1",
+        "container": "0"
+    },
+    "acoesPersonalizadas": [],
+    "dataFilter": "0"
+}

@@ -1,0 +1,9 @@
+{
+    "name": "Favoritos",
+    "description": "",
+    "descriptionLong": "",
+    "icon": "bi bi-heart",
+    "ativo": "true",
+    "link": "a\/favoritos",
+    "versao": "0.05"
+}

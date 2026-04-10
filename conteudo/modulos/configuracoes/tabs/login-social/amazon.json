@@ -1,0 +1,25 @@
+{
+  "ativo": {
+    "tipo": "check",
+    "descricao": "Habilite o login e cadastro usando a Amazon",
+    "label": "Logar com a Amazon"
+  },
+  "cliente_id": {
+    "tipo": "INPUT",
+    "label": "Client ID",
+    "descricao": "Obtido ao registrar seu aplicativo no Amazon Developer Console.",
+    "condicional": "ativo"
+  },
+  "cliente_secret": {
+    "tipo": "INPUT",
+    "label": "Client Secret",
+    "descricao": "Gerado junto com o Client ID.",
+    "condicional": "ativo"
+  },
+  "redirect_uri": {
+    "tipo": "INPUT",
+    "label": "Redirect URI",
+    "descricao": "A URL para onde o usuário será redirecionado após a autenticação.",
+    "condicional": "ativo"
+  }
+}

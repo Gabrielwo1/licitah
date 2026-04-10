@@ -1,0 +1,72 @@
+{
+    "banco": "comentarios",
+    "meta": false,
+    "prefixo": "comentario",
+    "url": "1",
+    "colunas": [
+        {
+            "nome": "modulo",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "rpzDGyF3bf3WX5nscyNtop9wt3lyDx",
+            "size": 50
+        },
+        {
+            "nome": "identificador",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "G9XnifdiE53p6AnZCL41Tlx4kcU9KL"
+        },
+        {
+            "nome": "comentario",
+            "nulo": false,
+            "tipo": "text",
+            "unico": false,
+            "input": "OHrMwaYTpY8zCznZjRmLy72ng2V7TY"
+        },
+        {
+            "nome": "pai",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "PgNaVW3gxV3WsZDHBrGfBh1lQhoKhP"
+        },
+        {
+            "nome": "filhos",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "VuthoxCn3NB756sQGnNtUpg6ZWSSP1"
+        },
+        {
+            "nome": "estado",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "hT9SYttaB7bXn2Wf0ybM1qcvi7sg48"
+        }
+    ],
+    "estrutura": {
+        "meta": false,
+        "hash": true,
+        "autor": true,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "ordenador": false,
+        "url": true,
+        "urledit": false,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false,
+        "desabilitarNovo": false,
+        "desabilitarEdicao": false,
+        "reordenador": false,
+        "pontos": false
+    },
+    "metas": []
+}

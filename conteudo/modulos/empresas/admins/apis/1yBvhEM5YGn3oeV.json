@@ -1,0 +1,23 @@
+{
+    "nome": "Item da empresa por id (copia do por url)",
+    "banco": "9mX3WKIb9DI9qEW",
+    "tipo": 1,
+    "subtipo": 2,
+    "itens": [],
+    "number": {
+        "comentarios": false,
+        "reacoes": false,
+        "favoritos": false,
+        "visualizacoes": false
+    },
+    "extra": {
+        "ativo": false,
+        "coluna": "",
+        "tipo": "="
+    },
+    "clone": {
+        "ativo": true,
+        "api": "Mi2IBoxrCrNP29O"
+    },
+    "geolocalizacao": false
+}

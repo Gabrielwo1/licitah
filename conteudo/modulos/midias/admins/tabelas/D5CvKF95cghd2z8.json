@@ -1,0 +1,41 @@
+{
+    "nome": "Uploads",
+    "banco": "7gFgoC5oPHYybpp",
+    "colunas": [
+        {
+            "nome": "",
+            "id": "nome",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false
+        },
+        {
+            "nome": "",
+            "id": "formato",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false
+        }
+    ],
+    "regra": "1",
+    "acoes": {
+        "opcoes": {
+            "acoes": true,
+            "editar": true,
+            "apagar": false,
+            "vizualizar": false,
+            "importador": false,
+            "exportador": false,
+            "filtro": true,
+            "colunas": false,
+            "multiplo": true
+        },
+        "rotas": {
+            "editar": "\/a\/midias\/midia",
+            "vizualizar": ""
+        }
+    },
+    "acoesPersonalizadas": []
+}

@@ -1,0 +1,12 @@
+{
+    "diretoriopublico": {
+        "tipo": "check",
+        "label": "Ativar Diretório Público",
+        "descricao": "Ativar página <a href=\"{dominio}/usuarios\" target=\"_blank\">{dominio}/usuarios</a> permitindo procura e filtragem de usuários"
+    },
+    "perfilpublico":{
+        "tipo": "check",
+        "label": "Ativar Página Pública de Usuário",
+        "descricao": "Com essa opção ativa cada usuário do sistema terá sua própria página"
+    }
+}

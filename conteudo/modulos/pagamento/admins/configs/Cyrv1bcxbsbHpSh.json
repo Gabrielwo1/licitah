@@ -1,0 +1,75 @@
+{
+    "banco": "pay_pedidos",
+    "meta": true,
+    "prefixo": "pedido",
+    "url": "1",
+    "colunas": [
+        {
+            "nome": "usuario",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "SvJLniXT0YoscIY8FnHASSuNLOcJRG"
+        },
+        {
+            "nome": "total",
+            "nulo": false,
+            "tipo": "float",
+            "input": "VDWZXtfw5HjyHqdWOyBQmBuSZSxq83",
+            "sizes": {
+                "inteiro": 10,
+                "decimal": 2
+            }
+        },
+        {
+            "nome": "estado",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "OqgxxF0iM4hWAASkqphFCWgiVD8hso"
+        },
+        {
+            "nome": "carrinho",
+            "nulo": true,
+            "tipo": "int",
+            "unico": false,
+            "input": "bwJYT24eiwxKmkjlZKoQHQeAbEf4ar"
+        },
+        {
+            "nome": "tipo",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "Lqlxn7wnHphhQEBhQxWDAwCR9K9HNn"
+        }
+    ],
+    "estrutura": {
+        "meta": true,
+        "hash": true,
+        "autor": true,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "ordenador": false,
+        "url": true,
+        "urledit": false,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false,
+        "desabilitarNovo": true,
+        "desabilitarEdicao": false,
+        "reordenador": false,
+        "pontos": false
+    },
+    "metas": {
+        "5ddI4aStVfgQ2hdtPyVyaazZVaKl40": "total",
+        "VpKJp9FLqZ2sgNAy0wSrrujlvHQP6l": "frete",
+        "H6KYd9cNonxnDbJXq7r5Na7c4jLFF5": "desconto",
+        "JhorDGgjLvgbsM3uUExNOItgdoz9cp": "",
+        "GejguZFJTThs4l793ZR6pKm9dVx6hS": "meio_pagamento",
+        "QUV1gfewKouMqBva9pjyOBrfzGL53M": "andamento_status",
+        "6uGqA7tp0g3xsrKb2yZkiaq5JEH07e": "cancelamento_status"
+    }
+}

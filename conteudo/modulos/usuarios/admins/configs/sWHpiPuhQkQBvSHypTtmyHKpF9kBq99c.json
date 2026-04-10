@@ -1,0 +1,85 @@
+{
+    "banco": "usuarios",
+    "meta": true,
+    "prefixo": "usuario",
+    "url": false,
+    "colunas": [
+        {
+            "nome": "email",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": true,
+            "input": "IYgzGBCnuKSVNIw30U8XKe2Yad2D5h",
+            "size": 50
+        },
+        {
+            "nome": "user",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": true,
+            "input": "iZGDwXlS4fWTejK2qJbXUNhfa3sw43",
+            "size": 50
+        },
+        {
+            "nome": "telefone",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": true,
+            "input": "0etaBrMp9sg7bqfOqjBwSj9wH1U4tm",
+            "size": 30
+        },
+        {
+            "nome": "cpf",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": true,
+            "input": "jjiDyU9Cnf5xxUVGDGCClHzQb7d7Sb",
+            "size": 20
+        },
+        {
+            "nome": "display",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "aDmMBBVyUp9WuIvNM1At8yNfLZB7MX",
+            "size": 100
+        },
+        {
+            "nome": "funcao",
+            "nulo": false,
+            "tipo": "estrangeiro",
+            "input": "tiws0iPlVKibbYX808sHOu6gGdKIZX",
+            "render": {
+                "modulo": "usuarios",
+                "banco": "pZ5qfBZdIkw0Xsy",
+                "colunas": [
+                    "funcao_nome"
+                ]
+            }
+        },
+        {
+            "nome": "ativo",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "UjkumLkC10iQEk3eyq7EyvELty8c6F"
+        }
+    ],
+    "estrutura": {
+        "meta": true,
+        "hash": true,
+        "autor": false,
+        "render": true,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "url": false,
+        "urledit": false,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false
+    },
+    "metas": []
+}

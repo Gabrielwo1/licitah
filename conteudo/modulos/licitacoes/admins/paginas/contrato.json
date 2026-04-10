@@ -1,0 +1,16 @@
+{
+    "nome": "Contrato",
+    "tipo": "1",
+    "id": "09Apo2VtnVUyypJLnJWDPd39BxbeIeEW",
+    "btns": [
+        {
+            "texto": "Todos os Contratos",
+            "tipo": "1",
+            "callback": "a\/licitacoes\/contratos",
+            "id": "",
+            "icone": ""
+        }
+    ],
+    "titulo": "{novo} Contrato",
+    "breadcrumbs": false
+}

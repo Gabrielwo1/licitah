@@ -1,0 +1,73 @@
+{
+    "nome": "Vídeos",
+    "banco": "fAZFk5JN9rO6JlH",
+    "tipo": 2,
+    "subtipo": 1,
+    "itens": [
+        {
+            "nome": "titulo",
+            "banco": "p",
+            "chave": "titulo"
+        },
+        {
+            "nome": "curta",
+            "banco": "p",
+            "chave": "curta"
+        },
+        {
+            "nome": "render",
+            "banco": "p",
+            "chave": "render"
+        },
+        {
+            "nome": "descricao",
+            "banco": "p",
+            "chave": "descricao"
+        },
+        {
+            "nome": "autor",
+            "banco": "p",
+            "chave": "autor"
+        },
+        {
+            "nome": "url",
+            "banco": "p",
+            "chave": "url"
+        },
+        {
+            "nome": "categoria",
+            "banco": "p",
+            "chave": "categoria"
+        },
+        {
+            "nome": "tags",
+            "banco": "p",
+            "chave": "tags"
+        },
+        {
+            "nome": "seo",
+            "banco": "p",
+            "chave": "seo"
+        },
+        {
+            "nome": "imagem",
+            "banco": "p",
+            "chave": "imagemDestaque"
+        },
+        {
+            "nome": "link",
+            "banco": "p",
+            "chave": "link"
+        },
+        {
+            "nome": "data",
+            "banco": "p",
+            "chave": "dataCriacao"
+        },
+        {
+            "nome": "origem",
+            "banco": "p",
+            "chave": "origem"
+        }
+    ]
+}

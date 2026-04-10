@@ -1,0 +1,48 @@
+{
+    "banco": "notificacoes_pre",
+    "meta": false,
+    "prefixo": "notificacao_pre",
+    "url": false,
+    "colunas": [
+        {
+            "nome": "conteudo",
+            "nulo": false,
+            "tipo": "json",
+            "unico": false,
+            "input": "DaVMA8Pml364dPkN45u349FdJkcTDU"
+        },
+        {
+            "nome": "setup",
+            "nulo": false,
+            "tipo": "json",
+            "unico": false,
+            "input": "E9H4zEhMjQlOasCdQ0ShidKcK6pTLC"
+        }
+    ],
+    "estrutura": {
+        "meta": false,
+        "hash": false,
+        "autor": false,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "ordenador": false,
+        "url": false,
+        "urledit": false,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false,
+        "autoria": false,
+        "wildcard": false,
+        "atributos": false,
+        "destaque": false,
+        "enderecos": false,
+        "desabilitarNovo": false,
+        "desabilitarEdicao": false,
+        "reordenador": false,
+        "pontos": false
+    },
+    "metas": []
+}

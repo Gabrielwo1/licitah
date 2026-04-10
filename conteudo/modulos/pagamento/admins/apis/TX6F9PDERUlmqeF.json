@@ -1,0 +1,22 @@
+{
+    "nome": "Pedidos por Autor e Estado",
+    "banco": "Cyrv1bcxbsbHpSh",
+    "tipo": 2,
+    "subtipo": 5,
+    "itens": [],
+    "number": {
+        "comentarios": false,
+        "reacoes": false,
+        "favoritos": false,
+        "visualizacoes": false
+    },
+    "extra": {
+        "ativo": true,
+        "coluna": "estado",
+        "tipo": ">="
+    },
+    "clone": {
+        "ativo": true,
+        "api": "rYRiEft6q88sNev"
+    }
+}

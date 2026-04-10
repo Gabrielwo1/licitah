@@ -1,0 +1,83 @@
+{
+    "nome": "Artigos por categoria",
+    "banco": "VFx1EY01nDXSfRa",
+    "tipo": 2,
+    "subtipo": 3,
+    "itens": [
+        {
+            "nome": "texto",
+            "banco": "p",
+            "chave": "texto"
+        },
+        {
+            "nome": "descricao",
+            "banco": "p",
+            "chave": "descricao"
+        },
+        {
+            "nome": "hash",
+            "banco": "p",
+            "chave": "hash"
+        },
+        {
+            "nome": "id",
+            "banco": "p",
+            "chave": "id"
+        },
+        {
+            "nome": "autor",
+            "banco": "p",
+            "chave": "autor"
+        },
+        {
+            "nome": "update",
+            "banco": "p",
+            "chave": "dataUpdate"
+        },
+        {
+            "nome": "data",
+            "banco": "p",
+            "chave": "dataCriacao"
+        },
+        {
+            "nome": "url",
+            "banco": "p",
+            "chave": "url"
+        },
+        {
+            "nome": "imagem",
+            "banco": "p",
+            "chave": "imagemDestaque"
+        },
+        {
+            "nome": "tags",
+            "banco": "p",
+            "chave": "tags"
+        },
+        {
+            "nome": "seo",
+            "banco": "p",
+            "chave": "seo"
+        },
+        {
+            "nome": "categoria",
+            "banco": "p",
+            "chave": "categoria"
+        },
+        {
+            "nome": "video",
+            "banco": "m",
+            "chave": "video"
+        },
+        {
+            "nome": "titulo",
+            "banco": "p",
+            "chave": "titulo"
+        },
+        {
+            "nome": "render",
+            "banco": "p",
+            "chave": "render"
+        }
+    ]
+}

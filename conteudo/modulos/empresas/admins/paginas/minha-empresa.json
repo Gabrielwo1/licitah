@@ -1,0 +1,16 @@
+{
+    "nome": "minha-empresa",
+    "tipo": "1",
+    "id": "9mX3WKIb9DI9qEW",
+    "btns": [
+        {
+            "texto": "Minhas Empresas",
+            "tipo": "1",
+            "callback": "a\/empresas\/minhas-empresas",
+            "id": "",
+            "icone": ""
+        }
+    ],
+    "titulo": "{nova} Empresa",
+    "breadcrumbs": false
+}

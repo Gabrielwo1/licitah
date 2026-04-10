@@ -1,0 +1,12 @@
+{
+    "id":{
+        "label": "ID da instância",
+        "tipo": "input",
+        "descricao": "Defina o ID da instância do WhatsApp"
+    },
+    "token":{
+        "label": "Token",
+        "tipo": "input",
+        "descricao": "Defina seu Token de Instância"
+    }
+}

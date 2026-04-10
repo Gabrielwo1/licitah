@@ -1,0 +1,150 @@
+{
+    "nome": "Dispositivos",
+    "banco": "gnR1OlqOIn7voSKgRThnwK04wQfGM4dU",
+    "colunas": [
+        {
+            "nome": "Tipo",
+            "id": "tipo",
+            "tipo": "1",
+            "render": "personalizado",
+            "regra": [
+                "",
+                "Mobile",
+                "Tablet",
+                "Computador"
+            ],
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "tabulavel": false,
+            "pesquisavel": false,
+            "colpesquisavel": false
+        },
+        {
+            "nome": "Sistema Operacional",
+            "id": "plataforma",
+            "tipo": "1",
+            "render": "personalizado",
+            "regra": [
+                "",
+                "Android",
+                "IOS",
+                "Windows",
+                "Mac",
+                "Linux",
+                "Outros"
+            ],
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "tabulavel": false,
+            "pesquisavel": false,
+            "colpesquisavel": false
+        },
+        {
+            "nome": "Navegador",
+            "id": "navegador",
+            "tipo": "1",
+            "render": "personalizado",
+            "regra": [
+                "",
+                "Chrome",
+                "Edge",
+                "Firefox",
+                "Safari",
+                "Opera",
+                "Internet Explorer",
+                "Outros"
+            ],
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "tabulavel": false,
+            "pesquisavel": false,
+            "colpesquisavel": false
+        },
+        {
+            "nome": "Bot",
+            "id": "bot",
+            "tipo": "1",
+            "render": "personalizado",
+            "regra": [
+                "Não",
+                "Sim"
+            ],
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "tabulavel": false,
+            "pesquisavel": false,
+            "colpesquisavel": false
+        },
+        {
+            "nome": "Idioma",
+            "id": "idioma",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "tabulavel": false,
+            "pesquisavel": false,
+            "colpesquisavel": false,
+            "estrangeira": 0
+        },
+        {
+            "nome": "Registro",
+            "id": "data",
+            "tipo": "1",
+            "render": "data",
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "tabulavel": false,
+            "pesquisavel": false,
+            "colpesquisavel": false,
+            "estrangeira": 0
+        }
+    ],
+    "regra": "1",
+    "acoes": {
+        "opcoes": {
+            "acoes": false,
+            "editar": false,
+            "apagar": false,
+            "vizualizar": false,
+            "duplicar": false,
+            "importador": false,
+            "exportador": false,
+            "filtro": false,
+            "colunas": false,
+            "multiplo": false,
+            "ordenador": false,
+            "filtrodata": false,
+            "filtrosuconta": false,
+            "bigdata": true
+        },
+        "rotas": {
+            "editar": "",
+            "vizualizar": ""
+        }
+    },
+    "layout": {
+        "modo": "1",
+        "container": "0"
+    },
+    "acoesPersonalizadas": [],
+    "dataFilter": "0",
+    "condicional": {
+        "ativo": "0",
+        "coluna": "",
+        "tipo": "=",
+        "valor": ""
+    },
+    "condicional2": {
+        "ativo": "0",
+        "coluna": "",
+        "tipo": "=",
+        "valor": ""
+    }
+}

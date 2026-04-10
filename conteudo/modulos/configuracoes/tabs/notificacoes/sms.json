@@ -1,0 +1,12 @@
+{
+    "apikey":{
+        "label": "Api Key",
+        "tipo": "input",
+        "descricao": "Defina sua Api Key Vonage"
+    },
+    "apisecret":{
+        "label": "Aki Secret",
+        "tipo": "input",
+        "descricao": "Defina sua Api Secret Vonage"
+    }
+}

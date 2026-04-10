@@ -1,0 +1,108 @@
+{
+    "id": "363",
+    "nome": "Notificações | Pré",
+    "hash": "MtdqzD1zLSiysZHWRURmd5KtyqqeKzlX",
+    "data": "2025-01-31 12:23:32",
+    "tamanho": 2,
+    "inputs": [
+        {
+            "id": "9280",
+            "tipo": "textarea",
+            "nome": "Conteúdo",
+            "obrigatorio": "0",
+            "data": "2025-01-31 12:24:39",
+            "pai": "0",
+            "posicao": "0",
+            "hash": "DaVMA8Pml364dPkN45u349FdJkcTDU",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": "Conteúdo",
+                    "descricao": "",
+                    "obrigatorio": 0,
+                    "somente-leitura": 0
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "tamanho": {
+                    "ativar": 0,
+                    "maximo": "",
+                    "minimo": ""
+                },
+                "label": {
+                    "placeholder": "",
+                    "sub-label": "",
+                    "tooltip": ""
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": ""
+                },
+                "identificador": {
+                    "id": "",
+                    "classes": ""
+                },
+                "nown": {
+                    "ativo": 0,
+                    "modulo": "",
+                    "paginacao": "",
+                    "chave": "",
+                    "valor": ""
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "9281",
+            "tipo": "textarea",
+            "nome": "Setup",
+            "obrigatorio": "0",
+            "data": "2025-01-31 12:24:48",
+            "pai": "0",
+            "posicao": "1",
+            "hash": "E9H4zEhMjQlOasCdQ0ShidKcK6pTLC",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": "Setup",
+                    "descricao": "",
+                    "obrigatorio": 0,
+                    "somente-leitura": 0
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "tamanho": {
+                    "ativar": 0,
+                    "maximo": "",
+                    "minimo": ""
+                },
+                "label": {
+                    "placeholder": "",
+                    "sub-label": "",
+                    "tooltip": ""
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": ""
+                },
+                "identificador": {
+                    "id": "",
+                    "classes": ""
+                },
+                "nown": {
+                    "ativo": 0,
+                    "modulo": "",
+                    "paginacao": "",
+                    "chave": "",
+                    "valor": ""
+                }
+            },
+            "filhos": []
+        }
+    ],
+    "infos": []
+}

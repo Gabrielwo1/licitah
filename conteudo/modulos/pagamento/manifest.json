@@ -1,0 +1,85 @@
+{
+    "name": "Pagamento",
+    "description": "Checkout integrado, aceitando cartão de crédito , PIX, boleto e criptomoedas por meio de múltiplos gateways.",
+    "descriptionLong": "O módulo Pagamento é a peça central para viabilizar transações financeiras no sistema, oferecendo um checkout integrado e seguro. Com suporte abrangente para cartão de crédito, PIX, boleto bancário e criptomoedas, este módulo possibilita a realização de pagamentos rápidos e confiáveis por meio de diversos gateways. Essa flexibilidade garante que o sistema atenda a diferentes preferências de pagamento, proporcionando uma experiência de compra eficiente e conveniente. Além disso, conta com ferramentas avançadas para monitoramento, conciliação e segurança das transações, assegurando o cumprimento dos padrões de segurança e a integridade dos dados. Com uma interface intuitiva e robusta, o módulo de Pagamento otimiza a gestão financeira e fortalece a confiança dos usuários em cada etapa do processo de compra.",
+    "icon": "bi bi-cash",
+    "ativo": "true",
+    "multiconta": false,
+    "readonly": false,
+    "sub": [
+        {
+            "name": "Dashboard",
+            "link": "a\/pagamento"
+        },
+        {
+            "name": "Pagamentos",
+            "link": "a\/pagamento\/pagamentos"
+        },
+        {
+            "name": "Pedidos",
+            "link": "a\/pagamento\/pedidos"
+        },
+        {
+            "name": "Assinaturas",
+            "link": "a\/pagamento\/assinaturas"
+        },
+        {
+            "name": "Carrinhos",
+            "link": "a\/pagamento\/carrinhos"
+        },
+        {
+            "name": "Itens do Site",
+            "link": "a\/pagamento\/itens"
+        },
+        {
+            "name": "Saldos ",
+            "link": "a\/pagamento\/saldos"
+        },
+        {
+            "name": "Doações",
+            "link": "a\/pagamento\/doacoes"
+        },
+        {
+            "name": "Promoções",
+            "link": "a\/pagamento\/promocoes"
+        },
+        {
+            "name": "Cupons",
+            "link": "a\/pagamento\/cupons"
+        },
+        {
+            "name": "Relatórios",
+            "link": "a\/pagamento\/relatorios"
+        },
+        {
+            "name": "Sistema de Pontos",
+            "link": "a\/pagamento\/pontos"
+        },
+        {
+            "name": "Pontuações",
+            "link": "a\/pagamento\/pontuacoes"
+        }
+    ],
+    "configs": [
+        "Configurações",
+        "Pagamentos",
+        "Recorrência",
+        "Pix",
+        "Cartão de Crédito",
+        "Saldo",
+        "Doação",
+        "Faturas",
+        "Nown Pagamentos",
+        "Asaas",
+        "Criptomoedas",
+        "Efi",
+        "Mercado Pago",
+        "Pagbank",
+        "Payoneer",
+        "Paypal",
+        "Skril",
+        "Stripe",
+        "Safe2Pay"
+    ],
+    "versao": "1.59"
+}

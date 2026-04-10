@@ -1,0 +1,66 @@
+{
+    "nome": "Assinaturas",
+    "banco": "XE3ZXs6k9gMc8jJTePvH1PiWoK1tsv5M",
+    "colunas": [
+        {
+            "nome": "Usuário",
+            "id": "usuario",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "estrangeira": 0
+        },
+        {
+            "nome": "Inicio",
+            "id": "inicio",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "estrangeira": 0
+        },
+        {
+            "nome": "Fim",
+            "id": "fim",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "estrangeira": 0
+        },
+        {
+            "nome": "Plano",
+            "id": "plano",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "estrangeira": 0
+        }
+    ],
+    "regra": "1",
+    "acoes": {
+        "opcoes": {
+            "acoes": true,
+            "editar": true,
+            "apagar": true,
+            "vizualizar": false,
+            "importador": false,
+            "exportador": false,
+            "filtro": false,
+            "colunas": false,
+            "multiplo": false,
+            "ordenador": true
+        },
+        "rotas": {
+            "editar": "a\/assinaturas\/assinatura",
+            "vizualizar": ""
+        }
+    },
+    "layout": {
+        "modo": "1",
+        "container": "0"
+    },
+    "acoesPersonalizadas": []
+}

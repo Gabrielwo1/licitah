@@ -1,0 +1,53 @@
+{
+    "nome": "Categorias",
+    "banco": "ic4zvImG0d5ompb",
+    "colunas": [
+        {
+            "nome": "Nome",
+            "id": "nome",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false
+        },
+        {
+            "nome": "Tipo",
+            "id": "tipo",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false
+        },
+        {
+            "nome": "Classificação",
+            "id": "iscat",
+            "tipo": "1",
+            "render": "6",
+            "regra": [
+                "Tag",
+                "Categoria"
+            ],
+            "invisivel": false,
+            "editavel": false
+        }
+    ],
+    "regra": "1",
+    "acoes": {
+        "opcoes": {
+            "acoes": true,
+            "editar": true,
+            "apagar": true,
+            "vizualizar": true,
+            "importador": false,
+            "exportador": false,
+            "filtro": false,
+            "colunas": false,
+            "multiplo": true
+        },
+        "rotas": {
+            "editar": "a\/categorias\/categoria",
+            "vizualizar": "categoria\/"
+        }
+    },
+    "acoesPersonalizadas": []
+}

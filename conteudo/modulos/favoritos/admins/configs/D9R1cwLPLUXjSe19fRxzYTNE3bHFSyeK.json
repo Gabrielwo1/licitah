@@ -1,0 +1,57 @@
+{
+    "banco": "favoritos",
+    "meta": false,
+    "prefixo": "favorito",
+    "url": false,
+    "colunas": [
+        {
+            "nome": "modulo",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "EpnwWC077IUUKbvedYDpcSXPOoInsm",
+            "size": 50
+        },
+        {
+            "nome": "identificador",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "JE9X5x9mJCb8OxbSirQuThYviXKuNX"
+        },
+        {
+            "nome": "conta",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "Zb89n1bXMQLfF2wtaBM8VOu0QPfOm3"
+        }
+    ],
+    "estrutura": {
+        "meta": false,
+        "hash": false,
+        "autor": true,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "ordenador": false,
+        "url": false,
+        "urledit": false,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false,
+        "autoria": false,
+        "wildcard": false,
+        "atributos": false,
+        "destaque": false,
+        "enderecos": false,
+        "subconta": false,
+        "desabilitarNovo": false,
+        "desabilitarEdicao": false,
+        "reordenador": false,
+        "pontos": false
+    },
+    "metas": []
+}

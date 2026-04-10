@@ -1,0 +1,12 @@
+{   
+    "tokenproducao":{
+         "tipo":"input",
+         "label": "Token de Produção",
+         "descricao": "Seu Token de Produção Stripe"
+      },
+    "tokensandbox":{
+         "tipo":"input",
+         "label": "Token Sandbox",
+         "descricao": "Seu Token Sandbox Stripe"
+      }
+}

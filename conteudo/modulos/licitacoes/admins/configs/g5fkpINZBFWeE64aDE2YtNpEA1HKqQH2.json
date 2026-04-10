@@ -1,0 +1,55 @@
+{
+    "banco": "licitacoes_classes",
+    "meta": false,
+    "prefixo": "licitacoes_classe",
+    "url": false,
+    "colunas": [
+        {
+            "nome": "codigo",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": true,
+            "input": "8luYSxTaZEBXZugq0rwWpaENOysfEH",
+            "size": 20
+        },
+        {
+            "nome": "nome",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "NJGjJsndKXwgobrmwWJrMCwIeHN2Os",
+            "size": 200
+        },
+        {
+            "nome": "grupo",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "lv9WF89uDehlmX9GsYRA0NaNgGj7AH"
+        }
+    ],
+    "estrutura": {
+        "meta": false,
+        "hash": true,
+        "autor": false,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "ordenador": false,
+        "url": false,
+        "urledit": false,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false,
+        "autoria": false,
+        "wildcard": false,
+        "atributos": false,
+        "desabilitarNovo": false,
+        "desabilitarEdicao": false,
+        "reordenador": false,
+        "pontos": false
+    },
+    "metas": []
+}

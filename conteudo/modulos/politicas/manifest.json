@@ -1,0 +1,9 @@
+{
+    "name": "Politicas",
+    "description": "Politicas do Site",
+    "descriptionLong": "",
+    "icon": "bi bi-highlighter",
+    "ativo": "true",
+    "link": "a\/politicas",
+    "versao": "0.03"
+}

@@ -1,0 +1,14 @@
+{
+
+    "ativo":{
+        "tipo": "check",
+        "label":"Ativar Pixel Facebook",
+        "descricao": "Adicione os Scritps do Facebook / Instagram Ads"
+    },
+    "id":{
+        "tipo": "input",
+        "label": "Pixel ID",
+        "descricao": "Digite o ID do seu Pixel Facebook",
+        "condicional": "ativo"
+    }
+}

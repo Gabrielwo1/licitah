@@ -1,0 +1,26 @@
+{
+    "provedor": {
+        "label": "Provedor de Serviço",
+        "tipo": "select",
+        "opcoes": [
+            {"chave": "Selecione o provedor", "valor": 0},
+            {"chave": "Pusher", "valor": 1},
+            {"chave": "Google Firebase", "valor": 2}
+            ],
+        "descricao": "Escolha qual serviço para a notificação push do sistema"
+    },
+    "instanceid":{
+        "label": "ID da Instancia",
+        "tipo": "input",
+        "condicional": "provedor",
+        "valorcondicao": 1,
+        "descricao": "Coloque o Instance ID da aplicação Pusher"
+    },
+    "secretkey":{
+        "label": "Chave Secreta",
+        "tipo": "input",
+        "condicional": "provedor",
+        "valorcondicao": 1,
+        "descricao": "Coloque a Primary key da aplicação Pusher"
+    }
+}

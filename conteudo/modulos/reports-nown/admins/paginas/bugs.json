@@ -1,0 +1,16 @@
+{
+    "nome": "Bugs",
+    "tipo": "1",
+    "id": "xiFxvUBvBERYakg",
+    "btns": [
+        {
+            "texto": "Ver Todos",
+            "tipo": "1",
+            "callback": "a\/reports-nown",
+            "id": "",
+            "icone": "bi bi-list-check"
+        }
+    ],
+    "titulo": "{novo} Bug",
+    "breadcrumbs": true
+}

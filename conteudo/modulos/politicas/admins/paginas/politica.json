@@ -1,0 +1,16 @@
+{
+    "nome": "Politica",
+    "tipo": "1",
+    "id": "LOI7N7DViTJCtETZ2JzYG2h6lpqnADiu",
+    "btns": [
+        {
+            "texto": "Ver Todas",
+            "tipo": "1",
+            "callback": "a\/politicas",
+            "id": "",
+            "icone": ""
+        }
+    ],
+    "titulo": "{nova} Politica",
+    "breadcrumbs": true
+}

@@ -1,0 +1,7 @@
+{ 
+    "ativar":{
+        "label": "Ativar Botão Voltar ao Topo",
+        "tipo":"check",
+         "descricao": "Personalize as barras de rolagem"
+      }
+}

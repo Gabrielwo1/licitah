@@ -1,0 +1,144 @@
+{
+    "nome": "Meus Favoritos",
+    "banco": "LFqWUIYwMvqzYEeha6p6nGuhRElyfct4",
+    "tipo": 7,
+    "subtipo": null,
+    "itens": [
+        {
+            "nome": "id",
+            "banco": "p",
+            "chave": "id",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "objeto",
+            "banco": "p",
+            "chave": "objeto",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "att",
+            "banco": "p",
+            "chave": "att",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "itens",
+            "banco": "p",
+            "chave": "itens",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "data",
+            "banco": "p",
+            "chave": "dataCriacao",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "url",
+            "banco": "p",
+            "chave": "url",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "unidadeOrgaoUfSigla",
+            "banco": "m",
+            "chave": "unidadeOrgaoUfSigla",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "unidadeOrgaoNomeUnidade",
+            "banco": "m",
+            "chave": "unidadeOrgaoNomeUnidade",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "unidadeOrgaoCodigoUnidade",
+            "banco": "m",
+            "chave": "unidadeOrgaoCodigoUnidade",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "valorTotalEstimado",
+            "banco": "m",
+            "chave": "valorTotalEstimado",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "numeroCompra",
+            "banco": "m",
+            "chave": "numeroCompra",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "dataInclusaoPncp",
+            "banco": "m",
+            "chave": "dataInclusaoPncp",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "valorTotalHomologado",
+            "banco": "m",
+            "chave": "valorTotalHomologado",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "dataAberturaPropostaPncp",
+            "banco": "m",
+            "chave": "dataAberturaPropostaPncp",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "dataEncerramentoPropostaPncp",
+            "banco": "m",
+            "chave": "dataEncerramentoPropostaPncp",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "anoCompraPncp",
+            "banco": "m",
+            "chave": "anoCompraPncp",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "sequencialCompraPncp",
+            "banco": "m",
+            "chave": "sequencialCompraPncp",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "orgaoEntidadeCnpj",
+            "banco": "m",
+            "chave": "orgaoEntidadeCnpj",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "dataPublicacaoPncp",
+            "banco": "m",
+            "chave": "dataPublicacaoPncp",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "unidadeOrgaoMunicipioNome",
+            "banco": "m",
+            "chave": "unidadeOrgaoMunicipioNome",
+            "estrangeiro": 0
+        }
+    ],
+    "number": {
+        "comentarios": false,
+        "reacoes": false,
+        "favoritos": true,
+        "visualizacoes": false
+    },
+    "extra": {
+        "ativo": false,
+        "coluna": "",
+        "tipo": "="
+    },
+    "clone": {
+        "ativo": false,
+        "api": ""
+    },
+    "geolocalizacao": false
+}

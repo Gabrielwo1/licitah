@@ -1,0 +1,37 @@
+{   "Produção":{
+  "tipo": "titulo"  
+},
+    "clienteid":{
+         "tipo":"input",
+         "label": "Chave Client ID",
+         "descricao": "Seu cliente ID de produção"
+      },
+    "chavesecreta":{
+         "tipo":"input",
+         "label": "Chave Secret",
+         "descricao": "Sua chave secreta de produção"
+      },
+      "certificado":{
+         "tipo":"file",
+         "label": "Certificado",
+         "descricao": "Seu certificado de produção"
+      },
+       "HOMOLOGAÇÃO":{
+  "tipo": "titulo"  
+},
+    "clienteidsand":{
+         "tipo":"input",
+         "label": "Chave Client ID",
+         "descricao": "Seu cliente ID de homologação"
+      },
+    "chavesecretasand":{
+         "tipo":"input",
+         "label": "Chave Secret",
+         "descricao": "Sua chave secreta de homologação"
+      },
+        "certificadosand":{
+         "tipo":"file",
+         "label": "Certificado Sand Box",
+         "descricao": "Seu certificado de homologação"
+      }
+}

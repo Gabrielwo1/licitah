@@ -1,0 +1,46 @@
+{
+    "nome": "Usuários Ativos",
+    "tipoGrafico": "tempo",
+    "graficoPrimario": "linha",
+    "bancoDeDados": "7gFgoC5oPHYykur",
+    "colunaData": "data",
+    "filtro": "1",
+    "trato": "",
+    "grafico": {
+        "periodo": "minuto",
+        "sub": "contagem",
+        "agrupamento": "1",
+        "categoria": "",
+        "conta": "usuario",
+        "espacos": {
+            "minuto": true,
+            "hora": false,
+            "dia": false,
+            "semana": false,
+            "mes": false
+        }
+    },
+    "layout": {
+        "primario": "linha",
+        "periodoinicial": "Hoje",
+        "titulo": "Usuários Online",
+        "alteralayout": false,
+        "selecionarperiodo": false,
+        "drop": false,
+        "horas": false
+    },
+    "extra": {
+        "layout": "1",
+        "bg": "#000000",
+        "color": "#000000",
+        "prefixo": "",
+        "sufixo": "",
+        "listaCores": ""
+    },
+    "condicional": {
+        "ativo": "0",
+        "coluna": "",
+        "tipo": "=",
+        "valor": ""
+    }
+}

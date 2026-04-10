@@ -1,0 +1,205 @@
+{
+    "banco": "enderecos_paises",
+    "meta": false,
+    "prefixo": "enderecos_pais",
+    "url": "1",
+    "colunas": [
+        {
+            "nome": "nome",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "DmtG1SnMnOz7Tp1i4LSooZb4XKjMTE",
+            "size": 50
+        },
+        {
+            "nome": "capital",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "E7Hf7lMFBfbVK9eY859lX7htmWjFnp",
+            "size": 50
+        },
+        {
+            "nome": "nascionalidade",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "zW2KVRYNPtgLgpr327R5iMMuH16VRH",
+            "size": 50
+        },
+        {
+            "nome": "tld",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "regVbANjBy35r8SVW3i9Dk1zXCzRm4",
+            "size": 10
+        },
+        {
+            "nome": "nativo",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "NNxdwf7fQb9zxWvv4EjBxTM1cDZXiK",
+            "size": 50
+        },
+        {
+            "nome": "emoji",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "2dOFgqnzRcwA14Qw67UrpxrmnI6ZgC",
+            "size": 10
+        },
+        {
+            "nome": "emojiu",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "81CqOLuo4hne7JroNfqAXkAw1EedAi",
+            "size": 10
+        },
+        {
+            "nome": "moeda",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "JSbeelbcGmvydpGU1uRHyHrf4KfiGo",
+            "size": 10
+        },
+        {
+            "nome": "moedanome",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "OnaeAQyKPUVSWYXCeeK7SZXw2OSlyD",
+            "size": 50
+        },
+        {
+            "nome": "moedasimbolo",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "8CHJgNoEdEPIzbvCGUalRqiA8xqGkG",
+            "size": 10
+        },
+        {
+            "nome": "traducoes",
+            "nulo": false,
+            "tipo": "json",
+            "unico": false,
+            "input": "Wrw35WpqcqZe1GKpME5MW5v37mvNXL"
+        },
+        {
+            "nome": "timezones",
+            "nulo": false,
+            "tipo": "json",
+            "unico": false,
+            "input": "EPA77JFr7hpba7jA8HstuIrOjDelBh"
+        },
+        {
+            "nome": "regiao",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "XFMyjNjh0ANAK0KzkSmydYDBzAS5sN"
+        },
+        {
+            "nome": "subregiao",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "8iQTgjXFAgIbXrYJkJ2AHWBhEnOqks"
+        },
+        {
+            "nome": "latitude",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "R6gBRVnLD1HQJ9zJbE5RtsgttiqxOG",
+            "size": 20
+        },
+        {
+            "nome": "longitude",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "wAV3sgA7MWZi40b9WqWKxiczU0sApH",
+            "size": 20
+        },
+        {
+            "nome": "iso2",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "Wazd0AeydJQYZOQFhZ6G1N5Qtn8OlL",
+            "size": 10
+        },
+        {
+            "nome": "iso3",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "qCrUNVEYyg8tyBSuz1G7W1PtaOIj5S",
+            "size": 10
+        },
+        {
+            "nome": "numerico",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "kX0rK2puauT3AMF9a7s1ZII1iogB22",
+            "size": 10
+        },
+        {
+            "nome": "telefonico",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "RF966FBzvAMB6GoScxEIKtU3Aijm8Z"
+        },
+        {
+            "nome": "externo",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "mUMi0blcrsfv6ZX6ndArVAcB6b2vyX"
+        },
+        {
+            "nome": "slug",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "QQps8xwLoENhoQspwdZDlaQ95Ye1F3",
+            "size": 50
+        }
+    ],
+    "estrutura": {
+        "meta": false,
+        "hash": true,
+        "autor": false,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "ordenador": false,
+        "url": true,
+        "urledit": false,
+        "imagemDestaque": true,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false,
+        "autoria": false,
+        "wildcard": false,
+        "atributos": false,
+        "destaque": false,
+        "desabilitarNovo": true,
+        "desabilitarEdicao": true,
+        "reordenador": false,
+        "pontos": false
+    },
+    "metas": {
+        "2ZPPwlFDNhgm3XWaZ1iy4sZialmZBY": ""
+    }
+}

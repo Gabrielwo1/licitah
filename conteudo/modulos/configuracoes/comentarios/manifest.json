@@ -1,0 +1,8 @@
+{
+    "name": "Comentarios",
+    "description": "Cadastra, edite e delete, artigos, categorias e tags do seu blog.",
+    "icon": "forum",
+    "link": "a\/comentarios",
+    "versao": "0.02",
+    "ativo": "false"
+}

@@ -1,0 +1,16 @@
+{
+    "nome": "Função",
+    "tipo": "1",
+    "id": "mzaA2HQA8CXUv49",
+    "btns": [
+        {
+            "texto": "Ver Funções",
+            "tipo": "1",
+            "callback": "a\/empresas\/funcoes",
+            "id": "",
+            "icone": "bi bi-list-check"
+        }
+    ],
+    "titulo": "{novo} Função",
+    "breadcrumbs": true
+}

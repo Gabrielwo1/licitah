@@ -1,0 +1,63 @@
+{
+    "nome": "Licitações Anotações",
+    "banco": "5sWLhbCKXr0QAZcVtxKJF0tHyjbu13Pr",
+    "colunas": [
+        {
+            "nome": "Anotação",
+            "id": "texto",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "estrangeira": 0
+        },
+        {
+            "nome": "Autor",
+            "id": "autor",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "estrangeira": 1,
+            "confiEstrangeira": {
+                "modulo": "usuarios",
+                "banco": "usuarios",
+                "tipo": "1",
+                "coluna": "usuario_display"
+            }
+        },
+        {
+            "nome": "Data de Criação",
+            "id": "data",
+            "tipo": "1",
+            "render": "2",
+            "invisivel": false,
+            "editavel": false,
+            "estrangeira": 0
+        }
+    ],
+    "regra": "1",
+    "acoes": {
+        "opcoes": {
+            "acoes": true,
+            "editar": true,
+            "apagar": true,
+            "vizualizar": false,
+            "importador": false,
+            "exportador": false,
+            "filtro": false,
+            "colunas": false,
+            "multiplo": false,
+            "ordenador": false
+        },
+        "rotas": {
+            "editar": "a\/licitacoes\/anotacao",
+            "vizualizar": ""
+        }
+    },
+    "layout": {
+        "modo": "1",
+        "container": "0"
+    },
+    "acoesPersonalizadas": []
+}

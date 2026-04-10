@@ -1,0 +1,335 @@
+{
+    "id": "171",
+    "nome": "Funções Crud",
+    "hash": "fzP3JKtscjxOypJolXDBJxqpghlu3SXT",
+    "data": "2024-08-18 02:09:48",
+    "tamanho": 7,
+    "inputs": [
+        {
+            "id": "4885",
+            "tipo": "text",
+            "nome": "Módulo",
+            "obrigatorio": "0",
+            "data": "2024-08-18 02:10:32",
+            "pai": "0",
+            "posicao": "0",
+            "hash": "7bCVDQLfCeKYm0gfbG9laai98c5nO7",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": "Módulo",
+                    "descricao": "",
+                    "obrigatorio": 0,
+                    "somente-leitura": 0
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": "",
+                    "sub-label": "",
+                    "tooltip": "",
+                    "prefixo": "",
+                    "sufixo": ""
+                },
+                "valor": {
+                    "tipo": 0,
+                    "fixo": "",
+                    "dinamico": 0,
+                    "arquivo-query": "",
+                    "acao-query": ""
+                },
+                "tamanho": {
+                    "ativar": 0,
+                    "maximo": "",
+                    "minimo": ""
+                },
+                "validacao": {
+                    "mascara": 0
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": ""
+                },
+                "identificador": {
+                    "id": "",
+                    "classes": ""
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "4886",
+            "tipo": "text",
+            "nome": "Formulário",
+            "obrigatorio": "0",
+            "data": "2024-08-18 02:10:39",
+            "pai": "0",
+            "posicao": "1",
+            "hash": "JiXvvtSo2jj6yWgWva5UYHFfDHJM10",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": "Formulário",
+                    "descricao": "",
+                    "obrigatorio": 0,
+                    "somente-leitura": 0
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": "",
+                    "sub-label": "",
+                    "tooltip": "",
+                    "prefixo": "",
+                    "sufixo": ""
+                },
+                "valor": {
+                    "tipo": 0,
+                    "fixo": "",
+                    "dinamico": 0,
+                    "arquivo-query": "",
+                    "acao-query": ""
+                },
+                "tamanho": {
+                    "ativar": 0,
+                    "maximo": "",
+                    "minimo": ""
+                },
+                "validacao": {
+                    "mascara": 0
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": ""
+                },
+                "identificador": {
+                    "id": "",
+                    "classes": ""
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "4888",
+            "tipo": "select",
+            "nome": "Função",
+            "obrigatorio": "0",
+            "data": "2024-08-18 02:12:47",
+            "pai": "0",
+            "posicao": "2",
+            "hash": "HAgPVCn0g4pLP7r1UenrCF63oAjsRm",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": "Função ",
+                    "descricao": " ",
+                    "obrigatorio": 0,
+                    "select-2": 0,
+                    "somente-leitura": 0
+                },
+                "opcoes": {
+                    "multiplo": 0,
+                    "opcoes": " "
+                },
+                "dinamica": {
+                    "smart-triger": 0,
+                    "input-trigger": 0,
+                    "url-trigger": " ",
+                    "acao-trigger": " ",
+                    "opcoes-dinamicas": 1,
+                    "configuracoes": {
+                        "modulo": "usuarios",
+                        "formulario": "Gl0ET7eECTejzdoC3D6NxonM3cbfaE0j.json",
+                        "regra": "1"
+                    },
+                    "arquivo-query": " ",
+                    "acao-query": " "
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": " ",
+                    "sub-label": " ",
+                    "tooltip": " "
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": " "
+                },
+                "identificador": {
+                    "id": " ",
+                    "classes": " "
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "4889",
+            "tipo": "switch",
+            "nome": "Criar",
+            "obrigatorio": "0",
+            "data": "2024-08-18 02:13:08",
+            "pai": "0",
+            "posicao": "3",
+            "hash": "lWur1DIAyxU6RGq6dfIucIS3xw7mPk",
+            "infos": {
+                "basico": {
+                    "label": "Criar",
+                    "descricao": "",
+                    "obrigatorio": 0
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho": 0,
+                    "justificar": 0,
+                    "ordem": 0
+                },
+                "label": {
+                    "sub-label": "",
+                    "tooltip": ""
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": ""
+                },
+                "identificador": {
+                    "id": "",
+                    "classes": ""
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "4890",
+            "tipo": "switch",
+            "nome": "Atualizar",
+            "obrigatorio": "0",
+            "data": "2024-08-18 02:13:15",
+            "pai": "0",
+            "posicao": "4",
+            "hash": "kiiMSa6kKd87yIunXaQliAm1iEtEMo",
+            "infos": {
+                "basico": {
+                    "label": "Atualizar",
+                    "descricao": "",
+                    "obrigatorio": 0
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho": 0,
+                    "justificar": 0,
+                    "ordem": 0
+                },
+                "label": {
+                    "sub-label": "",
+                    "tooltip": ""
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": ""
+                },
+                "identificador": {
+                    "id": "",
+                    "classes": ""
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "4891",
+            "tipo": "switch",
+            "nome": "Deletar",
+            "obrigatorio": "0",
+            "data": "2024-08-18 02:13:26",
+            "pai": "0",
+            "posicao": "5",
+            "hash": "aqJPAUJCDVgqnOChHfUWDKaTr5SxtP",
+            "infos": {
+                "basico": {
+                    "label": "Deletar",
+                    "descricao": "",
+                    "obrigatorio": 0
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho": 0,
+                    "justificar": 0,
+                    "ordem": 0
+                },
+                "label": {
+                    "sub-label": "",
+                    "tooltip": ""
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": ""
+                },
+                "identificador": {
+                    "id": "",
+                    "classes": ""
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "4892",
+            "tipo": "switch",
+            "nome": "Terceiros",
+            "obrigatorio": "0",
+            "data": "2024-08-18 02:13:38",
+            "pai": "0",
+            "posicao": "6",
+            "hash": "ZlMvFGMCP19qUgJ51ObxQyjENgUhsQ",
+            "infos": {
+                "basico": {
+                    "label": "Terceiros",
+                    "descricao": "",
+                    "obrigatorio": 0
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho": 0,
+                    "justificar": 0,
+                    "ordem": 0
+                },
+                "label": {
+                    "sub-label": "",
+                    "tooltip": ""
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": ""
+                },
+                "identificador": {
+                    "id": "",
+                    "classes": ""
+                }
+            },
+            "filhos": []
+        }
+    ],
+    "infos": {
+        "basico": {
+            "label": "Exibir se é doador de órgãos  ?  ",
+            "descricao": "     ",
+            "obrigatorio": 0
+        },
+        "estilo": {
+            "estilo": 1
+        },
+        "label": {
+            "sub-label": "     ",
+            "tooltip": "     "
+        },
+        "logica": {
+            "logica": 0,
+            "setup": "     "
+        }
+    }
+}

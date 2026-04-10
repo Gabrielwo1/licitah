@@ -1,0 +1,46 @@
+{    
+    "nome":{
+        "label": "Nome da Empresa",
+        "tipo":"input",
+        "descricao": "Digite o nome da empresa a ser exibido." 
+    },
+    "logo":{
+        "label": "Logo ou Logo Marca da Empresa",
+        "tipo": "file",
+        "descricao": "Adicione a identidade visual da empresa a fatura"
+    },
+    "cnpj":{
+        "label": "CNPJ da empresa",
+        "tipo":"input",
+        "descricao": "Digite o CNPJ da empresa a ser exibido.",
+        "mask": 2
+    },
+    "endereco":{
+        "label": "Endereço da empresa",
+        "tipo":"input",
+        "descricao": "Digite o endereço da empresa a ser exibido." 
+    },
+     "email":{
+        "label": "Email da empresa",
+        "tipo":"input",
+        "descricao": "Digite o endereço da empresa a ser exibido." ,
+        "mask": "email"
+    },
+     "telefone":{
+        "label": "Telefone da empresa",
+        "tipo":"input",
+        "descricao": "Digite o endereço da empresa a ser exibido.",
+        "mask": 4
+    },
+    "whatsapp":{
+        "label": "Whatsapp da empresa",
+        "tipo":"input",
+        "descricao": "Digite o endereço da empresa a ser exibido.",
+         "mask": 4
+    },
+    "voltar":{
+        "label": "Botão de voltar",
+        "tipo":"check",
+        "descricao": "Exibir botão de voltar para home"
+    }
+}

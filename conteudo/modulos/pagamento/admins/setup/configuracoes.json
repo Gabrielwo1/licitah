@@ -1,0 +1,48 @@
+{    
+    "ativo":{
+        "label": "Ativar Checkout",
+        "tipo":"check",
+        "descricao": "Ao ativar essa opção, o sistema aceitará pagamentos." 
+    },
+    "layout":{
+        "label": "Layout",
+        "tipo":"select",
+         "descricao": "Defina o layout do Fluxo de Pagamento." ,
+         "opcoes": [
+            {"chave":"Minimalista", "valor":1},
+            {"chave":"Multi Step", "valor":2}
+             ]
+    },
+    "producao":{
+        "label": "Produção",
+        "tipo":"check",
+         "descricao": "Ao ativar essa opção as tranzações serão cobradas verdadeiramente." 
+    },
+    "split":{
+        "label": "Sistema Split",
+        "tipo":"check",
+        "descricao": "Ative Split de pagamento. As regras de cobrança serão definidas na configuração de cada módulo." 
+      },
+       "expiracao":{
+        "label": "Expirar Pedido",
+        "tipo":"check",
+        "descricao": "Ative a expiração de pedido, após alguns minutos. Caso ative e não passe valor, será de 5 minutos." 
+      },
+    "expiracaotempo":{
+        "label": "Minutos de Expiração",
+        "tipo":"number",
+        "descricao": "O pedido irá expirar após os minutos definidos.",
+        "condicional": "expiracao"
+      },
+      "obrigado":{
+        "label": "Ativar Página de Agradescimneto após a conclusão bem sucedidade.",
+        "tipo":"check",
+        "descricao": "Caso essa opção esteja desativada o usuário será direcionado para a fatura."
+      },
+       "idagradecimento":{
+        "label": "Adicionar ID do produto na URL.",
+        "tipo":"check",
+        "condicional": "obrigado",
+        "descricao": "Caso o pedido seja de um único produto, colocar o ID na página de obrigado."
+      }
+}

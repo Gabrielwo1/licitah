@@ -1,0 +1,1502 @@
+{
+    "id": "279",
+    "nome": "Endereços - Paises",
+    "hash": "paSUHoOp7TB4M44ShqQAi0bDKSoPdGCy",
+    "data": "2024-11-02 01:00:55",
+    "tamanho": 35,
+    "inputs": [
+        {
+            "id": "7029",
+            "tipo": "text",
+            "nome": "Nome",
+            "obrigatorio": "0",
+            "data": "2024-11-02 10:03:01",
+            "pai": "0",
+            "posicao": "0",
+            "hash": "DmtG1SnMnOz7Tp1i4LSooZb4XKjMTE",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": "Nome",
+                    "descricao": "",
+                    "obrigatorio": 0,
+                    "somente-leitura": 0
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": "",
+                    "sub-label": "",
+                    "tooltip": "",
+                    "prefixo": "",
+                    "sufixo": ""
+                },
+                "valor": {
+                    "tipo": 0,
+                    "fixo": "",
+                    "dinamico": 0,
+                    "arquivo-query": "",
+                    "acao-query": ""
+                },
+                "tamanho": {
+                    "ativar": 0,
+                    "maximo": "",
+                    "minimo": ""
+                },
+                "validacao": {
+                    "mascara": 0
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": ""
+                },
+                "identificador": {
+                    "id": "",
+                    "classes": ""
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "7030",
+            "tipo": "coluna",
+            "nome": null,
+            "obrigatorio": "0",
+            "data": "2024-11-02 10:05:38",
+            "pai": "0",
+            "posicao": "1",
+            "hash": "ob8AMe9HLDBtBK6GMUxNSuoT2VGptz",
+            "infos": [],
+            "filhos": [
+                {
+                    "id": "7031",
+                    "tipo": "col",
+                    "nome": null,
+                    "obrigatorio": "0",
+                    "data": "2024-11-02 10:03:16",
+                    "pai": "7030",
+                    "posicao": "0",
+                    "hash": "0yvEI21enLaqdBMStVIieqYurcS8ZT",
+                    "infos": {
+                        "layout": {
+                            "tamanho": 9
+                        },
+                        "flex": {
+                            "ativar": 0,
+                            "direcao": 1,
+                            "justify": 0,
+                            "align": 0,
+                            "gap": 0
+                        },
+                        "logica": {
+                            "logica": 0,
+                            "setup": ""
+                        },
+                        "identificador": {
+                            "id": "",
+                            "classes": ""
+                        }
+                    },
+                    "filhos": [
+                        {
+                            "id": "7052",
+                            "tipo": "card",
+                            "nome": "Dados",
+                            "obrigatorio": "0",
+                            "data": "2024-11-02 10:14:17",
+                            "pai": "7031",
+                            "posicao": "0",
+                            "hash": "YaSb08nmv0gIvaYJnZYOAR8jGmEN4f",
+                            "infos": {
+                                "basico": {
+                                    "label": "Dados",
+                                    "recolhivel": 1
+                                },
+                                "flex": {
+                                    "ativar": 0,
+                                    "direcao": 1,
+                                    "justify": 0,
+                                    "align": 0,
+                                    "gap": 0
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": ""
+                                },
+                                "identificador": {
+                                    "id": "",
+                                    "classes": ""
+                                }
+                            },
+                            "filhos": [
+                                {
+                                    "id": "8570",
+                                    "tipo": "text",
+                                    "nome": "Slug",
+                                    "obrigatorio": "0",
+                                    "data": "2025-01-03 15:07:09",
+                                    "pai": "7052",
+                                    "posicao": "0",
+                                    "hash": "QQps8xwLoENhoQspwdZDlaQ95Ye1F3",
+                                    "infos": {
+                                        "basico": {
+                                            "esconder-label": 0,
+                                            "label": "Slug",
+                                            "descricao": "",
+                                            "obrigatorio": 0,
+                                            "somente-leitura": 0
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho-do-input": 0
+                                        },
+                                        "label": {
+                                            "placeholder": "",
+                                            "sub-label": "",
+                                            "tooltip": "",
+                                            "prefixo": "",
+                                            "sufixo": ""
+                                        },
+                                        "valor": {
+                                            "tipo": 0,
+                                            "fixo": "",
+                                            "dinamico": 0,
+                                            "arquivo-query": "",
+                                            "acao-query": ""
+                                        },
+                                        "tamanho": {
+                                            "ativar": 0,
+                                            "maximo": "",
+                                            "minimo": ""
+                                        },
+                                        "validacao": {
+                                            "mascara": 0
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": ""
+                                        },
+                                        "identificador": {
+                                            "id": "",
+                                            "classes": ""
+                                        },
+                                        "nown": {
+                                            "ativo": 0,
+                                            "modulo": "",
+                                            "paginacao": "",
+                                            "chave": "",
+                                            "valor": ""
+                                        }
+                                    },
+                                    "filhos": []
+                                },
+                                {
+                                    "id": "7046",
+                                    "tipo": "text",
+                                    "nome": "Capital",
+                                    "obrigatorio": "0",
+                                    "data": "2025-01-03 15:07:09",
+                                    "pai": "7052",
+                                    "posicao": "1",
+                                    "hash": "E7Hf7lMFBfbVK9eY859lX7htmWjFnp",
+                                    "infos": {
+                                        "basico": {
+                                            "esconder-label": 0,
+                                            "label": "Capital",
+                                            "descricao": "",
+                                            "obrigatorio": 0,
+                                            "somente-leitura": 0
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho-do-input": 0
+                                        },
+                                        "label": {
+                                            "placeholder": "",
+                                            "sub-label": "",
+                                            "tooltip": "",
+                                            "prefixo": "",
+                                            "sufixo": ""
+                                        },
+                                        "valor": {
+                                            "tipo": 0,
+                                            "fixo": "",
+                                            "dinamico": 0,
+                                            "arquivo-query": "",
+                                            "acao-query": ""
+                                        },
+                                        "tamanho": {
+                                            "ativar": 0,
+                                            "maximo": "",
+                                            "minimo": ""
+                                        },
+                                        "validacao": {
+                                            "mascara": 0
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": ""
+                                        },
+                                        "identificador": {
+                                            "id": "",
+                                            "classes": ""
+                                        }
+                                    },
+                                    "filhos": []
+                                },
+                                {
+                                    "id": "7047",
+                                    "tipo": "text",
+                                    "nome": "Nascionalidade",
+                                    "obrigatorio": "0",
+                                    "data": "2025-01-03 15:07:09",
+                                    "pai": "7052",
+                                    "posicao": "2",
+                                    "hash": "zW2KVRYNPtgLgpr327R5iMMuH16VRH",
+                                    "infos": {
+                                        "basico": {
+                                            "esconder-label": 0,
+                                            "label": "Nascionalidade",
+                                            "descricao": "",
+                                            "obrigatorio": 0,
+                                            "somente-leitura": 0
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho-do-input": 0
+                                        },
+                                        "label": {
+                                            "placeholder": "",
+                                            "sub-label": "",
+                                            "tooltip": "",
+                                            "prefixo": "",
+                                            "sufixo": ""
+                                        },
+                                        "valor": {
+                                            "tipo": 0,
+                                            "fixo": "",
+                                            "dinamico": 0,
+                                            "arquivo-query": "",
+                                            "acao-query": ""
+                                        },
+                                        "tamanho": {
+                                            "ativar": 0,
+                                            "maximo": "",
+                                            "minimo": ""
+                                        },
+                                        "validacao": {
+                                            "mascara": 0
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": ""
+                                        },
+                                        "identificador": {
+                                            "id": "",
+                                            "classes": ""
+                                        }
+                                    },
+                                    "filhos": []
+                                },
+                                {
+                                    "id": "7042",
+                                    "tipo": "text",
+                                    "nome": "TLD",
+                                    "obrigatorio": "0",
+                                    "data": "2025-01-03 15:07:02",
+                                    "pai": "7052",
+                                    "posicao": "3",
+                                    "hash": "regVbANjBy35r8SVW3i9Dk1zXCzRm4",
+                                    "infos": {
+                                        "basico": {
+                                            "esconder-label": 0,
+                                            "label": "TLD",
+                                            "descricao": "",
+                                            "obrigatorio": 0,
+                                            "somente-leitura": 0
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho-do-input": 0
+                                        },
+                                        "label": {
+                                            "placeholder": "",
+                                            "sub-label": "",
+                                            "tooltip": "",
+                                            "prefixo": "",
+                                            "sufixo": ""
+                                        },
+                                        "valor": {
+                                            "tipo": 0,
+                                            "fixo": "",
+                                            "dinamico": 0,
+                                            "arquivo-query": "",
+                                            "acao-query": ""
+                                        },
+                                        "tamanho": {
+                                            "ativar": 0,
+                                            "maximo": "",
+                                            "minimo": ""
+                                        },
+                                        "validacao": {
+                                            "mascara": 0
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": ""
+                                        },
+                                        "identificador": {
+                                            "id": "",
+                                            "classes": ""
+                                        }
+                                    },
+                                    "filhos": []
+                                },
+                                {
+                                    "id": "7043",
+                                    "tipo": "text",
+                                    "nome": "Nativo",
+                                    "obrigatorio": "0",
+                                    "data": "2025-01-03 15:07:02",
+                                    "pai": "7052",
+                                    "posicao": "4",
+                                    "hash": "NNxdwf7fQb9zxWvv4EjBxTM1cDZXiK",
+                                    "infos": {
+                                        "basico": {
+                                            "esconder-label": 0,
+                                            "label": "Nativo",
+                                            "descricao": "",
+                                            "obrigatorio": 0,
+                                            "somente-leitura": 0
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho-do-input": 0
+                                        },
+                                        "label": {
+                                            "placeholder": "",
+                                            "sub-label": "",
+                                            "tooltip": "",
+                                            "prefixo": "",
+                                            "sufixo": ""
+                                        },
+                                        "valor": {
+                                            "tipo": 0,
+                                            "fixo": "",
+                                            "dinamico": 0,
+                                            "arquivo-query": "",
+                                            "acao-query": ""
+                                        },
+                                        "tamanho": {
+                                            "ativar": 0,
+                                            "maximo": "",
+                                            "minimo": ""
+                                        },
+                                        "validacao": {
+                                            "mascara": 0
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": ""
+                                        },
+                                        "identificador": {
+                                            "id": "",
+                                            "classes": ""
+                                        }
+                                    },
+                                    "filhos": []
+                                },
+                                {
+                                    "id": "7053",
+                                    "tipo": "coluna",
+                                    "nome": null,
+                                    "obrigatorio": "0",
+                                    "data": "2025-01-03 15:07:02",
+                                    "pai": "7052",
+                                    "posicao": "5",
+                                    "hash": "b7KUti0huSmg6XOEJ7EVkVTmoN5NQG",
+                                    "infos": [],
+                                    "filhos": [
+                                        {
+                                            "id": "7054",
+                                            "tipo": "col",
+                                            "nome": null,
+                                            "obrigatorio": "0",
+                                            "data": "2024-11-02 10:15:06",
+                                            "pai": "7053",
+                                            "posicao": "0",
+                                            "hash": "32vzMjmWrE6Zr6GX8P7idMC2uLHtOQ",
+                                            "infos": [],
+                                            "filhos": [
+                                                {
+                                                    "id": "7056",
+                                                    "tipo": "text",
+                                                    "nome": "Emoji",
+                                                    "obrigatorio": "0",
+                                                    "data": "2024-11-02 10:15:42",
+                                                    "pai": "7054",
+                                                    "posicao": "0",
+                                                    "hash": "2dOFgqnzRcwA14Qw67UrpxrmnI6ZgC",
+                                                    "infos": {
+                                                        "basico": {
+                                                            "esconder-label": 0,
+                                                            "label": "Emoji",
+                                                            "descricao": "",
+                                                            "obrigatorio": 0,
+                                                            "somente-leitura": 0
+                                                        },
+                                                        "estilo": {
+                                                            "estilo": 0,
+                                                            "tamanho-do-input": 0
+                                                        },
+                                                        "label": {
+                                                            "placeholder": "",
+                                                            "sub-label": "",
+                                                            "tooltip": "",
+                                                            "prefixo": "",
+                                                            "sufixo": ""
+                                                        },
+                                                        "valor": {
+                                                            "tipo": 0,
+                                                            "fixo": "",
+                                                            "dinamico": 0,
+                                                            "arquivo-query": "",
+                                                            "acao-query": ""
+                                                        },
+                                                        "tamanho": {
+                                                            "ativar": 0,
+                                                            "maximo": "",
+                                                            "minimo": ""
+                                                        },
+                                                        "validacao": {
+                                                            "mascara": 0
+                                                        },
+                                                        "logica": {
+                                                            "logica": 0,
+                                                            "setup": ""
+                                                        },
+                                                        "identificador": {
+                                                            "id": "",
+                                                            "classes": ""
+                                                        }
+                                                    },
+                                                    "filhos": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "7055",
+                                            "tipo": "col",
+                                            "nome": null,
+                                            "obrigatorio": "0",
+                                            "data": "2024-11-02 10:15:06",
+                                            "pai": "7053",
+                                            "posicao": "1",
+                                            "hash": "Spzz2eG5qtk1ldR8AycRdeOwL26MyC",
+                                            "infos": [],
+                                            "filhos": [
+                                                {
+                                                    "id": "7057",
+                                                    "tipo": "text",
+                                                    "nome": "EmojiU",
+                                                    "obrigatorio": "0",
+                                                    "data": "2024-11-02 10:15:43",
+                                                    "pai": "7055",
+                                                    "posicao": "0",
+                                                    "hash": "81CqOLuo4hne7JroNfqAXkAw1EedAi",
+                                                    "infos": {
+                                                        "basico": {
+                                                            "esconder-label": 0,
+                                                            "label": "EmojiU",
+                                                            "descricao": "",
+                                                            "obrigatorio": 0,
+                                                            "somente-leitura": 0
+                                                        },
+                                                        "estilo": {
+                                                            "estilo": 0,
+                                                            "tamanho-do-input": 0
+                                                        },
+                                                        "label": {
+                                                            "placeholder": "",
+                                                            "sub-label": "",
+                                                            "tooltip": "",
+                                                            "prefixo": "",
+                                                            "sufixo": ""
+                                                        },
+                                                        "valor": {
+                                                            "tipo": 0,
+                                                            "fixo": "",
+                                                            "dinamico": 0,
+                                                            "arquivo-query": "",
+                                                            "acao-query": ""
+                                                        },
+                                                        "tamanho": {
+                                                            "ativar": 0,
+                                                            "maximo": "",
+                                                            "minimo": ""
+                                                        },
+                                                        "validacao": {
+                                                            "mascara": 0
+                                                        },
+                                                        "logica": {
+                                                            "logica": 0,
+                                                            "setup": ""
+                                                        },
+                                                        "identificador": {
+                                                            "id": "",
+                                                            "classes": ""
+                                                        }
+                                                    },
+                                                    "filhos": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "7038",
+                            "tipo": "card",
+                            "nome": "Moeda",
+                            "obrigatorio": "0",
+                            "data": "2024-11-02 10:14:17",
+                            "pai": "7031",
+                            "posicao": "1",
+                            "hash": "mWkdQ1WX97waKEDXerCunk9Ef2xLrS",
+                            "infos": {
+                                "basico": {
+                                    "label": "Moeda",
+                                    "recolhivel": 1
+                                },
+                                "flex": {
+                                    "ativar": 0,
+                                    "direcao": 1,
+                                    "justify": 0,
+                                    "align": 0,
+                                    "gap": 0
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": ""
+                                },
+                                "identificador": {
+                                    "id": "",
+                                    "classes": ""
+                                }
+                            },
+                            "filhos": [
+                                {
+                                    "id": "7039",
+                                    "tipo": "text",
+                                    "nome": "Moeda",
+                                    "obrigatorio": "0",
+                                    "data": "2024-11-02 10:07:25",
+                                    "pai": "7038",
+                                    "posicao": "0",
+                                    "hash": "JSbeelbcGmvydpGU1uRHyHrf4KfiGo",
+                                    "infos": {
+                                        "basico": {
+                                            "esconder-label": 0,
+                                            "label": "Moeda",
+                                            "descricao": "",
+                                            "obrigatorio": 0,
+                                            "somente-leitura": 0
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho-do-input": 0
+                                        },
+                                        "label": {
+                                            "placeholder": "",
+                                            "sub-label": "",
+                                            "tooltip": "",
+                                            "prefixo": "",
+                                            "sufixo": ""
+                                        },
+                                        "valor": {
+                                            "tipo": 0,
+                                            "fixo": "",
+                                            "dinamico": 0,
+                                            "arquivo-query": "",
+                                            "acao-query": ""
+                                        },
+                                        "tamanho": {
+                                            "ativar": 0,
+                                            "maximo": "",
+                                            "minimo": ""
+                                        },
+                                        "validacao": {
+                                            "mascara": 0
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": ""
+                                        },
+                                        "identificador": {
+                                            "id": "",
+                                            "classes": ""
+                                        }
+                                    },
+                                    "filhos": []
+                                },
+                                {
+                                    "id": "7040",
+                                    "tipo": "text",
+                                    "nome": "Moeda Nome",
+                                    "obrigatorio": "0",
+                                    "data": "2024-11-02 10:07:26",
+                                    "pai": "7038",
+                                    "posicao": "1",
+                                    "hash": "OnaeAQyKPUVSWYXCeeK7SZXw2OSlyD",
+                                    "infos": {
+                                        "basico": {
+                                            "esconder-label": 0,
+                                            "label": "Moeda Nome",
+                                            "descricao": "",
+                                            "obrigatorio": 0,
+                                            "somente-leitura": 0
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho-do-input": 0
+                                        },
+                                        "label": {
+                                            "placeholder": "",
+                                            "sub-label": "",
+                                            "tooltip": "",
+                                            "prefixo": "",
+                                            "sufixo": ""
+                                        },
+                                        "valor": {
+                                            "tipo": 0,
+                                            "fixo": "",
+                                            "dinamico": 0,
+                                            "arquivo-query": "",
+                                            "acao-query": ""
+                                        },
+                                        "tamanho": {
+                                            "ativar": 0,
+                                            "maximo": "",
+                                            "minimo": ""
+                                        },
+                                        "validacao": {
+                                            "mascara": 0
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": ""
+                                        },
+                                        "identificador": {
+                                            "id": "",
+                                            "classes": ""
+                                        }
+                                    },
+                                    "filhos": []
+                                },
+                                {
+                                    "id": "7041",
+                                    "tipo": "text",
+                                    "nome": "Moeda Simbolo",
+                                    "obrigatorio": "0",
+                                    "data": "2024-11-02 10:07:28",
+                                    "pai": "7038",
+                                    "posicao": "2",
+                                    "hash": "8CHJgNoEdEPIzbvCGUalRqiA8xqGkG",
+                                    "infos": {
+                                        "basico": {
+                                            "esconder-label": 0,
+                                            "label": "Moeda Simbolo",
+                                            "descricao": "",
+                                            "obrigatorio": 0,
+                                            "somente-leitura": 0
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho-do-input": 0
+                                        },
+                                        "label": {
+                                            "placeholder": "",
+                                            "sub-label": "",
+                                            "tooltip": "",
+                                            "prefixo": "",
+                                            "sufixo": ""
+                                        },
+                                        "valor": {
+                                            "tipo": 0,
+                                            "fixo": "",
+                                            "dinamico": 0,
+                                            "arquivo-query": "",
+                                            "acao-query": ""
+                                        },
+                                        "tamanho": {
+                                            "ativar": 0,
+                                            "maximo": "",
+                                            "minimo": ""
+                                        },
+                                        "validacao": {
+                                            "mascara": 0
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": ""
+                                        },
+                                        "identificador": {
+                                            "id": "",
+                                            "classes": ""
+                                        }
+                                    },
+                                    "filhos": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "7061",
+                            "tipo": "card",
+                            "nome": "Extra",
+                            "obrigatorio": "0",
+                            "data": "2024-11-02 10:19:21",
+                            "pai": "7031",
+                            "posicao": "2",
+                            "hash": "k7Rp8ytFj6NJpmX7yjUawazPUxKTu2",
+                            "infos": {
+                                "basico": {
+                                    "label": "Extra",
+                                    "recolhivel": 1
+                                },
+                                "flex": {
+                                    "ativar": 0,
+                                    "direcao": 1,
+                                    "justify": 0,
+                                    "align": 0,
+                                    "gap": 0
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": ""
+                                },
+                                "identificador": {
+                                    "id": "",
+                                    "classes": ""
+                                }
+                            },
+                            "filhos": [
+                                {
+                                    "id": "7058",
+                                    "tipo": "textarea",
+                                    "nome": "Traduções",
+                                    "obrigatorio": "0",
+                                    "data": "2024-11-02 10:19:15",
+                                    "pai": "7061",
+                                    "posicao": "0",
+                                    "hash": "Wrw35WpqcqZe1GKpME5MW5v37mvNXL",
+                                    "infos": {
+                                        "basico": {
+                                            "esconder-label": 0,
+                                            "label": "Traduções",
+                                            "descricao": "",
+                                            "obrigatorio": 0,
+                                            "somente-leitura": 0
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho-do-input": 0
+                                        },
+                                        "tamanho": {
+                                            "ativar": 0,
+                                            "maximo": "",
+                                            "minimo": ""
+                                        },
+                                        "label": {
+                                            "placeholder": "",
+                                            "sub-label": "",
+                                            "tooltip": ""
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": ""
+                                        },
+                                        "identificador": {
+                                            "id": "",
+                                            "classes": ""
+                                        }
+                                    },
+                                    "filhos": []
+                                },
+                                {
+                                    "id": "7059",
+                                    "tipo": "textarea",
+                                    "nome": "Time Zones",
+                                    "obrigatorio": "0",
+                                    "data": "2024-11-02 10:19:15",
+                                    "pai": "7061",
+                                    "posicao": "1",
+                                    "hash": "EPA77JFr7hpba7jA8HstuIrOjDelBh",
+                                    "infos": {
+                                        "basico": {
+                                            "esconder-label": 0,
+                                            "label": "Time Zones",
+                                            "descricao": "",
+                                            "obrigatorio": 0,
+                                            "somente-leitura": 0
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho-do-input": 0
+                                        },
+                                        "tamanho": {
+                                            "ativar": 0,
+                                            "maximo": "",
+                                            "minimo": ""
+                                        },
+                                        "label": {
+                                            "placeholder": "",
+                                            "sub-label": "",
+                                            "tooltip": ""
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": ""
+                                        },
+                                        "identificador": {
+                                            "id": "",
+                                            "classes": ""
+                                        }
+                                    },
+                                    "filhos": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "7032",
+                    "tipo": "col",
+                    "nome": null,
+                    "obrigatorio": "0",
+                    "data": "2024-11-02 10:03:16",
+                    "pai": "7030",
+                    "posicao": "1",
+                    "hash": "UbCMGSy3vgQF9jnio7roKBekYolzn0",
+                    "infos": {
+                        "layout": {
+                            "tamanho": 3
+                        },
+                        "flex": {
+                            "ativar": 0,
+                            "direcao": 1,
+                            "justify": 0,
+                            "align": 0,
+                            "gap": 0
+                        },
+                        "logica": {
+                            "logica": 0,
+                            "setup": ""
+                        },
+                        "identificador": {
+                            "id": "",
+                            "classes": ""
+                        }
+                    },
+                    "filhos": [
+                        {
+                            "id": "7088",
+                            "tipo": "imagemDestaque",
+                            "nome": null,
+                            "obrigatorio": "0",
+                            "data": "2024-11-02 14:30:08",
+                            "pai": "7032",
+                            "posicao": "0",
+                            "hash": "sHV9vf8mlxnp3Ny3BMhvPqEvH7hPR2",
+                            "infos": [],
+                            "filhos": []
+                        },
+                        {
+                            "id": "7090",
+                            "tipo": "file",
+                            "nome": "",
+                            "obrigatorio": "0",
+                            "data": "2024-11-02 14:30:26",
+                            "pai": "7032",
+                            "posicao": "1",
+                            "hash": "2ZPPwlFDNhgm3XWaZ1iy4sZialmZBY",
+                            "infos": {
+                                "basico": {
+                                    "label": "",
+                                    "texto-upload": "",
+                                    "multiplo": 0,
+                                    "layout": 0
+                                },
+                                "cropper": {
+                                    "recortar": 0,
+                                    "largura": "",
+                                    "altura": ""
+                                },
+                                "card": {
+                                    "desabilitar-card": 0,
+                                    "recolhivel": 1,
+                                    "card-titulo": "Forças Armadas",
+                                    "descricao": "",
+                                    "desabilitar-sombras": 0,
+                                    "layout": 0
+                                },
+                                "arquivo": {
+                                    "tipo-de-arquivo": 0,
+                                    "personalizado": ""
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": ""
+                                },
+                                "identificador": {
+                                    "id": "",
+                                    "classes": ""
+                                }
+                            },
+                            "filhos": []
+                        },
+                        {
+                            "id": "7048",
+                            "tipo": "card",
+                            "nome": "Localização",
+                            "obrigatorio": "0",
+                            "data": "2024-11-02 14:29:50",
+                            "pai": "7032",
+                            "posicao": "2",
+                            "hash": "XqyS1kL8bGfGmg47HhL8pXyAEEjos4",
+                            "infos": {
+                                "basico": {
+                                    "label": "Localização",
+                                    "recolhivel": 0
+                                },
+                                "flex": {
+                                    "ativar": 0,
+                                    "direcao": 1,
+                                    "justify": 0,
+                                    "align": 0,
+                                    "gap": 0
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": ""
+                                },
+                                "identificador": {
+                                    "id": "",
+                                    "classes": ""
+                                }
+                            },
+                            "filhos": [
+                                {
+                                    "id": "7044",
+                                    "tipo": "select",
+                                    "nome": "Região",
+                                    "obrigatorio": "0",
+                                    "data": "2024-11-02 10:11:54",
+                                    "pai": "7048",
+                                    "posicao": "0",
+                                    "hash": "XFMyjNjh0ANAK0KzkSmydYDBzAS5sN",
+                                    "infos": {
+                                        "basico": {
+                                            "esconder-label": 0,
+                                            "label": "Região ",
+                                            "descricao": " ",
+                                            "obrigatorio": 0,
+                                            "render": 0,
+                                            "somente-leitura": 0
+                                        },
+                                        "opcoes": {
+                                            "multiplo": 0,
+                                            "opcoes": " "
+                                        },
+                                        "dinamica": {
+                                            "smart-triger": 0,
+                                            "input-trigger": 0,
+                                            "url-trigger": " ",
+                                            "acao-trigger": " ",
+                                            "opcoes-dinamicas": 1,
+                                            "configuracoes": {
+                                                "modulo": "enderecos",
+                                                "formulario": "E95sw7WS3O39OOvXdeNXiT9LIU1qqjfQ.json",
+                                                "regra": "1"
+                                            },
+                                            "arquivo-query": " ",
+                                            "acao-query": " "
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho-do-input": 0
+                                        },
+                                        "label": {
+                                            "placeholder": " ",
+                                            "sub-label": " ",
+                                            "tooltip": " "
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": " "
+                                        },
+                                        "identificador": {
+                                            "id": " ",
+                                            "classes": " "
+                                        }
+                                    },
+                                    "filhos": []
+                                },
+                                {
+                                    "id": "7045",
+                                    "tipo": "select",
+                                    "nome": "Sub Região",
+                                    "obrigatorio": "0",
+                                    "data": "2024-11-02 10:11:54",
+                                    "pai": "7048",
+                                    "posicao": "1",
+                                    "hash": "8iQTgjXFAgIbXrYJkJ2AHWBhEnOqks",
+                                    "infos": {
+                                        "basico": {
+                                            "esconder-label": 0,
+                                            "label": "Sub Região ",
+                                            "descricao": " ",
+                                            "obrigatorio": 0,
+                                            "render": 0,
+                                            "somente-leitura": 0
+                                        },
+                                        "opcoes": {
+                                            "multiplo": 0,
+                                            "opcoes": " "
+                                        },
+                                        "dinamica": {
+                                            "smart-triger": 0,
+                                            "input-trigger": 0,
+                                            "url-trigger": " ",
+                                            "acao-trigger": " ",
+                                            "opcoes-dinamicas": 1,
+                                            "configuracoes": {
+                                                "modulo": "enderecos",
+                                                "formulario": false,
+                                                "regra": false
+                                            },
+                                            "arquivo-query": " ",
+                                            "acao-query": " "
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho-do-input": 0
+                                        },
+                                        "label": {
+                                            "placeholder": " ",
+                                            "sub-label": " ",
+                                            "tooltip": " "
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": " "
+                                        },
+                                        "identificador": {
+                                            "id": " ",
+                                            "classes": " "
+                                        }
+                                    },
+                                    "filhos": []
+                                },
+                                {
+                                    "id": "7049",
+                                    "tipo": "text",
+                                    "nome": "Latitude",
+                                    "obrigatorio": "0",
+                                    "data": "2024-11-02 10:11:45",
+                                    "pai": "7048",
+                                    "posicao": "2",
+                                    "hash": "R6gBRVnLD1HQJ9zJbE5RtsgttiqxOG",
+                                    "infos": {
+                                        "basico": {
+                                            "esconder-label": 0,
+                                            "label": "Latitude",
+                                            "descricao": "",
+                                            "obrigatorio": 0,
+                                            "somente-leitura": 0
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho-do-input": 0
+                                        },
+                                        "label": {
+                                            "placeholder": "",
+                                            "sub-label": "",
+                                            "tooltip": "",
+                                            "prefixo": "",
+                                            "sufixo": ""
+                                        },
+                                        "valor": {
+                                            "tipo": 0,
+                                            "fixo": "",
+                                            "dinamico": 0,
+                                            "arquivo-query": "",
+                                            "acao-query": ""
+                                        },
+                                        "tamanho": {
+                                            "ativar": 0,
+                                            "maximo": "",
+                                            "minimo": ""
+                                        },
+                                        "validacao": {
+                                            "mascara": 0
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": ""
+                                        },
+                                        "identificador": {
+                                            "id": "",
+                                            "classes": ""
+                                        }
+                                    },
+                                    "filhos": []
+                                },
+                                {
+                                    "id": "7050",
+                                    "tipo": "text",
+                                    "nome": "Longitude",
+                                    "obrigatorio": "0",
+                                    "data": "2024-11-02 10:11:48",
+                                    "pai": "7048",
+                                    "posicao": "3",
+                                    "hash": "wAV3sgA7MWZi40b9WqWKxiczU0sApH",
+                                    "infos": {
+                                        "basico": {
+                                            "esconder-label": 0,
+                                            "label": "Longitude",
+                                            "descricao": "",
+                                            "obrigatorio": 0,
+                                            "somente-leitura": 0
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho-do-input": 0
+                                        },
+                                        "label": {
+                                            "placeholder": "",
+                                            "sub-label": "",
+                                            "tooltip": "",
+                                            "prefixo": "",
+                                            "sufixo": ""
+                                        },
+                                        "valor": {
+                                            "tipo": 0,
+                                            "fixo": "",
+                                            "dinamico": 0,
+                                            "arquivo-query": "",
+                                            "acao-query": ""
+                                        },
+                                        "tamanho": {
+                                            "ativar": 0,
+                                            "maximo": "",
+                                            "minimo": ""
+                                        },
+                                        "validacao": {
+                                            "mascara": 0
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": ""
+                                        },
+                                        "identificador": {
+                                            "id": "",
+                                            "classes": ""
+                                        }
+                                    },
+                                    "filhos": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "7033",
+                            "tipo": "card",
+                            "nome": "Códigos",
+                            "obrigatorio": "0",
+                            "data": "2024-11-02 14:29:50",
+                            "pai": "7032",
+                            "posicao": "3",
+                            "hash": "KSHhk0GRkinHZV95Oo8ZDUmnpztDP5",
+                            "infos": {
+                                "basico": {
+                                    "label": "Códigos",
+                                    "recolhivel": 1
+                                },
+                                "flex": {
+                                    "ativar": 0,
+                                    "direcao": 1,
+                                    "justify": 0,
+                                    "align": 0,
+                                    "gap": 0
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": ""
+                                },
+                                "identificador": {
+                                    "id": "",
+                                    "classes": ""
+                                }
+                            },
+                            "filhos": [
+                                {
+                                    "id": "7035",
+                                    "tipo": "text",
+                                    "nome": "ISO2",
+                                    "obrigatorio": "0",
+                                    "data": "2024-11-02 10:05:42",
+                                    "pai": "7033",
+                                    "posicao": "0",
+                                    "hash": "Wazd0AeydJQYZOQFhZ6G1N5Qtn8OlL",
+                                    "infos": {
+                                        "basico": {
+                                            "esconder-label": 0,
+                                            "label": "ISO2",
+                                            "descricao": "",
+                                            "obrigatorio": 0,
+                                            "somente-leitura": 0
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho-do-input": 0
+                                        },
+                                        "label": {
+                                            "placeholder": "",
+                                            "sub-label": "",
+                                            "tooltip": "",
+                                            "prefixo": "",
+                                            "sufixo": ""
+                                        },
+                                        "valor": {
+                                            "tipo": 0,
+                                            "fixo": "",
+                                            "dinamico": 0,
+                                            "arquivo-query": "",
+                                            "acao-query": ""
+                                        },
+                                        "tamanho": {
+                                            "ativar": 0,
+                                            "maximo": "",
+                                            "minimo": ""
+                                        },
+                                        "validacao": {
+                                            "mascara": 0
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": ""
+                                        },
+                                        "identificador": {
+                                            "id": "",
+                                            "classes": ""
+                                        }
+                                    },
+                                    "filhos": []
+                                },
+                                {
+                                    "id": "7034",
+                                    "tipo": "text",
+                                    "nome": "ISO3",
+                                    "obrigatorio": "0",
+                                    "data": "2024-11-02 10:05:42",
+                                    "pai": "7033",
+                                    "posicao": "1",
+                                    "hash": "qCrUNVEYyg8tyBSuz1G7W1PtaOIj5S",
+                                    "infos": {
+                                        "basico": {
+                                            "esconder-label": 0,
+                                            "label": "ISO3",
+                                            "descricao": "",
+                                            "obrigatorio": 0,
+                                            "somente-leitura": 0
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho-do-input": 0
+                                        },
+                                        "label": {
+                                            "placeholder": "",
+                                            "sub-label": "",
+                                            "tooltip": "",
+                                            "prefixo": "",
+                                            "sufixo": ""
+                                        },
+                                        "valor": {
+                                            "tipo": 0,
+                                            "fixo": "",
+                                            "dinamico": 0,
+                                            "arquivo-query": "",
+                                            "acao-query": ""
+                                        },
+                                        "tamanho": {
+                                            "ativar": 0,
+                                            "maximo": "",
+                                            "minimo": ""
+                                        },
+                                        "validacao": {
+                                            "mascara": 0
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": ""
+                                        },
+                                        "identificador": {
+                                            "id": "",
+                                            "classes": ""
+                                        }
+                                    },
+                                    "filhos": []
+                                },
+                                {
+                                    "id": "7036",
+                                    "tipo": "text",
+                                    "nome": "Código Numérico",
+                                    "obrigatorio": "0",
+                                    "data": "2024-11-02 10:05:42",
+                                    "pai": "7033",
+                                    "posicao": "2",
+                                    "hash": "kX0rK2puauT3AMF9a7s1ZII1iogB22",
+                                    "infos": {
+                                        "basico": {
+                                            "esconder-label": 0,
+                                            "label": "Código Numérico",
+                                            "descricao": "",
+                                            "obrigatorio": 0,
+                                            "somente-leitura": 0
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho-do-input": 0
+                                        },
+                                        "label": {
+                                            "placeholder": "",
+                                            "sub-label": "",
+                                            "tooltip": "",
+                                            "prefixo": "",
+                                            "sufixo": ""
+                                        },
+                                        "valor": {
+                                            "tipo": 0,
+                                            "fixo": "",
+                                            "dinamico": 0,
+                                            "arquivo-query": "",
+                                            "acao-query": ""
+                                        },
+                                        "tamanho": {
+                                            "ativar": 0,
+                                            "maximo": "",
+                                            "minimo": ""
+                                        },
+                                        "validacao": {
+                                            "mascara": 0
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": ""
+                                        },
+                                        "identificador": {
+                                            "id": "",
+                                            "classes": ""
+                                        }
+                                    },
+                                    "filhos": []
+                                },
+                                {
+                                    "id": "7037",
+                                    "tipo": "number",
+                                    "nome": "Código  Telefônico",
+                                    "obrigatorio": "0",
+                                    "data": "2024-11-02 10:05:43",
+                                    "pai": "7033",
+                                    "posicao": "3",
+                                    "hash": "RF966FBzvAMB6GoScxEIKtU3Aijm8Z",
+                                    "infos": {
+                                        "basico": {
+                                            "esconder-label": 0,
+                                            "label": "Código  Telefônico",
+                                            "descricao": "",
+                                            "obrigatorio": 0,
+                                            "somente-leitura": 0
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho-do-input": 0
+                                        },
+                                        "label": {
+                                            "placeholder": "",
+                                            "sub-label": "",
+                                            "tooltip": "",
+                                            "prefixo": "",
+                                            "sufixo": ""
+                                        },
+                                        "valor": {
+                                            "minimo": "",
+                                            "maximo": "",
+                                            "definido": ""
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": ""
+                                        },
+                                        "identificador": {
+                                            "id": "",
+                                            "classes": ""
+                                        }
+                                    },
+                                    "filhos": []
+                                },
+                                {
+                                    "id": "7051",
+                                    "tipo": "number",
+                                    "nome": "ID Externo",
+                                    "obrigatorio": "0",
+                                    "data": "2024-11-02 10:13:38",
+                                    "pai": "7033",
+                                    "posicao": "4",
+                                    "hash": "mUMi0blcrsfv6ZX6ndArVAcB6b2vyX",
+                                    "infos": {
+                                        "basico": {
+                                            "esconder-label": 0,
+                                            "label": "ID Externo",
+                                            "descricao": "",
+                                            "obrigatorio": 0,
+                                            "somente-leitura": 0
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho-do-input": 0
+                                        },
+                                        "label": {
+                                            "placeholder": "",
+                                            "sub-label": "",
+                                            "tooltip": "",
+                                            "prefixo": "",
+                                            "sufixo": ""
+                                        },
+                                        "valor": {
+                                            "minimo": "",
+                                            "maximo": "",
+                                            "definido": ""
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": ""
+                                        },
+                                        "identificador": {
+                                            "id": "",
+                                            "classes": ""
+                                        }
+                                    },
+                                    "filhos": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "infos": []
+}

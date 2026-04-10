@@ -1,0 +1,37 @@
+{
+    "Opções de interação entre usuários":{
+        "tipo": "titulo",
+        "subtitulo": "As opções abaixo permite os usuários criarem vincúlos entre sí"
+    },
+    "amizade":{
+        "label": "Amizade",
+        "tipo": "check",
+        "descricao": "Permita que os usuários criem vincúlos de amizade entre si"
+    },
+    "melhoramigo":{
+        "label": "Melhores Amigos",
+        "tipo": "check",
+        "descricao": "Permita que os usuários transforme amigos em melhores amigos",
+        "condicional": "amizade"
+    },
+     "bloquear":{
+        "label": "Bloquear",
+        "tipo": "check",
+        "descricao": "Permita que os usuários se bloqueem dentro do sistema"
+    },
+    "seguir":{
+        "label": "Seguir",
+        "tipo": "check",
+        "descricao": "Permita que os usuários se sigam"
+    },
+     "relacionamento":{
+        "label": "Relacionamento",
+        "tipo": "check",
+        "descricao": "Crie relacionamentos entre usuários"
+    },
+     "responsavel":{
+        "label": "Responsável",
+        "tipo": "check",
+        "descricao": "Sistema permitirá que os usuários se responsabilize por outro."
+    }
+}

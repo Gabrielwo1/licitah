@@ -1,0 +1,253 @@
+{
+    "id": "28",
+    "nome": "Menus",
+    "hash": "EQOa9vWsPNSOvCS",
+    "data": "2023-12-14 16:22:56",
+    "tamanho": 9,
+    "inputs": [
+        {
+            "id": "755",
+            "tipo": "text",
+            "nome": "Nome",
+            "obrigatorio": "0",
+            "data": "2023-12-14 16:23:13",
+            "pai": "0",
+            "posicao": "0",
+            "hash": "ok2wNHNwwQivnFu7JyAbPQ9sCWuG4E",
+            "infos": {
+                "basico": {
+                    "esconder-label": 1,
+                    "label": "Nome",
+                    "descricao": "",
+                    "obrigatorio": 0
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": "Nome do Menu",
+                    "sub-label": "",
+                    "tooltip": ""
+                },
+                "validacao": {
+                    "mascara": 0
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": ""
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "756",
+            "tipo": "coluna",
+            "nome": null,
+            "obrigatorio": "0",
+            "data": "2023-12-14 16:23:54",
+            "pai": "0",
+            "posicao": "1",
+            "hash": "ITNwA5N3Ti9Y52LL4nGnAvJlRllhLx",
+            "infos": [],
+            "filhos": [
+                {
+                    "id": "757",
+                    "tipo": "col",
+                    "nome": null,
+                    "obrigatorio": "0",
+                    "data": "2023-12-14 16:23:55",
+                    "pai": "756",
+                    "posicao": "0",
+                    "hash": "E1wsQBoEGHt2qxLOh8hySBEIQMlKBE",
+                    "infos": {
+                        "layout": {
+                            "tamanho": 9
+                        },
+                        "logica": {
+                            "logica": 0,
+                            "setup": "  "
+                        }
+                    },
+                    "filhos": [
+                        {
+                            "id": "760",
+                            "tipo": "textarea",
+                            "nome": "Configurações",
+                            "obrigatorio": "0",
+                            "data": "2024-11-14 18:19:48",
+                            "pai": "757",
+                            "posicao": "0",
+                            "hash": "PzWkKMo3pdoTal1AJnkNHbZ1V13QjX",
+                            "infos": {
+                                "basico": {
+                                    "esconder-label": 1,
+                                    "label": "Configurações ",
+                                    "descricao": " ",
+                                    "obrigatorio": 0,
+                                    "somente-leitura": 0
+                                },
+                                "estilo": {
+                                    "estilo": 0,
+                                    "tamanho-do-input": 0
+                                },
+                                "label": {
+                                    "placeholder": " ",
+                                    "sub-label": " ",
+                                    "tooltip": " "
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": " "
+                                },
+                                "tamanho": {
+                                    "ativar": 0,
+                                    "maximo": "",
+                                    "minimo": ""
+                                },
+                                "identificador": {
+                                    "id": "",
+                                    "classes": "d-none"
+                                }
+                            },
+                            "filhos": []
+                        },
+                        {
+                            "id": "763",
+                            "tipo": "html",
+                            "nome": "",
+                            "obrigatorio": "0",
+                            "data": "2023-12-15 07:20:27",
+                            "pai": "757",
+                            "posicao": "1",
+                            "hash": "TpI4Z6TQQMue7tRVEeUwmIcwqzR5iP",
+                            "infos": {
+                                "basico": {
+                                    "esconder-label": 0,
+                                    "label": " ",
+                                    "id-da-div": "renderizadoMenu "
+                                },
+                                "codigo": {
+                                    "html": "<div class=\"d-flex justify-content-center\">\n  <div class=\"spinner-border\" role=\"status\">\n    <span class=\"visually-hidden\">Loading...<\/span>\n  <\/div>\n<\/div> "
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": " "
+                                },
+                                "identificador": {
+                                    "id": "",
+                                    "classes": ""
+                                }
+                            },
+                            "filhos": []
+                        },
+                        {
+                            "id": "764",
+                            "tipo": "html",
+                            "nome": "",
+                            "obrigatorio": "0",
+                            "data": "2023-12-15 07:20:35",
+                            "pai": "757",
+                            "posicao": "2",
+                            "hash": "xi6RfsTmorF3EMGaYC28LykPGSpjdm",
+                            "infos": {
+                                "basico": {
+                                    "esconder-label": 0,
+                                    "label": " ",
+                                    "id-da-div": "modalMenu "
+                                },
+                                "codigo": {
+                                    "html": " "
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": " "
+                                }
+                            },
+                            "filhos": []
+                        }
+                    ]
+                },
+                {
+                    "id": "758",
+                    "tipo": "col",
+                    "nome": null,
+                    "obrigatorio": "0",
+                    "data": "2023-12-14 16:23:55",
+                    "pai": "756",
+                    "posicao": "1",
+                    "hash": "xS5kD3RiruOaQ1M2IGgqokevrs1uqz",
+                    "infos": {
+                        "layout": {
+                            "tamanho": 3
+                        },
+                        "logica": {
+                            "logica": 0,
+                            "setup": " "
+                        }
+                    },
+                    "filhos": [
+                        {
+                            "id": "762",
+                            "tipo": "html",
+                            "nome": "  ",
+                            "obrigatorio": "0",
+                            "data": "2023-12-14 16:47:29",
+                            "pai": "758",
+                            "posicao": "0",
+                            "hash": "QZng0HDs4plCxpxMFDL9UvoG1c6ax9",
+                            "infos": {
+                                "basico": {
+                                    "esconder-label": 0,
+                                    "label": "   ",
+                                    "id-da-div": "opcoesMenu  "
+                                },
+                                "codigo": {
+                                    "html": "  "
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": "   "
+                                }
+                            },
+                            "filhos": []
+                        },
+                        {
+                            "id": "759",
+                            "tipo": "cardSalvar",
+                            "nome": "",
+                            "obrigatorio": "0",
+                            "data": "2023-12-17 17:03:43",
+                            "pai": "758",
+                            "posicao": "1",
+                            "hash": "A8Z8KYKCgPhwRqe2YYI46TcCOMb0f6",
+                            "infos": {
+                                "basico": {
+                                    "label": " ",
+                                    "recolhivel": 0,
+                                    "fixar-no-rodape-mobile": 0,
+                                    "fixar-no-rodape-pc": 0
+                                },
+                                "funcoes": {
+                                    "desabilitar-status": 1,
+                                    "desabilitar-vizibilidade": 1,
+                                    "desabilitar-agendados": 1
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": " "
+                                },
+                                "identificador": {
+                                    "id": "",
+                                    "classes": "d-none"
+                                }
+                            },
+                            "filhos": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "infos": []
+}

@@ -1,0 +1,97 @@
+{
+    "nome": "Assinaturas",
+    "banco": "Czy36ZwpCYq4WMY",
+    "tipo": 2,
+    "subtipo": 1,
+    "itens": [
+        {
+            "nome": "nome",
+            "banco": "p",
+            "chave": "nome",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "tag",
+            "banco": "p",
+            "chave": "tag",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "vendavel",
+            "banco": "p",
+            "chave": "preco",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "principal",
+            "banco": "p",
+            "chave": "principal",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "imagem",
+            "banco": "p",
+            "chave": "imagemDestaque",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "curta",
+            "banco": "p",
+            "chave": "curta",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "categoria",
+            "banco": "p",
+            "chave": "categoria",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "atr_pl",
+            "banco": "p",
+            "chave": "atr_pl",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "url",
+            "banco": "p",
+            "chave": "url",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "id",
+            "banco": "p",
+            "chave": "id",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "data",
+            "banco": "p",
+            "chave": "dataCriacao",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "longa",
+            "banco": "p",
+            "chave": "longa",
+            "estrangeiro": 0
+        }
+    ],
+    "number": {
+        "comentarios": false,
+        "reacoes": false,
+        "favoritos": false,
+        "visualizacoes": false
+    },
+    "extra": {
+        "ativo": false,
+        "coluna": "",
+        "tipo": "="
+    },
+    "clone": {
+        "ativo": false,
+        "api": ""
+    },
+    "geolocalizacao": false,
+    "subconta": false
+}

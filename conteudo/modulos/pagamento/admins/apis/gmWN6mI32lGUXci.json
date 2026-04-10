@@ -1,0 +1,34 @@
+{
+    "nome": "pedido por id",
+    "banco": "Cyrv1bcxbsbHpSh",
+    "tipo": 1,
+    "subtipo": 2,
+    "itens": [
+        {
+            "nome": "usuario",
+            "banco": "p",
+            "chave": "usuario",
+            "estrangeiro": 1,
+            "setupEstrangeira": {
+                "modulo": "usuarios",
+                "banco": "aY4O9kcLpNMpbiD.json",
+                "metas": [],
+                "principal": [
+                    "display"
+                ]
+            }
+        },
+        {
+            "nome": "estado",
+            "banco": "p",
+            "chave": "estado",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "url",
+            "banco": "p",
+            "chave": "url",
+            "estrangeiro": 0
+        }
+    ]
+}

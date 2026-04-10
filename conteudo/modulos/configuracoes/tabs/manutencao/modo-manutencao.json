@@ -1,0 +1,63 @@
+{
+    "modomanutencao":{
+        "label": "Ativar Modo Manutenção",
+        "tipo": "check",
+        "descricao": "Deslogue todos os usuários e apresente uma mensagme de manutenção"
+    },
+    "mode":{
+        "label": "Estilo da Página",
+        "tipo": "select",
+         "opcoes": [
+      {"chave": "Light", "valor": "light"},
+      {"chave": "Dark", "valor": "dark"}
+    ]
+    },
+    "cabecalho":{
+        "label": "Cabeçalho da página",
+        "tipo": "input",
+        "condicional": "modomanutencao",
+        "descricao": "Mensagem de manutenção em destaque na página"
+    },
+    "descricao":{
+        "label": "Descrição na página",
+        "tipo": "textarea",
+        "condicional": "modomanutencao",
+        "descricao": "Deixe uma mensagem para os usuários"
+    },
+    "cronometro":{
+        "label": "Ativar Cronometro",
+        "tipo": "check",
+        "condicional": "modomanutencao",
+        "descricao": "Ative um timer dentro da página"
+    },
+    "data":{
+        "label": "Data Final",
+        "tipo": "input",
+        "condicional": "cronometro",
+        "descricao": "Defina uma data final para o cronometro",
+        "mascara": "date"
+    },
+    "horario":{
+        "label": "Horário Final",
+        "tipo": "input",
+        "condicional": "cronometro",
+        "descricao": "Defina um horário final para o cronometro",
+        "mascara": "time"
+    },
+     "ativarzap":{
+        "label": "Botão de WhastsApp",
+        "tipo": "check",
+        "descricao": "Adicionar Botão de WhatsApp a página de manutenção."
+    },
+    "telefone":{
+        "label": "Telefone",
+        "tipo": "input",
+        "descricao": "Adicionar o número de telefone.",
+        "condicional": "ativarzap"
+    },
+     "logopagina":{
+        "label": "Logo da Página",
+        "tipo": "file",
+        "descricao": "Defina a logotipo da página."
+    }
+}

@@ -1,0 +1,83 @@
+{   "Informações Públicas":{
+    "tipo": "titulo"
+},
+    "apikey":{
+        "tipo": "input",
+        "label":"apiKey"
+    },
+    "authdomain":{
+        "tipo": "input",
+        "label": "authDomain"  
+    },
+     "projectid":{
+        "tipo": "input",
+        "label": "projectId" 
+    },
+     "storagebucket":{
+        "tipo": "input",
+        "label": "storageBucket"
+    },
+     "messagingsenderid":{
+        "tipo": "input",
+        "label": "messagingSenderId"
+    },
+     "appid":{
+        "tipo": "input",
+        "label": "appId" 
+    },
+     "measurementid":{
+        "tipo": "input",
+        "label": "measurementId"
+    },
+    "Informações Privadas":{
+    "tipo": "titulo"
+},
+    
+  "type": {
+        "tipo": "input",
+        "label": "type" 
+    },
+  "project_id": {
+        "tipo": "input",
+        "label": "project_id" 
+    },
+  "private_key_id":{
+        "tipo": "input",
+        "label": "private_key_id"  
+    },
+  "private_key":{
+        "tipo": "textarea",
+        "label": "private_key"  
+    },
+  "client_email": {
+        "tipo": "input",
+        "label": "client_email"  
+    },
+  "client_id":{
+        "tipo": "input",
+        "label": "client_id"
+    },
+  "auth_uri":{
+        "tipo": "input",
+        "label": "auth_uri"  
+    }, 
+  "token_uri": {
+        "tipo": "input",
+        "label": "token_uri"
+    },
+  "auth_provider_x509_cert_url": {
+        "tipo": "input",
+        "label": "auth_provider_x509_cert_url"
+    },
+  "client_x509_cert_url": {
+        "tipo": "input",
+        "label": "client_x509_cert_url"
+    },
+  "universe_domain": {
+        "tipo": "input",
+        "label": "universe_domain"
+    }
+}
+
+
+

@@ -1,0 +1,16 @@
+{
+    "nome": "Licitações Pesquisadas",
+    "tipo": "2",
+    "id": "aCkfKlCexoIcnGM",
+    "btns": [
+        {
+            "texto": "Pesquisar Licitação",
+            "tipo": "5",
+            "callback": "RXaPBwcg7UmLVg1",
+            "id": "",
+            "icone": ""
+        }
+    ],
+    "titulo": "Licitações Pesquisadas",
+    "breadcrumbs": false
+}

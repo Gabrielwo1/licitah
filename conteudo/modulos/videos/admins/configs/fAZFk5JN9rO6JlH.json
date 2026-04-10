@@ -1,0 +1,55 @@
+{
+    "banco": "videos",
+    "meta": false,
+    "prefixo": "video",
+    "url": "1",
+    "colunas": [
+        {
+            "nome": "titulo",
+            "nulo": false,
+            "tipo": "varchar",
+            "input": "L2JUaKiqzCL8QpvEfeDe9uwztItult"
+        },
+        {
+            "nome": "origem",
+            "nulo": false,
+            "tipo": "int",
+            "input": "XLBiTJDyrJSjVl9ZBelOmlygGB4Hpz"
+        },
+        {
+            "nome": "link",
+            "nulo": true,
+            "tipo": "varchar",
+            "input": "VaSY5XIgHNPNwvXMHcXhsD59nNwRyW"
+        },
+        {
+            "nome": "curta",
+            "nulo": false,
+            "tipo": "text",
+            "input": "p3qbtJLeqIV0qup8nADintvwjO7VRD"
+        },
+        {
+            "nome": "descricao",
+            "nulo": false,
+            "tipo": "text",
+            "input": "2R1kfg4qwmVblG6YjwqEG7Efur3hKn"
+        }
+    ],
+    "estrutura": {
+        "meta": false,
+        "hash": true,
+        "autor": true,
+        "render": true,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "url": true,
+        "urledit": false,
+        "imagemDestaque": true,
+        "galeria": false,
+        "categoria": true,
+        "tags": true,
+        "seo": true,
+        "preco": false
+    },
+    "metas": []
+}

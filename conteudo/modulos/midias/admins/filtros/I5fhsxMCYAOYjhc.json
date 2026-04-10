@@ -1,0 +1,90 @@
+{
+    "nome": "Toda as Mídias",
+    "api": "3iTLmvELaVim6s5",
+    "exibicao": {
+        "tipo": "2",
+        "itensPerLoad": "24"
+    },
+    "layout": {
+        "pai": "div",
+        "gap": "1",
+        "animacao": "bounceIn"
+    },
+    "ordenadores": [
+        {
+            "id": "recentes",
+            "texto": "Recentes"
+        },
+        {
+            "id": "antigos",
+            "texto": "Antigos"
+        }
+    ],
+    "filtroConfig": {
+        "ativo": "0",
+        "largura": "20"
+    },
+    "modelosExibicao": {
+        "modelo1": {
+            "ativo": true,
+            "callback": "boxMidiaAdmin",
+            "itensPorLinha": "6"
+        },
+        "modelo2": {
+            "ativo": true,
+            "callback": "boxMidiaAdmin",
+            "itensPorLinha": "4"
+        },
+        "modelo3": {
+            "ativo": false
+        },
+        "modelo4": {
+            "ativo": false
+        }
+    },
+    "filtros": {
+        "principais": [
+            {
+                "nome": "",
+                "itens": [
+                    {
+                        "nome": "nome",
+                        "tipo": "1",
+                        "hash": "kguApOzQJf-fbfGhYwUgb"
+                    }
+                ]
+            },
+            {
+                "nome": "",
+                "itens": [
+                    {
+                        "nome": "tipo",
+                        "tipo": "1",
+                        "hash": "VKVsYskIbo-kgySuLKQuy"
+                    }
+                ]
+            },
+            {
+                "nome": "",
+                "itens": [
+                    {
+                        "nome": "formato",
+                        "tipo": "1",
+                        "hash": "bultHLxeSC-rpJTBcBeNw"
+                    }
+                ]
+            },
+            {
+                "nome": "",
+                "itens": [
+                    {
+                        "nome": "tamanho",
+                        "tipo": "1",
+                        "hash": "eRZZCkmJZy-CKxwbJlRzK"
+                    }
+                ]
+            }
+        ],
+        "avancados": []
+    }
+}

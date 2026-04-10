@@ -1,0 +1,167 @@
+{
+    "id": "259",
+    "nome": "Favoritos",
+    "hash": "D9R1cwLPLUXjSe19fRxzYTNE3bHFSyeK",
+    "data": "2024-10-17 15:47:37",
+    "tamanho": 3,
+    "inputs": [
+        {
+            "id": "6755",
+            "tipo": "text",
+            "nome": "Módulo",
+            "obrigatorio": "0",
+            "data": "2024-10-17 15:48:25",
+            "pai": "0",
+            "posicao": "0",
+            "hash": "EpnwWC077IUUKbvedYDpcSXPOoInsm",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": "Módulo",
+                    "descricao": "",
+                    "obrigatorio": 0,
+                    "somente-leitura": 0
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": "",
+                    "sub-label": "",
+                    "tooltip": "",
+                    "prefixo": "",
+                    "sufixo": ""
+                },
+                "valor": {
+                    "tipo": 0,
+                    "fixo": "",
+                    "dinamico": 0,
+                    "arquivo-query": "",
+                    "acao-query": ""
+                },
+                "tamanho": {
+                    "ativar": 0,
+                    "maximo": "",
+                    "minimo": ""
+                },
+                "validacao": {
+                    "mascara": 0
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": ""
+                },
+                "identificador": {
+                    "id": "",
+                    "classes": ""
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "6756",
+            "tipo": "number",
+            "nome": "ID",
+            "obrigatorio": "0",
+            "data": "2024-10-17 15:48:39",
+            "pai": "0",
+            "posicao": "1",
+            "hash": "JE9X5x9mJCb8OxbSirQuThYviXKuNX",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": "ID",
+                    "descricao": "",
+                    "obrigatorio": 0,
+                    "somente-leitura": 0
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": "",
+                    "sub-label": "",
+                    "tooltip": ""
+                },
+                "valor": {
+                    "minimo": "",
+                    "maximo": "",
+                    "definido": ""
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": ""
+                },
+                "identificador": {
+                    "id": "",
+                    "classes": ""
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "13055",
+            "tipo": "text",
+            "nome": "Conta",
+            "obrigatorio": "0",
+            "data": "2025-06-11 13:58:08",
+            "pai": "0",
+            "posicao": "2",
+            "hash": "Zb89n1bXMQLfF2wtaBM8VOu0QPfOm3",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": "Conta",
+                    "descricao": "",
+                    "obrigatorio": 0,
+                    "somente-leitura": 0
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": "",
+                    "sub-label": "",
+                    "tooltip": "",
+                    "prefixo": "",
+                    "sufixo": ""
+                },
+                "valor": {
+                    "tipo": 0,
+                    "fixo": "",
+                    "dinamico": 0,
+                    "arquivo-query": "",
+                    "acao-query": ""
+                },
+                "tamanho": {
+                    "ativar": 0,
+                    "maximo": "",
+                    "minimo": ""
+                },
+                "validacao": {
+                    "mascara": 0
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": ""
+                },
+                "identificador": {
+                    "id": "",
+                    "classes": ""
+                },
+                "nown": {
+                    "ativo": 0,
+                    "modulo": "",
+                    "paginacao": "",
+                    "chave": "",
+                    "valor": ""
+                }
+            },
+            "filhos": []
+        }
+    ],
+    "infos": []
+}

@@ -1,0 +1,67 @@
+{
+    "nome": "Licita Teste",
+    "banco": "JjFHXCtnfJS5VpjR6czNl8BBolvYVarT",
+    "tipo": 7,
+    "subtipo": null,
+    "itens": [
+        {
+            "nome": "codigo",
+            "banco": "p",
+            "chave": "codigo",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "id",
+            "banco": "p",
+            "chave": "id",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "quantidade",
+            "banco": "m",
+            "chave": "quantidade",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "item_material",
+            "banco": "m",
+            "chave": "item_material",
+            "estrangeiro": 1,
+            "setupEstrangeira": {
+                "modulo": "licitacoes",
+                "banco": "vVQQXXu9OoLuEc12vfU7X4aRAieyuN80.json",
+                "metas": [],
+                "principal": [
+                    "desc"
+                ]
+            }
+        },
+        {
+            "nome": "desc",
+            "banco": "p",
+            "chave": "desc",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "materialOuServico",
+            "banco": "m",
+            "chave": "materialOuServico",
+            "estrangeiro": 0
+        }
+    ],
+    "number": {
+        "comentarios": false,
+        "reacoes": false,
+        "favoritos": false,
+        "visualizacoes": false
+    },
+    "extra": {
+        "ativo": false,
+        "coluna": "",
+        "tipo": "="
+    },
+    "clone": {
+        "ativo": false,
+        "api": ""
+    }
+}

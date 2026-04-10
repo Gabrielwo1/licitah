@@ -1,0 +1,24 @@
+{
+    "item":[
+        {
+            "nome": "Topo Artigo", 
+            "code": "topo-artigos"
+        },
+        {
+            "nome": "Fim Artigo", 
+            "code": "fim-artigos"
+        }
+
+    ],
+    "home":[
+        {
+            "nome": "Topo Artigo da Home", 
+            "code": "topo-artigos-home"
+        },
+        {
+            "nome": "Fim Artigo da Home", 
+            "code": "fim-artigos-home"
+        }
+
+    ]
+}

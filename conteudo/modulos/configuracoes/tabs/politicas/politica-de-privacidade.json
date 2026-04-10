@@ -1,0 +1,24 @@
+{
+    "ativar": {
+        "label": "Ativar Politicas de Privacidade",
+        "tipo": "check",
+        "descricao": "Ativar página de Politicas de Privacidade"
+    },
+    "cadastro": {
+        "label": "Adicionar a politica a página de cadastro",
+        "tipo": "check",
+        "descricao": "Ativar ativar essa opção, o usuário é obrigado a aceita a politica antes de se cadastrar"
+    },
+     "personalizar":{
+        "label": "Personalizar a politica",
+        "tipo": "check",
+        "descricao": "Caso essa opção esteja desativada, o sistema irá gerar as politicas automaticamente."
+    },
+     "personalizada": {
+      "tipo": "select",
+      "label": "Escolha a Politica Personalizada",
+      "dinamico": true,
+      "foco": "politicas,politica_id,politica_titulo",
+      "condicional": "personalizar"
+    }
+}

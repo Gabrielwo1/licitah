@@ -1,0 +1,64 @@
+{
+    "banco": "licitacoes_habilitacoes",
+    "meta": false,
+    "prefixo": "licitacoes_habilitacao",
+    "url": false,
+    "colunas": [
+        {
+            "nome": "nome",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "YX3QmFVwJcpGHsS9IaNmd7DWg9bxNa",
+            "size": 200
+        },
+        {
+            "nome": "data_validade",
+            "nulo": false,
+            "tipo": "data",
+            "input": "Kk2FezCX5PlTtzl5vE9BtpmYRsJqy3",
+            "formato": "date"
+        },
+        {
+            "nome": "documento",
+            "nulo": false,
+            "tipo": "text",
+            "unico": false,
+            "input": "sabH8d0VP574iwykXdREVQH5lhLBRm"
+        },
+        {
+            "nome": "subconta",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "4HaM4BBabW3F9WcRBLoJbyHNwWuEEE"
+        }
+    ],
+    "estrutura": {
+        "meta": false,
+        "hash": true,
+        "autor": true,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "ordenador": false,
+        "url": false,
+        "urledit": false,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false,
+        "autoria": false,
+        "wildcard": false,
+        "atributos": false,
+        "destaque": false,
+        "enderecos": false,
+        "subconta": false,
+        "desabilitarNovo": false,
+        "desabilitarEdicao": false,
+        "reordenador": false,
+        "pontos": false
+    },
+    "metas": []
+}

@@ -1,0 +1,28 @@
+{    
+    "Produção":{
+         "tipo":"titulo"
+      },
+    "tokenproducao":{
+         "tipo":"input",
+         "label": "Token de Produção",
+         "descricao": "Seu Token do modo de Produção"
+      },
+    "secretproducao":{
+         "tipo":"input",
+         "label": "Secret Key",
+         "descricao": "Seu Secrey Key do modo de Produção"
+      },
+      "Sandbox":{
+         "tipo":"titulo"
+      },
+    "tokensand":{
+         "tipo":"input",
+         "label": "Token de Produção",
+         "descricao": "Seu Token do modo Sandbox"
+      },
+    "secretsand":{
+         "tipo":"input",
+         "label": "Secret Key",
+         "descricao": "Seu Secrey Key do modo SandBox"
+      }
+}

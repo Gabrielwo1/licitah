@@ -1,0 +1,225 @@
+{   
+    "ativar":{
+        "label": "Ativar Rodape",
+        "descricao": "Ative o Rodape",
+        "tipo": "check"
+    },
+     "personalizar": {
+    "tipo": "check",
+    "label": "Personalizar Cor",
+    "descricao": "Peronsonalize a barra inferior do site",
+    "condicional":"barra"
+  },
+  "background": {
+    "tipo": "color",
+    "label": "Cor de Background",
+    "descricao": "Cor de fundo da barra inferior",
+    "condicional":"personalizar"
+  },
+  "texto": {
+    "tipo": "color",
+    "label": "Cor do Texto",
+    "descricao": "Peronsonalize a cor do texto da inferior do site",
+     "condicional":"personalizar"
+  },
+    "separador":{
+        "tipo": "hr"
+    },
+    "posicao1": {
+        "tipo": "check",
+        "label": "Posição 1",
+        "descricao": "Ative a posição 1 do rodapé"
+    },
+    "area1": {
+        "tipo": "select",
+        "label": "Selecione o Espaço a ser usado",
+        "descricao": "Selecione o espaço do item a ser carregado",
+        "condicional": "posicao1",
+        "opcoes": [
+            {"chave": "Espaço 1", "valor": "1"},
+            {"chave": "Espaço 2", "valor": "2"},
+            {"chave": "Espaço 3", "valor": "3"},
+            {"chave": "Espaço 4", "valor": "4"},
+            {"chave": "Espaço 5", "valor": "5"},
+            {"chave": "Espaço 6", "valor": "6"},
+            {"chave": "Espaço 7", "valor": "7"},
+            {"chave": "Espaço 8", "valor": "8"}
+        ]
+    },
+    "hidemobile1": {
+        "tipo": "check",
+        "label": "Esconder no Mobile",
+        "descricao": "Esconda o componente no mobile",
+        "condicional": "posicao1"
+    },
+    "hidepc1": {
+        "tipo": "check",
+        "label": "Esconder no PC",
+        "descricao": "Esconda o componente no PC",
+        "condicional": "posicao1"
+    },
+    "tamanho1":{
+         "tipo": "select",
+        "label": "Tamanho do Componente no PC",
+        "descricao": "Defina o tamanho da tela",
+        "condicional": "posicao1",
+        "opcoes": [
+            {"chave": "25%", "valor": "3"},
+            {"chave": "33%", "valor": "4"},
+            {"chave": "50%", "valor": "6"},
+            {"chave": "75%", "valor": "9"},
+            {"chave": "100%", "valor": "12"}
+  
+        ]
+    },
+    "separador1": {
+        "tipo": "hr"
+    },
+    "posicao2": {
+        "tipo": "check",
+        "label": "Posição 2",
+        "descricao": "Ative a posição 2 do rodapé"
+    },
+    "area2": {
+        "tipo": "select",
+        "label": "Selecione o Espaço a ser usado",
+        "descricao": "Selecione o espaço do item a ser carregado",
+        "condicional": "posicao2",
+        "opcoes": [
+            {"chave": "Espaço 1", "valor": "1"},
+            {"chave": "Espaço 2", "valor": "2"},
+            {"chave": "Espaço 3", "valor": "3"},
+            {"chave": "Espaço 4", "valor": "4"},
+            {"chave": "Espaço 5", "valor": "5"},
+            {"chave": "Espaço 6", "valor": "6"},
+            {"chave": "Espaço 7", "valor": "7"},
+            {"chave": "Espaço 8", "valor": "8"}
+        ]
+    },
+    "hidemobile2": {
+        "tipo": "check",
+        "label": "Esconder no Mobile",
+        "descricao": "Esconda o componente no mobile",
+        "condicional": "posicao2"
+    },
+    "hidepc2": {
+        "tipo": "check",
+        "label": "Esconder no PC",
+        "descricao": "Esconda o componente no PC",
+        "condicional": "posicao2"
+    },
+     "tamanho2":{
+         "tipo": "select",
+        "label": "Tamanho do Componente no PC",
+        "descricao": "Defina o tamanho da tela",
+        "condicional": "posicao2",
+        "opcoes": [
+            {"chave": "25%", "valor": "3"},
+            {"chave": "33%", "valor": "4"},
+            {"chave": "50%", "valor": "6"},
+            {"chave": "75%", "valor": "9"},
+            {"chave": "100%", "valor": "12"}
+  
+        ]
+    },
+    "separador2": {
+        "tipo": "hr"
+    },
+    "posicao3": {
+        "tipo": "check",
+        "label": "Posição 3",
+        "descricao": "Ative a posição 3 do rodapé"
+    },
+    "area3": {
+        "tipo": "select",
+        "label": "Selecione o Espaço a ser usado",
+        "descricao": "Selecione o espaço do item a ser carregado",
+        "condicional": "posicao3",
+        "opcoes": [
+            {"chave": "Espaço 1", "valor": "1"},
+            {"chave": "Espaço 2", "valor": "2"},
+            {"chave": "Espaço 3", "valor": "3"},
+            {"chave": "Espaço 4", "valor": "4"},
+            {"chave": "Espaço 5", "valor": "5"},
+            {"chave": "Espaço 6", "valor": "6"},
+            {"chave": "Espaço 7", "valor": "7"},
+            {"chave": "Espaço 8", "valor": "8"}
+        ]
+    },
+    "hidemobile3": {
+        "tipo": "check",
+        "label": "Esconder no Mobile",
+        "descricao": "Esconda o componente no mobile",
+        "condicional": "posicao3"
+    },
+    "hidepc3": {
+        "tipo": "check",
+        "label": "Esconder no PC",
+        "descricao": "Esconda o componente no PC",
+        "condicional": "posicao3"
+    },
+     "tamanho3":{
+         "tipo": "select",
+        "label": "Tamanho do Componente no PC",
+        "descricao": "Defina o tamanho da tela",
+        "condicional": "posicao3",
+        "opcoes": [
+            {"chave": "25%", "valor": "3"},
+            {"chave": "33%", "valor": "4"},
+            {"chave": "50%", "valor": "6"},
+            {"chave": "75%", "valor": "9"},
+            {"chave": "100%", "valor": "12"}
+  
+        ]
+    },
+    "separador3": {
+        "tipo": "hr"
+    },
+    "posicao4": {
+        "tipo": "check",
+        "label": "Posição 4",
+        "descricao": "Ative a posição 4 do rodapé"
+    },
+    "area4": {
+        "tipo": "select",
+        "label": "Selecione o Espaço a ser usado",
+        "descricao": "Selecione o espaço do item a ser carregado",
+        "condicional": "posicao4",
+        "opcoes": [
+            {"chave": "Espaço 1", "valor": "1"},
+            {"chave": "Espaço 2", "valor": "2"},
+            {"chave": "Espaço 3", "valor": "3"},
+            {"chave": "Espaço 4", "valor": "4"},
+            {"chave": "Espaço 5", "valor": "5"},
+            {"chave": "Espaço 6", "valor": "6"},
+            {"chave": "Espaço 7", "valor": "7"},
+            {"chave": "Espaço 8", "valor": "8"}
+        ]
+    },
+    "hidemobile4": {
+        "tipo": "check",
+        "label": "Esconder no Mobile",
+        "descricao": "Esconda o componente no mobile",
+        "condicional": "posicao4"
+    },
+    "hidepc4": {
+        "tipo": "check",
+        "label": "Esconder no PC",
+        "descricao": "Esconda o componente no PC",
+        "condicional": "posicao4"
+    },
+     "tamanho4":{
+         "tipo": "select",
+        "label": "Tamanho do Componente no PC",
+        "descricao": "Defina o tamanho da tela",
+        "condicional": "posicao4",
+        "opcoes": [
+            {"chave": "25%", "valor": "3"},
+            {"chave": "33%", "valor": "4"},
+            {"chave": "50%", "valor": "6"},
+            {"chave": "75%", "valor": "9"},
+            {"chave": "100%", "valor": "12"}
+  
+        ]
+    }
+}

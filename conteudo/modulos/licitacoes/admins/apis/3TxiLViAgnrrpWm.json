@@ -1,0 +1,127 @@
+{
+    "nome": "Item Por Licitação",
+    "banco": "JjFHXCtnfJS5VpjR6czNl8BBolvYVarT",
+    "tipo": 1,
+    "subtipo": 2,
+    "itens": [
+        {
+            "nome": "id",
+            "banco": "p",
+            "chave": "id",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "desc",
+            "banco": "p",
+            "chave": "desc",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "att",
+            "banco": "p",
+            "chave": "att",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "hash",
+            "banco": "p",
+            "chave": "hash",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "beneficio",
+            "banco": "p",
+            "chave": "beneficio",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "criterio_julgamento",
+            "banco": "m",
+            "chave": "criterio_julgamento",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "item_material",
+            "banco": "m",
+            "chave": "item_material",
+            "estrangeiro": 1,
+            "setupEstrangeira": {
+                "modulo": "licitacoes",
+                "banco": "vVQQXXu9OoLuEc12vfU7X4aRAieyuN80.json",
+                "metas": [],
+                "principal": [
+                    "desc"
+                ]
+            }
+        },
+        {
+            "nome": "unidade",
+            "banco": "m",
+            "chave": "unidade",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "quantidade",
+            "banco": "m",
+            "chave": "quantidade",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "unidade_gestora",
+            "banco": "m",
+            "chave": "unidade_gestora",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "cpfVencedor",
+            "banco": "m",
+            "chave": "cpfVencedor",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "numero_item_licitacao",
+            "banco": "m",
+            "chave": "numero_item_licitacao",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "sustentavel",
+            "banco": "m",
+            "chave": "sustentavel",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "cnpj_fornecedor",
+            "banco": "m",
+            "chave": "cnpj_fornecedor",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "codigo",
+            "banco": "p",
+            "chave": "codigo",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "valor_estimado",
+            "banco": "m",
+            "chave": "valor_estimado",
+            "estrangeiro": 0
+        }
+    ],
+    "number": {
+        "comentarios": false,
+        "reacoes": false,
+        "favoritos": false,
+        "visualizacoes": false
+    },
+    "extra": {
+        "ativo": false,
+        "coluna": "",
+        "tipo": "="
+    },
+    "clone": {
+        "ativo": false,
+        "api": ""
+    }
+}

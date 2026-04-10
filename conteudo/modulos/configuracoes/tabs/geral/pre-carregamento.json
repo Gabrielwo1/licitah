@@ -1,0 +1,44 @@
+{   "Tela de Loading":{
+    "tipo": "titulo",
+    "subtitulo": "Essa tela é executada toda vez que o usuário da um refresh na página"
+    
+},
+    "precarregamento":{
+        "label": "Pré Carregamento",
+         "tipo":"check",
+         "descricao": "Mostrar uma tela de loading enquanto a página carrega por inteiro"
+      },
+         "imagem":{
+      "label":"Imagem",
+      "tipo":"file",
+      "descricao":"Defina uma imagem de carregamento"
+   },
+      "altura":{
+      "label":"Altura da Imagem",
+      "tipo":"number",
+      "descricao":"Defina uma altura da imagem de pré carregamento"
+   },
+       "textocarregamento":{
+           "label": "Texto de Carregamento",
+         "tipo":"input",
+         "descricao": "Texto que será exibido enquato a página carrega",
+        "condicional": "precarregamento"
+      },
+       "corbackground":{
+         "label": "Cor do Background",
+         "tipo":"color",
+         "descricao": "Cor de página de carregamento",
+         "condicional": "precarregamento"
+      },
+      "cortextos":{
+         "label": "Cor do Textos",
+         "tipo":"select",
+         "descricao": "Selecione a cor dos textos e itens de contraste",
+         "condicional": "precarregamento",
+           "opcoes": [
+            {"chave":"Dark","valor":"black"},
+            {"chave":"Light","valor":"white"}
+            ]
+      }
+       
+}

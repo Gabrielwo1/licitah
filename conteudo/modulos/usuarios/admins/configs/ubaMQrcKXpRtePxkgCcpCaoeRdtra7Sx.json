@@ -1,0 +1,108 @@
+{
+    "banco": "funcoes_apis",
+    "meta": false,
+    "prefixo": "funcao_api",
+    "url": false,
+    "colunas": [
+        {
+            "nome": "funcao",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "qCnINgUVg6fyUjaQKr8Bh0stuSxRdN"
+        },
+        {
+            "nome": "modulo",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "bNNFgrE2j6doIuhfiqxRIyNEYljShq",
+            "size": 50
+        },
+        {
+            "nome": "key",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "lRsmbLmv5jHxZslEyvKsBIo70pCPmg",
+            "size": 50
+        },
+        {
+            "nome": "limite",
+            "nulo": false,
+            "tipo": "boolean",
+            "unico": false,
+            "input": "mXiq8J6CiPEFBf9pzOcLcuxRv6cpVP"
+        },
+        {
+            "nome": "quantidade",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "Vwk064nIzZPzLYREJ9XemyBYpbrDOW"
+        },
+        {
+            "nome": "reacessivel",
+            "nulo": false,
+            "tipo": "boolean",
+            "unico": false,
+            "input": "Id3FMd9KC8YB85r2brwTdx8ChYcCgF"
+        },
+        {
+            "nome": "reacessivel_quantidade",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "nj60XZKyoYAIslNlKIAKpkHtRzyr8z"
+        },
+        {
+            "nome": "reacessivel_tipo",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "o2Cz916DsV5onxbfYUBMgwPfU8wctU"
+        },
+        {
+            "nome": "renovavel",
+            "nulo": false,
+            "tipo": "boolean",
+            "unico": false,
+            "input": "xWMW9d0koAqeO7oBEXkKSTIPqTm0a8"
+        },
+        {
+            "nome": "renovavel_quantidade",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "s62z5Kv1xapLof8HCZAFFsPkaWuXRS"
+        },
+        {
+            "nome": "renovavel_tipo",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "cOMeQYOOVmj1AI70ZAeR27QAhwzsik"
+        }
+    ],
+    "estrutura": {
+        "meta": false,
+        "hash": false,
+        "autor": false,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "ordenador": false,
+        "url": false,
+        "urledit": false,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false,
+        "desabilitarNovo": false,
+        "desabilitarEdicao": false,
+        "reordenador": false,
+        "pontos": false
+    },
+    "metas": []
+}

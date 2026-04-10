@@ -1,0 +1,96 @@
+{
+    "nome": "usuario",
+    "banco": "aY4O9kcLpNMpbiD",
+    "tipo": 1,
+    "subtipo": 2,
+    "itens": [
+        {
+            "nome": "email",
+            "banco": "p",
+            "chave": "email",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "telefone",
+            "banco": "p",
+            "chave": "telefone",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "cpf",
+            "banco": "p",
+            "chave": "cpf",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "sobrenome",
+            "banco": "m",
+            "chave": "sobrenome",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "nome",
+            "banco": "m",
+            "chave": "nome",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "genero",
+            "banco": "m",
+            "chave": "genero",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "twiter",
+            "banco": "m",
+            "chave": "twiter",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "facebook",
+            "banco": "m",
+            "chave": "facebook",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "instagram",
+            "banco": "m",
+            "chave": "instagram",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "outro-genero",
+            "banco": "m",
+            "chave": "outro-genero",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "hash",
+            "banco": "p",
+            "chave": "hash",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "foto",
+            "banco": "p",
+            "chave": "foto",
+            "estrangeiro": 0
+        }
+    ],
+    "number": {
+        "comentarios": false,
+        "reacoes": false,
+        "favoritos": false,
+        "visualizacoes": false
+    },
+    "extra": {
+        "ativo": false,
+        "coluna": "telefone",
+        "tipo": "="
+    },
+    "clone": {
+        "ativo": false,
+        "api": ""
+    },
+    "geolocalizacao": false
+}

@@ -1,0 +1,279 @@
+{
+    "id": "159",
+    "nome": "Notificações | Preferências",
+    "hash": "J82CnekVG4JahxJfhZPVNrADX7L6VNvM",
+    "data": "2024-08-12 17:48:48",
+    "tamanho": 7,
+    "inputs": [
+        {
+            "id": "4655",
+            "tipo": "number",
+            "nome": "Notificação",
+            "obrigatorio": "0",
+            "data": "2024-08-12 17:51:54",
+            "pai": "0",
+            "posicao": "0",
+            "hash": "NH8aT7uN4KZEUL88lAiQ9TWl38yFBP",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": "Notificação",
+                    "descricao": "",
+                    "obrigatorio": 0,
+                    "somente-leitura": 0
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": "",
+                    "sub-label": "",
+                    "tooltip": ""
+                },
+                "valor": {
+                    "minimo": "",
+                    "maximo": "",
+                    "definido": ""
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": ""
+                },
+                "identificador": {
+                    "id": "",
+                    "classes": ""
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "4656",
+            "tipo": "number",
+            "nome": "Usuário",
+            "obrigatorio": "0",
+            "data": "2024-08-12 17:52:00",
+            "pai": "0",
+            "posicao": "1",
+            "hash": "vWNhQTZc4CVIpAn71dk63YC1vrhOwi",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": "Usuário",
+                    "descricao": "",
+                    "obrigatorio": 0,
+                    "somente-leitura": 0
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": "",
+                    "sub-label": "",
+                    "tooltip": ""
+                },
+                "valor": {
+                    "minimo": "",
+                    "maximo": "",
+                    "definido": ""
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": ""
+                },
+                "identificador": {
+                    "id": "",
+                    "classes": ""
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "4657",
+            "tipo": "card",
+            "nome": "Canais",
+            "obrigatorio": "0",
+            "data": "2024-08-12 17:53:26",
+            "pai": "0",
+            "posicao": "2",
+            "hash": "QfLYOcHTF07bwF1ti1N2mdziAYh74w",
+            "infos": {
+                "basico": {
+                    "label": "Canais ",
+                    "recolhivel": 1
+                },
+                "flex": {
+                    "ativar": 0,
+                    "direcao": 1,
+                    "justify": 0,
+                    "align": 0,
+                    "gap": 0
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": " "
+                },
+                "identificador": {
+                    "id": " ",
+                    "classes": " "
+                }
+            },
+            "filhos": [
+                {
+                    "id": "4658",
+                    "tipo": "switch",
+                    "nome": "Push",
+                    "obrigatorio": "0",
+                    "data": "2024-08-12 17:52:50",
+                    "pai": "4657",
+                    "posicao": "0",
+                    "hash": "Zqtip2E3P9iVCRpQyh0oRXjMS9qrd3",
+                    "infos": {
+                        "basico": {
+                            "label": "Push",
+                            "descricao": "",
+                            "obrigatorio": 0
+                        },
+                        "estilo": {
+                            "estilo": 0,
+                            "tamanho": 0,
+                            "justificar": 0,
+                            "ordem": 0
+                        },
+                        "label": {
+                            "sub-label": "",
+                            "tooltip": ""
+                        },
+                        "logica": {
+                            "logica": 0,
+                            "setup": ""
+                        },
+                        "identificador": {
+                            "id": "",
+                            "classes": ""
+                        }
+                    },
+                    "filhos": []
+                },
+                {
+                    "id": "4659",
+                    "tipo": "switch",
+                    "nome": "SMS",
+                    "obrigatorio": "0",
+                    "data": "2024-08-12 18:07:36",
+                    "pai": "4657",
+                    "posicao": "1",
+                    "hash": "Y4bC3aUVsr8pxOEpiCMVdC1L3mpJlB",
+                    "infos": {
+                        "basico": {
+                            "label": "SMS ",
+                            "descricao": " ",
+                            "obrigatorio": 0
+                        },
+                        "estilo": {
+                            "estilo": 0,
+                            "tamanho": 0,
+                            "justificar": 0,
+                            "ordem": 0
+                        },
+                        "label": {
+                            "sub-label": " ",
+                            "tooltip": " "
+                        },
+                        "logica": {
+                            "logica": 0,
+                            "setup": " "
+                        },
+                        "identificador": {
+                            "id": " ",
+                            "classes": " "
+                        }
+                    },
+                    "filhos": []
+                },
+                {
+                    "id": "4660",
+                    "tipo": "switch",
+                    "nome": "WhatsApp",
+                    "obrigatorio": "0",
+                    "data": "2024-08-12 17:53:10",
+                    "pai": "4657",
+                    "posicao": "2",
+                    "hash": "TymORuEpP5jbm949owoZWgmFfJVuEt",
+                    "infos": {
+                        "basico": {
+                            "label": "WhatsApp",
+                            "descricao": "",
+                            "obrigatorio": 0
+                        },
+                        "estilo": {
+                            "estilo": 0,
+                            "tamanho": 0,
+                            "justificar": 0,
+                            "ordem": 0
+                        },
+                        "label": {
+                            "sub-label": "",
+                            "tooltip": ""
+                        },
+                        "logica": {
+                            "logica": 0,
+                            "setup": ""
+                        },
+                        "identificador": {
+                            "id": "",
+                            "classes": ""
+                        }
+                    },
+                    "filhos": []
+                },
+                {
+                    "id": "4661",
+                    "tipo": "switch",
+                    "nome": "E-mail",
+                    "obrigatorio": "0",
+                    "data": "2024-08-12 17:53:19",
+                    "pai": "4657",
+                    "posicao": "3",
+                    "hash": "qrjdwf4ZaO1O6xUdn0af59kM2RJF6a",
+                    "infos": {
+                        "basico": {
+                            "label": "E-mail",
+                            "descricao": "",
+                            "obrigatorio": 0
+                        },
+                        "estilo": {
+                            "estilo": 0,
+                            "tamanho": 0,
+                            "justificar": 0,
+                            "ordem": 0
+                        },
+                        "label": {
+                            "sub-label": "",
+                            "tooltip": ""
+                        },
+                        "logica": {
+                            "logica": 0,
+                            "setup": ""
+                        },
+                        "identificador": {
+                            "id": "",
+                            "classes": ""
+                        }
+                    },
+                    "filhos": []
+                }
+            ]
+        }
+    ],
+    "infos": {
+        "layout": {
+            "tamanho": 4
+        },
+        "logica": {
+            "logica": 0,
+            "setup": " "
+        }
+    }
+}

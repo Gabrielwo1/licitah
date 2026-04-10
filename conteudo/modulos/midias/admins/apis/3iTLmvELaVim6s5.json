@@ -1,0 +1,86 @@
+{
+    "nome": "Midias",
+    "banco": "7gFgoC5oPHYybpp",
+    "tipo": 2,
+    "subtipo": 1,
+    "itens": [
+        {
+            "nome": "id",
+            "banco": "p",
+            "chave": "id",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "nome",
+            "banco": "p",
+            "chave": "nome",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "tipo",
+            "banco": "p",
+            "chave": "tipo",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "formato",
+            "banco": "p",
+            "chave": "formato",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "tamanho",
+            "banco": "p",
+            "chave": "tamanho",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "url",
+            "banco": "p",
+            "chave": "url",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "autor",
+            "banco": "p",
+            "chave": "autor",
+            "estrangeiro": 1,
+            "setupEstrangeira": {
+                "modulo": "usuarios",
+                "banco": "aY4O9kcLpNMpbiD.json",
+                "metas": [],
+                "principal": [
+                    "display"
+                ]
+            }
+        },
+        {
+            "nome": "data",
+            "banco": "p",
+            "chave": "dataCriacao",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "update",
+            "banco": "p",
+            "chave": "dataUpdate",
+            "estrangeiro": 0
+        }
+    ],
+    "number": {
+        "comentarios": false,
+        "reacoes": false,
+        "favoritos": false,
+        "visualizacoes": false
+    },
+    "extra": {
+        "ativo": false,
+        "coluna": "",
+        "tipo": "="
+    },
+    "clone": {
+        "ativo": false,
+        "api": ""
+    },
+    "geolocalizacao": false
+}

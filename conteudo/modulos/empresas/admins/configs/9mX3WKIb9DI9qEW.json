@@ -1,0 +1,106 @@
+{
+    "banco": "empresas",
+    "meta": true,
+    "prefixo": "empresa",
+    "url": "1",
+    "colunas": [
+        {
+            "nome": "nome",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "Lm817ekvhwdCmbZcRHcD6RR0esMXR2",
+            "size": 200
+        },
+        {
+            "nome": "cnpj",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": true,
+            "input": "b0nfnPAzg0vtrdQCxzuxhrA1VNMoAK",
+            "size": 30
+        },
+        {
+            "nome": "descricao_curta",
+            "nulo": true,
+            "tipo": "text",
+            "unico": false,
+            "input": "9XOeTz2h3KsSaw9TyK1e2thCXNQRgq"
+        },
+        {
+            "nome": "telefones",
+            "nulo": true,
+            "tipo": "json",
+            "unico": false,
+            "input": "JtayjMWS6HFdGYfGplGyU33BKxfycq"
+        },
+        {
+            "nome": "emails",
+            "nulo": true,
+            "tipo": "json",
+            "unico": false,
+            "input": "bzshbWPPJXPlOYrtGBNXyKxPUsRdFN"
+        },
+        {
+            "nome": "socios",
+            "nulo": true,
+            "tipo": "json",
+            "unico": false,
+            "input": "FbLmJCqkjermpM8iuxkFcH2jODy9Uv"
+        },
+        {
+            "nome": "secundaria",
+            "nulo": true,
+            "tipo": "json",
+            "unico": false,
+            "input": "5XKVEW8Dfnn1bYesZycLM3GxFWM0j3"
+        },
+        {
+            "nome": "descricao",
+            "nulo": true,
+            "tipo": "text",
+            "unico": false,
+            "input": "QKwHj4pPGb6yDl7aveNsQHejIX99GN"
+        }
+    ],
+    "estrutura": {
+        "meta": true,
+        "hash": true,
+        "autor": true,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "ordenador": false,
+        "url": true,
+        "urledit": false,
+        "imagemDestaque": true,
+        "galeria": true,
+        "categoria": true,
+        "tags": true,
+        "seo": false,
+        "preco": false,
+        "desabilitarNovo": false,
+        "desabilitarEdicao": false,
+        "reordenador": false,
+        "pontos": false
+    },
+    "metas": {
+        "ynRUwjy746f9A6pKxyI4nx3cjZRMEY": "razao_social",
+        "z6TMPnoj3c1AslGJzHsTQ0imLQrN8f": "nome_fantasia",
+        "S3g5cYtzkCWaHvHpey5xDeGansMad9": "situação",
+        "Jq9ZzBHLOyc2VTzUJ4LrZeYfpPPgHG": "porte",
+        "su21T1tUD5S8isYZavbkrr2XyjNO9j": "natureza_juridica",
+        "TKDL0YOLDiEpPDYEeMOefnFEpxHCft": "abertura",
+        "lDYdBXLcYqOShg3Ah9djLXA5GWSMFJ": "site",
+        "gY1MDBKTQItTgSnhLUe2MM9nycVayJ": "whatsapp",
+        "dUIUf4tmrVrY9kqYbALu011xvqpkJZ": "instagram",
+        "XmrizZxEyxNcSmurlfyDg8axLGqM8R": "facebook",
+        "DIwbUNcrQAoXpJ2Aanq8tnbfDirUxR": "twiter",
+        "GlybAZL6ilSErCMiMfiIoN3MF8IvHZ": "linkdin",
+        "4FYAqPh963AltQH1a22vrw3mBOqeVo": "youtube",
+        "RcG6rZGyNIC6fTEXNNnibmgpYKa3oW": "tiktok",
+        "4k3kaOclpf1TKzQko7g84tKB7RuUWk": "",
+        "9rMArpyQX4s6kXEuYjoKKLg8HJpqso": "primario_nome",
+        "2fImcosPwx7HSHqOODPPJklbVq4WFy": "primario_cnae",
+        "AUKFsNddfVAvHCTVlB2QxElbobCsao": "premium"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "nome": "Anexos",
+    "tipo": "2",
+    "id": "ZdCLRdEEAdhheIs",
+    "btns": [
+        {
+            "texto": "Adicionar Novo",
+            "tipo": "1",
+            "callback": "a\/licitacoes\/anexo",
+            "id": "",
+            "icone": ""
+        }
+    ],
+    "titulo": "Lista de Anexos",
+    "breadcrumbs": false
+}

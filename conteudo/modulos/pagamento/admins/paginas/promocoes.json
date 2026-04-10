@@ -1,0 +1,16 @@
+{
+    "nome": "Promoções",
+    "tipo": "2",
+    "id": "u6mGgOIMir73bWl",
+    "btns": [
+        {
+            "texto": "Criar Promoção",
+            "tipo": "1",
+            "callback": "a\/pagamento\/promocao",
+            "id": "",
+            "icone": ""
+        }
+    ],
+    "titulo": "Promoções",
+    "breadcrumbs": true
+}

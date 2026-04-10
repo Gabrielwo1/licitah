@@ -1,0 +1,24 @@
+{
+    "name": "Usuários",
+    "description": "Gerencie os usuários do sistema.",
+    "descriptionLong": "",
+    "icon": "bi bi-people",
+    "ativo": "true",
+    "multiconta": false,
+    "readonly": false,
+    "sub": [
+        {
+            "name": "Usuários",
+            "link": "a\/usuarios"
+        },
+        {
+            "name": "Funções",
+            "link": "a\/usuarios\/funcoes"
+        }
+    ],
+    "configs": [
+        "Páginas",
+        "Vinculos"
+    ],
+    "versao": "1.31"
+}

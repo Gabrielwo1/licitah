@@ -1,0 +1,14 @@
+{
+
+    "ativo":{
+        "tipo": "check",
+        "label":"Ativar Google Tag Mananger",
+        "descricao": "Adicione os Scritps do Google Tag Mananger"
+    },
+    "tag":{
+        "tipo": "input",
+        "label": "ID da Conta",
+        "descricao": "Digite o ID da conta no formato UA-xxxxxxxx",
+        "condicional": "tagmananger"
+    }
+}

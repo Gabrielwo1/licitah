@@ -1,0 +1,25 @@
+{
+    "name": "Artigos",
+    "description": "Adicione um poderoso blog ao sistema, com diversos layouts e configurações.",
+    "descriptionLong": "",
+    "icon": "bi bi-journal-text",
+    "ativo": "false",
+    "sub": [
+        {
+            "name": "Todos os Artigos",
+            "link": "a\/artigos"
+        },
+        {
+            "name": "Adicionar Novo",
+            "link": "a\/artigos\/artigo"
+        },
+        {
+            "name": "Categorias",
+            "link": "a\/artigos\/categorias"
+        }
+    ],
+    "configs": [
+        "Configurações"
+    ],
+    "versao": "0.86"
+}

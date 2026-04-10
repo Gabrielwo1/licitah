@@ -1,0 +1,46 @@
+{
+    "banco": "enderecos_regioes",
+    "meta": false,
+    "prefixo": "enderecos_regiao",
+    "url": "1",
+    "colunas": [
+        {
+            "nome": "nome",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "guoGEvl1NOurfS4V4xYb5nUQr3yGF1",
+            "size": 50
+        },
+        {
+            "nome": "externo",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "bQSS0XW3a6ExastGGAe4JxHGOCHIYj"
+        }
+    ],
+    "estrutura": {
+        "meta": false,
+        "hash": true,
+        "autor": false,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "ordenador": false,
+        "url": true,
+        "urledit": false,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false,
+        "autoria": false,
+        "wildcard": false,
+        "desabilitarNovo": true,
+        "desabilitarEdicao": true,
+        "reordenador": false,
+        "pontos": false
+    },
+    "metas": []
+}

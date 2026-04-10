@@ -1,0 +1,138 @@
+{
+    "banco": "usuarios",
+    "meta": true,
+    "prefixo": "usuario",
+    "url": false,
+    "colunas": [
+        {
+            "nome": "display",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "gFqK22VwlkSnq1cW46dGmP2jXCzxkD",
+            "size": 100
+        },
+        {
+            "nome": "email",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": true,
+            "input": "XuvM4v5QPNmT7ZfaakqWnm1zB9u0w1",
+            "size": 50
+        },
+        {
+            "nome": "telefone",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": true,
+            "input": "MeEGyJoBHKG2JOEJHudyUx46vcslSi",
+            "size": 30
+        },
+        {
+            "nome": "cpf",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": true,
+            "input": "y8lrpW4zdcH3DGLxabSW9VpqOHI1ob",
+            "size": 20
+        },
+        {
+            "nome": "user",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": true,
+            "input": "B4IXwnanZwFTXajgI80eityhzcEdjJ",
+            "size": 50
+        },
+        {
+            "nome": "senha",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": false,
+            "size": 32
+        },
+        {
+            "nome": "funcao",
+            "nulo": false,
+            "tipo": "estrangeiro",
+            "input": "FdCbQmM8AR9AUrBnpe8SGWxQBpjMTQ",
+            "estrangeira": "funcoes",
+            "referencia": "funcao_id"
+        },
+        {
+            "nome": "ativo",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "WpFDX3pN4F6JX7hGJkmsO5o7jRwwFy"
+        },
+        {
+            "nome": "foto",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "fPih8hO5pY9q6czK3PbULyzjgAXLcm",
+            "size": 200
+        },
+        {
+            "nome": "capa",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "f5Z8SwcE9nIzSFjusXWhp2TbvHYSaE",
+            "size": 200
+        }
+    ],
+    "estrutura": {
+        "meta": true,
+        "hash": true,
+        "autor": false,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "ordenador": false,
+        "url": false,
+        "urledit": false,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false,
+        "autoria": false,
+        "wildcard": false,
+        "atributos": false,
+        "destaque": false,
+        "enderecos": true,
+        "subconta": false,
+        "desabilitarNovo": true,
+        "desabilitarEdicao": false,
+        "reordenador": false,
+        "pontos": false
+    },
+    "metas": {
+        "NcIp3dQ9aMIHF3Cm39KRZbUvE4q7pS": "nome",
+        "uBS6krw2NNQlmdXFS2uTIL4EEoR6TJ": "sobrenome",
+        "kq1dK6008hc0Fz7OiEDY5seovo6Xpx": "aniversario",
+        "xk5r6cAfEz4CqtDaQCVa5fP3OGfe7v": "pais",
+        "0r8kI1D93UDxjCjONO9nuIRs0GDQWC": "sobre",
+        "utRl25u8fa9bKDsgXBatzGyUWWXg7D": "genero",
+        "NMgZZdMVossD33diRvn1wFa03fB4qd": "outro-genero",
+        "T202vgNTXGiPe1QFRqRGgByKplkAiP": "instagram",
+        "QqCLGPyWs6ZSFYEaeWD4F8LhyGw1cN": "facebook",
+        "1fhl7CZFbxon61AeSAHxqgIZh82IZS": "tiktok",
+        "ufWqcdsgN47V8vQvJdiU28x7WS0bSi": "twiter",
+        "qrEU5aV9t8zRiyCavDvRNT6YAedrj9": "linkedin",
+        "7olOBs8QzMDqGDdtUjXx6Qz9TssXIH": "github",
+        "SwSeJxOPeSi6lUbzCnCvIe7YaVsYEv": "",
+        "oqxDsRI2CWisg82A6oUb7l0dFWAiHh": "",
+        "Nrygrq1OyAo0wocZptJS7Wp2xEiKz1": "login-google",
+        "pr2m634EVT4xpeud2PImv0XRC8iTlz": "login-facebook",
+        "IK8TuwGLRAEadoBVH0DE7ZADZ4NCmB": "email-valido",
+        "uRnhg7AHoYeIi21JoHn9scpXnoZpVN": "telefone-valido",
+        "7jO2qRrkba2uCek9enMIotPqogywf0": "dois-fatores",
+        "PFogndI5uhv7jOb3JhyTlPghFeqq74": "dois-fatores-email",
+        "IE2QSTC0EuygpCGPYXp9Avmx7lqQeR": "dois-fatores-whatsapp",
+        "8XZUvaDiX63hSCO10eWp5s7NWgkfcr": "dois-fatores-sms"
+    }
+}

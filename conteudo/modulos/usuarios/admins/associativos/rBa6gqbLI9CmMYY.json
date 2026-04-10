@@ -1,0 +1,15 @@
+{
+    "nome": "sdadas",
+    "banco": "dasdas",
+    "prefixo": "dasdas",
+    "itens": [
+        {
+            "modulo": "usuarios",
+            "banco": "aY4O9kcLpNMpbiD.json"
+        },
+        {
+            "modulo": "usuarios",
+            "banco": "Gl0ET7eECTejzdoC3D6NxonM3cbfaE0j.json"
+        }
+    ]
+}

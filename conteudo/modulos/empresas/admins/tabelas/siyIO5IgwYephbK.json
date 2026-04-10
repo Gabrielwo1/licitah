@@ -1,0 +1,86 @@
+{
+    "nome": "Departamentos",
+    "banco": "Sh3Ga6RvheNI4L04hFO8QxlyoLR9w4iN",
+    "colunas": [
+        {
+            "nome": "Nome do departamento",
+            "id": "nome",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "tabulavel": false,
+            "pesquisavel": false,
+            "colpesquisavel": false,
+            "estrangeira": 0
+        },
+        {
+            "nome": "Responsável pelo departamento",
+            "id": "colaborador_responsavel",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "tabulavel": false,
+            "pesquisavel": false,
+            "colpesquisavel": false,
+            "estrangeira": 0
+        },
+        {
+            "nome": "Quantidade de colaboradores",
+            "id": "quantidade_colaborador",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "tabulavel": false,
+            "pesquisavel": false,
+            "colpesquisavel": false,
+            "estrangeira": 0
+        }
+    ],
+    "regra": "1",
+    "acoes": {
+        "opcoes": {
+            "acoes": true,
+            "editar": true,
+            "apagar": true,
+            "vizualizar": false,
+            "duplicar": false,
+            "importador": false,
+            "exportador": false,
+            "filtro": true,
+            "colunas": false,
+            "multiplo": true,
+            "ordenador": true,
+            "filtrodata": false,
+            "filtrosuconta": false,
+            "bigdata": false
+        },
+        "rotas": {
+            "editar": "a\/empresas\/departamento",
+            "vizualizar": ""
+        }
+    },
+    "layout": {
+        "modo": "1",
+        "container": "0"
+    },
+    "acoesPersonalizadas": [],
+    "dataFilter": "0",
+    "condicional": {
+        "ativo": "0",
+        "coluna": "",
+        "tipo": "=",
+        "valor": ""
+    },
+    "condicional2": {
+        "ativo": "0",
+        "coluna": "",
+        "tipo": "=",
+        "valor": ""
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "nome": "Departamento",
+    "tipo": "1",
+    "id": "Sh3Ga6RvheNI4L04hFO8QxlyoLR9w4iN",
+    "btns": [
+        {
+            "texto": "Ver Todos",
+            "tipo": "1",
+            "callback": "a\/empresas\/departamentos",
+            "id": "",
+            "icone": ""
+        }
+    ],
+    "titulo": "{novo} Departamento",
+    "breadcrumbs": false
+}

@@ -1,0 +1,16 @@
+{
+    "nome": "Usuário",
+    "tipo": "1",
+    "id": "aY4O9kcLpNMpbiD",
+    "btns": [
+        {
+            "texto": "Ver Todos",
+            "tipo": "1",
+            "callback": "a\/usuarios",
+            "id": "",
+            "icone": "bi bi-person-lines-fill"
+        }
+    ],
+    "titulo": "{novo} Usuário",
+    "breadcrumbs": false
+}

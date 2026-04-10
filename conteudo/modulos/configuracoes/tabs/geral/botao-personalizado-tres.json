@@ -1,0 +1,81 @@
+{   
+    "ativar":{
+        "tipo": "check",
+        "label": "Ativar Botão Personalizado",
+        "descricao": "Ative o primeiro botão personalizado"
+    },
+    "logados":{
+        "tipo": "check",
+        "label": "Mostrar Botão para Logados",
+        "descricao": "Mostrar Botão para Usuários Logados",
+        "condicional": "ativar"
+    },
+     "deslogados":{
+        "tipo": "check",
+        "label": "Mostrar Botão para Deslogados",
+        "descricao": "Mostrar Botão para Usuários Deslogados",
+        "condicional": "ativar"
+    },
+    "cor": {
+    "tipo": "select",
+    "label": "Defina o estilo do botão personalizado",
+    "descricao": "Defina o link.",
+    "opcoes": [
+      {"chave": "Primaria", "valor": "btn-n-primaria"},
+      {"chave": "Secundaria", "valor": "btn-n-secundaria"},
+      {"chave": "Terciaria", "valor": "btn-n-terciaria"},
+      {"chave": "Quaternaria", "valor": "btn-n-quaternaria"},
+      {"chave": "Primary", "valor": "btn-primary"},
+      {"chave": "Secondary", "valor": "btn-secondary"},
+      {"chave": "Success", "valor": "btn-success"},
+      {"chave": "Danger", "valor": "btn-danger"},
+      {"chave": "Info", "valor": "btn-info"},
+      {"chave": "Warning", "valor": "btn-warning"},
+      {"chave": "Sem Esilo", "valor": "none"}
+    ],
+    "condicional": "ativar"
+  },
+    "esquerda":{
+        "tipo": "check",
+        "label": "Mandar para a Esquerda",
+        "descricao": "O botão nativamente fica na direita.",
+        "condicional": "ativar"
+    },
+    "icone":{
+        "label": "Icone do Botão",
+        "tipo":"input",
+         "descricao": "Se quiser, defina um icone para o botão",
+         "condicional": "ativar"
+      },
+    "texto":{
+        "label": "Texto do Botão",
+        "tipo":"input",
+         "descricao": "Se quiser , definda um texto para o botão",
+         "condicional": "ativar"
+      },
+    "posicao":{
+        "label": "Defina as posições",
+        "tipo":"select",
+         "descricao": "Defina a disposisção do botão personalizado",
+         "condicional": "ativar",
+          "opcoes": [
+      {"chave": "Icone + Texto", "valor": 1},
+      {"chave": "Texto + Icone", "valor": 2}
+    ]
+      },
+    "link":{
+        "tipo": "input",
+        "label": "Link de Redirecionamento",
+        "condicional": "ativar"
+    },
+    "hidemomobile":{
+        "tipo": "check",
+        "label": "Esconder no mobile",
+        "condicional": "ativar"
+    },
+    "hidedesk":{
+        "tipo": "check",
+        "label": "Esconder no PC",
+        "condicional": "ativar"
+    }
+}

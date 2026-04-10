@@ -1,0 +1,16 @@
+{
+    "nome": "Códigos",
+    "tipo": "2",
+    "id": "WR8ITX5ZXeJzFMO",
+    "btns": [
+        {
+            "texto": "Novo Código",
+            "tipo": "5",
+            "callback": "sIqVXtW6ximnlUN",
+            "id": "",
+            "icone": ""
+        }
+    ],
+    "titulo": "Códigos para Vinculo",
+    "breadcrumbs": false
+}

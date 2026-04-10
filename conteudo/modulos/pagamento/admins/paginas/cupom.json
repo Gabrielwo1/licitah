@@ -1,0 +1,16 @@
+{
+    "nome": "Cupom",
+    "tipo": "1",
+    "id": "akebgVavtttxH2eqWABotydOKjK15lN0",
+    "btns": [
+        {
+            "texto": "Ver Todos",
+            "tipo": "1",
+            "callback": "a\/pagamento\/cupons",
+            "id": "",
+            "icone": ""
+        }
+    ],
+    "titulo": "{novo} Cupom",
+    "breadcrumbs": true
+}

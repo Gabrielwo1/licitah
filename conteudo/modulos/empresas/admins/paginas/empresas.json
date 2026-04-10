@@ -1,0 +1,16 @@
+{
+    "nome": "empresas",
+    "tipo": "2",
+    "id": "HUGpEJCknEN0ANG",
+    "btns": [
+        {
+            "texto": "Nova Empresa",
+            "tipo": "5",
+            "callback": "YNyxYKLU5DYz7rQ",
+            "id": "",
+            "icone": "bi bi-building-add"
+        }
+    ],
+    "titulo": "Todas Empresas",
+    "breadcrumbs": false
+}

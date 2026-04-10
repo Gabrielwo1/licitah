@@ -1,0 +1,121 @@
+{
+    "nome": "Pagamentos",
+    "banco": "nhOMIY20RAH1u9iwdiNk3nkQeiLo9GqX",
+    "colunas": [
+        {
+            "nome": "Pedido",
+            "id": "pedido",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "tabulavel": false,
+            "pesquisavel": true,
+            "colpesquisavel": true,
+            "estrangeira": 0
+        },
+        {
+            "nome": "Usuário",
+            "id": "usuario",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "tabulavel": false,
+            "pesquisavel": true,
+            "colpesquisavel": true,
+            "estrangeira": 1,
+            "confiEstrangeira": {
+                "modulo": "usuarios",
+                "banco": "usuarios",
+                "tipo": "1",
+                "coluna": "usuario_display"
+            }
+        },
+        {
+            "nome": "Preço",
+            "id": "valor",
+            "tipo": "1",
+            "render": "preco",
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "tabulavel": false,
+            "pesquisavel": false,
+            "colpesquisavel": false,
+            "estrangeira": 0
+        },
+        {
+            "nome": "Data",
+            "id": "data",
+            "tipo": "1",
+            "render": "data",
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "tabulavel": false,
+            "pesquisavel": false,
+            "colpesquisavel": false,
+            "estrangeira": 0
+        },
+        {
+            "nome": "Status",
+            "id": "estado",
+            "tipo": "1",
+            "render": "personalizado",
+            "regra": [
+                "Cancelado",
+                "Aguardando Pagamento",
+                "Pago"
+            ],
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "tabulavel": true,
+            "pesquisavel": false,
+            "colpesquisavel": false
+        },
+        {
+            "nome": "Meio",
+            "id": "tipo",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "tabulavel": false,
+            "pesquisavel": false,
+            "colpesquisavel": false,
+            "estrangeira": 0
+        }
+    ],
+    "regra": "1",
+    "acoes": {
+        "opcoes": {
+            "acoes": true,
+            "editar": true,
+            "apagar": false,
+            "vizualizar": false,
+            "importador": false,
+            "exportador": false,
+            "filtro": false,
+            "colunas": false,
+            "multiplo": false,
+            "ordenador": false,
+            "filtrodata": true,
+            "bigdata": false
+        },
+        "rotas": {
+            "editar": "a\/pagamento\/pay",
+            "vizualizar": ""
+        }
+    },
+    "layout": {
+        "modo": "1",
+        "container": "0"
+    },
+    "acoesPersonalizadas": [],
+    "dataFilter": "0"
+}

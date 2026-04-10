@@ -1,0 +1,52 @@
+{
+    "nome": {
+        "tipo": "input",
+        "label": "Nome da Empresa"
+    },
+    "cnpj": {
+        "tipo": "input",
+        "label": "CNPJ",
+         "mask": 2
+    },
+    "estado": {
+        "tipo": "select",
+        "label": "Estado",
+        "queryDinamica": "conteudo/modulos/enderecos/admins/api.php",
+        "querys":
+            {
+                "acao":"estados",
+                "valor": "BR"
+            }
+
+    },
+    "cidade": {
+        "tipo": "input",
+        "label": "Cidade"
+    },
+    "endereco": {
+        "tipo": "input",
+        "label": "Endereço"
+    },
+    "numero": {
+        "tipo": "input",
+        "label": "Número"
+    },
+    "complemento": {
+        "tipo": "input",
+        "label": "Complemento"
+    },
+    "telefone": {
+        "tipo": "input",
+        "label": "Telefone",
+         "mask": 4
+    },
+    "email": {
+        "tipo": "input",
+        "label": "E-mail",
+        "mask": 16
+    },
+    "site": {
+        "tipo": "input",
+        "label": "Site"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "name": "Notificações",
+    "description": "Envie notificações por e-mail, WhatsApp, push, in-app e SMS para manter usuários sempre informados.",
+    "descriptionLong": "O módulo Notificações permite o envio automatizado de alertas e comunicados através de múltiplos canais, incluindo e-mail, WhatsApp, push, in-app e SMS. Com essa funcionalidade, você garante que os usuários recebam informações importantes no momento certo, melhorando a comunicação e o engajamento dentro do sistema. Ideal para manter todos atualizados de forma rápida e eficiente.",
+    "icon": "bi bi-bell",
+    "ativo": "true",
+    "multiconta": false,
+    "readonly": false,
+    "sub": [
+        {
+            "name": "Notificações",
+            "link": "a\/notificacoes"
+        },
+        {
+            "name": "Transacionais",
+            "link": "a\/notificacoes\/transacionais"
+        },
+        {
+            "name": "Envios",
+            "link": "a\/notificacoes\/envios"
+        }
+    ],
+    "configs": [
+        "Configurações"
+    ],
+    "versao": "0.22"
+}

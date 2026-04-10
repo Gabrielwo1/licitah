@@ -1,0 +1,57 @@
+{
+    "nome": "Acessos",
+    "tipoGrafico": "tempo",
+    "graficoPrimario": "",
+    "bancoDeDados": "7gFgoC5oPHYykur",
+    "colunaData": "data",
+    "filtro": "1",
+    "trato": "",
+    "grafico": {
+        "periodo": "hora",
+        "sub": "contagem",
+        "agrupamento": "1",
+        "categoria": "ip",
+        "conta": "ip",
+        "espacos": {
+            "minuto": false,
+            "hora": false,
+            "dia": false,
+            "semana": false,
+            "mes": false
+        }
+    },
+    "layout": {
+        "primario": "",
+        "periodoinicial": "Total",
+        "titulo": "Acessos Únicos",
+        "alteralayout": true,
+        "selecionarperiodo": false,
+        "drop": false,
+        "horas": false,
+        "rodape": false
+    },
+    "extra": {
+        "layout": "1",
+        "bg": "#000000",
+        "color": "#000000",
+        "prefixo": "",
+        "sufixo": "",
+        "listaCores": ""
+    },
+    "condicional": {
+        "ativo": "0",
+        "coluna": "",
+        "tipo": "=",
+        "valor": ""
+    },
+    "condicional2": {
+        "ativo": "0",
+        "coluna": "",
+        "tipo": "=",
+        "valor": ""
+    },
+    "atualizacao": {
+        "ativa": false,
+        "segundos": "30"
+    }
+}

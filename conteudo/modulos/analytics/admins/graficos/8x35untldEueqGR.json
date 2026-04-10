@@ -1,0 +1,38 @@
+{
+    "nome": "Vída da Página",
+    "tipoGrafico": "numerico",
+    "graficoPrimario": "",
+    "bancoDeDados": "7gFgoC5oPHYypkp",
+    "colunaData": "data",
+    "filtro": "1",
+    "trato": "inteiro",
+    "grafico": {
+        "subtipo": "media",
+        "referencia": "timer",
+        "agrupamento": "1",
+        "coluna": ""
+    },
+    "layout": {
+        "primario": "",
+        "periodoinicial": "Hoje",
+        "titulo": "Vida da Página",
+        "alteralayout": true,
+        "selecionarperiodo": false,
+        "drop": false,
+        "horas": false
+    },
+    "extra": {
+        "layout": "2",
+        "bg": "#000000",
+        "color": "#000000",
+        "prefixo": "",
+        "sufixo": "s",
+        "listaCores": "bg-warning"
+    },
+    "condicional": {
+        "ativo": "0",
+        "coluna": "",
+        "tipo": "=",
+        "valor": ""
+    }
+}

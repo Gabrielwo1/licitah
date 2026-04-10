@@ -1,0 +1,449 @@
+{
+    "id": "146",
+    "nome": "Lançamento de Pontos",
+    "hash": "Ncmfp6LF3CJ5u6TQewVYHhEct8d67Vip",
+    "data": "2024-08-05 10:31:32",
+    "tamanho": 11,
+    "inputs": [
+        {
+            "id": "4399",
+            "tipo": "coluna",
+            "nome": null,
+            "obrigatorio": "0",
+            "data": "2024-08-05 10:41:19",
+            "pai": "0",
+            "posicao": "0",
+            "hash": "VnfrPXYoWNjC5pGxuXXygzoppzRowm",
+            "infos": [],
+            "filhos": [
+                {
+                    "id": "4400",
+                    "tipo": "col",
+                    "nome": null,
+                    "obrigatorio": "0",
+                    "data": "2024-08-05 10:40:49",
+                    "pai": "4399",
+                    "posicao": "0",
+                    "hash": "B21qgE0baa2whCCy5oqoXtWBuOKTem",
+                    "infos": {
+                        "layout": {
+                            "tamanho": 9
+                        },
+                        "flex": {
+                            "ativar": 0,
+                            "direcao": 1,
+                            "justify": 0,
+                            "align": 0,
+                            "gap": 0
+                        },
+                        "logica": {
+                            "logica": 0,
+                            "setup": ""
+                        },
+                        "identificador": {
+                            "id": "",
+                            "classes": ""
+                        }
+                    },
+                    "filhos": [
+                        {
+                            "id": "4398",
+                            "tipo": "card",
+                            "nome": "Pontos",
+                            "obrigatorio": "0",
+                            "data": "2024-08-05 17:48:06",
+                            "pai": "4400",
+                            "posicao": "1",
+                            "hash": "qqCLW4bOIdjPKmr4dwwNtZS00cdTns",
+                            "infos": {
+                                "basico": {
+                                    "label": "Pontos",
+                                    "recolhivel": 1
+                                },
+                                "flex": {
+                                    "ativar": 0,
+                                    "direcao": 1,
+                                    "justify": 0,
+                                    "align": 0,
+                                    "gap": 0
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": ""
+                                },
+                                "identificador": {
+                                    "id": "",
+                                    "classes": ""
+                                }
+                            },
+                            "filhos": [
+                                {
+                                    "id": "4392",
+                                    "tipo": "number",
+                                    "nome": "Pontos",
+                                    "obrigatorio": "1",
+                                    "data": "2024-08-05 17:41:04",
+                                    "pai": "4398",
+                                    "posicao": "0",
+                                    "hash": "euLotj9dZtypfNTrF5SbQjH0HjcZZf",
+                                    "infos": {
+                                        "basico": {
+                                            "esconder-label": 0,
+                                            "label": "Pontos ",
+                                            "descricao": " ",
+                                            "obrigatorio": 1,
+                                            "somente-leitura": 0
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho-do-input": 0
+                                        },
+                                        "label": {
+                                            "placeholder": " ",
+                                            "sub-label": " ",
+                                            "tooltip": " "
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": " "
+                                        },
+                                        "identificador": {
+                                            "id": " ",
+                                            "classes": " "
+                                        },
+                                        "valor": {
+                                            "minimo": 1,
+                                            "maximo": " ",
+                                            "definido": 1
+                                        }
+                                    },
+                                    "filhos": []
+                                },
+                                {
+                                    "id": "4394",
+                                    "tipo": "select",
+                                    "nome": "Expira",
+                                    "obrigatorio": "0",
+                                    "data": "2024-08-05 10:40:41",
+                                    "pai": "4398",
+                                    "posicao": "2",
+                                    "hash": "395agRZlZ8uRYnWSu3Ym523Ff2ZW3V",
+                                    "infos": {
+                                        "basico": {
+                                            "esconder-label": 0,
+                                            "label": "Expira",
+                                            "descricao": "",
+                                            "obrigatorio": 0,
+                                            "select-2": 0,
+                                            "somente-leitura": 0
+                                        },
+                                        "opcoes": {
+                                            "multiplo": 0,
+                                            "opcoes": [
+                                                {
+                                                    "nome": "Não",
+                                                    "valor": "Não",
+                                                    "selecionado": true
+                                                },
+                                                {
+                                                    "nome": "Sim",
+                                                    "valor": "Sim",
+                                                    "selecionado": false
+                                                }
+                                            ]
+                                        },
+                                        "dinamica": {
+                                            "opcoes-dinamicas": 0,
+                                            "configuracoes": "",
+                                            "arquivo-query": "",
+                                            "acao-query": ""
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho-do-input": 0
+                                        },
+                                        "label": {
+                                            "placeholder": "",
+                                            "sub-label": "",
+                                            "tooltip": ""
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": ""
+                                        },
+                                        "identificador": {
+                                            "id": "",
+                                            "classes": ""
+                                        }
+                                    },
+                                    "filhos": []
+                                },
+                                {
+                                    "id": "4395",
+                                    "tipo": "data",
+                                    "nome": "Data",
+                                    "obrigatorio": "0",
+                                    "data": "2024-08-05 10:40:43",
+                                    "pai": "4398",
+                                    "posicao": "3",
+                                    "hash": "FAFPo1mUrGSPz1SqclaTi0J6jSIIWQ",
+                                    "infos": {
+                                        "basico": {
+                                            "esconder-label": 0,
+                                            "label": "Data ",
+                                            "descricao": " ",
+                                            "obrigatorio": 0,
+                                            "somente-leitura": 0,
+                                            "dados": 0
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho-do-input": 0
+                                        },
+                                        "label": {
+                                            "placeholder": " ",
+                                            "sub-label": " ",
+                                            "tooltip": " "
+                                        },
+                                        "tamanho": {
+                                            "ativar": 0,
+                                            "maximo": " ",
+                                            "minimo": " "
+                                        },
+                                        "logica": {
+                                            "logica": 1,
+                                            "setup": {
+                                                "mostrar": "1",
+                                                "todas": "1",
+                                                "logicas": [
+                                                    {
+                                                        "i": "395agRZlZ8uRYnWSu3Ym523Ff2ZW3V",
+                                                        "r": "0",
+                                                        "v": "Sim"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        "identificador": {
+                                            "id": " ",
+                                            "classes": " "
+                                        }
+                                    },
+                                    "filhos": []
+                                },
+                                {
+                                    "id": "4396",
+                                    "tipo": "select",
+                                    "nome": "Tipo",
+                                    "obrigatorio": "0",
+                                    "data": "2024-08-05 10:40:45",
+                                    "pai": "4398",
+                                    "posicao": "4",
+                                    "hash": "u8fQJLWas9I5Timcp6OX8w7tZwdFsO",
+                                    "infos": {
+                                        "basico": {
+                                            "esconder-label": 0,
+                                            "label": "Tipo ",
+                                            "descricao": " ",
+                                            "obrigatorio": 0,
+                                            "select-2": 0,
+                                            "somente-leitura": 0
+                                        },
+                                        "opcoes": {
+                                            "multiplo": 0,
+                                            "opcoes": [
+                                                {
+                                                    "nome": "Sistema",
+                                                    "valor": "0",
+                                                    "selecionado": true
+                                                }
+                                            ]
+                                        },
+                                        "dinamica": {
+                                            "opcoes-dinamicas": 1,
+                                            "configuracoes": {
+                                                "modulo": "pagamento",
+                                                "formulario": "18mQ9mjt3eo1wfMPfcJMeidBjIhWu5rQ.json",
+                                                "regra": "1"
+                                            },
+                                            "arquivo-query": " ",
+                                            "acao-query": " "
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho-do-input": 0
+                                        },
+                                        "label": {
+                                            "placeholder": " ",
+                                            "sub-label": " ",
+                                            "tooltip": " "
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": " "
+                                        },
+                                        "identificador": {
+                                            "id": " ",
+                                            "classes": " "
+                                        }
+                                    },
+                                    "filhos": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "4401",
+                    "tipo": "col",
+                    "nome": null,
+                    "obrigatorio": "0",
+                    "data": "2024-08-05 10:40:49",
+                    "pai": "4399",
+                    "posicao": "1",
+                    "hash": "JFyyd3aum1rNd0Ig8ZJ47jaHcTHGXr",
+                    "infos": {
+                        "layout": {
+                            "tamanho": 3
+                        },
+                        "flex": {
+                            "ativar": 0,
+                            "direcao": 1,
+                            "justify": 0,
+                            "align": 0,
+                            "gap": 0
+                        },
+                        "logica": {
+                            "logica": 0,
+                            "setup": ""
+                        },
+                        "identificador": {
+                            "id": "",
+                            "classes": ""
+                        }
+                    },
+                    "filhos": [
+                        {
+                            "id": "4402",
+                            "tipo": "card",
+                            "nome": "Usuário",
+                            "obrigatorio": "0",
+                            "data": "2024-08-05 17:48:36",
+                            "pai": "4401",
+                            "posicao": "0",
+                            "hash": "5zWnGh4jozOlnKcxS8vEIdHwh7Sygl",
+                            "infos": {
+                                "basico": {
+                                    "label": "Usuário",
+                                    "recolhivel": 1
+                                },
+                                "flex": {
+                                    "ativar": 0,
+                                    "direcao": 1,
+                                    "justify": 0,
+                                    "align": 0,
+                                    "gap": 0
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": ""
+                                },
+                                "identificador": {
+                                    "id": "",
+                                    "classes": ""
+                                }
+                            },
+                            "filhos": [
+                                {
+                                    "id": "4393",
+                                    "tipo": "select",
+                                    "nome": "Usuário",
+                                    "obrigatorio": "1",
+                                    "data": "2024-08-05 17:48:27",
+                                    "pai": "4402",
+                                    "posicao": "0",
+                                    "hash": "LsAKsSgMVLoNr8JNNWdSurPHKVuYDq",
+                                    "infos": {
+                                        "basico": {
+                                            "esconder-label": 0,
+                                            "label": "Usuário ",
+                                            "descricao": " ",
+                                            "obrigatorio": 1,
+                                            "select-2": 1,
+                                            "somente-leitura": 0
+                                        },
+                                        "opcoes": {
+                                            "multiplo": 0,
+                                            "opcoes": " "
+                                        },
+                                        "dinamica": {
+                                            "opcoes-dinamicas": 1,
+                                            "configuracoes": {
+                                                "modulo": "usuarios",
+                                                "formulario": "aY4O9kcLpNMpbiD.json",
+                                                "regra": "1"
+                                            },
+                                            "arquivo-query": " ",
+                                            "acao-query": " "
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho-do-input": 0
+                                        },
+                                        "label": {
+                                            "placeholder": " ",
+                                            "sub-label": " ",
+                                            "tooltip": " "
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": " "
+                                        },
+                                        "identificador": {
+                                            "id": " ",
+                                            "classes": " "
+                                        }
+                                    },
+                                    "filhos": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "4397",
+                            "tipo": "cardSalvar",
+                            "nome": "",
+                            "obrigatorio": "0",
+                            "data": "2024-08-05 17:48:24",
+                            "pai": "4401",
+                            "posicao": "1",
+                            "hash": "QWqxbpQMERgBIquQgNid54qrqCQTzM",
+                            "infos": {
+                                "basico": {
+                                    "label": "",
+                                    "recolhivel": 0,
+                                    "fixar-no-rodape-mobile": 0,
+                                    "fixar-no-rodape-pc": 0
+                                },
+                                "funcoes": {
+                                    "desabilitar-status": 1,
+                                    "desabilitar-vizibilidade": 1,
+                                    "desabilitar-agendados": 1
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": ""
+                                },
+                                "identificador": {
+                                    "id": "",
+                                    "classes": ""
+                                }
+                            },
+                            "filhos": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "infos": []
+}

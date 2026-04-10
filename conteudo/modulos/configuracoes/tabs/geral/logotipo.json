@@ -1,0 +1,22 @@
+{   
+   "logomarca":{
+      "label":"Logomarca",
+      "tipo":"file",
+      "descricao":"A logomarca é a combinação da logo e logotipo. Uma logomarca é uma representação visual que incorpora tanto elementos gráficos distintos (logo) quanto texto estilizado (logotipo)"
+   },
+   "logo":{
+      "label":"Logo",
+      "tipo":"file",
+      "descricao":"Um logo, abreviação de logotipo, é um símbolo ou ícone gráfico que representa uma empresa, marca ou produto. Geralmente, consiste em um design visual único e distintivo que é facilmente reconhecido e associado à identidade da marca."
+   },
+   "logotipo":{
+      "label":"Logotipo",
+      "tipo":"file",
+      "descricao":"O logotipo é uma forma específica de logo que se concentra no texto ou na tipografia que compõe o nome da marca."
+   },
+   "favicon":{
+      "label":"Favicon",
+      "tipo":"file",
+      "descricao":"Defina o icone do site"
+   }
+}

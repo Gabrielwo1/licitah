@@ -1,0 +1,1754 @@
+{
+    "id": "58",
+    "nome": "Empresas",
+    "hash": "9mX3WKIb9DI9qEW",
+    "data": "2024-01-15 10:41:43",
+    "tamanho": 57,
+    "inputs": [
+        {
+            "id": "2430",
+            "tipo": "text",
+            "nome": "Nome da Empresa",
+            "obrigatorio": "0",
+            "data": "2024-04-22 19:36:33",
+            "pai": "0",
+            "posicao": "0",
+            "hash": "Lm817ekvhwdCmbZcRHcD6RR0esMXR2",
+            "infos": {
+                "basico": {
+                    "esconder-label": 1,
+                    "label": "Nome da Empresa",
+                    "descricao": "",
+                    "obrigatorio": 0
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": "Nome da Empresa",
+                    "sub-label": "",
+                    "tooltip": ""
+                },
+                "validacao": {
+                    "mascara": 0
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": ""
+                },
+                "identificador": {
+                    "id": "",
+                    "classes": ""
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "2441",
+            "tipo": "tab",
+            "nome": null,
+            "obrigatorio": "0",
+            "data": "2024-04-22 19:59:42",
+            "pai": "0",
+            "posicao": "1",
+            "hash": "O7OW3Swh80fpwaWZHTqaz1v252YJv0",
+            "infos": {
+                "botoes": {
+                    "botoes": [
+                        {
+                            "texto": "Informações",
+                            "id": "divInfos",
+                            "icone": ""
+                        },
+                        {
+                            "texto": "Contatos",
+                            "id": "divContatos",
+                            "icone": ""
+                        },
+                        {
+                            "texto": "Endereços",
+                            "id": "divEnderecos",
+                            "icone": ""
+                        },
+                        {
+                            "texto": "Sócios",
+                            "id": "divSocios",
+                            "icone": ""
+                        },
+                        {
+                            "texto": "Atividades",
+                            "id": "divAtividades",
+                            "icone": ""
+                        },
+                        {
+                            "texto": "Usuários",
+                            "id": "divUsuarios",
+                            "icone": ""
+                        }
+                    ]
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": " "
+                },
+                "identificador": {
+                    "id": " ",
+                    "classes": " "
+                },
+                "layout": {
+                    "vertical": 0,
+                    "alinhar": 0,
+                    "estilo": 0,
+                    "formato": 0
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "2431",
+            "tipo": "coluna",
+            "nome": null,
+            "obrigatorio": "0",
+            "data": "2024-04-22 22:36:05",
+            "pai": "0",
+            "posicao": "2",
+            "hash": "raFpvFeoJt9i0yDBbUA2tEOlzAgyYo",
+            "infos": [],
+            "filhos": [
+                {
+                    "id": "2432",
+                    "tipo": "col",
+                    "nome": null,
+                    "obrigatorio": "0",
+                    "data": "2024-04-22 19:36:38",
+                    "pai": "2431",
+                    "posicao": "0",
+                    "hash": "v0MchfQ2gqzfcpkxfnir7TzU2LhfTV",
+                    "infos": {
+                        "layout": {
+                            "tamanho": 9
+                        },
+                        "logica": {
+                            "logica": 0,
+                            "setup": "  "
+                        },
+                        "identificador": {
+                            "id": " ",
+                            "classes": "  "
+                        }
+                    },
+                    "filhos": [
+                        {
+                            "id": "2466",
+                            "tipo": "grupo",
+                            "nome": null,
+                            "obrigatorio": "0",
+                            "data": "2024-04-23 01:15:32",
+                            "pai": "2432",
+                            "posicao": "0",
+                            "hash": "ymhV4BVHJycNvjybrVhlWLjLDiBLxY",
+                            "infos": {
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": ""
+                                },
+                                "identificador": {
+                                    "id": "divInfos",
+                                    "classes": ""
+                                }
+                            },
+                            "filhos": [
+                                {
+                                    "id": "2440",
+                                    "tipo": "card",
+                                    "nome": "Informações    ",
+                                    "obrigatorio": "0",
+                                    "data": "2024-04-22 20:58:50",
+                                    "pai": "2466",
+                                    "posicao": "0",
+                                    "hash": "Yt5pKcGuTugE0v4orGFOyPzBExjbXH",
+                                    "infos": {
+                                        "basico": {
+                                            "label": "Informações     ",
+                                            "recolhivel": 1
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": "     "
+                                        },
+                                        "identificador": {
+                                            "id": " ",
+                                            "classes": "     "
+                                        }
+                                    },
+                                    "filhos": [
+                                        {
+                                            "id": "2437",
+                                            "tipo": "text",
+                                            "nome": "CNPJ",
+                                            "obrigatorio": "0",
+                                            "data": "2024-04-22 19:39:41",
+                                            "pai": "2440",
+                                            "posicao": "0",
+                                            "hash": "b0nfnPAzg0vtrdQCxzuxhrA1VNMoAK",
+                                            "infos": {
+                                                "basico": {
+                                                    "esconder-label": 0,
+                                                    "label": "CNPJ",
+                                                    "descricao": "",
+                                                    "obrigatorio": 0
+                                                },
+                                                "estilo": {
+                                                    "estilo": 0,
+                                                    "tamanho-do-input": 0
+                                                },
+                                                "label": {
+                                                    "placeholder": "",
+                                                    "sub-label": "",
+                                                    "tooltip": ""
+                                                },
+                                                "validacao": {
+                                                    "mascara": 2
+                                                },
+                                                "logica": {
+                                                    "logica": 0,
+                                                    "setup": ""
+                                                },
+                                                "identificador": {
+                                                    "id": "",
+                                                    "classes": ""
+                                                }
+                                            },
+                                            "filhos": []
+                                        },
+                                        {
+                                            "id": "2438",
+                                            "tipo": "text",
+                                            "nome": "Razão Social",
+                                            "obrigatorio": "0",
+                                            "data": "2024-04-22 19:39:43",
+                                            "pai": "2440",
+                                            "posicao": "1",
+                                            "hash": "ynRUwjy746f9A6pKxyI4nx3cjZRMEY",
+                                            "infos": {
+                                                "basico": {
+                                                    "esconder-label": 0,
+                                                    "label": "Razão Social",
+                                                    "descricao": "",
+                                                    "obrigatorio": 0
+                                                },
+                                                "estilo": {
+                                                    "estilo": 0,
+                                                    "tamanho-do-input": 0
+                                                },
+                                                "label": {
+                                                    "placeholder": "",
+                                                    "sub-label": "",
+                                                    "tooltip": ""
+                                                },
+                                                "validacao": {
+                                                    "mascara": 0
+                                                },
+                                                "logica": {
+                                                    "logica": 0,
+                                                    "setup": ""
+                                                },
+                                                "identificador": {
+                                                    "id": "",
+                                                    "classes": ""
+                                                }
+                                            },
+                                            "filhos": []
+                                        },
+                                        {
+                                            "id": "2439",
+                                            "tipo": "text",
+                                            "nome": "Nome Fantasia",
+                                            "obrigatorio": "0",
+                                            "data": "2024-04-22 19:39:46",
+                                            "pai": "2440",
+                                            "posicao": "2",
+                                            "hash": "z6TMPnoj3c1AslGJzHsTQ0imLQrN8f",
+                                            "infos": {
+                                                "basico": {
+                                                    "esconder-label": 0,
+                                                    "label": "Nome Fantasia",
+                                                    "descricao": "",
+                                                    "obrigatorio": 0
+                                                },
+                                                "estilo": {
+                                                    "estilo": 0,
+                                                    "tamanho-do-input": 0
+                                                },
+                                                "label": {
+                                                    "placeholder": "",
+                                                    "sub-label": "",
+                                                    "tooltip": ""
+                                                },
+                                                "validacao": {
+                                                    "mascara": 0
+                                                },
+                                                "logica": {
+                                                    "logica": 0,
+                                                    "setup": ""
+                                                },
+                                                "identificador": {
+                                                    "id": "",
+                                                    "classes": ""
+                                                }
+                                            },
+                                            "filhos": []
+                                        },
+                                        {
+                                            "id": "2472",
+                                            "tipo": "coluna",
+                                            "nome": null,
+                                            "obrigatorio": "0",
+                                            "data": "2024-04-22 23:50:39",
+                                            "pai": "2440",
+                                            "posicao": "3",
+                                            "hash": "BvcYwVn5cj1QkzurgaM6jowoemk5EO",
+                                            "infos": [],
+                                            "filhos": [
+                                                {
+                                                    "id": "2473",
+                                                    "tipo": "col",
+                                                    "nome": null,
+                                                    "obrigatorio": "0",
+                                                    "data": "2024-04-22 23:48:51",
+                                                    "pai": "2472",
+                                                    "posicao": "0",
+                                                    "hash": "wdc4KJgY6K8PElj6XEK8hYSx5qwrLp",
+                                                    "infos": [],
+                                                    "filhos": [
+                                                        {
+                                                            "id": "2470",
+                                                            "tipo": "text",
+                                                            "nome": "Situação",
+                                                            "obrigatorio": "0",
+                                                            "data": "2024-04-22 23:49:44",
+                                                            "pai": "2473",
+                                                            "posicao": "0",
+                                                            "hash": "S3g5cYtzkCWaHvHpey5xDeGansMad9",
+                                                            "infos": {
+                                                                "basico": {
+                                                                    "esconder-label": 0,
+                                                                    "label": "Situação",
+                                                                    "descricao": "",
+                                                                    "obrigatorio": 0
+                                                                },
+                                                                "estilo": {
+                                                                    "estilo": 0,
+                                                                    "tamanho-do-input": 0
+                                                                },
+                                                                "label": {
+                                                                    "placeholder": "",
+                                                                    "sub-label": "",
+                                                                    "tooltip": ""
+                                                                },
+                                                                "validacao": {
+                                                                    "mascara": 0
+                                                                },
+                                                                "logica": {
+                                                                    "logica": 0,
+                                                                    "setup": ""
+                                                                },
+                                                                "identificador": {
+                                                                    "id": "",
+                                                                    "classes": ""
+                                                                }
+                                                            },
+                                                            "filhos": []
+                                                        },
+                                                        {
+                                                            "id": "2469",
+                                                            "tipo": "text",
+                                                            "nome": "Porte",
+                                                            "obrigatorio": "0",
+                                                            "data": "2024-04-22 23:49:44",
+                                                            "pai": "2473",
+                                                            "posicao": "1",
+                                                            "hash": "Jq9ZzBHLOyc2VTzUJ4LrZeYfpPPgHG",
+                                                            "infos": {
+                                                                "basico": {
+                                                                    "esconder-label": 0,
+                                                                    "label": "Porte",
+                                                                    "descricao": "",
+                                                                    "obrigatorio": 0
+                                                                },
+                                                                "estilo": {
+                                                                    "estilo": 0,
+                                                                    "tamanho-do-input": 0
+                                                                },
+                                                                "label": {
+                                                                    "placeholder": "",
+                                                                    "sub-label": "",
+                                                                    "tooltip": ""
+                                                                },
+                                                                "validacao": {
+                                                                    "mascara": 0
+                                                                },
+                                                                "logica": {
+                                                                    "logica": 0,
+                                                                    "setup": ""
+                                                                },
+                                                                "identificador": {
+                                                                    "id": "",
+                                                                    "classes": ""
+                                                                }
+                                                            },
+                                                            "filhos": []
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "2474",
+                                                    "tipo": "col",
+                                                    "nome": null,
+                                                    "obrigatorio": "0",
+                                                    "data": "2024-04-22 23:48:51",
+                                                    "pai": "2472",
+                                                    "posicao": "1",
+                                                    "hash": "0ahzQJDcmol6KVmoJTTM66h5bYeg4I",
+                                                    "infos": [],
+                                                    "filhos": [
+                                                        {
+                                                            "id": "2468",
+                                                            "tipo": "text",
+                                                            "nome": "Natureza Juridica",
+                                                            "obrigatorio": "0",
+                                                            "data": "2024-04-22 23:49:40",
+                                                            "pai": "2474",
+                                                            "posicao": "0",
+                                                            "hash": "su21T1tUD5S8isYZavbkrr2XyjNO9j",
+                                                            "infos": {
+                                                                "basico": {
+                                                                    "esconder-label": 0,
+                                                                    "label": "Natureza Juridica",
+                                                                    "descricao": "",
+                                                                    "obrigatorio": 0
+                                                                },
+                                                                "estilo": {
+                                                                    "estilo": 0,
+                                                                    "tamanho-do-input": 0
+                                                                },
+                                                                "label": {
+                                                                    "placeholder": "",
+                                                                    "sub-label": "",
+                                                                    "tooltip": ""
+                                                                },
+                                                                "validacao": {
+                                                                    "mascara": 0
+                                                                },
+                                                                "logica": {
+                                                                    "logica": 0,
+                                                                    "setup": ""
+                                                                },
+                                                                "identificador": {
+                                                                    "id": "",
+                                                                    "classes": ""
+                                                                }
+                                                            },
+                                                            "filhos": []
+                                                        },
+                                                        {
+                                                            "id": "2471",
+                                                            "tipo": "text",
+                                                            "nome": "Abertura",
+                                                            "obrigatorio": "0",
+                                                            "data": "2024-04-22 23:49:51",
+                                                            "pai": "2474",
+                                                            "posicao": "1",
+                                                            "hash": "TKDL0YOLDiEpPDYEeMOefnFEpxHCft",
+                                                            "infos": {
+                                                                "basico": {
+                                                                    "esconder-label": 0,
+                                                                    "label": "Abertura",
+                                                                    "descricao": "",
+                                                                    "obrigatorio": 0
+                                                                },
+                                                                "estilo": {
+                                                                    "estilo": 0,
+                                                                    "tamanho-do-input": 0
+                                                                },
+                                                                "label": {
+                                                                    "placeholder": "",
+                                                                    "sub-label": "",
+                                                                    "tooltip": ""
+                                                                },
+                                                                "validacao": {
+                                                                    "mascara": 0
+                                                                },
+                                                                "logica": {
+                                                                    "logica": 0,
+                                                                    "setup": ""
+                                                                },
+                                                                "identificador": {
+                                                                    "id": "",
+                                                                    "classes": ""
+                                                                }
+                                                            },
+                                                            "filhos": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "2445",
+                                    "tipo": "card",
+                                    "nome": "Dados",
+                                    "obrigatorio": "0",
+                                    "data": "2024-04-22 22:41:07",
+                                    "pai": "2466",
+                                    "posicao": "1",
+                                    "hash": "eN1PHp0jAVypMIDbWKyqh4OQ1dZ0hK",
+                                    "infos": {
+                                        "basico": {
+                                            "label": "Dados ",
+                                            "recolhivel": 1
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": " "
+                                        },
+                                        "identificador": {
+                                            "id": " ",
+                                            "classes": " "
+                                        }
+                                    },
+                                    "filhos": [
+                                        {
+                                            "id": "2446",
+                                            "tipo": "text",
+                                            "nome": "Site",
+                                            "obrigatorio": "0",
+                                            "data": "2024-04-22 19:49:35",
+                                            "pai": "2445",
+                                            "posicao": "0",
+                                            "hash": "lDYdBXLcYqOShg3Ah9djLXA5GWSMFJ",
+                                            "infos": {
+                                                "basico": {
+                                                    "esconder-label": 0,
+                                                    "label": "Site",
+                                                    "descricao": "",
+                                                    "obrigatorio": 0
+                                                },
+                                                "estilo": {
+                                                    "estilo": 0,
+                                                    "tamanho-do-input": 0
+                                                },
+                                                "label": {
+                                                    "placeholder": "",
+                                                    "sub-label": "",
+                                                    "tooltip": ""
+                                                },
+                                                "validacao": {
+                                                    "mascara": 0
+                                                },
+                                                "logica": {
+                                                    "logica": 0,
+                                                    "setup": ""
+                                                },
+                                                "identificador": {
+                                                    "id": "",
+                                                    "classes": ""
+                                                }
+                                            },
+                                            "filhos": []
+                                        },
+                                        {
+                                            "id": "2447",
+                                            "tipo": "text",
+                                            "nome": "WhatsApp",
+                                            "obrigatorio": "0",
+                                            "data": "2024-04-22 19:49:59",
+                                            "pai": "2445",
+                                            "posicao": "1",
+                                            "hash": "gY1MDBKTQItTgSnhLUe2MM9nycVayJ",
+                                            "infos": {
+                                                "basico": {
+                                                    "esconder-label": 0,
+                                                    "label": "WhatsApp ",
+                                                    "descricao": " ",
+                                                    "obrigatorio": 0
+                                                },
+                                                "estilo": {
+                                                    "estilo": 0,
+                                                    "tamanho-do-input": 0
+                                                },
+                                                "label": {
+                                                    "placeholder": " ",
+                                                    "sub-label": " ",
+                                                    "tooltip": " "
+                                                },
+                                                "validacao": {
+                                                    "mascara": 4
+                                                },
+                                                "logica": {
+                                                    "logica": 0,
+                                                    "setup": " "
+                                                },
+                                                "identificador": {
+                                                    "id": " ",
+                                                    "classes": " "
+                                                }
+                                            },
+                                            "filhos": []
+                                        },
+                                        {
+                                            "id": "2449",
+                                            "tipo": "textarea",
+                                            "nome": "Descrição Curta",
+                                            "obrigatorio": "0",
+                                            "data": "2024-10-07 15:46:41",
+                                            "pai": "2445",
+                                            "posicao": "2",
+                                            "hash": "9XOeTz2h3KsSaw9TyK1e2thCXNQRgq",
+                                            "infos": {
+                                                "basico": {
+                                                    "esconder-label": 0,
+                                                    "label": "Descrição Curta ",
+                                                    "descricao": " ",
+                                                    "obrigatorio": 0,
+                                                    "somente-leitura": 0
+                                                },
+                                                "estilo": {
+                                                    "estilo": 0,
+                                                    "tamanho-do-input": 0
+                                                },
+                                                "label": {
+                                                    "placeholder": " ",
+                                                    "sub-label": " ",
+                                                    "tooltip": " "
+                                                },
+                                                "logica": {
+                                                    "logica": 0,
+                                                    "setup": " "
+                                                },
+                                                "identificador": {
+                                                    "id": " ",
+                                                    "classes": " "
+                                                },
+                                                "tamanho": {
+                                                    "ativar": 0,
+                                                    "maximo": "",
+                                                    "minimo": ""
+                                                }
+                                            },
+                                            "filhos": []
+                                        },
+                                        {
+                                            "id": "6510",
+                                            "tipo": "textarea",
+                                            "nome": "Descrição",
+                                            "obrigatorio": "0",
+                                            "data": "2024-10-07 15:48:00",
+                                            "pai": "2445",
+                                            "posicao": "3",
+                                            "hash": "QKwHj4pPGb6yDl7aveNsQHejIX99GN",
+                                            "infos": {
+                                                "basico": {
+                                                    "esconder-label": 0,
+                                                    "label": "Descrição",
+                                                    "descricao": "",
+                                                    "obrigatorio": 0,
+                                                    "somente-leitura": 0
+                                                },
+                                                "estilo": {
+                                                    "estilo": 0,
+                                                    "tamanho-do-input": 0
+                                                },
+                                                "tamanho": {
+                                                    "ativar": 0,
+                                                    "maximo": "",
+                                                    "minimo": ""
+                                                },
+                                                "label": {
+                                                    "placeholder": "",
+                                                    "sub-label": "",
+                                                    "tooltip": ""
+                                                },
+                                                "logica": {
+                                                    "logica": 0,
+                                                    "setup": ""
+                                                },
+                                                "identificador": {
+                                                    "id": "",
+                                                    "classes": ""
+                                                }
+                                            },
+                                            "filhos": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "2450",
+                                    "tipo": "card",
+                                    "nome": "Redes Sociais",
+                                    "obrigatorio": "0",
+                                    "data": "2024-04-22 22:41:07",
+                                    "pai": "2466",
+                                    "posicao": "2",
+                                    "hash": "qTGaKMR6Jf4s0NwrevSaF3IKDQ8SX4",
+                                    "infos": {
+                                        "basico": {
+                                            "label": "Redes Sociais ",
+                                            "recolhivel": 1
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": " "
+                                        },
+                                        "identificador": {
+                                            "id": " ",
+                                            "classes": " "
+                                        }
+                                    },
+                                    "filhos": [
+                                        {
+                                            "id": "2452",
+                                            "tipo": "text",
+                                            "nome": "Instagram",
+                                            "obrigatorio": "0",
+                                            "data": "2024-04-22 20:00:28",
+                                            "pai": "2450",
+                                            "posicao": "0",
+                                            "hash": "dUIUf4tmrVrY9kqYbALu011xvqpkJZ",
+                                            "infos": {
+                                                "basico": {
+                                                    "esconder-label": 0,
+                                                    "label": "Instagram",
+                                                    "descricao": "",
+                                                    "obrigatorio": 0
+                                                },
+                                                "estilo": {
+                                                    "estilo": 0,
+                                                    "tamanho-do-input": 0
+                                                },
+                                                "label": {
+                                                    "placeholder": "",
+                                                    "sub-label": "",
+                                                    "tooltip": ""
+                                                },
+                                                "validacao": {
+                                                    "mascara": 0
+                                                },
+                                                "logica": {
+                                                    "logica": 0,
+                                                    "setup": ""
+                                                },
+                                                "identificador": {
+                                                    "id": "",
+                                                    "classes": ""
+                                                }
+                                            },
+                                            "filhos": []
+                                        },
+                                        {
+                                            "id": "2451",
+                                            "tipo": "text",
+                                            "nome": "Facebook",
+                                            "obrigatorio": "0",
+                                            "data": "2024-10-07 15:47:48",
+                                            "pai": "2450",
+                                            "posicao": "1",
+                                            "hash": "XmrizZxEyxNcSmurlfyDg8axLGqM8R",
+                                            "infos": {
+                                                "basico": {
+                                                    "esconder-label": 0,
+                                                    "label": "Facebook",
+                                                    "descricao": "",
+                                                    "obrigatorio": 0
+                                                },
+                                                "estilo": {
+                                                    "estilo": 0,
+                                                    "tamanho-do-input": 0
+                                                },
+                                                "label": {
+                                                    "placeholder": "",
+                                                    "sub-label": "",
+                                                    "tooltip": ""
+                                                },
+                                                "validacao": {
+                                                    "mascara": 0
+                                                },
+                                                "logica": {
+                                                    "logica": 0,
+                                                    "setup": ""
+                                                },
+                                                "identificador": {
+                                                    "id": "",
+                                                    "classes": ""
+                                                }
+                                            },
+                                            "filhos": []
+                                        },
+                                        {
+                                            "id": "2454",
+                                            "tipo": "text",
+                                            "nome": "X (Twiter)",
+                                            "obrigatorio": "0",
+                                            "data": "2024-10-07 15:47:48",
+                                            "pai": "2450",
+                                            "posicao": "2",
+                                            "hash": "DIwbUNcrQAoXpJ2Aanq8tnbfDirUxR",
+                                            "infos": {
+                                                "basico": {
+                                                    "esconder-label": 0,
+                                                    "label": "X (Twiter)",
+                                                    "descricao": "",
+                                                    "obrigatorio": 0
+                                                },
+                                                "estilo": {
+                                                    "estilo": 0,
+                                                    "tamanho-do-input": 0
+                                                },
+                                                "label": {
+                                                    "placeholder": "",
+                                                    "sub-label": "",
+                                                    "tooltip": ""
+                                                },
+                                                "validacao": {
+                                                    "mascara": 0
+                                                },
+                                                "logica": {
+                                                    "logica": 0,
+                                                    "setup": ""
+                                                },
+                                                "identificador": {
+                                                    "id": "",
+                                                    "classes": ""
+                                                }
+                                            },
+                                            "filhos": []
+                                        },
+                                        {
+                                            "id": "2453",
+                                            "tipo": "text",
+                                            "nome": "LinkedIn",
+                                            "obrigatorio": "0",
+                                            "data": "2024-10-07 15:47:48",
+                                            "pai": "2450",
+                                            "posicao": "3",
+                                            "hash": "GlybAZL6ilSErCMiMfiIoN3MF8IvHZ",
+                                            "infos": {
+                                                "basico": {
+                                                    "esconder-label": 0,
+                                                    "label": "LinkedIn",
+                                                    "descricao": "",
+                                                    "obrigatorio": 0
+                                                },
+                                                "estilo": {
+                                                    "estilo": 0,
+                                                    "tamanho-do-input": 0
+                                                },
+                                                "label": {
+                                                    "placeholder": "",
+                                                    "sub-label": "",
+                                                    "tooltip": ""
+                                                },
+                                                "validacao": {
+                                                    "mascara": 0
+                                                },
+                                                "logica": {
+                                                    "logica": 0,
+                                                    "setup": ""
+                                                },
+                                                "identificador": {
+                                                    "id": "",
+                                                    "classes": ""
+                                                }
+                                            },
+                                            "filhos": []
+                                        },
+                                        {
+                                            "id": "2455",
+                                            "tipo": "text",
+                                            "nome": "Youtube",
+                                            "obrigatorio": "0",
+                                            "data": "2024-10-07 15:46:25",
+                                            "pai": "2450",
+                                            "posicao": "5",
+                                            "hash": "4FYAqPh963AltQH1a22vrw3mBOqeVo",
+                                            "infos": {
+                                                "basico": {
+                                                    "esconder-label": 0,
+                                                    "label": "Youtube",
+                                                    "descricao": "",
+                                                    "obrigatorio": 0
+                                                },
+                                                "estilo": {
+                                                    "estilo": 0,
+                                                    "tamanho-do-input": 0
+                                                },
+                                                "label": {
+                                                    "placeholder": "",
+                                                    "sub-label": "",
+                                                    "tooltip": ""
+                                                },
+                                                "validacao": {
+                                                    "mascara": 0
+                                                },
+                                                "logica": {
+                                                    "logica": 0,
+                                                    "setup": ""
+                                                },
+                                                "identificador": {
+                                                    "id": "",
+                                                    "classes": ""
+                                                }
+                                            },
+                                            "filhos": []
+                                        },
+                                        {
+                                            "id": "2456",
+                                            "tipo": "text",
+                                            "nome": "TikTok",
+                                            "obrigatorio": "0",
+                                            "data": "2024-10-07 15:46:25",
+                                            "pai": "2450",
+                                            "posicao": "6",
+                                            "hash": "RcG6rZGyNIC6fTEXNNnibmgpYKa3oW",
+                                            "infos": {
+                                                "basico": {
+                                                    "esconder-label": 0,
+                                                    "label": "TikTok",
+                                                    "descricao": "",
+                                                    "obrigatorio": 0
+                                                },
+                                                "estilo": {
+                                                    "estilo": 0,
+                                                    "tamanho-do-input": 0
+                                                },
+                                                "label": {
+                                                    "placeholder": "",
+                                                    "sub-label": "",
+                                                    "tooltip": ""
+                                                },
+                                                "validacao": {
+                                                    "mascara": 0
+                                                },
+                                                "logica": {
+                                                    "logica": 0,
+                                                    "setup": ""
+                                                },
+                                                "identificador": {
+                                                    "id": "",
+                                                    "classes": ""
+                                                }
+                                            },
+                                            "filhos": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "2465",
+                            "tipo": "grupo",
+                            "nome": null,
+                            "obrigatorio": "0",
+                            "data": "2024-04-23 01:15:35",
+                            "pai": "2432",
+                            "posicao": "1",
+                            "hash": "HS3sfCbdut0I5gW9UrP22mEeMjcd2t",
+                            "infos": {
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": " "
+                                },
+                                "identificador": {
+                                    "id": "divContatos ",
+                                    "classes": " "
+                                }
+                            },
+                            "filhos": [
+                                {
+                                    "id": "2458",
+                                    "tipo": "repetidor",
+                                    "nome": "Telefones",
+                                    "obrigatorio": "0",
+                                    "data": "2024-04-22 23:55:30",
+                                    "pai": "2465",
+                                    "posicao": "0",
+                                    "hash": "JtayjMWS6HFdGYfGplGyU33BKxfycq",
+                                    "infos": {
+                                        "basico": {
+                                            "label": "Telefones",
+                                            "descricao": ""
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": ""
+                                        },
+                                        "identificador": {
+                                            "id": "",
+                                            "classes": ""
+                                        }
+                                    },
+                                    "filhos": [
+                                        {
+                                            "id": "2459",
+                                            "tipo": "text",
+                                            "nome": "Telefones ",
+                                            "obrigatorio": "0",
+                                            "data": "2024-04-23 02:12:26",
+                                            "pai": "2458",
+                                            "posicao": "0",
+                                            "hash": "Prkdpq8qtyU7pSxnLdspB2x23VyGwd",
+                                            "infos": {
+                                                "basico": {
+                                                    "esconder-label": 0,
+                                                    "label": "Telefones  ",
+                                                    "descricao": "  ",
+                                                    "obrigatorio": 0
+                                                },
+                                                "estilo": {
+                                                    "estilo": 0,
+                                                    "tamanho-do-input": 0
+                                                },
+                                                "label": {
+                                                    "placeholder": "  ",
+                                                    "sub-label": "  ",
+                                                    "tooltip": "  "
+                                                },
+                                                "validacao": {
+                                                    "mascara": 4
+                                                },
+                                                "logica": {
+                                                    "logica": 0,
+                                                    "setup": "  "
+                                                },
+                                                "identificador": {
+                                                    "id": "  ",
+                                                    "classes": "  "
+                                                }
+                                            },
+                                            "filhos": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "2461",
+                                    "tipo": "repetidor",
+                                    "nome": "E-mails",
+                                    "obrigatorio": "0",
+                                    "data": "2024-04-22 23:54:37",
+                                    "pai": "2465",
+                                    "posicao": "1",
+                                    "hash": "bzshbWPPJXPlOYrtGBNXyKxPUsRdFN",
+                                    "infos": {
+                                        "basico": {
+                                            "label": "E-mails",
+                                            "descricao": ""
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": ""
+                                        },
+                                        "identificador": {
+                                            "id": "",
+                                            "classes": ""
+                                        }
+                                    },
+                                    "filhos": [
+                                        {
+                                            "id": "2462",
+                                            "tipo": "text",
+                                            "nome": "Email",
+                                            "obrigatorio": "0",
+                                            "data": "2024-04-22 20:02:07",
+                                            "pai": "2461",
+                                            "posicao": "0",
+                                            "hash": "eWgi9LEUy5K994Jrj6d2kki0MYKYKn",
+                                            "infos": {
+                                                "basico": {
+                                                    "esconder-label": 0,
+                                                    "label": "Email",
+                                                    "descricao": "",
+                                                    "obrigatorio": 0
+                                                },
+                                                "estilo": {
+                                                    "estilo": 0,
+                                                    "tamanho-do-input": 0
+                                                },
+                                                "label": {
+                                                    "placeholder": "",
+                                                    "sub-label": "",
+                                                    "tooltip": ""
+                                                },
+                                                "validacao": {
+                                                    "mascara": 0
+                                                },
+                                                "logica": {
+                                                    "logica": 0,
+                                                    "setup": ""
+                                                },
+                                                "identificador": {
+                                                    "id": "",
+                                                    "classes": ""
+                                                }
+                                            },
+                                            "filhos": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "2478",
+                            "tipo": "repetidor",
+                            "nome": "Sócios",
+                            "obrigatorio": "0",
+                            "data": "2024-04-23 01:15:35",
+                            "pai": "2432",
+                            "posicao": "2",
+                            "hash": "FbLmJCqkjermpM8iuxkFcH2jODy9Uv",
+                            "infos": {
+                                "basico": {
+                                    "label": "Sócios ",
+                                    "descricao": " "
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": " "
+                                },
+                                "identificador": {
+                                    "id": "divSocios ",
+                                    "classes": " "
+                                }
+                            },
+                            "filhos": [
+                                {
+                                    "id": "2481",
+                                    "tipo": "card",
+                                    "nome": "Sócio",
+                                    "obrigatorio": "0",
+                                    "data": "2024-04-23 01:14:30",
+                                    "pai": "2478",
+                                    "posicao": "0",
+                                    "hash": "pKyGQKoabFBy3db94VhRGh8W9ThKh3",
+                                    "infos": {
+                                        "basico": {
+                                            "label": "Sócio ",
+                                            "recolhivel": 0
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": " "
+                                        },
+                                        "identificador": {
+                                            "id": " ",
+                                            "classes": "border "
+                                        }
+                                    },
+                                    "filhos": [
+                                        {
+                                            "id": "2479",
+                                            "tipo": "text",
+                                            "nome": "Função",
+                                            "obrigatorio": "0",
+                                            "data": "2024-10-07 15:46:20",
+                                            "pai": "2481",
+                                            "posicao": "1",
+                                            "hash": "OmDOx2e0K6uCCCn0W4G0f7vNjslGuI",
+                                            "infos": {
+                                                "basico": {
+                                                    "esconder-label": 0,
+                                                    "label": "Função",
+                                                    "descricao": "",
+                                                    "obrigatorio": 0
+                                                },
+                                                "estilo": {
+                                                    "estilo": 0,
+                                                    "tamanho-do-input": 0
+                                                },
+                                                "label": {
+                                                    "placeholder": "",
+                                                    "sub-label": "",
+                                                    "tooltip": ""
+                                                },
+                                                "validacao": {
+                                                    "mascara": 0
+                                                },
+                                                "logica": {
+                                                    "logica": 0,
+                                                    "setup": ""
+                                                },
+                                                "identificador": {
+                                                    "id": "",
+                                                    "classes": ""
+                                                }
+                                            },
+                                            "filhos": []
+                                        },
+                                        {
+                                            "id": "2480",
+                                            "tipo": "text",
+                                            "nome": "Nome",
+                                            "obrigatorio": "0",
+                                            "data": "2024-10-07 15:46:20",
+                                            "pai": "2481",
+                                            "posicao": "2",
+                                            "hash": "xBy2zLn6EnOBHdsxzAEoSA95bvN3Sb",
+                                            "infos": {
+                                                "basico": {
+                                                    "esconder-label": 0,
+                                                    "label": "Nome",
+                                                    "descricao": "",
+                                                    "obrigatorio": 0
+                                                },
+                                                "estilo": {
+                                                    "estilo": 0,
+                                                    "tamanho-do-input": 0
+                                                },
+                                                "label": {
+                                                    "placeholder": "",
+                                                    "sub-label": "",
+                                                    "tooltip": ""
+                                                },
+                                                "validacao": {
+                                                    "mascara": 0
+                                                },
+                                                "logica": {
+                                                    "logica": 0,
+                                                    "setup": ""
+                                                },
+                                                "identificador": {
+                                                    "id": "",
+                                                    "classes": ""
+                                                }
+                                            },
+                                            "filhos": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "2483",
+                            "tipo": "repetidor",
+                            "nome": "Usuários",
+                            "obrigatorio": "0",
+                            "data": "2024-04-23 01:25:04",
+                            "pai": "2432",
+                            "posicao": "3",
+                            "hash": "4k3kaOclpf1TKzQko7g84tKB7RuUWk",
+                            "infos": {
+                                "basico": {
+                                    "label": "Usuários ",
+                                    "descricao": " "
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": " "
+                                },
+                                "identificador": {
+                                    "id": "divUsuarios ",
+                                    "classes": " "
+                                }
+                            },
+                            "filhos": [
+                                {
+                                    "id": "2482",
+                                    "tipo": "select",
+                                    "nome": "Usuários ",
+                                    "obrigatorio": "0",
+                                    "data": "2024-04-23 01:22:56",
+                                    "pai": "2483",
+                                    "posicao": "0",
+                                    "hash": "NLkiJRYHpYbZm6TOrsCUl11lJcYFnI",
+                                    "infos": {
+                                        "basico": {
+                                            "label": "Usuários  ",
+                                            "descricao": "  ",
+                                            "obrigatorio": 0,
+                                            "select-2": 0
+                                        },
+                                        "opcoes": {
+                                            "multiplo": 0,
+                                            "opcoes": "  "
+                                        },
+                                        "dinamica": {
+                                            "opcoes-dinamicas": 1,
+                                            "configuracoes": {
+                                                "modulo": "usuarios",
+                                                "formulario": "aY4O9kcLpNMpbiD.json",
+                                                "regra": "1"
+                                            }
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho-do-input": 0
+                                        },
+                                        "label": {
+                                            "placeholder": "  ",
+                                            "sub-label": "  ",
+                                            "tooltip": "  "
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": "  "
+                                        },
+                                        "identificador": {
+                                            "id": "  ",
+                                            "classes": "  "
+                                        }
+                                    },
+                                    "filhos": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "2484",
+                            "tipo": "grupo",
+                            "nome": null,
+                            "obrigatorio": "0",
+                            "data": "2024-04-23 01:31:27",
+                            "pai": "2432",
+                            "posicao": "4",
+                            "hash": "zwTvVBMmJX381Spixf1ZdJ3YS273LZ",
+                            "infos": {
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": ""
+                                },
+                                "identificador": {
+                                    "id": "divAtividades",
+                                    "classes": ""
+                                }
+                            },
+                            "filhos": [
+                                {
+                                    "id": "2485",
+                                    "tipo": "card",
+                                    "nome": "Atividade Primaria",
+                                    "obrigatorio": "0",
+                                    "data": "2024-04-23 01:30:16",
+                                    "pai": "2484",
+                                    "posicao": "0",
+                                    "hash": "sd4AXvMYQHsO0FgHmz5xNGlLlP17bu",
+                                    "infos": {
+                                        "basico": {
+                                            "label": "Atividade Primaria",
+                                            "recolhivel": 0
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": ""
+                                        },
+                                        "identificador": {
+                                            "id": "",
+                                            "classes": ""
+                                        }
+                                    },
+                                    "filhos": [
+                                        {
+                                            "id": "2486",
+                                            "tipo": "text",
+                                            "nome": "Nome",
+                                            "obrigatorio": "0",
+                                            "data": "2024-04-23 01:29:28",
+                                            "pai": "2485",
+                                            "posicao": "0",
+                                            "hash": "9rMArpyQX4s6kXEuYjoKKLg8HJpqso",
+                                            "infos": {
+                                                "basico": {
+                                                    "esconder-label": 0,
+                                                    "label": "Nome",
+                                                    "descricao": "",
+                                                    "obrigatorio": 0
+                                                },
+                                                "estilo": {
+                                                    "estilo": 0,
+                                                    "tamanho-do-input": 0
+                                                },
+                                                "label": {
+                                                    "placeholder": "",
+                                                    "sub-label": "",
+                                                    "tooltip": ""
+                                                },
+                                                "validacao": {
+                                                    "mascara": 0
+                                                },
+                                                "logica": {
+                                                    "logica": 0,
+                                                    "setup": ""
+                                                },
+                                                "identificador": {
+                                                    "id": "",
+                                                    "classes": ""
+                                                }
+                                            },
+                                            "filhos": []
+                                        },
+                                        {
+                                            "id": "2487",
+                                            "tipo": "text",
+                                            "nome": "CNAE",
+                                            "obrigatorio": "0",
+                                            "data": "2024-04-23 01:29:30",
+                                            "pai": "2485",
+                                            "posicao": "1",
+                                            "hash": "2fImcosPwx7HSHqOODPPJklbVq4WFy",
+                                            "infos": {
+                                                "basico": {
+                                                    "esconder-label": 0,
+                                                    "label": "CNAE",
+                                                    "descricao": "",
+                                                    "obrigatorio": 0
+                                                },
+                                                "estilo": {
+                                                    "estilo": 0,
+                                                    "tamanho-do-input": 0
+                                                },
+                                                "label": {
+                                                    "placeholder": "",
+                                                    "sub-label": "",
+                                                    "tooltip": ""
+                                                },
+                                                "validacao": {
+                                                    "mascara": 0
+                                                },
+                                                "logica": {
+                                                    "logica": 0,
+                                                    "setup": ""
+                                                },
+                                                "identificador": {
+                                                    "id": "",
+                                                    "classes": ""
+                                                }
+                                            },
+                                            "filhos": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "2488",
+                                    "tipo": "repetidor",
+                                    "nome": "Atividades Secundarias",
+                                    "obrigatorio": "0",
+                                    "data": "2024-04-23 01:35:41",
+                                    "pai": "2484",
+                                    "posicao": "1",
+                                    "hash": "5XKVEW8Dfnn1bYesZycLM3GxFWM0j3",
+                                    "infos": {
+                                        "basico": {
+                                            "label": "Atividades Secundarias",
+                                            "descricao": ""
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": ""
+                                        },
+                                        "identificador": {
+                                            "id": "",
+                                            "classes": ""
+                                        }
+                                    },
+                                    "filhos": [
+                                        {
+                                            "id": "2491",
+                                            "tipo": "coluna",
+                                            "nome": null,
+                                            "obrigatorio": "0",
+                                            "data": "2024-04-23 01:34:48",
+                                            "pai": "2488",
+                                            "posicao": "0",
+                                            "hash": "Y9duGuznforVP0PLUm90xLSDOgGqjl",
+                                            "infos": [],
+                                            "filhos": [
+                                                {
+                                                    "id": "2492",
+                                                    "tipo": "col",
+                                                    "nome": null,
+                                                    "obrigatorio": "0",
+                                                    "data": "2024-04-23 01:34:27",
+                                                    "pai": "2491",
+                                                    "posicao": "0",
+                                                    "hash": "zb7RdycnNOLcUrEWbFMJ1OlBx3WAou",
+                                                    "infos": [],
+                                                    "filhos": [
+                                                        {
+                                                            "id": "2489",
+                                                            "tipo": "text",
+                                                            "nome": "Nome",
+                                                            "obrigatorio": "0",
+                                                            "data": "2024-04-23 01:34:50",
+                                                            "pai": "2492",
+                                                            "posicao": "0",
+                                                            "hash": "1vhlNNW8KtqPmTiqrtsAkIFV42jKIp",
+                                                            "infos": {
+                                                                "basico": {
+                                                                    "esconder-label": 0,
+                                                                    "label": "Nome",
+                                                                    "descricao": "",
+                                                                    "obrigatorio": 0
+                                                                },
+                                                                "estilo": {
+                                                                    "estilo": 0,
+                                                                    "tamanho-do-input": 0
+                                                                },
+                                                                "label": {
+                                                                    "placeholder": "",
+                                                                    "sub-label": "",
+                                                                    "tooltip": ""
+                                                                },
+                                                                "validacao": {
+                                                                    "mascara": 0
+                                                                },
+                                                                "logica": {
+                                                                    "logica": 0,
+                                                                    "setup": ""
+                                                                },
+                                                                "identificador": {
+                                                                    "id": "",
+                                                                    "classes": ""
+                                                                }
+                                                            },
+                                                            "filhos": []
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "2493",
+                                                    "tipo": "col",
+                                                    "nome": null,
+                                                    "obrigatorio": "0",
+                                                    "data": "2024-04-23 01:34:27",
+                                                    "pai": "2491",
+                                                    "posicao": "1",
+                                                    "hash": "lUaQs5r164Tpeui5SqBS8e4ZZIecyX",
+                                                    "infos": [],
+                                                    "filhos": [
+                                                        {
+                                                            "id": "2490",
+                                                            "tipo": "text",
+                                                            "nome": "CNAE",
+                                                            "obrigatorio": "0",
+                                                            "data": "2024-04-23 01:34:51",
+                                                            "pai": "2493",
+                                                            "posicao": "0",
+                                                            "hash": "jvkwJxhHz1rj7N1SUIfuUCpJNLnpYW",
+                                                            "infos": {
+                                                                "basico": {
+                                                                    "esconder-label": 0,
+                                                                    "label": "CNAE",
+                                                                    "descricao": "",
+                                                                    "obrigatorio": 0
+                                                                },
+                                                                "estilo": {
+                                                                    "estilo": 0,
+                                                                    "tamanho-do-input": 0
+                                                                },
+                                                                "label": {
+                                                                    "placeholder": "",
+                                                                    "sub-label": "",
+                                                                    "tooltip": ""
+                                                                },
+                                                                "validacao": {
+                                                                    "mascara": 0
+                                                                },
+                                                                "logica": {
+                                                                    "logica": 0,
+                                                                    "setup": ""
+                                                                },
+                                                                "identificador": {
+                                                                    "id": "",
+                                                                    "classes": ""
+                                                                }
+                                                            },
+                                                            "filhos": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "6923",
+                            "tipo": "enderecos",
+                            "nome": null,
+                            "obrigatorio": "0",
+                            "data": "2024-10-28 16:54:44",
+                            "pai": "2432",
+                            "posicao": "5",
+                            "hash": "AE4hdbbJVX9t1H0IMVXviH15DMaMZj",
+                            "infos": {
+                                "basico": {
+                                    "multiplo": 0,
+                                    "criar-novo": 1
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": " "
+                                },
+                                "identificador": {
+                                    "id": "divEnderecos ",
+                                    "classes": " "
+                                }
+                            },
+                            "filhos": []
+                        }
+                    ]
+                },
+                {
+                    "id": "2433",
+                    "tipo": "col",
+                    "nome": null,
+                    "obrigatorio": "0",
+                    "data": "2024-04-22 19:36:38",
+                    "pai": "2431",
+                    "posicao": "1",
+                    "hash": "qsI6UcNfP3dkO0tBk385UuItzhDho3",
+                    "infos": {
+                        "layout": {
+                            "tamanho": 3
+                        },
+                        "logica": {
+                            "logica": 0,
+                            "setup": ""
+                        },
+                        "identificador": {
+                            "id": "",
+                            "classes": ""
+                        }
+                    },
+                    "filhos": [
+                        {
+                            "id": "2668",
+                            "tipo": "select",
+                            "nome": "Empresa é premium ?",
+                            "obrigatorio": "0",
+                            "data": "2024-08-30 14:33:48",
+                            "pai": "2433",
+                            "posicao": "0",
+                            "hash": "AUKFsNddfVAvHCTVlB2QxElbobCsao",
+                            "infos": {
+                                "basico": {
+                                    "esconder-label": 0,
+                                    "label": "Empresa é premium ?",
+                                    "descricao": "",
+                                    "obrigatorio": 0,
+                                    "select-2": 0,
+                                    "somente-leitura": 0
+                                },
+                                "opcoes": {
+                                    "multiplo": 0,
+                                    "opcoes": [
+                                        {
+                                            "nome": "Não",
+                                            "valor": "0",
+                                            "selecionado": true
+                                        },
+                                        {
+                                            "nome": "Sim",
+                                            "valor": "1",
+                                            "selecionado": false
+                                        }
+                                    ]
+                                },
+                                "dinamica": {
+                                    "smart-triger": 0,
+                                    "input-trigger": 0,
+                                    "url-trigger": "",
+                                    "acao-trigger": "",
+                                    "opcoes-dinamicas": 0,
+                                    "configuracoes": "",
+                                    "arquivo-query": "",
+                                    "acao-query": ""
+                                },
+                                "estilo": {
+                                    "estilo": 0,
+                                    "tamanho-do-input": 0
+                                },
+                                "label": {
+                                    "placeholder": "",
+                                    "sub-label": "",
+                                    "tooltip": ""
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": ""
+                                },
+                                "identificador": {
+                                    "id": "",
+                                    "classes": ""
+                                }
+                            },
+                            "filhos": []
+                        },
+                        {
+                            "id": "4912",
+                            "tipo": "categoria",
+                            "nome": null,
+                            "obrigatorio": "0",
+                            "data": "2024-08-30 14:33:10",
+                            "pai": "2433",
+                            "posicao": "1",
+                            "hash": "0upo8Jloyh5FtUUcw4Kzkf27e7MIqr",
+                            "infos": [],
+                            "filhos": []
+                        },
+                        {
+                            "id": "4913",
+                            "tipo": "tags",
+                            "nome": null,
+                            "obrigatorio": "0",
+                            "data": "2024-08-30 14:33:10",
+                            "pai": "2433",
+                            "posicao": "2",
+                            "hash": "GiZcAs8U8qENjdI98LjppBDmMzdEy3",
+                            "infos": [],
+                            "filhos": []
+                        },
+                        {
+                            "id": "2436",
+                            "tipo": "cardSalvar",
+                            "nome": null,
+                            "obrigatorio": "0",
+                            "data": "2024-08-30 14:33:10",
+                            "pai": "2433",
+                            "posicao": "3",
+                            "hash": "zYT2y5jHMq6Jt0xSje0KZDarvFtg6E",
+                            "infos": [],
+                            "filhos": []
+                        },
+                        {
+                            "id": "2434",
+                            "tipo": "imagemDestaque",
+                            "nome": null,
+                            "obrigatorio": "0",
+                            "data": "2024-08-30 14:33:10",
+                            "pai": "2433",
+                            "posicao": "4",
+                            "hash": "ecyBzIIkogpDywN04zL7QstRhbfGk9",
+                            "infos": [],
+                            "filhos": []
+                        },
+                        {
+                            "id": "2435",
+                            "tipo": "galeria",
+                            "nome": null,
+                            "obrigatorio": "0",
+                            "data": "2024-08-30 14:33:10",
+                            "pai": "2433",
+                            "posicao": "5",
+                            "hash": "7leVBQyQmcGQcJeKpjkfBqdgl7pG6f",
+                            "infos": [],
+                            "filhos": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "infos": []
+}

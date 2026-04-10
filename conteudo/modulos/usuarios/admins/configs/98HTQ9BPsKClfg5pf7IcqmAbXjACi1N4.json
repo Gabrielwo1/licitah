@@ -1,0 +1,49 @@
+{
+    "banco": "usuarios_validacoes",
+    "meta": false,
+    "prefixo": "usuario_validacao",
+    "url": false,
+    "colunas": [
+        {
+            "nome": "token",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "Hmchug2E0hrGcGTXLu2pD5SVR76eoc",
+            "size": 4
+        },
+        {
+            "nome": "tipo",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "Tsd777YCPlsu7hceghpuXgkbJNAFnu"
+        }
+    ],
+    "estrutura": {
+        "meta": false,
+        "hash": false,
+        "autor": true,
+        "dataCriacao": true,
+        "dataUpdate": false,
+        "ordenador": false,
+        "url": false,
+        "urledit": false,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false,
+        "autoria": false,
+        "wildcard": false,
+        "atributos": false,
+        "destaque": false,
+        "enderecos": false,
+        "desabilitarNovo": false,
+        "desabilitarEdicao": false,
+        "reordenador": false,
+        "pontos": false
+    },
+    "metas": []
+}

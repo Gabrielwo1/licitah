@@ -1,0 +1,98 @@
+{
+    "nome": "pedidos por autor",
+    "banco": "Cyrv1bcxbsbHpSh",
+    "tipo": 2,
+    "subtipo": 2,
+    "itens": [
+        {
+            "nome": "total",
+            "banco": "p",
+            "chave": "total",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "autor",
+            "banco": "p",
+            "chave": "autor",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "data",
+            "banco": "p",
+            "chave": "dataCriacao",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "total",
+            "banco": "m",
+            "chave": "total",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "carrinho",
+            "banco": "p",
+            "chave": "carrinho",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "andamento_status",
+            "banco": "m",
+            "chave": "andamento_status",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "meio_pagamento",
+            "banco": "m",
+            "chave": "meio_pagamento",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "desconto",
+            "banco": "m",
+            "chave": "desconto",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "id",
+            "banco": "p",
+            "chave": "id",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "url",
+            "banco": "p",
+            "chave": "url",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "hash",
+            "banco": "p",
+            "chave": "hash",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "frete",
+            "banco": "m",
+            "chave": "frete",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "tipo",
+            "banco": "p",
+            "chave": "tipo",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "estado",
+            "banco": "p",
+            "chave": "estado",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "cancelamento_status",
+            "banco": "m",
+            "chave": "cancelamento_status",
+            "estrangeiro": 0
+        }
+    ]
+}

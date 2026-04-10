@@ -1,0 +1,42 @@
+{
+   "recapcha":{
+       "tipo": "check",
+       "descricao": "Ative Google Recapcha e verificação de bots no sistema.",
+       "label": "Google Recapcha"
+   } ,
+   "recapchacode":{
+       "label": "Código Recapcha",
+       "tipo": "input",
+       "descricao": "Digite seu código Recapcha.",
+       "condicional": "recapcha"
+   },
+   "forcabruta":{
+       "label": "Bloquear acesso por força bruta",
+       "tipo": "check",
+       "descricao": "Bloquei por um tempo, usuários que tentam logar ou se cadastrar por varias vezes sem sucesso."
+   },
+     "tentativas":{
+       "label": "Número de tentantivas",
+       "tipo": "select",
+       "descricao": "Quantidade de tentativas mal sucessidas aceitas, antes de bloquear.",
+       "condicional": "forcabruta",
+       "opcoes": [
+           {"chave": "5 tentativas", "valor": 5},
+           {"chave": "10 tentativas", "valor": 10},
+           {"chave": "15 tentativas", "valor": 15},
+           {"chave": "20 tentativas", "valor": 20}
+    ]
+   },
+     "tempo":{
+       "label": "Tempo de bloqueio",
+       "tipo": "select",
+       "descricao": "O tempo que o usuário ficará bloqueado para tentar acessar ou se cadastrar.",
+       "condicional": "forcabruta",
+       "opcoes": [
+           {"chave": "1 minuto", "valor": 1},
+           {"chave": "2 minutos", "valor": 2},
+           {"chave": "5 minutos", "valor": 5},
+           {"chave": "10 minutos", "valor": 10}
+    ]
+   }
+}

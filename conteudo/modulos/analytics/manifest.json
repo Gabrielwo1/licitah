@@ -1,0 +1,47 @@
+{
+    "name": "Analytics",
+    "description": "Rastreia 100% da navegação dos usuários com dados de localização, dispositivo, histórico e fluxo imersivo.",
+    "descriptionLong": "O módulo Analitcs foi desenvolvido para monitorar integralmente a navegação dos usuários, coletando informações detalhadas como localização, dados do dispositivo, histórico de páginas visitadas, tempo de permanência e fluxo de interação. Essa abordagem abrangente permite a análise minuciosa do comportamento do usuário, possibilitando a criação de experiências imersivas e personalizadas. Com dashboards intuitivos e relatórios precisos, o sistema auxilia na identificação de padrões e na tomada de decisões estratégicas, contribuindo para a otimização da usabilidade, o aumento do engajamento e a eficácia das ações de marketing digital. Em resumo, o módulo Analitcs é essencial para transformar dados em insights valiosos e aprimorar a jornada do usuário de forma contínua.",
+    "icon": "bi bi-bar-chart",
+    "ativo": "false",
+    "multiconta": false,
+    "readonly": false,
+    "sub": [
+        {
+            "name": "Dashboard",
+            "link": "a\/analytics"
+        },
+        {
+            "name": "Sessões",
+            "link": "a\/analytics\/sessoes"
+        },
+        {
+            "name": "Abas",
+            "link": "a\/analytics\/abas"
+        },
+        {
+            "name": "Acessos",
+            "link": "a\/analytics\/acessos"
+        },
+        {
+            "name": "URLs",
+            "link": "a\/analytics\/urls"
+        },
+        {
+            "name": "IPs",
+            "link": "a\/analytics\/ips"
+        },
+        {
+            "name": "Dispositivos",
+            "link": "a\/analytics\/dispositivos"
+        },
+        {
+            "name": "Origens",
+            "link": "a\/analytics\/origens"
+        }
+    ],
+    "configs": [
+        "Configurações"
+    ],
+    "versao": "0.17"
+}

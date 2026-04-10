@@ -1,0 +1,10 @@
+{
+    "name": "Categorias",
+    "description": "Crie categorias para organizar e filtrar dados de forma eficiente em todo o sistema.",
+    "descriptionLong": "O módulo Categorias permite a criação e gestão de categorias em todo o sistema, facilitando a organização e a filtragem de informações. Com ele, você pode estruturar seus dados de maneira intuitiva, tornando a navegação mais eficiente e melhorando a experiência do usuário. Ideal para quem precisa de um sistema mais ordenado e segmentado.",
+    "icon": "bi bi-bookmark-star",
+    "ativo": "true",
+    "readonly": false,
+    "link": "a\/categorias",
+    "versao": "0.05"
+}

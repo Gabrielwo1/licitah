@@ -1,0 +1,134 @@
+{
+    "id": "134",
+    "nome": "Assinatura Assistente",
+    "hash": "ZrGKyMSxMvpxWYHNmGGtaS7zD3ZJQzfH",
+    "data": "2024-07-24 18:44:18",
+    "tamanho": 3,
+    "inputs": [
+        {
+            "id": "4181",
+            "tipo": "select",
+            "nome": "Usuário",
+            "obrigatorio": "0",
+            "data": "2024-07-24 18:45:02",
+            "pai": "0",
+            "posicao": "0",
+            "hash": "IS1GhNYNDDgmlF8Zi0i93Kz6YL53Cm",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": "Usuário ",
+                    "descricao": " ",
+                    "obrigatorio": 0,
+                    "select-2": 0,
+                    "somente-leitura": 0
+                },
+                "opcoes": {
+                    "multiplo": 0,
+                    "opcoes": " "
+                },
+                "dinamica": {
+                    "opcoes-dinamicas": 1,
+                    "configuracoes": {
+                        "modulo": "usuarios",
+                        "formulario": "aY4O9kcLpNMpbiD.json",
+                        "regra": "1"
+                    },
+                    "arquivo-query": " ",
+                    "acao-query": " "
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": " ",
+                    "sub-label": " ",
+                    "tooltip": " "
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": " "
+                },
+                "identificador": {
+                    "id": " ",
+                    "classes": " "
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "4182",
+            "tipo": "select",
+            "nome": "Plano",
+            "obrigatorio": "0",
+            "data": "2024-07-24 18:45:24",
+            "pai": "0",
+            "posicao": "1",
+            "hash": "lcSp4xiIhOCm3FzT0nCgDzqmWPXIMh",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": "Plano ",
+                    "descricao": " ",
+                    "obrigatorio": 0,
+                    "select-2": 0,
+                    "somente-leitura": 0
+                },
+                "opcoes": {
+                    "multiplo": 0,
+                    "opcoes": " "
+                },
+                "dinamica": {
+                    "opcoes-dinamicas": 1,
+                    "configuracoes": {
+                        "modulo": "assinaturas",
+                        "formulario": "Czy36ZwpCYq4WMY.json",
+                        "regra": "1"
+                    },
+                    "arquivo-query": " ",
+                    "acao-query": " "
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": " ",
+                    "sub-label": " ",
+                    "tooltip": " "
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": " "
+                },
+                "identificador": {
+                    "id": " ",
+                    "classes": " "
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "4183",
+            "tipo": "formprogress",
+            "nome": null,
+            "obrigatorio": "0",
+            "data": "2024-07-24 18:45:47",
+            "pai": "0",
+            "posicao": "2",
+            "hash": "cdeGk6GbmHvcL2P0cwg3Eet7aopXxM",
+            "infos": [],
+            "filhos": []
+        }
+    ],
+    "infos": {
+        "layout": {
+            "tamanho": 4
+        },
+        "logica": {
+            "logica": 0,
+            "setup": "  "
+        }
+    }
+}

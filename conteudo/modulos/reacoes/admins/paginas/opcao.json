@@ -1,0 +1,16 @@
+{
+    "nome": "Opção",
+    "tipo": "1",
+    "id": "L6MuZh9Zm1YQD7L1SvDYaTj9UtpuB4CZ",
+    "btns": [
+        {
+            "texto": "Ver Todas",
+            "tipo": "1",
+            "callback": "a\/reacoes\/opcoes",
+            "id": "",
+            "icone": ""
+        }
+    ],
+    "titulo": "{nova} Reação",
+    "breadcrumbs": true
+}

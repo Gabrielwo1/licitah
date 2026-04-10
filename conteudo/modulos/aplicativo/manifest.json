@@ -1,0 +1,21 @@
+{
+    "name": "Aplicativo",
+    "description": "Controle e atualize apps iOS, Android e Windows via PWA, garantindo integração, segurança e agilidade.",
+    "descriptionLong": "O módulo Aplicativo integra a gestão de aplicativos para iOS, Android e Windows diretamente pela aplicação, utilizando a tecnologia PWA (Progressive Web Application). Essa abordagem unificada permite controlar, atualizar e monitorar os apps em tempo real, eliminando a necessidade de múltiplas interfaces e simplificando a distribuição e manutenção. Com uma interface intuitiva e responsiva, os administradores podem gerenciar centralizadamente as operações dos aplicativos, assegurando sincronização entre plataformas, desempenho consistente e alto nível de segurança. Essa solução oferece flexibilidade para aproveitar recursos nativos de cada sistema operacional, proporcionando uma experiência otimizada e interativa aos usuários em todos os dispositivos.",
+    "icon": "bi bi-app-indicator",
+    "ativo": "true",
+    "multiconta": false,
+    "readonly": true,
+    "versao": "0.09",
+    "sub": [],
+    "configs": [
+        "Configurações",
+        "Manifesto",
+        "Icones",
+        "Screenshots Mobile",
+        "Screenshots PC",
+        "Categorias",
+        "PWA",
+        "Atalhos"
+    ]
+}

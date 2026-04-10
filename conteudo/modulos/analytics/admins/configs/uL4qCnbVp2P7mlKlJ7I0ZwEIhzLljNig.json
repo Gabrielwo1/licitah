@@ -1,0 +1,73 @@
+{
+    "banco": "analytics_consumos",
+    "meta": false,
+    "prefixo": "analytics_consumo",
+    "url": false,
+    "colunas": [
+        {
+            "nome": "modulo",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "JCMHyqJt1InoYfM8hdxOJEBNANTi8d",
+            "size": 50
+        },
+        {
+            "nome": "banco",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "0MoTpQozlagaxHi4hK0yAZ4LBAfr8w",
+            "size": 50
+        },
+        {
+            "nome": "identificador",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "3r0RfbPVBUTYbisqO2XU4fqyuARYoS"
+        },
+        {
+            "nome": "usuario",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "TcHL6MW0ZtPPdiZzXuXq1j1uZ6HWUZ"
+        },
+        {
+            "nome": "digital",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "2NcjPXLIkW8Ib0SVb78mgZoE8meNlO",
+            "size": 200
+        }
+    ],
+    "estrutura": {
+        "meta": false,
+        "hash": false,
+        "autor": false,
+        "dataCriacao": true,
+        "dataUpdate": false,
+        "ordenador": false,
+        "url": false,
+        "urledit": false,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false,
+        "autoria": false,
+        "wildcard": false,
+        "atributos": false,
+        "destaque": false,
+        "enderecos": false,
+        "subconta": false,
+        "desabilitarNovo": false,
+        "desabilitarEdicao": false,
+        "reordenador": false,
+        "pontos": false
+    },
+    "metas": []
+}

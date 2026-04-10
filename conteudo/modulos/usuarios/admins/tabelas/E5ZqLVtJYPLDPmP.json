@@ -1,0 +1,73 @@
+{
+    "nome": "Funções",
+    "banco": "pZ5qfBZdIkw0Xsy",
+    "colunas": [
+        {
+            "nome": "Nome",
+            "id": "nome",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "estrangeira": 0
+        },
+        {
+            "nome": "Tipo",
+            "id": "tipo",
+            "tipo": "1",
+            "render": "personalizado",
+            "regra": [
+                " ",
+                "Equipe",
+                "Cliente"
+            ],
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false
+        },
+        {
+            "nome": "Usuários Associados",
+            "id": "id",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "filtravel": false,
+            "estrangeira": 2,
+            "confiEstrangeira": {
+                "modulo": "usuarios",
+                "banco": "usuarios",
+                "tipo": "1",
+                "coluna": "usuario_funcao"
+            }
+        }
+    ],
+    "regra": "1",
+    "acoes": {
+        "opcoes": {
+            "acoes": true,
+            "editar": true,
+            "apagar": false,
+            "vizualizar": false,
+            "importador": false,
+            "exportador": false,
+            "filtro": false,
+            "colunas": false,
+            "multiplo": false,
+            "ordenador": false,
+            "filtrodata": false,
+            "bigdata": false
+        },
+        "rotas": {
+            "editar": "a\/usuarios\/funcao",
+            "vizualizar": ""
+        }
+    },
+    "layout": {
+        "modo": "1",
+        "container": "0"
+    },
+    "acoesPersonalizadas": [],
+    "dataFilter": "0"
+}

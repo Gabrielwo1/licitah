@@ -1,0 +1,98 @@
+{
+    "banco": "notificacoes_envios",
+    "meta": false,
+    "prefixo": "notificacoes_envio",
+    "url": "1",
+    "colunas": [
+        {
+            "nome": "pre",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "vIHR62FGvNNWjvYsKTJkMqaBptTFa5"
+        },
+        {
+            "nome": "usuario",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "QYDNSoCzfDSP8VS3WrECgBHsxxZuN6"
+        },
+        {
+            "nome": "transacional",
+            "nulo": true,
+            "tipo": "int",
+            "unico": false,
+            "input": "Ul24JZhv8Ex0myOL6Qswku87MENDgd"
+        },
+        {
+            "nome": "estado",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "UCwBWNpVRzUoVcAKJOe2m4b4g4O0Tb"
+        },
+        {
+            "nome": "email",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "vfB3ecHZZ8YJJXICt0tMX2nadzAGMz"
+        },
+        {
+            "nome": "app",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "F3YF7gHQpa3T9ZLez2HlG97BUL4scD"
+        },
+        {
+            "nome": "whatsapp",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "6z8tVk3bM0E9mt7MrrJ0MOwZ6rXo3E"
+        },
+        {
+            "nome": "push",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "dfTKpT2bN4Jpp4TovHkiKS7Ndo738H"
+        },
+        {
+            "nome": "sms",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "rp86NjwfMdxilHkkOE4xK3KFL1mCyG"
+        }
+    ],
+    "estrutura": {
+        "meta": false,
+        "hash": true,
+        "autor": false,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "ordenador": false,
+        "url": true,
+        "urledit": false,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false,
+        "autoria": false,
+        "wildcard": false,
+        "atributos": false,
+        "destaque": false,
+        "enderecos": false,
+        "subconta": false,
+        "desabilitarNovo": true,
+        "desabilitarEdicao": true,
+        "reordenador": false,
+        "pontos": false
+    },
+    "metas": []
+}

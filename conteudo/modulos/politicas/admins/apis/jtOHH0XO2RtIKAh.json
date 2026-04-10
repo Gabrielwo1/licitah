@@ -1,0 +1,38 @@
+{
+    "nome": "item",
+    "banco": "LOI7N7DViTJCtETZ2JzYG2h6lpqnADiu",
+    "tipo": 1,
+    "subtipo": 2,
+    "itens": [
+        {
+            "nome": "titulo",
+            "banco": "p",
+            "chave": "titulo",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "data",
+            "banco": "p",
+            "chave": "dataCriacao",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "url",
+            "banco": "p",
+            "chave": "url",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "autor",
+            "banco": "p",
+            "chave": "autor",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "texto",
+            "banco": "p",
+            "chave": "texto",
+            "estrangeiro": 0
+        }
+    ]
+}

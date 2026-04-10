@@ -1,0 +1,37 @@
+{
+  "ativo": {
+    "tipo": "check",
+    "descricao": "Habilite o login e cadastro usando a Apple",
+    "label": "Logar com a Apple"
+  },
+  "team_id": {
+    "tipo": "INPUT",
+    "label": "Team ID",
+    "descricao": "Identificador do seu time obtido no Apple Developer Account.",
+    "condicional": "ativo"
+  },
+  "client_id": {
+    "tipo": "INPUT",
+    "label": "Client ID",
+    "descricao": "Identificador do seu cliente obtido no Apple Developer Account.",
+    "condicional": "ativo"
+  },
+  "redirect_uri": {
+    "tipo": "INPUT",
+    "label": "Redirect URI",
+    "descricao": "A URL para onde o usuário será redirecionado após a autenticação.",
+    "condicional": "ativo"
+  },
+  "key_id": {
+    "tipo": "INPUT",
+    "label": "Key ID",
+    "descricao": "Identificador da chave de autenticação obtida no Apple Developer Account.",
+    "condicional": "ativo"
+  },
+  "key": {
+    "tipo": "INPUT",
+    "label": "Key",
+    "descricao": "Chave de autenticação obtida no Apple Developer Account.",
+    "condicional": "ativo"
+  }
+}

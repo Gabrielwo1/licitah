@@ -1,0 +1,112 @@
+{
+    "banco": "pay_promocoes",
+    "meta": false,
+    "prefixo": "promocao",
+    "url": false,
+    "colunas": [
+        {
+            "nome": "nome",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "LvnemrzSyqAK132OAmmeTVnzks414g",
+            "size": 200
+        },
+        {
+            "nome": "descricao",
+            "nulo": false,
+            "tipo": "text",
+            "unico": false,
+            "input": "KTDQfVYBFky1lxmocN3jqDu57EIFEe"
+        },
+        {
+            "nome": "expiracao",
+            "nulo": false,
+            "tipo": "data",
+            "input": "1Ect1jbvOIBtIzw0Rn7EOCPnTfxGaM",
+            "formato": "datetime"
+        },
+        {
+            "nome": "usuarios",
+            "nulo": false,
+            "tipo": "text",
+            "unico": false,
+            "input": "e4wmBIvbewCHrD5MOh49LhHzSxoCMP"
+        },
+        {
+            "nome": "produtos",
+            "nulo": false,
+            "tipo": "text",
+            "unico": false,
+            "input": "AlSThda42lA48U0ONxTrQBCLSUWy1f"
+        },
+        {
+            "nome": "tipos",
+            "nulo": false,
+            "tipo": "text",
+            "unico": false,
+            "input": "sT6s6gqyOyqC7jc52hQc5iNARSEaEg"
+        },
+        {
+            "nome": "categorias",
+            "nulo": false,
+            "tipo": "text",
+            "unico": false,
+            "input": "n5D2AqU4q9VlEEQjbi5uerYcF8Dzvf"
+        },
+        {
+            "nome": "funcoes",
+            "nulo": false,
+            "tipo": "text",
+            "unico": false,
+            "input": "YiQOmRpkFSP5vOjS9whR6ib12PiAR6"
+        },
+        {
+            "nome": "ativa",
+            "nulo": false,
+            "tipo": "boolean",
+            "unico": false,
+            "input": "1Lbu5rwOqtFqZo3EXNHvPCnNqhzjBg"
+        },
+        {
+            "nome": "inicio",
+            "nulo": false,
+            "tipo": "data",
+            "input": "gerhcfO0uIHYlaYZdcWanp1aLFNntY",
+            "formato": "datetime"
+        }
+    ],
+    "estrutura": {
+        "meta": false,
+        "hash": true,
+        "autor": true,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "ordenador": false,
+        "url": false,
+        "urledit": false,
+        "imagemDestaque": true,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false,
+        "autoria": false,
+        "wildcard": false,
+        "atributos": false,
+        "destaque": false,
+        "desabilitarNovo": false,
+        "desabilitarEdicao": false,
+        "reordenador": false,
+        "pontos": false
+    },
+    "metas": {
+        "NtdQjAM4yQGHqIGapEPojNH0tyi7XW": "tipo",
+        "kp49v3lTqWDoZV6LGLQSQHaUlZjITW": "porcentagem",
+        "isHIo6BB9I5g5jWvRYrRbeVqHJIFw1": "valor",
+        "BAn5UdPGuO1tR2dF0vJCbNPdy06X0X": "frete",
+        "FVDAzFi0dgtt2FpwAZQ9b5NSclWwGc": "minimo",
+        "AwQakfLM2QH3ScWWSfQ2ja5BzzQ0Q0": "maximo",
+        "UlSztyRAECuh0HW32dzaC8VNVTfQtb": "publica"
+    }
+}

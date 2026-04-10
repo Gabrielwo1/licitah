@@ -1,0 +1,16 @@
+{
+    "nome": "Pedidos",
+    "tipo": "2",
+    "id": "Q9Cl0KAOAOXh3jt",
+    "btns": [
+        {
+            "texto": "Criar Pedido",
+            "tipo": "1",
+            "callback": "a\/pagamento\/pedido",
+            "id": "",
+            "icone": "bi bi-cart-plus"
+        }
+    ],
+    "titulo": "Pedidos",
+    "breadcrumbs": true
+}

@@ -1,0 +1,45 @@
+{
+    "nome": "Pedidos Temporal (Em dinheiro)",
+    "tipoGrafico": "tempo",
+    "graficoPrimario": "barras temporais",
+    "bancoDeDados": "Cyrv1bcxbsbHpSh",
+    "colunaData": "data",
+    "filtro": "1",
+    "grafico": {
+        "periodo": "dia",
+        "sub": "soma",
+        "agrupamento": "1",
+        "categoria": "",
+        "conta": "total",
+        "espacos": {
+            "minuto": false,
+            "hora": false,
+            "dia": false,
+            "semana": false,
+            "mes": false
+        }
+    },
+    "layout": {
+        "primario": "barras temporais",
+        "periodoinicial": "Último Mês",
+        "titulo": "Faturamento Diário",
+        "alteralayout": true,
+        "selecionarperiodo": true,
+        "drop": true,
+        "horas": true
+    },
+    "extra": {
+        "layout": "1",
+        "bg": "#000000",
+        "color": "#000000",
+        "prefixo": "",
+        "sufixo": "",
+        "listaCores": ""
+    },
+    "condicional": {
+        "ativo": "0",
+        "coluna": "",
+        "tipo": "=",
+        "valor": ""
+    }
+}

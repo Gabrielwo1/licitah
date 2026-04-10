@@ -1,0 +1,14 @@
+{
+    "nome": "Endere\u00e7os",
+    "tipo": "2",
+    "id": "LXIJrwKLsHQBQdZ",
+    "btns": [
+        {
+            "texto": "Adicionar Novo",
+            "tipo": "1",
+            "callback": "a\/usuarios\/endereco"
+        }
+    ],
+    "titulo": "Endere\u00e7os",
+    "breadcrumbs": true
+}

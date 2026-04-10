@@ -1,0 +1,91 @@
+/*Estrutura Básica */
+
+#topo{
+     background-color: #0F1014;
+}
+
+body{
+    &.light{
+        --background: var(--nown-n-surface, #f6f8fc);
+    }
+    
+    &.dark{
+        --background: var(--nown-n-surface, #121212);
+    }
+}
+
+body{
+    background-color: var(--background);
+}
+
+#topo{
+    background-color: var(--background);
+}
+
+#conteudo{
+    background-color: var(--background);
+}
+
+
+/* Menu Hamburguer */
+.openMenu {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+
+  &.ativo {
+    .barra {
+      &:nth-child(1) {
+        transform: rotate(45deg) translate(7px, 7px);
+      }
+
+      &:nth-child(2) {
+        opacity: 0;
+      }
+
+      &:nth-child(3) {
+        transform: rotate(-45deg) translate(7px, -7px);
+      }
+    }
+  }
+
+  .barra {
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    transition: all 0.3s ease;
+    left: 0px;
+
+    &:nth-child(1) {
+      top: 5px;
+    }
+
+    &:nth-child(2) {
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    &:nth-child(3) {
+      bottom: 5px;
+    }
+  }
+}
+
+body.light{
+    .openMenu{
+        .barra{
+            background-color: black;
+        }
+    }
+}
+
+body.dark{
+    .openMenu{
+        .barra{
+            background-color: white;
+        }
+    }
+}
+/* Fim Menu Hamburguer */

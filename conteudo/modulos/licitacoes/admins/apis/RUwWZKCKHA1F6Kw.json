@@ -1,0 +1,36 @@
+{
+    "nome": "Minha oportunidade",
+    "banco": "0kfznjnJgdWcGdLDBNf71i4maBC2MuRr",
+    "tipo": 2,
+    "subtipo": 5,
+    "itens": [
+        {
+            "nome": "regioes",
+            "banco": "p",
+            "chave": "regioes",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "tagmento",
+            "banco": "p",
+            "chave": "tagmento",
+            "estrangeiro": 0
+        }
+    ],
+    "number": {
+        "comentarios": false,
+        "reacoes": false,
+        "favoritos": false,
+        "visualizacoes": false
+    },
+    "extra": {
+        "ativo": true,
+        "coluna": "empresa",
+        "tipo": "="
+    },
+    "clone": {
+        "ativo": false,
+        "api": ""
+    },
+    "geolocalizacao": false
+}

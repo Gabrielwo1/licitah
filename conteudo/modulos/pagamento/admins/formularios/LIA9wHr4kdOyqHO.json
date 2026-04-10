@@ -1,0 +1,283 @@
+{
+    "id": "48",
+    "nome": "Carrinhos",
+    "hash": "LIA9wHr4kdOyqHO",
+    "data": "2023-12-22 14:12:30",
+    "tamanho": 11,
+    "inputs": [
+        {
+            "id": "1176",
+            "tipo": "select",
+            "nome": "Usuário",
+            "obrigatorio": "0",
+            "data": "2023-12-22 14:13:03",
+            "pai": "0",
+            "posicao": "0",
+            "hash": "L4jCGhf8Tk3sB60MTWH7IRlaO5rPkF",
+            "infos": {
+                "basico": {
+                    "label": "Usuário ",
+                    "descricao": " ",
+                    "obrigatorio": 0,
+                    "select-2": 0
+                },
+                "opcoes": {
+                    "multiplo": 0,
+                    "opcoes": " "
+                },
+                "dinamica": {
+                    "opcoes-dinamicas": 1,
+                    "configuracoes": {
+                        "modulo": "usuarios",
+                        "formulario": "aY4O9kcLpNMpbiD.json",
+                        "regra": "1"
+                    }
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": " ",
+                    "sub-label": " ",
+                    "tooltip": " "
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": " "
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "1177",
+            "tipo": "coluna",
+            "nome": null,
+            "obrigatorio": "0",
+            "data": "2023-12-22 14:14:01",
+            "pai": "0",
+            "posicao": "1",
+            "hash": "9X6A1SrXcvUs9LLOexEbZdjRL3TCgW",
+            "infos": [],
+            "filhos": [
+                {
+                    "id": "1178",
+                    "tipo": "col",
+                    "nome": null,
+                    "obrigatorio": "0",
+                    "data": "2023-12-22 14:14:01",
+                    "pai": "1177",
+                    "posicao": "0",
+                    "hash": "EBu0MMJBU3HNoiKgt3hRBSJrGhOslO",
+                    "infos": {
+                        "layout": {
+                            "tamanho": 9
+                        },
+                        "logica": {
+                            "logica": 0,
+                            "setup": ""
+                        }
+                    },
+                    "filhos": [
+                        {
+                            "id": "1181",
+                            "tipo": "repetidor",
+                            "nome": null,
+                            "obrigatorio": "0",
+                            "data": "2023-12-22 14:16:30",
+                            "pai": "1178",
+                            "posicao": "0",
+                            "hash": "MAJXVmons3jE9AE7Fn7qUDo9g2cKv9",
+                            "infos": [],
+                            "filhos": [
+                                {
+                                    "id": "1184",
+                                    "tipo": "coluna",
+                                    "nome": null,
+                                    "obrigatorio": "0",
+                                    "data": "2023-12-22 14:17:31",
+                                    "pai": "1181",
+                                    "posicao": "0",
+                                    "hash": "VDsLRiPtJl9U5DsvckMAvIlgjagQsh",
+                                    "infos": [],
+                                    "filhos": [
+                                        {
+                                            "id": "1185",
+                                            "tipo": "col",
+                                            "nome": null,
+                                            "obrigatorio": "0",
+                                            "data": "2023-12-22 14:17:22",
+                                            "pai": "1184",
+                                            "posicao": "0",
+                                            "hash": "4cPeSLd8SARyqhCxzD1YjL7QrtYbUw",
+                                            "infos": [],
+                                            "filhos": [
+                                                {
+                                                    "id": "1182",
+                                                    "tipo": "select",
+                                                    "nome": "Item",
+                                                    "obrigatorio": "0",
+                                                    "data": "2023-12-22 14:18:20",
+                                                    "pai": "1185",
+                                                    "posicao": "1",
+                                                    "hash": "6OO0NHm0qPWcWXyVp9E1lrcxFNKmL3",
+                                                    "infos": {
+                                                        "basico": {
+                                                            "label": "Item ",
+                                                            "descricao": " ",
+                                                            "obrigatorio": 0,
+                                                            "select-2": 0,
+                                                            "esconder-label": 0,
+                                                            "somente-leitura": 0
+                                                        },
+                                                        "opcoes": {
+                                                            "multiplo": 0,
+                                                            "opcoes": " "
+                                                        },
+                                                        "dinamica": {
+                                                            "opcoes-dinamicas": 1,
+                                                            "configuracoes": {
+                                                                "modulo": "pagamento",
+                                                                "formulario": "BCukxPKU6yGuJzP.json",
+                                                                "regra": "1"
+                                                            },
+                                                            "arquivo-query": " ",
+                                                            "acao-query": " "
+                                                        },
+                                                        "estilo": {
+                                                            "estilo": 0,
+                                                            "tamanho-do-input": 0
+                                                        },
+                                                        "label": {
+                                                            "placeholder": " ",
+                                                            "sub-label": " ",
+                                                            "tooltip": " "
+                                                        },
+                                                        "logica": {
+                                                            "logica": 0,
+                                                            "setup": " "
+                                                        },
+                                                        "identificador": {
+                                                            "id": " ",
+                                                            "classes": " "
+                                                        }
+                                                    },
+                                                    "filhos": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "1186",
+                                            "tipo": "col",
+                                            "nome": null,
+                                            "obrigatorio": "0",
+                                            "data": "2023-12-22 14:17:22",
+                                            "pai": "1184",
+                                            "posicao": "1",
+                                            "hash": "s9hYSNAivFKl2fR2S0V4VQEB9hHYBl",
+                                            "infos": [],
+                                            "filhos": [
+                                                {
+                                                    "id": "1187",
+                                                    "tipo": "text",
+                                                    "nome": "Quantidade",
+                                                    "obrigatorio": "0",
+                                                    "data": "2023-12-22 14:18:23",
+                                                    "pai": "1186",
+                                                    "posicao": "1",
+                                                    "hash": "wPTiR34UOVr8rIrrU6uOhkgAecKwMK",
+                                                    "infos": {
+                                                        "basico": {
+                                                            "esconder-label": 0,
+                                                            "label": "Quantidade",
+                                                            "descricao": "",
+                                                            "obrigatorio": 0
+                                                        },
+                                                        "estilo": {
+                                                            "estilo": 0,
+                                                            "tamanho-do-input": 0
+                                                        },
+                                                        "label": {
+                                                            "placeholder": "",
+                                                            "sub-label": "",
+                                                            "tooltip": ""
+                                                        },
+                                                        "validacao": {
+                                                            "mascara": 0
+                                                        },
+                                                        "logica": {
+                                                            "logica": 0,
+                                                            "setup": ""
+                                                        }
+                                                    },
+                                                    "filhos": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "1179",
+                    "tipo": "col",
+                    "nome": null,
+                    "obrigatorio": "0",
+                    "data": "2023-12-22 14:14:01",
+                    "pai": "1177",
+                    "posicao": "1",
+                    "hash": "e4Zvy9ngLFohmE5Ta6VZ3ihVMvvRDf",
+                    "infos": {
+                        "layout": {
+                            "tamanho": 3
+                        },
+                        "logica": {
+                            "logica": 0,
+                            "setup": " "
+                        }
+                    },
+                    "filhos": [
+                        {
+                            "id": "1180",
+                            "tipo": "cardSalvar",
+                            "nome": null,
+                            "obrigatorio": "0",
+                            "data": "2023-12-22 14:16:46",
+                            "pai": "1179",
+                            "posicao": "0",
+                            "hash": "x2CR1FLDbeKB996A8B8coBsHm7AAxo",
+                            "infos": [],
+                            "filhos": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "infos": {
+        "basico": {
+            "esconder-label": 0,
+            "label": "Peso",
+            "descricao": "",
+            "obrigatorio": 0
+        },
+        "estilo": {
+            "estilo": 0,
+            "tamanho-do-input": 0
+        },
+        "label": {
+            "placeholder": "",
+            "sub-label": "",
+            "tooltip": ""
+        },
+        "validacao": {
+            "mascara": 0
+        },
+        "logica": {
+            "logica": 0,
+            "setup": ""
+        }
+    }
+}

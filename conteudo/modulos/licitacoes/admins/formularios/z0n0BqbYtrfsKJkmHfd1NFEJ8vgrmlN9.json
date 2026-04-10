@@ -1,0 +1,218 @@
+{
+    "id": "226",
+    "nome": "Licitações - Anexo",
+    "hash": "z0n0BqbYtrfsKJkmHfd1NFEJ8vgrmlN9",
+    "data": "2024-09-16 10:20:23",
+    "tamanho": 7,
+    "inputs": [
+        {
+            "id": "6137",
+            "tipo": "coluna",
+            "nome": null,
+            "obrigatorio": "0",
+            "data": "2024-09-16 10:23:19",
+            "pai": "0",
+            "posicao": "0",
+            "hash": "cidQE7OP7ivYVQ3W09ctG1pfV8Z2S1",
+            "infos": [],
+            "filhos": [
+                {
+                    "id": "6138",
+                    "tipo": "col",
+                    "nome": null,
+                    "obrigatorio": "0",
+                    "data": "2024-09-16 10:22:52",
+                    "pai": "6137",
+                    "posicao": "0",
+                    "hash": "ge1aD03uxienYAVIGUQKdjoOKXQwcS",
+                    "infos": {
+                        "layout": {
+                            "tamanho": 9
+                        },
+                        "flex": {
+                            "ativar": 0,
+                            "direcao": 1,
+                            "justify": 0,
+                            "align": 0,
+                            "gap": 0
+                        },
+                        "logica": {
+                            "logica": 0,
+                            "setup": ""
+                        },
+                        "identificador": {
+                            "id": "",
+                            "classes": ""
+                        }
+                    },
+                    "filhos": [
+                        {
+                            "id": "6135",
+                            "tipo": "card",
+                            "nome": null,
+                            "obrigatorio": "0",
+                            "data": "2024-09-16 10:23:19",
+                            "pai": "6138",
+                            "posicao": "0",
+                            "hash": "YXNzopgPKMbfqDkjSIi0yfP5hJk7Lt",
+                            "infos": [],
+                            "filhos": [
+                                {
+                                    "id": "6134",
+                                    "tipo": "text",
+                                    "nome": "Nome Anexo",
+                                    "obrigatorio": "0",
+                                    "data": "2024-09-16 10:21:54",
+                                    "pai": "6135",
+                                    "posicao": "0",
+                                    "hash": "eUI64JruPt6ziDcLj3IfYqsXYa8v0F",
+                                    "infos": {
+                                        "basico": {
+                                            "esconder-label": 0,
+                                            "label": "Nome Anexo",
+                                            "descricao": "",
+                                            "obrigatorio": 0,
+                                            "somente-leitura": 0
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho-do-input": 0
+                                        },
+                                        "label": {
+                                            "placeholder": "Nome Anexo",
+                                            "sub-label": "",
+                                            "tooltip": "",
+                                            "prefixo": "",
+                                            "sufixo": ""
+                                        },
+                                        "valor": {
+                                            "tipo": 0,
+                                            "fixo": "",
+                                            "dinamico": 0,
+                                            "arquivo-query": "",
+                                            "acao-query": ""
+                                        },
+                                        "tamanho": {
+                                            "ativar": 0,
+                                            "maximo": "",
+                                            "minimo": ""
+                                        },
+                                        "validacao": {
+                                            "mascara": 0
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": ""
+                                        },
+                                        "identificador": {
+                                            "id": "",
+                                            "classes": ""
+                                        }
+                                    },
+                                    "filhos": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "6139",
+                    "tipo": "col",
+                    "nome": null,
+                    "obrigatorio": "0",
+                    "data": "2024-09-16 10:22:52",
+                    "pai": "6137",
+                    "posicao": "1",
+                    "hash": "a86pfyPPYzbOQ5BriQM9kZivIqTjXK",
+                    "infos": {
+                        "layout": {
+                            "tamanho": 3
+                        },
+                        "flex": {
+                            "ativar": 0,
+                            "direcao": 1,
+                            "justify": 0,
+                            "align": 0,
+                            "gap": 0
+                        },
+                        "logica": {
+                            "logica": 0,
+                            "setup": ""
+                        },
+                        "identificador": {
+                            "id": "",
+                            "classes": ""
+                        }
+                    },
+                    "filhos": [
+                        {
+                            "id": "6136",
+                            "tipo": "file",
+                            "nome": "Documento",
+                            "obrigatorio": "0",
+                            "data": "2024-09-16 10:23:47",
+                            "pai": "6139",
+                            "posicao": "0",
+                            "hash": "zLffASN5VAsGCirEFA435Rsdxcu90y",
+                            "infos": {
+                                "basico": {
+                                    "label": "Documento ",
+                                    "texto-upload": " ",
+                                    "multiplo": 0,
+                                    "layout": 0
+                                },
+                                "cropper": {
+                                    "recortar": 0,
+                                    "largura": " ",
+                                    "altura": " "
+                                },
+                                "card": {
+                                    "desabilitar-card": 0,
+                                    "recolhivel": 0,
+                                    "card-titulo": "Documento ",
+                                    "descricao": " ",
+                                    "desabilitar-sombras": 0,
+                                    "layout": 0
+                                },
+                                "arquivo": {
+                                    "tipo-de-arquivo": 0,
+                                    "personalizado": " "
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": " "
+                                },
+                                "identificador": {
+                                    "id": " ",
+                                    "classes": " "
+                                }
+                            },
+                            "filhos": []
+                        },
+                        {
+                            "id": "6140",
+                            "tipo": "cardSalvar",
+                            "nome": null,
+                            "obrigatorio": "0",
+                            "data": "2024-09-16 10:23:47",
+                            "pai": "6139",
+                            "posicao": "1",
+                            "hash": "9jXUecAW2K6ZnCkrIRzGIRNvOhCcPm",
+                            "infos": [],
+                            "filhos": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "infos": {
+        "layout": {
+            "tamanho": 6
+        },
+        "logica": {
+            "logica": 0,
+            "setup": " "
+        }
+    }
+}

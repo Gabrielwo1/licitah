@@ -1,0 +1,132 @@
+{
+    "banco": "vendaveis",
+    "meta": true,
+    "prefixo": "vendavel",
+    "url": false,
+    "colunas": [
+        {
+            "nome": "banco",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "Bc5K6TS6FIoGrcRpkvQ4lkTlB86vh9",
+            "size": 30
+        },
+        {
+            "nome": "referencia",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "5QZFF1u8HreZV4LfD34YQV5KliVttV"
+        },
+        {
+            "nome": "preco",
+            "nulo": false,
+            "tipo": "float",
+            "input": "2DEytrMckRqBIM6PFK7xTa9APvgWTO",
+            "sizes": {
+                "inteiro": 10,
+                "decimal": 2
+            }
+        },
+        {
+            "nome": "tipo",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "k4vNr8FK2VpratFr1k25KSBZZ0LvSN"
+        },
+        {
+            "nome": "recorrente",
+            "nulo": false,
+            "tipo": "boolean",
+            "unico": false,
+            "input": "G8rEFS0yuEbgiGSrIaltaXXMvw84m3"
+        },
+        {
+            "nome": "limitador",
+            "nulo": false,
+            "tipo": "boolean",
+            "unico": false,
+            "input": "IUUsmK92OeI3i4wa2CchEolj5Lq63J"
+        },
+        {
+            "nome": "zera",
+            "nulo": false,
+            "tipo": "boolean",
+            "unico": false,
+            "input": "20Ytjz5ZLuODGQxwI3OEBSZr7FHphM"
+        },
+        {
+            "nome": "controleestoque",
+            "nulo": false,
+            "tipo": "boolean",
+            "unico": false,
+            "input": "gq1pCwdpa3ndLJ0QS1Fy8G4p7LzpUm"
+        },
+        {
+            "nome": "pontos",
+            "nulo": false,
+            "tipo": "boolean",
+            "unico": false,
+            "input": "Oiz8xXlqtACjQts0GpIUHvQawb2CyF"
+        },
+        {
+            "nome": "referenciabd",
+            "nulo": true,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "6ihE1S44ccFTRMYmgWEtQ3UWk4CwL0",
+            "size": 50
+        },
+        {
+            "nome": "loja",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "VQHkGgka9jhj4HyUYLkBbpEaZN1MME"
+        }
+    ],
+    "estrutura": {
+        "meta": true,
+        "hash": true,
+        "autor": true,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "ordenador": false,
+        "url": false,
+        "urledit": false,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false,
+        "autoria": false,
+        "wildcard": false,
+        "atributos": false,
+        "destaque": false,
+        "enderecos": false,
+        "subconta": false,
+        "desabilitarNovo": false,
+        "desabilitarEdicao": false,
+        "reordenador": false,
+        "pontos": false
+    },
+    "metas": {
+        "FyA1SIdjhG525oOAlLOn2XAuDPL2ER": "sku",
+        "zUI28RLDo1JFlgkheodOds630yHrhV": "estoque",
+        "UsA5kCAXHRJgD8YgWngF5jPSNadUhZ": "largura",
+        "y5dTmpUaXx2ljXU5WYtn5bzBiABnJ1": "altura",
+        "Vou3NQoQwsxbSgWDYAzg2FbPhqLBDB": "comprimento",
+        "uVhhao6JNwWrABPHK3C7Mll9ajCOxo": "peso",
+        "MTOj89aF8n3ZiEnuRnrgrqavs9mKp0": "por",
+        "y69iMoB8I4CiKWtKDPgiTaE2GrBSNc": "ciclo",
+        "Biz5kHLwEl99DZlzOinCTNmnTYCUWx": "cobrar",
+        "KYz13J7TgVhWMFb6n5NRcT6HXEIw1g": "primeira_cobranca",
+        "ZbwCYaVPeP76aonyoI9GLzGBWFtP9y": "expira_cobranca",
+        "0gbdpgemNvkjB5XBpOXQt9UlXWJeW6": "pontos",
+        "xRxGQ2DqgJVFkgQaHNw7w3huGZtmxe": "pontosExpiracao",
+        "QydGP6oLz6x9HgQ9tJfLVMPaPJIPvn": "pontosTipo"
+    }
+}

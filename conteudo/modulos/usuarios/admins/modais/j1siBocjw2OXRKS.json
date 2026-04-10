@@ -1,0 +1,20 @@
+{
+    "nome": "Nova Função",
+    "tipo": "1",
+    "acao": "Gl0ET7eECTejzdoC3D6NxonM3cbfaE0j",
+    "callback": "",
+    "tamanho": "md",
+    "modal": {
+        "titulo": "Nova Função",
+        "icone": ""
+    },
+    "redirecionar": "1",
+    "redirecionarTipo": "1",
+    "redirCb": "a\/usuarios\/funcao",
+    "fecharTopo": true,
+    "fecharFooter": true,
+    "logotipo": false,
+    "centralizar": true,
+    "clickout": true,
+    "container": true
+}

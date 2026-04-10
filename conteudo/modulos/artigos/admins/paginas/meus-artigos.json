@@ -1,0 +1,14 @@
+{
+    "nome": "meus-artigos",
+    "tipo": "2",
+    "id": "vzfzcRtgUsuo4Qu",
+    "btns": [
+        {
+            "texto": "Adicionar Artigo",
+            "tipo": "1",
+            "callback": "a\/artigos\/artigo"
+        }
+    ],
+    "titulo": "Meus artigos",
+    "breadcrumbs": false
+}

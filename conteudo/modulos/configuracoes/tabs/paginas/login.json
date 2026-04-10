@@ -1,0 +1,82 @@
+{   
+  "box": {
+    "label": "Box Auxiliar",
+    "tipo": "check",
+    "descricao": "Adicione uma caixa estilizavel na página de login"
+  },
+  "mensagemboas":{
+    "label": "Mensagem de boas vindas",
+    "tipo": "input"
+  },
+  "posicaobox": {
+    "tipo": "select",
+    "descricao": "Em qual lado o box auxiliar vai se posicionar",
+    "label": "Posição do Box",
+    "opcoes": [
+      {"chave": "Direita", "valor": "direita"},
+      {"chave": "Esquerda", "valor": "esquerda"}
+    ],
+    "condicional": "box"
+  },
+  "auxiliar": {
+    "tipo": "select",
+    "label": "Conteudo Auxiliar",
+    "descricao": "Defina o que irá compor o box auxiliar ao login",
+    "opcoes": [
+      {"chave": "Nada", "valor": 0},
+      {"chave": "QR Code", "valor": 1},
+      {"chave": "Imagem", "valor": 2}
+    ],
+    "condicional": "box"
+  },
+  "imgaux": {
+    "tipo": "file",
+    "label": "Imagem Auxiliar",
+    "descricao": "Caso tenha definido que o conteúdo auxiliar seja uma imagem, essa será imagem carregada.",
+    "condicional": "auxiliar",
+    "valorcondicao": 2
+  },
+  "imgauxfull": {
+    "tipo": "check",
+    "label": "Imagem Full",
+    "descricao": "Com essa opção ativa a imagem irá ocupar 100% do box.",
+    "condicional": "auxiliar",
+    "valorcondicao": 2
+  },
+  "tituloauxiliar": {
+    "tipo": "input",
+    "label": "Título Auxiliar",
+    "descricao": "Título que irá compor o box auxiliar",
+    "condicional": "box"
+  },
+  "textoauxiliar": {
+    "tipo": "TEXTAREA",
+    "label": "Texto Auxiliar",
+    "descricao": "Texto que acompanha o box auxiliar",
+    "condicional": "box"
+  },
+  "Usuário poderá logar com:": {
+    "tipo": "titulo",
+    "subtitulo": "Nativamente o usuário poderá logar com e-mail. Escolha os outros métodos de login."
+  },
+  "telefone": {
+    "tipo": "check",
+    "descricao": "Usuário logará usando Telefone",
+    "label": "Número de telefone"
+  },
+  "cpf": {
+    "tipo": "check",
+    "descricao": "Usuário logará usando CPF",
+    "label": "CPF"
+  },
+  "usuario": {
+    "tipo": "check",
+    "descricao": "Usuário logará usando nome de Usuário",
+    "label": "Usuário"
+  },
+  "cnpj":{
+     "tipo": "check",
+     "descricao": "Usuário poderá logar usando o CNPJ da empresa",
+     "label": "CNPJ" 
+  }
+}

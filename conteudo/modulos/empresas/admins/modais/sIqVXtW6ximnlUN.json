@@ -1,0 +1,20 @@
+{
+    "nome": "Novo Código",
+    "tipo": "1",
+    "acao": "u8ce5fz0YrXgNun0E4yhHcyFuojjJ1Ke",
+    "callback": "",
+    "tamanho": "md",
+    "modal": {
+        "titulo": "Novo Código",
+        "icone": ""
+    },
+    "redirecionar": "0",
+    "redirecionarTipo": "1",
+    "redirCb": "voltaClasseEmpresas",
+    "fecharTopo": true,
+    "fecharFooter": true,
+    "logotipo": true,
+    "centralizar": true,
+    "clickout": false,
+    "container": false
+}

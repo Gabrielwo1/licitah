@@ -1,0 +1,84 @@
+{
+    "nome": "IPs",
+    "banco": "Sqv2C661j9gjips",
+    "colunas": [
+        {
+            "nome": "Ip",
+            "id": "ip",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "estrangeira": 0
+        },
+        {
+            "nome": "Cidade",
+            "id": "cidade",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "estrangeira": 0
+        },
+        {
+            "nome": "Região",
+            "id": "regiao",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "estrangeira": 0
+        },
+        {
+            "nome": "País",
+            "id": "pais",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "estrangeira": 0
+        },
+        {
+            "nome": "Data de Criação",
+            "id": "data",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "estrangeira": 0
+        },
+        {
+            "nome": "Host",
+            "id": "hostname",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "estrangeira": 0
+        }
+    ],
+    "regra": "1",
+    "acoes": {
+        "opcoes": {
+            "acoes": false,
+            "editar": false,
+            "apagar": false,
+            "vizualizar": false,
+            "importador": false,
+            "exportador": false,
+            "filtro": false,
+            "colunas": false,
+            "multiplo": false,
+            "ordenador": false
+        },
+        "rotas": {
+            "editar": "",
+            "vizualizar": ""
+        }
+    },
+    "layout": {
+        "modo": "1",
+        "container": "0"
+    },
+    "acoesPersonalizadas": []
+}

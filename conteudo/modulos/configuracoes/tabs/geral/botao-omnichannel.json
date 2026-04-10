@@ -1,0 +1,48 @@
+{
+    "ativo":{
+        "tipo": "check",
+        "label": "Ativar botão Omnichannel",
+        "descricao": "Permita aos usuários enviarem mensagens para o administrador."
+    },
+     "desativalogado":{
+        "tipo": "check",
+        "label": "Desativar para Usuários Logados",
+        "descricao": "Usuários logados não poderão ver o botão",
+         "condicional": "ativo"
+    },
+    "desativadeslogado":{
+        "tipo": "check",
+        "label": "Desativar para Usuários Deslogados",
+        "descricao": "Usuários deslogados não poderão ver o botão",
+         "condicional": "ativo"
+    },
+    "texto":{
+        "tipo": "input",
+        "label": "Texto do Botão",
+         "condicional": "ativo"
+    },
+    "icone":{
+        "tipo": "input",
+        "label": "Icone do Botão",
+         "condicional": "ativo"
+    },
+    "cor": {
+    "tipo": "select",
+    "label": "Defina o estilo do botão personalizado",
+    "descricao": "Defina o link.",
+    "opcoes": [
+      {"chave": "Primaria", "valor": "btn-n-primaria"},
+      {"chave": "Secundaria", "valor": "btn-n-secundaria"},
+      {"chave": "Terciaria", "valor": "btn-n-terciaria"},
+      {"chave": "Quaternaria", "valor": "btn-n-quaternaria"},
+      {"chave": "Primary", "valor": "btn-primary"},
+      {"chave": "Secondary", "valor": "btn-secondary"},
+      {"chave": "Success", "valor": "btn-success"},
+      {"chave": "Danger", "valor": "btn-danger"},
+      {"chave": "Info", "valor": "btn-info"},
+      {"chave": "Warning", "valor": "btn-warning"},
+      {"chave": "Sem Esilo", "valor": "none"}
+    ],
+    "condicional": "ativo"
+  }
+}

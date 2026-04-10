@@ -1,0 +1,84 @@
+{
+    "bitcoin": {
+         "tipo": "check",
+         "label": "Aceitar Bitcoin",
+         "descricao": "Receber pagamentos usando Bitcoin"
+    },
+    "bitcoinchave": {
+         "tipo": "input",
+         "label": "Carteira Bitcoin",
+         "descricao": "Digite sua carteira Bitcoin que receberá os pagamentos",
+         "condicional": "bitcoin"
+    },
+    "lightningnetwork": {
+         "tipo": "check",
+         "label": "Aceitar Lightning Network",
+         "descricao": "Receber pagamentos usando Bitcoin de segunda camada"
+    },
+    "solana": {
+         "tipo": "check",
+         "label": "Aceitar Solana",
+         "descricao": "Receber pagamentos usando Solana"
+    },
+    "solanachave": {
+         "tipo": "input",
+         "label": "Carteira Solana",
+         "descricao": "Digite sua carteira Solana que receberá os pagamentos",
+         "condicional": "solana"
+    },
+    "etherium": {
+         "tipo": "check",
+         "label": "Aceitar Etherium",
+         "descricao": "Receber pagamentos usando Etherium"
+    },
+    "etheriumchave": {
+         "tipo": "input",
+         "label": "Carteira Etherium",
+         "descricao": "Digite sua carteira Etherium que receberá os pagamentos",
+         "condicional": "etherium"
+    },
+    "usdt": {
+         "tipo": "check",
+         "label": "Aceitar USDT",
+         "descricao": "Receber pagamentos usando USDT"
+    },
+    "usdtchave": {
+         "tipo": "input",
+         "label": "Carteira USDT",
+         "descricao": "Digite sua carteira USDT que receberá os pagamentos",
+         "condicional": "usdt"
+    },
+    "usdc": {
+         "tipo": "check",
+         "label": "Aceitar USDC",
+         "descricao": "Receber pagamentos usando USDC"
+    },
+    "usdcchave": {
+         "tipo": "input",
+         "label": "Carteira USDC",
+         "descricao": "Digite sua carteira USDC que receberá os pagamentos",
+         "condicional": "usdc"
+    },
+    "doge": {
+         "tipo": "check",
+         "label": "Aceitar DOGE",
+         "descricao": "Receber pagamentos usando Dogecoin"
+    },
+    "dogechave": {
+         "tipo": "input",
+         "label": "Carteira DOGE",
+         "descricao": "Digite sua carteira DOGE que receberá os pagamentos",
+         "condicional": "doge"
+    },
+    "shiba": {
+         "tipo": "check",
+         "label": "Aceitar SHIBA",
+         "descricao": "Receber pagamentos usando Shiba Inu"
+    },
+    "shibachave": {
+         "tipo": "input",
+         "label": "Carteira SHIBA",
+         "descricao": "Digite sua carteira SHIBA que receberá os pagamentos",
+         "condicional": "shiba"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "nome": "Grupos",
+    "tipo": "2",
+    "id": "inUTmRFJ1OIDh4G",
+    "btns": [
+        {
+            "texto": "Adicionar Grupo",
+            "tipo": "1",
+            "callback": "a\/licitacoes\/grupo",
+            "id": "",
+            "icone": ""
+        }
+    ],
+    "titulo": "Todos os Grupos",
+    "breadcrumbs": false
+}

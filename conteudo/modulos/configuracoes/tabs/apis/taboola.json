@@ -1,0 +1,14 @@
+{
+
+    "ativo":{
+        "tipo": "check",
+        "label":"Ativar Taboola Pixel",
+        "descricao": "Adicione os Scritps do Taboola Pixel"
+    },
+    "id":{
+        "tipo": "input",
+        "label": "Taboola ID",
+        "descricao": "Digite o ID Taboola",
+        "condicional": "ativo"
+    }
+}

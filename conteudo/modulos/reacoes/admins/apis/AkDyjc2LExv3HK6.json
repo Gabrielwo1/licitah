@@ -1,0 +1,38 @@
+{
+    "nome": "Reações",
+    "banco": "L6MuZh9Zm1YQD7L1SvDYaTj9UtpuB4CZ",
+    "tipo": 2,
+    "subtipo": 1,
+    "itens": [
+        {
+            "nome": "id",
+            "banco": "p",
+            "chave": "id",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "texto",
+            "banco": "p",
+            "chave": "texto",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "cor",
+            "banco": "p",
+            "chave": "cor",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "iconesimples",
+            "banco": "p",
+            "chave": "iconesimples",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "lord",
+            "banco": "p",
+            "chave": "lord",
+            "estrangeiro": 0
+        }
+    ]
+}

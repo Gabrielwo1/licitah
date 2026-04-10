@@ -1,0 +1,16 @@
+{
+    "nome": "Endereços",
+    "tipo": "2",
+    "id": "6jNywa8qP8bpeib",
+    "btns": [
+        {
+            "texto": "Adicionar Novo",
+            "tipo": "5",
+            "callback": "0zF2dvdEctsSxfk",
+            "id": "",
+            "icone": ""
+        }
+    ],
+    "titulo": "Endereços",
+    "breadcrumbs": true
+}

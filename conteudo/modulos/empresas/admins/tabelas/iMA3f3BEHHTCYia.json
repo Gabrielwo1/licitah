@@ -1,0 +1,41 @@
+{
+    "nome": "Funções",
+    "banco": "mzaA2HQA8CXUv49",
+    "colunas": [
+        {
+            "nome": "Foto",
+            "id": "imagem",
+            "tipo": "1",
+            "render": "1",
+            "invisivel": false,
+            "editavel": false
+        },
+        {
+            "nome": "Nome",
+            "id": "nome",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false
+        }
+    ],
+    "regra": "1",
+    "acoes": {
+        "opcoes": {
+            "acoes": true,
+            "editar": true,
+            "apagar": true,
+            "vizualizar": true,
+            "importador": false,
+            "exportador": false,
+            "filtro": false,
+            "colunas": false,
+            "multiplo": false
+        },
+        "rotas": {
+            "editar": "a\/empresas\/funcoes\/funcao",
+            "vizualizar": "empresas\/funcoes\/"
+        }
+    },
+    "acoesPersonalizadas": []
+}

@@ -1,0 +1,12 @@
+{   
+    "clientid":{
+         "tipo":"input",
+         "label": "Client ID Produção",
+         "descricao": "Seu Token de Produção Paypal"
+      },
+    "secret":{
+         "tipo":"input",
+         "label": "Secret Produção",
+         "descricao": "Seu Token Sandbox Paypal"
+      }
+}

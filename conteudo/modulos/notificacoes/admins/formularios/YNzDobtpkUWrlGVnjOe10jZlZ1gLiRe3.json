@@ -1,0 +1,1115 @@
+{
+    "id": "157",
+    "nome": "Notificação | Transacional",
+    "hash": "YNzDobtpkUWrlGVnjOe10jZlZ1gLiRe3",
+    "data": "2024-08-12 10:16:52",
+    "tamanho": 25,
+    "inputs": [
+        {
+            "id": "4609",
+            "tipo": "text",
+            "nome": "Título",
+            "obrigatorio": "0",
+            "data": "2025-01-24 09:30:39",
+            "pai": "0",
+            "posicao": "0",
+            "hash": "2TXSJHZifo4JmfC1r22RqKeM6DsTSY",
+            "infos": {
+                "basico": {
+                    "esconder-label": 1,
+                    "label": "Título ",
+                    "descricao": "Defina o título da notificação ",
+                    "obrigatorio": 0,
+                    "somente-leitura": 0
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": "Título ",
+                    "sub-label": " ",
+                    "tooltip": " ",
+                    "prefixo": " ",
+                    "sufixo": " "
+                },
+                "valor": {
+                    "tipo": 0,
+                    "fixo": " ",
+                    "dinamico": 0,
+                    "arquivo-query": " ",
+                    "acao-query": " "
+                },
+                "tamanho": {
+                    "ativar": 0,
+                    "maximo": " ",
+                    "minimo": " "
+                },
+                "validacao": {
+                    "mascara": 0
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": " "
+                },
+                "identificador": {
+                    "id": " ",
+                    "classes": " "
+                },
+                "nown": {
+                    "ativo": 0,
+                    "modulo": " ",
+                    "paginacao": " ",
+                    "chave": " ",
+                    "valor": " "
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "4612",
+            "tipo": "coluna",
+            "nome": null,
+            "obrigatorio": "0",
+            "data": "2025-01-24 09:30:39",
+            "pai": "0",
+            "posicao": "1",
+            "hash": "f7ArXVkTBOFKpbhzftK59aHypMY541",
+            "infos": [],
+            "filhos": [
+                {
+                    "id": "4613",
+                    "tipo": "col",
+                    "nome": null,
+                    "obrigatorio": "0",
+                    "data": "2024-08-12 10:18:09",
+                    "pai": "4612",
+                    "posicao": "0",
+                    "hash": "SMDfOYT58hq78ZFEqlJysVJeWxedXI",
+                    "infos": {
+                        "layout": {
+                            "tamanho": 9
+                        },
+                        "flex": {
+                            "ativar": 0,
+                            "direcao": 1,
+                            "justify": 0,
+                            "align": 0,
+                            "gap": 0
+                        },
+                        "logica": {
+                            "logica": 0,
+                            "setup": ""
+                        },
+                        "identificador": {
+                            "id": "",
+                            "classes": ""
+                        }
+                    },
+                    "filhos": [
+                        {
+                            "id": "4611",
+                            "tipo": "card",
+                            "nome": "Notificação",
+                            "obrigatorio": "0",
+                            "data": "2024-08-12 15:20:09",
+                            "pai": "4613",
+                            "posicao": "0",
+                            "hash": "QoNmZMd8NPeFfsEIX3J0dInE5a4VJd",
+                            "infos": {
+                                "basico": {
+                                    "label": "Notificação",
+                                    "recolhivel": 1
+                                },
+                                "flex": {
+                                    "ativar": 0,
+                                    "direcao": 1,
+                                    "justify": 0,
+                                    "align": 0,
+                                    "gap": 0
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": ""
+                                },
+                                "identificador": {
+                                    "id": "",
+                                    "classes": ""
+                                }
+                            },
+                            "filhos": [
+                                {
+                                    "id": "4649",
+                                    "tipo": "rich",
+                                    "nome": "Corpo da Notificação",
+                                    "obrigatorio": "0",
+                                    "data": "2024-08-12 15:32:32",
+                                    "pai": "4611",
+                                    "posicao": "1",
+                                    "hash": "h5n4bkznWFRfMrhQNc0hAKEJpbIdbR",
+                                    "infos": {
+                                        "basico": {
+                                            "esconder-label": 0,
+                                            "label": "Corpo da Notificação",
+                                            "descricao": "",
+                                            "obrigatorio": 0
+                                        },
+                                        "label": {
+                                            "placeholder": "",
+                                            "sub-label": "",
+                                            "tooltip": ""
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": ""
+                                        },
+                                        "identificador": {
+                                            "id": "",
+                                            "classes": ""
+                                        }
+                                    },
+                                    "filhos": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "8811",
+                            "tipo": "card",
+                            "nome": "Variaveis",
+                            "obrigatorio": "0",
+                            "data": "2025-01-24 09:32:11",
+                            "pai": "4613",
+                            "posicao": "1",
+                            "hash": "vjKqztZ2OPuO7qwQtNvGE3bkUMIrWT",
+                            "infos": {
+                                "basico": {
+                                    "label": "Variaveis ",
+                                    "recolhivel": 0
+                                },
+                                "flex": {
+                                    "ativar": 0,
+                                    "direcao": 1,
+                                    "justify": 0,
+                                    "align": 0,
+                                    "gap": 0
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": " "
+                                },
+                                "identificador": {
+                                    "id": "listavariaveis ",
+                                    "classes": " "
+                                },
+                                "nown": {
+                                    "ativo": 0,
+                                    "modulo": " ",
+                                    "paginacao": " ",
+                                    "chave": " ",
+                                    "valor": " "
+                                }
+                            },
+                            "filhos": []
+                        },
+                        {
+                            "id": "4639",
+                            "tipo": "card",
+                            "nome": "Canais",
+                            "obrigatorio": "0",
+                            "data": "2025-01-24 09:31:47",
+                            "pai": "4613",
+                            "posicao": "2",
+                            "hash": "4h1tEDN8CIYAb7mPLgO6MGvpJAioXw",
+                            "infos": {
+                                "basico": {
+                                    "label": "Canais",
+                                    "recolhivel": 1
+                                },
+                                "flex": {
+                                    "ativar": 0,
+                                    "direcao": 1,
+                                    "justify": 0,
+                                    "align": 0,
+                                    "gap": 0
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": ""
+                                },
+                                "identificador": {
+                                    "id": "",
+                                    "classes": ""
+                                }
+                            },
+                            "filhos": [
+                                {
+                                    "id": "4641",
+                                    "tipo": "switch",
+                                    "nome": "Push",
+                                    "obrigatorio": "0",
+                                    "data": "2024-08-12 15:21:15",
+                                    "pai": "4639",
+                                    "posicao": "0",
+                                    "hash": "4gUWa2XVrMehGPGH2FlYTcN2fHiwyv",
+                                    "infos": {
+                                        "basico": {
+                                            "label": "Push",
+                                            "descricao": "",
+                                            "obrigatorio": 0
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho": 0,
+                                            "justificar": 0,
+                                            "ordem": 0
+                                        },
+                                        "label": {
+                                            "sub-label": "",
+                                            "tooltip": ""
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": ""
+                                        },
+                                        "identificador": {
+                                            "id": "",
+                                            "classes": ""
+                                        }
+                                    },
+                                    "filhos": []
+                                },
+                                {
+                                    "id": "4640",
+                                    "tipo": "switch",
+                                    "nome": "No Aplicativo",
+                                    "obrigatorio": "0",
+                                    "data": "2024-08-12 15:21:15",
+                                    "pai": "4639",
+                                    "posicao": "1",
+                                    "hash": "FSwaTsc92KB80brMz7PmoV7xtCid4i",
+                                    "infos": {
+                                        "basico": {
+                                            "label": "No Aplicativo",
+                                            "descricao": "",
+                                            "obrigatorio": 0
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho": 0,
+                                            "justificar": 0,
+                                            "ordem": 0
+                                        },
+                                        "label": {
+                                            "sub-label": "",
+                                            "tooltip": ""
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": ""
+                                        },
+                                        "identificador": {
+                                            "id": "",
+                                            "classes": ""
+                                        }
+                                    },
+                                    "filhos": []
+                                },
+                                {
+                                    "id": "4642",
+                                    "tipo": "switch",
+                                    "nome": "WhatsApp",
+                                    "obrigatorio": "0",
+                                    "data": "2024-08-12 15:21:18",
+                                    "pai": "4639",
+                                    "posicao": "2",
+                                    "hash": "URqb5cuV6IdeCp3zZpdX6UHFRutffT",
+                                    "infos": {
+                                        "basico": {
+                                            "label": "WhatsApp",
+                                            "descricao": "",
+                                            "obrigatorio": 0
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho": 0,
+                                            "justificar": 0,
+                                            "ordem": 0
+                                        },
+                                        "label": {
+                                            "sub-label": "",
+                                            "tooltip": ""
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": ""
+                                        },
+                                        "identificador": {
+                                            "id": "",
+                                            "classes": ""
+                                        }
+                                    },
+                                    "filhos": []
+                                },
+                                {
+                                    "id": "4643",
+                                    "tipo": "switch",
+                                    "nome": "E-mail",
+                                    "obrigatorio": "0",
+                                    "data": "2024-08-12 15:21:20",
+                                    "pai": "4639",
+                                    "posicao": "3",
+                                    "hash": "SMNXpGWLphtq8KPBp73zrzDA64zhms",
+                                    "infos": {
+                                        "basico": {
+                                            "label": "E-mail",
+                                            "descricao": "",
+                                            "obrigatorio": 0
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho": 0,
+                                            "justificar": 0,
+                                            "ordem": 0
+                                        },
+                                        "label": {
+                                            "sub-label": "",
+                                            "tooltip": ""
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": ""
+                                        },
+                                        "identificador": {
+                                            "id": "",
+                                            "classes": ""
+                                        }
+                                    },
+                                    "filhos": []
+                                },
+                                {
+                                    "id": "4644",
+                                    "tipo": "switch",
+                                    "nome": "SMS",
+                                    "obrigatorio": "0",
+                                    "data": "2024-08-12 15:21:21",
+                                    "pai": "4639",
+                                    "posicao": "4",
+                                    "hash": "cjy360FV8iFhphrLsd3zQXDjlkH3EZ",
+                                    "infos": {
+                                        "basico": {
+                                            "label": "SMS",
+                                            "descricao": "",
+                                            "obrigatorio": 0
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho": 0,
+                                            "justificar": 0,
+                                            "ordem": 0
+                                        },
+                                        "label": {
+                                            "sub-label": "",
+                                            "tooltip": ""
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": ""
+                                        },
+                                        "identificador": {
+                                            "id": "",
+                                            "classes": ""
+                                        }
+                                    },
+                                    "filhos": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "4645",
+                            "tipo": "card",
+                            "nome": "Usuário",
+                            "obrigatorio": "0",
+                            "data": "2025-01-24 09:31:47",
+                            "pai": "4613",
+                            "posicao": "3",
+                            "hash": "huoxj9PK8ykVpRwxgvmtYiCxf0R6Sm",
+                            "infos": {
+                                "basico": {
+                                    "label": "Usuário",
+                                    "recolhivel": 0
+                                },
+                                "flex": {
+                                    "ativar": 0,
+                                    "direcao": 1,
+                                    "justify": 0,
+                                    "align": 0,
+                                    "gap": 0
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": ""
+                                },
+                                "identificador": {
+                                    "id": "",
+                                    "classes": ""
+                                }
+                            },
+                            "filhos": [
+                                {
+                                    "id": "4646",
+                                    "tipo": "switch",
+                                    "nome": "Controlável",
+                                    "obrigatorio": "0",
+                                    "data": "2024-08-12 15:30:21",
+                                    "pai": "4645",
+                                    "posicao": "0",
+                                    "hash": "gmdNRzOjuxCb8bjGYmllBqM1BZUMVk",
+                                    "infos": {
+                                        "basico": {
+                                            "label": "Controlável",
+                                            "descricao": "Com essa opção ativada, o usuário poderá controlar se receberá a notificação ou não.",
+                                            "obrigatorio": 0
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho": 0,
+                                            "justificar": 0,
+                                            "ordem": 0
+                                        },
+                                        "label": {
+                                            "sub-label": "",
+                                            "tooltip": ""
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": ""
+                                        },
+                                        "identificador": {
+                                            "id": "",
+                                            "classes": ""
+                                        }
+                                    },
+                                    "filhos": []
+                                },
+                                {
+                                    "id": "4647",
+                                    "tipo": "text",
+                                    "nome": "Descrição Curta",
+                                    "obrigatorio": "0",
+                                    "data": "2024-08-12 15:31:05",
+                                    "pai": "4645",
+                                    "posicao": "1",
+                                    "hash": "2pmvRZyzk5bFTQIuFTy24xZ7ss7PVn",
+                                    "infos": {
+                                        "basico": {
+                                            "esconder-label": 0,
+                                            "label": "Descrição Curta ",
+                                            "descricao": "Essa descrição será exibida no controle de notificação do perfil de usuário ",
+                                            "obrigatorio": 0,
+                                            "somente-leitura": 0
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho-do-input": 0
+                                        },
+                                        "label": {
+                                            "placeholder": " ",
+                                            "sub-label": " ",
+                                            "tooltip": " ",
+                                            "prefixo": " ",
+                                            "sufixo": " "
+                                        },
+                                        "valor": {
+                                            "tipo": 0,
+                                            "fixo": " ",
+                                            "dinamico": 0,
+                                            "arquivo-query": " ",
+                                            "acao-query": " "
+                                        },
+                                        "tamanho": {
+                                            "ativar": 0,
+                                            "maximo": " ",
+                                            "minimo": " "
+                                        },
+                                        "validacao": {
+                                            "mascara": 0
+                                        },
+                                        "logica": {
+                                            "logica": 1,
+                                            "setup": {
+                                                "mostrar": "1",
+                                                "todas": "1",
+                                                "logicas": [
+                                                    {
+                                                        "i": "gmdNRzOjuxCb8bjGYmllBqM1BZUMVk",
+                                                        "r": "0",
+                                                        "v": "ativo"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        "identificador": {
+                                            "id": " ",
+                                            "classes": " "
+                                        }
+                                    },
+                                    "filhos": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "4614",
+                    "tipo": "col",
+                    "nome": null,
+                    "obrigatorio": "0",
+                    "data": "2024-08-12 10:18:09",
+                    "pai": "4612",
+                    "posicao": "1",
+                    "hash": "SqBaE3vSHIkEXXGFQo1egu3HNaV0m8",
+                    "infos": {
+                        "layout": {
+                            "tamanho": 3
+                        },
+                        "flex": {
+                            "ativar": 0,
+                            "direcao": 1,
+                            "justify": 0,
+                            "align": 0,
+                            "gap": 0
+                        },
+                        "logica": {
+                            "logica": 0,
+                            "setup": ""
+                        },
+                        "identificador": {
+                            "id": "",
+                            "classes": ""
+                        }
+                    },
+                    "filhos": [
+                        {
+                            "id": "4638",
+                            "tipo": "cardSalvar",
+                            "nome": null,
+                            "obrigatorio": "0",
+                            "data": "2024-08-12 14:54:03",
+                            "pai": "4614",
+                            "posicao": "0",
+                            "hash": "NRkvmbF75Ey5R9NfUgRO9XcjXKELYe",
+                            "infos": [],
+                            "filhos": []
+                        },
+                        {
+                            "id": "4632",
+                            "tipo": "card",
+                            "nome": "Notificado",
+                            "obrigatorio": "0",
+                            "data": "2024-08-12 14:54:03",
+                            "pai": "4614",
+                            "posicao": "1",
+                            "hash": "XWhAOWxMTvphsarJGGK78jyhOMpyMM",
+                            "infos": {
+                                "basico": {
+                                    "label": "Notificado",
+                                    "recolhivel": 1
+                                },
+                                "flex": {
+                                    "ativar": 0,
+                                    "direcao": 1,
+                                    "justify": 0,
+                                    "align": 0,
+                                    "gap": 0
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": ""
+                                },
+                                "identificador": {
+                                    "id": "",
+                                    "classes": ""
+                                }
+                            },
+                            "filhos": [
+                                {
+                                    "id": "4633",
+                                    "tipo": "select",
+                                    "nome": "Quem Notificar",
+                                    "obrigatorio": "0",
+                                    "data": "2024-08-12 12:08:06",
+                                    "pai": "4632",
+                                    "posicao": "0",
+                                    "hash": "UYX3094f7hUoaaYnrDcQjWtjQC5upZ",
+                                    "infos": {
+                                        "basico": {
+                                            "esconder-label": 0,
+                                            "label": "Quem Notificar ",
+                                            "descricao": " ",
+                                            "obrigatorio": 0,
+                                            "select-2": 0,
+                                            "somente-leitura": 0
+                                        },
+                                        "opcoes": {
+                                            "multiplo": 0,
+                                            "opcoes": [
+                                                {
+                                                    "nome": "Autor",
+                                                    "valor": "1",
+                                                    "selecionado": true
+                                                },
+                                                {
+                                                    "nome": "Usuários Especificos",
+                                                    "valor": "2",
+                                                    "selecionado": false
+                                                },
+                                                {
+                                                    "nome": "Funções Especificas",
+                                                    "valor": "3",
+                                                    "selecionado": false
+                                                },
+                                                {
+                                                    "nome": "Todos os usuários",
+                                                    "valor": "4",
+                                                    "selecionado": false
+                                                }
+                                            ]
+                                        },
+                                        "dinamica": {
+                                            "opcoes-dinamicas": 0,
+                                            "configuracoes": " ",
+                                            "arquivo-query": " ",
+                                            "acao-query": " ",
+                                            "smart-triger": 0,
+                                            "url-trigger": " ",
+                                            "acao-trigger": " ",
+                                            "input-trigger": "sFSBEVJ57mTTTLfiDscfIVzAB0VLy9 "
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho-do-input": 0
+                                        },
+                                        "label": {
+                                            "placeholder": " ",
+                                            "sub-label": " ",
+                                            "tooltip": " "
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": " "
+                                        },
+                                        "identificador": {
+                                            "id": " ",
+                                            "classes": " "
+                                        }
+                                    },
+                                    "filhos": []
+                                },
+                                {
+                                    "id": "4634",
+                                    "tipo": "select",
+                                    "nome": "Usuários",
+                                    "obrigatorio": "0",
+                                    "data": "2024-08-12 12:08:59",
+                                    "pai": "4632",
+                                    "posicao": "1",
+                                    "hash": "XFFhoy7fFJLerM9UyfIAs6fCHn7Kly",
+                                    "infos": {
+                                        "basico": {
+                                            "esconder-label": 0,
+                                            "label": "Usuários ",
+                                            "descricao": " ",
+                                            "obrigatorio": 0,
+                                            "select-2": 1,
+                                            "somente-leitura": 0,
+                                            "render": 1
+                                        },
+                                        "opcoes": {
+                                            "multiplo": 1,
+                                            "opcoes": " "
+                                        },
+                                        "dinamica": {
+                                            "opcoes-dinamicas": 1,
+                                            "configuracoes": {
+                                                "modulo": "usuarios",
+                                                "formulario": "aY4O9kcLpNMpbiD.json",
+                                                "regra": "1"
+                                            },
+                                            "arquivo-query": " ",
+                                            "acao-query": " ",
+                                            "smart-triger": 0,
+                                            "input-trigger": 0,
+                                            "url-trigger": " ",
+                                            "acao-trigger": " ",
+                                            "big-data": 1
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho-do-input": 0
+                                        },
+                                        "label": {
+                                            "placeholder": " ",
+                                            "sub-label": " ",
+                                            "tooltip": " "
+                                        },
+                                        "logica": {
+                                            "logica": 1,
+                                            "setup": {
+                                                "mostrar": "1",
+                                                "todas": "1",
+                                                "logicas": [
+                                                    {
+                                                        "i": "UYX3094f7hUoaaYnrDcQjWtjQC5upZ",
+                                                        "r": "0",
+                                                        "v": "2"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        "identificador": {
+                                            "id": " ",
+                                            "classes": " "
+                                        },
+                                        "nown": {
+                                            "ativo": 0,
+                                            "modulo": " ",
+                                            "paginacao": " ",
+                                            "chave": " ",
+                                            "valor": " "
+                                        }
+                                    },
+                                    "filhos": []
+                                },
+                                {
+                                    "id": "4635",
+                                    "tipo": "select",
+                                    "nome": "Função",
+                                    "obrigatorio": "0",
+                                    "data": "2024-08-12 12:10:27",
+                                    "pai": "4632",
+                                    "posicao": "2",
+                                    "hash": "UccZyqTAtfDPzyvQlXR52pik5Hx5QL",
+                                    "infos": {
+                                        "basico": {
+                                            "esconder-label": 0,
+                                            "label": "Função ",
+                                            "descricao": " ",
+                                            "obrigatorio": 0,
+                                            "select-2": 1,
+                                            "somente-leitura": 0
+                                        },
+                                        "opcoes": {
+                                            "multiplo": 1,
+                                            "opcoes": " "
+                                        },
+                                        "dinamica": {
+                                            "opcoes-dinamicas": 1,
+                                            "configuracoes": {
+                                                "modulo": "usuarios",
+                                                "formulario": "pZ5qfBZdIkw0Xsy.json",
+                                                "regra": "1"
+                                            },
+                                            "arquivo-query": " ",
+                                            "acao-query": " "
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho-do-input": 0
+                                        },
+                                        "label": {
+                                            "placeholder": " ",
+                                            "sub-label": " ",
+                                            "tooltip": " "
+                                        },
+                                        "logica": {
+                                            "logica": 1,
+                                            "setup": {
+                                                "mostrar": "1",
+                                                "todas": "1",
+                                                "logicas": [
+                                                    {
+                                                        "i": "UYX3094f7hUoaaYnrDcQjWtjQC5upZ",
+                                                        "r": "0",
+                                                        "v": "3"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        "identificador": {
+                                            "id": " ",
+                                            "classes": " "
+                                        }
+                                    },
+                                    "filhos": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "4615",
+                            "tipo": "card",
+                            "nome": "Módulo",
+                            "obrigatorio": "0",
+                            "data": "2024-08-12 14:54:02",
+                            "pai": "4614",
+                            "posicao": "2",
+                            "hash": "xLzYKW4b6CWkvZqp48v0kZjTfutrmA",
+                            "infos": {
+                                "basico": {
+                                    "label": "Módulo ",
+                                    "recolhivel": 1
+                                },
+                                "flex": {
+                                    "ativar": 0,
+                                    "direcao": 1,
+                                    "justify": 0,
+                                    "align": 0,
+                                    "gap": 0
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": " "
+                                },
+                                "identificador": {
+                                    "id": "disparador ",
+                                    "classes": " "
+                                },
+                                "nown": {
+                                    "ativo": 0,
+                                    "modulo": "",
+                                    "paginacao": "",
+                                    "chave": "",
+                                    "valor": ""
+                                }
+                            },
+                            "filhos": [
+                                {
+                                    "id": "4616",
+                                    "tipo": "select",
+                                    "nome": "Módulo",
+                                    "obrigatorio": "1",
+                                    "data": "2024-08-12 18:26:44",
+                                    "pai": "4615",
+                                    "posicao": "0",
+                                    "hash": "sFSBEVJ57mTTTLfiDscfIVzAB0VLy9",
+                                    "infos": {
+                                        "basico": {
+                                            "esconder-label": 0,
+                                            "label": "Módulo ",
+                                            "descricao": "Selecione o módulo ",
+                                            "obrigatorio": 1,
+                                            "select-2": 0,
+                                            "somente-leitura": 0
+                                        },
+                                        "opcoes": {
+                                            "multiplo": 0,
+                                            "opcoes": [
+                                                {
+                                                    "nome": "Selecione o Módulo",
+                                                    "valor": "0",
+                                                    "selecionado": true
+                                                }
+                                            ]
+                                        },
+                                        "dinamica": {
+                                            "opcoes-dinamicas": 2,
+                                            "configuracoes": " ",
+                                            "arquivo-query": "\/admin\/sistema.php ",
+                                            "acao-query": "listarMeus ",
+                                            "smart-triger": 0,
+                                            "input-trigger": 0,
+                                            "url-trigger": " ",
+                                            "acao-trigger": " "
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho-do-input": 0
+                                        },
+                                        "label": {
+                                            "placeholder": " ",
+                                            "sub-label": " ",
+                                            "tooltip": " "
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": " "
+                                        },
+                                        "identificador": {
+                                            "id": " ",
+                                            "classes": " "
+                                        }
+                                    },
+                                    "filhos": []
+                                },
+                                {
+                                    "id": "4617",
+                                    "tipo": "select",
+                                    "nome": "Formulário",
+                                    "obrigatorio": "1",
+                                    "data": "2024-08-12 18:27:21",
+                                    "pai": "4615",
+                                    "posicao": "1",
+                                    "hash": "bZFSS6c1ki6NyNXPSHzAtVe86UU7YX",
+                                    "infos": {
+                                        "basico": {
+                                            "esconder-label": 0,
+                                            "label": "Formulário ",
+                                            "descricao": " ",
+                                            "obrigatorio": 1,
+                                            "select-2": 0,
+                                            "somente-leitura": 0
+                                        },
+                                        "opcoes": {
+                                            "multiplo": 0,
+                                            "opcoes": [
+                                                {
+                                                    "nome": "Selecione o formulário",
+                                                    "valor": "0",
+                                                    "selecionado": true
+                                                }
+                                            ]
+                                        },
+                                        "dinamica": {
+                                            "opcoes-dinamicas": 0,
+                                            "configuracoes": " ",
+                                            "arquivo-query": " ",
+                                            "acao-query": " ",
+                                            "smart-triger": 1,
+                                            "input-trigger": "sFSBEVJ57mTTTLfiDscfIVzAB0VLy9 ",
+                                            "url-trigger": "\/admin\/sistema.php ",
+                                            "acao-trigger": "formModulo "
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho-do-input": 0
+                                        },
+                                        "label": {
+                                            "placeholder": " ",
+                                            "sub-label": " ",
+                                            "tooltip": " "
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": " "
+                                        },
+                                        "identificador": {
+                                            "id": " ",
+                                            "classes": " "
+                                        }
+                                    },
+                                    "filhos": []
+                                },
+                                {
+                                    "id": "4618",
+                                    "tipo": "select",
+                                    "nome": "Ação",
+                                    "obrigatorio": "1",
+                                    "data": "2024-08-12 18:27:28",
+                                    "pai": "4615",
+                                    "posicao": "2",
+                                    "hash": "Eaft4HBU6MdLsIAnEtwoSvQCWmT63K",
+                                    "infos": {
+                                        "basico": {
+                                            "esconder-label": 0,
+                                            "label": "Ação ",
+                                            "descricao": " ",
+                                            "obrigatorio": 1,
+                                            "select-2": 0,
+                                            "somente-leitura": 0
+                                        },
+                                        "opcoes": {
+                                            "multiplo": 0,
+                                            "opcoes": [
+                                                {
+                                                    "nome": "Selecione a opção",
+                                                    "valor": "",
+                                                    "selecionado": true
+                                                },
+                                                {
+                                                    "nome": "Criar",
+                                                    "valor": "1",
+                                                    "selecionado": false
+                                                },
+                                                {
+                                                    "nome": "Atualizar",
+                                                    "valor": "2",
+                                                    "selecionado": false
+                                                },
+                                                {
+                                                    "nome": "Criar \/ Atualizar",
+                                                    "valor": "3",
+                                                    "selecionado": false
+                                                },
+                                                {
+                                                    "nome": "Deletar",
+                                                    "valor": "4",
+                                                    "selecionado": false
+                                                },
+                                                {
+                                                    "nome": "Opção 5",
+                                                    "valor": "Opção 5",
+                                                    "selecionado": false
+                                                }
+                                            ]
+                                        },
+                                        "dinamica": {
+                                            "opcoes-dinamicas": 0,
+                                            "configuracoes": " ",
+                                            "arquivo-query": " ",
+                                            "acao-query": " ",
+                                            "smart-triger": 0,
+                                            "input-trigger": 0,
+                                            "url-trigger": "",
+                                            "acao-trigger": ""
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho-do-input": 0
+                                        },
+                                        "label": {
+                                            "placeholder": " ",
+                                            "sub-label": " ",
+                                            "tooltip": " "
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": " "
+                                        },
+                                        "identificador": {
+                                            "id": " ",
+                                            "classes": " "
+                                        }
+                                    },
+                                    "filhos": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "infos": {
+        "basico": {
+            "esconder-label": 0,
+            "label": "Email",
+            "descricao": "",
+            "obrigatorio": 0
+        },
+        "estilo": {
+            "estilo": 0,
+            "tamanho-do-input": 0
+        },
+        "label": {
+            "placeholder": "",
+            "sub-label": "",
+            "tooltip": ""
+        },
+        "validacao": {
+            "mascara": 0
+        },
+        "logica": {
+            "logica": 0,
+            "setup": ""
+        }
+    }
+}

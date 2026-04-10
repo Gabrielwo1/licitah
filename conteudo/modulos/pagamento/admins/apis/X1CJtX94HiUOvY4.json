@@ -1,0 +1,77 @@
+{
+    "nome": "assinaturas dados por usuario",
+    "banco": "XE3ZXs6k9gMc8jJTePvH1PiWoK1tsv5M",
+    "tipo": 2,
+    "subtipo": 1,
+    "itens": [
+        {
+            "nome": "usuario",
+            "banco": "p",
+            "chave": "usuario",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "fim",
+            "banco": "p",
+            "chave": "fim",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "inicio",
+            "banco": "p",
+            "chave": "inicio",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "plano",
+            "banco": "p",
+            "chave": "plano",
+            "estrangeiro": 1,
+            "setupEstrangeira": {
+                "modulo": "pagamento",
+                "banco": "Yh5U16rHTzAmDebz0pvkk3ea0bazcfo5.json",
+                "metas": [
+                    "por",
+                    "ciclo",
+                    "primeira_cobranca",
+                    "expira_cobranca"
+                ],
+                "principal": [
+                    "banco",
+                    "referencia",
+                    "preco",
+                    "tipo"
+                ]
+            }
+        },
+        {
+            "nome": "estado",
+            "banco": "p",
+            "chave": "estado",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "id",
+            "banco": "p",
+            "chave": "id",
+            "estrangeiro": 0
+        }
+    ],
+    "number": {
+        "comentarios": false,
+        "reacoes": false,
+        "favoritos": false,
+        "visualizacoes": false
+    },
+    "extra": {
+        "ativo": true,
+        "coluna": "usuario",
+        "tipo": "="
+    },
+    "clone": {
+        "ativo": false,
+        "api": ""
+    },
+    "geolocalizacao": false,
+    "subconta": false
+}

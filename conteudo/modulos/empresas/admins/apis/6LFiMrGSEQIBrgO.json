@@ -1,0 +1,77 @@
+{
+    "nome": "Lista de Empresas Por Categoria",
+    "banco": "9mX3WKIb9DI9qEW",
+    "tipo": 2,
+    "subtipo": 3,
+    "itens": [
+        {
+            "nome": "nome",
+            "banco": "p",
+            "chave": "nome",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "tags",
+            "banco": "p",
+            "chave": "tags",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "categoria",
+            "banco": "p",
+            "chave": "categoria",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "premium",
+            "banco": "m",
+            "chave": "premium",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "url",
+            "banco": "p",
+            "chave": "url",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "hash",
+            "banco": "p",
+            "chave": "hash",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "autor",
+            "banco": "p",
+            "chave": "autor",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "imagem",
+            "banco": "p",
+            "chave": "imagemDestaque",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "descricao_curta",
+            "banco": "p",
+            "chave": "descricao_curta",
+            "estrangeiro": 0
+        }
+    ],
+    "number": {
+        "comentarios": false,
+        "reacoes": false,
+        "favoritos": false,
+        "visualizacoes": false
+    },
+    "extra": {
+        "ativo": false,
+        "coluna": "",
+        "tipo": "="
+    },
+    "clone": {
+        "ativo": false,
+        "api": ""
+    }
+}

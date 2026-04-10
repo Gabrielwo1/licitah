@@ -1,0 +1,194 @@
+   
+   /* 
+
+#conteudo{
+    background-color: var(--nown-surface)!important; 
+}
+   
+
+#topo{
+    background-color: var(--nown-surface-container)!important;  
+    color: var(--nown-on-surface)!important;  
+}
+
+
+#lateral .card-header {
+     background-color: var(--nown-inverce-surface-container)!important;  
+}
+
+#lateral .card-body{
+background-color: var(--nown-surface-variant)!important;  
+color: var(--nown-on-surface)!important;  
+   
+}
+
+
+  
+.btn-primary {
+    background-color: var(--nown-primaria);
+    color: var(--nown-on-primaria);
+    border-color: var(--nown-primaria);
+}
+
+.btn-primary:hover {
+    background-color: var(--nown-primaria-container);
+    color: var(--nown-on-primaria-container);
+    border-color: var(--nown-on-primaria-container);
+}
+
+.btn-secondary {
+    background-color: var(--nown-secundaria);
+    color: var(--nown-on-secundaria);
+    border-color: var(--nown-secundaria);
+}
+
+.btn-secondary:hover {
+    background-color: var(--nown-secundaria-container);
+    color: var(--nown-on-secundaria-container);
+    border-color: var(--nown-on-secundaria-container);
+}
+
+.btn-danger {
+    background-color: var(--nown-error);
+    color: var(--nown-on-error);
+    border-color: var(--nown-error);
+}
+
+.btn-danger:hover {
+    background-color: var(--nown-error-container);
+    color: var(--nown-on-error-container);
+    border-color: var(--nown-on-error-container);
+}
+
+*/
+    
+
+/* ==========================
+   Alertas
+========================== */
+.alert-primary {
+    background-color: var(--nown-primaria-container);
+    color: var(--nown-on-primaria-container);
+    border-color: var(--nown-primaria);
+}
+
+.alert-secondary {
+    background-color: var(--nown-secundaria-container);
+    color: var(--nown-on-secundaria-container);
+    border-color: var(--nown-secundaria);
+}
+
+.alert-danger {
+    background-color: var(--nown-error-container);
+    color: var(--nown-on-error-container);
+    border-color: var(--nown-error);
+}
+
+/* ==========================
+   Navbars
+========================== */
+.navbar {
+    background-color: var(--nown-surface);
+    color: var(--nown-on-surface);
+    border-bottom: 1px solid var(--nown-outline);
+}
+
+.navbar a {
+    color: var(--nown-on-surface);
+}
+
+.navbar a:hover {
+    color: var(--nown-primaria);
+}
+
+/* ==========================
+   Cards
+========================== */
+.card {
+    background-color: var(--nown-surface-variant);
+    color: var(--nown-on-surface-variant);
+    border: 1px solid var(--nown-outline);
+}
+
+.card-header {
+    background-color: var(--nown-primaria-container);
+    color: var(--nown-on-primaria-container);
+}
+
+.card-footer {
+    background-color: var(--nown-surface);
+    color: var(--nown-on-surface);
+}
+
+/* ==========================
+   Forms e Inputs
+========================== */
+.form-control {
+    background-color: var(--nown-surface);
+    color: var(--nown-on-surface);
+    border: 1px solid var(--nown-outline);
+}
+
+.form-control:focus {
+    background-color: var(--nown-surface-variant);
+    color: var(--nown-on-surface-variant);
+    border-color: var(--nown-primaria);
+    box-shadow: 0 0 0 0.25rem rgba(0, 30, 255, 0.25);
+}
+
+.form-label {
+    color: var(--nown-on-surface);
+}
+
+/* ==========================
+   Tabelas
+========================== */
+.table {
+    background-color: var(--nown-surface);
+    color: var(--nown-on-surface);
+    border-color: var(--nown-outline);
+}
+
+.table thead {
+    background-color: var(--nown-surface-variant);
+    color: var(--nown-on-surface-variant);
+}
+
+.table tbody tr:hover {
+    background-color: var(--nown-surface-variant);
+    color: var(--nown-on-surface);
+}
+
+/* ==========================
+   Modais
+========================== */
+.modal-content {
+    background-color: var(--nown-surface);
+    color: var(--nown-on-surface);
+    border: 1px solid var(--nown-outline);
+}
+
+.modal-header {
+    background-color: var(--nown-primaria-container);
+    color: var(--nown-on-primaria-container);
+}
+
+.modal-footer {
+    background-color: var(--nown-surface);
+    color: var(--nown-on-surface);
+}
+
+/* ==========================
+   Links
+========================== */
+a {
+    color: var(--nown-primaria);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--nown-on-primaria);
+    text-decoration: underline;
+}
+
+    

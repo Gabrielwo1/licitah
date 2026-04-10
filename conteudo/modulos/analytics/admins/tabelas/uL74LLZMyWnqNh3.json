@@ -1,0 +1,57 @@
+{
+    "nome": "Dispositivos",
+    "banco": "gnR1OlqOIn7voSKgRThnwK04wQfGM4dU",
+    "colunas": [
+        {
+            "nome": "Digital",
+            "id": "digital",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "estrangeira": 0
+        },
+        {
+            "nome": "Dispositivo",
+            "id": "tipo",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "estrangeira": 0
+        },
+        {
+            "nome": "Primeiro Acesso",
+            "id": "data",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "estrangeira": 0
+        }
+    ],
+    "regra": "1",
+    "acoes": {
+        "opcoes": {
+            "acoes": false,
+            "editar": false,
+            "apagar": false,
+            "vizualizar": false,
+            "importador": false,
+            "exportador": false,
+            "filtro": false,
+            "colunas": false,
+            "multiplo": false,
+            "ordenador": false
+        },
+        "rotas": {
+            "editar": "",
+            "vizualizar": ""
+        }
+    },
+    "layout": {
+        "modo": "1",
+        "container": "0"
+    },
+    "acoesPersonalizadas": []
+}

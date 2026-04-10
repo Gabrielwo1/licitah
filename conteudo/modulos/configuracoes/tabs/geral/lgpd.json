@@ -1,0 +1,37 @@
+{
+   "ativar":{
+       "tipo": "check",
+       "descricao": "Mostre ao usuário o sistema de controle e gestão de captura de dados.",
+       "label": "LGPD"
+   } ,
+   "timer":{
+       "label": "Timer",
+       "tipo": "input",
+       "descricao": "Depois de quanto tempo será mostrado o box de concentimento",
+       "condicional": "lgpd"
+   },
+   "tipo":{
+       "label": "Tipo",
+       "tipo": "select",
+       "descricao": "Escolha o layout de exibição da tela de concentimento",
+       "condicional": "lgpd",
+       "opcoes": [
+            {"chave":"Barra Superior","valor":1},
+            {"chave":"Barra Inferior","valor":2},
+            {"chave":"Modal","valor":3}
+            ]
+   },
+     "personalizar":{
+        "label": "Personalizar LGPD",
+        "tipo": "check",
+        "descricao": "Caso essa opção esteja desativada, o sistema irá gerar a LGPD automáticamente.",
+        "condicional": "lgpd"
+    },
+     "personalizada": {
+      "tipo": "select",
+      "label": "Escolha a Politica Personalizada",
+      "dinamico": true,
+      "foco": "politicas,politica_id,politica_titulo",
+      "condicional": "personalizar"
+    }
+}

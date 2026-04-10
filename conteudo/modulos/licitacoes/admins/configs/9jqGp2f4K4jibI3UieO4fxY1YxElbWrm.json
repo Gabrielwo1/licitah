@@ -1,0 +1,61 @@
+{
+    "banco": "licitacoes_logs",
+    "meta": false,
+    "prefixo": "licitacoes_log",
+    "url": false,
+    "colunas": [
+        {
+            "nome": "acao",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "oxXlEgrRL797EGzZsPYOGv6xYwmzlg"
+        },
+        {
+            "nome": "acao_alvo",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "5nF91B6s6NHumtMeHK3ETj4cntVzcs"
+        },
+        {
+            "nome": "dado",
+            "nulo": false,
+            "tipo": "json",
+            "unico": false,
+            "input": "mOSgKFllsNURw6wh6fgYtN19n36Isn"
+        },
+        {
+            "nome": "pesquisa",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "yzFVVoaitIMGL26vios6fVY6A5Jn1R"
+        }
+    ],
+    "estrutura": {
+        "meta": false,
+        "hash": true,
+        "autor": true,
+        "dataCriacao": true,
+        "dataUpdate": false,
+        "ordenador": false,
+        "url": false,
+        "urledit": false,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false,
+        "autoria": false,
+        "wildcard": false,
+        "atributos": false,
+        "destaque": false,
+        "desabilitarNovo": false,
+        "desabilitarEdicao": false,
+        "reordenador": false,
+        "pontos": false
+    },
+    "metas": []
+}

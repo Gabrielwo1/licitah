@@ -1,0 +1,11 @@
+{
+    "nome": "Tarefas",
+    "banco": "aehvhDc9jPy3cx8twx0fpU55j8LNBHGY",
+    "tipo": 1,
+    "linkar": 0,
+    "texto": true,
+    "imagem": false,
+    "filtro": true,
+    "arrastar": true,
+    "mini": true
+}

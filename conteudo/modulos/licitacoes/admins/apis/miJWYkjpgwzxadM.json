@@ -1,0 +1,76 @@
+{
+    "nome": "Logs por Autor",
+    "banco": "9jqGp2f4K4jibI3UieO4fxY1YxElbWrm",
+    "tipo": 2,
+    "subtipo": 5,
+    "itens": [
+        {
+            "nome": "acao",
+            "banco": "p",
+            "chave": "acao",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "acao_alvo",
+            "banco": "p",
+            "chave": "acao_alvo",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "dado",
+            "banco": "p",
+            "chave": "dado",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "pesquisa",
+            "banco": "p",
+            "chave": "pesquisa",
+            "estrangeiro": 1,
+            "setupEstrangeira": {
+                "modulo": "licitacoes",
+                "banco": "LFqTaPXF5I0yL9L1aRQGQefG73kqfnST.json",
+                "metas": [],
+                "principal": [
+                    "pesquisa",
+                    "url"
+                ]
+            }
+        },
+        {
+            "nome": "autor",
+            "banco": "p",
+            "chave": "autor",
+            "estrangeiro": 1,
+            "setupEstrangeira": {
+                "modulo": "usuarios",
+                "banco": "aY4O9kcLpNMpbiD.json",
+                "metas": [],
+                "principal": [
+                    "display"
+                ]
+            }
+        },
+        {
+            "nome": "data",
+            "banco": "p",
+            "chave": "dataCriacao",
+            "estrangeiro": 0
+        }
+    ],
+    "number": {
+        "comentarios": false,
+        "reacoes": false,
+        "favoritos": false,
+        "visualizacoes": false
+    },
+    "extra": {
+        "ativo": false,
+        "coluna": "",
+        "tipo": "="
+    },
+    "clone": {
+        "ativo": false,
+        "api": ""
+    }
+}

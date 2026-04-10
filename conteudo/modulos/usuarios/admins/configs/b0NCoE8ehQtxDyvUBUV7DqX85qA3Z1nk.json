@@ -1,0 +1,44 @@
+{
+    "banco": "usuarios_api_consumo",
+    "meta": false,
+    "prefixo": "apc",
+    "url": false,
+    "colunas": [
+        {
+            "nome": "regra",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "vUxAX72rjOQPzRuvnpatrfOdg1961s"
+        },
+        {
+            "nome": "caminho",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "S3rczhGzwcqUQrVzxpTcU9IESRDbFG",
+            "size": 200
+        }
+    ],
+    "estrutura": {
+        "meta": false,
+        "hash": false,
+        "autor": true,
+        "dataCriacao": true,
+        "dataUpdate": false,
+        "ordenador": false,
+        "url": false,
+        "urledit": false,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false,
+        "desabilitarNovo": false,
+        "desabilitarEdicao": false,
+        "reordenador": false,
+        "pontos": false
+    },
+    "metas": []
+}

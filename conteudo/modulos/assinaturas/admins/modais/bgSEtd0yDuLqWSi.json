@@ -1,0 +1,19 @@
+{
+    "nome": "Nova Assinatura",
+    "tipo": "2",
+    "acao": "ZrGKyMSxMvpxWYHNmGGtaS7zD3ZJQzfH",
+    "callback": "kjhdakjshdkasj",
+    "tamanho": "md",
+    "modal": {
+        "titulo": "Nova Assinatura",
+        "icone": ""
+    },
+    "redirecionar": "0",
+    "redirCb": "",
+    "fecharTopo": true,
+    "fecharFooter": true,
+    "logotipo": true,
+    "centralizar": true,
+    "clickout": true,
+    "container": true
+}

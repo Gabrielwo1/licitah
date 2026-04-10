@@ -1,0 +1,16 @@
+{
+    "nome": "Órgão",
+    "tipo": "1",
+    "id": "09Apo2VtnVUyypJLnJWDPd39BxbeIeEW",
+    "btns": [
+        {
+            "texto": "Todos os órgãos",
+            "tipo": "1",
+            "callback": "a\/licitacoes\/orgaos",
+            "id": "",
+            "icone": ""
+        }
+    ],
+    "titulo": "{novo} órgão",
+    "breadcrumbs": false
+}

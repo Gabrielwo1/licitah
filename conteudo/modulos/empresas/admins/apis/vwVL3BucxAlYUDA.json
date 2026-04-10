@@ -1,0 +1,78 @@
+{
+    "nome": "Lista de Associações Por Empresa",
+    "banco": "0M31yOChK5bhkgb",
+    "tipo": 2,
+    "subtipo": 1,
+    "itens": [
+        {
+            "nome": "usuario",
+            "banco": "p",
+            "chave": "usuario",
+            "estrangeiro": 1,
+            "setupEstrangeira": {
+                "modulo": "usuarios",
+                "banco": "sWHpiPuhQkQBvSHypTtmyHKpF9kBq99c.json",
+                "metas": [],
+                "principal": [
+                    "email",
+                    "user",
+                    "telefone",
+                    "display",
+                    "hash"
+                ]
+            }
+        },
+        {
+            "nome": "empresa",
+            "banco": "p",
+            "chave": "empresa",
+            "estrangeiro": 1,
+            "setupEstrangeira": {
+                "modulo": "empresas",
+                "banco": "9mX3WKIb9DI9qEW.json",
+                "metas": [
+                    "nome_fantasia"
+                ],
+                "principal": [
+                    "nome",
+                    "cnpj",
+                    "descricao_curta",
+                    "autor",
+                    "url"
+                ]
+            }
+        },
+        {
+            "nome": "funcao",
+            "banco": "p",
+            "chave": "funcao",
+            "estrangeiro": 1,
+            "setupEstrangeira": {
+                "modulo": "empresas",
+                "banco": "mzaA2HQA8CXUv49.json",
+                "metas": [],
+                "principal": [
+                    "nome",
+                    "descricao",
+                    "url"
+                ]
+            }
+        }
+    ],
+    "number": {
+        "comentarios": false,
+        "reacoes": false,
+        "favoritos": false,
+        "visualizacoes": false
+    },
+    "extra": {
+        "ativo": true,
+        "coluna": "empresa",
+        "tipo": "="
+    },
+    "clone": {
+        "ativo": false,
+        "api": ""
+    },
+    "geolocalizacao": false
+}

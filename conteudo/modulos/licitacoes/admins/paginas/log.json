@@ -1,0 +1,16 @@
+{
+    "nome": "Log",
+    "tipo": "1",
+    "id": "9jqGp2f4K4jibI3UieO4fxY1YxElbWrm",
+    "btns": [
+        {
+            "texto": "Tabela",
+            "tipo": "1",
+            "callback": "a\/licitacoes\/logs",
+            "id": "",
+            "icone": ""
+        }
+    ],
+    "titulo": "{novo} registro de Log",
+    "breadcrumbs": false
+}

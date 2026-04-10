@@ -1,0 +1,16 @@
+{
+    "nome": "Opções",
+    "tipo": "2",
+    "id": "C16hW0blGfzjVgH",
+    "btns": [
+        {
+            "texto": "Adicionar Reação",
+            "tipo": "1",
+            "callback": "a\/reacoes\/opcao",
+            "id": "",
+            "icone": ""
+        }
+    ],
+    "titulo": "Reações",
+    "breadcrumbs": true
+}

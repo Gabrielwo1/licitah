@@ -1,0 +1,7 @@
+{
+    "ativo":{
+        "tipo": "check",
+        "label": "Sistema de Doação",
+        "descricao": "Com essa opção ativa, os usuários poderão fazer doações dentro do sistema."
+    }
+}

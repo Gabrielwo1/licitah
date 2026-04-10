@@ -1,0 +1,19 @@
+{
+    "nome": "Nova Empresa",
+    "tipo": "1",
+    "acao": "6OELuNNFvlytDiCP3PLKejIFh6wT0Fq0",
+    "callback": "",
+    "tamanho": "md",
+    "modal": {
+        "titulo": "Nova Empresa",
+        "icone": ""
+    },
+    "redirecionar": "2",
+    "redirCb": "HUGpEJCknEN0ANG",
+    "fecharTopo": false,
+    "fecharFooter": false,
+    "logotipo": false,
+    "centralizar": false,
+    "clickout": false,
+    "container": false
+}

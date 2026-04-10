@@ -1,0 +1,16 @@
+{
+    "nome": "Licitações",
+    "tipo": "2",
+    "id": "B3BM58xgmVFQe0B",
+    "btns": [
+        {
+            "texto": "Atualizar Licitações",
+            "tipo": "2",
+            "callback": "atualizaLicitacoes",
+            "id": "",
+            "icone": ""
+        }
+    ],
+    "titulo": "Licitações",
+    "breadcrumbs": false
+}

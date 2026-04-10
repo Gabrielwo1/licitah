@@ -1,0 +1,56 @@
+{
+    "banco": "artigos",
+    "meta": true,
+    "prefixo": "artigo",
+    "url": "titulo",
+    "colunas": [
+        {
+            "nome": "titulo",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "JoYSxE82xiM7pIqy6xPsF0QDDAatgO",
+            "size": 200
+        },
+        {
+            "nome": "texto",
+            "nulo": false,
+            "tipo": "text",
+            "unico": false,
+            "input": "M8LAUF7har2XnZwbyVdAgtHlDgwuXh"
+        },
+        {
+            "nome": "descricao",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "yMDqQ3V8jtBLbQmhYtgM9zn0lslIH8",
+            "size": 400
+        }
+    ],
+    "estrutura": {
+        "meta": true,
+        "hash": true,
+        "autor": true,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "ordenador": true,
+        "url": true,
+        "urledit": false,
+        "imagemDestaque": true,
+        "galeria": true,
+        "categoria": true,
+        "tags": true,
+        "seo": true,
+        "preco": false,
+        "desabilitarNovo": false,
+        "desabilitarEdicao": false,
+        "reordenador": true,
+        "pontos": false
+    },
+    "metas": {
+        "U1dNbnjNb24kRJIzFJ3Zt3LV1eW1zz": "video",
+        "1Zco9Uw8o7Y30VGBUXzoA76BZZkNE7": "nome_fonte",
+        "Ag6TY0WMvLpvOkaJA1ivVAMBwa9Kxa": "fonte"
+    }
+}

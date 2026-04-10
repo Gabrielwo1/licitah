@@ -1,0 +1,16 @@
+{
+    "nome": "Item",
+    "tipo": "1",
+    "id": "Yh5U16rHTzAmDebz0pvkk3ea0bazcfo5",
+    "btns": [
+        {
+            "texto": "Todos os Itens",
+            "tipo": "1",
+            "callback": "a\/pagamento\/itens",
+            "id": "",
+            "icone": ""
+        }
+    ],
+    "titulo": "{novo} Item",
+    "breadcrumbs": false
+}

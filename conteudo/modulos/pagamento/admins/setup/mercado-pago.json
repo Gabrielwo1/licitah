@@ -1,0 +1,46 @@
+{    
+    "Produção":{
+         "tipo":"titulo"
+      },
+    "publickeyproducao":{
+         "tipo":"input",
+         "label": "Public key",
+         "descricao": "Sua Public key de Produção"
+      },
+    "accesstokenproducao":{
+         "tipo":"input",
+         "label": "Access Token",
+         "descricao": "Seu Token de Acesso do modo de Produção"
+      },
+      "clientid":{
+         "tipo":"input",
+         "label": "Client ID"
+      },
+       "clientsecret":{
+         "tipo":"input",
+         "label": "Client Secret"
+      },
+      "Sandbox":{
+         "tipo":"titulo"
+      },
+    "publickeysand":{
+         "tipo":"input",
+         "label": "Public key",
+         "descricao": "Sua Public key do modo Sandbox"
+      },
+    "accesstokensand":{
+         "tipo":"input",
+         "label": "Access Token",
+         "descricao": "Seu Access Token de Acesso do modo SandBox"
+      },
+      "Notificação":{
+         "tipo":"titulo"
+      },
+      "assinatura":{
+          "tipo": "input",
+          "label": "Assinatura secreta",
+          "descricao": "Url de notificação: https://SEUSITE.com/conteudo/modulos/pagamento/admins/notificacao.php?meio=mercado-pago"
+      }
+      
+
+}

@@ -1,0 +1,49 @@
+{
+    "nome": "Cupons",
+    "banco": "akebgVavtttxH2eqWABotydOKjK15lN0",
+    "colunas": [
+        {
+            "nome": "Nome",
+            "id": "nome",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false
+        },
+        {
+            "nome": "Código",
+            "id": "codigo",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false
+        },
+        {
+            "nome": "Expiração",
+            "id": "expiracao",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false
+        }
+    ],
+    "regra": "1",
+    "acoes": {
+        "opcoes": {
+            "acoes": true,
+            "editar": true,
+            "apagar": true,
+            "vizualizar": false,
+            "importador": false,
+            "exportador": true,
+            "filtro": false,
+            "colunas": false,
+            "multiplo": true
+        },
+        "rotas": {
+            "editar": "a\/pagamento\/cupom",
+            "vizualizar": ""
+        }
+    },
+    "acoesPersonalizadas": []
+}

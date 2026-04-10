@@ -1,0 +1,116 @@
+{
+    "nome": "Licitação Orgao",
+    "banco": "9ZtWgWUOsU1azbO4yoqItu3W9FVSOaiu",
+    "tipo": 1,
+    "subtipo": 2,
+    "itens": [
+        {
+            "nome": "id",
+            "banco": "p",
+            "chave": "id",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "codigo",
+            "banco": "p",
+            "chave": "codigo",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "update",
+            "banco": "p",
+            "chave": "dataUpdate",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "data",
+            "banco": "p",
+            "chave": "dataCriacao",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "siglaUf",
+            "banco": "m",
+            "chave": "siglaUf",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "nome",
+            "banco": "p",
+            "chave": "nome",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "codigoMunicipioIbge",
+            "banco": "m",
+            "chave": "codigoMunicipioIbge",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "codigoMunicipio",
+            "banco": "m",
+            "chave": "codigoMunicipio",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "nomeUnidadePolo",
+            "banco": "m",
+            "chave": "nomeUnidadePolo",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "nomeMunicipioIbge",
+            "banco": "m",
+            "chave": "nomeMunicipioIbge",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "codigoUnidadePolo",
+            "banco": "m",
+            "chave": "codigoUnidadePolo",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "codigoSiorg",
+            "banco": "m",
+            "chave": "codigoSiorg",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "cnpjCpfUasg",
+            "banco": "m",
+            "chave": "cnpjCpfUasg",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "orgao",
+            "banco": "m",
+            "chave": "orgao",
+            "estrangeiro": 1,
+            "setupEstrangeira": {
+                "modulo": "licitacoes",
+                "banco": "09Apo2VtnVUyypJLnJWDPd39BxbeIeEW.json",
+                "metas": [],
+                "principal": [
+                    "codigo",
+                    "nome"
+                ]
+            }
+        }
+    ],
+    "number": {
+        "comentarios": false,
+        "reacoes": false,
+        "favoritos": false,
+        "visualizacoes": false
+    },
+    "extra": {
+        "ativo": false,
+        "coluna": "",
+        "tipo": "="
+    },
+    "clone": {
+        "ativo": false,
+        "api": ""
+    }
+}

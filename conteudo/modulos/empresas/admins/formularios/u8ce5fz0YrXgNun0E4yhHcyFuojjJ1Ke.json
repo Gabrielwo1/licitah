@@ -1,0 +1,279 @@
+{
+    "id": "434",
+    "nome": "Empresas - empresa e função",
+    "hash": "u8ce5fz0YrXgNun0E4yhHcyFuojjJ1Ke",
+    "data": "2025-04-29 15:09:48",
+    "tamanho": 5,
+    "inputs": [
+        {
+            "id": "11102",
+            "tipo": "select",
+            "nome": "Empresa de Vinculo",
+            "obrigatorio": "0",
+            "data": "2025-04-29 15:11:48",
+            "pai": "0",
+            "posicao": "0",
+            "hash": "xnpzMRp5r3zCqyj44AR6Ht12AHuag6",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": "Empresa de Vinculo ",
+                    "descricao": " ",
+                    "obrigatorio": 0,
+                    "render": 0,
+                    "somente-leitura": 0
+                },
+                "opcoes": {
+                    "multiplo": 0,
+                    "opcoes": " "
+                },
+                "dinamica": {
+                    "smart-triger": 0,
+                    "input-trigger": 0,
+                    "url-trigger": " ",
+                    "acao-trigger": " ",
+                    "opcoes-dinamicas": 2,
+                    "configuracoes": {
+                        "modulo": "empresas",
+                        "formulario": "9mX3WKIb9DI9qEW.json",
+                        "regra": "2"
+                    },
+                    "arquivo-query": "conteudo\/modulos\/empresas\/admins\/requestAltenativos.php ",
+                    "acao-query": "pegarMinhasEmpresas "
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": " ",
+                    "sub-label": " ",
+                    "tooltip": " "
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": " "
+                },
+                "identificador": {
+                    "id": " ",
+                    "classes": " "
+                },
+                "nown": {
+                    "ativo": 0,
+                    "modulo": " ",
+                    "paginacao": " ",
+                    "chave": " ",
+                    "valor": " "
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "11103",
+            "tipo": "select",
+            "nome": "Função",
+            "obrigatorio": "0",
+            "data": "2025-04-29 15:12:11",
+            "pai": "0",
+            "posicao": "1",
+            "hash": "0HX32K21bOMvbcgAqIqgcRVsVt2HG6",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": "Função ",
+                    "descricao": " ",
+                    "obrigatorio": 0,
+                    "render": 0,
+                    "somente-leitura": 0
+                },
+                "opcoes": {
+                    "multiplo": 0,
+                    "opcoes": " "
+                },
+                "dinamica": {
+                    "smart-triger": 0,
+                    "input-trigger": 0,
+                    "url-trigger": " ",
+                    "acao-trigger": " ",
+                    "opcoes-dinamicas": 1,
+                    "configuracoes": {
+                        "modulo": "empresas",
+                        "formulario": "mzaA2HQA8CXUv49.json",
+                        "regra": "2"
+                    },
+                    "arquivo-query": " ",
+                    "acao-query": " "
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": " ",
+                    "sub-label": " ",
+                    "tooltip": " "
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": " "
+                },
+                "identificador": {
+                    "id": " ",
+                    "classes": " "
+                },
+                "nown": {
+                    "ativo": 0,
+                    "modulo": " ",
+                    "paginacao": " ",
+                    "chave": " ",
+                    "valor": " "
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "12513",
+            "tipo": "select",
+            "nome": "Usado",
+            "obrigatorio": "0",
+            "data": "2025-06-02 13:46:02",
+            "pai": "0",
+            "posicao": "2",
+            "hash": "p52P3onsfPbu93zfhpStuUiVF0LxUL",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": "Usado",
+                    "descricao": "",
+                    "obrigatorio": 0,
+                    "render": 0,
+                    "somente-leitura": 0
+                },
+                "opcoes": {
+                    "multiplo": 0,
+                    "opcoes": [
+                        {
+                            "nome": "Não",
+                            "valor": "0",
+                            "selecionado": false
+                        },
+                        {
+                            "nome": "Sim",
+                            "valor": "1",
+                            "selecionado": false
+                        }
+                    ]
+                },
+                "dinamica": {
+                    "smart-triger": 0,
+                    "input-trigger": 0,
+                    "url-trigger": "",
+                    "acao-trigger": "",
+                    "opcoes-dinamicas": 0,
+                    "configuracoes": "",
+                    "arquivo-query": "",
+                    "acao-query": ""
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": "",
+                    "sub-label": "",
+                    "tooltip": ""
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": ""
+                },
+                "identificador": {
+                    "id": "",
+                    "classes": "d-none"
+                },
+                "nown": {
+                    "ativo": 0,
+                    "modulo": "",
+                    "paginacao": "",
+                    "chave": "",
+                    "valor": ""
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "12514",
+            "tipo": "text",
+            "nome": "Usuário Vinculado",
+            "obrigatorio": "0",
+            "data": "2025-06-02 13:47:01",
+            "pai": "0",
+            "posicao": "3",
+            "hash": "Esw0h2mHzouQ5q0XbzEWaF0qwCnPO0",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": "Usuário Vinculado",
+                    "descricao": "",
+                    "obrigatorio": 0,
+                    "somente-leitura": 0
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": "",
+                    "sub-label": "",
+                    "tooltip": "",
+                    "prefixo": "",
+                    "sufixo": ""
+                },
+                "valor": {
+                    "tipo": 0,
+                    "fixo": "",
+                    "dinamico": 0,
+                    "arquivo-query": "",
+                    "acao-query": ""
+                },
+                "tamanho": {
+                    "ativar": 0,
+                    "maximo": "",
+                    "minimo": ""
+                },
+                "validacao": {
+                    "mascara": 0
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": ""
+                },
+                "identificador": {
+                    "id": "",
+                    "classes": "d-none"
+                },
+                "nown": {
+                    "ativo": 0,
+                    "modulo": "",
+                    "paginacao": "",
+                    "chave": "",
+                    "valor": ""
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "11104",
+            "tipo": "formprogress",
+            "nome": null,
+            "obrigatorio": "0",
+            "data": "2025-06-02 13:46:40",
+            "pai": "0",
+            "posicao": "4",
+            "hash": "RkXvjlPRaZI8jYuPz2oaug0tuDqb7d",
+            "infos": [],
+            "filhos": []
+        }
+    ],
+    "infos": []
+}

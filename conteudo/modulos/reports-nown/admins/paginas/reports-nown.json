@@ -1,0 +1,16 @@
+{
+    "nome": "Reports Nown",
+    "tipo": "2",
+    "id": "kBujeWFMnBFtTna",
+    "btns": [
+        {
+            "texto": "Adicionar Novo",
+            "tipo": "5",
+            "callback": "X393f2kc0sl7yRu",
+            "id": "",
+            "icone": "bi bi-plus-circle-fill"
+        }
+    ],
+    "titulo": "Reports Nown",
+    "breadcrumbs": true
+}

@@ -1,0 +1,2378 @@
+{
+    "id": "20",
+    "nome": "Usuários",
+    "hash": "aY4O9kcLpNMpbiD",
+    "data": "2023-12-04 21:49:23",
+    "tamanho": 58,
+    "inputs": [
+        {
+            "id": "3947",
+            "tipo": "html",
+            "nome": "",
+            "obrigatorio": "0",
+            "data": "2024-07-15 18:21:17",
+            "pai": "0",
+            "posicao": "0",
+            "hash": "V9zqyNZxDJukVyeXBDiPPoZ4t2ChIz",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": " ",
+                    "id-da-div": "containerPerfil "
+                },
+                "codigo": {
+                    "html": " "
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": " "
+                },
+                "identificador": {
+                    "id": " ",
+                    "classes": " "
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "1383",
+            "tipo": "tab",
+            "nome": null,
+            "obrigatorio": "0",
+            "data": "2024-07-15 18:21:12",
+            "pai": "0",
+            "posicao": "1",
+            "hash": "WV0OSRw0b0QKy6wITDkpa63jKwh7v9",
+            "infos": {
+                "botoes": {
+                    "botoes": [
+                        {
+                            "texto": "Informações",
+                            "id": "divUnicas",
+                            "icone": "bi bi-person-vcard"
+                        },
+                        {
+                            "texto": "Segurança",
+                            "id": "divSenha",
+                            "icone": "bi bi-file-earmark-lock"
+                        },
+                        {
+                            "texto": "Privacidade",
+                            "id": "",
+                            "icone": "bi bi-shield-lock"
+                        },
+                        {
+                            "texto": "Notificações",
+                            "id": "",
+                            "icone": "bi bi-bell"
+                        },
+                        {
+                            "texto": "Endereços",
+                            "id": "divEnderecos",
+                            "icone": "bi bi-house"
+                        },
+                        {
+                            "texto": "Empresas",
+                            "id": "divEmpresas",
+                            "icone": "bi bi-building"
+                        }
+                    ]
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": " "
+                },
+                "identificador": {
+                    "id": " ",
+                    "classes": " "
+                },
+                "layout": {
+                    "vertical": 0,
+                    "alinhar": 0,
+                    "estilo": 1,
+                    "formato": 0
+                },
+                "nown": {
+                    "ativo": 0,
+                    "modulo": "",
+                    "paginacao": "",
+                    "chave": "",
+                    "valor": ""
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "3920",
+            "tipo": "grupo",
+            "nome": null,
+            "obrigatorio": "0",
+            "data": "2024-07-15 23:02:50",
+            "pai": "0",
+            "posicao": "2",
+            "hash": "F92EqEefwM9hMLlkJ5MDUGI27ZkSDi",
+            "infos": {
+                "logica": {
+                    "logica": 0,
+                    "setup": ""
+                },
+                "identificador": {
+                    "id": "divUnicas",
+                    "classes": ""
+                }
+            },
+            "filhos": [
+                {
+                    "id": "619",
+                    "tipo": "card",
+                    "nome": "Informações Únicas",
+                    "obrigatorio": "0",
+                    "data": "2024-07-15 16:10:56",
+                    "pai": "3920",
+                    "posicao": "0",
+                    "hash": "OyFfIJ358XMRlCrdqTdxwfxSSjCK7Z",
+                    "infos": {
+                        "basico": {
+                            "label": "Informações Únicas ",
+                            "recolhivel": 1
+                        },
+                        "logica": {
+                            "logica": 0,
+                            "setup": " "
+                        },
+                        "identificador": {
+                            "id": " ",
+                            "classes": " "
+                        }
+                    },
+                    "filhos": [
+                        {
+                            "id": "614",
+                            "tipo": "text",
+                            "nome": "Usuário Display",
+                            "obrigatorio": "0",
+                            "data": "2024-07-15 13:30:09",
+                            "pai": "619",
+                            "posicao": "0",
+                            "hash": "gFqK22VwlkSnq1cW46dGmP2jXCzxkD",
+                            "infos": {
+                                "basico": {
+                                    "esconder-label": 0,
+                                    "label": "Usuário Display ",
+                                    "descricao": " ",
+                                    "obrigatorio": 0,
+                                    "somente-leitura": 0
+                                },
+                                "estilo": {
+                                    "estilo": 1,
+                                    "tamanho-do-input": 0
+                                },
+                                "label": {
+                                    "placeholder": " ",
+                                    "sub-label": " ",
+                                    "tooltip": " ",
+                                    "prefixo": " ",
+                                    "sufixo": " "
+                                },
+                                "validacao": {
+                                    "mascara": 0
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": " "
+                                },
+                                "valor": {
+                                    "tipo": 0,
+                                    "fixo": " ",
+                                    "dinamico": 0,
+                                    "arquivo-query": " ",
+                                    "acao-query": " "
+                                },
+                                "tamanho": {
+                                    "ativar": 0,
+                                    "maximo": " ",
+                                    "minimo": " "
+                                },
+                                "identificador": {
+                                    "id": "usuario-display ",
+                                    "classes": " "
+                                }
+                            },
+                            "filhos": []
+                        },
+                        {
+                            "id": "3541",
+                            "tipo": "text",
+                            "nome": "E-mail",
+                            "obrigatorio": "1",
+                            "data": "2024-07-15 23:21:57",
+                            "pai": "619",
+                            "posicao": "1",
+                            "hash": "XuvM4v5QPNmT7ZfaakqWnm1zB9u0w1",
+                            "infos": {
+                                "basico": {
+                                    "esconder-label": 0,
+                                    "label": "E-mail ",
+                                    "descricao": " ",
+                                    "obrigatorio": 1,
+                                    "somente-leitura": 0
+                                },
+                                "estilo": {
+                                    "estilo": 1,
+                                    "tamanho-do-input": 0
+                                },
+                                "label": {
+                                    "placeholder": " ",
+                                    "sub-label": " ",
+                                    "tooltip": " ",
+                                    "prefixo": "",
+                                    "sufixo": ""
+                                },
+                                "validacao": {
+                                    "mascara": 16
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": " "
+                                },
+                                "identificador": {
+                                    "id": " ",
+                                    "classes": " "
+                                },
+                                "valor": {
+                                    "tipo": 0,
+                                    "fixo": " ",
+                                    "dinamico": 0,
+                                    "arquivo-query": " ",
+                                    "acao-query": " "
+                                },
+                                "tamanho": {
+                                    "ativar": 0,
+                                    "maximo": " ",
+                                    "minimo": " "
+                                }
+                            },
+                            "filhos": []
+                        },
+                        {
+                            "id": "3544",
+                            "tipo": "text",
+                            "nome": "Usuário",
+                            "obrigatorio": "0",
+                            "data": "2024-07-15 23:21:59",
+                            "pai": "619",
+                            "posicao": "2",
+                            "hash": "B4IXwnanZwFTXajgI80eityhzcEdjJ",
+                            "infos": {
+                                "basico": {
+                                    "esconder-label": 0,
+                                    "label": "Usuário ",
+                                    "descricao": " ",
+                                    "obrigatorio": 0,
+                                    "somente-leitura": 0
+                                },
+                                "estilo": {
+                                    "estilo": 1,
+                                    "tamanho-do-input": 0
+                                },
+                                "label": {
+                                    "placeholder": " ",
+                                    "sub-label": " ",
+                                    "tooltip": " ",
+                                    "prefixo": "",
+                                    "sufixo": ""
+                                },
+                                "validacao": {
+                                    "mascara": 0
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": " "
+                                },
+                                "identificador": {
+                                    "id": " ",
+                                    "classes": " "
+                                },
+                                "valor": {
+                                    "tipo": 0,
+                                    "fixo": " ",
+                                    "dinamico": 0,
+                                    "arquivo-query": " ",
+                                    "acao-query": " "
+                                },
+                                "tamanho": {
+                                    "ativar": 1,
+                                    "maximo": 50,
+                                    "minimo": " "
+                                }
+                            },
+                            "filhos": []
+                        },
+                        {
+                            "id": "3543",
+                            "tipo": "text",
+                            "nome": "CPF",
+                            "obrigatorio": "0",
+                            "data": "2024-07-15 23:22:03",
+                            "pai": "619",
+                            "posicao": "3",
+                            "hash": "y8lrpW4zdcH3DGLxabSW9VpqOHI1ob",
+                            "infos": {
+                                "basico": {
+                                    "esconder-label": 0,
+                                    "label": "CPF ",
+                                    "descricao": " ",
+                                    "obrigatorio": 0,
+                                    "somente-leitura": 0
+                                },
+                                "estilo": {
+                                    "estilo": 1,
+                                    "tamanho-do-input": 0
+                                },
+                                "label": {
+                                    "placeholder": " ",
+                                    "sub-label": " ",
+                                    "tooltip": " ",
+                                    "prefixo": "",
+                                    "sufixo": ""
+                                },
+                                "validacao": {
+                                    "mascara": 1
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": " "
+                                },
+                                "identificador": {
+                                    "id": " ",
+                                    "classes": " "
+                                },
+                                "valor": {
+                                    "tipo": 0,
+                                    "fixo": "",
+                                    "dinamico": 0,
+                                    "arquivo-query": "",
+                                    "acao-query": ""
+                                },
+                                "tamanho": {
+                                    "ativar": 0,
+                                    "maximo": "",
+                                    "minimo": ""
+                                }
+                            },
+                            "filhos": []
+                        },
+                        {
+                            "id": "3542",
+                            "tipo": "text",
+                            "nome": "Telefone",
+                            "obrigatorio": "0",
+                            "data": "2024-07-15 23:22:03",
+                            "pai": "619",
+                            "posicao": "4",
+                            "hash": "MeEGyJoBHKG2JOEJHudyUx46vcslSi",
+                            "infos": {
+                                "basico": {
+                                    "esconder-label": 0,
+                                    "label": "Telefone ",
+                                    "descricao": " ",
+                                    "obrigatorio": 0,
+                                    "somente-leitura": 0
+                                },
+                                "estilo": {
+                                    "estilo": 1,
+                                    "tamanho-do-input": 0
+                                },
+                                "label": {
+                                    "placeholder": " ",
+                                    "sub-label": " ",
+                                    "tooltip": " ",
+                                    "prefixo": "",
+                                    "sufixo": ""
+                                },
+                                "validacao": {
+                                    "mascara": 4
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": " "
+                                },
+                                "identificador": {
+                                    "id": " ",
+                                    "classes": " "
+                                },
+                                "valor": {
+                                    "tipo": 0,
+                                    "fixo": "",
+                                    "dinamico": 0,
+                                    "arquivo-query": "",
+                                    "acao-query": ""
+                                },
+                                "tamanho": {
+                                    "ativar": 0,
+                                    "maximo": "",
+                                    "minimo": ""
+                                }
+                            },
+                            "filhos": []
+                        }
+                    ]
+                },
+                {
+                    "id": "1153",
+                    "tipo": "card",
+                    "nome": "Informações Básicas  ",
+                    "obrigatorio": "0",
+                    "data": "2024-07-15 16:10:56",
+                    "pai": "3920",
+                    "posicao": "1",
+                    "hash": "DgEXGJ8izrL1PLESPCWW821jB6aEKK",
+                    "infos": {
+                        "basico": {
+                            "label": "Informações Básicas   ",
+                            "recolhivel": 1
+                        },
+                        "logica": {
+                            "logica": 0,
+                            "setup": "   "
+                        },
+                        "identificador": {
+                            "id": "divGerais ",
+                            "classes": " "
+                        }
+                    },
+                    "filhos": [
+                        {
+                            "id": "1154",
+                            "tipo": "text",
+                            "nome": "Nome",
+                            "obrigatorio": "0",
+                            "data": "2024-08-06 11:09:41",
+                            "pai": "1153",
+                            "posicao": "1",
+                            "hash": "NcIp3dQ9aMIHF3Cm39KRZbUvE4q7pS",
+                            "infos": {
+                                "basico": {
+                                    "esconder-label": 0,
+                                    "label": "Nome ",
+                                    "descricao": " ",
+                                    "obrigatorio": 0,
+                                    "somente-leitura": 0
+                                },
+                                "estilo": {
+                                    "estilo": 1,
+                                    "tamanho-do-input": 0
+                                },
+                                "label": {
+                                    "placeholder": " ",
+                                    "sub-label": " ",
+                                    "tooltip": " ",
+                                    "prefixo": " ",
+                                    "sufixo": " "
+                                },
+                                "validacao": {
+                                    "mascara": 0
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": " "
+                                },
+                                "valor": {
+                                    "tipo": 0,
+                                    "fixo": " ",
+                                    "dinamico": 0,
+                                    "arquivo-query": " ",
+                                    "acao-query": " "
+                                },
+                                "tamanho": {
+                                    "ativar": 0,
+                                    "maximo": " ",
+                                    "minimo": " "
+                                },
+                                "identificador": {
+                                    "id": " ",
+                                    "classes": " "
+                                }
+                            },
+                            "filhos": []
+                        },
+                        {
+                            "id": "1155",
+                            "tipo": "text",
+                            "nome": "Sobrenome",
+                            "obrigatorio": "0",
+                            "data": "2024-08-06 11:09:45",
+                            "pai": "1153",
+                            "posicao": "2",
+                            "hash": "uBS6krw2NNQlmdXFS2uTIL4EEoR6TJ",
+                            "infos": {
+                                "basico": {
+                                    "esconder-label": 0,
+                                    "label": "Sobrenome ",
+                                    "descricao": " ",
+                                    "obrigatorio": 0,
+                                    "somente-leitura": 0
+                                },
+                                "estilo": {
+                                    "estilo": 1,
+                                    "tamanho-do-input": 0
+                                },
+                                "label": {
+                                    "placeholder": " ",
+                                    "sub-label": " ",
+                                    "tooltip": " ",
+                                    "prefixo": " ",
+                                    "sufixo": " "
+                                },
+                                "validacao": {
+                                    "mascara": 0
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": " "
+                                },
+                                "valor": {
+                                    "tipo": 0,
+                                    "fixo": " ",
+                                    "dinamico": 0,
+                                    "arquivo-query": " ",
+                                    "acao-query": " "
+                                },
+                                "tamanho": {
+                                    "ativar": 0,
+                                    "maximo": " ",
+                                    "minimo": " "
+                                },
+                                "identificador": {
+                                    "id": " ",
+                                    "classes": " "
+                                }
+                            },
+                            "filhos": []
+                        },
+                        {
+                            "id": "3545",
+                            "tipo": "text",
+                            "nome": "Data de Nascimento",
+                            "obrigatorio": "0",
+                            "data": "2024-08-06 11:10:04",
+                            "pai": "1153",
+                            "posicao": "3",
+                            "hash": "kq1dK6008hc0Fz7OiEDY5seovo6Xpx",
+                            "infos": {
+                                "basico": {
+                                    "esconder-label": 0,
+                                    "label": "Data de Nascimento ",
+                                    "descricao": " ",
+                                    "obrigatorio": 0,
+                                    "somente-leitura": 0
+                                },
+                                "estilo": {
+                                    "estilo": 1,
+                                    "tamanho-do-input": 0
+                                },
+                                "label": {
+                                    "placeholder": " ",
+                                    "sub-label": " ",
+                                    "tooltip": " ",
+                                    "prefixo": "",
+                                    "sufixo": ""
+                                },
+                                "validacao": {
+                                    "mascara": 7
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": " "
+                                },
+                                "identificador": {
+                                    "id": " ",
+                                    "classes": " "
+                                },
+                                "valor": {
+                                    "tipo": 0,
+                                    "fixo": "",
+                                    "dinamico": 0,
+                                    "arquivo-query": "",
+                                    "acao-query": ""
+                                },
+                                "tamanho": {
+                                    "ativar": 0,
+                                    "maximo": "",
+                                    "minimo": ""
+                                }
+                            },
+                            "filhos": []
+                        },
+                        {
+                            "id": "3825",
+                            "tipo": "select",
+                            "nome": "País",
+                            "obrigatorio": "0",
+                            "data": "2024-08-06 11:10:07",
+                            "pai": "1153",
+                            "posicao": "4",
+                            "hash": "xk5r6cAfEz4CqtDaQCVa5fP3OGfe7v",
+                            "infos": {
+                                "basico": {
+                                    "esconder-label": 0,
+                                    "label": "País ",
+                                    "descricao": " ",
+                                    "obrigatorio": 0,
+                                    "select-2": 1,
+                                    "somente-leitura": 0,
+                                    "render": 0
+                                },
+                                "opcoes": {
+                                    "multiplo": 0,
+                                    "opcoes": " "
+                                },
+                                "dinamica": {
+                                    "opcoes-dinamicas": 1,
+                                    "configuracoes": {
+                                        "modulo": "enderecos",
+                                        "formulario": "paSUHoOp7TB4M44ShqQAi0bDKSoPdGCy.json",
+                                        "regra": "1"
+                                    },
+                                    "arquivo-query": "admin\/data\/locais.php ",
+                                    "acao-query": "paises ",
+                                    "smart-triger": 0,
+                                    "input-trigger": 0,
+                                    "url-trigger": "",
+                                    "acao-trigger": ""
+                                },
+                                "estilo": {
+                                    "estilo": 1,
+                                    "tamanho-do-input": 0
+                                },
+                                "label": {
+                                    "placeholder": " ",
+                                    "sub-label": " ",
+                                    "tooltip": " "
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": " "
+                                },
+                                "identificador": {
+                                    "id": " ",
+                                    "classes": " "
+                                },
+                                "nown": {
+                                    "ativo": 0,
+                                    "modulo": "",
+                                    "paginacao": "",
+                                    "chave": "",
+                                    "valor": ""
+                                }
+                            },
+                            "filhos": []
+                        },
+                        {
+                            "id": "1163",
+                            "tipo": "textarea",
+                            "nome": "Sobre mim",
+                            "obrigatorio": "0",
+                            "data": "2024-08-06 11:10:07",
+                            "pai": "1153",
+                            "posicao": "5",
+                            "hash": "0r8kI1D93UDxjCjONO9nuIRs0GDQWC",
+                            "infos": {
+                                "basico": {
+                                    "esconder-label": 0,
+                                    "label": "Sobre mim ",
+                                    "descricao": " ",
+                                    "obrigatorio": 0
+                                },
+                                "estilo": {
+                                    "estilo": 1,
+                                    "tamanho-do-input": 0
+                                },
+                                "label": {
+                                    "placeholder": " ",
+                                    "sub-label": " ",
+                                    "tooltip": " "
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": " "
+                                },
+                                "tamanho": {
+                                    "ativar": 0,
+                                    "maximo": "",
+                                    "minimo": ""
+                                },
+                                "identificador": {
+                                    "id": "",
+                                    "classes": ""
+                                }
+                            },
+                            "filhos": []
+                        },
+                        {
+                            "id": "1164",
+                            "tipo": "select",
+                            "nome": "Genero",
+                            "obrigatorio": "0",
+                            "data": "2024-08-06 11:10:07",
+                            "pai": "1153",
+                            "posicao": "6",
+                            "hash": "utRl25u8fa9bKDsgXBatzGyUWWXg7D",
+                            "infos": {
+                                "basico": {
+                                    "label": "Genero ",
+                                    "descricao": " ",
+                                    "obrigatorio": 0,
+                                    "select-2": 0,
+                                    "esconder-label": 0,
+                                    "somente-leitura": 0
+                                },
+                                "opcoes": {
+                                    "multiplo": 0,
+                                    "opcoes": [
+                                        {
+                                            "nome": "Masculino",
+                                            "valor": "1",
+                                            "selecionado": false
+                                        },
+                                        {
+                                            "nome": "Femino",
+                                            "valor": "2",
+                                            "selecionado": false
+                                        },
+                                        {
+                                            "nome": "Outros",
+                                            "valor": "3",
+                                            "selecionado": false
+                                        }
+                                    ]
+                                },
+                                "dinamica": {
+                                    "opcoes-dinamicas": 0,
+                                    "configuracoes": " ",
+                                    "arquivo-query": "",
+                                    "acao-query": ""
+                                },
+                                "estilo": {
+                                    "estilo": 1,
+                                    "tamanho-do-input": 0
+                                },
+                                "label": {
+                                    "placeholder": " ",
+                                    "sub-label": " ",
+                                    "tooltip": " "
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": " "
+                                },
+                                "identificador": {
+                                    "id": " ",
+                                    "classes": " "
+                                }
+                            },
+                            "filhos": []
+                        },
+                        {
+                            "id": "1165",
+                            "tipo": "text",
+                            "nome": "Outro Genero ",
+                            "obrigatorio": "0",
+                            "data": "2024-08-06 11:10:07",
+                            "pai": "1153",
+                            "posicao": "7",
+                            "hash": "NMgZZdMVossD33diRvn1wFa03fB4qd",
+                            "infos": {
+                                "basico": {
+                                    "esconder-label": 0,
+                                    "label": "Outro Genero  ",
+                                    "descricao": "  ",
+                                    "obrigatorio": 0
+                                },
+                                "estilo": {
+                                    "estilo": 0,
+                                    "tamanho-do-input": 0
+                                },
+                                "label": {
+                                    "placeholder": "  ",
+                                    "sub-label": "  ",
+                                    "tooltip": "  "
+                                },
+                                "validacao": {
+                                    "mascara": 0
+                                },
+                                "logica": {
+                                    "logica": 1,
+                                    "setup": {
+                                        "mostrar": "1",
+                                        "todas": "1",
+                                        "logicas": [
+                                            {
+                                                "i": "utRl25u8fa9bKDsgXBatzGyUWWXg7D",
+                                                "r": "0",
+                                                "v": "3"
+                                            }
+                                        ]
+                                    }
+                                },
+                                "identificador": {
+                                    "id": " ",
+                                    "classes": " "
+                                }
+                            },
+                            "filhos": []
+                        }
+                    ]
+                },
+                {
+                    "id": "1166",
+                    "tipo": "card",
+                    "nome": "Redes Sociais",
+                    "obrigatorio": "0",
+                    "data": "2024-07-16 13:28:48",
+                    "pai": "3920",
+                    "posicao": "2",
+                    "hash": "Kdx7spRFOO2X1w3WTfC9nXfjFHNmIr",
+                    "infos": {
+                        "basico": {
+                            "label": "Redes Sociais ",
+                            "recolhivel": 1
+                        },
+                        "logica": {
+                            "logica": 0,
+                            "setup": " "
+                        },
+                        "identificador": {
+                            "id": " ",
+                            "classes": " "
+                        },
+                        "flex": {
+                            "ativar": 0,
+                            "direcao": 1,
+                            "justify": 0,
+                            "align": 0,
+                            "gap": 0
+                        }
+                    },
+                    "filhos": [
+                        {
+                            "id": "1173",
+                            "tipo": "text",
+                            "nome": "Instagram",
+                            "obrigatorio": "0",
+                            "data": "2024-08-06 11:10:46",
+                            "pai": "1166",
+                            "posicao": "0",
+                            "hash": "T202vgNTXGiPe1QFRqRGgByKplkAiP",
+                            "infos": {
+                                "basico": {
+                                    "esconder-label": 0,
+                                    "label": "Instagram ",
+                                    "descricao": " ",
+                                    "obrigatorio": 0,
+                                    "somente-leitura": 0
+                                },
+                                "estilo": {
+                                    "estilo": 1,
+                                    "tamanho-do-input": 0
+                                },
+                                "label": {
+                                    "placeholder": " ",
+                                    "sub-label": " ",
+                                    "tooltip": " ",
+                                    "prefixo": " ",
+                                    "sufixo": " "
+                                },
+                                "validacao": {
+                                    "mascara": 0
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": " "
+                                },
+                                "valor": {
+                                    "tipo": 0,
+                                    "fixo": " ",
+                                    "dinamico": 0,
+                                    "arquivo-query": " ",
+                                    "acao-query": " "
+                                },
+                                "tamanho": {
+                                    "ativar": 0,
+                                    "maximo": " ",
+                                    "minimo": " "
+                                },
+                                "identificador": {
+                                    "id": " ",
+                                    "classes": " "
+                                }
+                            },
+                            "filhos": []
+                        },
+                        {
+                            "id": "1171",
+                            "tipo": "text",
+                            "nome": "Facebook",
+                            "obrigatorio": "0",
+                            "data": "2024-08-06 11:10:52",
+                            "pai": "1166",
+                            "posicao": "1",
+                            "hash": "QqCLGPyWs6ZSFYEaeWD4F8LhyGw1cN",
+                            "infos": {
+                                "basico": {
+                                    "esconder-label": 0,
+                                    "label": "Facebook ",
+                                    "descricao": " ",
+                                    "obrigatorio": 0,
+                                    "somente-leitura": 0
+                                },
+                                "estilo": {
+                                    "estilo": 1,
+                                    "tamanho-do-input": 0
+                                },
+                                "label": {
+                                    "placeholder": " ",
+                                    "sub-label": " ",
+                                    "tooltip": " ",
+                                    "prefixo": " ",
+                                    "sufixo": " "
+                                },
+                                "validacao": {
+                                    "mascara": 0
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": " "
+                                },
+                                "valor": {
+                                    "tipo": 0,
+                                    "fixo": " ",
+                                    "dinamico": 0,
+                                    "arquivo-query": " ",
+                                    "acao-query": " "
+                                },
+                                "tamanho": {
+                                    "ativar": 0,
+                                    "maximo": " ",
+                                    "minimo": " "
+                                },
+                                "identificador": {
+                                    "id": " ",
+                                    "classes": " "
+                                }
+                            },
+                            "filhos": []
+                        },
+                        {
+                            "id": "1174",
+                            "tipo": "text",
+                            "nome": "TikTok",
+                            "obrigatorio": "0",
+                            "data": "2024-08-06 11:10:55",
+                            "pai": "1166",
+                            "posicao": "2",
+                            "hash": "1fhl7CZFbxon61AeSAHxqgIZh82IZS",
+                            "infos": {
+                                "basico": {
+                                    "esconder-label": 0,
+                                    "label": "TikTok ",
+                                    "descricao": " ",
+                                    "obrigatorio": 0,
+                                    "somente-leitura": 0
+                                },
+                                "estilo": {
+                                    "estilo": 1,
+                                    "tamanho-do-input": 0
+                                },
+                                "label": {
+                                    "placeholder": " ",
+                                    "sub-label": " ",
+                                    "tooltip": " ",
+                                    "prefixo": " ",
+                                    "sufixo": " "
+                                },
+                                "validacao": {
+                                    "mascara": 0
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": " "
+                                },
+                                "valor": {
+                                    "tipo": 0,
+                                    "fixo": " ",
+                                    "dinamico": 0,
+                                    "arquivo-query": " ",
+                                    "acao-query": " "
+                                },
+                                "tamanho": {
+                                    "ativar": 0,
+                                    "maximo": " ",
+                                    "minimo": " "
+                                },
+                                "identificador": {
+                                    "id": " ",
+                                    "classes": " "
+                                }
+                            },
+                            "filhos": []
+                        },
+                        {
+                            "id": "1172",
+                            "tipo": "text",
+                            "nome": "X (Twiter)",
+                            "obrigatorio": "0",
+                            "data": "2024-08-06 11:10:55",
+                            "pai": "1166",
+                            "posicao": "3",
+                            "hash": "ufWqcdsgN47V8vQvJdiU28x7WS0bSi",
+                            "infos": {
+                                "basico": {
+                                    "esconder-label": 0,
+                                    "label": "X (Twiter) ",
+                                    "descricao": " ",
+                                    "obrigatorio": 0,
+                                    "somente-leitura": 0
+                                },
+                                "estilo": {
+                                    "estilo": 1,
+                                    "tamanho-do-input": 0
+                                },
+                                "label": {
+                                    "placeholder": " ",
+                                    "sub-label": " ",
+                                    "tooltip": " ",
+                                    "prefixo": " ",
+                                    "sufixo": " "
+                                },
+                                "validacao": {
+                                    "mascara": 0
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": " "
+                                },
+                                "valor": {
+                                    "tipo": 0,
+                                    "fixo": " ",
+                                    "dinamico": 0,
+                                    "arquivo-query": " ",
+                                    "acao-query": " "
+                                },
+                                "tamanho": {
+                                    "ativar": 0,
+                                    "maximo": " ",
+                                    "minimo": " "
+                                },
+                                "identificador": {
+                                    "id": " ",
+                                    "classes": " "
+                                }
+                            },
+                            "filhos": []
+                        },
+                        {
+                            "id": "1170",
+                            "tipo": "text",
+                            "nome": "LinkedIn",
+                            "obrigatorio": "0",
+                            "data": "2024-08-06 11:11:00",
+                            "pai": "1166",
+                            "posicao": "4",
+                            "hash": "qrEU5aV9t8zRiyCavDvRNT6YAedrj9",
+                            "infos": {
+                                "basico": {
+                                    "esconder-label": 0,
+                                    "label": "LinkedIn ",
+                                    "descricao": " ",
+                                    "obrigatorio": 0,
+                                    "somente-leitura": 0
+                                },
+                                "estilo": {
+                                    "estilo": 1,
+                                    "tamanho-do-input": 0
+                                },
+                                "label": {
+                                    "placeholder": " ",
+                                    "sub-label": " ",
+                                    "tooltip": " ",
+                                    "prefixo": " ",
+                                    "sufixo": " "
+                                },
+                                "validacao": {
+                                    "mascara": 0
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": " "
+                                },
+                                "valor": {
+                                    "tipo": 0,
+                                    "fixo": " ",
+                                    "dinamico": 0,
+                                    "arquivo-query": " ",
+                                    "acao-query": " "
+                                },
+                                "tamanho": {
+                                    "ativar": 0,
+                                    "maximo": " ",
+                                    "minimo": " "
+                                },
+                                "identificador": {
+                                    "id": " ",
+                                    "classes": " "
+                                }
+                            },
+                            "filhos": []
+                        },
+                        {
+                            "id": "1175",
+                            "tipo": "text",
+                            "nome": "GitHub",
+                            "obrigatorio": "0",
+                            "data": "2024-08-06 11:11:00",
+                            "pai": "1166",
+                            "posicao": "5",
+                            "hash": "7olOBs8QzMDqGDdtUjXx6Qz9TssXIH",
+                            "infos": {
+                                "basico": {
+                                    "esconder-label": 0,
+                                    "label": "GitHub ",
+                                    "descricao": " ",
+                                    "obrigatorio": 0,
+                                    "somente-leitura": 0
+                                },
+                                "estilo": {
+                                    "estilo": 1,
+                                    "tamanho-do-input": 0
+                                },
+                                "label": {
+                                    "placeholder": " ",
+                                    "sub-label": " ",
+                                    "tooltip": " ",
+                                    "prefixo": " ",
+                                    "sufixo": " "
+                                },
+                                "validacao": {
+                                    "mascara": 0
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": " "
+                                },
+                                "valor": {
+                                    "tipo": 0,
+                                    "fixo": " ",
+                                    "dinamico": 0,
+                                    "arquivo-query": " ",
+                                    "acao-query": " "
+                                },
+                                "tamanho": {
+                                    "ativar": 0,
+                                    "maximo": " ",
+                                    "minimo": " "
+                                },
+                                "identificador": {
+                                    "id": " ",
+                                    "classes": " "
+                                }
+                            },
+                            "filhos": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "4403",
+            "tipo": "grupo",
+            "nome": null,
+            "obrigatorio": "0",
+            "data": "2024-08-06 11:12:51",
+            "pai": "0",
+            "posicao": "3",
+            "hash": "lTMRkpwPxbtn9eYbbST1yKX5Cr7f3s",
+            "infos": {
+                "flex": {
+                    "ativar": 0,
+                    "direcao": 1,
+                    "justify": 0,
+                    "align": 0,
+                    "gap": 0
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": ""
+                },
+                "identificador": {
+                    "id": "divSenha",
+                    "classes": ""
+                }
+            },
+            "filhos": [
+                {
+                    "id": "3924",
+                    "tipo": "card",
+                    "nome": "Trocar Senha",
+                    "obrigatorio": "0",
+                    "data": "2024-08-06 11:12:51",
+                    "pai": "4403",
+                    "posicao": "0",
+                    "hash": "zIdROaKWNOJnZP5mhMouBR7t8MaQpK",
+                    "infos": {
+                        "basico": {
+                            "label": "Trocar Senha ",
+                            "recolhivel": 0
+                        },
+                        "logica": {
+                            "logica": 0,
+                            "setup": " "
+                        },
+                        "identificador": {
+                            "id": " ",
+                            "classes": " "
+                        },
+                        "flex": {
+                            "ativar": 0,
+                            "direcao": 1,
+                            "justify": 0,
+                            "align": 0,
+                            "gap": 0
+                        }
+                    },
+                    "filhos": [
+                        {
+                            "id": "3944",
+                            "tipo": "grupo",
+                            "nome": null,
+                            "obrigatorio": "0",
+                            "data": "2024-07-15 17:26:23",
+                            "pai": "3924",
+                            "posicao": "0",
+                            "hash": "mqr4w0joVCAbSfHyvoAwFVo0NNkYSb",
+                            "infos": {
+                                "flex": {
+                                    "ativar": 1,
+                                    "direcao": 1,
+                                    "justify": "between ",
+                                    "align": "center ",
+                                    "gap": 0
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": " "
+                                },
+                                "identificador": {
+                                    "id": "startPass ",
+                                    "classes": " "
+                                }
+                            },
+                            "filhos": [
+                                {
+                                    "id": "3936",
+                                    "tipo": "html",
+                                    "nome": "",
+                                    "obrigatorio": "0",
+                                    "data": "2024-07-15 17:26:23",
+                                    "pai": "3944",
+                                    "posicao": "0",
+                                    "hash": "kZug2F9TFcwqKAhtr2DgL7Z4WmEW9X",
+                                    "infos": {
+                                        "basico": {
+                                            "esconder-label": 0,
+                                            "label": " ",
+                                            "id-da-div": "senha "
+                                        },
+                                        "codigo": {
+                                            "html": "<h2 class=\"fs-14 m-0\">Senha<\/h2>\n<p class=\"m-0\">***********<\/p> "
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": " "
+                                        },
+                                        "identificador": {
+                                            "id": " ",
+                                            "classes": " "
+                                        }
+                                    },
+                                    "filhos": []
+                                },
+                                {
+                                    "id": "3935",
+                                    "tipo": "botao",
+                                    "nome": "Trocar Senha",
+                                    "obrigatorio": "0",
+                                    "data": "2024-07-15 17:26:25",
+                                    "pai": "3944",
+                                    "posicao": "1",
+                                    "hash": "blDv532kMJU9byEBBgfklUtrV44RS0",
+                                    "infos": {
+                                        "basico": {
+                                            "label": "Trocar Senha ",
+                                            "callback": " ",
+                                            "id": "btnTrocarSenha ",
+                                            "classes": " "
+                                        },
+                                        "estilo": {
+                                            "tamanho": 2,
+                                            "largura": 0,
+                                            "cor": "n-primaria "
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": " "
+                                        },
+                                        "identificador": {
+                                            "id": " ",
+                                            "classes": " "
+                                        }
+                                    },
+                                    "filhos": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "3946",
+                            "tipo": "grupo",
+                            "nome": null,
+                            "obrigatorio": "0",
+                            "data": "2024-07-15 18:19:21",
+                            "pai": "3924",
+                            "posicao": "1",
+                            "hash": "sHYP8R0OehpdINhXa3Z7USqIGns6an",
+                            "infos": {
+                                "flex": {
+                                    "ativar": 0,
+                                    "direcao": 1,
+                                    "justify": 0,
+                                    "align": 0,
+                                    "gap": 0
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": " "
+                                },
+                                "identificador": {
+                                    "id": "endPass ",
+                                    "classes": "d-none "
+                                }
+                            },
+                            "filhos": [
+                                {
+                                    "id": "3926",
+                                    "tipo": "coluna",
+                                    "nome": null,
+                                    "obrigatorio": "0",
+                                    "data": "2024-07-15 18:18:55",
+                                    "pai": "3946",
+                                    "posicao": "0",
+                                    "hash": "fVS3EqxwEbSNNGmsEU4caoP1WqNAXb",
+                                    "infos": {
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": " "
+                                        },
+                                        "identificador": {
+                                            "id": " ",
+                                            "classes": " "
+                                        }
+                                    },
+                                    "filhos": [
+                                        {
+                                            "id": "3927",
+                                            "tipo": "col",
+                                            "nome": null,
+                                            "obrigatorio": "0",
+                                            "data": "2024-07-15 16:49:22",
+                                            "pai": "3926",
+                                            "posicao": "0",
+                                            "hash": "MpPyrhU2wWLMQZHdRD3P9cJ3CctSiE",
+                                            "infos": {
+                                                "layout": {
+                                                    "tamanho": 6
+                                                },
+                                                "flex": {
+                                                    "ativar": 0,
+                                                    "direcao": 1,
+                                                    "justify": 0,
+                                                    "align": 0,
+                                                    "gap": 0
+                                                },
+                                                "logica": {
+                                                    "logica": 0,
+                                                    "setup": " "
+                                                },
+                                                "identificador": {
+                                                    "id": " ",
+                                                    "classes": " "
+                                                }
+                                            },
+                                            "filhos": [
+                                                {
+                                                    "id": "3925",
+                                                    "tipo": "password",
+                                                    "nome": "Repita a Senha",
+                                                    "obrigatorio": "0",
+                                                    "data": "2024-07-15 17:46:35",
+                                                    "pai": "3927",
+                                                    "posicao": "0",
+                                                    "hash": "SwSeJxOPeSi6lUbzCnCvIe7YaVsYEv",
+                                                    "infos": {
+                                                        "basico": {
+                                                            "esconder-label": 0,
+                                                            "label": "Repita a Senha ",
+                                                            "descricao": " ",
+                                                            "obrigatorio": 0,
+                                                            "botao-ver": 1
+                                                        },
+                                                        "logica": {
+                                                            "logica": 0,
+                                                            "setup": " "
+                                                        },
+                                                        "identificador": {
+                                                            "id": " ",
+                                                            "classes": " "
+                                                        },
+                                                        "peso": {
+                                                            "contador-de-peso": 0,
+                                                            "tamnho-minimo": "",
+                                                            "tamnho-maximo": "",
+                                                            "numero-obrigatorio": 0,
+                                                            "maiusculo-obrigatorio": 0,
+                                                            "minusculo-obrigatorio": 0,
+                                                            "especial-obrigatorio": 0
+                                                        }
+                                                    },
+                                                    "filhos": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "3928",
+                                            "tipo": "col",
+                                            "nome": null,
+                                            "obrigatorio": "0",
+                                            "data": "2024-07-15 16:49:22",
+                                            "pai": "3926",
+                                            "posicao": "1",
+                                            "hash": "wn6FrzFsKC7paPoi8Kb33q7kXCV69I",
+                                            "infos": [],
+                                            "filhos": [
+                                                {
+                                                    "id": "3929",
+                                                    "tipo": "password",
+                                                    "nome": "Digite a nova Senha",
+                                                    "obrigatorio": "0",
+                                                    "data": "2024-07-15 17:46:44",
+                                                    "pai": "3928",
+                                                    "posicao": "0",
+                                                    "hash": "oqxDsRI2CWisg82A6oUb7l0dFWAiHh",
+                                                    "infos": {
+                                                        "basico": {
+                                                            "esconder-label": 0,
+                                                            "label": "Digite a nova Senha ",
+                                                            "descricao": " ",
+                                                            "obrigatorio": 0,
+                                                            "botao-ver": 1
+                                                        },
+                                                        "logica": {
+                                                            "logica": 0,
+                                                            "setup": " "
+                                                        },
+                                                        "identificador": {
+                                                            "id": " ",
+                                                            "classes": " "
+                                                        },
+                                                        "peso": {
+                                                            "contador-de-peso": 0,
+                                                            "tamnho-minimo": "",
+                                                            "tamnho-maximo": "",
+                                                            "numero-obrigatorio": 0,
+                                                            "maiusculo-obrigatorio": 0,
+                                                            "minusculo-obrigatorio": 0,
+                                                            "especial-obrigatorio": 0
+                                                        }
+                                                    },
+                                                    "filhos": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "3945",
+                                    "tipo": "grupo",
+                                    "nome": null,
+                                    "obrigatorio": "0",
+                                    "data": "2024-07-15 18:18:55",
+                                    "pai": "3946",
+                                    "posicao": "1",
+                                    "hash": "XZpggqn1FtbRY9WD3BBP3yqoL3Kr7V",
+                                    "infos": {
+                                        "flex": {
+                                            "ativar": 1,
+                                            "direcao": 1,
+                                            "justify": "start",
+                                            "align": "center",
+                                            "gap": 1
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": ""
+                                        },
+                                        "identificador": {
+                                            "id": "",
+                                            "classes": ""
+                                        }
+                                    },
+                                    "filhos": [
+                                        {
+                                            "id": "3930",
+                                            "tipo": "botao",
+                                            "nome": "Salvar",
+                                            "obrigatorio": "0",
+                                            "data": "2024-07-15 18:12:58",
+                                            "pai": "3945",
+                                            "posicao": "0",
+                                            "hash": "KCktfHlmON8Xhwv6jFb06q87LcfxTh",
+                                            "infos": {
+                                                "basico": {
+                                                    "label": "Salvar ",
+                                                    "callback": " ",
+                                                    "id": "btnSalvarSenha ",
+                                                    "classes": "btnCancelarSenha "
+                                                },
+                                                "estilo": {
+                                                    "tamanho": 2,
+                                                    "largura": 0,
+                                                    "cor": "n-primaria "
+                                                },
+                                                "logica": {
+                                                    "logica": 0,
+                                                    "setup": " "
+                                                },
+                                                "identificador": {
+                                                    "id": " ",
+                                                    "classes": " "
+                                                }
+                                            },
+                                            "filhos": []
+                                        },
+                                        {
+                                            "id": "3931",
+                                            "tipo": "botao",
+                                            "nome": "Cancelar",
+                                            "obrigatorio": "0",
+                                            "data": "2024-07-15 18:12:58",
+                                            "pai": "3945",
+                                            "posicao": "1",
+                                            "hash": "2vG5acJq465Y7bxHzDxWUbKxq1EpTx",
+                                            "infos": {
+                                                "basico": {
+                                                    "label": "Cancelar ",
+                                                    "callback": " ",
+                                                    "id": "btnCancelarSenha",
+                                                    "classes": ""
+                                                },
+                                                "estilo": {
+                                                    "tamanho": 0,
+                                                    "largura": 0,
+                                                    "cor": " "
+                                                },
+                                                "logica": {
+                                                    "logica": 0,
+                                                    "setup": " "
+                                                },
+                                                "identificador": {
+                                                    "id": " ",
+                                                    "classes": " "
+                                                }
+                                            },
+                                            "filhos": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "4404",
+                    "tipo": "card",
+                    "nome": "Login Social",
+                    "obrigatorio": "0",
+                    "data": "2024-08-06 11:14:46",
+                    "pai": "4403",
+                    "posicao": "1",
+                    "hash": "kINnxwiz0eAiGLHtmtx7KKPZQdC4pj",
+                    "infos": {
+                        "basico": {
+                            "label": "Login Social",
+                            "recolhivel": 1
+                        },
+                        "flex": {
+                            "ativar": 0,
+                            "direcao": 1,
+                            "justify": 0,
+                            "align": 0,
+                            "gap": 0
+                        },
+                        "logica": {
+                            "logica": 0,
+                            "setup": ""
+                        },
+                        "identificador": {
+                            "id": "",
+                            "classes": ""
+                        }
+                    },
+                    "filhos": [
+                        {
+                            "id": "4406",
+                            "tipo": "switch",
+                            "nome": "Google",
+                            "obrigatorio": "0",
+                            "data": "2024-08-06 11:40:22",
+                            "pai": "4404",
+                            "posicao": "0",
+                            "hash": "Nrygrq1OyAo0wocZptJS7Wp2xEiKz1",
+                            "infos": {
+                                "basico": {
+                                    "label": "Google ",
+                                    "descricao": "Acesse a conta usando o Google ",
+                                    "obrigatorio": 0
+                                },
+                                "estilo": {
+                                    "estilo": 1,
+                                    "tamanho": 1,
+                                    "justificar": 2,
+                                    "ordem": 1
+                                },
+                                "label": {
+                                    "sub-label": " ",
+                                    "tooltip": " "
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": " "
+                                },
+                                "identificador": {
+                                    "id": " ",
+                                    "classes": " "
+                                }
+                            },
+                            "filhos": []
+                        },
+                        {
+                            "id": "4407",
+                            "tipo": "switch",
+                            "nome": "Facebook",
+                            "obrigatorio": "0",
+                            "data": "2024-08-06 11:40:22",
+                            "pai": "4404",
+                            "posicao": "1",
+                            "hash": "pr2m634EVT4xpeud2PImv0XRC8iTlz",
+                            "infos": {
+                                "basico": {
+                                    "label": "Facebook ",
+                                    "descricao": "Acessar conta usando Facebook ",
+                                    "obrigatorio": 0
+                                },
+                                "estilo": {
+                                    "estilo": 0,
+                                    "tamanho": 1,
+                                    "justificar": 2,
+                                    "ordem": 1
+                                },
+                                "label": {
+                                    "sub-label": " ",
+                                    "tooltip": " "
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": " "
+                                },
+                                "identificador": {
+                                    "id": " ",
+                                    "classes": " "
+                                }
+                            },
+                            "filhos": []
+                        }
+                    ]
+                },
+                {
+                    "id": "4691",
+                    "tipo": "card",
+                    "nome": "Validação de Dados",
+                    "obrigatorio": "0",
+                    "data": "2024-08-14 10:41:39",
+                    "pai": "4403",
+                    "posicao": "2",
+                    "hash": "q26x2RJHOiSM6z5vlbLR1KX22u0LN5",
+                    "infos": {
+                        "basico": {
+                            "label": "Validação de Dados",
+                            "recolhivel": 0
+                        },
+                        "flex": {
+                            "ativar": 0,
+                            "direcao": 1,
+                            "justify": 0,
+                            "align": 0,
+                            "gap": 0
+                        },
+                        "logica": {
+                            "logica": 0,
+                            "setup": ""
+                        },
+                        "identificador": {
+                            "id": "",
+                            "classes": ""
+                        }
+                    },
+                    "filhos": [
+                        {
+                            "id": "4689",
+                            "tipo": "switch",
+                            "nome": "E-mail Validado",
+                            "obrigatorio": "0",
+                            "data": "2024-08-14 10:35:13",
+                            "pai": "4691",
+                            "posicao": "0",
+                            "hash": "IK8TuwGLRAEadoBVH0DE7ZADZ4NCmB",
+                            "infos": {
+                                "basico": {
+                                    "label": "E-mail Validado",
+                                    "descricao": "",
+                                    "obrigatorio": 0
+                                },
+                                "estilo": {
+                                    "estilo": 0,
+                                    "tamanho": 0,
+                                    "justificar": 0,
+                                    "ordem": 0
+                                },
+                                "label": {
+                                    "sub-label": "",
+                                    "tooltip": ""
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": ""
+                                },
+                                "identificador": {
+                                    "id": "",
+                                    "classes": ""
+                                }
+                            },
+                            "filhos": []
+                        },
+                        {
+                            "id": "4690",
+                            "tipo": "switch",
+                            "nome": "Telefone Validado",
+                            "obrigatorio": "0",
+                            "data": "2024-08-14 10:35:13",
+                            "pai": "4691",
+                            "posicao": "1",
+                            "hash": "uRnhg7AHoYeIi21JoHn9scpXnoZpVN",
+                            "infos": {
+                                "basico": {
+                                    "label": "Telefone Validado",
+                                    "descricao": "",
+                                    "obrigatorio": 0
+                                },
+                                "estilo": {
+                                    "estilo": 0,
+                                    "tamanho": 0,
+                                    "justificar": 0,
+                                    "ordem": 0
+                                },
+                                "label": {
+                                    "sub-label": "",
+                                    "tooltip": ""
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": ""
+                                },
+                                "identificador": {
+                                    "id": "",
+                                    "classes": ""
+                                }
+                            },
+                            "filhos": []
+                        }
+                    ]
+                },
+                {
+                    "id": "4405",
+                    "tipo": "card",
+                    "nome": "Dois Fatores",
+                    "obrigatorio": "0",
+                    "data": "2024-08-14 10:41:39",
+                    "pai": "4403",
+                    "posicao": "3",
+                    "hash": "vqgJHHhhknVd7QrIgYCYUXyR0YLSsK",
+                    "infos": {
+                        "basico": {
+                            "label": "Dois Fatores ",
+                            "recolhivel": 1
+                        },
+                        "flex": {
+                            "ativar": 0,
+                            "direcao": 1,
+                            "justify": 0,
+                            "align": 0,
+                            "gap": 0
+                        },
+                        "logica": {
+                            "logica": 0,
+                            "setup": " "
+                        },
+                        "identificador": {
+                            "id": " ",
+                            "classes": " "
+                        }
+                    },
+                    "filhos": [
+                        {
+                            "id": "4692",
+                            "tipo": "switch",
+                            "nome": "Ativar Validação de 2 fatores",
+                            "obrigatorio": "0",
+                            "data": "2024-08-14 10:38:27",
+                            "pai": "4405",
+                            "posicao": "0",
+                            "hash": "7jO2qRrkba2uCek9enMIotPqogywf0",
+                            "infos": {
+                                "basico": {
+                                    "label": "Ativar Validação de 2 fatores",
+                                    "descricao": "",
+                                    "obrigatorio": 0
+                                },
+                                "estilo": {
+                                    "estilo": 0,
+                                    "tamanho": 0,
+                                    "justificar": 0,
+                                    "ordem": 0
+                                },
+                                "label": {
+                                    "sub-label": "",
+                                    "tooltip": ""
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": ""
+                                },
+                                "identificador": {
+                                    "id": "",
+                                    "classes": ""
+                                }
+                            },
+                            "filhos": []
+                        },
+                        {
+                            "id": "4693",
+                            "tipo": "switch",
+                            "nome": "Via Email",
+                            "obrigatorio": "0",
+                            "data": "2024-08-14 10:38:42",
+                            "pai": "4405",
+                            "posicao": "1",
+                            "hash": "PFogndI5uhv7jOb3JhyTlPghFeqq74",
+                            "infos": {
+                                "basico": {
+                                    "label": "Via Email ",
+                                    "descricao": " ",
+                                    "obrigatorio": 0
+                                },
+                                "estilo": {
+                                    "estilo": 0,
+                                    "tamanho": 0,
+                                    "justificar": 0,
+                                    "ordem": 0
+                                },
+                                "label": {
+                                    "sub-label": " ",
+                                    "tooltip": " "
+                                },
+                                "logica": {
+                                    "logica": 1,
+                                    "setup": {
+                                        "mostrar": "1",
+                                        "todas": "1",
+                                        "logicas": []
+                                    }
+                                },
+                                "identificador": {
+                                    "id": " ",
+                                    "classes": " "
+                                }
+                            },
+                            "filhos": []
+                        },
+                        {
+                            "id": "4695",
+                            "tipo": "switch",
+                            "nome": "Via WhatsApp",
+                            "obrigatorio": "0",
+                            "data": "2024-08-14 10:39:49",
+                            "pai": "4405",
+                            "posicao": "2",
+                            "hash": "IE2QSTC0EuygpCGPYXp9Avmx7lqQeR",
+                            "infos": {
+                                "basico": {
+                                    "label": "Via WhatsApp ",
+                                    "descricao": " ",
+                                    "obrigatorio": 0
+                                },
+                                "estilo": {
+                                    "estilo": 0,
+                                    "tamanho": 0,
+                                    "justificar": 0,
+                                    "ordem": 0
+                                },
+                                "label": {
+                                    "sub-label": " ",
+                                    "tooltip": " "
+                                },
+                                "logica": {
+                                    "logica": 1,
+                                    "setup": {
+                                        "mostrar": "1",
+                                        "todas": "1",
+                                        "logicas": []
+                                    }
+                                },
+                                "identificador": {
+                                    "id": " ",
+                                    "classes": " "
+                                }
+                            },
+                            "filhos": []
+                        },
+                        {
+                            "id": "4694",
+                            "tipo": "switch",
+                            "nome": "Via SMS",
+                            "obrigatorio": "0",
+                            "data": "2024-08-14 10:39:58",
+                            "pai": "4405",
+                            "posicao": "3",
+                            "hash": "8XZUvaDiX63hSCO10eWp5s7NWgkfcr",
+                            "infos": {
+                                "basico": {
+                                    "label": "Via SMS ",
+                                    "descricao": " ",
+                                    "obrigatorio": 0
+                                },
+                                "estilo": {
+                                    "estilo": 0,
+                                    "tamanho": 0,
+                                    "justificar": 0,
+                                    "ordem": 0
+                                },
+                                "label": {
+                                    "sub-label": " ",
+                                    "tooltip": " "
+                                },
+                                "logica": {
+                                    "logica": 1,
+                                    "setup": {
+                                        "mostrar": "1",
+                                        "todas": "1",
+                                        "logicas": []
+                                    }
+                                },
+                                "identificador": {
+                                    "id": " ",
+                                    "classes": " "
+                                }
+                            },
+                            "filhos": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "8148",
+            "tipo": "card",
+            "nome": "Empresas",
+            "obrigatorio": "0",
+            "data": "2024-12-11 11:14:46",
+            "pai": "0",
+            "posicao": "4",
+            "hash": "OjVLADuolCtRmbmw7j4acrWLXIaC4B",
+            "infos": {
+                "basico": {
+                    "label": "Empresas ",
+                    "recolhivel": 0
+                },
+                "flex": {
+                    "ativar": 0,
+                    "direcao": 1,
+                    "justify": 0,
+                    "align": 0,
+                    "gap": 0
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": " "
+                },
+                "identificador": {
+                    "id": "divEmpresas ",
+                    "classes": " "
+                },
+                "nown": {
+                    "ativo": 0,
+                    "modulo": " ",
+                    "paginacao": " ",
+                    "chave": " ",
+                    "valor": " "
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "6924",
+            "tipo": "enderecos",
+            "nome": null,
+            "obrigatorio": "0",
+            "data": "2024-12-11 10:57:08",
+            "pai": "0",
+            "posicao": "5",
+            "hash": "gdKbeUTmVJiMYyTgaEys2C1uCzYKtm",
+            "infos": {
+                "basico": {
+                    "multiplo": 1,
+                    "criar-novo": 1
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": " "
+                },
+                "identificador": {
+                    "id": "divEnderecos ",
+                    "classes": " "
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "623",
+            "tipo": "cardSalvar",
+            "nome": "",
+            "obrigatorio": "0",
+            "data": "2024-12-11 10:57:08",
+            "pai": "0",
+            "posicao": "6",
+            "hash": "8ekVXeMaHGFr2FVBQvuiDbJiifGhHK",
+            "infos": {
+                "basico": {
+                    "label": " ",
+                    "recolhivel": 0,
+                    "fixar-no-rodape-mobile": 1,
+                    "fixar-no-rodape-pc": 1
+                },
+                "funcoes": {
+                    "desabilitar-status": 1,
+                    "desabilitar-vizibilidade": 1,
+                    "desabilitar-agendados": 1
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": " "
+                },
+                "identificador": {
+                    "id": "",
+                    "classes": ""
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "628",
+            "tipo": "select",
+            "nome": "Função",
+            "obrigatorio": "0",
+            "data": "2024-12-11 10:57:08",
+            "pai": "0",
+            "posicao": "7",
+            "hash": "FdCbQmM8AR9AUrBnpe8SGWxQBpjMTQ",
+            "infos": {
+                "basico": {
+                    "label": "Função ",
+                    "descricao": " ",
+                    "obrigatorio": 0,
+                    "select-2": 0,
+                    "esconder-label": 1,
+                    "somente-leitura": 0
+                },
+                "opcoes": {
+                    "multiplo": 0,
+                    "opcoes": " "
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": " ",
+                    "sub-label": " ",
+                    "tooltip": " "
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": " "
+                },
+                "dinamica": {
+                    "opcoes-dinamicas": 1,
+                    "configuracoes": {
+                        "modulo": "usuarios",
+                        "formulario": "pZ5qfBZdIkw0Xsy.json",
+                        "regra": "1"
+                    },
+                    "arquivo-query": " ",
+                    "acao-query": " "
+                },
+                "identificador": {
+                    "id": "containerFuncao ",
+                    "classes": " "
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "2495",
+            "tipo": "select",
+            "nome": "Ativo",
+            "obrigatorio": "0",
+            "data": "2024-12-11 10:57:08",
+            "pai": "0",
+            "posicao": "8",
+            "hash": "WpFDX3pN4F6JX7hGJkmsO5o7jRwwFy",
+            "infos": {
+                "basico": {
+                    "label": "Ativo ",
+                    "descricao": " ",
+                    "obrigatorio": 0,
+                    "select-2": 0,
+                    "esconder-label": 0,
+                    "somente-leitura": 0
+                },
+                "opcoes": {
+                    "multiplo": 0,
+                    "opcoes": [
+                        {
+                            "nome": "Desativado",
+                            "valor": "0",
+                            "selecionado": false
+                        },
+                        {
+                            "nome": "Ativado",
+                            "valor": "1",
+                            "selecionado": false
+                        },
+                        {
+                            "nome": "Banido",
+                            "valor": "2",
+                            "selecionado": false
+                        }
+                    ]
+                },
+                "dinamica": {
+                    "opcoes-dinamicas": 0,
+                    "configuracoes": " ",
+                    "arquivo-query": "",
+                    "acao-query": ""
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": " ",
+                    "sub-label": " ",
+                    "tooltip": " "
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": " "
+                },
+                "identificador": {
+                    "id": "ativacaoControl ",
+                    "classes": "d-none "
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "2494",
+            "tipo": "html",
+            "nome": "",
+            "obrigatorio": "0",
+            "data": "2024-12-11 10:57:08",
+            "pai": "0",
+            "posicao": "9",
+            "hash": "stfxdV7RxNFw5wNCo8p3OQDg4I8rct",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": " ",
+                    "id-da-div": "controlerAtivo "
+                },
+                "codigo": {
+                    "html": " "
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": " "
+                },
+                "identificador": {
+                    "id": " ",
+                    "classes": " "
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "776",
+            "tipo": "file",
+            "nome": "Foto",
+            "obrigatorio": "0",
+            "data": "2024-12-11 10:57:08",
+            "pai": "0",
+            "posicao": "10",
+            "hash": "fPih8hO5pY9q6czK3PbULyzjgAXLcm",
+            "infos": {
+                "basico": {
+                    "label": "Foto ",
+                    "multiplo": 0,
+                    "layout": 1,
+                    "texto-upload": " "
+                },
+                "card": {
+                    "desabilitar-card": 1,
+                    "recolhivel": 1,
+                    "card-titulo": "Usuário Foto ",
+                    "descricao": " ",
+                    "desabilitar-sombras": 1,
+                    "layout": 1
+                },
+                "arquivo": {
+                    "tipo-de-arquivo": 0,
+                    "personalizado": " "
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": " "
+                },
+                "identificador": {
+                    "id": "cardFotoPerfil ",
+                    "classes": " "
+                },
+                "cropper": {
+                    "recortar": 0,
+                    "largura": " ",
+                    "altura": " "
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "774",
+            "tipo": "file",
+            "nome": "Capa",
+            "obrigatorio": "0",
+            "data": "2024-12-11 10:57:08",
+            "pai": "0",
+            "posicao": "11",
+            "hash": "f5Z8SwcE9nIzSFjusXWhp2TbvHYSaE",
+            "infos": {
+                "basico": {
+                    "label": "Capa ",
+                    "multiplo": 0,
+                    "layout": 0,
+                    "texto-upload": " "
+                },
+                "card": {
+                    "desabilitar-card": 1,
+                    "recolhivel": 0,
+                    "card-titulo": "Usuário Capa ",
+                    "descricao": " "
+                },
+                "arquivo": {
+                    "tipo-de-arquivo": 0,
+                    "personalizado": " "
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": " "
+                },
+                "identificador": {
+                    "id": "imgCapaUser ",
+                    "classes": " "
+                },
+                "cropper": {
+                    "recortar": 1,
+                    "largura": 1300,
+                    "altura": 400
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "3951",
+            "tipo": "espaco",
+            "nome": null,
+            "obrigatorio": "0",
+            "data": "2024-12-11 10:57:08",
+            "pai": "0",
+            "posicao": "12",
+            "hash": "YNXERMRSsUOgD1MgJdy3Pf1o8TZ4Z3",
+            "infos": {
+                "basico": {
+                    "altura": 10,
+                    "id": " ",
+                    "classes": " "
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": " "
+                },
+                "identificador": {
+                    "id": " ",
+                    "classes": " "
+                }
+            },
+            "filhos": []
+        }
+    ],
+    "infos": {
+        "basico": {
+            "esconder-label": 0,
+            "label": "CPF",
+            "descricao": "",
+            "obrigatorio": 0
+        },
+        "estilo": {
+            "estilo": 0,
+            "tamanho-do-input": 0
+        },
+        "label": {
+            "placeholder": "",
+            "sub-label": "",
+            "tooltip": ""
+        },
+        "validacao": {
+            "mascara": 1
+        },
+        "logica": {
+            "logica": 0,
+            "setup": ""
+        }
+    }
+}

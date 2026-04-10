@@ -1,0 +1,27 @@
+{
+    "notificacoes":{
+        "tipo": "check",
+        "label": "Notificações",
+        "descricao": "Enviar notificações simples ao usuário"
+    },
+     "push":{
+        "tipo": "check",
+        "label": "Push Notification",
+         "descricao": "Enviar notificações via Push ao usuário"
+    },
+     "localizacao":{
+        "tipo": "check",
+        "label": "Localização",
+        "descricao": "Acesso ao GPS do dispositivo"
+    },
+     "microfone":{
+        "tipo": "check",
+        "label": "Microfone",
+        "descricao": "Acesso ao microfone do usuário"
+    },
+     "camera":{
+        "tipo": "check",
+        "label": "Câmera",
+        "descricao": "Acesso a Câmera/webcam do usuário"
+    }
+}

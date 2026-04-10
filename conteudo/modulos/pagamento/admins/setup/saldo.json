@@ -1,0 +1,72 @@
+{
+    "ativo":{
+        "tipo": "check",
+        "label": "Sistema de Saldo",
+        "descricao": "Com essa opção ativa, os usuários poderam comprar saldo e deixar em carteira para uso posterior"
+    },
+     "forcar":{
+        "tipo": "check",
+        "label": "Forçar Compra com Saldo",
+        "descricao": "Com essa opção ativa o usuário só poderá fazer compra de produtos com saldo em conta",
+         "condicional": "ativo"
+    },
+     "predefinidos":{
+        "tipo": "check",
+        "label": "Ative valores pré definidos",
+        "descricao": "Mostrar botão com valores pré definidos",
+        "condicional": "ativo"
+    },
+    "valores":{
+        "tipo": "input",
+        "label": "Valores predefinidos",
+        "descricao": "Coloco os números inteiros e separados por virgulas",
+        "condicional": "predefinidos"
+    },
+    "personalizar":{
+        "tipo": "check",
+        "label": "Personalizar Valores",
+        "descricao": "Permita que o usuário selecione um valor personalizado",
+         "condicional": "ativo"
+    },
+    "minimo":{
+        "tipo": "check",
+        "label": "Definir um valor mínimo",
+        "descricao": "O usuário não consiguirá adicionar um valor menor que o definido",
+         "condicional": "ativo"
+    },
+     "valorminimo":{
+        "tipo": "number",
+        "label": "Valor Mínimo",
+        "descricao": "Coloco o valor mínimo",
+        "condicional": "minimo"
+    },
+    "maximo":{
+        "tipo": "check",
+        "label": "Definir um valor máximo",
+        "descricao": "O usuário não consiguirá adicionar um valor maior que o definido",
+         "condicional": "ativo"
+    },
+     "valormaximo":{
+        "tipo": "number",
+        "label": "Valor Máximo",
+        "descricao": "Coloco o valor máximo",
+        "condicional": "maximo"
+    },
+      "expira":{
+        "tipo": "check",
+        "label": "Expiração de Saldo",
+        "descricao": "Ative a opção, para que o saldo expire após alguns dias",
+        "condicional": "ativo"
+    },
+    "expiranumero":{
+        "tipo": "number",
+        "label": "Dias de Expiração",
+        "descricao": "Quantidade de dias para o saldo expirar",
+        "condicional": "expira"
+    },
+     "saque":{
+        "tipo": "check",
+        "label": "Permitir Saque",
+        "descricao": "O usuário poderá pedir saque do saldo em carteira"
+    }
+}

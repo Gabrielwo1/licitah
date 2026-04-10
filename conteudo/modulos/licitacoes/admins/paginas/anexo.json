@@ -1,0 +1,16 @@
+{
+    "nome": "Anexo",
+    "tipo": "1",
+    "id": "z0n0BqbYtrfsKJkmHfd1NFEJ8vgrmlN9",
+    "btns": [
+        {
+            "texto": "Tabela",
+            "tipo": "1",
+            "callback": "a\/licitacoes\/anexos",
+            "id": "",
+            "icone": ""
+        }
+    ],
+    "titulo": "{novo} Anexo",
+    "breadcrumbs": false
+}

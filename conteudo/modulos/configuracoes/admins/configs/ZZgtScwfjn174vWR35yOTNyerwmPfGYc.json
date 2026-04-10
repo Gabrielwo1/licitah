@@ -1,0 +1,56 @@
+{
+    "banco": "configuracoes_tabelas",
+    "meta": false,
+    "prefixo": "configuracao_tabela",
+    "url": false,
+    "colunas": [
+        {
+            "nome": "modulo",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "a362WiC7wVyb9kqjEgqtxDTN01pR0b",
+            "size": 50
+        },
+        {
+            "nome": "chave",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "OFHpijuYi8ObqX9cfaXN0sJK5J1Z56",
+            "size": 50
+        },
+        {
+            "nome": "setup",
+            "nulo": false,
+            "tipo": "json",
+            "unico": false,
+            "input": "xAGNtwNc0EMZI9GMPbDwEcurGNZs2O"
+        }
+    ],
+    "estrutura": {
+        "meta": false,
+        "hash": false,
+        "autor": true,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "ordenador": false,
+        "url": false,
+        "urledit": false,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false,
+        "autoria": false,
+        "wildcard": false,
+        "atributos": false,
+        "destaque": false,
+        "desabilitarNovo": false,
+        "desabilitarEdicao": false,
+        "reordenador": false,
+        "pontos": false
+    },
+    "metas": []
+}

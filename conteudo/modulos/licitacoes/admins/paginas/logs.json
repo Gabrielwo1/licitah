@@ -1,0 +1,16 @@
+{
+    "nome": "Logs",
+    "tipo": "2",
+    "id": "JsLeg4XTjy9MluM",
+    "btns": [
+        {
+            "texto": "Adicionar Registro",
+            "tipo": "1",
+            "callback": "a\/licitacoes\/log",
+            "id": "",
+            "icone": ""
+        }
+    ],
+    "titulo": "Listagem de Logs",
+    "breadcrumbs": false
+}

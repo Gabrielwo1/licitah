@@ -1,0 +1,14 @@
+[08-Jul-2025 02:56:23 UTC] PHP Warning:  PHP Startup: session.gc_divisor must be greater than 0 in Unknown on line 0
+[08-Jul-2025 02:56:23 UTC] PHP Fatal error:  Uncaught OpenSwoole\Exception: failed to listen server port[0.0.0.0:9501], Error: Address already in use[98] in /home/nown/public_html/admin/swoole/websocket.php:34
+Stack trace:
+#0 /home/nown/public_html/admin/swoole/websocket.php(34): OpenSwoole\Server->__construct('0.0.0.0', 9501)
+#1 /home/nown/public_html/admin/swoole/websocket.php(605): WebSocketModular->__construct()
+#2 {main}
+  thrown in /home/nown/public_html/admin/swoole/websocket.php on line 34
+[08-Jul-2025 02:56:39 UTC] PHP Warning:  PHP Startup: session.gc_divisor must be greater than 0 in Unknown on line 0
+[08-Jul-2025 02:56:39 UTC] PHP Fatal error:  Uncaught OpenSwoole\Exception: failed to listen server port[0.0.0.0:9501], Error: Address already in use[98] in /home/nown/public_html/admin/swoole/websocket.php:34
+Stack trace:
+#0 /home/nown/public_html/admin/swoole/websocket.php(34): OpenSwoole\Server->__construct('0.0.0.0', 9501)
+#1 /home/nown/public_html/admin/swoole/websocket.php(605): WebSocketModular->__construct()
+#2 {main}
+  thrown in /home/nown/public_html/admin/swoole/websocket.php on line 34

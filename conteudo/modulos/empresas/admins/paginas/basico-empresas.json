@@ -1,0 +1,16 @@
+{
+    "nome": "basico-empresas",
+    "tipo": "2",
+    "id": "Vnyqg2zCn3SkqLN",
+    "btns": [
+        {
+            "texto": "Adicionar Empresa",
+            "tipo": "1",
+            "callback": "cadastre-sua-empresa",
+            "id": "",
+            "icone": ""
+        }
+    ],
+    "titulo": "Minhas empresas",
+    "breadcrumbs": false
+}

@@ -1,0 +1,25 @@
+{
+  "ativo": {
+    "tipo": "check",
+    "descricao": "Habilite o login e cadastro usando o Facebook",
+    "label": "Logar com o Facebook"
+  },
+  "app_id": {
+    "tipo": "INPUT",
+    "label": "App ID",
+    "descricao": "Obtido ao registrar seu aplicativo no Facebook for Developers.",
+    "condicional": "ativo"
+  },
+  "app_secret": {
+    "tipo": "INPUT",
+    "label": "App Secret",
+    "descricao": "Gerado junto com o App ID.",
+    "condicional": "ativo"
+  },
+  "redirect_uri": {
+    "tipo": "INPUT",
+    "label": "Redirect URI",
+    "descricao": "A URL para onde o usuário será redirecionado após a autenticação.",
+    "condicional": "ativo"
+  }
+}

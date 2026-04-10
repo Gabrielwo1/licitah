@@ -1,0 +1,81 @@
+{
+    "nome": "Dados do código único",
+    "banco": "u8ce5fz0YrXgNun0E4yhHcyFuojjJ1Ke",
+    "tipo": 1,
+    "subtipo": 1,
+    "itens": [
+        {
+            "nome": "uso",
+            "banco": "p",
+            "chave": "uso",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "funcao",
+            "banco": "p",
+            "chave": "funcao",
+            "estrangeiro": 1,
+            "setupEstrangeira": {
+                "modulo": "empresas",
+                "banco": "mzaA2HQA8CXUv49.json",
+                "metas": [],
+                "principal": [
+                    "nome",
+                    "descricao"
+                ]
+            }
+        },
+        {
+            "nome": "empresa",
+            "banco": "p",
+            "chave": "empresa",
+            "estrangeiro": 1,
+            "setupEstrangeira": {
+                "modulo": "empresas",
+                "banco": "9mX3WKIb9DI9qEW.json",
+                "metas": [],
+                "principal": [
+                    "nome",
+                    "cnpj"
+                ]
+            }
+        },
+        {
+            "nome": "usuario",
+            "banco": "p",
+            "chave": "usuario",
+            "estrangeiro": 1,
+            "setupEstrangeira": {
+                "modulo": "usuarios",
+                "banco": "aY4O9kcLpNMpbiD.json",
+                "metas": [],
+                "principal": [
+                    "display",
+                    "email"
+                ]
+            }
+        },
+        {
+            "nome": "url",
+            "banco": "p",
+            "chave": "url",
+            "estrangeiro": 0
+        }
+    ],
+    "number": {
+        "comentarios": false,
+        "reacoes": false,
+        "favoritos": false,
+        "visualizacoes": false
+    },
+    "extra": {
+        "ativo": false,
+        "coluna": "",
+        "tipo": "="
+    },
+    "clone": {
+        "ativo": false,
+        "api": ""
+    },
+    "geolocalizacao": false
+}

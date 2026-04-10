@@ -1,0 +1,12 @@
+{
+    "corbtn":{
+        "tipo": "color",
+        "descricao": "Defina a cor do botão",
+        "label": "Cor do Botão"
+    },
+    "corheader": {
+        "tipo": "color",
+        "label": "Cor de cabeçalho",
+        "descricao": "Defina uma cor para o cabeçalho"
+    }
+}

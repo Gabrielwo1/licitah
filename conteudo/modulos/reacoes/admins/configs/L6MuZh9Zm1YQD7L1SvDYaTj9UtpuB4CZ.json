@@ -1,0 +1,69 @@
+{
+    "banco": "reacoes",
+    "meta": false,
+    "prefixo": "reacao",
+    "url": false,
+    "colunas": [
+        {
+            "nome": "nome",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "gdyf9cnG3Z03b8gQARA7jT7Wzi81I6",
+            "size": 200
+        },
+        {
+            "nome": "texto",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "TehQEHjha49OUeCQCQwnTwcnCkpCJp",
+            "size": 50
+        },
+        {
+            "nome": "cor",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "6dFQWxgmp0jP9Mat6tR7pxWwZOkz5h",
+            "size": 10
+        },
+        {
+            "nome": "iconesimples",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "Q7tBKRx0wuYFiNUIrkKrFI605CYEGw",
+            "size": 20
+        },
+        {
+            "nome": "lord",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "J01hE0GJSn8L4dbhBX9LBgo2unAsOL",
+            "size": 100
+        }
+    ],
+    "estrutura": {
+        "meta": false,
+        "hash": true,
+        "autor": true,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "ordenador": false,
+        "url": false,
+        "urledit": false,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false,
+        "desabilitarNovo": false,
+        "desabilitarEdicao": false,
+        "reordenador": true,
+        "pontos": false
+    },
+    "metas": []
+}

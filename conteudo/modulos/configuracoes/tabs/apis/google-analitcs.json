@@ -1,0 +1,14 @@
+{
+
+    "ativo":{
+        "tipo": "check",
+        "label":"Ativar Google Analitcs",
+        "descricao": "Adicione os Scritps de Analise do Google"
+    },
+    "tag":{
+        "tipo": "input",
+        "label": "Nome da Conta",
+        "descricao": "Digite o nome da conta no formato UA-xxxxxxxx",
+        "condicional": "analitcs"
+    }
+}

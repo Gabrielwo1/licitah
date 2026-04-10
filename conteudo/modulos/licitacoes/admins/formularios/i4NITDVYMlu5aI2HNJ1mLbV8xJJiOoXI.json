@@ -1,0 +1,132 @@
+{
+    "id": "295",
+    "nome": "Parse Licitações",
+    "hash": "i4NITDVYMlu5aI2HNJ1mLbV8xJJiOoXI",
+    "data": "2024-11-19 11:02:50",
+    "tamanho": 2,
+    "inputs": [
+        {
+            "id": "7284",
+            "tipo": "text",
+            "nome": "ID",
+            "obrigatorio": "0",
+            "data": "2024-11-19 11:03:04",
+            "pai": "0",
+            "posicao": "0",
+            "hash": "oAyM4yBiQCV3CA3J0aJkBa2Kt18qoa",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": "ID",
+                    "descricao": "",
+                    "obrigatorio": 0,
+                    "somente-leitura": 0
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": "",
+                    "sub-label": "",
+                    "tooltip": "",
+                    "prefixo": "",
+                    "sufixo": ""
+                },
+                "valor": {
+                    "tipo": 0,
+                    "fixo": "",
+                    "dinamico": 0,
+                    "arquivo-query": "",
+                    "acao-query": ""
+                },
+                "tamanho": {
+                    "ativar": 0,
+                    "maximo": "",
+                    "minimo": ""
+                },
+                "validacao": {
+                    "mascara": 0
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": ""
+                },
+                "identificador": {
+                    "id": "",
+                    "classes": ""
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "7285",
+            "tipo": "text",
+            "nome": "Processo",
+            "obrigatorio": "0",
+            "data": "2024-11-19 11:03:12",
+            "pai": "0",
+            "posicao": "1",
+            "hash": "FEiSNY7DhmlcQ5SYjAh7Y5hm502knj",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": "Processo",
+                    "descricao": "",
+                    "obrigatorio": 0,
+                    "somente-leitura": 0
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": "",
+                    "sub-label": "",
+                    "tooltip": "",
+                    "prefixo": "",
+                    "sufixo": ""
+                },
+                "valor": {
+                    "tipo": 0,
+                    "fixo": "",
+                    "dinamico": 0,
+                    "arquivo-query": "",
+                    "acao-query": ""
+                },
+                "tamanho": {
+                    "ativar": 0,
+                    "maximo": "",
+                    "minimo": ""
+                },
+                "validacao": {
+                    "mascara": 0
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": ""
+                },
+                "identificador": {
+                    "id": "",
+                    "classes": ""
+                }
+            },
+            "filhos": []
+        }
+    ],
+    "infos": {
+        "basico": {
+            "titulo": "Detalhes do Veterinário",
+            "subtitulo": "",
+            "tag-superior": ""
+        },
+        "estilo": {
+            "estilo": 0,
+            "tamanho-do-input": 0
+        },
+        "logica": {
+            "logica": 0,
+            "setup": ""
+        }
+    }
+}

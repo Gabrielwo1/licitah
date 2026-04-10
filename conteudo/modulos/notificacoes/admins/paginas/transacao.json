@@ -1,0 +1,16 @@
+{
+    "nome": "Transação",
+    "tipo": "1",
+    "id": "YNzDobtpkUWrlGVnjOe10jZlZ1gLiRe3",
+    "btns": [
+        {
+            "texto": "Todas as Notificações",
+            "tipo": "1",
+            "callback": "a\/notificacoes\/transacionais",
+            "id": "",
+            "icone": ""
+        }
+    ],
+    "titulo": "Transação",
+    "breadcrumbs": true
+}

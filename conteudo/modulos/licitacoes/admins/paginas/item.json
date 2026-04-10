@@ -1,0 +1,16 @@
+{
+    "nome": "Item",
+    "tipo": "1",
+    "id": "JjFHXCtnfJS5VpjR6czNl8BBolvYVarT",
+    "btns": [
+        {
+            "texto": "Voltar a Tabela",
+            "tipo": "1",
+            "callback": "a\/licitacoes\/itens",
+            "id": "",
+            "icone": ""
+        }
+    ],
+    "titulo": "{novo} Item",
+    "breadcrumbs": false
+}

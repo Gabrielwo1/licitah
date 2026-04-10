@@ -1,0 +1,48 @@
+{
+    "nome": "Politicas",
+    "banco": "LOI7N7DViTJCtETZ2JzYG2h6lpqnADiu",
+    "colunas": [
+        {
+            "nome": "Título",
+            "id": "titulo",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "estrangeira": 0
+        },
+        {
+            "nome": "Data",
+            "id": "update",
+            "tipo": "1",
+            "render": "2",
+            "invisivel": false,
+            "editavel": false,
+            "estrangeira": 0
+        }
+    ],
+    "regra": "1",
+    "acoes": {
+        "opcoes": {
+            "acoes": true,
+            "editar": true,
+            "apagar": true,
+            "vizualizar": true,
+            "importador": false,
+            "exportador": false,
+            "filtro": false,
+            "colunas": false,
+            "multiplo": false,
+            "ordenador": false
+        },
+        "rotas": {
+            "editar": "a\/politicas\/politica",
+            "vizualizar": "politicas"
+        }
+    },
+    "layout": {
+        "modo": "1",
+        "container": "0"
+    },
+    "acoesPersonalizadas": []
+}

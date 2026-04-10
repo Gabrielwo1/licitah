@@ -1,0 +1,12 @@
+{
+    "nome": "Publicações",
+    "banco": "VFx1EY01nDXSfRa",
+    "tipo": 1,
+    "linkar": 1,
+    "url": "artigos\/",
+    "texto": true,
+    "imagem": true,
+    "filtro": true,
+    "arrastar": true,
+    "mini": true
+}

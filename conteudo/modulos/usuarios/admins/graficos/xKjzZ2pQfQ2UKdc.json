@@ -1,0 +1,31 @@
+{
+    "nome": "Usuários",
+    "tipoGrafico": "numerico",
+    "graficoPrimario": "dispersão",
+    "bancoDeDados": "aY4O9kcLpNMpbiD",
+    "colunaData": "data",
+    "filtro": "1",
+    "grafico": {
+        "subtipo": "medicao",
+        "referencia": "display",
+        "agrupamento": "1",
+        "coluna": "ativo"
+    },
+    "layout": {
+        "primario": "dispersão",
+        "periodoinicial": "Último Mês",
+        "titulo": "Novos Usuários",
+        "alteralayout": true,
+        "selecionarperiodo": false,
+        "drop": true,
+        "horas": false
+    },
+    "extra": {
+        "layout": "2",
+        "bg": "#000000",
+        "color": "#000000",
+        "prefixo": "",
+        "sufixo": "",
+        "listaCores": "bg-primary"
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "banco": "licitacoes_habilitacoes",
+    "meta": false,
+    "prefixo": "licitacoes_habilitacao",
+    "url": false,
+    "colunas": [
+        {
+            "nome": "nome",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "P4DvmW9hJChHB1KAzmbFitbqWmYBt9",
+            "size": 200
+        },
+        {
+            "nome": "documento",
+            "nulo": false,
+            "tipo": "text",
+            "unico": false,
+            "input": "Ah8l62bSNPr6aOT2BykzYbv9nogY84"
+        },
+        {
+            "nome": "data_validade",
+            "nulo": false,
+            "tipo": "data",
+            "input": "3wHWUetIsdFX7JDT7E3C3F8U35vIT6",
+            "formato": "date"
+        }
+    ],
+    "estrutura": {
+        "meta": false,
+        "hash": true,
+        "autor": true,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "ordenador": false,
+        "url": false,
+        "urledit": false,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false,
+        "autoria": false,
+        "wildcard": false,
+        "atributos": false,
+        "destaque": false,
+        "enderecos": false,
+        "subconta": true,
+        "desabilitarNovo": false,
+        "desabilitarEdicao": false,
+        "reordenador": false,
+        "pontos": false
+    },
+    "metas": []
+}

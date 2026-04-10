@@ -1,0 +1,3 @@
+<?
+include 'perfil.php';
+?>

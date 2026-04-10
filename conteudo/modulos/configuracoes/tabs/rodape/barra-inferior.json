@@ -1,0 +1,83 @@
+{   "barra":{
+    "tipo": "check",
+    "label": "Ativar barra inferior de informações",
+    "descricao": "Essa barra tem informações vitais do sistema"
+},
+    "justificar":{
+        "label": "Alinhamento dos Itens",
+        "tipo": "select",
+        "descricao": "Defina o alinhamento dos itens",
+         "opcoes": [
+             {"chave": "Start", "valor": "start"},
+             {"chave": "End", "valor": "end"},
+             {"chave": "Center", "valor": "center"},
+             {"chave": "Between", "valor": "between"}
+            ]
+    },
+  "ano": {
+    "tipo": "check",
+    "label": "Mostrar o ano atual",
+    "descricao": "Exiba o ano atual para o usuário",
+    "condicional":"barra"
+  },
+  "copyright": {
+    "tipo": "check",
+    "label": "Copyright",
+    "descricao": "Mostre o simbolo de Copyright",
+    "condicional":"barra"
+  },
+  "nome": {
+    "tipo": "check",
+    "label": "Nome da Empresa",
+    "descricao": "Mostre o nome da empresa",
+    "condicional":"barra"
+  },
+  "cnpj": {
+    "tipo": "check",
+    "label": "CNPJ",
+    "descricao": "Mostre o CNPJ da empresa",
+    "condicional":"barra"
+  },
+  "personalizar": {
+    "tipo": "check",
+    "label": "Personalizar Cor",
+    "descricao": "Peronsonalize a barra inferior do site",
+    "condicional":"barra"
+  },
+  "background": {
+    "tipo": "color",
+    "label": "Cor de Background",
+    "descricao": "Cor de fundo da barra inferior",
+    "condicional":"personalizar"
+  },
+  "texto": {
+    "tipo": "color",
+    "label": "Cor do Texto",
+    "descricao": "Peronsonalize a cor do texto da inferior do site",
+     "condicional":"personalizar"
+  },
+  "link": {
+    "tipo": "check",
+    "label": "Adicionar Link",
+    "descricao": "Adicione um link personalizado ao sistema",
+     "condicional":"barra"
+  },
+   "textolink": {
+    "tipo": "input",
+    "label": "Texto do Link",
+    "descricao": "Defina um texto para o link",
+    "condicional":"link"
+  },
+  "linkurl": {
+    "tipo": "input",
+    "label": "URL do Link",
+    "descricao": "Defina uma url para o link",
+    "condicional":"link"
+  },
+  "posicao":{
+       "tipo": "check",
+    "label": "Mudar Posição",
+    "descricao": "Mude a posição da barra para acima do rodapé.",
+     "condicional":"barra"
+  }
+}

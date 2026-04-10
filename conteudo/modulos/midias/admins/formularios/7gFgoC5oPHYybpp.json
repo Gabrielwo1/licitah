@@ -1,0 +1,405 @@
+{
+    "id": "114",
+    "nome": "Uploads",
+    "hash": "7gFgoC5oPHYybpp",
+    "data": "2024-07-06 17:06:50",
+    "tamanho": 11,
+    "inputs": [
+        {
+            "id": "3770",
+            "tipo": "coluna",
+            "nome": null,
+            "obrigatorio": "0",
+            "data": "2024-07-06 18:03:18",
+            "pai": "0",
+            "posicao": "0",
+            "hash": "Z4caXxpW5q3ST4C4LY5uRw2M7lHvte",
+            "infos": [],
+            "filhos": [
+                {
+                    "id": "3771",
+                    "tipo": "col",
+                    "nome": null,
+                    "obrigatorio": "0",
+                    "data": "2024-07-06 17:18:16",
+                    "pai": "3770",
+                    "posicao": "0",
+                    "hash": "RArDiv7XBL619uz3u3mqMcjOwbD9TA",
+                    "infos": {
+                        "layout": {
+                            "tamanho": 9
+                        },
+                        "logica": {
+                            "logica": 0,
+                            "setup": " "
+                        },
+                        "identificador": {
+                            "id": " ",
+                            "classes": " "
+                        }
+                    },
+                    "filhos": [
+                        {
+                            "id": "3764",
+                            "tipo": "text",
+                            "nome": "Nome",
+                            "obrigatorio": "0",
+                            "data": "2024-07-06 18:03:19",
+                            "pai": "3771",
+                            "posicao": "0",
+                            "hash": "s6Ibza4SJZakx5ut8VJKqK6JJ11VVc",
+                            "infos": {
+                                "basico": {
+                                    "esconder-label": 0,
+                                    "label": "Nome ",
+                                    "descricao": " ",
+                                    "obrigatorio": 0,
+                                    "somente-leitura": 0
+                                },
+                                "estilo": {
+                                    "estilo": 0,
+                                    "tamanho-do-input": 0
+                                },
+                                "label": {
+                                    "placeholder": " ",
+                                    "sub-label": " ",
+                                    "tooltip": " "
+                                },
+                                "validacao": {
+                                    "mascara": 0
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": " "
+                                },
+                                "identificador": {
+                                    "id": " ",
+                                    "classes": " "
+                                }
+                            },
+                            "filhos": []
+                        },
+                        {
+                            "id": "3774",
+                            "tipo": "text",
+                            "nome": "Url",
+                            "obrigatorio": "0",
+                            "data": "2024-07-06 18:03:19",
+                            "pai": "3771",
+                            "posicao": "1",
+                            "hash": "OWQ2peZU0HFS0BLe17arXgmewnZWl7",
+                            "infos": {
+                                "basico": {
+                                    "esconder-label": 0,
+                                    "label": "Url ",
+                                    "descricao": " ",
+                                    "obrigatorio": 0,
+                                    "somente-leitura": 1
+                                },
+                                "estilo": {
+                                    "estilo": 0,
+                                    "tamanho-do-input": 0
+                                },
+                                "label": {
+                                    "placeholder": " ",
+                                    "sub-label": " ",
+                                    "tooltip": " "
+                                },
+                                "validacao": {
+                                    "mascara": 0
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": " "
+                                },
+                                "identificador": {
+                                    "id": " ",
+                                    "classes": " "
+                                }
+                            },
+                            "filhos": []
+                        },
+                        {
+                            "id": "3775",
+                            "tipo": "text",
+                            "nome": "Assinatura",
+                            "obrigatorio": "0",
+                            "data": "2024-07-06 18:12:18",
+                            "pai": "3771",
+                            "posicao": "2",
+                            "hash": "B9LMLwHhFDCz9zFnltTTZNI4fQI3SO",
+                            "infos": {
+                                "basico": {
+                                    "esconder-label": 0,
+                                    "label": "Assinatura",
+                                    "descricao": "",
+                                    "obrigatorio": 0,
+                                    "somente-leitura": 1
+                                },
+                                "estilo": {
+                                    "estilo": 0,
+                                    "tamanho-do-input": 0
+                                },
+                                "label": {
+                                    "placeholder": "",
+                                    "sub-label": "",
+                                    "tooltip": ""
+                                },
+                                "validacao": {
+                                    "mascara": 0
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": ""
+                                },
+                                "identificador": {
+                                    "id": "",
+                                    "classes": ""
+                                }
+                            },
+                            "filhos": []
+                        }
+                    ]
+                },
+                {
+                    "id": "3772",
+                    "tipo": "col",
+                    "nome": null,
+                    "obrigatorio": "0",
+                    "data": "2024-07-06 17:18:16",
+                    "pai": "3770",
+                    "posicao": "1",
+                    "hash": "sd7h5pQMroInMbaKB5S2zpHQw9YAv5",
+                    "infos": {
+                        "layout": {
+                            "tamanho": 3
+                        },
+                        "logica": {
+                            "logica": 0,
+                            "setup": ""
+                        },
+                        "identificador": {
+                            "id": "",
+                            "classes": ""
+                        }
+                    },
+                    "filhos": [
+                        {
+                            "id": "3769",
+                            "tipo": "cardSalvar",
+                            "nome": "",
+                            "obrigatorio": "0",
+                            "data": "2024-07-06 17:18:19",
+                            "pai": "3772",
+                            "posicao": "0",
+                            "hash": "H3ue9YXpjvkcoUWR53LpwOzYazfyEN",
+                            "infos": {
+                                "basico": {
+                                    "label": " ",
+                                    "recolhivel": 0,
+                                    "fixar-no-rodape-mobile": 0,
+                                    "fixar-no-rodape-pc": 0
+                                },
+                                "funcoes": {
+                                    "desabilitar-status": 1,
+                                    "desabilitar-vizibilidade": 1,
+                                    "desabilitar-agendados": 1
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": " "
+                                },
+                                "identificador": {
+                                    "id": " ",
+                                    "classes": " "
+                                }
+                            },
+                            "filhos": []
+                        },
+                        {
+                            "id": "3773",
+                            "tipo": "card",
+                            "nome": null,
+                            "obrigatorio": "0",
+                            "data": "2024-07-06 17:37:09",
+                            "pai": "3772",
+                            "posicao": "1",
+                            "hash": "TwYd6qpAxQnCPXRmwvVXgxrnIJIW5g",
+                            "infos": [],
+                            "filhos": [
+                                {
+                                    "id": "3765",
+                                    "tipo": "select",
+                                    "nome": "Tipo",
+                                    "obrigatorio": "0",
+                                    "data": "2024-07-06 17:18:32",
+                                    "pai": "3773",
+                                    "posicao": "0",
+                                    "hash": "rDxqxOkZyNAGbRGrsjwgk4fFEsGPOS",
+                                    "infos": {
+                                        "basico": {
+                                            "esconder-label": 0,
+                                            "label": "Tipo ",
+                                            "descricao": " ",
+                                            "obrigatorio": 0,
+                                            "select-2": 0,
+                                            "somente-leitura": 1
+                                        },
+                                        "opcoes": {
+                                            "multiplo": 0,
+                                            "opcoes": [
+                                                {
+                                                    "nome": "Imagem",
+                                                    "valor": "1",
+                                                    "selecionado": false
+                                                },
+                                                {
+                                                    "nome": "Vídeo",
+                                                    "valor": "2",
+                                                    "selecionado": false
+                                                },
+                                                {
+                                                    "nome": "Arquivo",
+                                                    "valor": "3",
+                                                    "selecionado": false
+                                                },
+                                                {
+                                                    "nome": "Outros",
+                                                    "valor": "4",
+                                                    "selecionado": false
+                                                }
+                                            ]
+                                        },
+                                        "dinamica": {
+                                            "opcoes-dinamicas": 0,
+                                            "configuracoes": " "
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho-do-input": 0
+                                        },
+                                        "label": {
+                                            "placeholder": " ",
+                                            "sub-label": " ",
+                                            "tooltip": " "
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": " "
+                                        },
+                                        "identificador": {
+                                            "id": " ",
+                                            "classes": " "
+                                        }
+                                    },
+                                    "filhos": []
+                                },
+                                {
+                                    "id": "3766",
+                                    "tipo": "text",
+                                    "nome": "Formato",
+                                    "obrigatorio": "0",
+                                    "data": "2024-07-06 17:18:32",
+                                    "pai": "3773",
+                                    "posicao": "1",
+                                    "hash": "SBLm4KONM2EnI1EiqjG6camAXTmu36",
+                                    "infos": {
+                                        "basico": {
+                                            "esconder-label": 0,
+                                            "label": "Formato ",
+                                            "descricao": " ",
+                                            "obrigatorio": 0,
+                                            "somente-leitura": 1
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho-do-input": 0
+                                        },
+                                        "label": {
+                                            "placeholder": " ",
+                                            "sub-label": " ",
+                                            "tooltip": " "
+                                        },
+                                        "validacao": {
+                                            "mascara": 0
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": " "
+                                        },
+                                        "identificador": {
+                                            "id": " ",
+                                            "classes": " "
+                                        }
+                                    },
+                                    "filhos": []
+                                },
+                                {
+                                    "id": "3768",
+                                    "tipo": "number",
+                                    "nome": "Tamanho",
+                                    "obrigatorio": "0",
+                                    "data": "2024-07-06 17:18:32",
+                                    "pai": "3773",
+                                    "posicao": "2",
+                                    "hash": "6VeIMGkAioMJpJxhaxfDkeImO1D7wW",
+                                    "infos": {
+                                        "basico": {
+                                            "esconder-label": 0,
+                                            "label": "Tamanho ",
+                                            "descricao": " ",
+                                            "obrigatorio": 0,
+                                            "somente-leitura": 1
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho-do-input": 0
+                                        },
+                                        "label": {
+                                            "placeholder": " ",
+                                            "sub-label": " ",
+                                            "tooltip": " "
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": " "
+                                        },
+                                        "identificador": {
+                                            "id": " ",
+                                            "classes": " "
+                                        }
+                                    },
+                                    "filhos": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "infos": {
+        "basico": {
+            "esconder-label": 0,
+            "label": "nacionalidade ",
+            "descricao": " ",
+            "obrigatorio": 0
+        },
+        "estilo": {
+            "estilo": 0,
+            "tamanho-do-input": 0
+        },
+        "label": {
+            "placeholder": " ",
+            "sub-label": " ",
+            "tooltip": " "
+        },
+        "validacao": {
+            "mascara": 0
+        },
+        "logica": {
+            "logica": 0,
+            "setup": " "
+        }
+    }
+}

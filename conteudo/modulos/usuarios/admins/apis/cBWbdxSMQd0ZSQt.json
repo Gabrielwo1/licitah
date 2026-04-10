@@ -1,0 +1,41 @@
+{
+    "nome": "Usuarios Passados",
+    "banco": "aY4O9kcLpNMpbiD",
+    "tipo": 7,
+    "subtipo": null,
+    "itens": [
+        {
+            "nome": "display",
+            "banco": "p",
+            "chave": "display",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "user",
+            "banco": "p",
+            "chave": "user",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "id",
+            "banco": "p",
+            "chave": "id",
+            "estrangeiro": 0
+        }
+    ],
+    "number": {
+        "comentarios": false,
+        "reacoes": false,
+        "favoritos": false,
+        "visualizacoes": false
+    },
+    "extra": {
+        "ativo": false,
+        "coluna": "",
+        "tipo": "="
+    },
+    "clone": {
+        "ativo": false,
+        "api": ""
+    }
+}

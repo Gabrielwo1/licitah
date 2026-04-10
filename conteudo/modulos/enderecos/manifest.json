@@ -1,0 +1,19 @@
+{
+    "name": "Endereços",
+    "description": "Gerencie e armazene endereços de forma organizada e integrada ao sistema.",
+    "descriptionLong": "O módulo Endereços permite o cadastro e a gestão de endereços dentro do Nown, facilitando a organização e o acesso a informações geográficas. Com suporte para múltiplos endereços por usuário ou empresa, ele melhora a usabilidade do sistema e otimiza processos logísticos. Ideal para quem precisa armazenar e consultar endereços de forma prática e estruturada.",
+    "icon": "bi bi-geo-alt",
+    "ativo": "true",
+    "readonly": false,
+    "sub": [
+        {
+            "name": "Endereços",
+            "link": "a\/enderecos"
+        },
+        {
+            "name": "Associações",
+            "link": "a\/enderecos\/associacoes"
+        }
+    ],
+    "versao": "0.17"
+}

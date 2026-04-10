@@ -1,0 +1,53 @@
+{
+    "nome": "Empresas Usuarios",
+    "banco": "9mX3WKIb9DI9qEW",
+    "colunas": [
+        {
+            "nome": "Logo da Empresa",
+            "id": "imagem",
+            "tipo": "1",
+            "render": "1",
+            "invisivel": false,
+            "editavel": false
+        },
+        {
+            "nome": "Nome da Empresa",
+            "id": "nome",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false
+        },
+        {
+            "nome": "CNPJ",
+            "id": "cnpj",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false
+        }
+    ],
+    "regra": "2",
+    "acoes": {
+        "opcoes": {
+            "acoes": true,
+            "editar": true,
+            "apagar": true,
+            "vizualizar": false,
+            "importador": false,
+            "exportador": false,
+            "filtro": false,
+            "colunas": false,
+            "multiplo": false
+        },
+        "rotas": {
+            "editar": "a\/empresas\/minha-empresa",
+            "vizualizar": ""
+        }
+    },
+    "layout": {
+        "modo": "1",
+        "container": "0"
+    },
+    "acoesPersonalizadas": []
+}

@@ -1,0 +1,74 @@
+{
+    "banco": "funcoes_paginas",
+    "meta": false,
+    "prefixo": "funcao_pagina",
+    "url": false,
+    "colunas": [
+        {
+            "nome": "url",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "Zhio98XYFbxmivVsFdvsAmk0ehLhLy",
+            "size": 100
+        },
+        {
+            "nome": "tipo",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "v8nWxpiw39Ggm52Olt4i1ySGYW5TJ6",
+            "size": 10
+        },
+        {
+            "nome": "ativa",
+            "nulo": false,
+            "tipo": "boolean",
+            "unico": false,
+            "input": "QEcpBGx41mn509C4uka7z30av583QZ"
+        },
+        {
+            "nome": "acao",
+            "nulo": true,
+            "tipo": "int",
+            "unico": false,
+            "input": "Drxuuvc1UloeO9c6C79w2q1xGBFwDz"
+        },
+        {
+            "nome": "cb",
+            "nulo": true,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "UnM6ma4Lvtlg1UOMhqtu3MQr1U74EG",
+            "size": 50
+        },
+        {
+            "nome": "funcao",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "Cc2zNtnZE2UPFJvz3qNEv0qu9fmSdt"
+        }
+    ],
+    "estrutura": {
+        "meta": false,
+        "hash": false,
+        "autor": false,
+        "render": false,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "url": false,
+        "urledit": false,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false,
+        "desabilitarNovo": false,
+        "desabilitarEdicao": false,
+        "reordenador": false,
+        "pontos": false
+    },
+    "metas": []
+}

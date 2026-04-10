@@ -1,0 +1,68 @@
+{
+    "nome": "Pontuações",
+    "banco": "Ncmfp6LF3CJ5u6TQewVYHhEct8d67Vip",
+    "colunas": [
+        {
+            "nome": "Usuário",
+            "id": "usuario",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "estrangeira": 1,
+            "confiEstrangeira": {
+                "modulo": "usuarios",
+                "banco": "usuarios",
+                "tipo": "1",
+                "coluna": "usuario_display"
+            }
+        },
+        {
+            "nome": "Pontos",
+            "id": "pontos",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "estrangeira": 0
+        },
+        {
+            "nome": "Tipo",
+            "id": "tipo",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "estrangeira": 1,
+            "confiEstrangeira": {
+                "modulo": "pagamento",
+                "banco": "pay_pontos",
+                "tipo": "1",
+                "coluna": "pontos_nome"
+            }
+        }
+    ],
+    "regra": "1",
+    "acoes": {
+        "opcoes": {
+            "acoes": true,
+            "editar": true,
+            "apagar": true,
+            "vizualizar": false,
+            "importador": true,
+            "exportador": true,
+            "filtro": true,
+            "colunas": true,
+            "multiplo": true
+        },
+        "rotas": {
+            "editar": "a\/pagamento\/pontuacao",
+            "vizualizar": ""
+        }
+    },
+    "layout": {
+        "modo": "1",
+        "container": "0"
+    },
+    "acoesPersonalizadas": []
+}

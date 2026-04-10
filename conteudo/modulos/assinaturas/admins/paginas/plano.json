@@ -1,0 +1,14 @@
+{
+    "nome": "Plano",
+    "tipo": "1",
+    "id": "Czy36ZwpCYq4WMY",
+    "btns": [
+        {
+            "texto": "Todos os Planos",
+            "tipo": "1",
+            "callback": "a\/assinaturas\/planos"
+        }
+    ],
+    "titulo": "{novo} Plano",
+    "breadcrumbs": false
+}

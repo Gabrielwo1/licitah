@@ -1,0 +1,46 @@
+{   "armazenamento":{
+        "label": "Salvar Cartão",
+        "tipo":"check",
+        "descricao": "Salve o cartão do usuário para futuras tranzações." 
+      },
+    "parcelamento":{
+        "label": "Ativar parcelamento no cartão de crédito",
+        "tipo":"check",
+        "descricao": "Aceite pagamentos parcelados no seu fluxo de pagamento." 
+      },
+       "minimoparcelamento":{
+        "label": "Valor Mínimo de Parcelamento",
+        "tipo":"number",
+        "descricao": "Valor minimo de parcelamento. Defina 0 para parcelar qualquer valor." ,
+        "condicional":"parcelamento"
+      },
+        "maximoparecelas":{
+        "label": "Quantidade de Parcelas Aceitas",
+        "tipo":"select",
+         "descricao": "Defina em até quantas vezes o usuário poderá parcelar suas compras." ,
+         "opcoes": [
+            {"chave":2, "valor":2},
+            {"chave":3, "valor":3},
+            {"chave":4, "valor":4},
+            {"chave":5, "valor":5},
+            {"chave":6, "valor":6},
+            {"chave":7, "valor":7},
+            {"chave":8, "valor":8},
+            {"chave":9, "valor":9},
+            {"chave":10, "valor":10},
+            {"chave":11, "valor":11},
+            {"chave":12, "valor":12}
+             ],
+              "condicional":"parcelamento"
+    },
+    "assumeparcelas":{
+        "label": "Quem assume as taxas de parcelamento?",
+        "tipo":"select",
+         "descricao": "Defina quem irá pagar as taxas de parcelamento do cartão de crédito." ,
+         "opcoes": [
+            {"chave":"Vendedor", "valor":1},
+            {"chave":"Comprador", "valor":2}
+             ],
+              "condicional":"parcelamento"
+    }
+}

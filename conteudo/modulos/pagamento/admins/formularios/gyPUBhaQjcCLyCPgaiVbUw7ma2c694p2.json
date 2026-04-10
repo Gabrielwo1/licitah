@@ -1,0 +1,208 @@
+{
+    "id": "132",
+    "nome": "Pedidos Itens",
+    "hash": "gyPUBhaQjcCLyCPgaiVbUw7ma2c694p2",
+    "data": "2024-07-22 17:23:09",
+    "tamanho": 5,
+    "inputs": [
+        {
+            "id": "4155",
+            "tipo": "number",
+            "nome": "Pedido",
+            "obrigatorio": "0",
+            "data": "2024-07-22 17:24:12",
+            "pai": "0",
+            "posicao": "0",
+            "hash": "8YsGlBvvzS4owzykQrcoKdxedCnYU7",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": "Pedido",
+                    "descricao": "",
+                    "obrigatorio": 0,
+                    "somente-leitura": 0
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": "",
+                    "sub-label": "",
+                    "tooltip": ""
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": ""
+                },
+                "identificador": {
+                    "id": "",
+                    "classes": ""
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "4157",
+            "tipo": "number",
+            "nome": "Item",
+            "obrigatorio": "0",
+            "data": "2024-07-22 17:28:53",
+            "pai": "0",
+            "posicao": "1",
+            "hash": "ZzoYgeLKJyEMo502FUgYIyL6F8p2PR",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": "Item",
+                    "descricao": "",
+                    "obrigatorio": 0,
+                    "somente-leitura": 0
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": "",
+                    "sub-label": "",
+                    "tooltip": ""
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": ""
+                },
+                "identificador": {
+                    "id": "",
+                    "classes": ""
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "4154",
+            "tipo": "textarea",
+            "nome": "Espelho",
+            "obrigatorio": "0",
+            "data": "2024-07-22 17:28:21",
+            "pai": "0",
+            "posicao": "2",
+            "hash": "uKFsTsdlcwntHtqcokYC6xdBSWUIfz",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": "Espelho ",
+                    "descricao": " ",
+                    "obrigatorio": 0
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "tamanho": {
+                    "ativar": 0,
+                    "maximo": " ",
+                    "minimo": " "
+                },
+                "label": {
+                    "placeholder": " ",
+                    "sub-label": " ",
+                    "tooltip": " "
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": " "
+                },
+                "identificador": {
+                    "id": " ",
+                    "classes": " "
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "4184",
+            "tipo": "number",
+            "nome": "Quantidade",
+            "obrigatorio": "0",
+            "data": "2024-07-26 10:05:49",
+            "pai": "0",
+            "posicao": "3",
+            "hash": "BZ9HgMY69G4xTXPJgUvUHcCdXi7h49",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": "Quantidade",
+                    "descricao": "",
+                    "obrigatorio": 0,
+                    "somente-leitura": 0
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": "",
+                    "sub-label": "",
+                    "tooltip": ""
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": ""
+                },
+                "identificador": {
+                    "id": "",
+                    "classes": ""
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "4185",
+            "tipo": "number",
+            "nome": "Usuário",
+            "obrigatorio": "0",
+            "data": "2024-07-26 10:05:57",
+            "pai": "0",
+            "posicao": "4",
+            "hash": "giAoKeqb17J1bsdNST0lhRz6mpq3fG",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": "Usuário",
+                    "descricao": "",
+                    "obrigatorio": 0,
+                    "somente-leitura": 0
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": "",
+                    "sub-label": "",
+                    "tooltip": ""
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": ""
+                },
+                "identificador": {
+                    "id": "",
+                    "classes": ""
+                }
+            },
+            "filhos": []
+        }
+    ],
+    "infos": {
+        "basico": {
+            "label": "Endereço",
+            "recolhivel": 1
+        },
+        "logica": {
+            "logica": 0,
+            "setup": ""
+        }
+    }
+}

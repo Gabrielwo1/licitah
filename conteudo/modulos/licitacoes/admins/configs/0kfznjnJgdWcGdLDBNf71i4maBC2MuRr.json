@@ -1,0 +1,54 @@
+{
+    "banco": "licitacoes_oportunidades",
+    "meta": false,
+    "prefixo": "licitacoes_oportunidade",
+    "url": false,
+    "colunas": [
+        {
+            "nome": "empresa",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "vm5igFLIgNnB1fh2JfsABvAegyE5vo"
+        },
+        {
+            "nome": "regioes",
+            "nulo": false,
+            "tipo": "json",
+            "unico": false,
+            "input": "7kq8H6E9b8IpiSWk7ryZWGUozxqBBp"
+        },
+        {
+            "nome": "tagmento",
+            "nulo": false,
+            "tipo": "json",
+            "unico": false,
+            "input": "At4TDweT8fDjs3gfqNlKSDYhrNVRGH"
+        }
+    ],
+    "estrutura": {
+        "meta": false,
+        "hash": true,
+        "autor": true,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "ordenador": false,
+        "url": false,
+        "urledit": false,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false,
+        "autoria": true,
+        "wildcard": false,
+        "atributos": false,
+        "destaque": false,
+        "desabilitarNovo": false,
+        "desabilitarEdicao": false,
+        "reordenador": false,
+        "pontos": false
+    },
+    "metas": []
+}

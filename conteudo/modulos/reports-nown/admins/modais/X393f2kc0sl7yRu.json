@@ -1,0 +1,19 @@
+{
+    "nome": "Novo",
+    "tipo": "1",
+    "acao": "SYlGMdBVIC1Jbka",
+    "callback": "",
+    "tamanho": "lg",
+    "modal": {
+        "titulo": "sdasd",
+        "icone": "asdasd"
+    },
+    "redirecionar": "2",
+    "redirCb": "kBujeWFMnBFtTna",
+    "fecharTopo": true,
+    "fecharFooter": true,
+    "logotipo": true,
+    "centralizar": true,
+    "clickout": false,
+    "container": true
+}

@@ -1,0 +1,16 @@
+{
+    "nome": "Habilitações",
+    "tipo": "2",
+    "id": "n5cNAQX03vT5Tji",
+    "btns": [
+        {
+            "texto": "Adicionar Novo",
+            "tipo": "1",
+            "callback": "a\/licitacoes\/habilitacao",
+            "id": "",
+            "icone": ""
+        }
+    ],
+    "titulo": "Lista de Habilitações",
+    "breadcrumbs": false
+}

@@ -1,0 +1,14 @@
+{
+    "nome": "Menu",
+    "tipo": "1",
+    "id": "EQOa9vWsPNSOvCS",
+    "btns": [
+        {
+            "texto": "Ver Todos",
+            "tipo": "1",
+            "callback": "a\/menus"
+        }
+    ],
+    "titulo": "{novo} menu",
+    "breadcrumbs": false
+}

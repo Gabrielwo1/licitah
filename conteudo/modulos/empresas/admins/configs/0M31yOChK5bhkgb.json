@@ -1,0 +1,59 @@
+{
+    "banco": "empresas_associacao",
+    "meta": false,
+    "prefixo": "ea",
+    "url": false,
+    "colunas": [
+        {
+            "nome": "empresa",
+            "nulo": false,
+            "tipo": "estrangeiro",
+            "input": "sjdZiDh4OkH9e8q3xcdbe2pniVhMyN",
+            "estrangeira": "empresas",
+            "referencia": "empresa_id"
+        },
+        {
+            "nome": "usuario",
+            "nulo": false,
+            "tipo": "estrangeiro",
+            "input": "dF4TJIPOqFtBTOETzOWzJeImV4dbDZ",
+            "estrangeira": "usuarios",
+            "referencia": "usuario_id"
+        },
+        {
+            "nome": "funcao",
+            "nulo": false,
+            "tipo": "estrangeiro",
+            "input": "XKwUkcwwDBJnT05AmZ5Anp8x9qwyBF",
+            "estrangeira": "empresas_funcao",
+            "referencia": "ef_id"
+        }
+    ],
+    "estrutura": {
+        "meta": false,
+        "hash": false,
+        "autor": false,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "ordenador": false,
+        "url": false,
+        "urledit": false,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false,
+        "autoria": false,
+        "wildcard": false,
+        "atributos": false,
+        "destaque": false,
+        "enderecos": false,
+        "subconta": false,
+        "desabilitarNovo": false,
+        "desabilitarEdicao": false,
+        "reordenador": false,
+        "pontos": false
+    },
+    "metas": []
+}

@@ -1,0 +1,74 @@
+{
+    "banco": "analytics_acessos",
+    "meta": false,
+    "prefixo": "analytics_acesso",
+    "url": "1",
+    "colunas": [
+        {
+            "nome": "pagina",
+            "nulo": false,
+            "tipo": "estrangeiro",
+            "input": "s2iUNXFtLSdJUE8z35FwRc6e8w7cGY",
+            "estrangeira": "analytics_urls",
+            "referencia": "analytics_url_id"
+        },
+        {
+            "nome": "sessao",
+            "nulo": false,
+            "tipo": "estrangeiro",
+            "input": "F0oueSeUJR6wtIbKbf4sNKY3msadiR",
+            "estrangeira": "analytics",
+            "referencia": "analytic_id"
+        },
+        {
+            "nome": "aba",
+            "nulo": false,
+            "tipo": "estrangeiro",
+            "input": "VUcPXCrhFYsPlCmg1sfOEQNlKM3awn",
+            "estrangeira": "analytics_abas",
+            "referencia": "analytics_aba_id"
+        },
+        {
+            "nome": "usuario",
+            "nulo": true,
+            "tipo": "estrangeiro",
+            "input": "kdADtCpRHPy85k0HBSJhisVgS6L6ZP",
+            "estrangeira": "usuarios",
+            "referencia": "usuario_id"
+        },
+        {
+            "nome": "vida",
+            "nulo": false,
+            "tipo": "int",
+            "unico": false,
+            "input": "z2uzAqGGGiNj531vaCCCk8zaM3xjWI"
+        }
+    ],
+    "estrutura": {
+        "meta": false,
+        "hash": true,
+        "autor": false,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "ordenador": false,
+        "url": true,
+        "urledit": false,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false,
+        "autoria": false,
+        "wildcard": false,
+        "atributos": false,
+        "destaque": false,
+        "enderecos": false,
+        "subconta": false,
+        "desabilitarNovo": false,
+        "desabilitarEdicao": false,
+        "reordenador": false,
+        "pontos": false
+    },
+    "metas": []
+}

@@ -1,0 +1,14 @@
+{
+    "nome": "Artigos",
+    "tipo": "2",
+    "id": "Cigx9mpZGO3503z",
+    "btns": [
+        {
+            "texto": "Adicionar Novo",
+            "tipo": "1",
+            "callback": "a\/artigos\/artigo"
+        }
+    ],
+    "titulo": "Artigos",
+    "breadcrumbs": true
+}

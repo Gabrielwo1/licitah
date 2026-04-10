@@ -1,0 +1,28 @@
+{
+    "nome": "Fun\u00e7\u00f5es",
+    "banco": "pZ5qfBZdIkw0Xsy",
+    "tipo": 2,
+    "subtipo": 1,
+    "itens": [
+        {
+            "nome": "id",
+            "banco": "p",
+            "chave": "id"
+        },
+        {
+            "nome": "nome",
+            "banco": "p",
+            "chave": "nome"
+        },
+        {
+            "nome": "tipo",
+            "banco": "p",
+            "chave": "tipo"
+        },
+        {
+            "nome": "apagavel",
+            "banco": "p",
+            "chave": "apagavel"
+        }
+    ]
+}

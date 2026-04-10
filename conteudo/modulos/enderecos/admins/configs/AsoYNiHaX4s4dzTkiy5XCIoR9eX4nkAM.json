@@ -1,0 +1,73 @@
+{
+    "banco": "enderecos",
+    "meta": false,
+    "prefixo": "endereco",
+    "url": "1",
+    "colunas": [
+        {
+            "nome": "nome",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "KtbyUn351LWSR68lYD19sE2c0kK8qf",
+            "size": 200
+        },
+        {
+            "nome": "cep",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "Eklk25LiGs3EQomkq46v1K8PvnR0ix",
+            "size": 10
+        },
+        {
+            "nome": "observacao",
+            "nulo": true,
+            "tipo": "text",
+            "unico": false,
+            "input": "h6aDxuQsvniXeLfEVZq2IYCtqdZMf0"
+        },
+        {
+            "nome": "numero",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "spQzerg2dsopGhKL5i0bxiBrPJRiYM",
+            "size": 200
+        },
+        {
+            "nome": "complemento",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "oAXwo1OzuVnLV6jbKBpAv48xkMfg9S",
+            "size": 100
+        }
+    ],
+    "estrutura": {
+        "meta": false,
+        "hash": true,
+        "autor": true,
+        "dataCriacao": false,
+        "dataUpdate": false,
+        "ordenador": false,
+        "url": true,
+        "urledit": false,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false,
+        "autoria": false,
+        "wildcard": false,
+        "atributos": false,
+        "destaque": false,
+        "enderecos": false,
+        "desabilitarNovo": false,
+        "desabilitarEdicao": false,
+        "reordenador": false,
+        "pontos": false
+    },
+    "metas": []
+}

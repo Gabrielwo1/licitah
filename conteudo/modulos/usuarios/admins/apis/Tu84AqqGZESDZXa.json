@@ -1,0 +1,32 @@
+{
+    "nome": "Usuário Público",
+    "banco": "aY4O9kcLpNMpbiD",
+    "tipo": 1,
+    "subtipo": 3,
+    "itens": [
+        {
+            "nome": "id",
+            "banco": "p",
+            "chave": "id",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "display",
+            "banco": "p",
+            "chave": "display",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "foto",
+            "banco": "p",
+            "chave": "foto",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "capa",
+            "banco": "p",
+            "chave": "capa",
+            "estrangeiro": 0
+        }
+    ]
+}

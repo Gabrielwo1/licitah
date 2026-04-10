@@ -1,0 +1,501 @@
+{
+    "id": "184",
+    "nome": "Analytics Dispositivo ",
+    "hash": "gnR1OlqOIn7voSKgRThnwK04wQfGM4dU",
+    "data": "2024-08-27 09:27:04",
+    "tamanho": 8,
+    "inputs": [
+        {
+            "id": "5323",
+            "tipo": "card",
+            "nome": "Dispositivo",
+            "obrigatorio": "0",
+            "data": "2025-07-08 20:20:09",
+            "pai": "0",
+            "posicao": "0",
+            "hash": "1I9azL2MIZYXqIwnpV5rlpSDhQMkDM",
+            "infos": {
+                "basico": {
+                    "label": "Dispositivo ",
+                    "recolhivel": 1
+                },
+                "flex": {
+                    "ativar": 0,
+                    "direcao": 1,
+                    "justify": 0,
+                    "align": 0,
+                    "gap": 0
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": " "
+                },
+                "identificador": {
+                    "id": " ",
+                    "classes": " "
+                }
+            },
+            "filhos": [
+                {
+                    "id": "5354",
+                    "tipo": "select",
+                    "nome": "Tipo",
+                    "obrigatorio": "0",
+                    "data": "2024-08-27 10:21:58",
+                    "pai": "5323",
+                    "posicao": "0",
+                    "hash": "iwV4OcwHIjaNfZFrdUFdXWLkduuAUS",
+                    "infos": {
+                        "basico": {
+                            "esconder-label": 0,
+                            "label": "Tipo ",
+                            "descricao": " ",
+                            "obrigatorio": 0,
+                            "select-2": 0,
+                            "somente-leitura": 0,
+                            "render": 0
+                        },
+                        "opcoes": {
+                            "multiplo": 0,
+                            "opcoes": [
+                                {
+                                    "nome": "Smartphone",
+                                    "valor": "1",
+                                    "selecionado": false
+                                },
+                                {
+                                    "nome": "Tablet",
+                                    "valor": "2",
+                                    "selecionado": false
+                                },
+                                {
+                                    "nome": "PC \/ Notebook",
+                                    "valor": "3",
+                                    "selecionado": false
+                                }
+                            ]
+                        },
+                        "dinamica": {
+                            "smart-triger": 0,
+                            "input-trigger": 0,
+                            "url-trigger": " ",
+                            "acao-trigger": " ",
+                            "opcoes-dinamicas": 0,
+                            "configuracoes": " ",
+                            "arquivo-query": " ",
+                            "acao-query": " ",
+                            "big-data": 0
+                        },
+                        "estilo": {
+                            "estilo": 0,
+                            "tamanho-do-input": 0
+                        },
+                        "label": {
+                            "placeholder": " ",
+                            "sub-label": " ",
+                            "tooltip": " "
+                        },
+                        "logica": {
+                            "logica": 0,
+                            "setup": " "
+                        },
+                        "identificador": {
+                            "id": " ",
+                            "classes": " "
+                        },
+                        "nown": {
+                            "ativo": 0,
+                            "modulo": " ",
+                            "paginacao": " ",
+                            "chave": " ",
+                            "valor": " "
+                        }
+                    },
+                    "filhos": []
+                },
+                {
+                    "id": "13623",
+                    "tipo": "select",
+                    "nome": "Plataforma",
+                    "obrigatorio": "0",
+                    "data": "2025-07-08 20:21:42",
+                    "pai": "5323",
+                    "posicao": "1",
+                    "hash": "LAaHIAVb12H9GUlNMlioCD9pbEfoNN",
+                    "infos": {
+                        "basico": {
+                            "esconder-label": 0,
+                            "label": "Plataforma ",
+                            "descricao": " ",
+                            "obrigatorio": 0,
+                            "render": 0,
+                            "somente-leitura": 0
+                        },
+                        "opcoes": {
+                            "multiplo": 0,
+                            "opcoes": [
+                                {
+                                    "nome": "Android",
+                                    "valor": "1",
+                                    "selecionado": false
+                                },
+                                {
+                                    "nome": "IOS",
+                                    "valor": "2",
+                                    "selecionado": false
+                                },
+                                {
+                                    "nome": "Windows",
+                                    "valor": "3",
+                                    "selecionado": false
+                                },
+                                {
+                                    "nome": "Mac",
+                                    "valor": "4",
+                                    "selecionado": false
+                                },
+                                {
+                                    "nome": "Linux",
+                                    "valor": "5",
+                                    "selecionado": false
+                                },
+                                {
+                                    "nome": "Outros",
+                                    "valor": "6",
+                                    "selecionado": false
+                                }
+                            ]
+                        },
+                        "dinamica": {
+                            "smart-triger": 0,
+                            "big-data": 0,
+                            "input-trigger": 0,
+                            "url-trigger": " ",
+                            "acao-trigger": " ",
+                            "opcoes-dinamicas": 0,
+                            "configuracoes": " ",
+                            "arquivo-query": " ",
+                            "acao-query": " "
+                        },
+                        "estilo": {
+                            "estilo": 0,
+                            "tamanho-do-input": 0
+                        },
+                        "label": {
+                            "placeholder": " ",
+                            "sub-label": " ",
+                            "tooltip": " "
+                        },
+                        "logica": {
+                            "logica": 0,
+                            "setup": " "
+                        },
+                        "identificador": {
+                            "id": " ",
+                            "classes": " "
+                        },
+                        "nown": {
+                            "ativo": 0,
+                            "modulo": " ",
+                            "paginacao": " ",
+                            "chave": " ",
+                            "valor": " "
+                        }
+                    },
+                    "filhos": []
+                },
+                {
+                    "id": "13624",
+                    "tipo": "select",
+                    "nome": "Navegador",
+                    "obrigatorio": "0",
+                    "data": "2025-07-08 20:24:05",
+                    "pai": "5323",
+                    "posicao": "2",
+                    "hash": "ehxRFgHbmJSePKOwkxVq14p6ynzYlh",
+                    "infos": {
+                        "basico": {
+                            "esconder-label": 0,
+                            "label": "Navegador",
+                            "descricao": "",
+                            "obrigatorio": 0,
+                            "render": 0,
+                            "somente-leitura": 0
+                        },
+                        "opcoes": {
+                            "multiplo": 0,
+                            "opcoes": [
+                                {
+                                    "nome": "Chrome",
+                                    "valor": "1",
+                                    "selecionado": false
+                                },
+                                {
+                                    "nome": "Edge",
+                                    "valor": "2",
+                                    "selecionado": false
+                                },
+                                {
+                                    "nome": "Firefox",
+                                    "valor": "3",
+                                    "selecionado": false
+                                },
+                                {
+                                    "nome": "Safari",
+                                    "valor": "4",
+                                    "selecionado": false
+                                },
+                                {
+                                    "nome": "Opera",
+                                    "valor": "5",
+                                    "selecionado": false
+                                },
+                                {
+                                    "nome": "Internet Explorer",
+                                    "valor": "6",
+                                    "selecionado": false
+                                },
+                                {
+                                    "nome": "Outros",
+                                    "valor": "7",
+                                    "selecionado": false
+                                }
+                            ]
+                        },
+                        "dinamica": {
+                            "smart-triger": 0,
+                            "big-data": 0,
+                            "input-trigger": 0,
+                            "url-trigger": "",
+                            "acao-trigger": "",
+                            "opcoes-dinamicas": 0,
+                            "configuracoes": "",
+                            "arquivo-query": "",
+                            "acao-query": ""
+                        },
+                        "estilo": {
+                            "estilo": 0,
+                            "tamanho-do-input": 0
+                        },
+                        "label": {
+                            "placeholder": "",
+                            "sub-label": "",
+                            "tooltip": ""
+                        },
+                        "logica": {
+                            "logica": 0,
+                            "setup": ""
+                        },
+                        "identificador": {
+                            "id": "",
+                            "classes": ""
+                        },
+                        "nown": {
+                            "ativo": 0,
+                            "modulo": "",
+                            "paginacao": "",
+                            "chave": "",
+                            "valor": ""
+                        }
+                    },
+                    "filhos": []
+                },
+                {
+                    "id": "13625",
+                    "tipo": "select",
+                    "nome": "Bot",
+                    "obrigatorio": "0",
+                    "data": "2025-07-08 20:44:14",
+                    "pai": "5323",
+                    "posicao": "3",
+                    "hash": "S9y6cpEp19M9jqTTtuMAZRc5q6cc1b",
+                    "infos": {
+                        "basico": {
+                            "esconder-label": 0,
+                            "label": "Bot ",
+                            "descricao": " ",
+                            "obrigatorio": 0,
+                            "render": 0,
+                            "somente-leitura": 0
+                        },
+                        "opcoes": {
+                            "multiplo": 0,
+                            "opcoes": [
+                                {
+                                    "nome": "Sim",
+                                    "valor": "1",
+                                    "selecionado": false
+                                },
+                                {
+                                    "nome": "Não",
+                                    "valor": "0",
+                                    "selecionado": false
+                                }
+                            ]
+                        },
+                        "dinamica": {
+                            "smart-triger": 0,
+                            "big-data": 0,
+                            "input-trigger": 0,
+                            "url-trigger": " ",
+                            "acao-trigger": " ",
+                            "opcoes-dinamicas": 0,
+                            "configuracoes": " ",
+                            "arquivo-query": " ",
+                            "acao-query": " "
+                        },
+                        "estilo": {
+                            "estilo": 0,
+                            "tamanho-do-input": 0
+                        },
+                        "label": {
+                            "placeholder": " ",
+                            "sub-label": " ",
+                            "tooltip": " "
+                        },
+                        "logica": {
+                            "logica": 0,
+                            "setup": " "
+                        },
+                        "identificador": {
+                            "id": " ",
+                            "classes": " "
+                        },
+                        "nown": {
+                            "ativo": 0,
+                            "modulo": " ",
+                            "paginacao": " ",
+                            "chave": " ",
+                            "valor": " "
+                        }
+                    },
+                    "filhos": []
+                },
+                {
+                    "id": "13628",
+                    "tipo": "text",
+                    "nome": "Idioma",
+                    "obrigatorio": "0",
+                    "data": "2025-07-08 20:30:47",
+                    "pai": "5323",
+                    "posicao": "4",
+                    "hash": "z68tSrfENk7byBlSCMT0NQXvl7EtqS",
+                    "infos": {
+                        "basico": {
+                            "esconder-label": 0,
+                            "label": "Idioma",
+                            "descricao": "",
+                            "obrigatorio": 0,
+                            "somente-leitura": 0
+                        },
+                        "estilo": {
+                            "estilo": 0,
+                            "tamanho-do-input": 0
+                        },
+                        "label": {
+                            "placeholder": "",
+                            "sub-label": "",
+                            "tooltip": "",
+                            "prefixo": "",
+                            "sufixo": ""
+                        },
+                        "valor": {
+                            "tipo": 0,
+                            "fixo": "",
+                            "dinamico": 0,
+                            "arquivo-query": "",
+                            "acao-query": ""
+                        },
+                        "tamanho": {
+                            "ativar": 0,
+                            "maximo": "",
+                            "minimo": ""
+                        },
+                        "validacao": {
+                            "mascara": 0
+                        },
+                        "logica": {
+                            "logica": 0,
+                            "setup": ""
+                        },
+                        "identificador": {
+                            "id": "",
+                            "classes": ""
+                        },
+                        "nown": {
+                            "ativo": 0,
+                            "modulo": "",
+                            "paginacao": "",
+                            "chave": "",
+                            "valor": ""
+                        }
+                    },
+                    "filhos": []
+                }
+            ]
+        },
+        {
+            "id": "13629",
+            "tipo": "card",
+            "nome": null,
+            "obrigatorio": "0",
+            "data": "2025-07-08 20:30:58",
+            "pai": "0",
+            "posicao": "1",
+            "hash": "xW3P1n2nJutCjs3JAvD9kHq9d5IcpH",
+            "infos": [],
+            "filhos": [
+                {
+                    "id": "13626",
+                    "tipo": "textarea",
+                    "nome": "Extra",
+                    "obrigatorio": "0",
+                    "data": "2025-07-08 20:30:58",
+                    "pai": "13629",
+                    "posicao": "0",
+                    "hash": "I4dGaIl5RDHQO3fBGxIJ65X0CLltl9",
+                    "infos": {
+                        "basico": {
+                            "esconder-label": 0,
+                            "label": "Extra",
+                            "descricao": "",
+                            "obrigatorio": 0,
+                            "somente-leitura": 0
+                        },
+                        "estilo": {
+                            "estilo": 0,
+                            "tamanho-do-input": 0
+                        },
+                        "tamanho": {
+                            "ativar": 0,
+                            "maximo": "",
+                            "minimo": ""
+                        },
+                        "label": {
+                            "placeholder": "",
+                            "sub-label": "",
+                            "tooltip": ""
+                        },
+                        "logica": {
+                            "logica": 0,
+                            "setup": ""
+                        },
+                        "identificador": {
+                            "id": "",
+                            "classes": ""
+                        },
+                        "nown": {
+                            "ativo": 0,
+                            "modulo": "",
+                            "paginacao": "",
+                            "chave": "",
+                            "valor": ""
+                        }
+                    },
+                    "filhos": []
+                }
+            ]
+        }
+    ],
+    "infos": []
+}

@@ -1,0 +1,86 @@
+{
+    "nome": "Transacionais",
+    "banco": "YNzDobtpkUWrlGVnjOe10jZlZ1gLiRe3",
+    "colunas": [
+        {
+            "nome": "Título",
+            "id": "titulo",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "estrangeira": 0
+        },
+        {
+            "nome": "Quem",
+            "id": "quem",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "estrangeira": 0
+        },
+        {
+            "nome": "Módulo",
+            "id": "modulo",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "estrangeira": 0
+        },
+        {
+            "nome": "Formulário",
+            "id": "formulario",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "estrangeira": 0
+        },
+        {
+            "nome": "Ação",
+            "id": "acao",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": false,
+            "estrangeira": 0
+        },
+        {
+            "nome": "Obrigatórioa",
+            "id": "controlavel",
+            "tipo": "1",
+            "render": "6",
+            "regra": [
+                "Sim",
+                "Não"
+            ],
+            "invisivel": false,
+            "editavel": false
+        }
+    ],
+    "regra": "1",
+    "acoes": {
+        "opcoes": {
+            "acoes": true,
+            "editar": true,
+            "apagar": true,
+            "vizualizar": true,
+            "importador": false,
+            "exportador": false,
+            "filtro": false,
+            "colunas": false,
+            "multiplo": false
+        },
+        "rotas": {
+            "editar": "a\/notificacoes\/transacao",
+            "vizualizar": ""
+        }
+    },
+    "layout": {
+        "modo": "1",
+        "container": "0"
+    },
+    "acoesPersonalizadas": []
+}

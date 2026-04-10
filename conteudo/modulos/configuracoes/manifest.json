@@ -1,0 +1,19 @@
+{
+    "name": "Configurações",
+    "description": "Gerencie e personalize todas as configurações essenciais do sistema para melhor adaptação às suas necessidades.",
+    "descriptionLong": "O módulo Configurações é o núcleo da personalização do Nown, permitindo ajustar e definir as principais parametrizações do sistema. Com ele, você pode configurar funcionalidades, permissões, preferências e outros aspectos essenciais para adaptar o sistema às suas necessidades. Ideal para garantir flexibilidade, controle e uma experiência personalizada para cada usuário.",
+    "icon": "bi bi-house-gear",
+    "ativo": "true",
+    "readonly": false,
+    "sub": [
+        {
+            "name": "Geral",
+            "link": "a\/configuracoes"
+        },
+        {
+            "name": "Módulos",
+            "link": "a\/configuracoes\/modulos"
+        }
+    ],
+    "versao": "2.08"
+}

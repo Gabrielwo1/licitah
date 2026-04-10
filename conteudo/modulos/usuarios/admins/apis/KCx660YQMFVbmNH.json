@@ -1,0 +1,41 @@
+{
+    "nome": "Usuario por display",
+    "banco": "sWHpiPuhQkQBvSHypTtmyHKpF9kBq99c",
+    "tipo": 2,
+    "subtipo": 1,
+    "itens": [
+        {
+            "nome": "id",
+            "banco": "p",
+            "chave": "id",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "user",
+            "banco": "p",
+            "chave": "user",
+            "estrangeiro": 0
+        },
+        {
+            "nome": "display",
+            "banco": "p",
+            "chave": "display",
+            "estrangeiro": 0
+        }
+    ],
+    "number": {
+        "comentarios": false,
+        "reacoes": false,
+        "favoritos": false,
+        "visualizacoes": false
+    },
+    "extra": {
+        "ativo": true,
+        "coluna": "user",
+        "tipo": "LIKE"
+    },
+    "clone": {
+        "ativo": false,
+        "api": ""
+    }
+}

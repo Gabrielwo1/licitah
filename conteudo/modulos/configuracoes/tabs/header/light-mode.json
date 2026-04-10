@@ -1,0 +1,66 @@
+{
+    "customcolors": {
+        "label": "Customizar cores",
+        "tipo": "check",
+        "descricao": "Personalizar cores do header no modo claro."
+    },
+    "backgroundcolor":{
+        "label": "Cor de fundo",
+        "tipo": "color",
+        "descricao": "Cor do fundo do Header",
+        "condicional": "customcolors"
+    },
+    "cortexto":{
+        "label": "Cor do texto",
+        "tipo": "color",
+        "descricao": "Cor dos Textos e Icones",
+        "condicional": "customcolors"
+    },
+     "corhover":{
+        "label": "Cor do texto (hover e destaque)",
+        "tipo": "color",
+        "descricao": "Cor do texto de itens ao passar o mouse e destacados",
+        "condicional": "customcolors"
+    },
+    "backgroundmenu":{
+        "label": "Cor de fundo do item",
+        "tipo": "color",
+        "descricao": "Cor de fundo dos itens de menu",
+        "condicional": "customcolors"
+    },
+    "hover":{
+        "label": "Cor de fundo do item (hover)",
+        "tipo": "color",
+        "descricao": "Cor de fundo dos itens de menu ao passar o mouse",
+        "condicional": "customcolors"
+    },
+     "destaque":{
+        "label": "Cor de fundo do item (destaque)",
+        "tipo": "color",
+        "descricao": "Cor de fundo de item destacado",
+        "condicional": "customcolors"
+    },
+    "logomarca":{
+        "label": "Logomarca",
+        "tipo": "file",
+        "descricao": "A logomarca é a combinação da logo e logotipo. Uma logomarca é uma representação visual que incorpora tanto elementos gráficos distintos (logo) quanto texto estilizado (logotipo)"
+    },
+    "logo":{
+        "label": "Logo",
+        "tipo": "file",
+        "descricao": "Um logo, abreviação de logotipo, é um símbolo ou ícone gráfico que representa uma empresa, marca ou produto. Geralmente, consiste em um design visual único e distintivo que é facilmente reconhecido e associado à identidade da marca."
+    },
+    
+     "logotipo":{
+        "label": "Logotipo",
+        "tipo": "file",
+        "descricao": "O logotipo é uma forma específica de logo que se concentra no texto ou na tipografia que compõe o nome da marca."
+    },
+     "imagembackground":{
+        "label": "Imagem de Background para o Header",
+        "tipo": "file",
+        "descricao": "Defina uma imagem para carregar como background do Header por um todo."
+    }
+
+
+}

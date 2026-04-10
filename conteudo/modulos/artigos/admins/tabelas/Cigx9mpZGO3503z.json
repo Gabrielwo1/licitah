@@ -1,0 +1,99 @@
+{
+    "nome": "Artigos",
+    "banco": "VFx1EY01nDXSfRa",
+    "colunas": [
+        {
+            "nome": "Imagem",
+            "id": "imagem",
+            "tipo": "1",
+            "render": "imagem",
+            "invisivel": true,
+            "editavel": false,
+            "filtravel": false,
+            "tabulavel": false,
+            "pesquisavel": false,
+            "estrangeira": 0
+        },
+        {
+            "nome": "Título",
+            "id": "titulo",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": true,
+            "filtravel": false,
+            "tabulavel": false,
+            "pesquisavel": true,
+            "estrangeira": 0
+        },
+        {
+            "nome": "Data",
+            "id": "data",
+            "tipo": "1",
+            "render": "data",
+            "invisivel": false,
+            "editavel": true,
+            "filtravel": false,
+            "tabulavel": false,
+            "pesquisavel": false,
+            "estrangeira": 0
+        },
+        {
+            "nome": "Categoria",
+            "id": "categoria",
+            "tipo": "1",
+            "render": "0",
+            "invisivel": false,
+            "editavel": true,
+            "filtravel": false,
+            "tabulavel": false,
+            "pesquisavel": false,
+            "estrangeira": 1,
+            "confiEstrangeira": {
+                "modulo": "categorias",
+                "banco": "categorias",
+                "tipo": "1",
+                "coluna": "categoria_nome"
+            }
+        },
+        {
+            "nome": "Vídeo",
+            "id": "video",
+            "tipo": "2",
+            "render": "0",
+            "invisivel": false,
+            "editavel": true,
+            "filtravel": false,
+            "tabulavel": false,
+            "pesquisavel": false,
+            "estrangeira": 0
+        }
+    ],
+    "regra": "1",
+    "acoes": {
+        "opcoes": {
+            "acoes": true,
+            "editar": true,
+            "apagar": true,
+            "vizualizar": true,
+            "importador": true,
+            "exportador": true,
+            "filtro": true,
+            "colunas": true,
+            "multiplo": true,
+            "ordenador": true,
+            "filtrodata": true,
+            "bigdata": false
+        },
+        "rotas": {
+            "editar": "a\/artigos\/artigo",
+            "vizualizar": "artigos"
+        }
+    },
+    "layout": {
+        "modo": "1",
+        "container": "0"
+    },
+    "acoesPersonalizadas": [],
+    "dataFilter": "0"
+}

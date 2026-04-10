@@ -1,0 +1,32 @@
+{
+    "nome":{
+        "tipo":"input",
+        "label":"Nome do Aplicativo",
+        "descricao": "O nome do seu aplicativo conforme exibido para o usuário"
+    },
+    "nomecurto":{
+        "tipo":"input",
+        "label":"Nome Curto",
+        "descricao": "Usado em lançadores de aplicativos"
+    },
+    "id":{
+        "tipo":"input",
+        "label":"ID",
+        "descricao": "Identificador único para seu APP que é separado de campos que podem mudar ao longo do tempo (como nome ou nome curto)"
+    },
+    "descricao":{
+        "tipo":"textarea",
+        "label":"Descrição",
+        "descricao": "Usado em lojas de aplicativos e diálogos de instalação"
+    },
+    "cor":{
+        "tipo":"color",
+        "label":"Cor Principal",
+        "descricao": "Selecione a cor do tema"
+    },
+    "corbg":{
+        "tipo":"color",
+        "label":"Cor de Fundo",
+        "descricao": "Selecione a cor de fundo do aplicativo"
+    }
+}

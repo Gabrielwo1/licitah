@@ -1,0 +1,66 @@
+{
+    "nome": "Lista de Associações de Empresas por Associado",
+    "banco": "0M31yOChK5bhkgb",
+    "tipo": 2,
+    "subtipo": 1,
+    "itens": [
+        {
+            "nome": "empresa",
+            "banco": "p",
+            "chave": "empresa",
+            "estrangeiro": 1,
+            "setupEstrangeira": {
+                "modulo": "empresas",
+                "banco": "GygZLIj8xklp5UjqSWapqImWBzmBOsZ3.json",
+                "metas": [],
+                "principal": [
+                    "nome",
+                    "cnpj",
+                    "descricao",
+                    "data",
+                    "url",
+                    "imagem",
+                    "galeria"
+                ]
+            }
+        },
+        {
+            "nome": "funcao",
+            "banco": "p",
+            "chave": "funcao",
+            "estrangeiro": 1,
+            "setupEstrangeira": {
+                "modulo": "empresas",
+                "banco": "mzaA2HQA8CXUv49.json",
+                "metas": [],
+                "principal": [
+                    "nome",
+                    "descricao",
+                    "url",
+                    "imagem"
+                ]
+            }
+        },
+        {
+            "nome": "data",
+            "banco": "p",
+            "chave": "dataCriacao",
+            "estrangeiro": 0
+        }
+    ],
+    "number": {
+        "comentarios": false,
+        "reacoes": false,
+        "favoritos": false,
+        "visualizacoes": false
+    },
+    "extra": {
+        "ativo": true,
+        "coluna": "usuario",
+        "tipo": "="
+    },
+    "clone": {
+        "ativo": false,
+        "api": ""
+    }
+}

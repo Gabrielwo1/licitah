@@ -1,0 +1,9 @@
+{   
+    "chave":
+    {
+        "label": "Digite a chave da sua api",
+        "tipo":"input",
+        "descricao": "Digite aqui o código da api passada pelo governo." 
+    }
+    
+}

@@ -1,0 +1,52 @@
+{ 
+    "nome":{
+        "label": "Nome do Site",
+        "tipo":"input",
+         "descricao": "Nome base para todo o sistema"
+      },
+    "tag":{
+         "tipo":"input",
+         "label": "Tag Line",
+         "descricao": "Texto curto que descreve o projeto"
+      },
+    "alternativo":{
+         "label": "Texto Alternativo",
+         "tipo":"input",
+         "descricao": "Aparece caso a logo não seja carregada corretamente"
+      },
+     "login":{
+          "label": "Ativar Login",
+         "tipo":"check",
+         "descricao": "Permitir login no sistema por qualquer usuário"
+      },
+        "sair":{
+          "label": "Perguntar antes de Sair",
+         "tipo":"check",
+         "descricao": "Quando o cliente tentar deslogar, perguntar antes."
+      },
+       "textologin":{
+          "label": "Texto do Botão",
+         "tipo":"input",
+         "descricao": "Defina o texto do botão de login",
+         "condicional": "login"
+      },
+      "cadastro":{
+        "label": "Ativar Cadastro",
+         "tipo":"check",
+         "descricao": "Permitir cadastro no sistema por qualquer usuário"
+      },
+      "aprovacao":{
+          "label": "Ativar Aprovação de Usuário",
+          "tipo":"check",
+          "descricao": "Quando essa funcionalidade está ativa, os usuários precisam ser aprovados previamente, antes de ter acesso completo ao sistema."
+      },
+      "novosusuarios":{
+        "label": "Função de Novos Usuários",
+         "tipo":"number",
+         "descricao": "Defina qual a função base de novos usuários (Somente funções do tipo cliente)",
+         "condicional": "cadastro"
+      },
+      "controleUsuario":{
+         "tipo":"div"  
+      }
+}

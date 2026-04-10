@@ -1,0 +1,22 @@
+{
+    "login-social":{
+        "label": "Login Social",
+        "tipo": "check",
+        "descricao": "Permita que os usuários controlem com qual rede social logar."
+    },
+    "gerenciar-sessoes":{
+        "label": "Controle de Sessão",
+        "tipo": "check",
+        "descricao": "Permita os usuários visualizarem onde estão logados."
+    },
+    "autenticacao-de-2-fatores":{
+        "label": "Autenticação de 2 Fatores",
+        "tipo": "check",
+        "descricao": "Permita que o usuário aumente a camada de segurança com autenticação de 2 fatores."
+    },
+    "usuarios-bloqueados":{
+         "label": "Usuários Bloqueados",
+        "tipo": "check",
+        "descricao": "Permita os usuários se bloqueim dentro do sistema."
+    }
+}

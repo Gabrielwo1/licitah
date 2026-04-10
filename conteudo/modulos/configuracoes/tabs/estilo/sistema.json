@@ -1,0 +1,14 @@
+{
+    "Defina os Estilos do Sistema":{
+        "tipo": "titulo"
+    },
+    "formularios":{
+        "tipo": "select",
+        "label": "Estilo dos formulários",
+        "descricao": "Aqui você poderá definir o layout dos formulários do sistema",
+        "opcoes":[
+            {"v": 1, "t": "Clássico"},
+            {"v": 2, "t": "Moderno"}
+            ]
+    }
+}

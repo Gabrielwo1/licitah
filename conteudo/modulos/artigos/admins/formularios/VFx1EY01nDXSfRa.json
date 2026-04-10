@@ -1,0 +1,465 @@
+{
+    "id": "30",
+    "nome": "Artigos",
+    "hash": "VFx1EY01nDXSfRa",
+    "data": "2023-12-16 18:31:42",
+    "tamanho": 17,
+    "inputs": [
+        {
+            "id": "779",
+            "tipo": "text",
+            "nome": "Título",
+            "obrigatorio": "1",
+            "data": "2024-07-06 18:36:48",
+            "pai": "0",
+            "posicao": "0",
+            "hash": "JoYSxE82xiM7pIqy6xPsF0QDDAatgO",
+            "infos": {
+                "basico": {
+                    "esconder-label": 1,
+                    "label": "Título ",
+                    "descricao": " ",
+                    "obrigatorio": 1,
+                    "somente-leitura": 0
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": "Título ",
+                    "sub-label": " ",
+                    "tooltip": " "
+                },
+                "validacao": {
+                    "mascara": 0
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": " "
+                },
+                "identificador": {
+                    "id": "",
+                    "classes": ""
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "780",
+            "tipo": "coluna",
+            "nome": null,
+            "obrigatorio": "0",
+            "data": "2023-12-16 18:32:12",
+            "pai": "0",
+            "posicao": "1",
+            "hash": "h5db1GIPaw9bHEGBZPqp3C6LvTBDpB",
+            "infos": [],
+            "filhos": [
+                {
+                    "id": "781",
+                    "tipo": "col",
+                    "nome": null,
+                    "obrigatorio": "0",
+                    "data": "2023-12-16 18:32:12",
+                    "pai": "780",
+                    "posicao": "0",
+                    "hash": "nNZAYtvvQYqX7PTCVGLA3Tkrf124Xt",
+                    "infos": {
+                        "layout": {
+                            "tamanho": 9
+                        },
+                        "logica": {
+                            "logica": 0,
+                            "setup": ""
+                        }
+                    },
+                    "filhos": [
+                        {
+                            "id": "783",
+                            "tipo": "card",
+                            "nome": null,
+                            "obrigatorio": "0",
+                            "data": "2023-12-16 18:32:52",
+                            "pai": "781",
+                            "posicao": "0",
+                            "hash": "YzRjoJwxXPo29HkDzouL6uaADgU3b1",
+                            "infos": [],
+                            "filhos": [
+                                {
+                                    "id": "784",
+                                    "tipo": "rich",
+                                    "nome": null,
+                                    "obrigatorio": "0",
+                                    "data": "2023-12-16 18:32:20",
+                                    "pai": "783",
+                                    "posicao": "0",
+                                    "hash": "M8LAUF7har2XnZwbyVdAgtHlDgwuXh",
+                                    "infos": [],
+                                    "filhos": []
+                                },
+                                {
+                                    "id": "787",
+                                    "tipo": "textarea",
+                                    "nome": "Descrição Curta",
+                                    "obrigatorio": "0",
+                                    "data": "2023-12-16 18:33:39",
+                                    "pai": "783",
+                                    "posicao": "1",
+                                    "hash": "yMDqQ3V8jtBLbQmhYtgM9zn0lslIH8",
+                                    "infos": {
+                                        "basico": {
+                                            "esconder-label": 0,
+                                            "label": "Descrição Curta ",
+                                            "descricao": "A descrição curta poderá ser usada nas páginas de listagem ",
+                                            "obrigatorio": 0
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho-do-input": 0
+                                        },
+                                        "label": {
+                                            "placeholder": " ",
+                                            "sub-label": " ",
+                                            "tooltip": " "
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": " "
+                                        },
+                                        "tamanho": {
+                                            "ativar": 1,
+                                            "maximo": 200
+                                        },
+                                        "identificador": {
+                                            "id": " ",
+                                            "classes": " "
+                                        }
+                                    },
+                                    "filhos": []
+                                },
+                                {
+                                    "id": "2288",
+                                    "tipo": "text",
+                                    "nome": "Vídeo Artigo",
+                                    "obrigatorio": "0",
+                                    "data": "2024-04-10 13:58:29",
+                                    "pai": "783",
+                                    "posicao": "2",
+                                    "hash": "U1dNbnjNb24kRJIzFJ3Zt3LV1eW1zz",
+                                    "infos": {
+                                        "basico": {
+                                            "esconder-label": 0,
+                                            "label": "Vídeo Artigo ",
+                                            "descricao": " ",
+                                            "obrigatorio": 0
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho-do-input": 0
+                                        },
+                                        "label": {
+                                            "placeholder": " ",
+                                            "sub-label": " ",
+                                            "tooltip": " "
+                                        },
+                                        "validacao": {
+                                            "mascara": 0
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": " "
+                                        },
+                                        "identificador": {
+                                            "id": " ",
+                                            "classes": " "
+                                        }
+                                    },
+                                    "filhos": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "4697",
+                            "tipo": "card",
+                            "nome": "Fonte",
+                            "obrigatorio": "0",
+                            "data": "2024-08-14 18:29:17",
+                            "pai": "781",
+                            "posicao": "1",
+                            "hash": "ALDpwpf2t26tMPNBOX9N8j9dSX3v7E",
+                            "infos": {
+                                "basico": {
+                                    "label": "Fonte ",
+                                    "recolhivel": 1
+                                },
+                                "flex": {
+                                    "ativar": 0,
+                                    "direcao": 1,
+                                    "justify": 0,
+                                    "align": 0,
+                                    "gap": 0
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": " "
+                                },
+                                "identificador": {
+                                    "id": " ",
+                                    "classes": " "
+                                }
+                            },
+                            "filhos": [
+                                {
+                                    "id": "4698",
+                                    "tipo": "text",
+                                    "nome": "Nome da Fonte",
+                                    "obrigatorio": "0",
+                                    "data": "2024-08-14 18:28:35",
+                                    "pai": "4697",
+                                    "posicao": "0",
+                                    "hash": "1Zco9Uw8o7Y30VGBUXzoA76BZZkNE7",
+                                    "infos": {
+                                        "basico": {
+                                            "esconder-label": 0,
+                                            "label": "Nome da Fonte",
+                                            "descricao": "",
+                                            "obrigatorio": 0,
+                                            "somente-leitura": 0
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho-do-input": 0
+                                        },
+                                        "label": {
+                                            "placeholder": "",
+                                            "sub-label": "",
+                                            "tooltip": "",
+                                            "prefixo": "",
+                                            "sufixo": ""
+                                        },
+                                        "valor": {
+                                            "tipo": 0,
+                                            "fixo": "",
+                                            "dinamico": 0,
+                                            "arquivo-query": "",
+                                            "acao-query": ""
+                                        },
+                                        "tamanho": {
+                                            "ativar": 0,
+                                            "maximo": "",
+                                            "minimo": ""
+                                        },
+                                        "validacao": {
+                                            "mascara": 0
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": ""
+                                        },
+                                        "identificador": {
+                                            "id": "",
+                                            "classes": ""
+                                        }
+                                    },
+                                    "filhos": []
+                                },
+                                {
+                                    "id": "4367",
+                                    "tipo": "text",
+                                    "nome": "Url da Fonte",
+                                    "obrigatorio": "0",
+                                    "data": "2024-08-14 18:28:26",
+                                    "pai": "4697",
+                                    "posicao": "1",
+                                    "hash": "Ag6TY0WMvLpvOkaJA1ivVAMBwa9Kxa",
+                                    "infos": {
+                                        "basico": {
+                                            "esconder-label": 0,
+                                            "label": "Url da Fonte ",
+                                            "descricao": " ",
+                                            "obrigatorio": 0,
+                                            "somente-leitura": 0
+                                        },
+                                        "estilo": {
+                                            "estilo": 0,
+                                            "tamanho-do-input": 0
+                                        },
+                                        "label": {
+                                            "placeholder": " ",
+                                            "sub-label": " ",
+                                            "tooltip": " ",
+                                            "prefixo": " ",
+                                            "sufixo": " "
+                                        },
+                                        "valor": {
+                                            "tipo": 0,
+                                            "fixo": " ",
+                                            "dinamico": 0,
+                                            "arquivo-query": " ",
+                                            "acao-query": " "
+                                        },
+                                        "tamanho": {
+                                            "ativar": 0,
+                                            "maximo": " ",
+                                            "minimo": " "
+                                        },
+                                        "validacao": {
+                                            "mascara": 15
+                                        },
+                                        "logica": {
+                                            "logica": 0,
+                                            "setup": " "
+                                        },
+                                        "identificador": {
+                                            "id": " ",
+                                            "classes": " "
+                                        }
+                                    },
+                                    "filhos": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "786",
+                            "tipo": "seo",
+                            "nome": null,
+                            "obrigatorio": "0",
+                            "data": "2024-08-14 18:29:17",
+                            "pai": "781",
+                            "posicao": "2",
+                            "hash": "GI0tp9oLvqYc8u5QVtQYm3MqiA7zEl",
+                            "infos": [],
+                            "filhos": []
+                        }
+                    ]
+                },
+                {
+                    "id": "782",
+                    "tipo": "col",
+                    "nome": null,
+                    "obrigatorio": "0",
+                    "data": "2023-12-16 18:32:12",
+                    "pai": "780",
+                    "posicao": "1",
+                    "hash": "vi9dFsfSwuLenmn6s6fd1tcQlqf4l5",
+                    "infos": {
+                        "layout": {
+                            "tamanho": 3
+                        },
+                        "logica": {
+                            "logica": 0,
+                            "setup": ""
+                        }
+                    },
+                    "filhos": [
+                        {
+                            "id": "785",
+                            "tipo": "cardSalvar",
+                            "nome": " ",
+                            "obrigatorio": "0",
+                            "data": "2024-04-10 13:55:11",
+                            "pai": "782",
+                            "posicao": "0",
+                            "hash": "TAbJk6B89hZy3JyLLVvNUtdrIEpAnd",
+                            "infos": {
+                                "basico": {
+                                    "label": "  ",
+                                    "recolhivel": 1,
+                                    "fixar-no-rodape-mobile": 1,
+                                    "fixar-no-rodape-pc": 0
+                                },
+                                "funcoes": {
+                                    "desabilitar-status": 0,
+                                    "desabilitar-vizibilidade": 0,
+                                    "desabilitar-agendados": 0
+                                },
+                                "logica": {
+                                    "logica": 0,
+                                    "setup": "  "
+                                },
+                                "identificador": {
+                                    "id": "",
+                                    "classes": ""
+                                }
+                            },
+                            "filhos": []
+                        },
+                        {
+                            "id": "788",
+                            "tipo": "categoria",
+                            "nome": null,
+                            "obrigatorio": "0",
+                            "data": "2023-12-16 18:33:52",
+                            "pai": "782",
+                            "posicao": "1",
+                            "hash": "4l3vwnV9vQOGvmzEnOINfN7Tvkc0IE",
+                            "infos": [],
+                            "filhos": []
+                        },
+                        {
+                            "id": "789",
+                            "tipo": "tags",
+                            "nome": null,
+                            "obrigatorio": "0",
+                            "data": "2023-12-16 18:33:55",
+                            "pai": "782",
+                            "posicao": "2",
+                            "hash": "buFtPdLJ1gQafK0VODLQplx72yevVk",
+                            "infos": [],
+                            "filhos": []
+                        },
+                        {
+                            "id": "790",
+                            "tipo": "imagemDestaque",
+                            "nome": null,
+                            "obrigatorio": "0",
+                            "data": "2023-12-16 18:33:59",
+                            "pai": "782",
+                            "posicao": "3",
+                            "hash": "OZXBGQJ5lmdpFHsCB57Ha925gtzac8",
+                            "infos": [],
+                            "filhos": []
+                        },
+                        {
+                            "id": "3500",
+                            "tipo": "galeria",
+                            "nome": null,
+                            "obrigatorio": "0",
+                            "data": "2024-06-20 17:05:38",
+                            "pai": "782",
+                            "posicao": "4",
+                            "hash": "yNEY6d8uZmMyAonl5X2E23A2FQS5ai",
+                            "infos": [],
+                            "filhos": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "infos": {
+        "basico": {
+            "esconder-label": 1,
+            "label": "Nome ",
+            "descricao": " ",
+            "obrigatorio": 0
+        },
+        "estilo": {
+            "estilo": 0,
+            "tamanho-do-input": 0
+        },
+        "label": {
+            "placeholder": "Digite o nome ",
+            "sub-label": " ",
+            "tooltip": " "
+        },
+        "validacao": {
+            "mascara": 0
+        },
+        "logica": {
+            "logica": 0,
+            "setup": " "
+        }
+    }
+}

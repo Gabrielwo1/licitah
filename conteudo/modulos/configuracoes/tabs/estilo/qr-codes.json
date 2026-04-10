@@ -1,0 +1,375 @@
+{
+   "niveldecomplexidade":{
+      "tipo":"select",
+      "label":"Nível de Complexidade",
+      "descricao":"Quanto o maior o nível de complexidade, mais pontos no QR Code, porém mais fácil a leitura.",
+      "opcoes":[
+         {
+            "chave":"Baixo",
+            "valor":"l"
+         },
+         {
+            "chave":"Médio",
+            "valor":"m"
+         },
+         {
+            "chave":"Alta",
+            "valor":"q"
+         },
+         {
+            "chave":"Avançada",
+            "valor":"h"
+         }
+      ]
+   },
+   "margem":{
+      "tipo":"number",
+      "label":"Margem",
+      "descricao":"Defina um tamanho para a margem do QR Code"
+   },
+   "imagem":{
+      "tipo":"check",
+      "label":"Adicionar Imagem aos QR Codes",
+      "descricao":"Com essa opção ativa, você poderá colocar uma imagem no centro do QR Code"
+   },
+   "arquivo":{
+      "tipo":"file",
+      "label":"Imagem do QR Code",
+      "descricao":"Defina a imagem que será colocada no QR Code",
+      "condicional":"imagem"
+   },
+   "tamanhoarquivo":{
+      "tipo":"select",
+      "label":"Tamanho da Imagem",
+      "descricao":"Defina o tamanho a ser ocupado pela imagem",
+      "condicional":"imagem",
+      "opcoes":[
+         {
+            "chave":"1",
+            "valor":"0.1"
+         },
+         {
+            "chave":"2",
+            "valor":"0.2"
+         },
+         {
+            "chave":"3",
+            "valor":"0.3"
+         },
+         {
+            "chave":"4",
+            "valor":"0.4"
+         },
+         {
+            "chave":"5",
+            "valor":"0.5"
+         },
+         {
+            "chave":"6",
+            "valor":"0.6"
+         },
+         {
+            "chave":"7",
+            "valor":"0.7"
+         },
+         {
+            "chave":"8",
+            "valor":"0.8"
+         },
+         {
+            "chave":"9",
+            "valor":"0.9"
+         },
+         {
+            "chave":"10",
+            "valor":"1"
+         }
+      ]
+   },
+    "marginarquivo":{
+      "tipo":"number",
+      "label":"Margem da Imagem",
+      "descricao":"Defina o tamanho da margem em volta da imagem",
+      "condicional":"imagem"
+   },
+   "imagembackground":{
+      "tipo":"check",
+      "label":"Adicionar Background a Imagem",
+      "descricao":"Com essa opção ativa, será adicionado um background atrás da imagem",
+      "condicional":"imagem"
+   },
+   "LAYOUT DOS PONTOS":{
+      "tipo":"titulo",
+      "subtitulo":"Defina o layout dos pontos do QR Code"
+   },
+   "estilipontos":{
+      "tipo":"select",
+      "label":"Estilo dos pontos",
+      "opcoes":[
+         {
+            "chave":"Quadrado",
+            "valor":"square"
+         },
+         {
+            "chave":"Pontos",
+            "valor":"dots"
+         },
+         {
+            "chave":"Arredondado",
+            "valor":"rounded"
+         },
+         {
+            "chave":"Muito Arredondado",
+            "valor":"extra-rounded"
+         },
+         {
+            "chave":"Elegante",
+            "valor":"classy"
+         },
+         {
+            "chave":"Elegante Arredondado",
+            "valor":"classy-rounded"
+         }
+      ]
+   },
+   "corpontos":{
+      "tipo":"select",
+      "label":"Cor dos Pontos",
+      "opcoes":[
+         {
+            "chave":"Padrão",
+            "valor":"1"
+         },
+         {
+            "chave":"Personalizada",
+            "valor":"2"
+         },
+         {
+            "chave":"Degrade",
+            "valor":"3"
+         }
+      ]
+   },
+   "corpontospersonalizada":{
+      "tipo":"color",
+      "label":"Cor",
+      "descricao":"Defina a cor dos pontos",
+      "condicional":"corpontos",
+      "valorcondicao":"2"
+   },
+   "corpontosinicial":{
+      "tipo":"color",
+      "label":"Cor Inicial",
+      "descricao":"Defina a cor incial degrade dos pontos",
+      "condicional":"corpontos",
+      "valorcondicao":"3"
+   },
+   "corpontosfinal":{
+      "tipo":"color",
+      "label":"Cor Final",
+      "descricao":"Defina a cor final do degrade dos pontos",
+      "condicional":"corpontos",
+      "valorcondicao":"3"
+   },
+   "corpontosrotacao":{
+      "tipo":"number",
+      "label":"Rotação Degrade",
+      "descricao":"Defina a a posição das cores degrade",
+      "condicional":"corpontos",
+      "valorcondicao":"3"
+   },
+   "QUADRADO DOS CANTOS":{
+      "tipo":"titulo",
+      "subtitulo":"Defina o layout dos quadrados maiores presentes nos cantos do QR Code"
+   },
+   "estilocantos":{
+      "tipo":"select",
+      "label":"Estilo dos Cantos",
+      "opcoes":[
+         {
+            "chave":"Arredondado",
+            "valor":"false"
+         },
+         {
+            "chave":"Quadrado",
+            "valor":"square"
+         },
+         {
+            "chave":"Circulo",
+            "valor":"dot"
+         },
+         {
+            "chave":"Muito Arredondado",
+            "valor":"extra-rounded"
+         }
+      ]
+   },
+   "corcantos":{
+      "tipo":"select",
+      "label":"Cor dos Pontos",
+      "opcoes":[
+         {
+            "chave":"Padrão",
+            "valor":"1"
+         },
+         {
+            "chave":"Personalizada",
+            "valor":"2"
+         },
+         {
+            "chave":"Degrade",
+            "valor":"3"
+         }
+      ]
+   },
+   "corcantospersonalizada":{
+      "tipo":"color",
+      "label":"Cor",
+      "descricao":"Defina a cor dos pontos",
+      "condicional":"corcantos",
+      "valorcondicao":"2"
+   },
+   "corcantosinicial":{
+      "tipo":"color",
+      "label":"Cor Inicial",
+      "descricao":"Defina a cor incial degrade dos pontos",
+      "condicional":"corcantos",
+      "valorcondicao":"3"
+   },
+   "corcantosfinal":{
+      "tipo":"color",
+      "label":"Cor Final",
+      "descricao":"Defina a cor final do degrade dos pontos",
+      "condicional":"corcantos",
+      "valorcondicao":"3"
+   },
+   "corcantosrotacao":{
+      "tipo":"number",
+      "label":"Rotação Degrade",
+      "descricao":"Defina a a posição das cores degrade",
+      "condicional":"corcantos",
+      "valorcondicao":"3"
+   },
+    "INTERIOR QUADRADO DOS CANTOS":{
+      "tipo":"titulo",
+      "subtitulo":"Defina o layout do conteúdo interno dos cantos"
+   },
+   "estilointernos":{
+      "tipo":"select",
+      "label":"Estilo do Interior dos Cantos",
+      "opcoes":[
+         {
+            "chave":"Arredondado",
+            "valor":"rounded"
+         },
+         {
+            "chave":"Quadrado",
+            "valor":"square"
+         },
+         {
+            "chave":"Circulo",
+            "valor":"dot"
+         },
+         {
+            "chave":"Muito Arredondado",
+            "valor":"extra-rounded"
+         }
+      ]
+   },
+   "corinternos":{
+      "tipo":"select",
+      "label":"Cor dos Pontos",
+      "opcoes":[
+         {
+            "chave":"Padrão",
+            "valor":"1"
+         },
+         {
+            "chave":"Personalizada",
+            "valor":"2"
+         },
+         {
+            "chave":"Degrade",
+            "valor":"3"
+         }
+      ]
+   },
+   "corinternospersonalizada":{
+      "tipo":"color",
+      "label":"Cor",
+      "descricao":"Defina a cor dos pontos",
+      "condicional":"corinternos",
+      "valorcondicao":"2"
+   },
+   "corinternosinicial":{
+      "tipo":"color",
+      "label":"Cor Inicial",
+      "descricao":"Defina a cor incial degrade dos pontos",
+      "condicional":"corinternos",
+      "valorcondicao":"3"
+   },
+   "corcinternosfinal":{
+      "tipo":"color",
+      "label":"Cor Final",
+      "descricao":"Defina a cor final do degrade dos pontos",
+      "condicional":"corinternos",
+      "valorcondicao":"3"
+   },
+   "corinternosrotacao":{
+      "tipo":"number",
+      "label":"Rotação Degrade",
+      "descricao":"Defina a a posição das cores degrade",
+      "condicional":"corinternos",
+      "valorcondicao":"3"
+   },
+   "BACKGROUND DO QR CODE":{
+      "tipo":"titulo",
+      "subtitulo":"Personalize a cor de fundo do QR Code"
+   },
+   "corbg":{
+      "tipo":"select",
+      "label":"Cor dos Pontos",
+      "opcoes":[
+         {
+            "chave":"Padrão",
+            "valor":"1"
+         },
+         {
+            "chave":"Personalizada",
+            "valor":"2"
+         },
+         {
+            "chave":"Degrade",
+            "valor":"3"
+         }
+      ]
+   },
+   "corbgpersonalizada":{
+      "tipo":"color",
+      "label":"Cor",
+      "descricao":"Defina a cor dos pontos",
+      "condicional":"corbg",
+      "valorcondicao":"2"
+   },
+   "corbginicial":{
+      "tipo":"color",
+      "label":"Cor Inicial",
+      "descricao":"Defina a cor incial degrade dos pontos",
+      "condicional":"corbg",
+      "valorcondicao":"3"
+   },
+   "corbgfinal":{
+      "tipo":"color",
+      "label":"Cor Final",
+      "descricao":"Defina a cor final do degrade dos pontos",
+      "condicional":"corbg",
+      "valorcondicao":"3"
+   },
+   "corbgrotacao":{
+      "tipo":"number",
+      "label":"Rotação Degrade",
+      "descricao":"Defina a a posição das cores degrade",
+      "condicional":"corbg",
+      "valorcondicao":"3"
+   }
+}

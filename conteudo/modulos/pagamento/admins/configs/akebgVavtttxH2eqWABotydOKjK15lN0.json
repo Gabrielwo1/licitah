@@ -1,0 +1,117 @@
+{
+    "banco": "pay_cupons",
+    "meta": true,
+    "prefixo": "cupom",
+    "url": false,
+    "colunas": [
+        {
+            "nome": "nome",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": true,
+            "input": "f7tXUdQE2OruXjXjLJorQChQ7HOqLo",
+            "size": 100
+        },
+        {
+            "nome": "codigo",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": true,
+            "input": "1myWAx7y66Aj6r4DE1YEWdUKfNzPGK",
+            "size": 50
+        },
+        {
+            "nome": "descricao",
+            "nulo": false,
+            "tipo": "text",
+            "unico": false,
+            "input": "vJoXzjTJSrdBARjEAVBznLTPyTLjzh"
+        },
+        {
+            "nome": "expiracao",
+            "nulo": false,
+            "tipo": "data",
+            "input": "VbaW0puqt9cq7apteqSVXsKrLbR08r",
+            "formato": "datetime"
+        },
+        {
+            "nome": "usuarios",
+            "nulo": false,
+            "tipo": "text",
+            "unico": false,
+            "input": "GFF1Z4lgE1Glja6OLtGw4aZaRQMkRL"
+        },
+        {
+            "nome": "produtos",
+            "nulo": false,
+            "tipo": "text",
+            "unico": false,
+            "input": "tbEefNOW0pXt2vwqBdr5WRI13PoyWT"
+        },
+        {
+            "nome": "tipos",
+            "nulo": false,
+            "tipo": "text",
+            "unico": false,
+            "input": "B17yq6exe7CH2KHr1ZhZVjyPomb4C5"
+        },
+        {
+            "nome": "categorias",
+            "nulo": false,
+            "tipo": "text",
+            "unico": false,
+            "input": "9rqCt1a3fF2fsnJ6kJGQ6d12MADLg1"
+        },
+        {
+            "nome": "ativa",
+            "nulo": false,
+            "tipo": "boolean",
+            "unico": false,
+            "input": "JKftqlOaUw3wwDzpzNK0hbBIOiwzeD"
+        },
+        {
+            "nome": "funcoes",
+            "nulo": false,
+            "tipo": "text",
+            "unico": false,
+            "input": "0KWSlZeTyTpIsbWtYqclOxkrYjZTVo"
+        }
+    ],
+    "estrutura": {
+        "meta": true,
+        "hash": true,
+        "autor": true,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "ordenador": false,
+        "url": false,
+        "urledit": false,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false,
+        "autoria": false,
+        "wildcard": false,
+        "atributos": false,
+        "destaque": false,
+        "desabilitarNovo": false,
+        "desabilitarEdicao": false,
+        "reordenador": false,
+        "pontos": false
+    },
+    "metas": {
+        "yMdocV6ap1Cdb02fHCH4GsIBJr4zsg": "tipo",
+        "PnGRBelD9NLxvo3dHcWiI01syQJZer": "valor",
+        "H4xnLHgRyy0GqnIZ6LqQjwFZq3zEmp": "porcentagem",
+        "GmZHzYLH66INllHYMTgtD8D0yHnOwg": "frete",
+        "dT3Uvlr0nW5lzZGbxWGpkEZE2OPbV1": "minimo",
+        "KESPnVpWqRxufOxAp9h7zNA0oOdRq2": "maximo",
+        "bydOjPJXmc01UqSULKmybVda9LSMrm": "individual",
+        "i1SV7i7efmhdSy6oYUUPq30ijRueHH": "excluir_promocao",
+        "mjNfr0BFYxYgBjakh26HcfJDAexUaq": "limite_cupom",
+        "tZnjWKW1ZkSbaERE8vDoB63ca1PRxF": "limite_itens",
+        "B3n0jVz4lbezZ0gorEWgyuTC0gYNon": "limite_cliente"
+    }
+}

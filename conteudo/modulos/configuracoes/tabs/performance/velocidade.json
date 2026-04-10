@@ -1,0 +1,20 @@
+{ "ATENÇÃO: NÃO RECOMENDAMOS ATIVAR NENHUMA DAS OPÇÕES ABAIXO.":{
+      "tipo": "titulo",
+      "subtitulo": "Essas opções quando desativadas deixam a aplicação perfomatica e muito mais dinâmica."
+    },
+   "cache":{
+       "tipo": "check",
+       "descricao": "Desabilitar o cache, garante que não serão salvos os arquivos Javascript e CSS.",
+       "label": "Desabilitar Cache"
+   },
+   "spa":{
+       "tipo": "check",
+       "descricao": "Com essa opção ativada, o site irá dar refresh quando os links forem clicados",
+       "label": "Desabilitar o SPA (Single Page Aplication) - NÃO RECOMENDADO"
+   },
+   "indexdb":{
+       "tipo": "check",
+       "descricao": "Com essa opção ativada, as páginas não serão mais salvas na memoria do dispositivo do usuário.",
+       "label": "Desabilitar Index DB - NÃO RECOMENDADO"
+   }
+}

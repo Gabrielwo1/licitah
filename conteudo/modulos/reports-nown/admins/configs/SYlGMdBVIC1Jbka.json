@@ -1,0 +1,43 @@
+{
+    "banco": "bugs",
+    "meta": true,
+    "prefixo": "bug",
+    "url": "1",
+    "colunas": [
+        {
+            "nome": "titulo",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "XFO9aabB79Qjk8P9f039ABEfu0dnaH",
+            "size": 300
+        },
+        {
+            "nome": "descricao",
+            "nulo": false,
+            "tipo": "text",
+            "unico": false,
+            "input": "jZ1RKLcQ8n1iQgpZblKRbWlrL0zRhY"
+        }
+    ],
+    "estrutura": {
+        "meta": true,
+        "hash": true,
+        "autor": false,
+        "render": false,
+        "dataCriacao": true,
+        "dataUpdate": true,
+        "url": true,
+        "urledit": false,
+        "imagemDestaque": false,
+        "galeria": true,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false
+    },
+    "metas": {
+        "PNOwDJ8NQcpOTzLhNz2gYmu7VOzYr8": "",
+        "YP2YNtyxf47z6T59P4WlzyWShedWXp": ""
+    }
+}

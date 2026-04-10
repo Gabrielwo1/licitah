@@ -1,0 +1,42 @@
+{
+    "nome": "Vídeos",
+    "banco": "fAZFk5JN9rO6JlH",
+    "colunas": [
+        {
+            "nome": "Imagem",
+            "id": "imagem",
+            "tipo": "1",
+            "render": "1"
+        },
+        {
+            "nome": "Título",
+            "id": "titulo",
+            "tipo": "1",
+            "render": "0"
+        },
+        {
+            "nome": "Autor",
+            "id": "autor",
+            "tipo": "1",
+            "render": "0"
+        }
+    ],
+    "regra": "1",
+    "acoes": {
+        "opcoes": {
+            "acoes": true,
+            "editar": true,
+            "apagar": true,
+            "vizualizar": true,
+            "importador": false,
+            "exportador": false,
+            "filtro": false,
+            "colunas": false
+        },
+        "rotas": {
+            "editar": "\/a\/videos\/video",
+            "vizualizar": "videos"
+        }
+    },
+    "acoesPersonalizadas": []
+}

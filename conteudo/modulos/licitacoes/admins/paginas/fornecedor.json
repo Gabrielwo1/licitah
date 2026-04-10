@@ -1,0 +1,16 @@
+{
+    "nome": "Fornecedor",
+    "tipo": "1",
+    "id": "9ZtWgWUOsU1azbO4yoqItu3W9FVSOaiu",
+    "btns": [
+        {
+            "texto": "Ver Tabela",
+            "tipo": "1",
+            "callback": "a\/licitacoes\/fornecedores",
+            "id": "",
+            "icone": ""
+        }
+    ],
+    "titulo": "{novo} Fornecedor",
+    "breadcrumbs": false
+}

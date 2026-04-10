@@ -1,0 +1,106 @@
+{
+    "id": "225",
+    "nome": "Api Consumo",
+    "hash": "b0NCoE8ehQtxDyvUBUV7DqX85qA3Z1nk",
+    "data": "2024-09-14 15:51:06",
+    "tamanho": 2,
+    "inputs": [
+        {
+            "id": "6132",
+            "tipo": "number",
+            "nome": "Regra",
+            "obrigatorio": "0",
+            "data": "2024-09-14 15:54:27",
+            "pai": "0",
+            "posicao": "1",
+            "hash": "vUxAX72rjOQPzRuvnpatrfOdg1961s",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": "Regra",
+                    "descricao": "",
+                    "obrigatorio": 0,
+                    "somente-leitura": 0
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": "",
+                    "sub-label": "",
+                    "tooltip": ""
+                },
+                "valor": {
+                    "minimo": "",
+                    "maximo": "",
+                    "definido": ""
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": ""
+                },
+                "identificador": {
+                    "id": "",
+                    "classes": ""
+                }
+            },
+            "filhos": []
+        },
+        {
+            "id": "6133",
+            "tipo": "text",
+            "nome": "Caminho",
+            "obrigatorio": "0",
+            "data": "2024-09-14 18:07:29",
+            "pai": "0",
+            "posicao": "2",
+            "hash": "S3rczhGzwcqUQrVzxpTcU9IESRDbFG",
+            "infos": {
+                "basico": {
+                    "esconder-label": 0,
+                    "label": "Caminho",
+                    "descricao": "",
+                    "obrigatorio": 0,
+                    "somente-leitura": 0
+                },
+                "estilo": {
+                    "estilo": 0,
+                    "tamanho-do-input": 0
+                },
+                "label": {
+                    "placeholder": "",
+                    "sub-label": "",
+                    "tooltip": "",
+                    "prefixo": "",
+                    "sufixo": ""
+                },
+                "valor": {
+                    "tipo": 0,
+                    "fixo": "",
+                    "dinamico": 0,
+                    "arquivo-query": "",
+                    "acao-query": ""
+                },
+                "tamanho": {
+                    "ativar": 0,
+                    "maximo": "",
+                    "minimo": ""
+                },
+                "validacao": {
+                    "mascara": 0
+                },
+                "logica": {
+                    "logica": 0,
+                    "setup": ""
+                },
+                "identificador": {
+                    "id": "",
+                    "classes": ""
+                }
+            },
+            "filhos": []
+        }
+    ],
+    "infos": []
+}

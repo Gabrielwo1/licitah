@@ -1,0 +1,43 @@
+{
+    "banco": "analytics_urls",
+    "meta": false,
+    "prefixo": "analytics_url",
+    "url": false,
+    "colunas": [
+        {
+            "nome": "url",
+            "nulo": false,
+            "tipo": "varchar",
+            "unico": false,
+            "input": "6JWtxCYDMKTfJHNQvfxTsIrDdyuhVD",
+            "size": 200
+        }
+    ],
+    "estrutura": {
+        "meta": false,
+        "hash": true,
+        "autor": false,
+        "dataCriacao": true,
+        "dataUpdate": false,
+        "ordenador": false,
+        "url": false,
+        "urledit": false,
+        "imagemDestaque": false,
+        "galeria": false,
+        "categoria": false,
+        "tags": false,
+        "seo": false,
+        "preco": false,
+        "autoria": false,
+        "wildcard": false,
+        "atributos": false,
+        "destaque": false,
+        "enderecos": false,
+        "subconta": false,
+        "desabilitarNovo": false,
+        "desabilitarEdicao": false,
+        "reordenador": false,
+        "pontos": false
+    },
+    "metas": []
+}

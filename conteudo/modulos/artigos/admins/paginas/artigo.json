@@ -1,0 +1,23 @@
+{
+    "nome": "Artigo",
+    "tipo": "1",
+    "id": "VFx1EY01nDXSfRa",
+    "btns": [
+        {
+            "texto": "Todos os Artigos",
+            "tipo": "1",
+            "callback": "a\/artigos",
+            "id": "",
+            "icone": ""
+        },
+        {
+            "texto": "Ver Artigo",
+            "tipo": "4",
+            "callback": "artigos\/",
+            "id": "",
+            "icone": "bi bi-eye-fill"
+        }
+    ],
+    "titulo": "{novo} Artigo",
+    "breadcrumbs": true
+}
