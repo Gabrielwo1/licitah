@@ -6,6 +6,9 @@ RUN apt-get update && apt-get install -y \
     && docker-php-ext-install pdo pdo_pgsql \
     && rm -rf /var/lib/apt/lists/*
 
+# Fix MPM conflict: disable event, enable prefork (required for PHP)
+RUN a2dismod mpm_event && a2enmod mpm_prefork
+
 # Enable Apache mod_rewrite
 RUN a2enmod rewrite
 
@@ -15,7 +18,7 @@ WORKDIR /var/www/html
 # Copy application files
 COPY . .
 
-# Remove vendor (install via composer if needed) and example config
+# Remove example config
 RUN rm -f conteudo/config.example.php
 
 # Apache config: allow .htaccess overrides
@@ -25,7 +28,7 @@ RUN sed -i 's/AllowOverride None/AllowOverride All/g' /etc/apache2/apache2.conf
 RUN chown -R www-data:www-data /var/www/html \
     && chmod -R 755 /var/www/html
 
-# Use config from environment variable at startup
+# Use config from environment variables at startup
 COPY docker-entrypoint.sh /docker-entrypoint.sh
 RUN chmod +x /docker-entrypoint.sh
 
