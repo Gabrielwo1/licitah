@@ -14,8 +14,11 @@ conteudo/uploads/
 
 # Logs
 *.log
+*.txt
 logs/
 admin/access_log.txt
+conteudo/modulos/licitacoes/admins/cron_log.txt
+conteudo/modulos/licitacoes/admins/cache_log_oportunidades.txt
 
 # Database files
 *.sqlite
