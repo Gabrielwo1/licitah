@@ -286,8 +286,8 @@ src="https://www.facebook.com/tr?id='.$id.'&ev=PageView&noscript=1"
 
 
     <script>
-        const dominio = "<?=WILDCARD?>";
-        const dominioscript = "<?=DOMINIO?>";
+        const dominio = window.location.origin;
+        const dominioscript = window.location.origin;
         const dominioAdress = dominio;
         
        
