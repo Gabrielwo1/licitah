@@ -6,6 +6,9 @@ RUN apt-get update && apt-get install -y \
     && docker-php-ext-install pdo pdo_pgsql \
     && rm -rf /var/lib/apt/lists/*
 
+# Disable mpm_event if active (php:apache sometimes enables both event+prefork)
+RUN a2dismod mpm_event || true
+
 # Enable Apache mod_rewrite
 RUN a2enmod rewrite
 
