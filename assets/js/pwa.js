@@ -138,19 +138,19 @@ function instalarPrompt() {
     }
 }
 
+// Service Worker desabilitado temporariamente
 if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-        
-      let v = document.getElementById("scriptPwa").dataset.v;
-      navigator.serviceWorker.register(`/sw.js?v=${v}`)
-        .then(registration => {
-            
-        })
-        .catch(error => {
-          console.error('Falha ao registrar o Service Worker:', error);
+    navigator.serviceWorker.getRegistrations().then(function(registrations) {
+        for (let registration of registrations) {
+            registration.unregister();
+        }
+    });
+    caches.keys().then(function(cacheNames) {
+        cacheNames.forEach(function(cacheName) {
+            caches.delete(cacheName);
         });
     });
-  }
+}
 
 let deferredInstallPrompt = null;
 
