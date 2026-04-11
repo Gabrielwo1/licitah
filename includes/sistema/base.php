@@ -43,7 +43,7 @@ $tag;
 
 
 $protocolo = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') || $_SERVER['SERVER_PORT'] == 443 ? 'https' : 'http';
-$dominio = $protocolo . '://' . $_SERVER['HTTP_HOST'];
+$dominioAtual = $protocolo . '://' . $_SERVER['HTTP_HOST'];
 $dominioHost = $_SERVER['HTTP_HOST'];
 $setup = null;
 
@@ -51,33 +51,24 @@ $setup = null;
 if(file_exists(__DIR__."/../../conteudo/setup.json")){
     $setupJson = file_get_contents(__DIR__."/../../conteudo/setup.json");
     $setup = json_decode($setupJson, true);
-    
-    if($setup && isset($setup["dominio"])){
-        define("DOMINIO", "https://".$setup["dominio"]);
-    } else {
-        define("DOMINIO", $dominio);
-    }
-} else {
-    define("DOMINIO", $dominio);
 }
 
-if(defined("ISWILDCARD")){
-    if(isset($dominio) && method_exists($dominio, 'getSetup')){
-        $setupDinamico = $dominio->getSetup();
-        if($setupDinamico && isset($setupDinamico["dominio"])){
-            define("WILDCARD", "https://".$setupDinamico["dominio"]);
-        } else {
-            define("WILDCARD", DOMINIO);
-        }
-    } else {
-        define("WILDCARD", $dominio);
-    }
+// Sempre usar o host real da requisição como domínio base.
+// O setup.json só sobrescreve se o domínio configurado for um domínio próprio
+// (diferente do host atual), para não quebrar deploys em URLs temporárias.
+$dominioSetup = ($setup && isset($setup["dominio"])) ? $setup["dominio"] : null;
+if($dominioSetup && $dominioSetup !== $_SERVER['HTTP_HOST']){
+    $dominio = "https://" . $dominioSetup;
 } else {
-    if($setup && isset($setup["dominio"])){
-        define("WILDCARD", "https://".$setup["dominio"]);
-    } else {
-        define("WILDCARD", DOMINIO);
-    }
+    $dominio = $dominioAtual;
+}
+
+define("DOMINIO", $dominio);
+
+if(defined("ISWILDCARD")){
+    define("WILDCARD", $dominioAtual);
+} else {
+    define("WILDCARD", $dominio);
 } 
 
 
