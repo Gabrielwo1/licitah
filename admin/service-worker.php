@@ -14,6 +14,10 @@ echo "const CACHE_NAME = 'nown-" . $versao . "';\n";
 ?>
 
 
+// Force SW update on all clients
+self.addEventListener('install', () => self.skipWaiting());
+self.addEventListener('activate', () => self.clients.claim());
+
 const urlsToCache = [
     "/assets/js/index.js", 
     "/assets/js/nown.js", 
