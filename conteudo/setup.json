@@ -17,16 +17,16 @@
             "layout": "1"
         },
         "logotipo": {
-            "logomarca": "[\"imagens\/\/2024\/08\/v8ymp3p2dogc9jb-1723120079\/original.png\"]",
-            "logo": "[\"imagens\/\/2024\/08\/y7u3s5glwarxeya-1723120081\/original.png\"]",
-            "logotipo": "[\"imagens\/\/2024\/08\/oev0h3y36ae8mv7-1723120089\/original.png\"]",
-            "favicon": "[\"imagens\/\/2024\/08\/guglc9pjoafvapa-1723120296\/original.png\"]"
+            "logomarca": "[\"imagens//2024/08/v8ymp3p2dogc9jb-1723120079/original.png\"]",
+            "logo": "[\"imagens//2024/08/y7u3s5glwarxeya-1723120081/original.png\"]",
+            "logotipo": "[\"imagens//2024/08/oev0h3y36ae8mv7-1723120089/original.png\"]",
+            "favicon": "[\"imagens//2024/08/guglc9pjoafvapa-1723120296/original.png\"]"
         },
         "pre-carregamento": {
             "precarregamento": "true",
             "textocarregamento": "Seja bem vindo!",
             "corbackground": "#ffffff",
-            "imagem": "[\"imagens\/\/2024\/08\/l9gas2njdqhm937-1723233372\/original.jpg\"]",
+            "imagem": "[\"imagens//2024/08/l9gas2njdqhm937-1723233372/original.jpg\"]",
             "cortextos": "black"
         },
         "lgpd": {
@@ -93,7 +93,7 @@
             "corbackground": "#ffffff",
             "desabilitarcard": "true",
             "ativarimgbg": "true",
-            "imgbg": "[\"imagens\/\/2024\/08\/5gx7vtp9qwvy0mu-1723212620\/original.png\"]",
+            "imgbg": "[\"imagens//2024/08/5gx7vtp9qwvy0mu-1723212620/original.png\"]",
             "layoutbg": "3"
         },
         "deslogadas": {
@@ -113,7 +113,7 @@
             "rodape": false,
             "menufooter": false,
             "btnpersonalizado": "true",
-            "btnspersonalizados": "[{\"i\":\"bi bi-person-gear\",\"t\":\"Editar Perfil\",\"l\":\"\/perfil\"},{\"i\":\"bi bi-card-checklist\",\"t\":\"Minhas Assinaturas\",\"l\":\"\/pagamento\/minhas-assinaturas\"}]",
+            "btnspersonalizados": "[{\"i\":\"bi bi-person-gear\",\"t\":\"Editar Perfil\",\"l\":\"/perfil\"},{\"i\":\"bi bi-card-checklist\",\"t\":\"Minhas Assinaturas\",\"l\":\"/pagamento/minhas-assinaturas\"}]",
             "desabilitar-fixos": "true"
         },
         "cadastro": {
@@ -336,7 +336,7 @@
             "horario": "22:11",
             "ativarzap": false,
             "telefone": false,
-            "logopagina": "[\"imagens\/\/2024\/08\/l9gas2njdqhm937-1723233372\/original.jpg\"]"
+            "logopagina": "[\"imagens//2024/08/l9gas2njdqhm937-1723233372/original.jpg\"]"
         }
     },
     "seguranca": {
@@ -350,15 +350,15 @@
     },
     "logotipos": {
         "light": {
-            "logo": "https:\/\/licitah.app\/conteudo\/uploads\/imagens\/\/2024\/08\/y7u3s5glwarxeya-1723120081\/original.png",
-            "logomarca": "https:\/\/licitah.app\/conteudo\/uploads\/imagens\/\/2024\/08\/v8ymp3p2dogc9jb-1723120079\/original.png",
-            "logotipo": "https:\/\/licitah.app\/conteudo\/uploads\/imagens\/\/2024\/08\/oev0h3y36ae8mv7-1723120089\/original.png"
+            "logo": "https://licitah.app/conteudo/uploads/imagens//2024/08/y7u3s5glwarxeya-1723120081/original.png",
+            "logomarca": "https://licitah.app/conteudo/uploads/imagens//2024/08/v8ymp3p2dogc9jb-1723120079/original.png",
+            "logotipo": "https://licitah.app/conteudo/uploads/imagens//2024/08/oev0h3y36ae8mv7-1723120089/original.png"
         },
         "dark": {
-            "logo": "https:\/\/licitah.app\/conteudo\/uploads\/imagens\/\/2024\/08\/y7u3s5glwarxeya-1723120081\/original.png",
-            "logomarca": "https:\/\/licitah.app\/conteudo\/uploads\/imagens\/\/2024\/08\/v8ymp3p2dogc9jb-1723120079\/original.png",
-            "logotipo": "https:\/\/licitah.app\/conteudo\/uploads\/imagens\/\/2024\/08\/oev0h3y36ae8mv7-1723120089\/original.png"
+            "logo": "https://licitah.app/conteudo/uploads/imagens//2024/08/y7u3s5glwarxeya-1723120081/original.png",
+            "logomarca": "https://licitah.app/conteudo/uploads/imagens//2024/08/v8ymp3p2dogc9jb-1723120079/original.png",
+            "logotipo": "https://licitah.app/conteudo/uploads/imagens//2024/08/oev0h3y36ae8mv7-1723120089/original.png"
         }
     },
-    "dominio": "licitah.app"
+    "dominio": "licitah-production.up.railway.app"
 }
