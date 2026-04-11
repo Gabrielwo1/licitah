@@ -286,9 +286,9 @@ src="https://www.facebook.com/tr?id='.$id.'&ev=PageView&noscript=1"
 
 
     <script>
-        const dominio = window.location.origin;
-        const dominioscript = window.location.origin;
-        const dominioAdress = dominio;
+        var dominio = window.location.origin;
+        var dominioscript = window.location.origin;
+        var dominioAdress = dominio;
         
        
         

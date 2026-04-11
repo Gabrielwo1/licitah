@@ -555,7 +555,7 @@ class RequestRoute {
             this.data.append("mod", this.mod);
             this.data.append("cam", this.cam);
 
-            const response = await this._createRequest(`${dominio}/request`, timeout);
+            const response = await this._createRequest(`${window.location.origin}/request`, timeout);
             
             if (!response.ok) {
                 throw new Error(`HTTP ${response.status}: ${response.statusText}`);

@@ -1,3 +1,18 @@
+// Garante que dominio sempre aponte para o servidor atual,
+// independente do que o PHP tenha gerado no HTML.
+(function(){
+    var _origin = window.location.origin;
+    if(typeof dominio === 'undefined' || dominio !== _origin){
+        try { dominio = _origin; } catch(e){}
+    }
+    if(typeof dominioscript === 'undefined' || dominioscript !== _origin){
+        try { dominioscript = _origin; } catch(e){}
+    }
+    if(typeof dominioAdress === 'undefined' || dominioAdress !== _origin){
+        try { dominioAdress = _origin; } catch(e){}
+    }
+})();
+
 class Grafico{
     constructor(modulo = false, chave = false, div = false, filtro = false){
         this.modulo = modulo;
